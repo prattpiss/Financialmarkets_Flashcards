@@ -1,0 +1,21 @@
+# Source PDFs (copyrighted lecture materials)
+*.pdf
+
+# Node
+node_modules/
+dist/
+
+# Python cache and large derived outputs
+__pycache__/
+*.pyc
+*.pyo
+scripts/output/full_text/
+scripts/output/text_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

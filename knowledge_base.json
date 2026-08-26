@@ -1,0 +1,952 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-27",
+    "generatedBy": "scripts/extract/knowledge_builder.py",
+    "primarySource": "Skript FMI SS2026_ jetzt.pdf",
+    "totalChapters": 7
+  },
+  "chapters": [
+    {
+      "chapterNumber": "1",
+      "chapterTitle": "Funktionen des Finanzsystems",
+      "part": "I. Einführung",
+      "sections": [],
+      "pageRange": {
+        "start": 18,
+        "end": 63,
+        "count": 46
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie kennen die wesentlichen Akteure des Finanzsystems und"
+      ],
+      "topConcepts": [
+        "Trends im Finanzsystem",
+        "Funktionen des Finanzsystems",
+        "Reduktion von Transaktionskosten",
+        "Reduktion von Informationskosten",
+        "Verbesserung des Risikomanagements",
+        "Corporate Governance",
+        "Wachstum des",
+        "Geldmarktfonds etc",
+        "Teilweise als Reaktion auf eine verschärfte",
+        "Regulierung des\nBankensektors nach der Finanzkrise",
+        "Digitalisierung bedroht Geschäftsmodelle von traditionellen\nFinanzintermediären",
+        "Größere Komplexität von Finanzprodukten",
+        "Rolle von Banken als Berater",
+        "Akteuren mit",
+        "Mittel benötigt"
+      ],
+      "definitions": [],
+      "formulas": [
+        "N = 10.000 von 1.000.000 auf 10.100"
+      ],
+      "commonMistakes": [],
+      "exerciseFiles": [],
+      "exerciseTopics": [],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": true,
+        "hasCurrentExercise": false
+      },
+      "importance": 0.8,
+      "examRelevance": 0.9
+    },
+    {
+      "chapterNumber": "2",
+      "chapterTitle": "Die globale Finanzkrise und ihre Auswirkungen",
+      "part": "I. Einführung",
+      "sections": [
+        "2.1 Stilisierte Fakten über Finanzkrisen",
+        "2.2 Die globale Finanzkrise von 2007–2009",
+        "2.3 Die Krise im Euroraum",
+        "2.4 Die 2020er-Jahre"
+      ],
+      "pageRange": {
+        "start": 64,
+        "end": 101,
+        "count": 38
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie kennen verschiedene Arten von Finanzkrisen und deren"
+      ],
+      "topConcepts": [
+        "Arten von Finanzkrisen",
+        "Stilisierte Fakten über Finanzkrisen",
+        "Die globale Finanzkrise und ihre Auswirkungen",
+        "Finanzkrise\nvon",
+        "Die globale Finanzkrise von",
+        "Die Krise im Euroraum",
+        "Die Kapitalstruktur von Unternehmen",
+        "Modigliani-Miller-Theorem",
+        "Krise der Savings and Loans in",
+        "Finanzkrisen treten immer wieder auf und",
+        "Zukunft auftreten",
+        "Schwerste Finanzkrisen der letzten",
+        "Weltwirtschaftskrise in den",
+        "Gleichzeitiger Zusammenbruch der Finanzsysteme vieler Länder",
+        "Andere Krisen"
+      ],
+      "definitions": [
+        {
+          "term": "Reaktion auf die Krise, Reformen",
+          "definition": "aber noch immer nicht"
+        },
+        {
+          "term": "Weise die Vermögensgegenstände des Unternehmens finanziert",
+          "definition": "(Passivseite der Bilanz)"
+        },
+        {
+          "term": "Vehicles",
+          "definition": "Zweckgesellschaften) über kurzfristige Verbindlichkeiten"
+        },
+        {
+          "term": "Home bias",
+          "definition": "Verzerrung zugunsten einheimischer"
+        }
+      ],
+      "formulas": [],
+      "commonMistakes": [],
+      "exerciseFiles": [],
+      "exerciseTopics": [],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": false,
+        "hasCurrentExercise": false
+      },
+      "importance": 0.6,
+      "examRelevance": 0.6
+    },
+    {
+      "chapterNumber": "3",
+      "chapterTitle": "Die Kapitalstruktur in einem vollkommenen Markt und das Modigliani-Miller-Theorem",
+      "part": "II. Die Kapitalstruktur von Unternehmen",
+      "sections": [
+        "3.1 Finanzierung durch Eigen- oder Fremdkapital",
+        "3.2 Das Modigliani-Miller-Theorem",
+        "3.3 Kapitalstruktur und Eigenkapitalkosten",
+        "3.4 Trugschlüsse bei der Kapitalstruktur",
+        "3.5 Fazit"
+      ],
+      "pageRange": {
+        "start": 102,
+        "end": 190,
+        "count": 89
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            102,
+            103,
+            104,
+            105,
+            106
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie kennen die Unterschiede zwischen einer Finanzierung über"
+      ],
+      "topConcepts": [
+        "Grundlagen der Finazwirtschaft",
+        "Millionen Euro",
+        "Die Kapitalstruktur an einem vollkommenen Markt",
+        "Verschuldungsgrad und Gewinn je Aktie",
+        "Marktwert des Eigenkapitals",
+        "Gewinn pro Aktie",
+        "Gehebelte Rekapitalisierung",
+        "Kapitalkosten und Verschuldung",
+        "Reduktion der Verschuldung und der\nKapitalkosten",
+        "Barmittel und Kapitalkosten",
+        "Aktienemission und Kapitalverwässerung",
+        "Verschuldung an",
+        "Im Erfolgsfall",
+        "Im Misserfolgsfall",
+        "Finanzierung über Fremd"
+      ],
+      "definitions": [
+        {
+          "term": "Kredit gelten, daher",
+          "definition": "der Kredit risikolos"
+        },
+        {
+          "term": "Unternehmen, das in einem vollkommenen Kapitalmarkt tätig",
+          "definition": "▶ Das Unternehmen hat 50 Millionen Aktien im Umlauf, die für"
+        },
+        {
+          "term": "Unternehmen unverschuldet oder verschuldet",
+          "definition": "▶ Hält man ein Portfolio aus Eigenkapital und Fremdkapital des"
+        },
+        {
+          "term": "Euro), dann",
+          "definition": "der Gewinn pro Aktie sogar negativ"
+        },
+        {
+          "term": "Eigenkapitals",
+          "definition": "Marktwert der"
+        },
+        {
+          "term": "Unternehmens",
+          "definition": "1.000 Euro"
+        },
+        {
+          "term": "Euro",
+          "definition": "200 Millionen Euro) entspricht dem Marktwert der"
+        },
+        {
+          "term": "Portfolios",
+          "definition": "gewichtete Durchschnittsrendite"
+        },
+        {
+          "term": "Beta",
+          "definition": "Betafaktor des Eigenkapitals des unverschuldeten"
+        },
+        {
+          "term": "Marktkapitalisierung",
+          "definition": "Marktwert des Eigenkapitals"
+        }
+      ],
+      "formulas": [
+        "KW =−800e+ 1.150e",
+        "BW = 1.150e",
+        "E =1000e−500e",
+        "A = Marktwert der Aktiva des Unternehmens",
+        "U = Marktwert des Eigenkapitals des unverschuldeten",
+        "E = Marktwert des Eigenkapitals (equity) des verschuldeten",
+        "D = Marktwert des Fremdkapitals (debt) des verschuldeten",
+        "U = E +D",
+        "R = ·R + ·R",
+        "R = R + ·(R −R )"
+      ],
+      "commonMistakes": [
+        "eines vollkommenen Kapitalmarkts ohne",
+        "Ist Fremdkapital besser als",
+        "ist, dass die Emission von Aktien zur"
+      ],
+      "exerciseFiles": [
+        "U01_jetzt",
+        "U02_jetzt"
+      ],
+      "exerciseTopics": [
+        "1. Eigenkapital vs. Fremdkapital. Ein junger Unternehmer hat Zugang zu einem riskanten",
+        "2. Nachbildung alternativer Verschuldungsstrukturen. Betrachten Sie zwei Unterneh-",
+        "3. Homemade Leverage und Arbitrage.BetrachtenSiedieUnternehmenAlphaundOme-",
+        "4. Gehebelte Rekapitalisierung. German Stock Exchange ist ein rein eigenkapitalfinanzier-",
+        "1. MMT II. Betrachten Sie ein vollständig eigenkapitalfinanziertes Software-Unternehmen",
+        "2. Die Fremdkapitalzinsen",
+        "6. Die Fremdkapitalzin-",
+        "2. Der Einfluss des Aktienkurses auf die Eigenkapitalkosten. Die Bonn Bank hat",
+        "3. Verschuldungsgrad und Aktienkurs. Betrachten Sie ein vollständig eigenkapitalfinan-",
+        "4. Aktienemission und Verwässerung. Betrachten Sie ein vollständig eigenkapitalfinan-"
+      ],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": true,
+        "hasCurrentExercise": true
+      },
+      "importance": 1.0,
+      "examRelevance": 1.0
+    },
+    {
+      "chapterNumber": "4",
+      "chapterTitle": "Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "part": "II. Die Kapitalstruktur von Unternehmen",
+      "sections": [
+        "4.1 Fremdkapital und Steuern",
+        "4.1.1 Der fremdfinanzierungsbedingte Steuervorteil",
+        "4.1.2 Rekapitalisierung zur Nutzung von Steuervorteilen",
+        "4.1.3 Steuern auf Investorenebene",
+        "4.1.4 Die optimale Kapitalstruktur mit Steuern",
+        "4.1.5 Fazit",
+        "4.2 Konkurskosten, Managementanreize und asymmetrische Information",
+        "4.2.1 Konkurskosten und der Unternehmenswert",
+        "4.2.2 Agency-Theorie der Verschuldung",
+        "4.2.3 Asymmetrische Information und Kapitalstruktur"
+      ],
+      "pageRange": {
+        "start": 191,
+        "end": 436,
+        "count": 246
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            191,
+            192,
+            193,
+            194,
+            195
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie können erklären, warum die steuerliche Abzugsfähigkeit"
+      ],
+      "topConcepts": [
+        "Grundlagen der Finazwirtschaft",
+        "Millionen Euro",
+        "Finanzielle Notlage",
+        "Agency-Kosten und Wert der Verschuldung",
+        "Fremdkapital und Steuern",
+        "Konzentration des Eigentums",
+        "Millionen e",
+        "Managementanreize und Information",
+        "Eigenkapitalemission und adverse Selektion",
+        "Steuern auf Investorenebene und der\nfremdfinanzierungsbedingte",
+        "Ubermäßige Risikobereitschaft und Asset-Substitution",
+        "Agency-Kosten des Fremdkapitals",
+        "Fremdfinanzierungsbedingter Steuervorteil",
+        "Ermittlung des tatsächlichen Steuervorteils aus dem",
+        "Das neue Produkt wird ein Erfolg"
+      ],
+      "definitions": [
+        {
+          "term": "Unternehmenswert",
+          "definition": "1. Steuern (Kapitel 4.1)"
+        },
+        {
+          "term": "Fremdkapitals, dieser",
+          "definition": "aber deutlich kleiner als zuvor"
+        },
+        {
+          "term": "Investorenseite",
+          "definition": "zwar weiterhin positiv, aber viel kleiner als"
+        },
+        {
+          "term": "Kursgewinnsteuersatzes für τ",
+          "definition": "bei einem Unternehmen"
+        },
+        {
+          "term": "Fremdkapital",
+          "definition": "äußerst schwierig, und der Vorteil hängt"
+        },
+        {
+          "term": "Zinszahlungen höher",
+          "definition": "als das EBIT, entsteht ein"
+        },
+        {
+          "term": "Perspektive",
+          "definition": "proportional zur Höhe des laufenden Gewinns"
+        },
+        {
+          "term": "Sanierung (Ziel",
+          "definition": "hier die Weiterführung des Unternehmens"
+        },
+        {
+          "term": "Kapitalmarkt auch dann, wenn das Fremdkapital riskant",
+          "definition": "Kosten der Insolvenz und finanzieller Notlagen"
+        },
+        {
+          "term": "Konkurskosten verbunden",
+          "definition": "▶ Die Verschuldung unterscheidet sich über Branchen hinweg,"
+        }
+      ],
+      "formulas": [
+        "VL =VU +BW(fremdfinanzierungsbedingter Steuervorteil)",
+        "BW = + + +...",
+        "C\n=\n(1+r)n",
+        "BW = + +...",
+        "D = Fremdkapital",
+        "D = τ ·D",
+        "D\n= BW(zukünftige Zinszahlungen)",
+        "VL = 4,25 Millionen e ≈ 53,3Millionen e",
+        "VU = 4,3Millionen e",
+        "VU = 4,25 Millionen e ≈ 49Millionen e"
+      ],
+      "commonMistakes": [],
+      "exerciseFiles": [
+        "U03_jetzt",
+        "U04_jetzt"
+      ],
+      "exerciseTopics": [
+        "1. Der fremdfinanzierungsbedingte Steuervorteil. Betrachten Sie ein Unternehmen, das",
+        "2. Rekapitalisierung zur Nutzung von Steuervorteilen. Ein vollständig eigenkapital-",
+        "3. Steuern auf Investorenebene. Betrachten Sie ein Land mit einem Unternehmenssteuer-",
+        "4. Die optimale Kapitalstruktur mit Steuern. Wir gehen in dieser Aufgabe von den fol-",
+        "1. Konkurskosten und Unternehmenswert. Ein Pharma-Unternehmen möchte ein neues",
+        "2. Optimale Kapitalstruktur. Ihr Unternehmen plant eine Emission von Fremdkapital mit",
+        "3. Agency-Theorie der Verschuldung. Ein Biotech-Unternehmen muss sich zwischen drei",
+        "4. Asymmetrische Information und Kapitalstruktur. Ein Start-up-Unternehmen ist"
+      ],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": true,
+        "hasCurrentExercise": true
+      },
+      "importance": 1.0,
+      "examRelevance": 1.0
+    },
+    {
+      "chapterNumber": "5",
+      "chapterTitle": "Funktionen von Banken",
+      "part": "III. Finanzinstitutionen",
+      "sections": [
+        "5.1 Versicherung gegen Liquiditätsschocks",
+        "5.2 Delegierte Kontrolle"
+      ],
+      "pageRange": {
+        "start": 437,
+        "end": 529,
+        "count": 93
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            437,
+            438,
+            439,
+            440,
+            441
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie kennen die wesentlichen Funktionen von Banken",
+        "Sie kennen wichtige grundlegende Bankenmodelle und"
+      ],
+      "topConcepts": [
+        "Gesetz der Großen Zahlen",
+        "Delegierte Kontrolle",
+        "In Periode",
+        "Funktionen von Banken",
+        "Gleichheit für",
+        "Versicherung gegen Liquiditätsschocks",
+        "Finanzkrisen und systemische Risiken",
+        "Review of Economic Studies",
+        "Gesamtemission vs",
+        "Mindestgebühren können den Handel sehr\nkleiner",
+        "Beträge unattraktiv machen",
+        "Hier trägt typischerweise der Anleger das",
+        "Diversifikation oder spezielle\nProdukte",
+        "Risikobereitschaft der Anleger entsprechen",
+        "Mindestverzinsungen etc"
+      ],
+      "definitions": [
+        {
+          "term": "Bankgeschäfte",
+          "definition": "1. die Annahme fremder Gelder als Einlagen oder anderer"
+        },
+        {
+          "term": "Einlagen abziehen, dann",
+          "definition": "es auch für sie optimal, ihre"
+        },
+        {
+          "term": "Näherungsweise",
+          "definition": "ein Anteil π der Konsumenten vom Typ 1"
+        },
+        {
+          "term": "Bank) gegeben das Verhalten der anderen Einleger gleich 1",
+          "definition": "und u(C∗)<u(C∗)"
+        },
+        {
+          "term": "Projektertrag",
+          "definition": "(a) Direkte Finanzierung"
+        },
+        {
+          "term": "Rückzahlungsbetrag",
+          "definition": "▶ Strafe muss genau der Differenz zwischen vereinbarter und"
+        },
+        {
+          "term": "Rückzahlungsbetrag kleiner",
+          "definition": "als der vereinbarte"
+        },
+        {
+          "term": "Wann",
+          "definition": "eine Delegierung der Kontrolle optimal?"
+        },
+        {
+          "term": "Kontrolle extrem hoch",
+          "definition": "oder wenn bereits das einzelne"
+        },
+        {
+          "term": "Aktivitäten",
+          "definition": "Einlagen- und Kreditgeschäft"
+        }
+      ],
+      "formulas": [
+        "U = u(C )",
+        "U = ρu(C ) mit ρ < 1 (Diskontfaktor)",
+        "C = (1−I)+LI",
+        "C = (1−I)+RI",
+        "I = Investition in langfristige",
+        "I = 1), C 2 ≥ 1",
+        "I = 0) und Typ 2 nur in die langfristige",
+        "I = 1) investieren würde",
+        "C = (1−I)+pRI",
+        "C = +RI"
+      ],
+      "commonMistakes": [],
+      "exerciseFiles": [
+        "U05_jetzt"
+      ],
+      "exerciseTopics": [
+        "2. Finanzmarkt:",
+        "3. First-best-Lösung:"
+      ],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": true,
+        "hasCurrentExercise": true
+      },
+      "importance": 1.0,
+      "examRelevance": 1.0
+    },
+    {
+      "chapterNumber": "6",
+      "chapterTitle": "Finanzkrisen und systemische Risiken",
+      "part": "IV. Finanzstabilität",
+      "sections": [
+        "6.1 Das Grundproblem",
+        "6.2 Narrow Banking",
+        "6.3 Aufhebung der Konvertibilität und Einlagenversicherung",
+        "6.4 Effiziente Bank Runs",
+        "6.5 Ansteckungseffekte im Finanzsystem",
+        "6.6 Der Lender of Last Resort",
+        "6.7 Das \"Too-big-to-fail\"-Phänomen"
+      ],
+      "pageRange": {
+        "start": 530,
+        "end": 633,
+        "count": 104
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            530,
+            531,
+            532,
+            533,
+            534
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": true
+        }
+      ],
+      "learningObjectives": [
+        "Sie können erklären, warum Banken verletzlich gegenüber Runs"
+      ],
+      "topConcepts": [
+        "Narrow Banking",
+        "Effiziente Bank Runs",
+        "Too-big-to-fail",
+        "Finanzkrisen und systemische Risiken",
+        "Das Grundproblem",
+        "Ansteckungseffekte im Finanzsystem",
+        "Der Lender of Last Resort",
+        "Journal of Political Economy",
+        "Funktionen von Banken",
+        "Versicherung gegen Liquiditätsschocks",
+        "Delegierte Kontrolle",
+        "Aufhebung der Konvertibilität und Einlagenversicherung",
+        "Ansteckungseffekte über Interbankenverbindlichkeiten",
+        "Ansteckungseffekte über makroökonomische\nRückkopplungen",
+        "Fragen und Probleme"
+      ],
+      "definitions": [
+        {
+          "term": "Geld abzuziehen, dann",
+          "definition": "es auch für sie optimal zu rennen"
+        },
+        {
+          "term": "Wahrscheinlichkeit eines Bank Runs, die Wahrscheinlichkeit",
+          "definition": "unbestimmt"
+        },
+        {
+          "term": "Jede Evidenz",
+          "definition": "mit dem Modell kompatibel"
+        },
+        {
+          "term": "Finanzsystems",
+          "definition": "man als systemisches Risiko"
+        },
+        {
+          "term": "Political Economy 2000): Banken",
+          "definition": "über Verträge"
+        },
+        {
+          "term": "Zusammenbrüchen führen, wenn die Verluste groß genug",
+          "definition": "(Dominoeffekte)"
+        },
+        {
+          "term": "Banken verbunden)",
+          "definition": "im Allgemeinen stabiler als"
+        },
+        {
+          "term": "Vertragsbeziehungen verbunden",
+          "definition": "▶ Der ursprüngliche Schock wird durch die makroökonomischen"
+        },
+        {
+          "term": "Kosten des Zusammenbruchs groß genug",
+          "definition": "⇒ Zeitinkonsistenzproblem"
+        },
+        {
+          "term": "Einleger in t",
+          "definition": "1 eine Rückzahlung erhalten"
+        }
+      ],
+      "formulas": [],
+      "commonMistakes": [
+        "eines Bank Runs bei einer",
+        "Bankenkrisen treffen häufig im Zusammenhang"
+      ],
+      "exerciseFiles": [],
+      "exerciseTopics": [],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": true,
+        "appearsInCurrentExam": false,
+        "hasCurrentExercise": false
+      },
+      "importance": 0.6,
+      "examRelevance": 0.6
+    },
+    {
+      "chapterNumber": "7",
+      "chapterTitle": "Bankenregulierung",
+      "part": "IV. Finanzstabilität",
+      "sections": [
+        "7.1 Gründe für Bankenregulierung",
+        "7.2 Eigenkapitalregulierung",
+        "7.3 Funktionen der Eigenkapitalregulierung",
+        "7.4 Schwächen der Vorkrisen-Regulierung",
+        "7.5 Die Regulierung des systemischen Risikos",
+        "7.6 Herausforderungen für die Zukunft"
+      ],
+      "pageRange": {
+        "start": 634,
+        "end": 691,
+        "count": 58
+      },
+      "currentSources": [
+        {
+          "file": "Skript FMI SS2026_ jetzt.pdf",
+          "pages": [
+            634,
+            635,
+            636,
+            637,
+            638
+          ]
+        }
+      ],
+      "historicalSources": [
+        {
+          "file": "Skript FMI SS2024.pdf",
+          "inHistorical": false
+        }
+      ],
+      "learningObjectives": [
+        "Sie kennen die Gründe für die scharfe Regulierung des"
+      ],
+      "topConcepts": [
+        "Systemisches Risiko",
+        "Leverage Ratio",
+        "Liquidity Coverage Ratio",
+        "Prozyklizität der Eigenkapitalregulierung",
+        "Nicht-Banken",
+        "Rückgang der Kreditvergabe",
+        "Prozent der nicht risikogewichten Aktiva müssen",
+        "Kernkapital finanziert werden",
+        "Besondere Regulierung systemrelevanter Finanzinstitute",
+        "Kapitalzuschlag in Höhe von",
+        "Prozent für",
+        "Weitere neue Regelungen unter Basel",
+        "Mittel zur Verfügung stehen",
+        "Einlagenabzüge über",
+        "Tage zu stemmen"
+      ],
+      "definitions": [
+        {
+          "term": "Eigenkapitalregulierung risikogewichtet",
+          "definition": "▶ Grund: Kreditwürdigkeit der Schuldner fällt in einer Rezession,"
+        },
+        {
+          "term": "Diese Ausgestaltung",
+          "definition": "angesichts des möglichen Gleichlaufs von Risiken bei"
+        },
+        {
+          "term": "Einlagen unterhalb von 100 000 Euro",
+          "definition": "von der Haftung ausgenommen. So-"
+        },
+        {
+          "term": "Handelsbuch zugelassen wurde",
+          "definition": "Systemwechsel"
+        },
+        {
+          "term": "Kernkapital",
+          "definition": "CET 1 + AT 1"
+        },
+        {
+          "term": "Gesamtkapital",
+          "definition": "Tier 1 + Tier 2"
+        },
+        {
+          "term": "Ratio",
+          "definition": "nicht risikogewichtete Eigenkapitalquote:"
+        },
+        {
+          "term": "Verlust",
+          "definition": "Gesamtverlust des"
+        },
+        {
+          "term": "Eigenkapitalquote",
+          "definition": "10% → Deleveraging-Faktor = 10,"
+        }
+      ],
+      "formulas": [
+        "CRD = Capital Requirements",
+        "CRR = Capital Requirements"
+      ],
+      "commonMistakes": [
+        "abzumildern, das",
+        "oder aus volkswirtschaftlicher Sicht irrelevant (Admati"
+      ],
+      "exerciseFiles": [],
+      "exerciseTopics": [],
+      "crossYearAnalysis": {
+        "appearsInCurrentScript": true,
+        "appearsInHistoricalScript": false,
+        "appearsInCurrentExam": false,
+        "hasCurrentExercise": false
+      },
+      "importance": 0.5,
+      "examRelevance": 0.5
+    }
+  ],
+  "globalConcepts": [
+    {
+      "concept": "Eigenkapital",
+      "frequency": 718,
+      "importance": 1.0
+    },
+    {
+      "concept": "Modigliani-Miller-Theorem",
+      "frequency": 435,
+      "importance": 1.0
+    },
+    {
+      "concept": "Fremdkapital",
+      "frequency": 334,
+      "importance": 1.0
+    },
+    {
+      "concept": "Steuervorteil",
+      "frequency": 130,
+      "importance": 1.0
+    },
+    {
+      "concept": "Kapitalstruktur",
+      "frequency": 128,
+      "importance": 1.0
+    },
+    {
+      "concept": "Konkurskosten",
+      "frequency": 82,
+      "importance": 0.82
+    },
+    {
+      "concept": "Eigenkapitalregulierung",
+      "frequency": 71,
+      "importance": 0.71
+    },
+    {
+      "concept": "Bank Run",
+      "frequency": 69,
+      "importance": 0.69
+    },
+    {
+      "concept": "Verschuldungsgrad",
+      "frequency": 59,
+      "importance": 0.59
+    },
+    {
+      "concept": "Too Big To Fail",
+      "frequency": 59,
+      "importance": 0.59
+    },
+    {
+      "concept": "WACC",
+      "frequency": 50,
+      "importance": 0.5
+    },
+    {
+      "concept": "Finanzintermediation",
+      "frequency": 49,
+      "importance": 0.49
+    },
+    {
+      "concept": "Agency-Kosten",
+      "frequency": 41,
+      "importance": 0.41
+    },
+    {
+      "concept": "Einlagenversicherung",
+      "frequency": 35,
+      "importance": 0.35
+    },
+    {
+      "concept": "Lender of Last Resort",
+      "frequency": 32,
+      "importance": 0.32
+    },
+    {
+      "concept": "Narrow Banking",
+      "frequency": 21,
+      "importance": 0.21
+    },
+    {
+      "concept": "Trade-Off-Theorie",
+      "frequency": 20,
+      "importance": 0.2
+    },
+    {
+      "concept": "Informationsasymmetrie",
+      "frequency": 19,
+      "importance": 0.19
+    },
+    {
+      "concept": "Adverse Selektion",
+      "frequency": 17,
+      "importance": 0.17
+    },
+    {
+      "concept": "Direkte Finanzierung",
+      "frequency": 14,
+      "importance": 0.14
+    },
+    {
+      "concept": "Fristentransformation",
+      "frequency": 13,
+      "importance": 0.13
+    },
+    {
+      "concept": "Risikotransformation",
+      "frequency": 11,
+      "importance": 0.11
+    },
+    {
+      "concept": "Moral Hazard",
+      "frequency": 9,
+      "importance": 0.09
+    },
+    {
+      "concept": "Systemisches Risiko",
+      "frequency": 9,
+      "importance": 0.09
+    },
+    {
+      "concept": "Losgrößentransformation",
+      "frequency": 7,
+      "importance": 0.07
+    },
+    {
+      "concept": "Haircut",
+      "frequency": 7,
+      "importance": 0.07
+    },
+    {
+      "concept": "Indirekte Finanzierung",
+      "frequency": 6,
+      "importance": 0.06
+    },
+    {
+      "concept": "Pecking Order",
+      "frequency": 6,
+      "importance": 0.06
+    },
+    {
+      "concept": "Signaling",
+      "frequency": 3,
+      "importance": 0.03
+    }
+  ],
+  "examProfile": {
+    "source": "2026_Probeklausur FMI.pdf + 2020 Klausur FMI.pdf",
+    "totalPoints": 60,
+    "durationMinutes": 60,
+    "numberOfTasks": 4,
+    "taskTypes": {
+      "calculation": 0.46,
+      "trueFalse": 0.3,
+      "definition": 0.03,
+      "transfer": 0.19,
+      "multiPart": 1.32
+    },
+    "allowedAids": [
+      "Wörterbuch",
+      "nicht-programmierbarer Taschenrechner"
+    ],
+    "notes": [
+      "60 Minuten, 60 Punkte – 1 Punkt pro Minute.",
+      "Alle 4 Aufgaben sind Pflicht.",
+      "Lösungswege bei Rechenaufgaben angeben.",
+      "Knappe, präzise Formulierungen erwünscht; Stichwortantworten erlaubt."
+    ]
+  }
+}

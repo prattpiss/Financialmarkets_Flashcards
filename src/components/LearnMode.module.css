@@ -1,0 +1,37 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.back {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+.back:hover { background: var(--surface-alt); }
+.hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.empty, .done {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text);
+}
+.done h2 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+.done p { color: var(--text-muted); margin: 0.25rem 0; }
+kbd {
+  font-family: inherit;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.75rem;
+}

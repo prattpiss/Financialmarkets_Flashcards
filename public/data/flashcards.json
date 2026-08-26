@@ -1,0 +1,2074 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-27",
+    "generatedBy": "scripts/generate/flashcard_generator.py",
+    "primarySource": "Skript FMI SS2026_ jetzt.pdf",
+    "totalCards": 53,
+    "byStatus": {
+      "ok": 53,
+      "review": 0
+    }
+  },
+  "flashcards": [
+    {
+      "id": "fmfi-1-001",
+      "question": "Welche drei Kerngruppen von Akteuren sind im Finanzsystem aktiv?",
+      "answer": "1. Finanzmärkte und Finanzintermediäre (Banken, Versicherungen, Investmentfonds)\n2. Akteure, die auf den Märkten handeln oder mit Intermediären Verträge schließen: Haushalte, Unternehmen, Regierungen (in- und ausländisch)\n3. Finanzinfrastruktur (Börsen, Zahlungssysteme, Ratingagenturen)",
+      "type": "listing",
+      "difficulty": 1,
+      "importance": 0.85,
+      "examRelevance": 0.8,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Überblick",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Akteure"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-002",
+      "question": "Was ist direkte Finanzierung? Gib ein Beispiel.",
+      "answer": "Bei direkter Finanzierung tritt der Kapitalnehmer (z.B. Unternehmen) direkt mit dem Kapitalanleger (z.B. Haushalt) in Kontakt – ohne einen Intermediär. Beispiel: Haushalt kauft eine Unternehmensanleihe direkt am Kapitalmarkt.",
+      "type": "definition",
+      "difficulty": 1,
+      "importance": 0.9,
+      "examRelevance": 0.85,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Direkte vs. indirekte Finanzierung",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Finanzierung",
+        "direkte Finanzierung"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-003",
+      "question": "Was ist indirekte Finanzierung? Wie unterscheidet sie sich von direkter Finanzierung?",
+      "answer": "Bei indirekter Finanzierung fließen die Mittel über einen Finanzintermediär (z.B. Bank). Der Intermediär nimmt Einlagen entgegen und vergibt Kredite. Unterschied: Bei direkter Finanzierung kein Intermediär; bei indirekter Finanzierung transformiert der Intermediär Losgröße, Frist und Risiko.",
+      "type": "contrast",
+      "difficulty": 2,
+      "importance": 0.9,
+      "examRelevance": 0.85,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Direkte vs. indirekte Finanzierung",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Finanzintermediation",
+        "indirekte Finanzierung"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-004",
+      "question": "Transfer: Ein Haushalt kauft eine Unternehmensanleihe direkt vom Unternehmen. Welche Finanzierungsform liegt vor? Begründe.",
+      "answer": "Direkte Finanzierung: Der Haushalt tritt als Kapitalanleger direkt mit dem Kapitalnehmer (Unternehmen) in Kontakt, ohne dass ein Intermediär zwischengeschaltet ist.",
+      "type": "transfer",
+      "difficulty": 3,
+      "importance": 0.85,
+      "examRelevance": 0.8,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Direkte vs. indirekte Finanzierung",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Finanzierung",
+        "Transfer"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-005",
+      "question": "Welche Hauptfunktionen hat das Finanzsystem für die Volkswirtschaft?",
+      "answer": "1. Mobilisierung und Sammlung von Ersparnissen\n2. Kapitalallokation (Mittel → produktivste Verwendung)\n3. Risikoverteilung und -diversifikation\n4. Überwachung von Managern / Unternehmenskontrolle\n5. Erleichterung des Zahlungsverkehrs\n6. Reduktion von Transaktionskosten und Informationsasymmetrien",
+      "type": "listing",
+      "difficulty": 2,
+      "importance": 0.9,
+      "examRelevance": 0.85,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Hauptfunktionen",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Funktionen",
+        "Kapitalallokation"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-006",
+      "question": "Warum könnte ein entwickeltes Finanzsystem das Wirtschaftswachstum fördern?",
+      "answer": "Ein effizientes Finanzsystem leitet finanzielle Mittel zu den produktivsten Verwendungen (höchste Rendite) und fördert so Kapitalallokation. Dadurch steigt die Produktivität einer Volkswirtschaft, was langfristig Wirtschaftswachstum erzeugt. Aber: Korrelation ≠ Kausalität.",
+      "type": "understanding",
+      "difficulty": 2,
+      "importance": 0.85,
+      "examRelevance": 0.8,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Wachstum",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Wachstum",
+        "Kapitalallokation",
+        "Evidenz"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-007",
+      "question": "Wahr oder falsch? Ein größeres Finanzsystem fördert immer das Wirtschaftswachstum. Begründe in max. 2 Sätzen.",
+      "answer": "Falsch. Ab einer gewissen Größe kann ein Finanzsystem 'zu groß' werden: Ressourcen werden weg von der Realwirtschaft gezogen, systemische Risiken steigen. Die Beziehung ist empirisch nicht monoton positiv.",
+      "type": "trueFalse",
+      "difficulty": 4,
+      "importance": 0.85,
+      "examRelevance": 0.9,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Wachstum",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Wachstum",
+        "Wahr/Falsch"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-1-008",
+      "question": "Vergleiche bank- vs. marktbasierte Finanzsysteme: Vor- und Nachteile.",
+      "answer": "Bankbasiert (z.B. Deutschland):\n  + Enge Beziehung / Monitoring; Kreditvergabe auch bei Informationsasymmetrie\n  – Weniger Innovationsanreize; geringere Liquidität\n\nMarktbasiert (z.B. USA):\n  + Liquidität, Preisfindung, breite Risikostreuung\n  – Größere Volatilität; kurzfristiger Zeithorizont",
+      "type": "contrast",
+      "difficulty": 3,
+      "importance": 0.75,
+      "examRelevance": 0.7,
+      "chapter": "1. Funktionen des Finanzsystems",
+      "section": "Banken vs. Märkte",
+      "tags": [
+        "Finanzsystem",
+        "Grundlagen",
+        "Bankensystem",
+        "Finanzmärkte"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-2-009",
+      "question": "Nennen Sie drei stilisierte Fakten über Finanzkrisen.",
+      "answer": "1. Finanzkrisen gehen häufig einem starken Kredit- und Vermögenspreisanstieg voraus.\n2. Sie sind teuer: tiefe Rezessionen, hohe Staatsschulden, dauerhafter BIP-Verlust.\n3. Sie verlaufen oft in Phasen: Bankenkrise → Staatsschuldenkrise → ggf. Währungskrise.",
+      "type": "listing",
+      "difficulty": 2,
+      "importance": 0.75,
+      "examRelevance": 0.7,
+      "chapter": "2. Die globale Finanzkrise und ihre Auswirkungen",
+      "section": "2.1 Stilisierte Fakten",
+      "tags": [
+        "Finanzkrise",
+        "Makroökonomie",
+        "Stilisierte Fakten"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-2-010",
+      "question": "Welche drei Typen von Finanzkrisen unterscheidet der Kurs?",
+      "answer": "1. Bankenkrise: Bankensystem unter Stress; Bank Runs, Insolvenzen.\n2. Staatsschuldenkrise: Staat kann Schulden nicht bedienen; Vertrauensverlust.\n3. Währungskrise: Starke Abwertung der Währung; spekulativer Angriff auf Wechselkurs.",
+      "type": "listing",
+      "difficulty": 2,
+      "importance": 0.8,
+      "examRelevance": 0.75,
+      "chapter": "2. Die globale Finanzkrise und ihre Auswirkungen",
+      "section": "2.1 Stilisierte Fakten",
+      "tags": [
+        "Finanzkrise",
+        "Makroökonomie",
+        "Krisentypen"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-2-011",
+      "question": "Was war der zentrale Auslöser der globalen Finanzkrise 2007–2009 und wie pflanzte sie sich fort?",
+      "answer": "Auslöser: Platzen der US-Immobilienblase; steigende Zahlungsausfälle bei Subprime-Hypotheken.\nÜbertragung: Via verbriefte Produkte (CDOs, MBS) weltweit verteilt; Intransparenz führte zu Vertrauensverlust; Interbankenmarkt fror ein; Banken benötigten staatliche Rettung (Lehman Brothers Insolvenz Sept. 2008).",
+      "type": "understanding",
+      "difficulty": 3,
+      "importance": 0.8,
+      "examRelevance": 0.75,
+      "chapter": "2. Die globale Finanzkrise und ihre Auswirkungen",
+      "section": "2.2 Globale Finanzkrise 2007–2009",
+      "tags": [
+        "Finanzkrise",
+        "Makroökonomie",
+        "2007-2009",
+        "Subprime"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-2-012",
+      "question": "Wie entstand die Staatsschuldenkrise im Euroraum nach 2010?",
+      "answer": "Bankkrisen führten zu Staatsschuldenerhöhung (Rettungsmaßnahmen, Konjunkturprogramme). Märkte bezweifelten Zahlungsfähigkeit einzelner Eurostaaten (PIIGS). Teufelskreis: Schwache Banken → schwacher Staat → schwache Banken (durch Staatsanleihen im Bankportfolio). Vertrauensverlust → steigende Spreads.",
+      "type": "understanding",
+      "difficulty": 3,
+      "importance": 0.75,
+      "examRelevance": 0.7,
+      "chapter": "2. Die globale Finanzkrise und ihre Auswirkungen",
+      "section": "2.3 Krise im Euroraum",
+      "tags": [
+        "Finanzkrise",
+        "Makroökonomie",
+        "Eurozone",
+        "Staatsschuldenkrise"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-013",
+      "question": "Was sind die Kernunterschiede zwischen Eigenkapital und Fremdkapital?",
+      "answer": "Eigenkapital (EK):\n  – Residualanspruch (Rest nach FK-Bedienung)\n  – Unbegrenzte Laufzeit\n  – Verlustbeteiligung\n  – Dividende nicht steuerlich abzugsfähig (DE)\n\nFremdkapital (FK):\n  – Vorrangiger Anspruch (fixer Betrag)\n  – Feste Laufzeit, feste Zinsen\n  – Keine Verlustbeteiligung über den Kreditbetrag hinaus\n  – Zinsen steuerlich abzugsfähig → Steuervorteil",
+      "type": "contrast",
+      "difficulty": 2,
+      "importance": 0.95,
+      "examRelevance": 0.95,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.1 Finanzierung",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-014",
+      "question": "Was besagt das Modigliani-Miller-Theorem I (MMT I)?",
+      "answer": "In einem vollkommenen Kapitalmarkt ist der Gesamtwert eines Unternehmens unabhängig von seiner Kapitalstruktur. V_L = V_U (verschuldetes = unverschuldetes Unternehmen).\nIntuition: Investoren können die Kapitalstruktur durch private Verschuldung selbst replizieren (Homemade Leverage).",
+      "type": "definition",
+      "difficulty": 2,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.2 MM-Theorem I",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "MMT I"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "V_L = V_U",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-015",
+      "question": "Was besagt das Modigliani-Miller-Theorem II (MMT II) und wie lautet die Formel?",
+      "answer": "Die erwartete Rendite des Eigenkapitals steigt linear mit dem Verschuldungsgrad D/E.\n\nFormel: r_E = r_U + (D/E) × (r_U − r_D)\n\nr_U = EK-Rendite bei vollständiger Eigenfinanzierung\nr_D = Fremdkapitalkosten\nD/E = Verschuldungsgrad (Marktwerte)\n\nInterpretation: Mehr Fremdkapital erhöht EK-Rendite, aber auch EK-Risiko im gleichen Maß → kein Wert geschaffen.",
+      "type": "formula",
+      "difficulty": 3,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.2 MM-Theorem II",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "MMT II",
+        "Formel"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "r_E = r_U + (D/E) × (r_U − r_D)",
+      "variables": {
+        "r_E": "EK-Rendite (erwartet)",
+        "r_U": "EK-Rendite bei 100% EK",
+        "r_D": "FK-Zinssatz",
+        "D/E": "Verschuldungsgrad (Marktwerte)"
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-016",
+      "question": "Wie lautet die WACC-Formel und was folgt aus dem MM-Theorem für den WACC?",
+      "answer": "WACC = (E/(E+D)) × r_E + (D/(E+D)) × r_D\n\nIm vollkommenen Markt gilt: WACC = r_U = konstant, unabhängig von der Kapitalstruktur.\nMehr FK erhöht zwar r_E (MMT II), aber die Gewichte verschieben sich hin zum günstigeren FK → WACC bleibt konstant.",
+      "type": "formula",
+      "difficulty": 3,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.3 WACC",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "WACC",
+        "Formel"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "WACC = (E/(E+D)) × r_E + (D/(E+D)) × r_D = r_U",
+      "variables": {
+        "E": "Marktwert EK",
+        "D": "Marktwert FK",
+        "r_E": "EK-Rendite",
+        "r_D": "FK-Zinssatz",
+        "r_U": "Kapitalkosten unverschuldet"
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-017",
+      "question": "Klausur: Ein Unternehmen ist vollständig eigenkapitalfinanziert mit r_U = 12%. Der risikolose Zins beträgt 5%. Wie hoch ist der WACC bei einem Verschuldungsgrad D/E = 1? (vollkommener Markt)",
+      "answer": "Im vollkommenen Markt: WACC = r_U = 12% (immer, unabhängig von Kapitalstruktur).\n\nKontrolle via MMT II: r_E = 12% + 1 × (12% – 5%) = 19%\nWACC = 0,5 × 19% + 0,5 × 5% = 9,5% + 2,5% = 12% ✓",
+      "type": "calculation",
+      "difficulty": 5,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.2 MM-Theorem I",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "WACC",
+        "Klausurstil",
+        "Rechnen"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "WACC = r_U = 12% (MMT I im vollkommenen Markt)",
+        "r_E via MMT II: r_E = 12% + (1) × (12% – 5%) = 19%",
+        "WACC = 0,5 × 19% + 0,5 × 5% = 12% ✓"
+      ],
+      "numericAnswer": 0.12,
+      "tolerance": 0.001,
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-018",
+      "question": "Nennen Sie drei typische Trugschlüsse bei der Kapitalstruktur im vollkommenen Markt.",
+      "answer": "1. 'FK ist billiger als EK → mehr FK spart Kapitalkosten.' Falsch: Mehr FK erhöht das EK-Risiko und damit r_E (MMT II) → WACC konstant.\n\n2. 'Hohe EK-Rendite nach Verschuldung zeigt höhere Rentabilität.' Falsch: Die höhere Rendite kompensiert genau das höhere Risiko.\n\n3. 'EK-Emission verwässert EPS → schlecht für Aktionäre.' Falsch: Im vollkommenen Markt wird durch Emission der Aktienwert genau um den Emissionserlös je Aktie erhöht.",
+      "type": "listing",
+      "difficulty": 3,
+      "importance": 0.9,
+      "examRelevance": 0.95,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.4 Trugschlüsse",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "Trugschlüsse",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-019",
+      "question": "Klausur (Listing): Nennen Sie drei Gründe, warum die Annahmen des Modigliani-Miller-Theorems in der Realität nicht erfüllt sind.",
+      "answer": "1. Steuern: Zinszahlungen sind steuerlich abzugsfähig → Steuervorteil für FK.\n2. Konkurskosten: Insolvenz verursacht direkte (Anwalts-/Gerichtskosten) und indirekte Kosten (Verlust von Kunden, Lieferanten).\n3. Agency-Kosten / asymmetrische Information: Interessenkonflikte zwischen Aktionären und Gläubigern (Asset Substitution, Debt Overhang); Information über Qualität des Unternehmens ungleich verteilt (Signaling).",
+      "type": "listing",
+      "difficulty": 3,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.2 Annahmen",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "Annahmen",
+        "Klausurstil",
+        "Listing"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-020",
+      "question": "Klausur: Projekt mit EW = 1.120 EUR, Anfangsinvestition = 1.000 EUR (vollk. Markt). r_U = 12%, r_f = 5%. Wie hoch ist der Unternehmenswert (vollständige EK-Finanzierung)?",
+      "answer": "V = EW / (1 + r_U) = 1.120 / 1,12 = 1.000 EUR\n\nAlternativ: Wenn Investition = 1.000 EUR und Rückzahlung im Erwartungswert = 1.120 EUR, entspricht das einer Rendite von 12% = r_U. NPV = 1.000 – 1.000 = 0.",
+      "type": "calculation",
+      "difficulty": 4,
+      "importance": 0.95,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.1 Bewertung",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "Bewertung",
+        "Rechnen",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "EW der Zahlungsströme bestimmen",
+        "Diskontieren mit r_U: V = EW / (1 + r_U)",
+        "V = 1.120 / 1,12 = 1.000 EUR"
+      ],
+      "formula": "V_U = EW(CF) / (1 + r_U)",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-021",
+      "question": "Was ist 'Homemade Leverage' und warum ist es für das MM-Theorem zentral?",
+      "answer": "Investoren können die Kapitalstruktur des Unternehmens durch private Verschuldung (bzw. Anlage in risikofreie Papiere) selbst replizieren. Daher kann die Unternehmensleitung durch Veränderung der Kapitalstruktur keinen Mehrwert schaffen – Arbitragefreiheit im vollkommenen Markt verhindert dies. Dies ist die Grundintuition von MMT I.",
+      "type": "understanding",
+      "difficulty": 3,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.1 Homemade Leverage",
+      "tags": [
+        "MM-Theorem",
+        "Kapitalstruktur",
+        "Eigenkapital",
+        "Fremdkapital",
+        "Homemade Leverage",
+        "Arbitrage"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-022",
+      "question": "Was ist der fremdfinanzierungsbedingte Steuervorteil (Tax Shield)?",
+      "answer": "Zinszahlungen auf Fremdkapital sind steuerlich abzugsfähig. Damit zahlen verschuldete Unternehmen weniger Steuern als unverschuldete.\n\nSteuervorteil pro Periode = τ × r_D × D\nBarwert des Steuervorteils (bei permanenter Schuld) = τ × D\n\nMMT mit Steuern: V_L = V_U + τ × D",
+      "type": "definition",
+      "difficulty": 2,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.1 Steuervorteil",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Tax Shield",
+        "Steuern",
+        "Formel"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "V_L = V_U + τ × D",
+      "variables": {
+        "τ": "Unternehmenssteuersatz",
+        "D": "Marktwert Fremdkapital",
+        "V_L": "Wert verschuldetes Unternehmen",
+        "V_U": "Wert unverschuldetes Unternehmen"
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-023",
+      "question": "Klausur: Unternehmen hat D = 500 EUR, τ = 40%, r_D = 10%, r_U = 12%. Wie hoch ist der Unternehmenswert V_L (mit permanenter Schuld)? V_U = 1.000 EUR.",
+      "answer": "V_L = V_U + τ × D = 1.000 + 0,40 × 500 = 1.000 + 200 = 1.200 EUR\n\nDer Steuervorteil beträgt 200 EUR.",
+      "type": "calculation",
+      "difficulty": 4,
+      "importance": 0.95,
+      "examRelevance": 1.0,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.1 Steuervorteil",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Tax Shield",
+        "Rechnen",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Formel: V_L = V_U + τ × D",
+        "V_L = 1.000 + 0,40 × 500",
+        "V_L = 1.200 EUR"
+      ],
+      "formula": "V_L = V_U + τ × D",
+      "numericAnswer": 1200,
+      "tolerance": 0.01,
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-024",
+      "question": "Warum ist die optimale Kapitalstruktur mit Steuern allein (ohne Konkurskosten) 100% Fremdkapital?",
+      "answer": "Mit Steuern steigt V_L = V_U + τ × D monoton mit D. Mehr FK → mehr Steuervorteil → höherer Unternehmenswert. Ohne Konkurskosten gibt es keine Gegengewichte. Diese extreme Vorhersage zeigt, dass Steuern allein das Kapitalstruktur-Puzzle nicht lösen.",
+      "type": "understanding",
+      "difficulty": 3,
+      "importance": 0.85,
+      "examRelevance": 0.85,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.1.4 Optimale Kapitalstruktur mit Steuern",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Steuern",
+        "Trade-Off"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-025",
+      "question": "Welche zwei Arten von Konkurskosten gibt es und wie beeinflussen sie die Kapitalstruktur?",
+      "answer": "1. Direkte Konkurskosten: Rechtliche und administrative Kosten der Insolvenz (Anwälte, Verwalter, Gerichtsgebühren).\n2. Indirekte Konkurskosten: Verlust von Kunden, Lieferanten, Mitarbeitern; Verzerrung von Investitionsentscheidungen in finanzieller Notlage.\n\nKapitalstruktur: Höheres FK erhöht Konkursrisiko → erwartetere Konkurskosten steigen → Unternehmenswert sinkt. Trade-Off mit Steuervorteil.",
+      "type": "definition",
+      "difficulty": 3,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.1 Konkurskosten",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Konkurskosten",
+        "Trade-Off"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-026",
+      "question": "Was besagt die Trade-Off-Theorie der Kapitalstruktur?",
+      "answer": "Unternehmen wählen die Kapitalstruktur, die den Barwert des Steuervorteils gegen den Barwert der erwarteten Konkurskosten abwägt.\n\nOptimale Kapitalstruktur: Maximiere V = V_U + PV(Steuervorteil) − PV(Konkurskosten)\n\nVorhersage: Große, profitable Unternehmen mit sicheren Cashflows → mehr FK; kleine, wachstumsstarke Unternehmen mit unsicheren Cashflows → weniger FK.",
+      "type": "definition",
+      "difficulty": 3,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.1 Trade-Off-Theorie",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Trade-Off",
+        "Theorie"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-027",
+      "question": "Was ist 'Asset Substitution' und warum entsteht dieser Interessenkonflikt?",
+      "answer": "Asset Substitution (Risikoverlagerung): Aktionäre in finanzieller Notlage bevorzugen riskantere Projekte, auch wenn diese einen negativen Gesamterwartungswert haben.\n\nGrund: Aktionäre profitieren nur im Erfolgsfall; Verluste tragen weitgehend die Gläubiger. → Aktionäre haben Anreiz, riskante Wetten auf Kosten der Gläubiger einzugehen.\n\nKonsequenz: Antizipierte Agency-Kosten erhöhen FK-Zinsen und mindern Unternehmenswert.",
+      "type": "definition",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.2 Agency-Kosten",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Asset Substitution",
+        "Agency-Kosten",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-028",
+      "question": "Klausur (Transfer): Ein Unternehmen ist hoch verschuldet (Kredit fällig: 500 EUR). Aktueller Unternehmenswert: 400 EUR. Die CFO erwägt eine riskante Strategie mit 1% Erfolgswahrscheinlichkeit und 1 Mio. EUR Auszahlung bei Erfolg, 0 bei Misserfolg. Sollten die Anteilseigner zustimmen?",
+      "answer": "Ja, aus Sicht der Anteilseigner:\nOhne neue Strategie: Sicher in Zahlungsverzug → Auszahlung EK = 0.\nMit neuer Strategie: Erwartete Auszahlung EK = 1% × (1.000.000 – 500.000) + 99% × 0 = 5.000 EUR > 0.\n\nAuch wenn der Gesamtwert sinkt (Gläubiger verlieren), profitieren Aktionäre – typisches Beispiel für Asset Substitution.",
+      "type": "transfer",
+      "difficulty": 6,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.2 Agency-Kosten",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Asset Substitution",
+        "Klausurstil",
+        "Transfer"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Bestimme EK-Auszahlung ohne Strategiewechsel: 0 (Insolvenz sicher)",
+        "Bestimme EK-Auszahlung mit Strategie: p × max(V_Erfolg – D, 0)",
+        "1% × (1.000.000 – 500.000) = 5.000 EUR > 0",
+        "→ Ja, Aktionäre bevorzugen die Strategie (Asset Substitution)"
+      ],
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-029",
+      "question": "Was ist das 'Debt Overhang'-Problem und welche Auswirkung hat es?",
+      "answer": "Debt Overhang: Unternehmen in finanzieller Notlage unterlässt positive NPV-Projekte, weil der Großteil des Gewinns an die Gläubiger geht.\n\nMechanismus: Aktionäre finanzieren Investition, aber bei hoher Verschuldung fließen die Gewinne primär an Gläubiger. Netto-Gewinn für Aktionäre < 0 → Unterinvestition.\n\nKonsequenz: FK verzerrt Investitionsentscheidungen → Unternehmenswert sinkt.",
+      "type": "definition",
+      "difficulty": 4,
+      "importance": 0.9,
+      "examRelevance": 0.95,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.2 Debt Overhang",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Debt Overhang",
+        "Agency-Kosten"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-030",
+      "question": "Was sagt die Pecking Order Theory über die Finanzierungsreihenfolge?",
+      "answer": "Aufgrund von asymmetrischer Information bevorzugen Unternehmen folgende Reihenfolge:\n1. Innenfinanzierung (einbehaltene Gewinne) – kein Signalproblem\n2. Fremdkapital – weniger Informationsproblem als EK\n3. Eigenkapital – letzter Ausweg (Markt interpretiert EK-Emission als Überbewertsignal)\n\nVorhersage: Profitable Unternehmen = weniger FK (wegen ausreichend Innenfinanzierung).",
+      "type": "definition",
+      "difficulty": 3,
+      "importance": 0.85,
+      "examRelevance": 0.85,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.3 Pecking Order",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Pecking Order",
+        "Asymmetrische Information"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-031",
+      "question": "Was ist Signaling in der Kapitalstruktur und wann ist Verschuldung ein positives Signal?",
+      "answer": "Signaling: Manager kennen den wahren Unternehmenswert besser als der Markt. Kapitalstrukturentscheidungen können als Signal genutzt werden.\n\nHohe Verschuldung signalisiert: Manager erwartet hohe zukünftige Cashflows (sonst riskiert er Insolvenz). → Positives Signal.\nEK-Emission: Oft negatives Signal – Markt vermutet Überbewertung.\n\nEmpirisch: Ankündigung einer EK-Emission → Aktienkurs sinkt i.d.R.",
+      "type": "definition",
+      "difficulty": 3,
+      "importance": 0.8,
+      "examRelevance": 0.8,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.2.3 Signaling",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Signaling",
+        "Asymmetrische Information"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-4-032",
+      "question": "Wahr oder falsch? Der Steuervorteil des Fremdkapitals entfällt vollständig, wenn Zinseinkommen beim Investor höher besteuert wird als Dividenden. Begründe kurz.",
+      "answer": "Falsch (so eindeutig nicht). Der Nettosteuervorteil hängt vom Zusammenspiel aus Unternehmenssteuer und Investorensteuer ab. Wenn die persönliche Steuer auf Zinseinkommen deutlich höher ist als auf EK-Renditen, kann der Steuervorteil auf Unternehmensebene teilweise oder vollständig neutralisiert werden (Miller 1977). Er entfällt aber nur vollständig unter sehr spezifischen Bedingungen.",
+      "type": "trueFalse",
+      "difficulty": 5,
+      "importance": 0.75,
+      "examRelevance": 0.8,
+      "chapter": "4. Der Einfluss von Marktunvollkommenheiten auf die Kapitalstruktur",
+      "section": "4.1.3 Steuern auf Investorenebene",
+      "tags": [
+        "Kapitalstruktur",
+        "Marktunvollkommenheiten",
+        "Steuern",
+        "Agency-Kosten",
+        "Steuern",
+        "Wahr/Falsch"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-033",
+      "question": "Was sind die drei Transformationsfunktionen von Banken?",
+      "answer": "1. Losgrößentransformation: Bündelt viele kleine Einlagen → große Kredite.\n2. Fristentransformation: Kurzfristige Einlagen → langfristige Kredite. Risiko: Liquiditätsrisiko, Bank Runs.\n3. Risikotransformation: Diversifikation und Monitoring senken Kreditrisiko.",
+      "type": "listing",
+      "difficulty": 2,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "5. Funktionen von Banken",
+      "section": "Überblick",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Transformation"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-034",
+      "question": "Beschreibe das Diamond/Dybvig (1983) Modell: Grundstruktur und zentrale Frage.",
+      "answer": "Drei Perioden (0, 1, 2). Zwei Agenten-Typen:\n  – Typ 1 (frühe Konsumenten, Anteil π₁): brauchen Konsum in Periode 1\n  – Typ 2 (späte Konsumenten, Anteil π₂ = 1–π₁): konsumieren in Periode 2\n\nTechnologie: Kurzfristige (L) und langfristige Investition (R > 1, aber L < 1 bei Liquidation).\n\nZentrale Frage: Wie organisiert die Bank die Liquiditätsversicherung besser als Autarkie oder Finanzmärkte?",
+      "type": "definition",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "5. Funktionen von Banken",
+      "section": "5.1 Diamond/Dybvig – Grundmodell",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Diamond/Dybvig",
+        "Modell",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-035",
+      "question": "Diamond/Dybvig: Was ist die Autarkie-Lösung? Welchen Konsum erhalten frühe und späte Konsumenten?",
+      "answer": "In Autarkie optimiert jeder Agent individuell. Wenn die Ecklösung gilt (I = 0):\nC₁* = C₂* = 1 (kein Investitionsvorteil nutzbar)\n\nWenn I > 0 (Ecklösung nicht bindend):\nC₁ = 1 – ½I; C₂ = 1 + ½I\nFOC: π₁ · u'(C₁) · ½ = π₂ · ρ · u'(C₂) · ½\n\nBei γ = 2: u'(C) = 1/C² → Corner solution I = 0 möglich, wenn Bedingung verletzt.",
+      "type": "calculation",
+      "difficulty": 7,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "5. Funktionen von Banken",
+      "section": "5.1 Diamond/Dybvig – Autarkie",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Diamond/Dybvig",
+        "Autarkie",
+        "Rechnen",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Aufstelle: max_{I} π₁·u(C₁) + π₂·ρ·u(C₂)",
+        "mit C₁ = 1 – ½I, C₂ = 1 + ½I",
+        "FOC: π₁·u'(C₁)·½ = π₂·ρ·u'(C₂)·½",
+        "Einsetzen u'(C) = 1/C² (bei γ=2)",
+        "Prüfen ob Ecklösung I=0 bindend ist"
+      ],
+      "formula": "C₁ = 1 – (1−π₁)/π₁ · I·L;  C₂ = 1 + I·R",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-036",
+      "question": "Diamond/Dybvig: Welche Gleichgewichtsbedingung gilt für den Preis p eines Wertpapiers, das in Periode 2 eine Einheit auszahlt?",
+      "answer": "Im Gleichgewicht: p = 1/R\n\nBegründung:\n  – p > 1/R: Wertpapier zu teuer → kein Angebot (Investoren halten lieber kurzfristig)\n  – p < 1/R: Wertpapier zu billig → keine Nachfrage (alle investieren langfristig)\nNur p = 1/R ist ein Gleichgewicht.\n\nDamit: C₁ = 1, C₂ = R (kein Versicherungsgewinn über Finanzmarkt)",
+      "type": "understanding",
+      "difficulty": 6,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "5. Funktionen von Banken",
+      "section": "5.1 Diamond/Dybvig – Finanzmarkt",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Diamond/Dybvig",
+        "Finanzmarkt",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "p* = 1/R",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-037",
+      "question": "Diamond/Dybvig: Was ist die First-best-Lösung und warum ist sie besser als der Finanzmarkt?",
+      "answer": "Die Bank bietet C₁* > 1 und C₂* < R (mit C₁* < C₂*), indem sie Liquiditätsversicherung anbietet.\n\nGleichgewichtssystem:\n  π₁·C₁ + π₂·(C₂/R) = 1  (Ressourcenbedingung)\n  u'(C₁) = ρ·R·u'(C₂)   (Optimierungsbedingung)\n\nErgebnis: Bank glättet Konsum zwischen frühen und späten Konsumenten. Vorteil gegenüber Finanzmarkt: C₁* > 1 (Finanzmarkt gibt nur C₁ = 1).",
+      "type": "definition",
+      "difficulty": 7,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "5. Funktionen von Banken",
+      "section": "5.1 Diamond/Dybvig – First-best",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Diamond/Dybvig",
+        "First-best",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "formula": "u'(C₁*) = ρ·R·u'(C₂*)",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-5-038",
+      "question": "Warum ist eine Bank als 'delegierter Kontrolleur' effizienter als viele individuelle Gläubiger?",
+      "answer": "Kontrollkosten skalieren mit der Anzahl der Gläubiger. Wenn viele Kleinanleger einen Kreditnehmer überwachen, entstehen Doppelkosten. Eine Bank übernimmt stellvertretend die Kontrolle (delegierte Kontrolle). Die Bank diversifiziert über viele Schuldner → fast risikofreie Einlagen → geringe Kontrollkosten für Einleger → effizienter.",
+      "type": "understanding",
+      "difficulty": 4,
+      "importance": 0.85,
+      "examRelevance": 0.85,
+      "chapter": "5. Funktionen von Banken",
+      "section": "5.2 Delegierte Kontrolle",
+      "tags": [
+        "Banken",
+        "Finanzintermediation",
+        "Delegierte Kontrolle",
+        "Monitoring"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-039",
+      "question": "Warum sind Banken strukturell anfällig für Runs (Diamond/Dybvig)?",
+      "answer": "Banken transformieren kurzfristige Einlagen in langfristige Kredite (Fristentransformation). Wenn viele Einleger gleichzeitig abheben ('Bank Run'), muss die Bank langfristige Anlagen frühzeitig und mit Verlust liquidieren (L < 1).\n\nSequential Service: Bank bedient Abheber der Reihe nach → wer zu spät kommt, erhält nichts. Das schafft Anreiz für alle, früh abzuheben → Self-fulfilling Run.\n→ Stabiles Gleichgewicht (Bank intakt) UND Run-Gleichgewicht existieren nebeneinander.",
+      "type": "understanding",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.1 Das Grundproblem",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Diamond/Dybvig",
+        "Self-fulfilling"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-040",
+      "question": "Was ist Narrow Banking und löst es das Bank-Run-Problem?",
+      "answer": "Narrow Banking: Banken dürfen nur kurzfristige, sichere Anlagen halten (kein Fristentransformationsrisiko). Einlagen wären dann vollständig gedeckt → keine Run-Gefahr.\n\nProblem: Die Fristentransformation ist die Kernfunktion der Bank (Liquiditätsversicherung, Diamond/Dybvig). Narrow Banking beseitigt diese Funktion und damit den gesellschaftlichen Nutzen der Bank.",
+      "type": "contrast",
+      "difficulty": 4,
+      "importance": 0.85,
+      "examRelevance": 0.85,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.2 Narrow Banking",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Narrow Banking"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-041",
+      "question": "Wie löst eine Einlagenversicherung das Bank-Run-Gleichgewicht?",
+      "answer": "Einlagenversicherung garantiert Einlegern die Rückzahlung bis zu einem bestimmten Betrag (z.B. 100.000 EUR in der EU), unabhängig vom Bankzustand.\n\nDamit: Es gibt keinen Grund mehr, frühzeitig abzuheben – kein Run-Gleichgewicht.\nProblem: Moral Hazard – Banken können mehr Risiken eingehen (Einleger überwachen nicht mehr).\n→ Kombination mit Regulierung (Eigenkapitalanforderungen) nötig.",
+      "type": "definition",
+      "difficulty": 3,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.3 Einlagenversicherung",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Einlagenversicherung",
+        "Moral Hazard"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-042",
+      "question": "Was ist der Lender of Last Resort (LoLR) und welche Bedingung gilt für Kredite?",
+      "answer": "Der LoLR (typischerweise die Zentralbank) vergibt Kredite an Banken, die kurzfristig illiquide, aber nicht insolvent sind.\n\nBagehot-Prinzip: Kredite nur an illiquide, aber solvente Banken; zu Strafzinsen; gegen gute Sicherheiten.\n\nProblem: In der Praxis schwer zu unterscheiden ob illiquide oder insolvent. LoLR kann Moral Hazard verstärken.",
+      "type": "definition",
+      "difficulty": 4,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.6 Lender of Last Resort",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Lender of Last Resort",
+        "Zentralbank"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-043",
+      "question": "Wahr oder falsch? Das 'Too-big-to-fail'-Problem führt zu einem Wettbewerbsvorteil großer Banken gegenüber kleinen. Begründe (max. 2 Sätze).",
+      "answer": "Wahr. Große Banken werden von Gläubigern und Gegenparteien als implizit staatlich garantiert wahrgenommen → günstigere Refinanzierungskonditionen als kleine Banken. Dies verzerrt den Wettbewerb zugunsten systemisch wichtiger Institute.",
+      "type": "trueFalse",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.7 Too-big-to-fail",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Too-big-to-fail",
+        "Wettbewerb",
+        "Wahr/Falsch",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-6-044",
+      "question": "Über welche Kanäle können Finanzkrisen innerhalb des Bankensystems anstecken?",
+      "answer": "1. Direkter Interbankenmarkt: Bankforderungen gegen andere Banken → Ausfall pflanzt sich fort.\n2. Informationskanal: Run auf Bank A löst Run auf Bank B aus (Einleger schließen auf Qualitätsprobleme im gesamten Sektor).\n3. Asset-Fire-Sales: Notverkäufe senken Marktpreise → andere Banken erleiden Verluste.\n4. Liquiditätskanal: Alle Banken ziehen Liquidität gleichzeitig ab.",
+      "type": "listing",
+      "difficulty": 4,
+      "importance": 0.85,
+      "examRelevance": 0.85,
+      "chapter": "6. Finanzkrisen und systemische Risiken",
+      "section": "6.5 Ansteckung",
+      "tags": [
+        "Finanzstabilität",
+        "Bank Run",
+        "Systemisches Risiko",
+        "Ansteckung",
+        "Contagion"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-7-045",
+      "question": "Warum werden Banken stärker reguliert als andere Unternehmen?",
+      "answer": "1. Einlagenversicherung schafft Moral Hazard → Regulierung als Gegengewicht.\n2. Systemisches Risiko: Bankenausfälle haben negative Externalitäten für die Realwirtschaft.\n3. Informationsasymmetrie: Einleger können Bankqualität nicht effizient überwachen.\n4. 'Too-big-to-fail': Implizite Staatsgarantie verzerrt Anreize.\n5. Zahlungsverkehr: Banken sind kritische Infrastruktur.",
+      "type": "listing",
+      "difficulty": 2,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "7. Bankenregulierung",
+      "section": "7.1 Gründe für Regulierung",
+      "tags": [
+        "Bankenregulierung",
+        "Eigenkapitalregulierung",
+        "Basel",
+        "Regulierungsgründe"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-7-046",
+      "question": "Wahr oder falsch? Aufgrund der Eigenkapitalregulierung sind die Eigenkapitalquoten der Banken heute viel höher als vor 100 Jahren. Begründe.",
+      "answer": "Falsch. Eigenkapitalquoten der Banken sind heute viel niedriger als vor 100 Jahren (historisch 30–50%, heute ca. 8–15%). Die Eigenkapitalregulierung war eine Reaktion auf den historischen Rückgang der EK-Quoten, nicht deren Ursache. Regulierung erhöhte EK-Quoten relativ zum Trend, aber nicht auf historische Niveaus.",
+      "type": "trueFalse",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "7. Bankenregulierung",
+      "section": "7.2 Eigenkapitalregulierung",
+      "tags": [
+        "Bankenregulierung",
+        "Eigenkapitalregulierung",
+        "Basel",
+        "EK-Quote",
+        "Wahr/Falsch",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-7-047",
+      "question": "Wahr oder falsch? Höhere Eigenkapitalanforderungen sind nützlich, weil sie für Banken einen Puffer gegen unvorhergesehene Schocks darstellen. Begründe.",
+      "answer": "Wahr (mit Nuance). Höheres EK puffert Verluste und schützt Einleger/Steuerzahler. Jedoch gilt aus Bankperspektive das Modigliani-Miller-Argument: Mehr EK senkt zwar die Insolvenzwahrscheinlichkeit, aber EK-Kosten sind höher als FK-Kosten (vor Steuern äquivalent; mit Steuern: mehr EK teurer). Gesellschaftlich: Puffernutzen überwiegt private Kosten.",
+      "type": "trueFalse",
+      "difficulty": 5,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "7. Bankenregulierung",
+      "section": "7.3 Funktionen der EK-Regulierung",
+      "tags": [
+        "Bankenregulierung",
+        "Eigenkapitalregulierung",
+        "Basel",
+        "EK-Puffer",
+        "Wahr/Falsch",
+        "Klausurstil"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-7-048",
+      "question": "Was sind die Kernelemente der Eigenkapitalregulierung (Basel I → Basel III)?",
+      "answer": "Basel I (1988): 8% Mindestkapitalquote auf risikogewichtete Aktiva (RWA).\n\nBasel II (2004): Verfeinerte Risikogewichtung (Standardansatz + interne Modelle); Marktrisiko + operationelles Risiko.\n\nBasel III (2010+): Reaktion auf Finanzkrise:\n  – Höhere Eigenkapitalquoten (Common Equity Tier 1: min. 4,5%)\n  – Leverage Ratio (ungewichtet, max. 33-facher Hebel)\n  – Liquidity Coverage Ratio (LCR) und Net Stable Funding Ratio (NSFR)\n  – Kapitalerhaltungspuffer, antizyklischer Puffer",
+      "type": "listing",
+      "difficulty": 4,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "7. Bankenregulierung",
+      "section": "7.2 Basel",
+      "tags": [
+        "Bankenregulierung",
+        "Eigenkapitalregulierung",
+        "Basel",
+        "Basel I",
+        "Basel II",
+        "Basel III"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-7-049",
+      "question": "Was ist systemisches Risiko und wie unterscheidet es sich von individuellem Bankrisiko?",
+      "answer": "Systemisches Risiko: Risiko eines Zusammenbruchs des gesamten Finanzsystems oder eines wesentlichen Teils davon, mit schwerwiegenden Folgen für die Realwirtschaft.\n\nUnterschied zu individuellem Risiko: Banken berücksichtigen bei ihrer Risikoentscheidung nicht den negativen Effekt auf andere Banken und die Volkswirtschaft (negative Externalität). Individuelle Rationalität führt zu systemisch übermäßigem Risiko.\n\nMakroprudenzielle Regulierung zielt darauf ab, dieses Koordinationsversagen zu beheben.",
+      "type": "contrast",
+      "difficulty": 4,
+      "importance": 0.9,
+      "examRelevance": 0.9,
+      "chapter": "7. Bankenregulierung",
+      "section": "7.5 Systemisches Risiko",
+      "tags": [
+        "Bankenregulierung",
+        "Eigenkapitalregulierung",
+        "Basel",
+        "Systemisches Risiko",
+        "Makroprudenzielle Regulierung"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "Skript FMI SS2026_ jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-050",
+      "question": "Übung 1 (Typ): Projekt (EW = 120.000 EUR, Invest = 90.000 EUR). r_f = 10%, Risikoaufschlag = 10%. Ist das Projekt lohnenswert?",
+      "answer": "r_U = r_f + Risikoaufschlag = 10% + 10% = 20%\nV = EW / (1 + r_U) = 120.000 / 1,20 = 100.000 EUR\nNPV = V – I = 100.000 – 90.000 = 10.000 EUR > 0\n→ Ja, das Projekt ist lohnenswert.",
+      "type": "calculation",
+      "difficulty": 4,
+      "importance": 0.95,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.1 Rechenbeispiel",
+      "tags": [
+        "Übungsaufgabe",
+        "Rechnen",
+        "Klausurstil",
+        "MM-Theorem"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "U01_jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Diskontierungssatz: r_U = r_f + Risikoaufschlag",
+        "Unternehmenswert: V = EW / (1 + r_U)",
+        "NPV = V – Investition",
+        "NPV > 0 → lohnenswert"
+      ],
+      "formula": "NPV = EW/(1+r_U) - I",
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-051",
+      "question": "Ein Projekt zahlt 140.000 EUR (p=50%) oder 100.000 EUR (p=50%). EK-Wert = 100.000 EUR. Wie hoch ist die erwartete EK-Rendite?",
+      "answer": "Rendite hoch = (140.000 – 100.000) / 100.000 = 40%\nRendite niedrig = (100.000 – 100.000) / 100.000 = 0%\nErwartete Rendite = 0,5 × 40% + 0,5 × 0% = 20%\n\nDiese entspricht r_U = 20% (vollkommener Markt, vollständige EK-Finanzierung).",
+      "type": "calculation",
+      "difficulty": 4,
+      "importance": 0.9,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.1 EK-Rendite",
+      "tags": [
+        "Übungsaufgabe",
+        "Rechnen",
+        "Klausurstil",
+        "MM-Theorem",
+        "EK-Rendite"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "U01_jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Rendite_hoch = (CF_hoch – EK-Wert) / EK-Wert",
+        "Rendite_niedrig = (CF_niedrig – EK-Wert) / EK-Wert",
+        "Erwartete Rendite = p_hoch × R_hoch + p_niedrig × R_niedrig"
+      ],
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-052",
+      "question": "Klausur (Typ): EK = 500 EUR, D = 500 EUR, r_E = 19%, r_D = 5%. Berechne den WACC. Entspricht das r_U bei vollk. Markt?",
+      "answer": "WACC = (E/(E+D)) × r_E + (D/(E+D)) × r_D\n     = (500/1000) × 19% + (500/1000) × 5%\n     = 9,5% + 2,5% = 12%\n\nJa: WACC = r_U = 12% (MMT I im vollk. Markt).",
+      "type": "calculation",
+      "difficulty": 4,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.3 WACC Berechnung",
+      "tags": [
+        "Übungsaufgabe",
+        "Rechnen",
+        "Klausurstil",
+        "MM-Theorem",
+        "WACC"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "U01_jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "E/(E+D) = 500/1000 = 0,5",
+        "D/(E+D) = 500/1000 = 0,5",
+        "WACC = 0,5 × 19% + 0,5 × 5% = 12%"
+      ],
+      "formula": "WACC = (E/(E+D))·r_E + (D/(E+D))·r_D",
+      "numericAnswer": 0.12,
+      "tolerance": 0.001,
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    },
+    {
+      "id": "fmfi-3-053",
+      "question": "r_U = 12%, r_D = 5%, D = 800 EUR, E = 200 EUR. Wie hoch ist r_E laut MMT II?",
+      "answer": "MMT II: r_E = r_U + (D/E) × (r_U − r_D)\nr_E = 12% + (800/200) × (12% − 5%)\nr_E = 12% + 4 × 7%\nr_E = 12% + 28% = 40%",
+      "type": "calculation",
+      "difficulty": 5,
+      "importance": 1.0,
+      "examRelevance": 1.0,
+      "chapter": "3. Kapitalstruktur: vollkommener Markt & MM-Theorem",
+      "section": "3.2 MMT II Anwendung",
+      "tags": [
+        "Übungsaufgabe",
+        "Rechnen",
+        "Klausurstil",
+        "MM-Theorem",
+        "MMT II",
+        "Leverage"
+      ],
+      "source": {
+        "current": [
+          {
+            "file": "U01_jetzt.pdf"
+          }
+        ],
+        "historical": []
+      },
+      "solutionSteps": [
+        "Verschuldungsgrad D/E = 800/200 = 4",
+        "r_E = r_U + D/E × (r_U – r_D)",
+        "r_E = 12% + 4 × (12% – 5%) = 40%"
+      ],
+      "formula": "r_E = r_U + (D/E) × (r_U − r_D)",
+      "numericAnswer": 0.4,
+      "tolerance": 0.001,
+      "validation": {
+        "status": "ok",
+        "issues": []
+      },
+      "learning": {
+        "repetitions": 0,
+        "ease": 2.5,
+        "interval": 0,
+        "due": "2026-08-27",
+        "lastReviewed": null
+      }
+    }
+  ]
+}

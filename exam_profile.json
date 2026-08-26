@@ -1,0 +1,726 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-27",
+    "generatedBy": "scripts/generate/exam_profiler.py",
+    "examSources": [
+      "2026_Probeklausur (aktuell)",
+      "2026_Probeklausur Lsg (aktuell)",
+      "2020_Klausur (historisch)"
+    ]
+  },
+  "examStructure": {
+    "totalPoints": 60,
+    "durationMinutes": 60,
+    "numberOfTasks": 4,
+    "allTasksCompulsory": true,
+    "allowedAids": [
+      "Wörterbuch",
+      "nicht-programmierbarer Taschenrechner"
+    ],
+    "answerStyle": "knapp und präzise; Stichwortantworten mit erkennbaren Zusammenhängen",
+    "calculationRequirement": "Lösungsweg bei Rechenaufgaben Pflicht"
+  },
+  "professorFingerprint": {
+    "pointsByType": {
+      "calculation": 0.57,
+      "trueFalse": 0.23,
+      "other": 0.2
+    },
+    "repeatedTopics": [
+      "kapitalstruktur",
+      "diamond",
+      "dybvig",
+      "eigenkapital"
+    ],
+    "avgTasksPerExam": 4.0,
+    "avgPointsPerExam": 58.0,
+    "examStructureNotes": [
+      "4 Pflichtaufgaben je Klausur.",
+      "60 Punkte / 60 Minuten.",
+      "Aufgabe 1 immer Kapitalstruktur / MM-Theorem (multi-part Berechnung).",
+      "Aufgabe 2 immer formal-modell-basiert (Diamond/Dybvig oder ähnliches).",
+      "Aufgabe 3 Anwendungsfall mit Agency-Theorie / finanzieller Notlage.",
+      "Aufgabe 4 immer 3× Wahr/Falsch + je max. 2-Satz-Begründung.",
+      "Hilfsmittel: Wörterbuch + nicht-programmierbarer Taschenrechner.",
+      "Rechenweg ist Pflicht bei Rechenaufgaben.",
+      "Stichwortartige Antworten erlaubt, solange logische Zusammenhänge erkennbar."
+    ]
+  },
+  "crossYearConcepts": [
+    {
+      "concept": "Modigliani-Miller-Theorem",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)",
+        "2020_Klausur (historisch)"
+      ],
+      "frequency": 3,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Diamond/Dybvig Bank-Run-Modell",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)",
+        "2020_Klausur (historisch)"
+      ],
+      "frequency": 3,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Wahr oder falsch",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)",
+        "2020_Klausur (historisch)"
+      ],
+      "frequency": 3,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "WACC",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)"
+      ],
+      "frequency": 2,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Eigenkapitalrendite / Leverage-Effekt",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)"
+      ],
+      "frequency": 2,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Agency-Kosten / Asset Substitution",
+      "appearsIn": [
+        "2026_Probeklausur Lsg (aktuell)",
+        "2020_Klausur (historisch)"
+      ],
+      "frequency": 2,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Eigenkapitalregulierung / Basel",
+      "appearsIn": [
+        "2026_Probeklausur (aktuell)",
+        "2026_Probeklausur Lsg (aktuell)"
+      ],
+      "frequency": 2,
+      "examRelevance": 1.0
+    },
+    {
+      "concept": "Konkurskosten",
+      "appearsIn": [
+        "2026_Probeklausur Lsg (aktuell)"
+      ],
+      "frequency": 1,
+      "examRelevance": 0.75
+    },
+    {
+      "concept": "Too-big-to-fail",
+      "appearsIn": [],
+      "frequency": 0,
+      "examRelevance": 0.5
+    },
+    {
+      "concept": "Steuervorteil Fremdkapital",
+      "appearsIn": [],
+      "frequency": 0,
+      "examRelevance": 0.5
+    }
+  ],
+  "tasksByExam": {
+    "2026_Probeklausur (aktuell)": [
+      {
+        "number": 1,
+        "title": "Die Kapitalstruktur in einem vollkommenen Markt",
+        "totalPoints": 15,
+        "isTrueFalse": false,
+        "subtaskCount": 14,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Wie hoch ist der Erwartungswert der Zahlungsströme in Periode 2?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "b",
+            "text": "Wie hoch ist der Kapitalwert des Projekts?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "c",
+            "text": "Aus Sicht von Periode 1: Für wie viel Euro kann der Unternehmer die Zahlungsströme",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "d",
+            "text": "Wie hoch ist die erwartete Rendite des Eigenkapitals?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "e",
+            "text": "Aus Sicht von Periode 1: Wie hoch ist nun der Wert des Eigenkapitals?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "f",
+            "text": "Wie hoch ist die Rückzahlung des Kredits (inklusive Zinsen)?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "g",
+            "text": "Wie hoch ist nun die erwartete Rendite des Eigenkapitals?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "g",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "h",
+            "text": "Wie hoch ist sind die gewichteten durchschnittlichen Kapitalkosten (WACC)?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "i",
+            "text": "Wie hoch ist laut MMT II die erwartete Eigenkapitalrendite?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "i",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": 3
+          },
+          {
+            "label": "j",
+            "text": "Erläutern Sie, was sich ändert damit trotz einer Veränderung der Eigenkapitalrendite",
+            "type": "explanation",
+            "points": null
+          },
+          {
+            "label": "j",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "k",
+            "text": "Nennen Sie drei Gründe, warum die Annahmen des Modigliani-Miller-Theorems in",
+            "type": "listing",
+            "points": null
+          }
+        ],
+        "dominantType": "calculation",
+        "source": "2026_Probeklausur (aktuell)"
+      },
+      {
+        "number": 2,
+        "title": "Diamond/Dybvig",
+        "totalPoints": 18,
+        "isTrueFalse": false,
+        "subtaskCount": 4,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Betrachten Sie zunächst den Fall der Autarkie. Bestimmen Sie die optimale",
+            "type": "calculation",
+            "points": 7
+          },
+          {
+            "label": "b",
+            "text": "Was ist der Konsum für „frühe“ und „späte“ Konsumenten bei Existenz eines",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "c",
+            "text": "Welche Bedingung muss im Gleichgewicht für den Preis des Wertpapiers gelten und",
+            "type": "listing",
+            "points": 2
+          },
+          {
+            "label": "d",
+            "text": "Nehmen Sie wieder an, dass 𝛾 = 2. Berechnen Sie nun den optimalen Konsum für",
+            "type": "calculation",
+            "points": 8
+          }
+        ],
+        "dominantType": "calculation",
+        "source": "2026_Probeklausur (aktuell)"
+      },
+      {
+        "number": 3,
+        "title": "Fremd- und Eigenkapital",
+        "totalPoints": 17,
+        "isTrueFalse": true,
+        "subtaskCount": 8,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Zeichnen Sie in das Diagramm die Auszahlungsfunktionen des Fremdkapitals und des",
+            "type": "other",
+            "points": 3
+          },
+          {
+            "label": "b",
+            "text": "Ist die neue unten genannte Strategie im Interesse der Anteilseigner? Wieso oder",
+            "type": "transfer",
+            "points": 2
+          },
+          {
+            "label": "c",
+            "text": "Nehmen Sie nun an, dass ZWITSCHER alternativ eine Investitionsmöglichkeit in",
+            "type": "other",
+            "points": 4
+          },
+          {
+            "label": "d",
+            "text": "Nehmen Sie nun an, dass ZWITSCHER deutlicher höher verschuldet ist: Der Kredit",
+            "type": "other",
+            "points": 4
+          },
+          {
+            "label": "e",
+            "text": "Nehmen Sie wieder an, dass der Kredit sich wieder nur wie ursprünglich auf 500.000",
+            "type": "other",
+            "points": 4
+          },
+          {
+            "label": "a",
+            "text": "Aufgrund der Eigenkapitalregulierung sind die Eigenkapitalquoten der Banken in den",
+            "type": "other",
+            "points": 9
+          },
+          {
+            "label": "b",
+            "text": "Das „Too-big-to-fail“-Problem führt zu einem Wettbewerbsvorteil großer Banken",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "c",
+            "text": "Höhere Eigenkapitalanforderungen sind nützlich, weil sie für die Banken einen Puffer",
+            "type": "other",
+            "points": null
+          }
+        ],
+        "dominantType": "trueFalse",
+        "source": "2026_Probeklausur (aktuell)"
+      }
+    ],
+    "2026_Probeklausur Lsg (aktuell)": [
+      {
+        "number": 1,
+        "title": "Die Kapitalstruktur in einem vollkommenen Markt",
+        "totalPoints": 16,
+        "isTrueFalse": false,
+        "subtaskCount": 14,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Wie hoch ist der Erwartungswert der Zahlungsströme in Periode 2?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "b",
+            "text": "Wie hoch ist der Kapitalwert des Projekts?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "c",
+            "text": "Aus Sicht von Periode 1: Für wie viel Euro kann der Unternehmer die Zahlungsströme",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "d",
+            "text": "Wie hoch ist die erwartete Rendite des Eigenkapitals?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "e",
+            "text": "Aus Sicht von Periode 1: Wie hoch ist nun der Wert des Eigenkapitals?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "f",
+            "text": "Wie hoch ist die Rückzahlung des Kredits (inklusive Zinsen)?",
+            "type": "calculation",
+            "points": 1
+          },
+          {
+            "label": "g",
+            "text": "Wie hoch ist nun die erwartete Rendite des Eigenkapitals?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "g",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "h",
+            "text": "Wie hoch ist sind die gewichteten durchschnittlichen Kapitalkosten (WACC)?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "i",
+            "text": "Wie hoch ist laut MMT II die erwartete Eigenkapitalrendite?",
+            "type": "calculation",
+            "points": 2
+          },
+          {
+            "label": "i",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": 3
+          },
+          {
+            "label": "j",
+            "text": "Erläutern Sie, was sich ändert damit trotz einer Veränderung der Eigenkapitalrendite",
+            "type": "explanation",
+            "points": null
+          },
+          {
+            "label": "j",
+            "text": "(2 Punkte)",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "k",
+            "text": "Nennen Sie drei Gründe, warum die Annahmen des Modigliani-Miller-Theorems in",
+            "type": "listing",
+            "points": null
+          }
+        ],
+        "dominantType": "calculation",
+        "source": "2026_Probeklausur Lsg (aktuell)"
+      },
+      {
+        "number": 2,
+        "title": "Diamond/Dybvig",
+        "totalPoints": 18,
+        "isTrueFalse": false,
+        "subtaskCount": 4,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Betrachten Sie zunächst den Fall der Autarkie. Bestimmen Sie die optimale",
+            "type": "calculation",
+            "points": 7
+          },
+          {
+            "label": "b",
+            "text": "Was ist der Konsum für „frühe“ und „späte“ Konsumenten bei Existenz eines",
+            "type": "other",
+            "points": 1
+          },
+          {
+            "label": "c",
+            "text": "Welche Bedingung muss im Gleichgewicht für den Preis des Wertpapiers gelten und",
+            "type": "listing",
+            "points": 2
+          },
+          {
+            "label": "d",
+            "text": "Nehmen Sie wieder an, dass 𝛾 =2. Berechnen Sie nun den optimalen Konsum für",
+            "type": "calculation",
+            "points": 8
+          }
+        ],
+        "dominantType": "calculation",
+        "source": "2026_Probeklausur Lsg (aktuell)"
+      },
+      {
+        "number": 3,
+        "title": "Fremd- und Eigenkapital",
+        "totalPoints": 15,
+        "isTrueFalse": false,
+        "subtaskCount": 5,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Zeichnen Sie in das Diagramm die Auszahlungsfunktionen des Fremdkapitals und des",
+            "type": "other",
+            "points": 3
+          },
+          {
+            "label": "b",
+            "text": "Ist die neue unten genannte Strategie im Interesse der Anteilseigner? Wieso oder",
+            "type": "transfer",
+            "points": 2
+          },
+          {
+            "label": "c",
+            "text": "Nehmen Sie nun an, dass ZWITSCHER alternativ eine Investitionsmöglichkeit in",
+            "type": "other",
+            "points": 4
+          },
+          {
+            "label": "d",
+            "text": "Nehmen Sie nun an, dass ZWITSCHER deutlicher höher verschuldet ist: Der Kredit",
+            "type": "other",
+            "points": 4
+          },
+          {
+            "label": "e",
+            "text": "Nehmen Sie wieder an, dass der Kredit sich wieder nur wie ursprünglich auf 500.000",
+            "type": "other",
+            "points": 4
+          }
+        ],
+        "dominantType": "other",
+        "source": "2026_Probeklausur Lsg (aktuell)"
+      }
+    ],
+    "2020_Klausur (historisch)": [
+      {
+        "number": 2,
+        "title": "Lückentext",
+        "totalPoints": 8,
+        "isTrueFalse": false,
+        "subtaskCount": 12,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Tritt ein Finanzintermediär zwischen die Sparer und die Kreditnehmer, so",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "b",
+            "text": "In vollkommenen Kapitalmärkten sind Banken",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "c",
+            "text": "Das Risiko eines signifikanten Teils des Finanzsystems bezeichnet man als",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "d",
+            "text": "Nennen Sie drei Kanäle der Ansteckung im Bankensystem:",
+            "type": "listing",
+            "points": null
+          },
+          {
+            "label": "e",
+            "text": "Dass der Staat in einer Krise den Anreiz hat, Banken zu retten, obwohl dies",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "f",
+            "text": "Die Beteiligung der Bankgläubiger an den Verlusten bezeichnet man als",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "g",
+            "text": "Die Anzahl der Banken in Deutschland ist in den letzten Jahren deutlich",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "h",
+            "text": "Im Modell von Diamond und Dybvig (1983) kommt es zu einem Bank Run",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "i",
+            "text": "Ein solcher Bank Run kann durch folgende Maßnahmen verhindert",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "j",
+            "text": "Zwingt man die Banken, so viele liquide Mittel zu halten, dass sie stets in",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "k",
+            "text": "Wenn die Einleger beim Abheben ihrer Einlagen der Reihe nach bedient",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "l",
+            "text": "Im Modell von Diamond (1984) wird gezeigt, dass die Kosten der",
+            "type": "other",
+            "points": null
+          }
+        ],
+        "dominantType": "other",
+        "source": "2020_Klausur (historisch)"
+      },
+      {
+        "number": 3,
+        "title": "Kapitalkosten",
+        "totalPoints": 10,
+        "isTrueFalse": true,
+        "subtaskCount": 9,
+        "subtasks": [
+          {
+            "label": "a",
+            "text": "Was zeigen die drei Kurven a, b und c?",
+            "type": "other",
+            "points": 12
+          },
+          {
+            "label": "b",
+            "text": "Erläutern Sie, warum Kurve a in der Fremdkapitalquote ansteigt.",
+            "type": "explanation",
+            "points": 3
+          },
+          {
+            "label": "c",
+            "text": "Erläutern Sie, warum Kurve c zunächst waagerecht verläuft und dann ansteigt.",
+            "type": "explanation",
+            "points": null
+          },
+          {
+            "label": "d",
+            "text": "Erläutern Sie, warum Kurve b flach verläuft.",
+            "type": "explanation",
+            "points": null
+          },
+          {
+            "label": "e",
+            "text": "Erläutern Sie die Schnittpunkte zwischen den Kurven a und b sowie zwischen b und c.",
+            "type": "explanation",
+            "points": null
+          },
+          {
+            "label": "a",
+            "text": "Die empirische Literatur zeigt, dass ein stärker entwickeltes Finanzsystem nicht immer",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "b",
+            "text": "Im Modell von Diamond (1984) ist es im Falle einer direkten Finanzierungsbeziehung",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "c",
+            "text": "Im guten Gleichgewicht des Modells von Diamond und Dybvig (1983) stellen sich die",
+            "type": "other",
+            "points": null
+          },
+          {
+            "label": "d",
+            "text": "Bankenkrisen gehen typischerweise mit einer steigenden Staatsverschuldung einher.",
+            "type": "other",
+            "points": null
+          }
+        ],
+        "dominantType": "trueFalse",
+        "source": "2020_Klausur (historisch)"
+      }
+    ]
+  },
+  "typicalExamLayout": [
+    {
+      "taskNumber": 1,
+      "typicalTitle": "Die Kapitalstruktur in einem vollkommenen Markt / MM-Theorem",
+      "typicalPoints": 15,
+      "format": "Multi-part Berechnung (a)–(k), mit abschließender Konzeptfrage",
+      "coreTopics": [
+        "Erwartungswert berechnen",
+        "Unternehmenswert (vollk. Markt)",
+        "EK-Rendite bei Eigenfinanzierung",
+        "Leverage-Effekt: EK-Rendite bei Fremdfinanzierung",
+        "WACC Berechnung",
+        "MMT II: r_E = r_U + D/E * (r_U - r_D)",
+        "Gründe für Verletzung der MM-Annahmen (Stichpunkte)"
+      ],
+      "flashcardTypes": [
+        "calculation",
+        "formula",
+        "listing"
+      ]
+    },
+    {
+      "taskNumber": 2,
+      "typicalTitle": "Diamond/Dybvig (Banken, Liquiditätsschocks)",
+      "typicalPoints": 18,
+      "format": "Formales Modell: Optimierungsproblem + Gleichgewichtsanalyse",
+      "coreTopics": [
+        "Autarkie-Gleichgewicht (FOC, Ecklösung)",
+        "Finanzmarkt-Gleichgewicht (Gleichgewichtspreis p)",
+        "First-best-Lösung (Gleichungssystem lösen)",
+        "Anreizverträglichkeitsbedingungen",
+        "Bank-Run-Gleichgewicht",
+        "Narrow Banking / Einlagenversicherung"
+      ],
+      "flashcardTypes": [
+        "calculation",
+        "formula",
+        "understanding"
+      ]
+    },
+    {
+      "taskNumber": 3,
+      "typicalTitle": "Fremd- und Eigenkapital / Agency-Theorie / finanzielle Notlage",
+      "typicalPoints": 17,
+      "format": "Szenario + Berechnungen + Begründung",
+      "coreTopics": [
+        "Auszahlungsfunktionen FK und EK zeichnen",
+        "Asset Substitution in finanzieller Notlage",
+        "Debt Overhang (unterinvestierte Projekte)",
+        "Indifferenzpunkt Berechnung",
+        "Anteilseigner vs. Gläubiger-Interessen"
+      ],
+      "flashcardTypes": [
+        "transfer",
+        "calculation",
+        "understanding"
+      ]
+    },
+    {
+      "taskNumber": 4,
+      "typicalTitle": "Wahr oder falsch?",
+      "typicalPoints": 9,
+      "format": "3 Aussagen × 3 Punkte, je max. 2 Sätze Begründung",
+      "coreTopics": [
+        "Eigenkapitalregulierung Banken",
+        "Too-big-to-fail und Wettbewerb",
+        "Eigenkapitalanforderungen und Pufferfunktion"
+      ],
+      "flashcardTypes": [
+        "trueFalse"
+      ]
+    }
+  ]
+}
