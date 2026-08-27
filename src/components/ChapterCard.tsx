@@ -12,12 +12,15 @@ interface Props {
 export function ChapterCard({ chapter, cards, onClick, onStudyQuiz }: Props) {
   const stats = getChapterStats(cards, chapter)
   const progress = stats.total > 0 ? Math.round((stats.learned / stats.total) * 100) : 0
-  const shortTitle = chapter.replace(/^\d+\.\s*/, '')
+  // Handle "Kapitel X: Title" format
+  const colonIdx = chapter.indexOf(':')
+  const num = colonIdx >= 0 ? chapter.slice(0, colonIdx).trim() : chapter
+  const shortTitle = colonIdx >= 0 ? chapter.slice(colonIdx + 1).trim() : chapter
 
   return (
     <button className={styles.card} onClick={onClick}>
       <div className={styles.header}>
-        <span className={styles.num}>{chapter.split('.')[0]}</span>
+        <span className={styles.num}>{num}</span>
         <span className={styles.title}>{shortTitle}</span>
       </div>
       <div className={styles.stats}>

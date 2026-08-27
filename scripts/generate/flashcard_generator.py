@@ -148,6 +148,16 @@ def cards_chapter1():
         "1. Kapitalakkumulation: Mehr und bessere Investitionen\n2. Produktivität: Bessere Allokation von Kapital zu produktivsten Verwendungen\n3. Innovation: Risikokapital für neue Technologien\nWichtig: Korrelation ≠ Kausalität! Umgekehrte Kausalität möglich.",
         "Verständnis", "S. 38-40"))
 
+    cards.append(new_card(ch, n, "Korrelation vs. Kausalität",
+        "Warum kann man aus der positiven Korrelation zwischen Finanzentwicklung und Wirtschaftswachstum nicht auf einen Kausaleffekt schließen?",
+        "Positive Korrelation: Länder mit besser entwickeltem Finanzsystem wachsen schneller (Maß: Kreditvergabe/BIP).\n"
+        "Problem – Umgekehrte Kausalität: Hohes Wachstum → hohe Nachfrage nach Krediten und Finanzdienstleistungen → hohes Finanzsystem.\n"
+        "Merke: Korrelation ≠ Kausalität!\n"
+        "Politikimplikationen (z.B. 'Finanzsektor stärken = Wachstum steigern') sind nur ableitbar, wenn echter Kausalzusammenhang besteht.\n"
+        "Instrumente zur Identifikation: Instrumentvariablen-Schätzung (z.B. Rechtssystem als Instrument, La Porta et al.), Paneldaten.\n"
+        "Levine (2005): 'The preponderance of evidence suggests that both financial intermediaries and markets matter in a causal sense for growth.'",
+        "Evaluation", "S. 38-40"))
+
     cards.append(new_card(ch, n, "Zu großes Finanzsystem",
         "Kann ein zu großes Finanzsystem schädlich sein? Erklären Sie.",
         "Ja. Ab einer gewissen Größe können negative Effekte dominieren:\n- Ressourcen (Humankapital) werden ineffizient ins Finanzsystem gelenkt\n- Höheres systemisches Risiko\n- Overbanking (z.B. Europa nach der Krise): mangelnde Alternativen zur Bankfinanzierung schwächt Wirtschaft nach Bankkrisen.",
