@@ -45,6 +45,9 @@ export interface Flashcard {
   difficultyLevel?: string
   chapterNum?: number
   topic?: string
+  // Image-based cards
+  imageQuestion?: string   // path relative to /bilder/ shown on question side
+  imageAnswer?: string     // path relative to /bilder/ shown on answer side (uncovered version)
 }
 
 export type CardType =

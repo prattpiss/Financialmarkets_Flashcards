@@ -1,10 +1,31 @@
 .topBar {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   justify-content: space-between;
   padding: 0.75rem 1rem;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
+}
+.sortBtns {
+  display: flex;
+  gap: 0.25rem;
+}
+.sortBtn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+.sortBtn:hover { background: var(--surface-alt); color: var(--text); }
+.sortActive {
+  background: var(--primary, #2563eb) !important;
+  color: #fff !important;
+  border-color: transparent !important;
 }
 .back {
   background: none;

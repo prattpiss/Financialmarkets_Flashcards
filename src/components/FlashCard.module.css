@@ -210,6 +210,15 @@
 .rating4 { border-color: #3b82f6; color: #3b82f6; }
 .rating4:hover { background: #dbeafe; }
 
+/* Image cards */
+.cardImg {
+  display: block;
+  max-width: 100%;
+  margin: 0.75rem auto 0;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
 /* Tags */
 .tags {
   display: flex;

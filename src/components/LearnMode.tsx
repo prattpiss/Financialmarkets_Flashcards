@@ -12,12 +12,15 @@ interface Props {
   onBack: () => void
 }
 
-export function LearnMode({ cards, sortMode = 'priority', onRate, onBack }: Props) {
-  const sorted = applySortMode(cards, sortMode)
+export function LearnMode({ cards, sortMode: initialSortMode = 'priority', onRate, onBack }: Props) {
+  const [sortMode, setSortMode] = useState<SortMode>(initialSortMode)
   const [index, setIndex] = useState(0)
   const [sessionRatings, setSessionRatings] = useState<Rating[]>([])
 
-  if (sorted.length === 0) {
+  // Re-sort when mode changes; reset index
+  const sorted = applySortMode(cards, sortMode)
+
+  if (cards.length === 0) {
     return (
       <div className={styles.empty}>
         <p>Keine Karten für diesen Filter.</p>
@@ -26,7 +29,8 @@ export function LearnMode({ cards, sortMode = 'priority', onRate, onBack }: Prop
     )
   }
 
-  const card = sorted[index]
+  const safeIndex = Math.min(index, sorted.length - 1)
+  const card = sorted[safeIndex]
   const done = index >= sorted.length
 
   function handleRate(rating: Rating) {
@@ -37,6 +41,12 @@ export function LearnMode({ cards, sortMode = 'priority', onRate, onBack }: Prop
 
   function handleSkip() {
     setIndex((i) => i + 1)
+  }
+
+  function handleSortChange(mode: SortMode) {
+    setSortMode(mode)
+    setIndex(0)
+    setSessionRatings([])
   }
 
   if (done) {
@@ -57,8 +67,25 @@ export function LearnMode({ cards, sortMode = 'priority', onRate, onBack }: Prop
     <div>
       <div className={styles.topBar}>
         <button className={styles.back} onClick={onBack}>← Zurück</button>
+        <div className={styles.sortBtns}>
+          <button
+            className={`${styles.sortBtn} ${sortMode === 'priority' ? styles.sortActive : ''}`}
+            onClick={() => handleSortChange('priority')}
+            title="Nach Lernpriorität (fällige Karten zuerst)"
+          >Priorität</button>
+          <button
+            className={`${styles.sortBtn} ${sortMode === 'chronological' ? styles.sortActive : ''}`}
+            onClick={() => handleSortChange('chronological')}
+            title="Kapitel der Reihe nach"
+          >Chronologisch</button>
+          <button
+            className={`${styles.sortBtn} ${sortMode === 'random' ? styles.sortActive : ''}`}
+            onClick={() => handleSortChange('random')}
+            title="Zufällige Reihenfolge"
+          >Zufällig</button>
+        </div>
         <span className={styles.hint}>
-          <kbd>Space</kbd> zeigen &nbsp; <kbd>1–4</kbd> bewerten &nbsp; <kbd>N</kbd> überspringen
+          <kbd>Space</kbd> zeigen &nbsp; <kbd>1–4</kbd> bewerten &nbsp; <kbd>N / →</kbd> überspringen
         </span>
       </div>
       <FlashCard

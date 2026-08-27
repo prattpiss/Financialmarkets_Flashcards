@@ -25,10 +25,11 @@ TYPE_MAP = {
 
 def new_card(chapter, chapter_num, topic, question, answer,
              difficulty_level, slide_ref, card_type="concept",
-             formula=None, variables=None, solution_steps=None):
+             formula=None, variables=None, solution_steps=None,
+             image_question=None, image_answer=None):
     mapped_type = TYPE_MAP.get(card_type, "understanding")
     difficulty = DIFF_MAP.get(difficulty_level, 4)
-    return {
+    card = {
         "id": str(uuid.uuid4()),
         # Core fields (new format)
         "chapter": chapter,
@@ -68,6 +69,11 @@ def new_card(chapter, chapter_num, topic, question, answer,
         "dueDate": datetime.now().isoformat(),
         "lastReviewed": None,
     }
+    if image_question:
+        card["imageQuestion"] = image_question
+    if image_answer:
+        card["imageAnswer"] = image_answer
+    return card
 
 
 def cards_chapter1():
@@ -1624,6 +1630,205 @@ def cards_querschnitt_erweitert():
     return cards
 
 
+def cards_abbildungen():
+    """Bild-basierte Karteikarten für alle Abbildungen im Skript."""
+    cards = []
+
+    # --- ABB 3: Direkte vs. indirekte Finanzierung ---
+    ch1 = "Kapitel 1: Funktionen des Finanzsystems"
+    cards.append(new_card(ch1, 1, "Abbildung: Direkte vs. indirekte Finanzierung",
+        "Ordne das Schema zu: Welche Pfeile stehen für direkte und welche für indirekte Finanzierung?",
+        "Direkte Finanzierung: Kapitalnehmer (Unternehmen/Staat) tauscht direkt Wertpapiere mit Kapitalgebern (Haushalte) über den Finanzmarkt.\n"
+        "Indirekte Finanzierung: Ein Finanzintermediär (Bank/Fonds) steht dazwischen – nimmt Einlagen von Haushalten entgegen und vergibt Kredite an Unternehmen/Staat.",
+        "Verständnis", "S. 22",
+        image_question="Finanzmräkte_Abb3_Verdeckt_Frage_indirekt_vs_direkt.png",
+        image_answer="Finanzmräkte_Abb3_Unverdeckt_Frage_indirekt_vs_direkt.png"))
+
+    # --- ABB 4: Bilanzverknüpfungen – Aktiva benennen ---
+    cards.append(new_card(ch1, 1, "Abbildung: Bilanzverknüpfungen – Aktiva",
+        "Benenne die verdeckten Aktiva-Positionen in den Bilanzen von Banken, Unternehmen und Haushalten.",
+        "Banken (Aktiva): Kredite, Anleihen, Aktien.\n"
+        "Unternehmen (Aktiva): Sachanlagen und Vorräte, Einlagen, Anleihen, Aktien.\n"
+        "Haushalte (Aktiva): Anleihen, Einlagen, Immobilien, Aktien.",
+        "Wiedergabe", "S. 26",
+        image_question="Finanzmräkte_Abb4_Bilanzverknuepfungen_verdeckte_Aktiva.png",
+        image_answer="Finanzmräkte_Abb4_Bilanzverknuepfungen_unverdeckt.png"))
+
+    # --- ABB 4: Bilanzverknüpfungen – Passiva benennen ---
+    cards.append(new_card(ch1, 1, "Abbildung: Bilanzverknüpfungen – Passiva",
+        "Benenne die verdeckten Passiva-Positionen in den Bilanzen von Banken, Unternehmen und Haushalten.",
+        "Banken (Passiva): Einlagen, Anleihen, Eigenkapital.\n"
+        "Unternehmen (Passiva): Kredite, Anleihen, Eigenkapital.\n"
+        "Haushalte (Passiva): Kredite, Ersparnisse.\n"
+        "Staat: emittiert Anleihen und nimmt Kredite auf.",
+        "Wiedergabe", "S. 26",
+        image_question="Finanzmräkte_Abb4_Bilanzverknuepfungen_verdeckte_Passiva.png",
+        image_answer="Finanzmräkte_Abb4_Bilanzverknuepfungen_unverdeckt.png"))
+
+    # --- ABB 5+6: Skalenerträge bei indirekter Finanzierung ---
+    cards.append(new_card(ch1, 1, "Abbildung: Skalenerträge – indirekter vs. direkter Finanzierung",
+        "Wie äußern sich die Skalenerträge mathematisch bei indirekter Finanzierung im M×N-Modell?",
+        "Direkte Finanzierung: M · N Verträge erforderlich (z.B. M=100 Firmen, N=10.000 Haushalte → 1.000.000 Verträge).\n"
+        "Indirekte Finanzierung: Nur M + N Verträge (100 + 10.000 = 10.100).\n"
+        "→ Finanzintermediär realisiert enorme Skalenerträge durch Bündelung.",
+        "Verständnis", "S. 28",
+        image_question="Abb_5und6_Verdeckt_Frage_WieAussernSichDieSkalenertraegeMathematischBeiIndirekterFinanzierung.png",
+        image_answer="Abb_5und6_Unverdeckt_Frage_WieAussernSichDieSkalenertraegeMathematischBeiIndirekterFinanzierung.png"))
+
+    # --- ABB 7: Finanzsysteme EU/Japan/USA ---
+    cards.append(new_card(ch1, 1, "Abbildung: Finanzsysteme EU, Japan, USA – Bereiche zuordnen",
+        "Ordne die Farbbereiche in der Grafik zu: Welche Finanzierungsart steht für welchen Bereich (EU, Japan, USA)?",
+        "In den USA dominieren Aktienmarkt und Unternehmensanleihen (marktbasiert).\n"
+        "In Japan und der EU: Bankfinanzierung besonders bedeutsam (bankbasiert).\n"
+        "Innenfinanzierung (einbehaltene Gewinne) spielt in allen Regionen die größte Rolle.\n"
+        "Absolute Zahlen hängen auch vom Ausmaß der Gesamtverschuldung des Unternehmenssektors ab.",
+        "Verständnis", "S. 45",
+        image_question="Abb7_Finanzsysteme_OrdneDenFarbenBereichZu_AuswahlEU_Japan_USA_verdeckt.png",
+        image_answer="Abb7_Finanzsysteme_OrdneDenFarbenBereichZu_AuswahlEU_Japan_USA_unverdeckt.png"))
+
+    # --- ABB 8: 200 Jahre Bank Runs (Jamilov et al. 2025) ---
+    ch2 = "Kapitel 2: Globale Finanzkrise"
+    cards.append(new_card(ch2, 2, "Abbildung: 200 Jahre Bank Runs – Krisenperioden zuordnen",
+        "Ordne den Höhepunkten der Kurven die entsprechenden Krisen zu und erkläre die Bank Runs.",
+        "Peaks:\n"
+        "• ~1930er: Weltwirtschaftskrise (Great Depression) – massiver Anstieg beider Kurven\n"
+        "• ~1990: Skandinavien/Japan/S&L-Krise in den USA\n"
+        "• ~2008: Globale Finanzkrise 2007–09\n"
+        "Unterschied: Bank Run = Ansturm auf eine einzelne oder mehrere Banken durch Einleger.\n"
+        "Bankenkrise = systemischer Zusammenbruch eines signifikanten Teils des Sektors.\n"
+        "Quelle: Jamilov, König, Müller und Saidi (2025).",
+        "Verständnis", "S. 56",
+        image_question="Abb_8_Bankruns_verdeckt_FrageOrdnedenHöhepunktenKrisenzuUnderkläredieBankruns.png",
+        image_answer="Abb_8_Bankruns_unverdeckt_FrageOrdnedenHöhepunktenKrisenzuUnderkläredieBankruns.png"))
+
+    cards.append(new_card(ch2, 2, "Abbildung: 200 Jahre Bank Runs – Zeitraum und Variablen",
+        "Welchen Zeitraum und welche Kernvariablen bildet die Grafik zu '200 Jahre Bank Runs weltweit' ab?",
+        "Zeitraum: ~1800 bis heute (ca. 200 Jahre).\n"
+        "Variablen: Häufigkeit (Frequency) von Bank Runs (blaue Linie) vs. Bankenkrisen (orange Linie).\n"
+        "Schwerste Peaks: 1930er (Weltwirtschaftskrise) und 2007–09 (Globale Finanzkrise).\n"
+        "Kleinere Häufungen: spätes 19. Jh. und um 1990 (Skandinavien, Japan).",
+        "Wiedergabe", "S. 56"))
+
+    # --- ABB 9: BIP-Wachstum und Arbeitslosigkeit in der Krise ---
+    cards.append(new_card(ch2, 2, "Abbildung: BIP-Wachstum und Arbeitslosigkeit 2008/09",
+        "Was zeigt der Vergleich zwischen Advanced Economies und Emerging Markets im Krisenjahr 2008/09 in der BIP- und Arbeitslosigkeitsgrafik?",
+        "BIP-Wachstum: Beide Gruppen brechen ein, aber Advanced Economies (bis -6%) stürzen tiefer als Emerging Markets.\n"
+        "Arbeitslosigkeit: In entwickelten Ländern starker Anstieg (5% → über 8%), Schwellenländer erholen sich schneller.\n"
+        "Interpretation: Entwickelte Länder als Ursprung der Krise (US-Immobilienmarkt) wurden ungleich härter getroffen.\n"
+        "Quelle: AR 2013, BIS 83rd Annual Report.",
+        "Verständnis", "S. 61",
+        image_question="Abbildung_9.png"))
+
+    cards.append(new_card(ch2, 2, "Abbildung: Ursachenkette Subprime-Krise",
+        "Wie führte der US-Immobilienmarkteinbruch ab 2006 zur globalen Krise? Erkläre die Kette.",
+        "1. Auslöser: Einbruch der Immobilienpreise ab 2006.\n"
+        "2. Subprime-Kredite: Massive Vergabe an Hochrisikokreditnehmer → Kreditausfälle.\n"
+        "3. Globale Ausweitung: Verbriefung zu CDOs, weltweit verkauft wegen 'Search for yield' und falscher AAA-Ratings.\n"
+        "4. Gläubiger auf wertlosen Sicherheiten (Immobilien) sitzen.\n"
+        "→ Aus lokalem Immobilienproblem wurde globale Bankenkrise.",
+        "Verständnis", "S. 61-65",
+        image_question="Abbildung_9.png"))
+
+    # --- ABB 10: Case-Shiller-Index ---
+    cards.append(new_card(ch2, 2, "Abbildung: Case-Shiller-Index – Immobilienpreise USA",
+        "Welcher Verlauf ist im Case-Shiller-Index zu sehen und was löste der Absturz aus?",
+        "Verlauf: Starker kontinuierlicher Anstieg ab ~2000, Höchststand 2006/07, steiler Absturz bis 2009/12.\n"
+        "Auslöser: Einbruch der Immobilienpreise ab 2006 = makroökonomischer Schock.\n"
+        "Verbindung zur Krise: Steigende Preise hatten Kreditvergabe angetrieben (Sicherheitenwert);\n"
+        "nach dem Einbruch konnten viele Schuldner (insb. Subprime) nicht mehr bedienen.",
+        "Verständnis", "S. 63",
+        image_question="Abbildung_10.png"))
+
+    # --- ABB 11: US vs. Eurozone Leitzinsen ---
+    cards.append(new_card(ch2, 2, "Abbildung: US vs. Eurozone Leitzinsen vor der Krise",
+        "Welche geldpolitischen Faktoren begünstigten laut der Zinsgrafik die Kreditexpansion vor 2006?",
+        "Sehr niedrige Leitzinsen in den USA nach der Dotcom-Krise (ab 2001, Tiefststand ~1% 2003/04).\n"
+        "Massive Kapitalzuflüsse aus Asien (insb. China) in die USA.\n"
+        "→ Billiges Geld + hohe Liquidität = starke Kreditexpansion im Immobiliensektor.\n"
+        "Geldpolitische Kehrtwende: Ab 2004 allmähliche Zinsanhebung (Grafik: rote Linie steigt auf >5%).\n"
+        "→ Verteuerte Kreditrefinanzierung leitete Kehrtwende am Immobilienmarkt ein.",
+        "Verständnis", "S. 65",
+        image_question="Abbildung_11.png"))
+
+    # --- ABB 13: Liquiditätsspiralen (Brunnermeier/Pedersen) ---
+    cards.append(new_card(ch2, 2, "Abbildung: Liquiditätsspirale – Kreisläufe benennen",
+        "Welche 5 Stationen durchläuft die Liquiditätsspirale nach Brunnermeier/Pedersen? Benenne im Uhrzeigersinn.",
+        "1. Funding Problems (Finanzierungsprobleme)\n"
+        "2. Reduced Positions (Positionsabbau / Notverkäufe – fire sales)\n"
+        "3. Prices Move Away from Fundamentals (Preise fallen unter Fundamentalwert)\n"
+        "4. Higher Margins (steigende Sicherheitsmargen / Haircuts der Gläubiger)\n"
+        "5. Losses on Existing Positions (Verluste → erneute Funding Problems)\n"
+        "→ Zwei sich gegenseitig verstärkende Spiralen: Loss Spiral + Margin Spiral.",
+        "Verständnis", "S. 78",
+        image_question="Abbildung_13_verdeckt.png",
+        image_answer="Abbildung_13_Unverdeckt.png"))
+
+    cards.append(new_card(ch2, 2, "Abbildung: Liquiditätsspirale – Funding vs. Market Liquidity",
+        "Warum bricht in einer Liquiditätsspirale die Liquidität auf zwei Ebenen gleichzeitig weg?",
+        "Funding Liquidity: Interbankenmarkt fällt als Liquiditätsquelle aus → Kreditaufnahme unmöglich.\n"
+        "Market Liquidity: Fire Sales drücken Asset-Preise unter Fundamentalwert.\n"
+        "Wechselwirkung: Höhere Margins → mehr Notverkäufe → tiefere Preise → höhere Verluste → noch höhere Margins.\n"
+        "Fazit: Weder über Kreditaufnahme noch über Wertpapierverkauf ist Liquidität verfügbar.",
+        "Evaluation", "S. 78"))
+
+    # --- ABB 14: Ansteckungseffekte Euroraum ---
+    cards.append(new_card(ch2, 2, "Abbildung: Ansteckungseffekte im Euroraum – Anleiherenditen",
+        "Was zeigt die Grafik der Anleiherenditen/-spreads im Euroraum ab 2010/11 und warum wurden Griechenland-Ausfälle verhindert?",
+        "Verlauf: Ab 2010/11 explosiver Anstieg der griechischen Spreads (>5400 Basispunkte), starke Anstiege auch bei Irland, Portugal, Spanien, Italien.\n"
+        "Kernfrage: Warum wurde ein Zahlungsausfall Griechenlands verhindert?\n"
+        "→ Ansteckungsgefahr: Enge Verflechtungen im Euroraum; ein unkontrollierter Ausfall hätte fatale Kettenreaktionen ausgelöst.\n"
+        "→ Europäische Banken hielten hohe Bestände an Anleihen der GIIPS-Länder.",
+        "Evaluation", "S. 95",
+        image_question="Abbildung_14_verdeckt.png",
+        image_answer="Abbildung_14_unverdeckt.png"))
+
+    # --- ABB 15: Fremd- vs. Eigenkapital ---
+    ch3 = "Kapitel 3: Modigliani-Miller-Theorem"
+    cards.append(new_card(ch3, 3, "Abbildung: Fremd- vs. Eigenkapital – Auszahlungsprofile",
+        "Benenne die geschwärzten Bereiche in der Abbildung zu Fremd- und Eigenkapital-Auszahlungen.",
+        "Fremdkapital (Gläubiger): Erhält festen Betrag D+r·D wenn Unternehmenswert ≥ D; erhält Unternehmenswert falls Insolvenz (Wert < D).\n"
+        "Eigenkapital (Aktionär): Erhält 0 bei Insolvenz; erhält Unternehmenswert minus FK bei Erfolg.\n"
+        "→ FK = konkaver Auszahlungsprofile; EK = konvex (Call-Option auf Unternehmenswert).",
+        "Verständnis", "S. 128",
+        image_question="Abbildung_15_FremdvsEigenkapital_verdeckt_Notizfragendazu.png",
+        image_answer="Abbildung_15_FremdvsEigenkapital_unverdeckt.png"))
+
+    cards.append(new_card(ch3, 3, "Abbildung: Fremd- vs. Eigenkapital – Risikoprofile benennen",
+        "Welche charakteristischen Unterschiede in Risiko und Rendite unterscheiden FK von EK laut dem Auszahlungsdiagramm?",
+        "Fremdkapital:\n• Begrenzte Upside (fester Zins+Tilgung)\n• Begrenzte Downside (vorrangiger Gläubigeranspruch)\n• Geringeres Risiko → geringere geforderte Rendite\n"
+        "Eigenkapital:\n• Unbegrenzte Upside (Residualanspruch)\n• Volle Downside (verliert alles bei Insolvenz)\n• Höheres Risiko → höhere geforderte Rendite\n"
+        "→ Leverage Ratchet: Je mehr FK, desto riskanter wird das EK.",
+        "Evaluation", "S. 128-130",
+        image_question="Abbildung_15_FremdvsEigenkapital_unverdeckt_Frage_BenennediegeschwarztenBereicheZusatzfrage.png",
+        image_answer="Abbildung_15_FremdvsEigenkapital_unverdeckt.png"))
+
+    # --- ABB 16: Homemade Leverage (Fall 1) ---
+    cards.append(new_card(ch3, 3, "Abbildung: Homemade Leverage (Fall 1) – Tabelle 14.6",
+        "Wie verändert sich der Eigenkapitaleinsatz und die Auszahlung durch Homemade Leverage laut der Tabelle?",
+        "Fall 1: Investor kauft Aktien des unverschuldeten Unternehmens mit privatem Kredit.\n"
+        "Anfangsauszahlung: Sinkt von EUR 1.000 → EUR 500 (durch Kreditaufnahme von EUR 500).\n"
+        "Auszahlung starke Wirtschaft: EUR 1.400 → EUR 875 (nach Kreditrückzahlung).\n"
+        "Auszahlung schwache Wirtschaft: EUR 900 → EUR 375.\n"
+        "→ Leverage erhöht Chancen und Risiken (prozentuale Rendite), senkt den Kapitaleinsatz.",
+        "Verständnis", "S. 144",
+        image_question="Abbildung_16_verdeckt_Aufgabe.png",
+        image_answer="Abbildung_16_unverdeckt.png"))
+
+    # --- ABB 17: Fall 2 (Replizierung des unverschuldeten EK) ---
+    cards.append(new_card(ch3, 3, "Abbildung: MMT – Fall 2 (Replizierung unverschuldetes EK)",
+        "Wie kann ein Investor das Eigenkapital eines unverschuldeten Unternehmens nachbilden (Fall 2)?",
+        "Idee: Investor kauft sowohl FK als auch EK des verschuldeten Unternehmens.\n"
+        "Anfangskosten: FK (EUR 500) + EK mit Verschuldung (EUR 500) = EUR 1.000 = EK ohne Verschuldung.\n"
+        "Starke Wirtschaft: FK-Zahlung (EUR 525) + EK (EUR 875) = EUR 1.400.\n"
+        "Schwache Wirtschaft: FK-Zahlung (EUR 525) + EK (EUR 375) = EUR 900.\n"
+        "→ Exakt identische Zahlungsströme → Modigliani-Miller: Kapitalstruktur irrelevant.",
+        "Evaluation", "S. 145",
+        image_question="Abbildung_17_Fall2_aehnlichAbb16_verdeckt.png",
+        image_answer="Abbildung_17_Fall2_aehnlichAbb16_unverdeckt.png"))
+
+    return cards
+
+
 def build_all_cards():
     all_cards = []
     all_cards.extend(cards_chapter1())
@@ -1644,6 +1849,7 @@ def build_all_cards():
     all_cards.extend(cards_chapter7_detail())
     all_cards.extend(cards_querschnitt())
     all_cards.extend(cards_querschnitt_erweitert())
+    all_cards.extend(cards_abbildungen())
     return all_cards
 
 

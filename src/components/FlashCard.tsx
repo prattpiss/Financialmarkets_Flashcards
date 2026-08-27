@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { Flashcard, Rating } from '@/types'
 import { useKeyboard } from '@/hooks/useKeyboard'
 import styles from './FlashCard.module.css'
@@ -35,6 +35,9 @@ const RATINGS: { value: Rating; label: string; hint: string; key: string }[] = [
 export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
   const [revealed, setReveal] = useState(false)
 
+  // Reset reveal when card changes so skipped cards don't show solution
+  useEffect(() => { setReveal(false) }, [card.id])
+
   useKeyboard({
     ' ': () => { if (!revealed) setReveal(true) },
     '1': () => { if (revealed) { onRate(1); setReveal(false) } },
@@ -43,6 +46,8 @@ export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
     '4': () => { if (revealed) { onRate(4); setReveal(false) } },
     'n': () => onSkip(),
     'N': () => onSkip(),
+    'ArrowRight': () => onSkip(),
+    'ArrowLeft': () => onSkip(),
   })
 
   function handleRate(r: Rating) {
@@ -81,11 +86,25 @@ export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
       <div className={`${styles.card} ${revealed ? styles.revealed : ''}`}>
         <div className={styles.question}>
           <pre className={styles.pre}>{card.question}</pre>
+          {card.imageQuestion && (
+            <img
+              src={`./bilder/${card.imageQuestion}`}
+              alt="Abbildung (Frage)"
+              className={styles.cardImg}
+            />
+          )}
         </div>
 
         {revealed && (
           <div className={styles.answer}>
             <div className={styles.divider} />
+            {card.imageAnswer && (
+              <img
+                src={`./bilder/${card.imageAnswer}`}
+                alt="Abbildung (Lösung)"
+                className={styles.cardImg}
+              />
+            )}
             <pre className={styles.pre}>{card.answer}</pre>
 
             {card.formula && (
