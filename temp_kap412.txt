@@ -1,0 +1,153 @@
+=== KAP412 (S.219-231) ===
+--- S.219 ---
+4.1.2 Rekapitalisierung zur Nutzung von Steuervorteilen
+▶ Frage: Können in einer Welt mit Steuern der
+Unternehmenswert und der Aktienkurs dadurch erhöht
+werden, dass das Unternehmen Aktien zurückkauft?
+▶ Beispiel:
+▶ Midco Industries hat 20 Millionen umlaufende Aktien mit
+einem Marktpreis von 15 Euro je Aktie und kein Fremdkapital
+▶ Midco hat stabile Gewinne und zahlt Steuern in Höhe von 35%
+▶ Das Management plant, einen Kredit auf dauerhafter Basis in
+Höhe von 100 Millionen Euro durch eine gehebelte
+Rekapitalisierung aufzunehmen, bei der die aufgenommenen
+Mittel für einen Aktienrückkauf verwendet werden sollen
+
+--- S.220 ---
+Der Steuervorteil
+▶ Unternehmenswert ohne Verschuldung:
+VU = 20Millionen Aktien·15e = 300Millionen e
+▶ Wenn Midco einen Kredit in Höhe von 100 Millionen Euro als
+Dauerschuld aufnimmt, beträgt der Barwert der künftigen
+Steuerersparnis des Unternehmens:
+▶ BW(fremdfinanzierungsbedingter Steuervorteil)
+= τ ·D = 35% von 100 Millionen Euro = 35 Millionen Euro
+c
+▶ Unternehmenswert mit Verschuldung: VL = VU +τ c ·D
+= 300 Millionen Euro + 35 Millionen Euro
+= 335 Millionen Euro
+
+--- S.221 ---
+Der Steuervorteil
+▶ Da der Wert des Fremdkapitals 100 Millionen Euro beträgt,
+hat das Eigenkapital einen Wert von:
+E = VL−D
+= 335 Millionen Euro – 100 Millionen Euro
+= 235 Millionen Euro
+▶ Der Wert der im Umlauf befindlichen Aktien ist also auf
+235 Millionen Euro gefallen
+▶ Allerdings erhalten die Aktionäre die 100 Millionen Euro, die
+Midco durch den Aktienrückkauf zahlen wird
+▶ Insgesamt erhalten die Aktionäre also die vollen 335 Millionen,
+was einer zusätzlichen Zahlung von 35 Millionen Euro
+
+--- S.222 ---
+Der Aktienrückkauf
+▶ Nehmen wir an, Midco würde anbieten, die Aktien zum
+aktuellen Preis von 15 Euro je Aktie zurückzukaufen
+▶ Das Unternehmen kauft dann 6,67 Millionen Aktien zurück
+(= 100 Millionen Euro / 15 Euro), also sind nun
+13,33 Millionen Aktien (= 20 – 6,67) im Umlauf
+▶ Der neue Aktienkurs liegt nun bei 235 Millionen Euro /
+13,33 Millionen = 17,63 Euro (pro Aktie)
+
+--- S.223 ---
+Der Aktienrückkauf
+▶ Die Aktionäre, die ihre Aktien behalten, erzielen einen
+Kapitalertrag von 17,63 Euro – 15 Euro = 2,63 Euro je Aktie,
+was einem Gesamtgewinn von 2,63 · 13,33 Millionen
+= 35 Millionen Euro entspricht
+▶ Aber: Warum sollte ein Aktionär seine Aktien für 15 Euro
+verkaufen, wenn sie in Wirklichkeit 17,63 Euro wert sind?
+
+--- S.224 ---
+Arbitragefreie Bewertung
+▶ Das vorherige Szenario stellt eine Arbitragemöglichkeit dar
+▶ Die Investoren könnten kurz vor dem Aktienrückkauf Aktien
+für 15 Euro kaufen und diese unmittelbar danach zu dem
+höheren Kurs verkaufen
+▶ Folge: Sobald die Investoren wissen, dass die Rekapitalisierung
+stattfindet, steigt der Aktienkurs sofort auf den Wert, der den
+Steuervorteil von 35 Millionen Euro widerspiegelt
+
+--- S.225 ---
+Arbitragefreie Bewertung
+▶ Also steigt der Wert des Eigenkapitals sofort von
+300 Millionen Euro auf 335 Millionen Euro
+▶ Bei 20 Millionen im Umlauf befindlichen Aktien wird der
+Aktienkurs auf folgenden Wert steigen:
+335 Millionen Euro / 20 Millionen Aktien
+= 16,75 Euro (pro Aktie)
+▶ Diesen Preis muss Midco mindestens bieten, um die Aktien
+zurückzukaufen
+
+--- S.226 ---
+Arbitragefreie Bewertung
+▶ Bei einem Rückkaufspreis von 16,75 Euro gewinnen infolge
+dieser Transaktion sowohl die Aktionäre, die ihre Aktien zum
+Verkauf anbieten, als auch die Aktionäre, die ihre Aktien
+behalten: 16,75 Euro – 15 Euro = 1,75 Euro je Aktie
+▶ Der Nutzen aus dem fremdfinanzierungsbedingten
+Steuervorteil geht also an alle 20 Millionen ursprünglich im
+Umlauf befindlichen Aktien
+▶ Gesamtgewinn: 1,75 Euro · 20 Millionen = 35 Millionen Euro
+▶ Fazit: Wenn die Wertpapiere fair bewertet sind, erhalten die
+Aktionäre eines Unternehmens den vollen Vorteil aus dem
+fremdfinanzierungsbedingten Steuervorteil, der durch die
+
+--- S.227 ---
+Beispiel 15.4: Ein alternativer Rückkaufspreis
+▶ Midco kündigt einen Preis an, zu dem Aktien im Wert von
+100 Millionen Euro zurückgekauft werden
+▶ Zeigen Sie, dass 16,75 Euro der niedrigste Preis ist, bei dem
+zu erwarten ist, dass die Aktionäre ihre Aktien zum Kauf
+anbieten
+▶ Wer profitiert, wenn Midco mehr als 16,75 Euro je Aktie
+anbietet?
+
+--- S.228 ---
+▶ Liegt der Rückkaufspreis darüber, wollen alle Aktionäre ihre
+Aktien verkaufen, und der Gewinn fällt zum größeren Teil an
+die Aktionäre, die beim Verkauf zum Zuge kommen
+Beispiel 15.4: Ein alternativer Rückkaufspreis
+▶ Sei P R der Rückkaufspreis der Aktien
+▶ Der Aktionär ist bereit, seine Aktien zu verkaufen, wenn der
+Preis mindestens so hoch ist, wie der Aktienkurs nach dem
+Rückkauf wäre
+▶ Aktienkurs nach dem Rückkauf
+= Wert des Eigenkapitals / verbleibende Aktien:
+235 Millionen e/(20Millionen− 100 Millionen)
+P
+
+--- S.229 ---
+Beispiel 15.4: Ein alternativer Rückkaufspreis
+▶ Sei P R der Rückkaufspreis der Aktien
+▶ Der Aktionär ist bereit, seine Aktien zu verkaufen, wenn der
+Preis mindestens so hoch ist, wie der Aktienkurs nach dem
+Rückkauf wäre
+▶ Aktienkurs nach dem Rückkauf
+= Wert des Eigenkapitals / verbleibende Aktien:
+235 Millionen e/(20Millionen− 100 Millionen)
+P
+R
+▶ Gleichsetzen mit P R ergibt den Preis, ab dem der Aktionär
+zum Verkauf bereit wäre = 16,75 Euro
+
+--- S.230 ---
+Analyse der Rekapitalisierung: Die Marktwertbilanz
+▶ In Gegenwart von Ertragsteuern erscheint der
+fremdfinanzierungsbedingte Steuervorteil als Aktivposten des
+Unternehmens in der Marktwertbilanz
+▶ Dies geschieht mit der Ankündigung der Rekapitalisierung
+▶ Gleichzeitig steigt der Aktienkurs auf 16,75 Euro
+OperationsManagement
+(uKmapitdele 1n5: BFreamrwdkeaprittald uensd SStetueeurnervorteils pro Aktie)
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.231 ---
+Analyse der Rekapitalisierung: Die Marktwertbilanz
+▶ Dann nimmt Midco das Fremdkapital auf und kauft schließlich
+die Aktien zurück
+OperationsManagement
+▶ D K e a r pi A tel k 1 t 5 i : e F n re k m u d r k s ap ä ita n l d un e d r t Ste s u ic er h n hierdurch nicht mehr
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015

@@ -1,0 +1,261 @@
+=== KAP65 (S.578-599) ===
+--- S.578 ---
+6.5 Ansteckungseffekte im Finanzsystem
+▶ Bislang: Betrachtung eines Bank Runs bei einer
+repräsentativen Bank
+▶ In der Realität kommt es hingegen immer wieder zu
+Bankenkrisen, die mehr als eine Bank betreffen
+▶ Bankenkrise (banking panic) = simultaner Zusammenbruch
+eines signifikanten Teils des Bankensystems
+▶ Das Risiko des Zusammenbruchs eines signifikanten Teils des
+Finanzsystems bezeichnet man als systemisches Risiko
+
+--- S.579 ---
+Gründe für Bankenkrisen
+▶ Zwei Möglichkeiten:
+(a) Alle Banken werden gleichzeitig von demselben Schock
+(Makroschock) getroffen, z.B. Rezession, Zinsanstieg
+(b) Probleme bei einer einzelnen Bank weiten sich auf das gesamte
+Bankensystem aus = Ansteckung (contagion)
+▶ Beachte: Systemische Risiken sind (neben dem
+Einlegerschutz) die zentrale Begründung für die Regulierung
+des Bankensektors
+
+--- S.580 ---
+(a) Makroökonomische Schocks
+▶ Beobachtung: Bankenkrisen treffen häufig im Zusammenhang
+mit makroökonomischen Schocks auf, zum Beispiel nach
+Zinsanstiegen
+▶ Finanzkrisen traten nach dem Zusammenbruch des
+Bretton-Woods-Systems (weltweites System fester
+Wechselkurse) im Jahr 1973 weit häufiger auf als in der
+Nachkriegszeit
+▶ Mögliche Erklärung: Erhöhte Volatilität wichtiger
+makroökonomischer Variablen wie Zinsen und Wechselkurse
+
+--- S.581 ---
+Makroökonomische Schocks
+▶ Daher spielen makroökonomische Schocks eine wichtige Rolle
+bei der Erklärung von Bankenkrisen
+
+--- S.582 ---
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind über Verträge
+miteinander verflochten, daher können sich Probleme bei einer
+Bank auf das Bankensystem ausweiten (Dominoeffekte)
+(3) Makroökonomische Rückkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+einer Bank beeinflusst die Höhe von Preisen oder Zinsen und
+dadurch indirekt die Liquidität und Solvenz anderer Banken
+(b) Kanäle der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+
+--- S.583 ---
+(3) Makroökonomische Rückkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+einer Bank beeinflusst die Höhe von Preisen oder Zinsen und
+dadurch indirekt die Liquidität und Solvenz anderer Banken
+(b) Kanäle der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+Zusammenbruch einer Bank enthält Informationen über den
+Zustand der anderen Banken
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind über Verträge
+
+--- S.584 ---
+(b) Kanäle der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+Zusammenbruch einer Bank enthält Informationen über den
+Zustand der anderen Banken
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind über Verträge
+miteinander verflochten, daher können sich Probleme bei einer
+Bank auf das Bankensystem ausweiten (Dominoeffekte)
+(3) Makroökonomische Rückkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+
+--- S.585 ---
+(1) Ansteckungseffekte über Information (Chen, JPE 1999)
+▶ A¨hnlicher Modellrahmen wie Diamond/Dybvig, aber mit
+riskanten Projekterträgen und heterogenen Einlegern mit
+unterschiedlichen Informationen über die Bankerträge
+▶ Wenn die Erträge verschiedener Banken korreliert sind, enthält
+der Zusammenbruch einer Bank Informationen über den
+Zustand anderer Banken
+▶ Uninformierte Einleger haben dann den Anreiz, auf ein
+Problem bei einer Bank mit einem Einlagenabzug bei einer
+anderen Bank zu reagieren, um als erste in der Schlange zu
+stehen und eine volle Rückzahlung der Einlage zu erhalten
+(Sequential Service Constraint)
+
+--- S.586 ---
+(2) Ansteckungseffekte über Interbankenverbindlichkeiten
+(Allen/Gale, JPE 2000)
+▶ Modellierung eines Bankensystems mit regionalen
+Liquiditätsschocks
+▶ Ein Interbankenmarkt kann eine optimale Risikoteilung im
+Bankensystem gewährleisten, selbst wenn es auf Ebene der
+Bank eine Unsicherheit über die Liquiditätsnachfrage durch
+die Einleger gibt
+⇒ Liquidität wird über den Interbankenmarkt umverteilt
+▶ In Abwesenheit aggregierter Liquiditätsschocks kann die
+Liquidität immer so umverteilt werden, dass die effiziente
+(First-best-) Lösung erreicht wird
+
+--- S.587 ---
+Ansteckungseffekte über Interbankenverbindlichkeiten
+▶ Ein aggregierter Liquiditätsschock kann über den
+Interbankenmarkt zu einem Zusammenbruch des gesamten
+Finanzsystems führen, selbst wenn der Schock nur eine
+einzelne Bank trifft
+▶ Die vom anfänglichen Liquiditätsschock betroffene Bank
+könnte gezwungen sein, ihre (liquiden) Interbankenforderungen
+und ihre (illiquiden) langfristigen Vermögensgegenstände zu
+liquidieren (letztere mit Liquidationsverlust)
+
+--- S.588 ---
+Ansteckungseffekte über Interbankenverbindlichkeiten
+▶ Wenn die Bank nicht einmal bei Liquidierung in der Lage ist,
+ihre Einlagen zurückzuzahlen, kommt es zu einem Bank Run
+(durch die normalen Einleger, aber auch durch andere
+Banken)
+▶ Beachte: Dieser Run wird nicht durch selbsterfüllende
+Erwartungen getrieben, sondern durch ein fundamentales
+Problem
+▶ Wenn andere Banken durch den Zahlungsausfall der ersten
+Bank Verluste erleiden, kann dies zu weiteren
+Zusammenbrüchen führen, wenn die Verluste groß genug sind
+(Dominoeffekte)
+
+--- S.589 ---
+Ansteckungseffekte über Interbankenverbindlichkeiten
+▶ Die Verletzlichkeit des Finanzsystems hängt von der
+Struktur des Interbankenmarktes ab
+▶ Vollständige Strukturen (alle Banken sind mit allen anderen
+Banken verbunden) sind im Allgemeinen stabiler als
+unvollständige Strukturen (z.B. Kettenstruktur)
+
+--- S.590 ---
+Ansteckungseffekte über Interbankenverbindlichkeiten
+▶ Unverbundene Strukturen (getrennte Systeme) sind stabiler
+als verbundene
+
+--- S.591 ---
+Ansteckungseffekte über Interbankenverbindlichkeiten
+▶ Zentrale Ergebnisse des Aufsatzes von Allen und Gale (2000):
+▶ Interbankenmärkte erfüllen eine wichtige Funktion: Sie
+versichern Banken gegen regionale Liquiditätsschocks
+▶ Aber: Die Vernetzung macht das Finanzsystem gleichzeitig
+instabil, vor allem wenn die Marktstrukturen unvollständig sind
+
+--- S.592 ---
+(3) Ansteckungseffekte über makroökonomische
+Rückkopplungen: Fire Sales
+▶ Bislang sind wir davon ausgegangen, dass die Liquidierung
+illiquider Assets zu einem exogenen Liquidationsverlust führt
+▶ In der Realität werden die Liquidationsverluste hingegen in
+Märkten bestimmt
+▶ Sind gleichzeitig viele Banken gezwungen, Assets zu
+verkaufen, können die Marktpreise unter den fundamentalen
+Wert fallen
+▶ Die zu erzielenden Preise hängen von der im Markt
+verfügbaren Liquidität ab (liquidity pricing)
+
+--- S.593 ---
+Ansteckungseffekte über makroökonomische
+Rückkopplungen: Fire Sales
+▶ Folge: Wenn Banken ihre Assets schnell verkaufen müssen
+(Notverkäufe, fire sales), trifft der sich ergebende Preisverfall
+indirekt alle Halter des Assets
+▶ Solche Effekte dürften am stärksten ausgeprägt sein, wenn
+viele Banken ähnliche Assets in ihren Portfolios halten und
+wenn die Bilanzierungsregeln die Banken zwingen, die Assets
+zu Marktpreisen zu bewerten (mark-to-market accounting)
+
+--- S.594 ---
+Ansteckungseffekte über makroökonomische
+Rückkopplungen: Fire Sales
+▶ Das Verhalten einer Bank hat hier Rückwirkungen auf
+makroökonomische Variablen und beeinflusst somit selbst
+solche Banken, mit denen sie gar nicht direkt über
+Vertragsbeziehungen verbunden ist
+▶ Der ursprüngliche Schock wird durch die makroökonomischen
+Rückkopplungen verstärkt
+▶ Intrinsisch solvente Banken können so insolvent werden,
+obwohl sie solvent wären, wenn die Assets zu ihrem
+fundamentalen Wert bewertet würden
+▶ Diese Art von Effekt scheint in der globalen Finanzkrise eine
+
+--- S.595 ---
+Ansteckungseffekte über makroökonomische
+Rückkopplungen: Deleveraging
+▶ In einer Rezession reduzieren Banken typischerweise ihre
+Bilanzen/Kreditvergabe, um das Risiko zu reduzieren
+(teilweise aus regulatorischen Gründen, weil das Eigenkapital
+der Banken fällt) ⇒ Deleveraging
+▶ Wenn Kreditnehmer von der Bankfinanzierung abhängen
+(insbesondere kleine, intransparente Unternehmen), führt das
+Absinken der Kreditvergabe zu einem Rückgang der
+aggregierten Nachfrage und verstärkt so die Rezession
+(finanzieller Akzelerator)
+▶ Dies hat weitere Feedback-Effekte zur Folge: Zusätzliche
+
+--- S.596 ---
+Ansteckungseffekte über makroökonomische
+Rückkopplungen: Deleveraging
+▶ A¨hnlich wie bei Notverkäufen werden die makroökonomischen
+Schocks durch die Feedback-Effekte im Finanzsektor verstärkt
+▶ Ein Deleveraging kann auch direkte Effekte auf andere
+Banken haben, wenn die Banken ihre Kreditvergabe im
+Interbankenmarkt reduzieren
+▶ Dies ist wie ein Bank Run durch andere Banken
+▶ Es kann die anderen Banken zu Notverkäufen veranlassen und
+damit zu ähnlichen Preisspiralen führen wie oben beschrieben
+
+--- S.597 ---
+Wirtschaftspolitische Relevanz
+▶ Ansteckungseffekte spielen in der wirtschaftspolitischen
+Debatte eine wichtige Rolle
+▶ Angst vor Ansteckungseffekten wird immer wieder als
+Rechtfertigung für staatliche Rettungsmaßnahmen im
+Bankensystem benutzt
+▶ Der Zusammenbruch insolventer Banken wird aus Angst vor
+Ansteckungseffekten verhindert (ähnliche Argumente wurden
+in der Krise im Euroraum für Staaten verwendet)
+▶ Problem:
+▶ Nicht-profitable Banken werden künstlich am Leben erhalten,
+wodurch der Marktmechanismus außer Kraft gesetzt wird
+
+--- S.598 ---
+Empirische Evidenz zu Ansteckungseffekten
+▶ Bislang gibt es nur relativ schwache Evidenz für
+Ansteckungseffekte im Bankensystem über
+Informationskanäle: Die Einleger scheinen relativ gut
+zwischen verschiedenen Banken unterscheiden zu können
+▶ Ansteckungseffekte über Interbankenverbindlichkeiten
+wurden zwar nachgewiesen, können aber aufgrund ihrer relativ
+kleinen Größenordnung die Schwere von Ansteckungseffekten
+im Finanzsystem nicht erklären
+▶ Zunehmende Evidenz für makroökonomische
+Rückkopplungseffekte, über die anfänglich kleine Schocks
+verstärkt werden
+
+--- S.599 ---
+Ansteckungseffekte in der globalen Finanzkrise
+▶ Auslöser der Krise: Einbruch der Immobilienpreise in den USA
+(= makroökonomischer Schock)
+▶ Ansteckungseffekte über Information: Ja, vor allem in
+Interbankenmärkten (auf dem Höhepunkt der Krise auch
+unter den Einlegern)
+▶ Ansteckungseffekte über Interbankenverbindlichkeiten:
+Ja, aber weniger durch traditionelle Interbankenkredite,
+sondern eher durch Kreditderivate, Repos etc. (AIG!)
+▶ Ansteckungseffekte über makroökonomische
+Rückkopplungen: Ja, vor allem für strukturierte Produkte
+(CDOs, mortgage backed securities etc.)

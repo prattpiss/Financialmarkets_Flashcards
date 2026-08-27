@@ -1,0 +1,690 @@
+S.  1: I. Einführung
+S.  2: Ziele der Vorlesung
+S.  3: Ziele der Vorlesung
+S.  4: Organisation der Veranstaltung
+S.  5: Literatur
+S.  6: Literatur
+S.  7: Literatur
+S.  8: Wichtige Hinweise
+S.  9: Kontakt zum Dozenten
+S. 10: II. Die Kapitalstruktur von Unternehmen
+S. 11: Gliederung
+S. 12: Gliederung
+S. 13: IV. Finanzstabilität
+S. 14: Gliederung
+S. 15: Gliederung
+S. 16: I. Einführung
+S. 17: 1. Funktionen des Finanzsystems
+S. 18: Funktionen des Finanzsystems
+S. 19: Wer ist “das Finanzsystem”?
+S. 20: Funktionsweise des Finanzsystems (HOS, Abb. 1.1)
+S. 21: Direkte vs. indirekte Finanzierung
+S. 22: Rolle der verschiedenen Akteure im Finanzsystem
+S. 23: Die wichtigsten Finanzintermediäre
+S. 24: Bilanzverknüpfungen
+S. 25: Hauptfunktionen des Finanzsystems
+S. 26: ▶ Betrachte M Unternehmen und N Haushalte
+S. 27: (1) Reduktion von Transaktionskosten
+S. 28: Beispiel
+S. 29: Beispiel
+S. 30: (2) Reduktion von Informationskosten
+S. 31: Reduktion von Informationskosten
+S. 32: (3) Verbesserung des Risikomanagements
+S. 33: Verbesserung des Risikomanagements
+S. 34: Rolle des Staates
+S. 35: 2. Anleger-/Einlegerschutz
+S. 36: Warum wird das Finanzsystem so streng reguliert?
+S. 37: ▶ Auswirkungen:
+S. 38: Finanzmarktintegration
+S. 39: Finanzsystem und Wirtschaftswachstum
+S. 40: Einfluss des Finanzsystems auf das Wirtschaftswachstum
+S. 41: Kanäle
+S. 42: Positiver Zusammenhang zwischen finanzieller Entwicklung
+S. 43: Korrelation ̸= Kausalität
+S. 44: Ein großes Finanzsystem kann auch schädlich sein
+S. 45: Bank- vs. marktbasierte Finanzsysteme
+S. 46: Finanzsysteme in der EU, Japan und den USA
+S. 47: Finanzsysteme in der EU, Japan und den USA
+S. 48: Finanzsysteme innerhalb der EU (HOS, Abb. 1.4)
+S. 49: Argumente für ein bankbasiertes System
+S. 50: Argumente für ein marktbasiertes System
+S. 51: Corporate Governance
+S. 52: Bank- und Marktbasierung und Wirtschaftswachstum
+S. 53: Komplementarität von Finanzmärkten und -intermediären
+S. 54: Overbanking in Europa?
+S. 55: Bedeutung des Rechtssystems
+S. 56: 2. Zunehmende Vernetzung des Finanzsystems:
+S. 57: Trends im Finanzsystem
+S. 58: 4. Wachstum des “Schattenbankensektors” (Hedgefonds,
+S. 59: 5. Digitalisierung bedroht Geschäftsmodelle von traditionellen
+S. 60: Trends im Finanzsystem
+S. 61: Fazit
+S. 62: I. Einführung
+S. 63: 2. Die globale Finanzkrise und ihre Auswirkungen
+S. 64: ▶ Krise der Savings and Loans in den USA (1980er Jahre)
+S. 65: 2.1 Stilisierte Fakten über Finanzkrisen
+S. 66: Arten von Finanzkrisen
+S. 67: > 200 Jahre Bank Runs weltweit
+S. 68: Kosten von Bankenkrisen (Laeven und Valencia, 2013)
+S. 69: Arten von Finanzkrisen
+S. 70: Arten von Finanzkrisen
+S. 71: Arten von Finanzkrisen
+S. 72: Arten von Finanzkrisen
+S. 73: Arten von Finanzkrisen
+S. 74: 2.2 Die globale Finanzkrise von 2007–2009
+S. 75: need to hasten labour and product market reforms to boost productivity
+S. 76: Krise am Immobilienmarkt
+S. 77: Krise am Immobilienmarkt
+S. 78: Makroökonomisches Umfeld
+S. 79: Ausweitung zu einer globalen Krise
+S. 80: Aufbau von Risiken im globalen Finanzsystem
+S. 81: Illusion der verbesserten Risikoteilung
+S. 82: Beginn der Finanzkrise
+S. 83: Zusammenbruch von Lehman Brothers
+S. 84: Liquiditätsspiralen (Brunnermeier und Pedersen, 2009)
+S. 85: Akutes Krisenmanagement
+S. 86: Reform der Finanzmarktregulierung
+S. 87: 2.3 Die Krise im Euroraum
+S. 88: Ansteckungseffekte im Euroraum
+S. 89: Ansteckungseffekte im Euroraum
+S. 90: Eine wichtige Ursache: Staaten-Banken-Nexus
+S. 91: Krisenmanagement
+S. 92: “Whatever it takes”
+S. 93: Neue Herausforderungen
+S. 94: Wirtschafts- und Finanzpolitik
+S. 95: Kurzarbeitergeld
+S. 96: Aus der Vergangenheit lernen
+S. 97: Fazit
+S. 98: I. Einführung
+S. 99: II. Die Kapitalstruktur von Unternehmen
+S.100: I. Einführung
+S.101: 3. Die Kapitalstruktur in einem vollkommenen Markt und
+S.102: 3.1 Finanzierung durch Eigen- oder Fremdkapital
+S.103: Kapitalstruktur
+S.104: Eigenkapital vs. Fremdkapital
+S.105: Beispiel
+S.106: Beispiel
+S.107: Finanzierung über Eigenkapital
+S.108: Finanzierung über Eigenkapital
+S.109: ▶ Der Zins entspricht dem risikolosen Zins von 5%, da in beiden
+S.110: Finanzierung über Fremd- und Eigenkapital
+S.111: Finanzierung über Fremd- und Eigenkapital
+S.112: Gesetz des einheitlichen Preises
+S.113: Wert des Eigenkapitals im verschuldeten Unternehmen
+S.114: Auswirkung der Verschuldung auf Risiko und Rendite
+S.115: Auswirkung der Verschuldung auf Risiko und Rendite
+S.116: Auswirkung der Verschuldung auf Risiko und Rendite
+S.117: 3.2 Das Modigliani-Miller-Theorem
+S.118: Bedingungen für das Modigliani-Miller-Theorem
+S.119: Nachbildung alternativer Verschuldungsstrukturen
+S.120: Fall 1: Nachbildung von Verschuldung über Homemade
+S.121: Fall 1: Nachbildung von Verschuldung über Homemade
+S.122: Fall 2: Nachbildung von Eigenkapital ohne Verschuldung
+S.123: Nachbildung alternativer Verschuldungsstrukturen
+S.124: Homemade Leverage und Arbitrage
+S.125: ▶ Kaufe das “billige” Unternehmen 1 und verkaufe das “teure”
+S.126: Homemade Leverage und Arbitrage
+S.127: Homemade Leverage und Arbitrage
+S.128: Die Marktwertbilanz
+S.129: Die Marktwertbilanz
+S.130: ▶ Annahme: Wert der Vermögensgegenstände des Unternehmens
+S.131: Beispiel: Bewertung des Eigenkapitals mit mehreren
+S.132: Anwendung: Gehebelte Rekapitalisierung
+S.133: Anwendung: Gehebelte Rekapitalisierung
+S.134: Anwendung: Gehebelte Rekapitalisierung
+S.135: Anwendung: Gehebelte Rekapitalisierung
+S.136: Anwendung: Gehebelte Rekapitalisierung
+S.137: ¨
+S.138: 3.3 Kapitalstruktur und Eigenkapitalkosten
+S.139: Kapitalstruktur und Eigenkapitalkosten
+S.140: Zusammenhang zwischen Verschuldung und
+S.141: Zusammenhang zwischen Verschuldung und
+S.142: Zusammenhang zwischen Verschuldung und
+S.143: Beispiel (von vorne)
+S.144: Investitionsplanung und gewichtete durchschnittliche
+S.145: Investitionsplanung und gewichtete durchschnittliche
+S.146: Kapitalkosten und Verschuldung
+S.147: Operations Management
+S.148: Kapitalkosten und Verschuldung
+S.149: Operations Management
+S.150: Kapitalkosten und Verschuldung
+S.151: Berechnung der WACC für alternative Kapitalstrukturen
+S.152: Beispiel 14.5: Reduktion der Verschuldung und der
+S.153: Beispiel 14.5: Reduktion der Verschuldung und der
+S.154: Beispiel 14.5: Reduktion der Verschuldung und der
+S.155: Beispiel 14.5: Reduktion der Verschuldung und der
+S.156: Beispiel 14.5: Reduktion der Verschuldung und der
+S.157: Ein häufiger Fehler: Ist Fremdkapital besser als
+S.158: Exkurs: Beta als Maß des systematischen Risikos
+S.159: Exkurs: Beta als Maß des systematischen Risikos
+S.160: Exkurs: Beta als Maß des systematischen Risikos
+S.161: Betafaktoren des Eigenkapitals des unverschuldeten und
+S.162: Betafaktoren des Eigenkapitals des unverschuldeten und
+S.163: Beispiel: Betas und Verschuldung
+S.164: Beispiel: Betas und Verschuldung
+S.165: Barmittel und Kapitalkosten
+S.166: ▶ Wie hoch war der operative Unternehmenswert von Cisco
+S.167: Beispiel: Barmittel und Kapitalkosten
+S.168: Beispiel: Barmittel und Kapitalkosten
+S.169: Beispiel: Barmittel und Kapitalkosten
+S.170: 3.4 Trugschlüsse bei der Kapitalstruktur
+S.171: Verschuldungsgrad und Gewinn je Aktie
+S.172: Verschuldungsgrad und Gewinn je Aktie
+S.173: Verschuldungsgrad und Gewinn je Aktie
+S.174: Verschuldungsgrad und Gewinn je Aktie
+S.175: ▶ Nein, weil sich gleichzeitig das Risiko erhöht hat
+S.176: Verschuldungsgrad und Gewinn je Aktie
+S.177: Verschuldungsgrad und Gewinn je Aktie
+S.178: Verschuldungsgrad und Gewinn je Aktie
+S.179: Verschuldungsgrad und Gewinn je Aktie
+S.180: ▶ Frage: Was sagen Sie zu dem damals von Josef Ackermann
+S.181: Verschuldungsgrad und Gewinn je Aktie
+S.182: Aktienemission und Kapitalverwässerung
+S.183: Aktienemission und Kapitalverwässerung
+S.184: Aktienemission und Kapitalverwässerung
+S.185: Aktienemission und Kapitalverwässerung
+S.186: Aktienemission und Kapitalverwässerung
+S.187: ¨
+S.188: 3.5 Fazit
+S.189: 4. Der Einfluss von Marktunvollkommenheiten auf die
+S.190: 4. Der Einfluss von Marktunvollkommenheiten auf die
+S.191: Der Einfluss von Marktunvollkommenheiten auf die
+S.192: 4.1 Fremdkapital und Steuern
+S.193: 4.1.1 Der fremdfinanzierungsbedingte Steuervorteil
+S.194: Der fremdfinanzierungsbedingte Steuervorteil
+S.195: Der frGemrudnfidlnaagnezni edreur nFginsabnezdwinirgtstechSaftteuervor
+S.196: ▶ Die Differenz entspricht der Steuerminderung aufgrund der
+S.197: Der fremdfinanzierungsbedingte Steuervorteil
+S.198: Der fremdfinanzierungsbedingte Steuervorteil
+S.199: Bewertung des fremdfinanzierungsbedingten Steuervorteils
+S.200: Fremdfinanzierungsbedingter Steuervorteil und
+S.201: OFpreemradtfiionnanszMiearunnaggsebmedeinngtter Steuervorteil und
+S.202: Exkurs: Barwertberechnung – Ewige Rente
+S.203: Exkurs: Barwertberechnung – Annuität
+S.204: Beispiel: Bewertung des fremdfinanzierungsbedingten
+S.205: Beispiel: Bewertung des fremdfinanzierungsbedingten
+S.206: Fremdfinanzierungsbedingter Steuervorteil und
+S.207: Der fremdfinanzierungsbedingte Steuervorteil bei einer
+S.208: Der fremdfinanzierungsbedingte Steuervorteil bei einer
+S.209: Der fremdfinanzierungsbedingte Steuervorteil bei einer
+S.210: Auswirkungen auf die Kapitalkosten (nach Steuern)
+S.211: Auswirkungen auf die Kapitalkosten (nach Steuern)
+S.212: Auswirkungen auf die Kapitalkosten (nach Steuern)
+S.213: Auswirkungen auf die Kapitalkosten (nach Steuern)
+S.214: Der fremdfinanzierungsbedingte Steuervorteil bei einem
+S.215: Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+S.216: ▶ WACC nach Steuern:
+S.217: ▶ Ergebnis: Der Barwert des fremdfinanzierungsbedingten
+S.218: Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+S.219: 4.1.2 Rekapitalisierung zur Nutzung von Steuervorteilen
+S.220: Der Steuervorteil
+S.221: Der Steuervorteil
+S.222: Der Aktienrückkauf
+S.223: Der Aktienrückkauf
+S.224: Arbitragefreie Bewertung
+S.225: Arbitragefreie Bewertung
+S.226: Arbitragefreie Bewertung
+S.227: Beispiel 15.4: Ein alternativer Rückkaufspreis
+S.228: ▶ Liegt der Rückkaufspreis darüber, wollen alle Aktionäre ihre
+S.229: Beispiel 15.4: Ein alternativer Rückkaufspreis
+S.230: Analyse der Rekapitalisierung: Die Marktwertbilanz
+S.231: Analyse der Rekapitalisierung: Die Marktwertbilanz
+S.232: 4.1.3 Steuern auf Investorenebene
+S.233: Steuern auf Investorenebene und der
+S.234: Steuern auf Investorenebene und der
+S.235: Steuern auf Investorenebene und der
+S.236: Operations Management
+S.237: Steuern auf Investorenebene und der
+S.238: Steuersystem in Deutschland
+S.239: Steuersystem in Deutschland
+S.240: Steuern auf Investorenebene und der
+S.241: Steuern auf Investorenebene und der
+S.242: Steuervorteil aus Fremdkapital mit und ohne Steuern
+S.243: Bewertung des fremdfinanzierungsbedingten Steuervorteils
+S.244: Bewertung des fremdfinanzierungsbedingten Steuervorteils
+S.245: Ermittlung des tatsächlichen Steuervorteils aus dem
+S.246: Ermittlung des tatsächlichen Steuervorteils aus dem
+S.247: Ermittlung des tatsächlichen Steuervorteils aus dem
+S.248: Ermittlung des tatsächlichen Steuervorteils aus dem
+S.249: Ermittlung des tatsächlichen Steuervorteils aus dem
+S.250: 4.1.4 Die optimale Kapitalstruktur mit Steuern
+S.251: Neuemissionen von Eigenkapital und Fremdkapital (USA)
+S.252: Neuemissionen von Eigenkapital und Fremdkapital (USA)
+S.253: Neuemissionen von Eigenkapital und Fremdkapital (USA)
+S.254: Fremdkapitalquote von Unternehmen (USA)
+S.255: Bevorzugen Unternehmen Fremdkapital?
+S.256: Branchenunterschiede
+S.257: Branchenunterschiede
+S.258: Branchenunterschiede
+S.259: Bevorzugen Unternehmen Fremdkapital?
+S.260: Beschränkungen des Steuervorteils aus dem Fremdkapital
+S.261: Steuerersparnis bei unterschiedlicher Verschuldung
+S.262: Steuerersparnis bei unterschiedlicher Verschuldung
+S.263: Steuerersparnis bei unterschiedlicher Verschuldung
+S.264: Folgen der hohen Verschuldung
+S.265: Optimale Verschuldung
+S.266: Steuerersparnis und Zinsaufwand
+S.267: Steuerersparnis und Zinsaufwand
+S.268: Unternehmenswachstum und Fremdkapital
+S.269: Unternehmenswachstum und Fremdkapital
+S.270: Sonstige Steuervorteile
+S.271: Das Rätsel der geringen Verschuldung
+S.272: OperZaintisozanhsluMngaennaugndemEBeInTtim S&P 500 (USA)
+S.273: Zinszahlungen und EBIT im S&P 500 (USA)
+S.274: Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+S.275: Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+S.276: Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+S.277: Das Rätsel der geringen Verschuldung
+S.278: ¨
+S.279: 4.1.5 Fazit
+S.280: Fazit
+S.281: 4.2 Konkurskosten, Managementanreize und
+S.282: 4.2.1 Konkurskosten und der Unternehmenswert
+S.283: Konkurskosten und der Unternehmenswert
+S.284: Konkurskosten und der Unternehmenswert
+S.285: Zahlungsausfall und Insolvenz im vollkommenen Markt
+S.286: Szenario 1: Das neue Produkt wird ein Erfolg
+S.287: ▶ Nein! Auch wenn das Unternehmen am Ende des Jahres nicht
+S.288: Szenario 1: Das neue Produkt wird ein Erfolg
+S.289: Szenario 1: Das neue Produkt wird ein Erfolg
+S.290: Szenario 1: Das neue Produkt wird ein Erfolg
+S.291: Szenario 2: Das neue Produkt wird ein Misserfolg
+S.292: Szenario 2: Das neue Produkt wird ein Misserfolg
+S.293: Vergleich der Szenarien
+S.294: Vergleich der Szenarien
+S.295: Insolvenz und Kapitalstruktur im vollkommenen
+S.296: Beispiel 16.1: Konkursrisiko und Unternehmenswert im
+S.297: Beispiel 16.1: Konkursrisiko und Unternehmenswert im
+S.298: Kosten der Insolvenz und finanzieller Notlagen
+S.299: Direkte Konkurskosten
+S.300: Direkte Konkurskosten
+S.301: Indirekte Konkurskosten
+S.302: Indirekte Konkurskosten
+S.303: Gesamtauswirkung der indirekten Kosten
+S.304: Konkurskosten und Unternehmenswert
+S.305: Konkurskosten und Unternehmenswert
+S.306: Beispiel 16.2: Unternehmenswert bei Konkurskosten
+S.307: Beispiel 16.2: Unternehmenswert bei Konkurskosten
+S.308: Wer zahlt die Konkurskosten?
+S.309: Wer zahlt die Konkurskosten?
+S.310: Beispiel 16.3: Konkurskosten und Aktienkurs
+S.311: ▶ Neuer Aktienkurs:
+S.312: Beispiel 16.3: Konkurskosten und Aktienkurs
+S.313: ▶ Die Rekapitalisierung kostet die Aktionäre also 0,95 Euro pro
+S.314: Beispiel 16.3: Konkurskosten und Aktienkurs
+S.315: Optimale Kapitalstruktur: Die Trade-Off-Theorie
+S.316: Der Barwert der Konkurskosten
+S.317: Der Barwert der Konkurskosten
+S.318: Der Barwert der Konkurskosten
+S.319: Der Barwert der Konkurskosten
+S.320: Optimale Verschuldung
+S.321: Optimale Verschuldung
+S.322: Optimale Verschuldung
+S.323: Optimale Verschuldung
+S.324: Optimale Kapitalstruktur: Die Trade-Off-Theorie
+S.325: Beispiel 16.4: Die Wahl der optimalen Fremdkapitalhöhe
+S.326: ▶ Der Steuervorteil wächst linear, während der Barwert der
+S.327: Grundlagen der Finanzwirtschaft
+S.328: ▶ Selbst die Konkurskosten können empirisch die beobachteten
+S.329: Fazit: Konkurskosten und Unternehmenswert
+S.330: 4.2.2 Agency-Theorie der Verschuldung
+S.331: Agency-Probleme der Verschuldung
+S.332: Agency-Kosten und Agency-Nutzen der Verschuldung
+S.333: Agency-Kosten der Verschuldung
+S.334: Beispiel: Agency-Kosten der Verschuldung
+S.335: Beispiel: Agency-Kosten der Verschuldung
+S.336: ¨
+S.337: ¨
+S.338: ▶ Wenn nichts unternommen wird, gerät Baxter mit Sicherheit in
+S.339: ¨
+S.340: ¨
+S.341: ¨
+S.342: ¨
+S.343: ¨
+S.344: (b) Schuldenüberhang und Unterinvestition
+S.345: Schuldenüberhang und Unterinvestition
+S.346: Schuldenüberhang und Unterinvestition
+S.347: ¨
+S.348: ¨
+S.349: Größe des Schuldenüberhangs
+S.350: Größe des Schuldenüberhangs
+S.351: Größe des Schuldenüberhangs
+S.352: Agency-Kosten und Wert der Verschuldung
+S.353: Agency-Kosten und Wert der Verschuldung
+S.354: Agency-Kosten und Wert der Verschuldung
+S.355: Agency-Kosten und Wert der Verschuldung
+S.356: ▶ Ohne Strategieänderung ist das Unternehmen 900.000 Euro
+S.357: Beispiel: Agency-Kosten und Wert der Verschuldung
+S.358: ▶ Die Anteilseigner erhalten nun eine erwartete Auszahlung von:
+S.359: Beispiel: Agency-Kosten und Wert der Verschuldung
+S.360: ▶ Werden 100.000 Euro investiert, so dass der
+S.361: Beispiel: Agency-Kosten und Wert der Verschuldung
+S.362: ▶ Wenn das Unternehmen die Geräte verkauft, erhalten die
+S.363: Beispiel: Agency-Kosten und Wert der Verschuldung
+S.364: Sperrklinkeneffekt der Verschuldung
+S.365: Sperrklinkeneffekt der Verschuldung
+S.366: ▶ Nach dem Rückkauf der Schulden sind diese risikolos, also
+S.367: Beispiel: Schuldenüberhang und Sperrklinkeneffekt
+S.368: Beispiel: Schuldenüberhang und Sperrklinkeneffekt
+S.369: Fälligkeit des Fremdkapitals und Covenants
+S.370: Fälligkeit des Fremdkapitals und Covenants
+S.371: Agency-Nutzen der Verschuldung
+S.372: Agency-Nutzen der Verschuldung
+S.373: (a) Höhere Konzentration des Eigentums
+S.374: Beispiel: Konzentration des Eigentums
+S.375: Beispiel: Konzentration des Eigentums
+S.376: Beispiel: Konzentration des Eigentums
+S.377: Beispiel: Konzentration des Eigentums
+S.378: Beispiel: Konzentration des Eigentums
+S.379: ▶ Wenn die Wertpapiere fair bewertet sind, zahlt der
+S.380: Beispiel: Konzentration des Eigentums
+S.381: Beispiel: Konzentration des Eigentums
+S.382: Beispiel: Konzentration des Eigentums
+S.383: ⇒ Empire Building, Overconfidence, Free Cashflows
+S.384: (b) Reduzierung von Fehlinvestitionen
+S.385: Empire Building
+S.386: Overconfidence
+S.387: Geringere Free Cashflows
+S.388: (c) Geringere Handlungsautonomie
+S.389: Geringere Handlungsautonomie
+S.390: Agency-Kosten und die Trade-Off-Theorie
+S.391: Agency-Kosten und die Trade-Off-Theorie
+S.392: Das optimale Fremdkapitalniveau
+S.393: ▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+S.394: Das optimale Fremdkapitalniveau
+S.395: ▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+S.396: Das optimale Fremdkapitalniveau
+S.397: Verschuldungsniveaus in der Praxis
+S.398: 4.2.3 Asymmetrische Information und Kapitalstruktur
+S.399: Asymmetrische Information und Kapitalstruktur
+S.400: Beispiel: Verschuldung als glaubwürdiges Signal
+S.401: Verschuldung als glaubwürdiges Signal
+S.402: Verschuldung als glaubwürdiges Signal
+S.403: Verschuldung als glaubwürdiges Signal
+S.404: Beispiel: Fremdkapital signalisiert Stärke
+S.405: Beispiel: Fremdkapital signalisiert Stärke
+S.406: Das Problem der adversen Selektion
+S.407: Das Problem der adversen Selektion
+S.408: Das Problem der adversen Selektion
+S.409: Eigenkapitalemission und adverse Selektion
+S.410: Eigenkapitalemission und adverse Selektion
+S.411: Beispiel: Adverse Selektion in Kapitalmärkten
+S.412: Beispiel: Adverse Selektion in Kapitalmärkten
+S.413: Eigenkapitalemission und adverse Selektion
+S.414: Beispiel: Eigenkapitalemission und adverse Selektion
+S.415: Beispiel: Eigenkapitalemission und adverse Selektion
+S.416: Beispiel: Eigenkapitalemission und adverse Selektion
+S.417: Beispiel: Eigenkapitalemission und adverse Selektion
+S.418: Eigenkapitalemission und adverse Selektion
+S.419: Auswirkungen auf die Eigenkapitalemission
+S.420: Auswirkungen auf die Eigenkapitalemission
+S.421: Auswirkungen auf die Kapitalstruktur
+S.422: Die Hackordnung der Finanzierung
+S.423: Die Hackordnung der Finanzierung
+S.424: Beispiel: Die Hackordnung der Finanzierung
+S.425: Beispiel: Die Hackordnung der Finanzierung
+S.426: Auswirkungen auf die Kapitalstruktur
+S.427: ¨
+S.428: 4.3 Fazit: Kapitalstruktur
+S.429: Fazit: Kapitalstruktur
+S.430: Fazit: Kapitalstruktur
+S.431: III. Finanzinstitutionen
+S.432: III. Finanzinstitutionen
+S.433: Finanzinstitutionen
+S.434: Zur Erinnerung: Funktionsweise des Finanzsystems
+S.435: III. Finanzinstitutionen
+S.436: 5. Funktionen von Banken
+S.437: Funktionen von Banken
+S.438: Legaldefinition im Kreditwesengesetz (KWG), § 1
+S.439: Legaldefinition im Kreditwesengesetz (KWG), § 1
+S.440: ▶ Marktzutrittsbarrieren (Zulassungserfordernis)
+S.441: Regulierung
+S.442: Banken versus Märkte
+S.443: Banken versus Märkte
+S.444: Funktionen von Banken im Zahlungssystem
+S.445: Geldarten
+S.446: Transformation von Vermögensgegenständen durch Banken
+S.447: 1. Losgrößentransformation
+S.448: 2. Fristentransformation
+S.449: 3. Risikotransformation
+S.450: Gesamtemission vs. einzelne
+S.451: U¨ber Sekundärmärkte
+S.452: U¨ber Diversifikation oder spezielle
+S.453: Banken versus Märkte
+S.454: Irrelevanz von Banken in vollkommenen Kapitalmärkten
+S.455: Irrelevanz von Banken in vollkommenen Kapitalmärkten
+S.456: III. Finanzinstitutionen
+S.457: 5.1 Versicherung gegen Liquiditätsschocks
+S.458: Motivation
+S.459: Motivation
+S.460: Zentrale Ergebnisse des Modells
+S.461: Annahmen
+S.462: 2 Produktionstechnologien
+S.463: Konsumenten
+S.464: Risikoaversion
+S.465: ▶ Beobachtbarkeit:
+S.466: Gesetz der Großen Zahlen
+S.467: Analyseschritte
+S.468: unter den Nebenbedingungen:
+S.469: (a) Autarkie
+S.470: Ergebnis
+S.471: ▶ Neue Nebenbedingungen der Konsumenten:
+S.472: (b) Finanzmarkt
+S.473: ▶ Folge:
+S.474: Gleichgewicht
+S.475: Gleichgewicht
+S.476: Ergebnis
+S.477: (c) Pareto-optimale Allokation (First-best-Lösung)
+S.478: Bedingungen erster Ordnung
+S.479: ⇒ Die Marktlösung verletzt die FOC, ist also nicht effizient!
+S.480: ▶ Folge: C 1 muss erhöht und C 2 muss gesenkt werden!
+S.481: Interpretation
+S.482: Liquiditätsversicherung
+S.483: 1. Typ 1 möchte Typ 2 nicht imitieren, weil ihm Konsum im
+S.484: (d) Implementierung der First-best-Lösung durch einen
+S.485: Implementierung der First-best-Lösung durch
+S.486: ▶ Ein Typ-1-Einleger kann sich nicht dadurch verbessern, dass er
+S.487: Gleichgewicht
+S.488: Fazit
+S.489: ¨
+S.490: Kritische Würdigung von Diamond/Dybvig (1983)
+S.491: III. Finanzinstitutionen
+S.492: 5.2 Delegierte Kontrolle
+S.493: ▶ Lösung: Durch die gleichzeitige Finanzierung mehrerer
+S.494: Grundidee des Modells
+S.495: Asymmetrische Information in Finanzierungsbeziehungen
+S.496: Asymmetrische Information in Finanzierungsbeziehungen
+S.497: ▶ Beispiel 2:
+S.498: Asymmetrische Information in Finanzierungsbeziehungen
+S.499: Informationsproblem bei Diamond (1984)
+S.500: Annahmen des Modells
+S.501: Investitionsprojekte der Unternehmer
+S.502: ⇒ Unternehmer würde immer behaupten, der Ertrag sei gleich
+S.503: (a) Direkte Finanzierung
+S.504: Direkte Finanzierung
+S.505: 1. Vertrag mit Kontrolle
+S.506: 2. Anreizkompatibler Vertrag mit nicht-monetären Strafen
+S.507: ▶ Strafe muss hoch genug sein, um Anreizwirkung zu erzielen
+S.508: Optimaler Finanzkontrakt
+S.509: Optimaler Finanzkontrakt
+S.510: Optimaler Finanzkontrakt
+S.511: Wohlfahrtskosten des Finanzkontrakts mit Strafen
+S.512: ▶ Bedingung: m·K <E[ϕ∗(z(y))]
+S.513: Vertrag mit Kontrolle vs. anreizkompatibler Vertrag
+S.514: (b) Indirekte Finanzierung über einen Finanzintermediär
+S.515: ▶ Kontrolle des Unternehmers durch den FI, um
+S.516: Delegierte Kontrolle
+S.517: Delegationskosten und Diversifikation
+S.518: Wann ist eine Delegierung der Kontrolle optimal?
+S.519: ▶ Für große N konvergieren der Ertrag des Portfolios (pro
+S.520: Vorteilhaftigkeit der Delegation
+S.521: Vorteilhaftigkeit der Delegation
+S.522: Zusammenfassung
+S.523: Kritische Würdigung von Diamond (1984)
+S.524: Kritische Würdigung von Diamond (1984)
+S.525: Kritische Würdigung von Diamond (1984)
+S.526: III. Finanzinstitutionen
+S.527: IV. Finanzstabilität
+S.528: III. Finanzinstitutionen
+S.529: 6. Finanzkrisen und systemische Risiken
+S.530: III. Finanzinstitutionen
+S.531: 6.1 Das Grundproblem
+S.532: Wiederholung: Grundidee des Modells
+S.533: ▶ Einlagenvertrag unterliegt einer Sequential Service
+S.534: Einlagenvertrag
+S.535: Einlagenvertrag
+S.536: Gutes Gleichgewicht
+S.537: ▶ Typ 1 kann sich nicht dadurch verbessern, dass er seine
+S.538: Gutes Gleichgewicht
+S.539: Schlechtes Gleichgewicht
+S.540: ▶ Ein Einlagenabzug in Periode 2 erbringt nun auf jeden Fall
+S.541: Schlechtes Gleichgewicht
+S.542: ▶ Das Bank-Run-Gleichgewicht ist ex ante strikt schlechter als
+S.543: Schlechtes Gleichgewicht
+S.544: ▶ Diamond/Dybvig (1983): Wenn die “Wahrscheinlichkeit”
+S.545: Schlechtes Gleichgewicht
+S.546: Bank Run als Koordinationsproblem
+S.547: III. Finanzinstitutionen
+S.548: ▶ Dies entspricht gerade der Autarkielösung!
+S.549: 6.2 Narrow Banking
+S.550: III. Finanzinstitutionen
+S.551: ▶ Folge: In Periode 2 werden auf jeden Fall noch genügend
+S.552: 6.3 Aufhebung der Konvertibilität und
+S.553: Aufhebung der Konvertibilität
+S.554: ▶ Um Runs vollständig zu vermeiden, muss die Konvertibilität
+S.555: Aggregiertes Liquiditätsrisiko
+S.556: ▶ Folge: Typ-2-Konsumenten haben keinen Anreiz, die Bank zu
+S.557: Einlagenversicherung
+S.558: Einlagenversicherung und aggregiertes Liquiditätsrisiko
+S.559: ▶ Einlagenversicherungen können zu Moral Hazard führen
+S.560: Probleme der Einlagenversicherung
+S.561: Kritische Würdigung von Diamond/Dybvig (1983) als
+S.562: Kritische Würdigung von Diamond/Dybvig (1983)
+S.563: Kritische Würdigung von Diamond/Dybvig (1983)
+S.564: Kritische Würdigung von Diamond/Dybvig (1983)
+S.565: Kritische Würdigung von Diamond/Dybvig (1983)
+S.566: III. Finanzinstitutionen
+S.567: ▶ Idee: Die Möglichkeit eines Runs kann die Bank in ihrem
+S.568: 6.4 Effiziente Bank Runs
+S.569: Calomiris/Kahn (AER 1991)
+S.570: Calomiris/Kahn (AER 1991)
+S.571: Kritische Würdigung von Calomiris/Kahn (1991)
+S.572: Kritische Würdigung von Calomiris/Kahn (1991)
+S.573: Wirtschaftspolitische Relevanz
+S.574: Marktdisziplin
+S.575: Schaffung von Marktdisziplin über nachrangige Schulden
+S.576: Schaffung von Marktdisziplin über nachrangige Schulden
+S.577: III. Finanzinstitutionen
+S.578: 6.5 Ansteckungseffekte im Finanzsystem
+S.579: Gründe für Bankenkrisen
+S.580: (a) Makroökonomische Schocks
+S.581: Makroökonomische Schocks
+S.582: (2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+S.583: (3) Makroökonomische Rückkopplungen (Diamond/Rajan,
+S.584: (b) Kanäle der Ansteckung im Bankensystem
+S.585: (1) Ansteckungseffekte über Information (Chen, JPE 1999)
+S.586: (2) Ansteckungseffekte über Interbankenverbindlichkeiten
+S.587: Ansteckungseffekte über Interbankenverbindlichkeiten
+S.588: Ansteckungseffekte über Interbankenverbindlichkeiten
+S.589: Ansteckungseffekte über Interbankenverbindlichkeiten
+S.590: Ansteckungseffekte über Interbankenverbindlichkeiten
+S.591: Ansteckungseffekte über Interbankenverbindlichkeiten
+S.592: (3) Ansteckungseffekte über makroökonomische
+S.593: Ansteckungseffekte über makroökonomische
+S.594: Ansteckungseffekte über makroökonomische
+S.595: Ansteckungseffekte über makroökonomische
+S.596: Ansteckungseffekte über makroökonomische
+S.597: Wirtschaftspolitische Relevanz
+S.598: Empirische Evidenz zu Ansteckungseffekten
+S.599: Ansteckungseffekte in der globalen Finanzkrise
+S.600: III. Finanzinstitutionen
+S.601: 6.6 Der Lender of Last Resort
+S.602: Der Lender of Last Resort bei Bagehot (1873)
+S.603: ▶ Bei aggregierten Liquiditätsengpässen ist nur die
+S.604: Fragen und Probleme
+S.605: ▶ Die Zentralbank unterliegt ähnlichen Informationsproblemen
+S.606: Fragen und Probleme
+S.607: ▶ Banken verlassen sich darauf, dass sie im Krisenfall unterstützt
+S.608: Fragen und Probleme
+S.609: ▶ Widerspruch zur Preisstabilität (in Krisenzeiten häufig kein
+S.610: Fragen und Probleme
+S.611: Empirische Evidenz
+S.612: Empirische Evidenz
+S.613: Die EZB als Retterin der Banken
+S.614: Der Lender of Last Resort in der globalen Finanzkrise
+S.615: Erreichen der Nullzinsgrenze und der Beginn von QE
+S.616: Erreichen der Nullzinsgrenze und der Beginn von QE
+S.617: Bewertung der EZB-Politik
+S.618: Risiken der lockeren Geldpolitik
+S.619: III. Finanzinstitutionen
+S.620: 6.7 Das “Too-big-to-fail”-Phänomen
+S.621: Das Zeitinkonsistenzproblem der Bankenrettung
+S.622: Kapitel 5 – Der weite Weg zu mehr Finanzstabilität in Deutschland und 
+S.623: Auswirkungen staatlicher Garantien
+S.624: Empirie
+S.625: ▶ Banken können nicht nur “too big to fail” sein, sondern auch
+S.626: Sonstige Aspekte
+S.627: ▶ Schließlich kann Systemrelevanz auch durch eine sehr große
+S.628: Sonstige Aspekte
+S.629: Wirtschaftspolitische Implikationen
+S.630: Fazit
+S.631: Fazit
+S.632: 7. Bankenregulierung
+S.633: 7. Bankenregulierung
+S.634: Bankenregulierung
+S.635: (2) Anleger-/Einlegerschutz:
+S.636: 7.1 Gründe für Bankenregulierung
+S.637: (1) Systemisches Risiko
+S.638: ▶ Rückgang der Kreditvergabe, Kreditklemme
+S.639: Auswirkungen von Bankenkrisen auf Nicht-Banken
+S.640: ▶ Zusammenbruch enthält kaum Informationen
+S.641: Vergleich mit Nicht-Banken
+S.642: (2) Anleger-/Einlegerschutz
+S.643: 7.2 Eigenkapitalregulierung
+S.644: Eigenkapitalregulierung
+S.645: Eigenkapitalregulierung
+S.646: Geschichte der Eigenkapitalregulierung
+S.647: Geschichte der Eigenkapitalregulierung
+S.648: Basel I
+S.649: Basel I
+S.650: Kritik an Basel I
+S.651: Basel II
+S.652: Kritik an Basel II
+S.653: Basel III
+S.654: Basel III
+S.655: Basel III
+S.656: ▶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+S.657: ▶ Besondere Regulierung systemrelevanter Finanzinstitute
+S.658: Basel III
+S.659: Andere neue Regulierungen (Auszug)
+S.660: Der weite Weg zu mehr Finanzstabilität in Deutschland und Europa – Kap
+S.661: 7.3 Funktionen der Eigenkapitalregulierung
+S.662: (1) Puffer gegen Verluste
+S.663: (2) Frühzeitige Eingriffsmöglichkeit für die Bankenaufsicht
+S.664: (3) Anreizeffekte
+S.665: Anreizeffekte
+S.666: Anreizeffekte
+S.667: 7.4 Schwächen der Vorkrisen-Regulierung
+S.668: (1) Systemisches Risiko
+S.669: Systemisches Risiko
+S.670: (2) Prozyklizität der Eigenkapitalregulierung
+S.671: Prozyklizität der Eigenkapitalregulierung
+S.672: Prozyklizität der Eigenkapitalregulierung
+S.673: (3) Starke Betonung von Risiken der Aktivseite
+S.674: 7.5 Die Regulierung des systemischen Risikos
+S.675: Regulierung des systemischen Risikos
+S.676: Regulierung des systemischen Risikos
+S.677: Ziele einer Regulierung systemrelevanter Banken
+S.678: Mögliche Regulierungsmaßnahmen
+S.679: Mögliche Regulierungsmaßnahmen
+S.680: Spezielle Abwicklungsmechanismen für Banken
+S.681: Spezielle Abwicklungsmechanismen für Banken
+S.682: Der weite Weg zu mehr Finanzstabilität in Deutschland und Europa – Kap
+S.683: Contingent Capital / bail-in-fähige Schulden
+S.684: Fazit
+S.685: 7.6 Herausforderungen für die Zukunft
+S.686: Herausforderungen für die Zukunft
+S.687: Fazit
+S.688: Fazit
+S.689: Fazit
+S.690: Vielen Dank für Ihre Teilnahme an dieser Vorlesung

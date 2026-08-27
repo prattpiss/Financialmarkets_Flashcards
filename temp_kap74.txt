@@ -1,0 +1,207 @@
+=== KAP74 (S.667-682) ===
+--- S.667 ---
+7.4 Schwächen der Vorkrisen-Regulierung
+▶ Damals bestehende Bankenregulierung hat die globale
+Finanzkrise nicht verhindern können
+⇒ Nicht nur Versagen der Banken, sondern auch Versagen
+der Regulierung
+▶ Schwächen der Vorkrisen-Regulierung:
+(1) Keine hinreichende Berücksichtigung des systemischen
+Risikos
+(2) Prozyklizität der Eigenkapitalregulierung
+(3) Starke Betonung von Risiken auf der Aktivseite der
+Bankbilanzen
+
+--- S.668 ---
+(1) Systemisches Risiko
+▶ Wichtige Erkenntnis aus der Krise: Ein Bankensystem ist nicht
+unbedingt sicher, wenn die Banken individuell sicher sind
+▶ Grund: Der Versuch einer Bank, die eigene Stabilität
+sicherzustellen, kann die Stabilität des Systems gefährden
+▶ Beispiele: Notverkäufe von Wertpapieren in Reaktion auf
+Refinanzierungsprobleme, Reduzierung der Kreditvergabe in
+Reaktion auf Verluste
+▶ Daher ist es nicht ausreichend, die Banken individuell zu
+regulieren (mikroprudenzielle Regulierung)
+▶ Regulierung muss durch eine makroprudenzielle Perspektive
+ergänzt werden, die Externalitäten auf andere Banken oder
+
+--- S.669 ---
+Systemisches Risiko
+▶ Basel-II-Regulierung berücksichtigte Externalitäten des
+individuellen Bankverhaltens nicht in ausreichendem Maße
+▶ Die Verwendung interner Risikomodelle in der
+Bankenregulierung unterstellt, dass Banken dieselbe
+Zielfunktion haben wie die Regulierungsbehörde
+▶ Wenn Externalitäten bestehen, gilt dies gerade nicht
+▶ Banken haben selbst keinen Anreiz, Externalitäten in ihrem
+Optimierungskalkül zu berücksichtigten
+▶ Das könnte erklären, warum die ungewichteten
+Eigenkapitalquoten der Banken in der Krise so niedrig waren,
+während die risikogewichteten Eigenkapitalquoten robust
+
+--- S.670 ---
+(2) Prozyklizität der Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung beschränkt implizit die
+Kreditvergabekapazität der Banken
+▶ Beispiel:
+▶ Bei einer (ungewichteten) Eigenkapitalquote von 8 Prozent
+dürfen die Vermögensgegenstände der Bank ihr Kapital
+maximal um einen Faktor 12,5 übersteigen
+▶ Wenn das Eigenkapital der Bank um einen Euro fällt, müssen
+die Vermögensgegenstände um 12,5 Euro gesenkt werden, um
+den Verschuldungsgrad konstant zu halten (es sei denn, die
+Bank kann zusätzliches Eigenkapital aufnehmen, was
+kurzfristig schwierig sein kann, vor allem in Krisenzeiten)
+
+--- S.671 ---
+Prozyklizität der Eigenkapitalregulierung
+▶ In einer Rezession erleiden die Banken Verluste, was ihr
+Eigenkapital reduziert
+▶ Dies zwingt die Banken, ihre Bilanzen zurückzuführen, wenn
+sie kurzfristig kein Eigenkapital aufnehmen können
+(Deleveraging)
+▶ Der eingeschränkte Kreditzugang kann die Rezession
+verschärfen, wodurch wiederum Rückkopplungen auf den
+Bankensektor entstehen
+
+--- S.672 ---
+Prozyklizität der Eigenkapitalregulierung
+▶ Selbst eine nicht risikogewichtete Eigenkapitalregulierung
+(einfache Leverage Ratio) wirkt prozyklisch
+▶ Aber: Problem wird verschärft, wenn die
+Eigenkapitalregulierung risikogewichtet ist
+▶ Grund: Kreditwürdigkeit der Schuldner fällt in einer Rezession,
+wodurch sich die Risikogewichte erhöhen
+▶ Hierdurch erhöhen sich die Eigenkapitalanforderungen, was das
+Deleveraging verstärken kann
+▶ Lösung des Problems der Prozyklizität unter Basel III:
+Antizyklische Kapitalpuffer, Kapitalerhaltungspuffer
+▶ Beachte: Prozyklizität der Eigenkapitalregulierung ist geringer,
+
+--- S.673 ---
+(3) Starke Betonung von Risiken der Aktivseite
+▶ Risikomessung bei Banken basierte unter Basel II weitgehend
+auf den Risiken der Aktivseite, vor allem: Kreditausfallrisiko,
+Marktrisiko von Wertpapieren
+▶ Refinanzierungsrisiken wurden nicht erfasst
+▶ Refinanzierungsrisiken betreffen das Verhältnis zwischen der
+Aktiv- und Passivseite der Banken
+▶ Da Refinanzierungsrisiken stark mit den Risiken der Aktivseite
+interagieren, können sie nicht ignoriert werden
+▶ Lösung dieses Problems unter Basel III:
+Liquiditätsregulierung (Liquidity Coverage Ratio, Net Stable
+Funding Ratio)
+
+--- S.674 ---
+7.5 Die Regulierung des systemischen Risikos
+▶ Systemrelevante Banken sollten strenger reguliert werden, weil
+ihr Zusammenbruch stärkere Externalitäten verursacht
+▶ Hierzu muss der Begriff “systemisches Risiko”
+operationalisiert werden:
+▶ Größe?
+▶ Korrelation?
+▶ Vernetzung?
+▶ Kontext?
+
+--- S.675 ---
+Regulierung des systemischen Risikos
+▶ Man kann unterschiedliche Kategorien von SIFIs (systemically
+important financial institutions) definieren (Geneva Report,
+2009):
+1. Banken, die individuell systemisch sind (too big to fail, too
+interconnected to fail, too important to fail, too complex to
+fail)
+2. Banken, die in der Gruppe systemisch sind (too many to fail)
+3. Banken, die in einer Krise systemisch werden (abhängig vom
+Kontext)
+4. Banken, die nie systemisch sind
+▶ Auf Basis dieser Kategorien könnten unterschiedliche
+
+--- S.676 ---
+Regulierung des systemischen Risikos
+▶ Es gibt außerdem statistische Maße, mit denen man versucht,
+die Externalitäten direkt zu erfassen
+▶ Wichtigstes Maß: Conditional Value at Risk (CoVaR,
+Adrian and Brunnermeier, 2016)
+▶ Solche Maße ermöglichen eine stetige Messung der
+Systemrelevanz
+▶ Aber: Sie sind typischerweise prozyklisch
+▶ Außerdem führen verschiedene Maße zu stark divergierenden
+Rankings der einzelnen Institutionen bezüglich ihrer
+Systemrelevanz
+▶ Dennoch sind quantitative Maße als Ergänzung zu
+
+--- S.677 ---
+Ziele einer Regulierung systemrelevanter Banken
+▶ Optimale Regulierung hängt davon ab, welches Ziel man mit
+der Regulierung erreichen will
+▶ Mögliche Ziele:
+1. Senkung des systemischen Risikos (durch Anreize oder
+Beschränkungen)
+2. Schaffung eines Puffers für zukünftige Krisen
+3. Finanzierung der Kosten von Krisen
+4. Reduzierung der Anreize, systemisch zu werden
+5. Beseitigung von Wettbewerbsverzerrungen (level playing field)
+▶ Ziele können im Widerspruch zueinander stehen, z.B.
+Finanzierungsziel vs. Verhaltensänderung
+
+--- S.678 ---
+Mögliche Regulierungsmaßnahmen
+1. Pigou-Steuer: “Systemic risk tax”, Bankenabgabe
+▶ Kann helfen, Externalitäten zu internalisieren, ist aber
+schwierig zu kalibrieren
+2. Höhere Eigenkapitalanforderungen für SIFIs (analog für
+Liquidität)
+▶ Viele Vorteile: Schaffung von Puffern, verbesserte Anreize,
+geringere Prozyklizität
+▶ Argumente gegen höheres Eigenkapital sind häufig entweder
+falsch oder aus volkswirtschaftlicher Sicht irrelevant (Admati
+et al., 2013)
+▶ Ungewichtete Maße sind als Ergänzung risikogewichteter Maße
+
+--- S.679 ---
+Mögliche Regulierungsmaßnahmen
+3. Regulierung der Geschäftsmodelle
+▶ Direkte Größenbeschränkungen, Beschränkung bestimmter
+Aktivitäten (z.B. Volcker-Regel), Trennbankensystem
+4. Spezielle Abwicklungsmechanismen für Banken
+▶ Zentrales Instrument zur Regulierung systemischer Risiken
+
+--- S.680 ---
+Spezielle Abwicklungsmechanismen für Banken
+▶ Abwicklungs- und Restrukturierungsmechanismen sind
+zentral zur Reduzierung systemischer Risiken, da sie dazu
+beitragen, die Rettungserwartungen zu reduzieren
+▶ Financial Stability Board (2011): “The objective of an effective
+resolution regime is to make feasible the resolution of financial
+institutions without severe systemic disruption and without
+exposing taxpayers to loss, while protecting vital economic
+functions through mechanisms which make it possible for
+shareholders and unsecured and uninsured creditors to absorb
+losses in a manner that respects the hierarchy of claims in
+liquidation.”
+
+--- S.681 ---
+Spezielle Abwicklungsmechanismen für Banken
+▶ Idee:
+▶ Spezielles Abwicklungsregime ermöglicht die Schließung einer
+Bank, ohne eine systemische Krise hervorzurufen
+▶ Hierdurch wird das Problem der Zeitinkonsistenz der
+Bankenrettung abgemildert
+▶ Wesentliches Element: Beteiligung der Gläubiger an den
+Verlusten (Bail-in) und Wahrung der Gläubigerhierarchie
+
+--- S.682 ---
+Der weite Weg zu mehr Finanzstabilität in Deutschland und Europa – Kapitel 5
+Diese Ausgestaltung ist angesichts des möglichen Gleichlaufs von Risiken bei
+kleineren Banken, die ähnliche Geschäftsmodelle verfolgen, kritisch zu sehen. In
+der spanischen Bankenkrise, aber auch in der Savings-and-Loans-Krise in den
+Vereinigten Staaten in den 1980er-Jahren, traten die Probleme beispielsweise
+gehäuft bei kleineren, überwiegend regional tätigen Instituten auf.
+3. Für eine glaubwürdige Gläubigerbeteiligung
+331. Das wichtigste Element der Bankenabwicklung ist ihre Finanzierung. Diese soll
+dem beschriebenen Spannungsverhältnis zwischen der Setzung optimaler Anrei-
+ze und der Wahrung der Systemstabilität Rechnung tragen. Die drei wesentli-
+chen Finanzierungsquellen sind die Gläubigerbeteiligung (Bail-in), der SRF
+sowie fiskalische Backstops. Während der Bail-in in erster Linie der Wiederher-

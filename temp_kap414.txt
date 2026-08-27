@@ -1,0 +1,310 @@
+=== KAP414 (S.250-279) ===
+--- S.250 ---
+4.1.4 Die optimale Kapitalstruktur mit Steuern
+▶ In der Modigliani-Miller-Welt ist jede beliebige Kapitalstruktur
+gleich gut (und damit optimal)
+▶ Dies gilt in Gegenwart von Steuern nicht mehr
+▶ Selbst nach Bereinigung um die Steuern auf Investorenebene
+übersteigt der Wert eines Unternehmens mit Verschuldung
+typischerweise den Wert eines unverschuldeten Unternehmens
+▶ Also verschafft das Fremdkapital dem Unternehmer einen
+fremdfinanzierungsbedingten Steuervorteil
+▶ Hieraus könnte man schließen, dass sich Unternehmen
+überwiegend über Fremdkapital finanzieren
+
+--- S.251 ---
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+▶ In den meisten Perioden wurden netto externe Mittel
+OperaautfigoennosmMmaennagement
+Kap▶iteHl 1ie5r:b Feriezmedigktapsiitcahl ueninde Sdteeuuetlrinche Präferenz für Fremdkapital als
+Quelle externer Finanzierung
+10 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.252 ---
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+▶ Das aufgenommene Fremdkapital wurde anscheinend in
+erheblichem Maße zum Aktienrückkauf verwendet
+Operations Management
+Kap▶iteEl 1ig5e:n Fkraepmitdaklaepmitiasls iuonnde nStweuaerernn meistens sogar negativ
+(netto wurde Eigenkapital zurückgekauft)
+10 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.253 ---
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+Op ▶ erDaetriognrösßtMe aTneial dgeermKaepnittalaufwendungen/Investitionen wurde
+Kapitel 15: Fremdkapital und Steuern
+mit internen Mitteln (z.B. einbehaltenen Gewinnen)
+finanziert
+10 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.254 ---
+Fremdkapitalquote von Unternehmen (USA)
+Opera ▶ tioBneiseiMneamndaugrcehsmchenintttlichen Unternehmen schwankte die
+Kapitel 15: FFrreemmddkkaappiittaall quunodt eSteDuernzwischen 30 und 50%
+E+D
+▶ Aufgrund der Wertsteigerungen bei Aktien ist der Anteil der
+Verschuldung im Trend nicht angestiegen
+11 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.255 ---
+Bevorzugen Unternehmen Fremdkapital?
+▶ Die aggregierten Zahlen verdecken wichtige Trends
+▶ Die Verwendung von Verschuldung hängt beispielsweise stark
+von der Branche ab
+▶ Außerdem halten viele Unternehmen hohe Beträge liquider
+Mittel, um die effektive Verschuldung zu reduzieren
+
+--- S.256 ---
+Branchenunterschiede
+▶ Die Abbildung zeigt den Median der Nettoverschuldung
+(Verschuldung abzüglich Barmittel und kurzfristiger Anlagen)
+Operations Management
+als Prozentsatz des Unternehmenswerts
+Kapitel 15: Fremdkapital und Steuern
+(Aktienmarktkapitalisierung plus Nettoverschuldung) für
+verschiedene Branchen
+▶ Gesamtmedian beträgt 17,5%, aber erhebliche Schwankungen
+über Branchen hinweg
+12 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.257 ---
+Branchenunterschiede
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+▶ Unternehmen wie Fluggesellschaften, Immobilienunternehmen
+oder Versorgungsunternehmen weisen hohe
+Verschuldungsraten auf
+12 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.258 ---
+Branchenunterschiede
+▶ Unternehmen in Wachstumsbranchen, wie Biotechnologie oder
+Hightech, finanzieren sich hingegen kaum über Fremdkapital
+und verfügen über große Barreserven
+Ope ▶ raNteitotonvsersMchaunldaugngemisteinnteiner Reihe von Branchen negativ,
+Kapitel 15: Fremdkapital und Steuern
+d.h. die liquiden Mittel übersteigen die ausstehenden
+Verbindlichkeiten
+13 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.259 ---
+Bevorzugen Unternehmen Fremdkapital?
+▶ Warum macht das Fremdkapital weniger als die Hälfte der
+Kapitalstruktur der meisten Unternehmen aus, wenn
+Fremdkapital einen Steuervorteil verschafft, der die
+Kapitalkosten senkt und den Firmenwert steigert?
+▶ Was erklärt die Branchenunterschiede?
+▶ Warum haben manche Unternehmen gar keine
+Nettoverschuldung?
+
+--- S.260 ---
+Beschränkungen des Steuervorteils aus dem Fremdkapital
+▶ Um den vollen Steuervorteil aus der Verschuldung
+auszuschöpfen, muss ein Unternehmen keine
+hundertprozentige Fremdfinanzierung einsetzen
+▶ Ein Unternehmen erhält nur dann einen Steuervorteil, wenn es
+überhaupt Steuern zahlt, es muss also zu versteuernde
+Gewinne aufweisen
+▶ Diese Bedingung kann die Höhe des Fremdkapitals begrenzen,
+das für die Ausschöpfung eines Steuervorteils erforderlich ist
+
+--- S.261 ---
+Steuerersparnis bei unterschiedlicher Verschuldung
+▶ Ausgangspunkt: EBIT = 1.000 Euro, Ertragsteuersatz
+Operations Management
+τ = 35%
+Kapictel 15: Fremdkapital und Steuern
+▶ Ohne Verschuldung muss das Unternehmen Steuern in Höhe
+von 350 Euro auf das gesamte EBIT zahlen
+14 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.262 ---
+Steuerersparnis bei unterschiedlicher Verschuldung
+▶ Ist das Unternehmen hoch verschuldet mit Zinszahlungen in
+Operations Management
+Kap
+H itö
+el
+h
+1
+e
+5:
+v o
+Fr
+
+--- S.263 ---
+Steuerersparnis bei unterschiedlicher Verschuldung
+▶ Ist das Unternehmen noch stärker verschuldet, so dass die
+Zinszahlungen höher sind als das EBIT, entsteht ein
+operativer Nettoverlust, aber es entsteht keine weitere
+Steigerung der Steuerersparnis
+Operations Management
+▶KapDitael d1a5:s FUrenmtedkrnapeihtaml uennd bSetereuietrsnkeine Steuern zahlt, besteht kein
+Steuervorteil aus der übermäßigen Verschuldung
+(Ausnahme: Verlustrücktrag/-vortrag)
+14 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.264 ---
+Folgen der hohen Verschuldung
+▶ Also: Kein Ertragsteuervorteil aus Zinszahlungen, die
+regelmäßig das EBIT übersteigen
+▶ Außerdem: Bei hoher Verschuldung könnten auf
+Investorenebene aufgrund des Steuernachteils des
+Fremdkapitals höhere Steuern anfallen
+▶ Quantifizierung des Steuernachteils aus den das EBIT
+übersteigenden Zinszahlungen:
+▶ Setze τ c =0
+▶ Effektiver Steuervorteil des Fremdkapitals:
+τ∗ =1− (1−τe) = τe−τi
+ex (1−τi) (1−τi)
+
+--- S.265 ---
+Optimale Verschuldung
+▶ Optimale Höhe der Verschuldung aus Perspektive der
+Steuereinsparung: Zinsen entsprechen gerade dem EBIT
+▶ Das Unternehmen kann seinen gesamten zu versteuernden
+Ertrag von der Steuer befreien und hat keine steuerlichen
+Nachteile aus das EBIT übersteigenden Zinszahlungen
+▶ Es ist allerdings unwahrscheinlich, dass ein Unternehmen sein
+künftiges EBIT präzise vorhersagen kann
+▶ Bestehen Unsicherheiten bezüglich des EBIT, dann steigt mit
+höherem Zinsaufwand das Risiko, dass die Zinsen das EBIT
+übersteigen
+
+--- S.266 ---
+Steuerersparnis und Zinsaufwand
+Operations Management
+▶ Ist EBIT mit Sicherheit bekannt, wird die Steuerersparnis
+Kapitel 15: Fremdkapital und Steuern
+maximiert, wenn der Zinsaufwand dem EBIT entspricht
+▶ Ist EBIT unsicher, geht die Steuerersparnis bei hohen
+Zinszahlungen zurück, weil das Risiko besteht, dass die
+Zinszahlungen das EBIT übersteigen
+15 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.267 ---
+Steuerersparnis und Zinsaufwand
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+▶ Mit Annäherung des Zinsaufwands an die erwarteten zu
+versteuernden Gewinne sinkt der marginale Steuervorteil aus
+der Verschuldung
+▶ Dies senkt tendenziell die optimale Höhe der Verschuldung
+15 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.268 ---
+Unternehmenswachstum und Fremdkapital
+▶ Eine steueroptimale Kapitalstruktur hängt also von der Höhe
+des EBIT ab
+▶ Unternehmen ohne zu versteuernde Erträge (z.B. junge
+Technologie- oder Biotech-Unternehmen) sollten daher aus
+steuerlicher Sicht kein Fremdkapital halten
+⇒ Vollständige Finanzierung über Eigenkapital
+▶ Mit Reifung des Unternehmens wird Fremdkapital attraktiver
+
+--- S.269 ---
+Unternehmenswachstum und Fremdkapital
+▶ Ein wachsendes Unternehmen sollte Fremdkapital mit
+Zinszahlungen haben, die unter den erwarteten zu
+versteuernden Gewinnen liegen, um übermäßige Zinszahlungen
+zu vermeiden:
+▶ Zinsen = r D ·D ≤ EBIT ⇔ Fremdkapital ≤ EBIT/r D
+▶ Optimale Höhe des Fremdkapitals aus steuerlicher
+Perspektive ist proportional zur Höhe des laufenden Gewinns
+▶ Der Wert des Eigenkapitals hängt jedoch positiv von der
+Wachstumsrate der Gewinne ab
+▶ Hieraus folgt: Je höher die Wachstumsrate des Unternehmens,
+desto geringer ist der optimale Fremdkapitalanteil in der
+
+--- S.270 ---
+Sonstige Steuervorteile
+▶ Im Steuerrecht gibt es viele andere Bestimmungen zu
+Abzugsfähigkeit und Steuergutschriften, wie beispielsweise
+Abschreibungen, Steuergutschriften für Investitionen, Vorträge
+von operativen Verlusten aus der Vergangenheit
+▶ Solche Steuervorteile verringern den zu versteuernden Ertrag
+▶ Folge: Das Unternehmen wird sich weniger auf den
+fremdfinanzierungsbedingten Steuervorteil stützen
+
+--- S.271 ---
+Das Rätsel der geringen Verschuldung
+▶ Frage: Entscheiden sich Unternehmen für Kapitalstrukturen,
+mit denen die Steuervorteile des Fremdkapitals voll
+ausgeschöpft werden?
+▶ Hierzu muss man die Zinszahlungen eines Unternehmens mit
+dem zu versteuernden Ertrag vergleichen: Zinsen/EBIT
+
+--- S.272 ---
+OperZaintisozanhsluMngaennaugndemEBeInTtim S&P 500 (USA)
+Kapitel 15: Fremdkapital und Steuern
+▶ Zinsen / EBIT von Unternehmen im S& P 500 betragen im
+Schnitt weniger als ein Drittel
+▶ Selbst in Phasen geringer Gewinne maximal rund 50%
+16 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.273 ---
+Zinszahlungen und EBIT im S&P 500 (USA)
+Operations Management
+▶ Nur rund 10% der Unternehmen haben negative zu
+Kapitel 15: Fremdkapital und Steuern
+versteuernde Erträge und würden somit nicht vom
+fremdfinanzierungsbedingten Steuervorteil profitieren
+▶ Ergebnis: Steuervorteile aus Fremdkapital werden nicht
+vollständig ausgeschöpft
+16 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.274 ---
+Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+▶ Auch international erscheint die Verschuldung der
+OperaUtnitoenrnsehMmaenna“zguegmereinng”t
+Kapi▶tel F1r5e:m Fdrekmapdiktaalpqituaol tuennd( S19te9u0e)rnzwischen 19 und 46%
+▶ Nettoverschuldung zwischen 11 und 36%
+17 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.275 ---
+Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+Ope▶raZtiniosenns/EMBIaTnlaieggeenmzewniscthen 21 und 65%
+Kapitel 15: Fremdkapital und Steuern
+▶ In vielen Ländern wird weniger als die Hälfte der zu
+versteuernden Erträge vor den Steuern abgeschirmt
+17 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.276 ---
+Verschuldung und Steuersätze (Rajan und Zingales, 1995)
+▶ Relativ geringe Unterschiede bei der Ertragsbesteuerung der
+OperaUtnitoenrnsehMmaenna(τgelimegetnzwtischen 34 und 50%)
+c
+Kapitel 15: Fremdkapital und Steuern
+▶ Größere Unterschiede auf Ebene der persönlichen Steuern und
+damit größere Schwankungen von τ∗ (zwischen 3,3 und 34%)
+17 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.277 ---
+Das Rätsel der geringen Verschuldung
+▶ Warum sind Unternehmen weniger verschuldet, als man
+aufgrund des Steuervorteils vermuten würde?
+▶ Es ist kaum zu vermuten, dass die meisten Unternehmen eine
+suboptimale Kapitalstruktur wählen, statt den
+Shareholder-Value für die Aktionäre zu steigern
+▶ Die geringe Verschuldung der Unternehmen deutet darauf hin,
+dass Fremdkapital weitere Kosten mit sich bringt, die
+Unternehmen von der vollständigen Nutzung des
+Steuervorteils abhalten
+▶ Wichtiger Aspekt: Ein höheres Maß an Verschuldung erhöht
+die Wahrscheinlichkeit einer Insolvenz
+
+--- S.278 ---
+¨
+Ubung 3
+▶ Zu finden auf eCampus
+▶ Lösungen in der Vorlesung
+
+--- S.279 ---
+4.1.5 Fazit
+▶ Aufgrund der steuerlichen Abzugsfähigkeit des Zinsaufwands
+führt Fremdkapital zu einem fremdfinanzierungsbedingten
+Steuervorteil
+▶ Dieser erhöht den Unternehmenswert in Höhe des Barwerts
+des Steuervorteils und senkt die Kapitalkosten (WACC)
+▶ Eine gehebelte Rekapitalisierung kann durchgeführt werden,
+um diese Steuervorteile auszunutzen

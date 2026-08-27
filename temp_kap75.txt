@@ -1,0 +1,203 @@
+=== KAP75 (S.674-689) ===
+--- S.674 ---
+7.5 Die Regulierung des systemischen Risikos
+▶ Systemrelevante Banken sollten strenger reguliert werden, weil
+ihr Zusammenbruch stärkere Externalitäten verursacht
+▶ Hierzu muss der Begriff “systemisches Risiko”
+operationalisiert werden:
+▶ Größe?
+▶ Korrelation?
+▶ Vernetzung?
+▶ Kontext?
+
+--- S.675 ---
+Regulierung des systemischen Risikos
+▶ Man kann unterschiedliche Kategorien von SIFIs (systemically
+important financial institutions) definieren (Geneva Report,
+2009):
+1. Banken, die individuell systemisch sind (too big to fail, too
+interconnected to fail, too important to fail, too complex to
+fail)
+2. Banken, die in der Gruppe systemisch sind (too many to fail)
+3. Banken, die in einer Krise systemisch werden (abhängig vom
+Kontext)
+4. Banken, die nie systemisch sind
+▶ Auf Basis dieser Kategorien könnten unterschiedliche
+
+--- S.676 ---
+Regulierung des systemischen Risikos
+▶ Es gibt außerdem statistische Maße, mit denen man versucht,
+die Externalitäten direkt zu erfassen
+▶ Wichtigstes Maß: Conditional Value at Risk (CoVaR,
+Adrian and Brunnermeier, 2016)
+▶ Solche Maße ermöglichen eine stetige Messung der
+Systemrelevanz
+▶ Aber: Sie sind typischerweise prozyklisch
+▶ Außerdem führen verschiedene Maße zu stark divergierenden
+Rankings der einzelnen Institutionen bezüglich ihrer
+Systemrelevanz
+▶ Dennoch sind quantitative Maße als Ergänzung zu
+
+--- S.677 ---
+Ziele einer Regulierung systemrelevanter Banken
+▶ Optimale Regulierung hängt davon ab, welches Ziel man mit
+der Regulierung erreichen will
+▶ Mögliche Ziele:
+1. Senkung des systemischen Risikos (durch Anreize oder
+Beschränkungen)
+2. Schaffung eines Puffers für zukünftige Krisen
+3. Finanzierung der Kosten von Krisen
+4. Reduzierung der Anreize, systemisch zu werden
+5. Beseitigung von Wettbewerbsverzerrungen (level playing field)
+▶ Ziele können im Widerspruch zueinander stehen, z.B.
+Finanzierungsziel vs. Verhaltensänderung
+
+--- S.678 ---
+Mögliche Regulierungsmaßnahmen
+1. Pigou-Steuer: “Systemic risk tax”, Bankenabgabe
+▶ Kann helfen, Externalitäten zu internalisieren, ist aber
+schwierig zu kalibrieren
+2. Höhere Eigenkapitalanforderungen für SIFIs (analog für
+Liquidität)
+▶ Viele Vorteile: Schaffung von Puffern, verbesserte Anreize,
+geringere Prozyklizität
+▶ Argumente gegen höheres Eigenkapital sind häufig entweder
+falsch oder aus volkswirtschaftlicher Sicht irrelevant (Admati
+et al., 2013)
+▶ Ungewichtete Maße sind als Ergänzung risikogewichteter Maße
+
+--- S.679 ---
+Mögliche Regulierungsmaßnahmen
+3. Regulierung der Geschäftsmodelle
+▶ Direkte Größenbeschränkungen, Beschränkung bestimmter
+Aktivitäten (z.B. Volcker-Regel), Trennbankensystem
+4. Spezielle Abwicklungsmechanismen für Banken
+▶ Zentrales Instrument zur Regulierung systemischer Risiken
+
+--- S.680 ---
+Spezielle Abwicklungsmechanismen für Banken
+▶ Abwicklungs- und Restrukturierungsmechanismen sind
+zentral zur Reduzierung systemischer Risiken, da sie dazu
+beitragen, die Rettungserwartungen zu reduzieren
+▶ Financial Stability Board (2011): “The objective of an effective
+resolution regime is to make feasible the resolution of financial
+institutions without severe systemic disruption and without
+exposing taxpayers to loss, while protecting vital economic
+functions through mechanisms which make it possible for
+shareholders and unsecured and uninsured creditors to absorb
+losses in a manner that respects the hierarchy of claims in
+liquidation.”
+
+--- S.681 ---
+Spezielle Abwicklungsmechanismen für Banken
+▶ Idee:
+▶ Spezielles Abwicklungsregime ermöglicht die Schließung einer
+Bank, ohne eine systemische Krise hervorzurufen
+▶ Hierdurch wird das Problem der Zeitinkonsistenz der
+Bankenrettung abgemildert
+▶ Wesentliches Element: Beteiligung der Gläubiger an den
+Verlusten (Bail-in) und Wahrung der Gläubigerhierarchie
+
+--- S.682 ---
+Der weite Weg zu mehr Finanzstabilität in Deutschland und Europa – Kapitel 5
+Diese Ausgestaltung ist angesichts des möglichen Gleichlaufs von Risiken bei
+kleineren Banken, die ähnliche Geschäftsmodelle verfolgen, kritisch zu sehen. In
+der spanischen Bankenkrise, aber auch in der Savings-and-Loans-Krise in den
+Vereinigten Staaten in den 1980er-Jahren, traten die Probleme beispielsweise
+gehäuft bei kleineren, überwiegend regional tätigen Instituten auf.
+3. Für eine glaubwürdige Gläubigerbeteiligung
+331. Das wichtigste Element der Bankenabwicklung ist ihre Finanzierung. Diese soll
+dem beschriebenen Spannungsverhältnis zwischen der Setzung optimaler Anrei-
+ze und der Wahrung der Systemstabilität Rechnung tragen. Die drei wesentli-
+chen Finanzierungsquellen sind die Gläubigerbeteiligung (Bail-in), der SRF
+sowie fiskalische Backstops. Während der Bail-in in erster Linie der Wiederher-
+
+--- S.683 ---
+Contingent Capital / bail-in-fähige Schulden
+▶ Contingent capital / bail-in-fähige Schulden stellen in
+Krisenzeiten zusätzliches Eigenkapital bereit, indem Schulden
+in Eigenkapital umgewandelt oder abgeschrieben werden
+▶ Hauptvorteil aus Sicht der Banken: Steuerliche
+Abzugsfähigkeit der Zinszahlungen (aus volkswirtschaftlicher
+Sicht irrelevant)
+▶ Kritik:
+▶ Eigenkapital erfüllt Pufferfunktion mindestens genauso gut
+▶ Anreizeffekte schwächer als bei einer direkten Erhöhung der
+Kapitalanforderungen
+▶ In einer Krise könnte der Anreiz bestehen, die Gläubiger doch
+
+--- S.684 ---
+Fazit
+▶ Abwicklungsmechanismen sind das zentrale Instrument, um
+die Rettungserwartungen zu reduzieren und so die systemische
+Stabilität zu gewährleisten
+▶ Frage: Wie schafft die Regierung es, sich glaubwürdig zu
+binden, die Bank im Krisenfall nicht zu retten?
+▶ Besonders bei grenzüberschreitend tätigen Banken dürfte eine
+Abwicklung schwierig werden
+▶ Daher sind internationale Abwicklungsmechanismen
+erforderlich, wie der Einheitliche Abwicklungsmechanismus
+(Single Resolution Mechanism) im Euroraum
+
+--- S.685 ---
+7.6 Herausforderungen für die Zukunft
+1. Vervollständigung der Bankenunion im Euroraum
+▶ Durchbrechung des Risikoverbunds zwischen Banken und
+Staaten, insbesondere durch eine Regulierung der
+Konzentrationsrisiken von Banken bei Staatsanleihen
+▶ Einheitlicher Aufsichtsmechanismus leidet unter Ziel- und
+Interessenkonflikten zwischen Geldpolitik und Bankenaufsicht
+▶ Glaubwürdigkeit des Einheitlichen Abwicklungsmechanismus
+müsste verbessert werden
+▶ Einführung einer gemeinsamen Einlagensicherung
+2. Internationale Harmonisierung, Regulierung von
+grenzüberschreitenden Institutionen
+
+--- S.686 ---
+Herausforderungen für die Zukunft
+3. “Regulatory capture”
+▶ Gefahr der übermäßigen Einflussnahme der Finanzindustrie auf
+die Regulierungsbehörden
+▶ Widerstand der Bankenlobby gegen Regulierung könnte neue
+Deregulierungswelle einleiten
+4. Regulierung von Nicht-Banken
+▶ Vermeidung von regulatorischer Arbitrage
+▶ Starkes Wachstum der “Schattenbanken” (insb.
+Investmentfonds) seit der Krise
+▶ Neue Marktteilnehmer: Fintechs, Bigtechs
+5. Lange Niedrigzinsphase und Ausstieg aus der lockeren
+
+--- S.687 ---
+Fazit
+▶ Die Begrenzung des systemischen Risikos ist heute
+anerkanntermaßen das Hauptziel der Bankenregulierung
+▶ Die Eigenkapitalregulierung bleibt das wichtigste
+Regulierungsinstrument
+▶ Sie schafft Puffer und senkt dadurch die Kosten von
+Finanzkrisen; sie erlaubt es den Aufsichtsbehörden, frühzeitig
+einzuschreiten; und sie verbessert die Risikoanreize der Banken
+▶ Basel III ist ein wichtiger Schritt in die richtige Richtung
+
+--- S.688 ---
+Fazit
+▶ Die größte Herausforderung besteht darin, das systemische
+Risiko angemessen zu regulieren
+▶ Am vielversprechendsten ist eine Kombination von strengeren
+Eigenkapitalanforderungen (vor allem für systemrelevante
+Finanzinstitute) und der Einführung glaubwürdiger
+Abwicklungsmechanismen
+▶ Daher sollten die (ungewichteten) Eigenkapitalanforderungen
+für Banken weiter erhöht werden und die Glaubwürdigkeit des
+neuen Abwicklungsregimes weiter gestärkt werden
+
+--- S.689 ---
+Fazit
+▶ Auf der europäischen Ebene ist die größte Herausforderung die
+Weiterentwicklung der Europäischen Bankenunion
+▶ Eine Kapitalmarktunion ist eine wichtige Ergänzung, um die
+Finanzmarktintegration zu stärken und die Friktionen bei der
+marktbasierten Finanzierung zu senken
+▶ Aber: Auf mittlere Sicht wird die Bankfinanzierung in Europa
+vermutlich weiterhin eine wichtige Rolle spielen
+▶ Frage: Kommt es zu einer Disruption des Bankgeschäfts durch
+den Marktzutritt der Bigtechs?

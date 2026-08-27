@@ -1,0 +1,876 @@
+=== KAP422 (S.330-399) ===
+--- S.330 ---
+4.2.2 Agency-Theorie der Verschuldung
+▶ Relevante wissenschaftliche Aufsätze:
+▶ Jensen and Meckling (1976): “Theory of the Firm: Managerial
+Behavior, Agency Costs and Ownership Structure,” Journal of
+Financial Economics, 3, 305-360
+▶ Myers (1977): “Determinants of Corporate Borrowing,”
+Journal of Financial Economics, 5, 147–175
+▶ Admati, DeMarzo, Hellwig, Pfleiderer (2018): “The Leverage
+Ratchet Effect,” Journal of Finance, 73(1), 145-198
+▶ Jensen (1986): “Agency Costs of Free Cash Flow, Corporate
+Finance and Takeovers,” American Economic Review, 76,
+323-329
+
+--- S.331 ---
+Agency-Probleme der Verschuldung
+▶ Agency-Probleme entstehen aus Interessenkonflikten
+zwischen den beteiligten Akteuren (hier: Manager, Aktionäre
+und Fremdkapitalgeber)
+▶ Die Kapitalstruktur hat Auswirkungen auf die Anreize des
+Managements und damit auf die Investitionsentscheidungen
+▶ Wir nehmen zunächst an, dass das Management
+Entscheidungen trifft, die den Wert des Eigenkapitals des
+Unternehmens steigern
+▶ Manager halten häufig selbst Anteile am Unternehmen
+▶ Manager werden von den Aktionären ausgewählt (insbesondere
+der Vorstand)
+
+--- S.332 ---
+Agency-Kosten und Agency-Nutzen der Verschuldung
+▶ Wenn ein Unternehmen verschuldet ist, besteht ein
+Interessenkonflikt, wenn Investitionsentscheidungen
+unterschiedliche Auswirkungen auf den Wert des Eigenkapitals
+und des Fremdkapitals haben
+▶ Wenn das Risiko einer finanziellen Notlage groß ist, besteht
+die Gefahr, dass die Manager Maßnahmen ergreifen, die die
+Aktionäre begünstigen, aber gleichzeitig den Gläubigern
+schaden und den Gesamtwert des Unternehmens senken
+⇒ Agency-Kosten der Verschuldung
+▶ Andererseits kann die Verschuldung positive Auswirkungen auf
+die Anreize des Managements haben, das Unternehmen
+
+--- S.333 ---
+Agency-Kosten der Verschuldung
+▶ 3 Arten von Agency-Kosten der Verschuldung:
+(a) Asset Substitution: Investitionen in Projekte mit negativem
+Kapitalwert, die das Risiko des Unternehmens steigern
+(übermäßige Risikoübernahme)
+(b) Schuldenüberhang (debt overhang): Unterlassung neuer
+Projekte mit positivem Kapitalwert (Unterinvestition)
+(c) U¨bermäßige Ausschüttung: Veräußerung von
+Vermögensgegenständen unter Marktwert und Ausschüttung
+der Erlöse als Dividenden
+
+--- S.334 ---
+Beispiel: Agency-Kosten der Verschuldung
+▶ Das Unternehmen Baxter Inc. befindet sich in einer
+OperatiofinnsanMzieallnenaNgoetmlageent
+Kapitel 1▶6: BFianxatnezriehlalet NeiontelangKe,r eMdaitnaingeHmöhenetvaonnre1izeM uilnlido nIennfoErmuraotion
+aufgenommen, der am Jahresende fällig wird
+▶ Ohne eine A¨nderung der Strategie wird der Marktwert der
+Vermögensgegenstände zu diesem Zeitpunkt aber nur 900.000
+Euro betragen, und Baxter wird in Zahlungsverzug geraten
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.335 ---
+Beispiel: Agency-Kosten der Verschuldung
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+▶ Im Falle der alten Strategie gehen sämtliche
+Vermögensgegenstände an die Fremdkapitalgeber
+▶ Die Eigenkapitalgeber gehen leer aus, weil das Unternehmen
+insolvent ist
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.336 ---
+¨
+(a) Ubermäßige Risikobereitschaft und Asset-Substitution
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+▶ Die Geschäftsführung von Baxter zieht eine neue, riskante
+Strategie in Betracht
+▶ Diese erfordert keine Investition zu Beginn und hat eine
+Erfolgschance von 50%
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.337 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Ist die Strategie erfolgreich, steigert sie den Wert der
+OperatioVnesrmMögaennsageggeenmsteänndte auf 1,3 Millionen Euro
+Kapitel 1▶6: SFicnhaenitzeiertlles ieN,oftälallgted, eMraWnaergtedmeernVtaenrmreöizgee nusngde gIennfosrtmänadteioanuf
+300.000 Euro
+▶ Im Erwartungswert beträgt der Wert der
+Vermögensgegenstände bei der neuen Strategie:
+0,5·1,3Mio+0,5·0,3Mio = 800.000 Euro
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.338 ---
+▶ Wenn nichts unternommen wird, gerät Baxter mit Sicherheit in
+Zahlungsverzug und die Anteilseigner erhalten eine Auszahlung
+von 0
+▶ Die Anteilseigner haben also nichts zu verlieren, wenn Baxter
+die riskante Strategie verfolgt
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Obwohl der Erwartungswert der Vermögensgegenstände um
+100.000 Euro fällt, ist die neue Strategie im Interesse der
+Anteilseigner
+▶ Warum?
+
+--- S.339 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Obwohl der Erwartungswert der Vermögensgegenstände um
+100.000 Euro fällt, ist die neue Strategie im Interesse der
+Anteilseigner
+▶ Warum?
+▶ Wenn nichts unternommen wird, gerät Baxter mit Sicherheit in
+Zahlungsverzug und die Anteilseigner erhalten eine Auszahlung
+von 0
+▶ Die Anteilseigner haben also nichts zu verlieren, wenn Baxter
+die riskante Strategie verfolgt
+
+--- S.340 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Ist die Strategie erfolgreich, erhalten die Anteilseigner
+Operations Management
+300.000 Euro, andernfalls erhalten sie nichts
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+▶ Die neue Strategie erbringt also eine erwartete Auszahlung an
+die Anteilseigner von: 0,5·0,3Mio+0,5·0 = 150.000 Euro
+▶ Folge: Die Anteilseigner gewinnen deutlich mit der Strategie,
+auch wenn diese eine negative erwartete Auszahlung erzielt
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.341 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+Opera▶tio D n ie s V M er a lie n r a er g s e in m d d e i n e t Fremdkapitalgeber: Diese erhalten im
+Erwartungswert nun nur noch:
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+0,5·1Mio+0,5·0,3Mio = 650.000 Euro
+▶ Es ergibt sich also ein Verlust in Höhe von 250.000 Euro
+gegenüber den 900.000 Euro, die sie mit der alten Strategie
+erhalten hätten
+6 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.342 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Dieser Verlust entspricht dem erwarteten Wertverlust von
+100.000 Euro aus der riskanten Strategie und dem erwarteten
+Gewinn der Anteilseigner in Höhe von 150.000 Euro
+▶ Die Anteilseigner spielen hier eine Lotterie mit dem Geld der
+Fremdkapitalgeber (“heads I win, tails you lose”)
+▶ Ergebnis: Wenn sich ein Unternehmen in einer finanziellen
+Notlage befindet, können die Anteilseigner von
+Entscheidungen, die das Risiko des Unternehmens steigern,
+profitieren, selbst wenn diese einen negativen Kapitalwert
+haben (Jensen and Meckling, 1976)
+
+--- S.343 ---
+¨
+Ubermäßige Risikobereitschaft und Asset-Substitution
+▶ Dies kann zu einer U¨berinvestition führen, wenn die
+Anteilseigner einen Gewinn erzielen können, indem das
+Unternehmen zusätzliche Projekte mit negativem Kapitalwert,
+aber großem Risiko durchführt
+▶ In jedem Fall wird der Gesamtwert des Unternehmens
+gemindert, wenn das Unternehmen das Risiko durch
+Entscheidungen oder Investitionen mit negativem Kapitalwert
+steigert
+▶ Die Anleihekäufer werden dieses Verhalten antizipieren und
+daher bereits im Vorhinein weniger für dieses Unternehmen zu
+
+--- S.344 ---
+(b) Schuldenüberhang und Unterinvestition
+▶ Alternativ nehmen wir an, dass die Manager des
+Unternehmens eine attraktive Investitionsmöglichkeit in
+OperatiBoentrsacMhtaznieahgene,mdieeneitne Anfangsinvestition von 100.000 Euro
+Kapitel 16e:r Ffoinradnerztieullen dNoetinlaegeri,s iMkaonloasgeemReenndtaitnereviozen u5n0d% Inefrobrrminagttion
+▶ Bei einem aktuell gültigen Zinssatz von 5% hat diese
+Investition einen deutlich positiven Kapitalwert
+▶ Könnte Baxter die 100.000 Euro für diese Investition durch
+die Emission neuen Eigenkapitals aufbringen?
+7 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.345 ---
+Schuldenüberhang und Unterinvestition
+▶ Nein! Die Anteilseigner erhalten am Ende nur 50.000 Euro,
+wenn sie die 100.000 Euro zur Finanzierung des Projektes
+Operations Management
+aufbringen
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+▶ Die weiteren 100.000 Euro aus dem Projekt gehen an die
+Fremdkapitalgeber, deren Auszahlung von 900.000 auf
+1 Millionen Euro steigt
+▶ Grund: Fremdkapital muss vorrangig bedient werden
+7 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.346 ---
+Schuldenüberhang und Unterinvestition
+▶ Da die Gläubiger den Großteil des Gewinns erhalten, hat das
+Projekt trotz des positiven Kapitalwerts für das Unternehmen
+einen negativen Kapitalwert für die Anteilseigner
+▶ Ergebnis: Unternehmen in einer finanziellen Notlage
+Operations Management
+entscheiden sich häufig gegen neue Projekte mit positivem
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+Kapitalwert (Myers, 1977)
+▶ Wenn die Aktionäre es vorziehen, nicht in Projekte mit einem
+positiven Kapitalwert zu investieren, bezeichnet man das als
+Schuldenüberhang oder Unterinvestitionsproblem
+
+--- S.347 ---
+¨
+(c) Ubermäßige Ausschüttung
+▶ Wenn sich ein Unternehmen in einer finanziellen Notlage
+befindet, stellt dies einen Anreiz für die Aktionäre dar, vor der
+Insolvenz noch möglichst viele Barmittel aus dem
+Unternehmen herauszuziehen
+▶ Beispielsweise besteht der Anreiz, Vermögensgegenstände
+unter deren tatsächlichem Wert zu verkaufen und mit dem
+Verkaufserlös eine sofortige Bardividende auszuschütten
+(Cashing out)
+▶ Dies ist eine extreme Form der Unterinvestition infolge des
+Schuldenüberhangs
+
+--- S.348 ---
+¨
+Beispiel: Ubermäßige Ausschüttung
+▶ Baxter besitzt Geräte, die zu Jahresbeginn für 25.000 Euro
+verkauft werden können, die aber benötigt werden, um den
+normalen Geschäftsbetrieb aufrechtzuerhalten
+▶ Ohne die Geräte wäre das Unternehmen am Jahresende nur
+noch 800.000 Euro wert
+▶ Selbst wenn der Verkauf der Geräte den Unternehmenswert
+um 100.000 Euro mindert, könnte dies aus Sicht der
+Anteilseigner profitabel sein
+▶ Denn der Verlust wird letztlich von den Fremdkapitalgebern
+getragen, wenn das Unternehmen am Jahresende sowieso
+
+--- S.349 ---
+Größe des Schuldenüberhangs
+▶ Seien I der Investitionsbetrag, KW der Kapitalwert, D und E
+der Marktwert des Fremd- und Eigenkapitals und β und β
+D E
+die zugehörigen Betafaktoren
+▶ Dann lässt sich (näherungsweise) zeigen, dass die
+Anteilseigner nur dann investieren, wenn
+KW β D
+D
+≥ · .
+I β E
+E
+
+--- S.350 ---
+Größe des Schuldenüberhangs
+KW β D
+D
+≥ ·
+I β E
+E
+▶ Eine effiziente Investitionsentscheidung würde verlangen, dass
+jede Investition mit positivem Kapitalwert durchgeführt wird
+▶ Sofern D > 0 (das Unternehmen ist verschuldet), β E > 0
+(typischerweise der Fall) und β > 0 (die Schulden sind
+D
+riskant, das heißt, es kommt mit positiver Wahrscheinlichkeit
+
+--- S.351 ---
+Größe des Schuldenüberhangs
+▶ Folge: Manche profitablen Investitionen werden nicht
+durchgeführt
+⇒ Unterinvestition und Reduktion des Unternehmenswertes
+▶ Beachte: Zur Unterinvestition kommt es deshalb, weil ein Teil
+der Erträge im Falle des Zahlungsausfalls an die
+Fremdkapitalgeber und nicht an die Eigenkapitalgeber geht
+▶ Das Problem ist umso ausgeprägter, je höher das relative
+Risiko des Fremdkapitals und je höher der Verschuldungsgrad
+ist
+
+--- S.352 ---
+Agency-Kosten und Wert der Verschuldung
+▶ Ergebnis: Die Verschuldung kann Manager und Aktionäre
+dazu veranlassen, Maßnahmen zu ergreifen, die den
+Unternehmenswert mindern
+▶ In jedem der beschriebenen Fälle profitieren die Anteilseigner
+auf Kosten der Fremdkapitalgeber
+▶ A¨hnlich wie bei den Konkurskosten sind es aber auch hier die
+Aktionäre, die letztendlich die Agency-Kosten tragen
+
+--- S.353 ---
+Agency-Kosten und Wert der Verschuldung
+▶ Selbst wenn die Anteilseigner auf Kosten der
+Fremdkapitalgeber von den Entscheidungen mit negativem
+Kapitalwert in Zeiten finanzieller Notlagen profitieren, wird
+dies von den Fremdkapitalgebern antizipiert
+▶ Deshalb zahlen sie zu Beginn weniger für das Fremdkapital,
+was den Betrag verringert, den das Unternehmen an die
+Aktionäre ausschütten kann
+▶ Letztlich reduziert sich der Wert der Aktien gerade um den
+negativen Kapitalwert dieser Entscheidungen
+
+--- S.354 ---
+Agency-Kosten und Wert der Verschuldung
+▶ Merke: Diese Agency-Kosten des Fremdkapitals können nur
+dann entstehen, wenn die Möglichkeit besteht, dass das
+Unternehmen in Zahlungsverzug gerät und bei den
+Fremdkapitalgebern Verluste entstehen
+▶ Nur dann können die Anteilseigner Verluste auf die
+Fremdkapitalgeber abwälzen
+
+--- S.355 ---
+Agency-Kosten und Wert der Verschuldung
+▶ Die Höhe der Agency-Kosten steigt mit dem Risiko des
+Zahlungsausfalls und somit mit der Höhe der Verschuldung
+des Unternehmens
+▶ Die Agency-Kosten sind also weitere Kosten, die durch die
+Verschuldung entstehen und sich auf die Entscheidung des
+Unternehmens hinsichtlich der Kapitalstruktur auswirken
+▶ Sie senken letztlich die Attraktivität der Verschuldung
+
+--- S.356 ---
+▶ Ohne Strategieänderung ist das Unternehmen 900.000 Euro
+wert
+▶ Hiervon gehen 400.000 Euro an das Fremdkapital, so dass das
+Eigenkapital 500.000 Euro wert ist
+▶ Die Gefahr der Insolvenz besteht nun nicht mehr
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Wären die zuvor beschriebenen Agency-Kosten bei
+Baxter auch entstanden, wenn das Unternehmen weniger
+verschuldet gewesen wäre?
+▶ Annahme: Baxter ist nur mit 400.000 Euro (statt 1 Million
+Euro) verschuldet
+
+--- S.357 ---
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Wären die zuvor beschriebenen Agency-Kosten bei
+Baxter auch entstanden, wenn das Unternehmen weniger
+verschuldet gewesen wäre?
+▶ Annahme: Baxter ist nur mit 400.000 Euro (statt 1 Million
+Euro) verschuldet
+▶ Ohne Strategieänderung ist das Unternehmen 900.000 Euro
+wert
+▶ Hiervon gehen 400.000 Euro an das Fremdkapital, so dass das
+Eigenkapital 500.000 Euro wert ist
+▶ Die Gefahr der Insolvenz besteht nun nicht mehr
+
+--- S.358 ---
+▶ Die Anteilseigner erhalten nun eine erwartete Auszahlung von:
+0,5·900.000Mio+0,5·0 = 450.000 Euro < 500.000 Euro
+▶ Also lohnt sich die Risikoerhöhung für die Anteilseigner nicht
+▶ Das liegt daran, dass die Anteilseigner nun einen erheblichen
+Teil der Verluste selber tragen
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Lohnt es sich nun, das Risiko zu erhöhen?
+
+--- S.359 ---
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Lohnt es sich nun, das Risiko zu erhöhen?
+▶ Die Anteilseigner erhalten nun eine erwartete Auszahlung von:
+0,5·900.000Mio+0,5·0 = 450.000 Euro < 500.000 Euro
+▶ Also lohnt sich die Risikoerhöhung für die Anteilseigner nicht
+▶ Das liegt daran, dass die Anteilseigner nun einen erheblichen
+Teil der Verluste selber tragen
+
+--- S.360 ---
+▶ Werden 100.000 Euro investiert, so dass der
+Unternehmenswert um 150.000 Euro steigt, so beträgt das
+neue Eigenkapital:
+900.000+150.000−400.000 = 650.000 Euro
+▶ Der gesamte Gewinn der Investition kommt nun den
+Anteilseignern zugute, so dass sie bereit sein werden, in das
+profitable Projekt zu investieren
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Kommt es zu einer Unterinvestition?
+
+--- S.361 ---
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Kommt es zu einer Unterinvestition?
+▶ Werden 100.000 Euro investiert, so dass der
+Unternehmenswert um 150.000 Euro steigt, so beträgt das
+neue Eigenkapital:
+900.000+150.000−400.000 = 650.000 Euro
+▶ Der gesamte Gewinn der Investition kommt nun den
+Anteilseignern zugute, so dass sie bereit sein werden, in das
+profitable Projekt zu investieren
+
+--- S.362 ---
+▶ Wenn das Unternehmen die Geräte verkauft, erhalten die
+Anteilseigner sofort eine Bardividende in Höhe von 25.000
+Euro
+▶ Allerdings sinkt die zukünftige Auszahlung auf:
+800.000−400.000 = 400.000 Euro, so dass sie sich insgesamt
+um 75.000 Euro schlechter stellen als zuvor
+▶ In diesem Fall tragen die Aktionäre selbst die Verluste aus dem
+Verkauf der Geräte, daher werden sie ihn nicht durchführen
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Gibt es weiterhin den Anreiz zu übermäßigen
+Ausschüttungen?
+
+--- S.363 ---
+Beispiel: Agency-Kosten und Wert der Verschuldung
+▶ Frage: Gibt es weiterhin den Anreiz zu übermäßigen
+Ausschüttungen?
+▶ Wenn das Unternehmen die Geräte verkauft, erhalten die
+Anteilseigner sofort eine Bardividende in Höhe von 25.000
+Euro
+▶ Allerdings sinkt die zukünftige Auszahlung auf:
+800.000−400.000 = 400.000 Euro, so dass sie sich insgesamt
+um 75.000 Euro schlechter stellen als zuvor
+▶ In diesem Fall tragen die Aktionäre selbst die Verluste aus dem
+Verkauf der Geräte, daher werden sie ihn nicht durchführen
+
+--- S.364 ---
+Sperrklinkeneffekt der Verschuldung
+▶ Grundsätzlich tragen die Anteilseigner die erwarteten
+Agency- und Konkurskosten über einen Abschlag, den sie auf
+das neue Fremdkapital erhalten
+▶ Wenn bei einem Unternehmen bereits Fremdkapital vorhanden
+ist, entfällt ein Teil der Kosten allerdings auf die bereits
+bestehenden Gläubiger
+▶ Diese Kosten werden nicht von den Anteilseignern getragen,
+wenn sie nicht bereits im Vorfeld antizipiert wurden
+▶ Deshalb können die Anteilseigner von einer höheren
+Verschuldung profitieren, selbst wenn sich der Gesamtwert des
+Unternehmens verringert
+
+--- S.365 ---
+Sperrklinkeneffekt der Verschuldung
+▶ Zusätzlich mindert der Schuldenüberhang den Anreiz der
+Unternehmen, die Verschuldung zu reduzieren
+▶ Denn hiervon würden vor allem die Fremdkapitalhalter
+profitieren (Minderung des Risikos sowie der Agency- und
+Konkurskosten)
+▶ Sperrklinkeneffekt der Verschuldung (Leverage Ratchet
+Effect, Admati et al., 2017): Wenn bereits Fremdkapital
+vorhanden ist, dann haben die Aktionäre...
+▶ den Anreiz, die Verschuldung selbst dann zu erhöhen, wenn
+diese den Unternehmenswert senkt,
+▶ keinen Anreiz, die Verschuldung durch den Rückkauf von
+
+--- S.366 ---
+▶ Nach dem Rückkauf der Schulden sind diese risikolos, also
+muss Baxter die 600.000 Euro Schulden zu
+600.000/1,05 = 571.429 Euro zurückkaufen
+▶ Zusätzlich muss Baxter 100.000 Euro für das neue Projekt
+aufnehmen
+Beispiel: Schuldenüberhang und Sperrklinkeneffekt
+▶ Zu zeigen: Baxters Aktionäre profitieren von der Verringerung
+der Verschuldung von 1 Millionen auf 400.000 Euro selbst
+dann nicht, wenn der Unternehmenswert durch die
+Durchführung des profitablen Projekts steigt
+
+--- S.367 ---
+Beispiel: Schuldenüberhang und Sperrklinkeneffekt
+▶ Zu zeigen: Baxters Aktionäre profitieren von der Verringerung
+der Verschuldung von 1 Millionen auf 400.000 Euro selbst
+dann nicht, wenn der Unternehmenswert durch die
+Durchführung des profitablen Projekts steigt
+▶ Nach dem Rückkauf der Schulden sind diese risikolos, also
+muss Baxter die 600.000 Euro Schulden zu
+600.000/1,05 = 571.429 Euro zurückkaufen
+▶ Zusätzlich muss Baxter 100.000 Euro für das neue Projekt
+aufnehmen
+
+--- S.368 ---
+Beispiel: Schuldenüberhang und Sperrklinkeneffekt
+▶ Der Unternehmenswert entspricht dann 1,05 Millionen
+(900.000 + 150.000 Euro)
+▶ Hiervon gehen 400.000 Euro an die Fremdkapitalhalter und
+650.000 Euro an die Anteilseigner
+▶ Dies ist aber weniger als die investierte Summe (671.429
+Euro), daher wird Baxter die Transaktion nicht durchführen
+▶ Grund: Das Unternehmen muss den Fremdkapitalhaltern einen
+relativ hohen Preis zahlen, der die Schuldenreduktion bereits
+berücksichtigt, und kann daher nicht selbst davon profitieren
+▶ Folge: Die Verschuldung bleibt dauerhaft hoch
+
+--- S.369 ---
+Fälligkeit des Fremdkapitals und Covenants
+▶ Die Unternehmen können versuchen, die Agency-Kosten des
+Fremdkapitals zu verringern
+▶ Die Höhe der Agency-Kosten ist beispielsweise von der
+Fristigkeit des Fremdkapitals abhängig
+▶ Agency-Kosten sind für langfristiges Fremdkapital am
+höchsten und für kurzfristiges Fremdkapital am geringsten
+▶ Grund: Wenn das Fremdkapital häufig refinanziert werden
+muss, ist es schwieriger für das Unternehmen, das Risiko zu
+erhöhen, eine sinnvolle Investition zu unterlassen oder
+Vermögensgegenstände unter Wert zu verkaufen
+
+--- S.370 ---
+Fälligkeit des Fremdkapitals und Covenants
+▶ Außerdem schränken die Gläubiger häufig die
+Handlungsfreiheit des Unternehmens als Bedingung für die
+Kreditvergabe ein ⇒ Kreditklauseln (Covenants)
+▶ Covenants können die Ausschüttungen begrenzen oder die Art
+der Investitionen, die ein Unternehmen tätigen kann,
+einschränken
+▶ Da Covenants die Flexibilität des Managements einschränken,
+können sie aber auch schädlich sein, wenn sie Investitionen in
+Projekte mit positivem Kapitalwert verhindern
+
+--- S.371 ---
+Agency-Nutzen der Verschuldung
+▶ Bislang haben wir unterstellt, dass die Manager im Interesse
+der Anteilseigner handeln, und haben Interessenkonflikte
+zwischen Anteilseignern und Fremdkapitalgebern betrachtet
+▶ Aber natürlich verfolgen Manager auch ihre eigenen
+Interessen, die von den Interessen der Anteilseigner und
+Fremdkapitalgeber abweichen können
+▶ Trennung von Eigentum und Kontrolle schafft die Möglichkeit
+des Management Entrenchment
+▶ Die Manager können Entscheidungen treffen, die ihnen auf
+Kosten der Investoren Vorteile verschaffen
+▶ Die Kapitalstruktur kann für die Manager Anreize setzen, das
+
+--- S.372 ---
+Agency-Nutzen der Verschuldung
+▶ Eine höhere Verschuldung geht daher nicht nur mit
+Agency-Kosten, sondern auch mit Agency-Nutzen einher
+▶ 3 Arten von Agency-Nutzen der Verschuldung:
+(a) Höhere Eigentumskonzentration: Je stärker der Manager
+selbst am Eigenkapital beteiligt ist, desto mehr strengt er sich
+an
+(b) Geringere freie Cashflows: Weniger verschwenderische
+Investitionen
+(c) Geringere Handlungsautonomie des Managers: Sorge vor
+finanzieller Notlage oder Entlassung kann die Leistung der
+Manager verbessern
+
+--- S.373 ---
+(a) Höhere Konzentration des Eigentums
+▶ Ein Vorteil der Verschuldung ist, dass sie es den Altinhabern
+des Unternehmens ermöglicht, ihren Anteil am Eigenkapital
+beizubehalten
+▶ Als Hauptaktionäre haben sie ein großes Interesse daran, das
+Beste für das Unternehmen zu tun, weil sie die Früchte ihrer
+Anstrengung selbst ernten
+
+--- S.374 ---
+Beispiel: Konzentration des Eigentums
+▶ Ross Jackson ist Inhaber eines erfolgreichen Möbelgeschäfts
+▶ Er plant eine Expansion durch die Eröffnung weiterer Läden
+▶ Ross kann entweder die für die Expansion erforderlichen Mittel
+als Kredit aufnehmen oder das Geld durch den Verkauf von
+Aktien beschaffen
+▶ Im Falle einer Aktienemission muss er 40% des Unternehmens
+verkaufen, um die notwendigen Mittel aufzubringen
+
+--- S.375 ---
+Beispiel: Konzentration des Eigentums
+▶ Wenn Ross Fremdkapital einsetzt, bleibt er Inhaber von 100%
+des Eigenkapitals
+▶ Solange das Unternehmen nicht ausfällt, führt jede
+Entscheidung, die zu einem Anstieg des Werts des
+Unternehmens um 1 Euro führt, zu einem Anstieg seines
+eigenen Anteils um ebenfalls 1 Euro
+▶ Wenn Ross jedoch Eigenkapital ausgibt, behält er nur 60%
+des Eigenkapitals, wodurch sich auch sein Anteil an den
+Gewinnen reduziert
+▶ Somit erhält Ross nur 0,60 Euro bei jedem Anstieg des
+Unternehmenswerts um 1 Euro, was einen negativen Effekt
+
+--- S.376 ---
+Beispiel: Konzentration des Eigentums
+▶ Die unterschiedlichen Eigentumsanteile von Ross ändern also
+seine Anreize bei der Führung des Unternehmens
+▶ Hängt der Unternehmenswert weitgehend von der
+persönlichen Anstrengung ab, wird Ross vermutlich härter
+arbeiten und das Unternehmen wird einen höheren Wert
+besitzen, wenn Ross 100% der Gewinne erhält (statt 60%)
+
+--- S.377 ---
+Beispiel: Konzentration des Eigentums
+▶ Eine weitere Auswirkung der Eigenkapitalemission ist die
+Versuchung für Ross, Sachzuwendungen in Anspruch zu
+nehmen, wie zum Beispiel ein großes Büro mit teuren
+Kunstwerken, einen Geschäftswagen mit Fahrer, ein Flugzeug
+oder ein großzügiges Spesenkonto (perks)
+▶ Mit Verschuldung ist Ross der Alleininhaber und trägt die
+vollen Kosten dieser Zuwendungen selbst
+▶ Mit Eigenkapital trägt Ross nur 60% der Kosten, die anderen
+40% werden von den neuen Anteilseignern getragen
+▶ Somit ist es bei einer Finanzierung mit Eigenkapital
+wahrscheinlicher, dass Ross zu viel für diese Luxusgüter
+
+--- S.378 ---
+Beispiel: Konzentration des Eigentums
+▶ Die Kosten des reduzierten Arbeitseinsatzes und der
+übermäßigen Ausgaben sind eine weitere Form der
+Agency-Kosten, die allerdings diesmal bei der Emission von
+Eigenkapital anfallen
+▶ Sie stellen gleichzeitig einen Agency-Nutzen des
+Fremdkapitals dar, da diese Probleme bei der
+Fremdkapitalfinanzierung nicht auftreten
+▶ Diese Agency-Kosten entstehen aus der Verwässerung des
+Eigentums, wenn die Finanzierung durch Eigenkapital erfolgt
+
+--- S.379 ---
+▶ Wenn die Wertpapiere fair bewertet sind, zahlt der
+Altaktionär des Unternehmens die dadurch entstehenden
+Kosten
+▶ Wenn Ross sich für die Eigenkapitalemission entscheidet,
+werden die neuen Investoren einen Preisabschlag vorsehen, um
+den geringeren Arbeitseinsatz von Ross und die erhöhten
+Ausgaben für Sachzuwendungen zu berücksichtigen
+▶ Das Unternehmen kann also von Verschuldung profitieren, da
+so die Eigentümerkonzentration beibehalten werden kann und
+die Agency-Kosten vermieden werden (Jensen und Meckling,
+1976)
+Beispiel: Konzentration des Eigentums
+
+--- S.380 ---
+Beispiel: Konzentration des Eigentums
+▶ Wer trägt diese Kosten?
+▶ Wenn die Wertpapiere fair bewertet sind, zahlt der
+Altaktionär des Unternehmens die dadurch entstehenden
+Kosten
+▶ Wenn Ross sich für die Eigenkapitalemission entscheidet,
+werden die neuen Investoren einen Preisabschlag vorsehen, um
+den geringeren Arbeitseinsatz von Ross und die erhöhten
+Ausgaben für Sachzuwendungen zu berücksichtigen
+▶ Das Unternehmen kann also von Verschuldung profitieren, da
+so die Eigentümerkonzentration beibehalten werden kann und
+die Agency-Kosten vermieden werden (Jensen und Meckling,
+
+--- S.381 ---
+Beispiel: Konzentration des Eigentums
+▶ Tatsächlich stellt man bei kleinen Unternehmen häufig eine
+hohe Konzentration des Eigentums fest
+▶ Dieses wird aber häufig verwässert, wenn das Unternehmen
+wächst:
+▶ Altinhaber gehen in den Ruhestand und die neuen Manager
+halten geringere Anteile
+▶ Unternehmen müssen häufig für Investitionen mehr Kapital
+aufbringen, als allein mit Fremdkapital möglich ist
+▶ Inhaber entscheiden sich häufig, einen Teil ihrer Anteile zu
+verkaufen, um ihr Portfolio besser zu diversifizieren
+
+--- S.382 ---
+Beispiel: Konzentration des Eigentums
+▶ So halten bei den großen US-Unternehmen die meisten
+Vorstandsvorsitzenden weniger als 1% der Aktien
+▶ Hieraus ergibt sich ein relativ großes Potenzial für
+Interessenkonflikte zwischen Managern und Anteilseignern
+▶ Angemessene Kontrollen und Rechenschaftspflichten sind
+erforderlich, um Missbrauch zu verhindern
+▶ Trotzdem werden jedes Jahr Skandale aufgedeckt, in denen
+Manager gegen die Interessen der Aktionäre gehandelt haben
+
+--- S.383 ---
+⇒ Empire Building, Overconfidence, Free Cashflows
+(b) Reduzierung von Fehlinvestitionen
+▶ Auch wenn übermäßige Ausgaben für Sachzuwendungen ein
+Problem sein können, sind diese Kosten insgesamt
+vergleichsweise gering (relativ zum Unternehmenswert)
+▶ Von viel größerer Bedeutung ist die Gefahr von
+Fehlinvestitionen
+▶ Schlechte Investitionsentscheidungen haben schon viele
+ansonsten erfolgreiche Unternehmen ruiniert
+▶ Was bringt Manager dazu, Investitionen mit negativem
+Kapitalwert zu tätigen?
+
+--- S.384 ---
+(b) Reduzierung von Fehlinvestitionen
+▶ Auch wenn übermäßige Ausgaben für Sachzuwendungen ein
+Problem sein können, sind diese Kosten insgesamt
+vergleichsweise gering (relativ zum Unternehmenswert)
+▶ Von viel größerer Bedeutung ist die Gefahr von
+Fehlinvestitionen
+▶ Schlechte Investitionsentscheidungen haben schon viele
+ansonsten erfolgreiche Unternehmen ruiniert
+▶ Was bringt Manager dazu, Investitionen mit negativem
+Kapitalwert zu tätigen?
+⇒ Empire Building, Overconfidence, Free Cashflows
+
+--- S.385 ---
+Empire Building
+▶ Viele Manager bevorzugen es, große Unternehmen statt kleine
+zu führen
+▶ Daher tätigen sie Investitionen, die die Größe des
+Unternehmens steigern, jedoch nicht zwingend die Rentabilität
+▶ Große Unternehmen werden aus verschiedenen Gründen als
+attraktiv empfunden:
+▶ Manager großer Unternehmen erhalten tendenziell höhere
+Gehälter
+▶ Manager großer Unternehmen haben mehr Macht, Prestige
+und Anerkennung und genießen mehr Publicity in den Medien
+▶ Daher kann es sein, dass ein Manager unrentable
+
+--- S.386 ---
+Overconfidence
+▶ Ein weiterer Grund für eine U¨berinvestition ist, dass die
+Manager häufig zu optimistisch sind ⇒ Overconfidence
+▶ Selbst wenn sie versuchen, im Interesse der Aktionäre zu
+handeln, können hierdurch Fehler unterlaufen
+▶ Manager überschätzen häufig die Aussichten des
+Unternehmens und halten neue Geschäftsmöglichkeiten für
+besser, als sie tatsächlich sind
+▶ Gleichzeitig können sie sich häufig nur schwer von lieb
+gewonnenen Projekten trennen, obwohl diese beendet werden
+sollten
+
+--- S.387 ---
+Geringere Free Cashflows
+▶ Um verschwenderische Investitionen zu tätigen, benötigen die
+Manager die erforderlichen Barmittel
+▶ Hypothese der Free Cashflows: Fehlinvestitionen sind dann
+wahrscheinlicher, wenn Unternehmen hohe freie Cashflows
+aufweisen, die das notwendige Maß überschreiten, das für die
+Investitionen mit positivem Kapitalwert und die Zahlungen an
+die Gläubiger benötigt wird (Jensen, 1986)
+▶ Nur dann, wenn die Barmittel knapp sind, sind Manager
+gemäß dieser These motiviert, das Unternehmen so effizient
+wie möglich zu führen
+▶ Folge: Die Verschuldung steigert hier den Unternehmenswert,
+
+--- S.388 ---
+(c) Geringere Handlungsautonomie
+▶ Die Verschuldung kann auch den Umfang des Management
+Entrenchment reduzieren, da Manager in einer finanziellen
+Notlage eher entlassen werden
+▶ Weniger autonome Manager achten vermutlich mehr auf ihre
+Performance und tätigen weniger Fehlinvestitionen
+▶ Außerdem überwachen die Gläubiger eines hochverschuldeten
+Unternehmens die Maßnahmen des Managements
+
+--- S.389 ---
+Geringere Handlungsautonomie
+▶ Durch die Verschuldung sind den Managern stärker die Hände
+gebunden
+▶ Hierdurch können sie gezwungen sein, Strategien härter
+durchzusetzen, als es ohne die drohende finanzielle Notlage
+der Fall wäre
+▶ Beispiel: Zugeständnisse der Arbeitnehmer in
+Lohnverhandlungen angesichts einer drohenden Insolvenz
+▶ Ein Unternehmen mit hoher Verschuldung ist möglicherweise
+auch ein härterer Konkurrent, der aggressiver agiert, da er
+keine Insolvenz riskieren kann
+
+--- S.390 ---
+Agency-Kosten und die Trade-Off-Theorie
+▶ Der Wert des verschuldeten Unternehmens ist nun:
+VL = VU +BW(fremdfinanzierungsbedingter Steuervorteil)
+−BW(Konkurskosten)
+Operations Management
+−BW(Agency −KostendesFremdkapitals)
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
++BW(Agency −NutzendesFremdkapitals)
+8 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.391 ---
+Agency-Kosten und die Trade-Off-Theorie
+▶ Unternehmen profitieren bei steigender Verschuldung vom
+fremdfinanzierungsbedingten Steuervorteil (τ∗·D) und
+von verbesserten Managementanreizen
+▶ Gleichzeitig steigen jedoch die erwarteten Konkurskosten und
+OperatdiioenAsnMreiaznpraogbleemmeenauts dem Fremdkapital
+Kapite
+▶
+l 1D6:a Fsinoapntziimellael eNoNtliavgeea, uMdaneasgFermeemndtaknarpeiiztea lusnDd ∗Ingfolremicahttion
+Grenzkosten und -nutzen der Verschuldung gerade aus
+8 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.392 ---
+Das optimale Fremdkapitalniveau
+▶ Beachte: Das optimale Verschuldungsniveau hängt von den
+Eigenschaften des betrachteten Unternehmens und von der
+Relevanz der verschiedenen Kostenarten und
+Marktunvollkommenheiten ab
+▶ Die verschiedenen Kosten und Nutzen sind nicht in jeder
+Branche gleich bedeutend
+
+--- S.393 ---
+▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ niedrig (wegen geringer Gewinne)
+▶ Konkurskosten: Hohes Humankapital (und somit hohe Kosten
+im Fall einer finanziellen Notlage)
+▶ Agency-Kosten des Fremdkapitals: Risiko der
+Geschäftsstrategie kann leicht erhöht werden (d.h. hohe
+Agency-Kosten des Fremdkapitals)
+▶ Agency-Nutzen des Fremdkapitals: Geringe freie Cashflows
+(und damit Anreizprobleme des Managements), daher
+Agency-Nutzen begrenzt
+⇒ Relativ niedriges Fremdkapitalniveau
+Das optimale Fremdkapitalniveau
+
+--- S.394 ---
+Das optimale Fremdkapitalniveau
+▶ Beispiel: R&D-intensive Unternehmen (hohe Kosten für
+Forschung und Entwicklung und hohes erwartetes Wachstum),
+z.B. Biotech-/Hightech-Unternehmen:
+▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ niedrig (wegen geringer Gewinne)
+▶ Konkurskosten: Hohes Humankapital (und somit hohe Kosten
+im Fall einer finanziellen Notlage)
+▶ Agency-Kosten des Fremdkapitals: Risiko der
+Geschäftsstrategie kann leicht erhöht werden (d.h. hohe
+Agency-Kosten des Fremdkapitals)
+▶ Agency-Nutzen des Fremdkapitals: Geringe freie Cashflows
+
+--- S.395 ---
+▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ hoch (wegen hoher Gewinne)
+▶ Konkurskosten: Relativ geringe Konkurskosten (leichte
+Verwertbarkeit der Vermögensgegenstände)
+▶ Agency-Kosten des Fremdkapitals: Risiken können nicht so
+leicht erhöht werden
+▶ Agency-Nutzen des Fremdkapitals: Hohe freie Cashflows mit
+wenigen guten Investitionsgelegenheiten (hoher Agency-
+Nutzen)
+⇒ Relativ hohe Verschuldung
+Das optimale Fremdkapitalniveau
+▶ Beispiel: Reife Unternehmen (geringes Wachstum, stabile
+
+--- S.396 ---
+Das optimale Fremdkapitalniveau
+▶ Beispiel: Reife Unternehmen (geringes Wachstum, stabile
+Cashflows, überwiegend materielle Vermögensgegenstände),
+z.B. Immobilienunternehmen, Versorgungsunternehmen,
+Supermärkte:
+▶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ hoch (wegen hoher Gewinne)
+▶ Konkurskosten: Relativ geringe Konkurskosten (leichte
+Verwertbarkeit der Vermögensgegenstände)
+▶ Agency-Kosten des Fremdkapitals: Risiken können nicht so
+leicht erhöht werden
+▶ Agency-Nutzen des Fremdkapitals: Hohe freie Cashflows mit
+
+--- S.397 ---
+Verschuldungsniveaus in der Praxis
+▶ Die Trade-Off-Theorie erklärt, welche Kapitalstruktur ein
+Unternehmen wählen sollte, um den Wert für die derzeitigen
+Aktionäre zu maximieren
+▶ Dies ist jedoch nicht zwingend das Ziel des Managements
+▶ Die Management-Entrenchment-Theorie der
+Kapitalstruktur besagt, dass Manager die Kapitalstruktur
+hauptsächlich wählen, um die Schuldendisziplin zu umgehen
+und ihre eigene Position im Unternehmen zu sichern
+▶ Manager könnten beispielsweise die Verschuldung minimieren,
+um den Verlust ihres Arbeitsplatzes zu vermeiden, der mit
+einer finanziellen Notlage einhergehen würde
+
+--- S.398 ---
+4.2.3 Asymmetrische Information und Kapitalstruktur
+▶ Relevante wissenschaftliche Aufsätze:
+▶ Ross (1977): “The Determination of Financial Structure: The
+Incentive-Signalling Approach,” Bell Journal of Economics, 8,
+23–40
+▶ Akerlof (1970): “The Markets for Lemons: Quality, Uncertainty
+and the Market Mechanism,” Quartlery Journal of Economics,
+84, 488–500
+▶ Leland and Pyle (1977): “Information Asymmetries, Financial
+Structure and Financial Intermediation,” Journal of Finance,
+32, 371–387
+▶ Myers and Mailuf (1984): “Corporate Financing and
+
+--- S.399 ---
+Asymmetrische Information und Kapitalstruktur
+▶ Asymmetrische Information: Situation, in der die Parteien
+einer Transaktion unterschiedlich gut über relevante
+Umstände informiert sind
+▶ Beispiel: Der Manager besitzt bessere Informationen als die
+Investoren über die zukünftigen Cashflows des Unternehmens
+▶ Die Manager können die Verschuldung als glaubwürdiges
+Signal für die Investoren einsetzen, dass das Unternehmen in
+der Lage ist, zukünftige Cashflows zu generieren
+(Signaling-Theorie des Fremdkapitals)
+▶ Im Falle der Eigenkapitalemission enthält der Preis hingegen
+einen Abschlag, wenn die Manager vertrauliche Informationen

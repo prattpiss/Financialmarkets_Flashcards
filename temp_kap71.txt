@@ -1,0 +1,150 @@
+=== KAP71 (S.634-644) ===
+--- S.634 ---
+Bankenregulierung
+▶ Der Bankensektor ist einer der am stärksten regulierten
+Sektoren in der Volkswirtschaft
+▶ Historisch war dies nicht immer der Fall
+▶ Viele Länder haben eine umfassende Bankenregulierung und
+-aufsicht erst nach der Weltwirtschaftskrise eingeführt
+▶ Daher stellen sich die folgenden Fragen:
+▶ Warum werden Banken strenger reguliert als Nicht-Banken?
+▶ Wie funktioniert die Bankenregulierung?
+▶ Wie effektiv war die Bankenregulierung in der Vergangenheit?
+▶ Wie kann die Bankenregulierung verbessert werden?
+
+--- S.635 ---
+(2) Anleger-/Einlegerschutz:
+▶ Anleger sind häufig klein und uninformiert und müssen daher
+geschützt werden
+▶ Sicherheitsnetz im Bankensystem (Einlagensicherung, Lender
+of Last Resort, Bankenrettungen) erhöht die Notwendigkeit
+der Regulierung
+7.1 Gründe für Bankenregulierung
+▶ Zwei Hauptgründe für die strenge Regulierung des
+Finanzsystems (vgl. vorne):
+(1) Systemisches Risiko:
+▶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+
+--- S.636 ---
+7.1 Gründe für Bankenregulierung
+▶ Zwei Hauptgründe für die strenge Regulierung des
+Finanzsystems (vgl. vorne):
+(1) Systemisches Risiko:
+▶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+(Ansteckungseffekte)
+▶ Finanzkrisen haben sehr hohe volkswirtschaftliche Kosten
+(2) Anleger-/Einlegerschutz:
+▶ Anleger sind häufig klein und uninformiert und müssen daher
+geschützt werden
+▶ Sicherheitsnetz im Bankensystem (Einlagensicherung, Lender
+
+--- S.637 ---
+(1) Systemisches Risiko
+▶ Der Zusammenbruch einer Bank geht mit negativen
+Externalitäten für das Finanzsystem und die Realwirtschaft
+einher:
+▶ Ansteckungseffekte im Finanzsektor (vgl. vorne):
+1. Information
+2. Interbankenverbindlichkeiten
+3. Makroökonomische Rückkopplungen
+▶ Auswirkungen auf Nicht-Banken
+1. Zerstörung langfristiger Kundenbeziehungen
+2. Rückgang der Kreditvergabe, Gefahr einer Kreditklemme
+
+--- S.638 ---
+▶ Rückgang der Kreditvergabe, Kreditklemme
+▶ In einer Bankenkrise erleiden die Banken Verluste → Rückgang
+des Eigenkapitals der Banken → Erhöhung des Leverage
+▶ Banken könnten darauf reagieren, indem sie die Kreditvergabe
+(und damit die Bilanzsumme) reduzieren, um ihren
+Verschuldungsgrad zu senken (z.B. durch die Reduzierung von
+Neukrediten oder Beleihungsgrenzen)
+▶ Dies kann den ursprünglichen Schock verstärken
+→ Deleveraging (vgl. vorheriges Kapitel)
+Auswirkungen von Bankenkrisen auf Nicht-Banken
+▶ Zerstörung langfristiger Kundenbeziehungen zwischen
+Banken und Unternehmen
+
+--- S.639 ---
+Auswirkungen von Bankenkrisen auf Nicht-Banken
+▶ Zerstörung langfristiger Kundenbeziehungen zwischen
+Banken und Unternehmen
+▶ Verlust an Informationskapital
+▶ Bei anderen Banken erhalten die Unternehmen Kredite nur zu
+ungünstigeren Konditionen (oder gar nicht)
+▶ Rückgang der Kreditvergabe, Kreditklemme
+▶ In einer Bankenkrise erleiden die Banken Verluste → Rückgang
+des Eigenkapitals der Banken → Erhöhung des Leverage
+▶ Banken könnten darauf reagieren, indem sie die Kreditvergabe
+(und damit die Bilanzsumme) reduzieren, um ihren
+Verschuldungsgrad zu senken (z.B. durch die Reduzierung von
+
+--- S.640 ---
+▶ Zusammenbruch enthält kaum Informationen
+▶ Unternehmen sind weniger stark verflochten
+▶ Kundenbeziehungen können leichter auf andere Unternehmen
+übertragen werden
+▶ Wettbewerber profitieren im Normalfall vom Zusammenbruch
+eines konkurrierenden Marktteilnehmers
+▶ Aufgrund der geringeren Rückwirkungen eines
+Zusammenbruchs werden Nicht-Banken nicht so scharf
+reguliert wie Banken
+Vergleich mit Nicht-Banken
+▶ Warum werden Banken schärfer reguliert als Nicht-Banken?
+▶ Normalerweise sollte der Zusammenbruch eines insolventen
+
+--- S.641 ---
+Vergleich mit Nicht-Banken
+▶ Warum werden Banken schärfer reguliert als Nicht-Banken?
+▶ Normalerweise sollte der Zusammenbruch eines insolventen
+Unternehmens nicht verhindert werden, so dass schwache
+Marktteilnehmer aus dem Markt ausscheiden
+▶ Warum gilt das nicht für Banken?
+▶ Beispiel: Automobilhersteller
+▶ Zusammenbruch enthält kaum Informationen
+▶ Unternehmen sind weniger stark verflochten
+▶ Kundenbeziehungen können leichter auf andere Unternehmen
+übertragen werden
+▶ Wettbewerber profitieren im Normalfall vom Zusammenbruch
+
+--- S.642 ---
+(2) Anleger-/Einlegerschutz
+▶ Eine Regulierung, die die Banken sicherer macht, schützt in
+der Regel auch deren Gläubiger (Ausnahme: Bail-in)
+▶ Zusätzlich gibt es spezielle Regelungen zum Anleger-/
+Einlegerschutz
+▶ Die meisten entwickelten Länder haben eine gesetzliche
+Einlagensicherung eingeführt, um die Einleger zu schützen
+▶ Problem:
+▶ Wenn die Einleger geschützt sind, dann haben sie keinen
+Anreiz mehr, ihre Bank zu kontrollieren
+→ Schwächung der Marktdisziplin
+▶ Dies könnte bei den Banken zu einer übermäßigen
+
+--- S.643 ---
+7.2 Eigenkapitalregulierung
+▶ Unternehmen, die vom nationalen Bankrecht (in
+Deutschland: Kreditwesengesetz, KWG) als Banken
+klassifiziert werden, müssen die Bankenregulierung erfüllen
+und werden von der Bankenaufsicht überwacht
+▶ Die Bankenregulierung hat traditionell darauf abgezielt,
+individuelle Bankrisiken zu kontrollieren
+(mikroprudenzielle Regulierung)
+▶ Idee: Wenn jede einzelne Bank sicher ist, dann ist das gesamte
+Bankensystem sicher
+▶ Aber: Das systemische Risiko ist nicht gleich der Summe der
+Einzelrisiken
+
+--- S.644 ---
+Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung ist heute die wichtigste Form
+der Bankenregulierung
+▶ Reformen der Bankenregulierung in den vergangenen
+Jahrzehnten bezogen sich überwiegend auf die
+Eigenkapitalregulierung
+▶ Verhandlungen werden heute auf internationaler Ebene geführt
+▶ Idee: Schaffung eines globalen Level Playing Field (gleiche
+Wettbewerbsbedingungen) und Verhinderung von
+regulatorischer Arbitrage

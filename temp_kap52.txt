@@ -1,0 +1,445 @@
+=== KAP52 (S.492-525) ===
+--- S.492 ---
+5.2 Delegierte Kontrolle
+▶ Literatur: Diamond (1984), Review of Economic Studies,
+393–414 (leicht veränderte Notation im Vergleich zum Paper)
+▶ Zweites zentrales Modell zur Erklärung der Existenz von
+Banken
+▶ Modellierung der Risikotransformation durch Banken
+▶ Banken vergeben riskante Kredite
+▶ Einleger halten risikolose(re) Einlagen
+▶ Zentrale Frage: Warum können Banken einen besseren
+Rendite-Risiko-Trade-off bieten als der Markt?
+
+--- S.493 ---
+▶ Lösung: Durch die gleichzeitige Finanzierung mehrerer
+Projekte und die damit verbundene Diversifikation können
+die Kosten der Delegation vermindert werden
+(im Extremfall bis auf null)
+▶ Ergebnis: Einschaltung eines Finanzintermediärs dominiert
+eine direkte Finanzbeziehung ohne Intermediär
+Grundidee des Modells
+▶ Unternehmer unterliegen einem Anreizproblem und müssen
+daher kontrolliert werden
+▶ Finanzintermediäre ermöglichen eine Ersparnis von
+Kontrollkosten, wenn sie stellvertretend die U¨berwachung
+der Unternehmen übernehmen
+
+--- S.494 ---
+Grundidee des Modells
+▶ Unternehmer unterliegen einem Anreizproblem und müssen
+daher kontrolliert werden
+▶ Finanzintermediäre ermöglichen eine Ersparnis von
+Kontrollkosten, wenn sie stellvertretend die U¨berwachung
+der Unternehmen übernehmen
+(bis hierhin reines Transaktionskostenargument)
+▶ Zentrales Problem: Wer kontrolliert den Kontrolleur?
+▶ Lösung: Durch die gleichzeitige Finanzierung mehrerer
+Projekte und die damit verbundene Diversifikation können
+die Kosten der Delegation vermindert werden
+(im Extremfall bis auf null)
+
+--- S.495 ---
+Asymmetrische Information in Finanzierungsbeziehungen
+▶ Zur Erinnerung: Arten der Informationsasymmetrie:
+▶ Ex ante: Qualitätsunsicherheit zu Beginn einer
+Finanzierungsbeziehung (“hidden characteristics”)
+→ Adverse Selektion
+▶ Ex post: Verhaltensunsicherheit während einer
+Finanzierungsbeziehung (“hidden action”)
+→ Moral Hazard
+
+--- S.496 ---
+Asymmetrische Information in Finanzierungsbeziehungen
+▶ 2 Arten von Lösungen:
+1. Abbau von Informationsasymmetrien, z.B. durch Kontrolle
+2. Anreizkompatible Verträge: Verträge werden so ausgestaltet,
+dass die informierte Partei den Anreiz hat, sich so wie
+erwünscht zu verhalten
+▶ Beide Arten von Lösungen verursachen Kosten
+1. Kontrollkosten (monitoring costs)
+2. First-best-Lösungen erfüllen häufig nicht die Bedingung der
+Anreizkompatibilität
+→ Second-best-Lösung, Kosten = Differenz zwischen
+First-best- und Second-best-Lösung
+
+--- S.497 ---
+▶ Beispiel 2:
+▶ Kapitalnehmer hat den Anreiz, sich zu wenig anzustrengen
+oder übermäßige Risiken einzugehen (excessive risk-taking)
+▶ Kapitalgeber antizipiert das Verhalten des Kapitalnehmers und
+berücksichtigt dies bei der Zinssetzung
+▶ Im Extremfall kommt die Finanztransaktion gar nicht
+zustande, obwohl sie für beide Seiten vorteilhaft ist
+Asymmetrische Information in Finanzierungsbeziehungen
+▶ Informationsprobleme schaden i.d.R. beiden Seiten der
+Finanztransaktion
+▶ Beispiel 1:
+▶ Kapitalgeber muss Kontrollkosten aufwenden, um
+
+--- S.498 ---
+Asymmetrische Information in Finanzierungsbeziehungen
+▶ Informationsprobleme schaden i.d.R. beiden Seiten der
+Finanztransaktion
+▶ Beispiel 1:
+▶ Kapitalgeber muss Kontrollkosten aufwenden, um
+unerwünschtes Verhalten zu verhindern
+▶ Kosten der Kontrolle werden an Kapitalnehmer (teilweise)
+weitergegeben (abhängig von Marktmacht)
+▶ Beispiel 2:
+▶ Kapitalnehmer hat den Anreiz, sich zu wenig anzustrengen
+oder übermäßige Risiken einzugehen (excessive risk-taking)
+▶ Kapitalgeber antizipiert das Verhalten des Kapitalnehmers und
+
+--- S.499 ---
+Informationsproblem bei Diamond (1984)
+▶ Costly State Verification: Kapitalgeber können die Erträge
+des finanzierten Projekts nur bei Aufwendung von Kosten
+beobachten (Gale/Hellwig, 1985)
+▶ Kapitalnehmer haben den Anreiz, hohe Erträge zu
+verschweigen, um die Rückzahlung des Kredits zu umgehen
+▶ Lösungsmöglichkeiten:
+1. Kontrolle → Kontrollkosten
+2. Anreizkompatibler Vertrag, hier: Kreditvertrag mit
+(nicht-monetären) Strafen bei zu geringer Rückzahlung
+→ Auch hier Kosten, da Strafen auch gezahlt werden müssen,
+wenn der Unternehmer wahrheitsgemäß geringe Erträge angibt
+
+--- S.500 ---
+Annahmen des Modells
+▶ N risikoneutrale Unternehmer benötigen je 1 Geldeinheit, um
+ein Projekt durchzuführen
+▶ Eine große Anzahl risikoneutraler Investoren (> N·m) möchte
+je 1/m Geldeinheiten investieren
+▶ Kreditangebot > Kreditnachfrage
+▶ Folge: Investoren können auf ihren Reservationsnutzen
+“gedrückt” werden
+▶ Alternative Geldanlage erbringt erwartete Rendite von R
+▶ Folge: Investoren beteiligen sich an der Finanzierung der
+Unternehmen nur, wenn die erwartete Rendite mindestens R
+beträgt
+
+--- S.501 ---
+Investitionsprojekte der Unternehmer
+▶ t = 0: Investition von einer Geldeinheit
+▶ t = 1: Zufälliger Ertrag y˜
+▶ E(y˜)>R, d.h., eine Durchführung des Projekts ist bei
+vollständiger Information effizient
+▶ Projekte verschiedener Unternehmer sind stochastisch
+unabhängig
+▶ Asymmetrische Information: Nur der Unternehmer kann die
+Realisation von y˜ beobachten
+▶ Arten der Finanzierung:
+(a) Direkte Finanzierung
+(b) Indirekte Finanzierung über einen Finanzintermediär
+
+--- S.502 ---
+⇒ Unternehmer würde immer behaupten, der Ertrag sei gleich
+null
+⇒ Rückzahlung = null
+⇒ Kapitalgeber würden dies antizipieren und erst gar kein
+Kapital bereitstellen
+▶ Also käme einer solcher Vertrag nicht zustande
+(a) Direkte Finanzierung
+▶ Informationsproblem schränkt den Raum sinnvoller
+Finanzierungsverträge ein
+▶ Beispiel: Vereinbarung einer Rückzahlung, die prozentual zum
+Projektertrag ist
+
+--- S.503 ---
+(a) Direkte Finanzierung
+▶ Informationsproblem schränkt den Raum sinnvoller
+Finanzierungsverträge ein
+▶ Beispiel: Vereinbarung einer Rückzahlung, die prozentual zum
+Projektertrag ist
+⇒ Unternehmer würde immer behaupten, der Ertrag sei gleich
+null
+⇒ Rückzahlung = null
+⇒ Kapitalgeber würden dies antizipieren und erst gar kein
+Kapital bereitstellen
+▶ Also käme einer solcher Vertrag nicht zustande
+
+--- S.504 ---
+Direkte Finanzierung
+▶ Beachte: Kosten der asymmetrischen Information gehen in
+diesem Modell immer zu Lasten der Unternehmer
+(Kapitalgeber erhalten im Erwartungswert immer R)
+⇒ Unternehmer hat selbst ein Interesse daran, Verträge
+abzuschließen, die seinen Verhaltensspielraum einengen
+▶ Zwei Möglichkeiten
+1. Kontrolle (monitoring)
+2. Anreizkompatibler Vertrag mit nicht-monetären Strafen
+
+--- S.505 ---
+1. Vertrag mit Kontrolle
+▶ Bei direkter Finanzierung müssen die Unternehmer durch
+jeden Kapitalgeber kontrolliert werden
+▶ Kosten der Kontrolle: m·K
+(m = Anzahl der Kapitalgeber pro Unternehmer)
+
+--- S.506 ---
+2. Anreizkompatibler Vertrag mit nicht-monetären Strafen
+▶ “Nicht-monetäre” Strafen: Strafen können auch dann
+verhängt werden, wenn der Unternehmer kein Vermögen
+besitzt (oder dies zumindest behauptet)
+▶ Strafe erbringt den Kapitalgebern keinen Nutzen und ist
+(abgesehen von den Anreizwirkungen) wohlfahrtsmindernd
+▶ Einziger Zweck der Strafe = Abhalten des Unternehmers von
+unerwünschtem Verhalten (Abschreckung)
+▶ Beispiele für nicht-monetäre Strafen:
+▶ Gefängnisstrafen
+▶ Verlust des guten Rufs
+▶ Kosten der Jobsuche
+
+--- S.507 ---
+▶ Strafe muss hoch genug sein, um Anreizwirkung zu erzielen
+▶ Strafe muss so gering wie möglich sein, um unnötige
+Wohlfahrtskosten zu vermeiden
+Optimaler Finanzkontrakt
+▶ z(y) = Tatsächliche Rückzahlung durch die Unternehmer
+▶ ϕ(z(y)) = Strafe, die bei einer Rückzahlung von z(y) anfällt
+▶ ϕ(z(y))=0, wenn (mindestens) der vereinbarte Betrag
+zurückgezahlt wird
+▶ Beachte: Straffunktion kann nicht direkt von y abhängen!
+▶ Anforderungen an eine optimale Straffunktion:
+
+--- S.508 ---
+Optimaler Finanzkontrakt
+▶ z(y) = Tatsächliche Rückzahlung durch die Unternehmer
+▶ ϕ(z(y)) = Strafe, die bei einer Rückzahlung von z(y) anfällt
+▶ ϕ(z(y))=0, wenn (mindestens) der vereinbarte Betrag
+zurückgezahlt wird
+▶ Beachte: Straffunktion kann nicht direkt von y abhängen!
+▶ Anforderungen an eine optimale Straffunktion:
+▶ Strafe muss hoch genug sein, um Anreizwirkung zu erzielen
+▶ Strafe muss so gering wie möglich sein, um unnötige
+Wohlfahrtskosten zu vermeiden
+
+--- S.509 ---
+Optimaler Finanzkontrakt
+▶ ϕ∗(z(y)) = max[h−z(y),0], wobei h der vereinbarte
+Rückzahlungsbetrag ist
+▶ Strafe muss genau der Differenz zwischen vereinbarter und
+tatsächlicher Rückzahlung entsprechen
+▶ Folge: Die Summe aus Rückzahlung und Strafen ist dann stets
+h, egal was der Unternehmer zurückzahlt (für z(h)≤h)
+▶ Der Unternehmer ist dann indifferent zwischen Lügen und
+Nicht-Lügen
+▶ Annahmegemäß wird der Unternehmer in dieser Situation nicht
+lügen
+*(z(y))
+
+--- S.510 ---
+Optimaler Finanzkontrakt
+*(z(y))
+z(y)
+h h
+z(y) y
+h h
+▶ Wie hoch muss h gewählt werden?
+▶ h muss gerade so hoch sein, dass E[z(y)]=R
+▶ Im anreizkompatiblen Vertrag gilt: z(y)=min[h,y]
+⇒ Unternehmer leitet alle Projekterträge an die Kapitalgeber
+weiter, sofern y <h und zahlt sonst h zurück
+▶ Wie Standardkreditvertrag!
+
+--- S.511 ---
+Wohlfahrtskosten des Finanzkontrakts mit Strafen
+▶ Wohlfahrtskosten = erwartete Strafe E[ϕ∗(z(y))]
+▶ Ex post ist eine Bestrafung des Unternehmers
+wohlfahrtsmindernd
+▶ Bestrafung findet immer dann statt, wenn der
+Rückzahlungsbetrag kleiner ist als der vereinbarte
+Rückzahlungsbetrag h
+▶ In diesem Fall ist aber auch der tatsächliche Projektertrag
+kleiner als h!
+▶ Unternehmer muss bestraft werden, obwohl er die Wahrheit
+sagt
+
+--- S.512 ---
+▶ Bedingung: m·K <E[ϕ∗(z(y))]
+▶ Kontrolle ist dann besonders teuer, wenn m groß ist
+▶ Vertrag mit nicht-monetären Strafen ist teuer, wenn schlechte
+Projekterträge mit einer hohen Wahrscheinlichkeit auftreten
+▶ Also: Kontrolle ist vorzuziehen, wenn die Anzahl der Investoren
+gering und schlechte Projekterträge wahrscheinlich sind
+Vertrag mit Kontrolle vs. anreizkompatibler Vertrag
+▶ Wohlfahrtkosten bei direkter Finanzierung:
+min{m·K,E[ϕ∗(z(y))]}
+▶ Frage: Wann ist Kontrolle aus Wohlfahrtssicht besser als ein
+Vertrag mit nicht-monetären Strafen?
+
+--- S.513 ---
+Vertrag mit Kontrolle vs. anreizkompatibler Vertrag
+▶ Wohlfahrtkosten bei direkter Finanzierung:
+min{m·K,E[ϕ∗(z(y))]}
+▶ Frage: Wann ist Kontrolle aus Wohlfahrtssicht besser als ein
+Vertrag mit nicht-monetären Strafen?
+▶ Bedingung: m·K <E[ϕ∗(z(y))]
+▶ Kontrolle ist dann besonders teuer, wenn m groß ist
+▶ Vertrag mit nicht-monetären Strafen ist teuer, wenn schlechte
+Projekterträge mit einer hohen Wahrscheinlichkeit auftreten
+▶ Also: Kontrolle ist vorzuziehen, wenn die Anzahl der Investoren
+gering und schlechte Projekterträge wahrscheinlich sind
+
+--- S.514 ---
+(b) Indirekte Finanzierung über einen Finanzintermediär
+▶ Idee: Durch Delegation der Kontrolle an einen
+“Finanzintermediär” (FI) lassen sich die Kontrollkosten von
+m·K auf 1·K senken
+▶ Problem: Wie kann sichergestellt werden, dass der FI die
+gesammelte Information wahrheitsgemäß weiterleitet?
+▶ Informationsproblem wurde nicht gelöst, sondern nur auf eine
+andere Ebene verschoben
+▶ Zusätzliche Kosten der Delegation (Delegationskosten)
+▶ Wenn der FI zusätzlich kontrolliert werden muss, steigen die
+Kontrollkosten auf (m+1)·K (das kann nicht optimal sein)
+▶ Zentraler Beitrag des Aufsatzes: Delegation der Kontrolle
+
+--- S.515 ---
+▶ Kontrolle des Unternehmers durch den FI, um
+Transaktionskosten zu sparen (Kosten: 1·K)
+▶ Vertrag zwischen Kapitalgebern und FI: Vertrag mit
+nicht-monetären Strafen (Kontrolle würde m·K kosten,
+dasselbe wie bei direkter Finanzierung)
+Delegierte Kontrolle
+▶ Durch die Einschaltung des FI kommt ein weiteres
+Informationsproblem hinzu, das gelöst werden muss
+▶ Implizite Annahme: Rückzahlung des Unternehmers an den
+Kontrolleur kann nicht beobachtet werden (sonst könnte die
+Kontrolle ohne Probleme delegiert werden)
+▶ Optimale Verträge zwischen (1) dem Unternehmer und dem
+
+--- S.516 ---
+Delegierte Kontrolle
+▶ Durch die Einschaltung des FI kommt ein weiteres
+Informationsproblem hinzu, das gelöst werden muss
+▶ Implizite Annahme: Rückzahlung des Unternehmers an den
+Kontrolleur kann nicht beobachtet werden (sonst könnte die
+Kontrolle ohne Probleme delegiert werden)
+▶ Optimale Verträge zwischen (1) dem Unternehmer und dem
+FI sowie (2) zwischen dem FI und den Kapitalgebern:
+▶ Kontrolle des Unternehmers durch den FI, um
+Transaktionskosten zu sparen (Kosten: 1·K)
+▶ Vertrag zwischen Kapitalgebern und FI: Vertrag mit
+nicht-monetären Strafen (Kontrolle würde m·K kosten,
+
+--- S.517 ---
+Delegationskosten und Diversifikation
+▶ Aber: Dies kann nicht funktionieren, wenn der FI nur einen
+Unternehmer finanziert:
+Kosten ≈ K +E[ϕ∗(z(y))] → immer noch höher als bei
+direkter Finanzierung
+▶ Was passiert, wenn der FI mehrere Unternehmer finanziert?
+▶ Idee: Risikoneutraler FI finanziert N Unternehmer mit
+stochastisch unabhängigen Projekterträgen (hinreichend wäre,
+dass die Erträge nicht perfekt korreliert sind)
+▶ FI kontrolliert die N Unternehmer zu Kosten N ·K
+▶ N ·m Kapitalgeber des FI
+▶ Zwischen Kapitalgebern und FI besteht ein Vertrag mit
+
+--- S.518 ---
+Wann ist eine Delegierung der Kontrolle optimal?
+▶ Erwartete Strafen hängen davon ab, wie wahrscheinlich es ist,
+dass Erträge < h auftreten
+▶ Zentraler Punkt des Papiers: Aufgrund der Diversifikation
+des Bankportfolios geht diese Wahrscheinlichkeit für N → ∞
+gegen null!
+▶ Gesetz der Großen Zahlen: Für große N konvergiert die
+Rendite des diversifizierten Portfolios (pro Unternehmer) gegen
+den Erwartungswert der Projekte und ist somit näherungsweise
+sicher
+
+--- S.519 ---
+▶ Für große N konvergieren der Ertrag des Portfolios (pro
+Unternehmer) gegen E(y˜) > R und die Wahrscheinlichkeit der
+Rückzahlung gegen 1
+▶ Folge: Delegationskosten d konvergieren gegen null
+Vorteilhaftigkeit der Delegation
+▶ Kosten der direkten Finanzierung pro Unternehmer:
+min{m·K,E[ϕ∗(z(y))]}
+▶ Kosten pro Unternehmer bei indirekter Finanzierung über
+Finanzintermediär: K +d
+(Delegationskosten d = erwartete Strafe des FI)
+▶ Finanzintermediation ist vorteilhaft, wenn
+K +d < min{m·K,E[ϕ∗(z(y))]}
+
+--- S.520 ---
+Vorteilhaftigkeit der Delegation
+▶ Kosten der direkten Finanzierung pro Unternehmer:
+min{m·K,E[ϕ∗(z(y))]}
+▶ Kosten pro Unternehmer bei indirekter Finanzierung über
+Finanzintermediär: K +d
+(Delegationskosten d = erwartete Strafe des FI)
+▶ Finanzintermediation ist vorteilhaft, wenn
+K +d < min{m·K,E[ϕ∗(z(y))]}
+▶ Für große N konvergieren der Ertrag des Portfolios (pro
+Unternehmer) gegen E(y˜) > R und die Wahrscheinlichkeit der
+Rückzahlung gegen 1
+▶ Folge: Delegationskosten d konvergieren gegen null
+
+--- S.521 ---
+Vorteilhaftigkeit der Delegation
+▶ Kosten bei Finanzintermediation ≈ K pro Unternehmer
+▶ Also: Ein perfekt diversifizierter FI ist vorteilhaft, wenn
+K < min{m·K,E[ϕ∗(z(y))]} ⇔ K < E[ϕ∗(z(y))]
+▶ Direkte Finanzierung ist nur dann vorteilhaft, wenn Kosten der
+Kontrolle extrem hoch sind oder wenn bereits das einzelne
+Projekt ein sehr geringes Ausfallrisiko aufweist
+▶ Ergebnis: In vielen Fällen dominiert die delegierte Kontrolle
+eine direkte Finanzierung
+
+--- S.522 ---
+Zusammenfassung
+▶ Wenn die einzelnen Kapitalgeber nur über geringe
+Anlagebeträge relativ zur Kreditsumme verfügen, können
+durch die Delegation der Kontrolle an einen Dritten (den
+“Finanzintermediär”) Kontrollkosten gespart werden
+▶ Bei nicht perfekter Korrelation verschiedener Kredite sind die
+Kosten der Delegation an einen FI aufgrund der
+Diversifikation des Portfolios relativ gering und fallen in der
+Anzahl der finanzierten Kredite
+▶ Fazit: Die Delegation der Kontrolle an einen
+Finanzintermediär kann trotz Einschaltung einer zusätzlichen
+Ebene mit neuen Informationsproblemen sinnvoll sein
+
+--- S.523 ---
+Kritische Würdigung von Diamond (1984)
+▶ Wichtiges Papier zur Erklärung der Existenz von Banken,
+insbesondere zur Risikotransformationsfunktion von Banken
+▶ Vorhersagen des Modells:
+▶ Indirekte Finanzierungsbeziehungen mit Finanzintermediären
+können sinnvoll sein → Banken spielen vor allem dort eine
+√
+Rolle, wo Informationsprobleme bestehen
+√
+▶ Finanzierung von Banken über Fremdkapital
+▶ Einlagen sind relativ sicher trotz des relativ hohen Risikos der
+√
+
+--- S.524 ---
+Kritische Würdigung von Diamond (1984)
+▶ Finanzintermediäre sind in der Realität alles andere als perfekt
+diversifiziert, sie halten viele nicht-diversifizierte Risiken
+▶ Bank sollte im Modell im Idealfall unendlich groß sein, hohe
+Konzentration im Bankensektor könnte jedoch aus anderen
+Gründen wenig wünschenswert sein (Einschränkung des
+Wettbewerbs, Too-big-to-fail-Problematik)
+▶ Modell liefert keine Beschreibung des Bankensystems,
+Bankenwettbewerb spielt im Modell keine Rolle
+▶ In der Realität beobachtet man auch viele kleine Banken,
+Diseconomies of Scale im Bankgeschäft?
+
+--- S.525 ---
+Kritische Würdigung von Diamond (1984)
+▶ Eigenkapital spielt im Modell keine Rolle, ist aber in der
+Realität eine wichtige Determinante des Risikos der
+Bankschulden (inklusive Einlagen)
+▶ Kreditgeschäft der Banken wird relativ gut beschrieben,
+Modell abstrahiert jedoch von vielen Merkmalen des
+Einlagenvertrags (anders: Diamond/Dybvig 1983)
+▶ Betrachtetes Informationsproblem relativ speziell, andere
+Arten der Informationsasymmetrie könnten wichtiger sein,
+z.B. Moral Hazard bei der Risikowahl, adverse Selektion
+von Kreditnehmern
+▶ Keine Diskussion der Bedeutung von Reputation im

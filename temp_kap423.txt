@@ -1,0 +1,355 @@
+=== KAP423 (S.398-427) ===
+--- S.398 ---
+4.2.3 Asymmetrische Information und Kapitalstruktur
+▶ Relevante wissenschaftliche Aufsätze:
+▶ Ross (1977): “The Determination of Financial Structure: The
+Incentive-Signalling Approach,” Bell Journal of Economics, 8,
+23–40
+▶ Akerlof (1970): “The Markets for Lemons: Quality, Uncertainty
+and the Market Mechanism,” Quartlery Journal of Economics,
+84, 488–500
+▶ Leland and Pyle (1977): “Information Asymmetries, Financial
+Structure and Financial Intermediation,” Journal of Finance,
+32, 371–387
+▶ Myers and Mailuf (1984): “Corporate Financing and
+
+--- S.399 ---
+Asymmetrische Information und Kapitalstruktur
+▶ Asymmetrische Information: Situation, in der die Parteien
+einer Transaktion unterschiedlich gut über relevante
+Umstände informiert sind
+▶ Beispiel: Der Manager besitzt bessere Informationen als die
+Investoren über die zukünftigen Cashflows des Unternehmens
+▶ Die Manager können die Verschuldung als glaubwürdiges
+Signal für die Investoren einsetzen, dass das Unternehmen in
+der Lage ist, zukünftige Cashflows zu generieren
+(Signaling-Theorie des Fremdkapitals)
+▶ Im Falle der Eigenkapitalemission enthält der Preis hingegen
+einen Abschlag, wenn die Manager vertrauliche Informationen
+
+--- S.400 ---
+Beispiel: Verschuldung als glaubwürdiges Signal
+▶ Das Unternehmen Beltran International plant ein neues
+Projekt
+▶ Wie kann die Managerin des Unternehmens die Investoren von
+der Profitabilität des Projekts überzeugen?
+▶ Problem: Die Aussagen der Managerin über die Profitabilität
+des Unternehmens sind nicht glaubwürdig, wenn sie nicht
+überprüft werden können
+
+--- S.401 ---
+Verschuldung als glaubwürdiges Signal
+▶ Daher muss das Unternehmen versuchen, glaubwürdige
+Signale auszusenden
+▶ Glaubwürdigkeitsprinzip:
+▶ Behauptungen, die im eigenen Interesse liegen, sind nur dann
+glaubwürdig, wenn sie durch Handlungen unterstützt werden,
+die zu teuer wären, wenn die Behauptungen falsch wären
+(“Taten sagen mehr als tausend Worte”)
+▶ Mögliches Signal: Ex post überprüfbare Bekanntmachungen,
+die im Falle der vorsätzlichen Falschinformation Klagen und
+hohe Strafen nach sich ziehen würden
+▶ Häufig ist eine Bekanntmachung von Informationen aber nicht
+
+--- S.402 ---
+Verschuldung als glaubwürdiges Signal
+▶ Das Unternehmen kann versuchen, die positive Information
+glaubhaft zu kommunizieren, indem es sich zu hohen
+künftigen Kreditzahlungen verpflichtet
+▶ Wenn die Information wahr ist, wird das Unternehmen keine
+Probleme dabei haben, die Zahlungen zu leisten
+▶ Ist die Information hingegen falsch, wird das Unternehmen bei
+der Rückzahlung seiner Schulden Schwierigkeiten bekommen
+und in eine finanzielle Notlage geraten, aus der dem Manager
+und dem Unternehmen hohe Kosten entstehen
+▶ Daher ist die Verschuldung aus Sicht des Managements nur
+dann optimal, wenn die Wahrscheinlichkeit des
+
+--- S.403 ---
+Verschuldung als glaubwürdiges Signal
+▶ Die Verschuldung kann also genutzt werden, um die
+Investoren von der zukünftigen Profitabilität des
+Unternehmens zu überzeugen
+▶ Signaling-Theorie des Fremdkapitals: Die Verschuldung
+kann als Mittel verwendet werden, um den Investoren positive
+Informationen zu signalisieren (Ross, 1977)
+
+--- S.404 ---
+Beispiel: Fremdkapital signalisiert Stärke
+▶ Das Unternehmen Beltran International ist derzeit rein
+eigenkapitalfinanziert
+▶ Der Marktwert von Beltran in einem Jahr liegt je nach Erfolg
+der neuen Strategie entweder bei 100 Millionen Euro oder bei
+50 Millionen Euro
+▶ Die Investoren halten diese Ergebnisse für gleich
+wahrscheinlich, aber die Managerin von Beltran verfügt über
+die Information, dass der Erfolg so gut wie sicher ist
+▶ Wir gehen davon aus, dass die Managerin im Falle der
+Insolvenz ihren Job verlieren würde
+▶ Wie hoch muss die Verschuldung sein, damit die Behauptung
+
+--- S.405 ---
+Beispiel: Fremdkapital signalisiert Stärke
+▶ Bei einer Verschuldung von bis zu 50 Millionen Euro ist die
+Behauptung der Managerin nicht glaubwürdig, weil das
+Unternehmen keine finanzielle Notlage riskiert
+▶ Liegt die Verschuldung hingegen über 50 Millionen Euro, so
+ist das Signal eher glaubwürdig, weil die Managerin in diesem
+Fall bei einer falschen Auskunft ihren Job riskieren würde
+
+--- S.406 ---
+Das Problem der adversen Selektion
+▶ In Märkten mit asymmetrischer Information zwischen
+Verkäufern und Käufern kommt es häufig zum Problem der
+adversen Selektion: Die durchschnittliche Qualität der Güter
+im Markt ist geringer als die durchschnittliche Gesamtqualität
+(Akerlof, 1970)
+▶ Beispiel Gebrauchtwagen: “Warum sollte ich das Auto kaufen,
+das du verkaufen willst?” (Lemons-Problem)
+▶ Die uninformierte Seite kennt nur die durchschnittliche
+Qualität und ist daher auch nur bereit, einen
+durchschnittlichen Preis zu bezahlen
+▶ Zu diesem Preis sind Verkäufer überdurchschnittlicher
+
+--- S.407 ---
+Das Problem der adversen Selektion
+▶ Die Käufer werden daher nur kaufen, wenn ein Preisnachlass
+gewährt wird
+▶ Inhaber hochwertiger Autos verkaufen nur ungern, da sie
+wissen, dass die Käufer davon ausgehen werden, dass sie
+mittlere Qualität verkaufen und daher nur einen geringen Preis
+zahlen werden
+▶ Somit sind sowohl die Qualität als auch der Preis auf dem
+Gebrauchtwagenmarkt gering
+▶ Im Ergebnis kommt es zu einer adversen Selektion: Die
+Qualität der Autos, die auf dem Gebrauchtwagenmarkt
+verkauft wird, ist unterdurchschnittlich
+
+--- S.408 ---
+Das Problem der adversen Selektion
+▶ Adverse Selektion gibt es auch außerhalb des
+Gebrauchtwagenmarktes
+▶ Sie gilt für jede Situation, in der ein Verkäufer mehr
+Informationen als der Käufer hat
+▶ Allgemein gilt: Wenn ein Verkäufer private Informationen über
+den Wert einer Ware besitzt, sind die Käufer aufgrund der
+adversen Selektion nur zu einem relativ geringen Preis bereit,
+das Gut zu kaufen (Lemons-Prinzip)
+
+--- S.409 ---
+Eigenkapitalemission und adverse Selektion
+▶ Auch bei der Eigenkapitalemission besteht das Problem der
+adversen Selektion
+▶ Beispiel:
+▶ Der Inhaber eines Start-up-Unternehmens behauptet, dass sein
+Unternehmen eine hervorragende Investitionsgelegenheit
+darstellt und bietet 70% seiner Anteile am Unternehmen zum
+Kauf an
+▶ Er erklärt, dass er aus Gründen der Diversifizierung verkauft
+▶ Es besteht allerdings der Verdacht, dass der Inhaber nur
+deshalb einen so großen Anteil verkaufen möchte, weil er
+negative Informationen über die Zukunftsaussichten des
+
+--- S.410 ---
+Eigenkapitalemission und adverse Selektion
+▶ Wie bei dem Gebrauchtwagenhändler kann der Wunsch des
+Inhabers, Eigenkapital zu verkaufen, dazu führen, dass die
+Qualität der Investition infrage gestellt wird
+▶ Aufgrund des Lemons-Problems reduzieren Investoren den
+Preis, den sie zu zahlen bereit sind
+▶ Die Reduktion des Preises aufgrund der adversen Selektion
+stellt Kosten der Eigenkapitalemission dar
+▶ Diese können die Inhaber, die über positive Informationen
+verfügen, von der Eigenkapitalemission abhalten
+
+--- S.411 ---
+Beispiel: Adverse Selektion in Kapitalmärkten
+▶ Die Aktie des Unternehmens Zycor ist entweder 60, 80 oder
+100 Euro pro Aktie wert
+▶ Investoren nehmen an, dass jeder Wert mit der gleichen
+Wahrscheinlichkeit eintritt
+▶ Der aktuelle Kurs entspricht dem Durchschnittswert von 80
+Euro
+▶ Nun kündigt der CEO von Zycor an, einen Großteil seiner
+Aktien zum Zwecke der Diversifizierung zu verkaufen
+▶ Die Diversifizierung ist ihm 10% des Aktienkurses wert, das
+heißt, er wäre bereit, 10% weniger zu erhalten, als die Aktien
+wert sind
+
+--- S.412 ---
+Beispiel: Adverse Selektion in Kapitalmärkten
+▶ Wenn der wahre Wert der Aktien 100 Euro betragen würde,
+wäre der CEO nicht bereit, die Aktien zu einem Marktkurs
+von 80 Euro (also 20% unter dem wahren Wert) zu verkaufen
+▶ Wenn der CEO verkaufen will, muss der wahre Wert 60 oder
+80 Euro betragen
+▶ Der Aktienkurs sollte daher auf den Durchschnittswert von
+70 Euro fallen
+▶ Läge der wahre Wert bei 80 Euro, wäre der CEO bereit, zu
+72 Euro zu verkaufen, jedoch nicht zu 70 Euro
+▶ Will er dennoch verkaufen, wissen die Investoren, dass der
+wahre Wert 60 Euro beträgt
+
+--- S.413 ---
+Eigenkapitalemission und adverse Selektion
+▶ Bislang sind wir davon ausgegangen, dass der Inhaber des
+Unternehmens seine eigenen Aktien verkauft
+▶ Was ist, wenn ein Manager eines Unternehmens beschließt,
+Wertpapiere im Namen des Unternehmens zu verkaufen?
+▶ Da der Manager im Namen der aktuellen Aktionäre handelt,
+wird der Manager auch in diesem Fall die Aktien nicht
+unterhalb ihres wahren Wertes verkaufen
+
+--- S.414 ---
+Beispiel: Eigenkapitalemission und adverse Selektion
+▶ Gentec ist ein vollständig eigenkapitalfinanziertes
+Biotech-Unternehmen
+▶ Seine 20 Millionen Aktien werden derzeit zu einem Kurs von
+10 Euro pro Aktie gehandelt und haben somit einen
+Gesamtmarktwert von 200 Millionen Euro
+▶ Das Management glaubt aufgrund der Aussichten auf ein
+neues Medikament, dass der wahre Wert des Unternehmens
+300 Millionen Euro (15 Euro pro Aktie) beträgt
+
+--- S.415 ---
+Beispiel: Eigenkapitalemission und adverse Selektion
+▶ Gentec benötigt 60 Millionen Euro für ein neues
+Forschungslabor
+▶ Hierzu kann das Unternehmen 6 Millionen Aktien zum
+heutigen Kurs von 10 Euro ausgeben
+▶ Bestätigen sich die guten Nachrichten über das neue
+Medikament, steigt der Unternehmenswert auf 360 Millionen
+Euro, das entspricht 13,85 Euro pro Aktie (360/26)
+
+--- S.416 ---
+Beispiel: Eigenkapitalemission und adverse Selektion
+▶ Alternativ kann das Unternehmen mit der Emission warten,
+bis die guten Nachrichten sich bestätigt haben
+▶ In diesem Fall steigt der Aktienkurs auf 15 Euro, und das
+Unternehmen muss lediglich 4 Millionen Aktien verkaufen, um
+das Forschungslabor zu finanzieren
+▶ Dann beträgt der neue Aktienkurs 15 Euro statt 13,85 Euro
+(360/24)
+
+--- S.417 ---
+Beispiel: Eigenkapitalemission und adverse Selektion
+▶ Also ist die Emission unterbewerteter Aktien teuer für die
+Altaktionäre
+▶ Handeln die Manager im Interesse der Altaktionäre, werden
+sie nicht bereit sein, die Aktien unterhalb ihres wahren Wertes
+zu verkaufen
+▶ Daher werden Eigenkapitalemissionen möglichst so lange
+verzögert, bis positive Nachrichten öffentlich werden
+
+--- S.418 ---
+Eigenkapitalemission und adverse Selektion
+▶ Da die Unternehmen kein unterbewertetes Eigenkapital
+ausgeben möchten, kommt es zu demselben
+Lemons-Problem wie vorher:
+▶ Manager, die wissen, dass ihre Wertpapiere einen höheren
+Wert besitzen, werden nicht verkaufen
+▶ Nur diejenigen, die wissen, dass die Wertpapiere weniger wert
+sind, werden verkaufen
+▶ Aufgrund der adversen Selektion verlangen die Investoren
+einen Preisabschlag für die Wertpapiere
+▶ Also verursacht das Lemons-Problem Kosten für
+Unternehmen, die Eigenkapital für neue Investitionen
+
+--- S.419 ---
+Auswirkungen auf die Eigenkapitalemission
+▶ Die adverse Selektion hat Auswirkungen auf die
+Eigenkapitalemission:
+1. Der Aktienkurs sinkt nach der Ankündigung einer
+Eigenkapitalemission (Lemons-Prinzip)
+▶ Durch die Eigenkapitalemission signalisiert das Unternehmen,
+dass das Eigenkapital überbewertet ist
+▶ Daher verlangen die Investoren einen Preisabschlag
+▶ Empirische Studien für die USA bestätigen, dass der
+Aktienkurs nach Ankündigung einer Eigenkapitalemission um
+rund 3% fällt
+2. Der Aktienkurs steigt vor der Ankündigung einer
+
+--- S.420 ---
+Auswirkungen auf die Eigenkapitalemission
+▶ Unternehmen führen häufig dann eine Eigenkapitalemission
+OperationdsurMcha, wneangnedime Aesnymtmetrie der Information am kleinsten ist,
+Kapitel 16: FinzuamnziBeellies pNieoltulangmei,t tMealbnaargneamchendtearnVreeirzöeff uenntdli cIhnufonrgm(aptoiosintiver)
+Ergebnisse
+▶ Lucas und McDonald (1990): Aktien übertrafen den Markt
+vor Eigenkapitalemissionen um fast 50%
+9 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.421 ---
+Auswirkungen auf die Kapitalstruktur
+▶ Die Entscheidung über die Kapitalstruktur wird vom Ausmaß
+der asymmetrischen Information beeinflusst
+▶ Eigenkapital ist besonders stark von adverser Selektion
+betroffen
+▶ Fremdkapital reagiert in der Regel weniger sensibel auf die
+vertraulichen Informationen des Managements
+▶ Das Unternehmen kann adverse Selektion vollständig
+vermeiden, wenn es Investitionen durch einbehaltene
+Gewinne finanziert
+▶ Die Theorie, dass Manager zunächst Gewinnrücklagen und
+Fremdkapital verwenden und neues Eigenkapital nur als
+
+--- S.422 ---
+Die Hackordnung der Finanzierung
+▶ Die Entscheidung über die Kapitalstruktur hängt auch von
+den privaten Informationen des Managements ab
+▶ Daher haben Manager, die das Eigenkapital des Unternehmens
+für unterbewertet halten, eine Präferenz für eine Finanzierung
+von Investitionen durch Gewinnrücklagen oder Fremdkapital
+▶ Manager, die das Eigenkapital des Unternehmens für
+überbewertet halten, bevorzugen die Eigenkapitalemission
+gegenüber der Fremdkapitalemission und der Verwendung von
+Gewinnrücklagen
+▶ Der befürchtete Kursrückgang hält die Manager aber
+tendenziell von der Eigenkapitalemission ab
+
+--- S.423 ---
+Die Hackordnung der Finanzierung
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+▶ Unternehmen sind oft Nettorückkäufer von Eigenkapital und
+emittieren eher Fremdkapital
+▶ Weitaus größter Teil der Investitionen wird durch einbehaltene
+Gewinne finanziert (> 75%)
+10 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.424 ---
+Beispiel: Die Hackordnung der Finanzierung
+▶ Axon Industries benötigt 10 Millionen Euro für ein neues
+Investitionsprojekt
+▶ Fremdkapital kann zu Zinsen von 7% ausgegeben werden,
+auch wenn die Manager 6% für angemessen halten
+▶ Die Manager glauben, dass die Aktien um 5% unterbewertet
+sind
+▶ Wie hoch sind die Kosten der Finanzierung?
+
+--- S.425 ---
+Beispiel: Die Hackordnung der Finanzierung
+▶ Verwendet das Unternehmen einbehaltene Gewinne, statt
+diese als Dividenden auszuschütten, betragen die Kosten
+10 Millionen Euro
+▶ Das Fremdkapital kostet aufgrund der Unterbewertung
+hingegen: 10Mio·1,07/1,06 = 10,094 Millionen Euro
+▶ Für das Eigenkapital müssen aufgrund der Unterbewertung
+sogar 10,5 Millionen Euro bezahlt werden
+
+--- S.426 ---
+Auswirkungen auf die Kapitalstruktur
+▶ Die Pecking-Order-Theorie führt nicht zu einer eindeutigen
+Prognose hinsichtlich der gesamten Kapitalstruktur des
+Unternehmens
+▶ Sie besagt lediglich, dass die Unter- und U¨berbewertung in
+Gegenwart von Informationsproblemen ein zusätzliches
+Entscheidungskriterium darstellt
+▶ Zudem sind Gewinnrücklagen einfach eine andere Form der
+Eigenkapitalfinanzierung
+
+--- S.427 ---
+¨
+Ubung 4
+▶ Zu finden auf eCampus
+▶ Lösungen in der Vorlesung

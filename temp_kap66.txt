@@ -1,0 +1,255 @@
+=== KAP66 (S.600-619) ===
+--- S.600 ---
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen Liquiditätsschocks
+5.2 Delegierte Kontrolle
+IV. Finanzstabilität
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der Konvertibilität und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+
+--- S.601 ---
+6.6 Der Lender of Last Resort
+▶ Moderne Zentralbanken fungieren in Krisenzeiten als Lender
+of Last Resort
+▶ Idee: Die Bereitstellung von Liquidität in Krisenzeiten soll
+verhindern, dass Banken, die intrinsisch solvent, aber illiquide
+sind, zusammenbrechen
+▶ Dies ist strikt zu trennen von einer Zuführung von
+Eigenkapital, bei der es um die Wiederherstellung der
+Solvenz geht (Bail-out)
+▶ Idee geht zurück auf Bagehot (1873)
+
+--- S.602 ---
+Der Lender of Last Resort bei Bagehot (1873)
+1. Der LoLR vergibt Kredite nur an illiquide, aber solvente
+Finanzinstitutionen
+2. Um zu verhindern, dass Banken sich regelmäßig über diese
+Kredite finanzieren, muss ein Strafzins verlangt werden
+3. Die Banken müssen Sicherheiten bereitstellen, die allerdings
+zu Vorkrisenpreisen bewertet werden
+4. Der LoLR kündigt im Vorfeld die Bedingungen an, unter
+denen er in einer Krise Kredite bereitstellt
+
+--- S.603 ---
+▶ Bei aggregierten Liquiditätsengpässen ist nur die
+Zentralbank in der Lage, zusätzliche Liquidität bereitzustellen
+▶ Aber: Würde es dann nicht reichen, dem Markt Liquidität
+bereitzustellen (z.B. über Offenmarktoperationen), statt
+Kredite an einzelne Institute zu vergeben?
+▶ In Krisenzeiten ist niemand bereit, einer angeschlagenen Bank
+einen Kredit zu geben (Beispiel: Zusammenbruch des
+Interbankenmarktes in der globalen Finanzkrise)
+▶ Grund: Aufgrund asymmetrischer Informationen halten Banken
+lieber U¨berschussliquidität, als im Interbankenmarkt Kredite zu
+vergeben
+▶ Auch höhere Zinsangebote helfen nicht, da diese zu adverser
+
+--- S.604 ---
+Fragen und Probleme
+▶ Warum kann der (Interbanken-) Markt die Liquidität nicht
+bereitstellen?
+▶ Bei aggregierten Liquiditätsengpässen ist nur die
+Zentralbank in der Lage, zusätzliche Liquidität bereitzustellen
+▶ Aber: Würde es dann nicht reichen, dem Markt Liquidität
+bereitzustellen (z.B. über Offenmarktoperationen), statt
+Kredite an einzelne Institute zu vergeben?
+▶ In Krisenzeiten ist niemand bereit, einer angeschlagenen Bank
+einen Kredit zu geben (Beispiel: Zusammenbruch des
+Interbankenmarktes in der globalen Finanzkrise)
+▶ Grund: Aufgrund asymmetrischer Informationen halten Banken
+
+--- S.605 ---
+▶ Die Zentralbank unterliegt ähnlichen Informationsproblemen
+wie der Markt, sofern sie keinen Zugriff auf aufsichtliche
+Informationen hat
+▶ Außerdem kann die Illiquidität einer Bank leicht zur Insolvenz
+führen
+▶ Beispiel: Bank muss ihre Vermögensgegenstände zu
+Schleuderpreisen verkaufen, um liquide zu bleiben (fire sales)
+▶ Beachte: Jede Liquiditätsbeschaffung bei der Zentralbank
+erfordert die Bereitstellung von Sicherheiten (typischerweise
+Staatsanleihen)
+▶ Besteht die Gefahr von Ansteckungseffekten, sollten ggf. auch
+insolvente Banken unterstützt werden
+
+--- S.606 ---
+Fragen und Probleme
+▶ Kann die Zentralbank überhaupt zwischen der Illiquidität und
+der Insolvenz einer Bank unterscheiden?
+▶ Die Zentralbank unterliegt ähnlichen Informationsproblemen
+wie der Markt, sofern sie keinen Zugriff auf aufsichtliche
+Informationen hat
+▶ Außerdem kann die Illiquidität einer Bank leicht zur Insolvenz
+führen
+▶ Beispiel: Bank muss ihre Vermögensgegenstände zu
+Schleuderpreisen verkaufen, um liquide zu bleiben (fire sales)
+▶ Beachte: Jede Liquiditätsbeschaffung bei der Zentralbank
+erfordert die Bereitstellung von Sicherheiten (typischerweise
+
+--- S.607 ---
+▶ Banken verlassen sich darauf, dass sie im Krisenfall unterstützt
+werden
+▶ Dies kann zu einer unzureichenden Liquiditätshaltung der
+Banken führen (Lender of First Resort)
+▶ Lösung: Konstruktive Ambiguität (constructive ambiguity)?
+Dies widerspräche allerdings den Kriterien von Bagehot
+Fragen und Probleme
+▶ LoLR führt zu Anreizproblemen bei den Banken
+
+--- S.608 ---
+Fragen und Probleme
+▶ LoLR führt zu Anreizproblemen bei den Banken
+▶ Banken verlassen sich darauf, dass sie im Krisenfall unterstützt
+werden
+▶ Dies kann zu einer unzureichenden Liquiditätshaltung der
+Banken führen (Lender of First Resort)
+▶ Lösung: Konstruktive Ambiguität (constructive ambiguity)?
+Dies widerspräche allerdings den Kriterien von Bagehot
+
+--- S.609 ---
+▶ Widerspruch zur Preisstabilität (in Krisenzeiten häufig kein
+Problem, da es dann eher deflationäre Tendenzen gibt)
+▶ Wichtiger: Widerspruch zur Wechselkursstabilität,
+insbesondere bei festem Wechselkurssystem
+→ Expansive Geldpolitik kann einen Run auf die Währung
+auslösen (twin crises)
+▶ Negative Auswirkungen auf die Finanzstabilität:
+Liquiditätszuführungen können zum Aufbau von
+Vermögenspreisblasen beitragen (zum Beispiel in
+Immobilien- und Aktienmärkten)
+Fragen und Probleme
+▶ LoLR-Politik ist gegebenenfalls nicht kompatibel mit anderen
+
+--- S.610 ---
+Fragen und Probleme
+▶ LoLR-Politik ist gegebenenfalls nicht kompatibel mit anderen
+wirtschaftspolitischen Zielen
+▶ Widerspruch zur Preisstabilität (in Krisenzeiten häufig kein
+Problem, da es dann eher deflationäre Tendenzen gibt)
+▶ Wichtiger: Widerspruch zur Wechselkursstabilität,
+insbesondere bei festem Wechselkurssystem
+→ Expansive Geldpolitik kann einen Run auf die Währung
+auslösen (twin crises)
+▶ Negative Auswirkungen auf die Finanzstabilität:
+Liquiditätszuführungen können zum Aufbau von
+Vermögenspreisblasen beitragen (zum Beispiel in
+
+--- S.611 ---
+Empirische Evidenz
+▶ Es gibt umfangreiche empirische Evidenz dafür, dass eine
+LoLR-Politik helfen kann, Bankenkrisen zu verhindern oder
+zumindest abzumildern
+▶ So ist unstrittig, dass die Zentralbanken die Folgen der
+globalen Finanzkrise maßgeblich abgemildert haben
+▶ Andere Krisen hätten durch eine LoLR-Politik vielleicht
+vermieden oder abgemildert werden können (USA 1929–1933)
+
+--- S.612 ---
+Empirische Evidenz
+▶ In manchen Situationen hat sich der LoLR jedoch als hilflos
+erwiesen, insbesonderer bei gleichzeitiger Bedrohung des
+Wechselkurses in festen Wechselkurssystemen
+(Deutschland 1931, Thailand 1997)
+▶ Außerdem gibt es Hinweise darauf, dass eine lockere
+Geldpolitik zur Entstehung von zukünftigen Krisen beitragen
+könnte, indem sie den Aufbau von Vermögenspreisblasen
+begünstigt
+▶ Beispiele: Dotcom-Blase in Reaktion auf expansive
+Geldpolitik, lockere Geldpolitik nach dem Platzen der
+Dotcom-Blase und nach dem Anschlag vom 11. September,
+
+--- S.613 ---
+Die EZB als Retterin der Banken
+Der Lender of Last Resort in der globalen Finanzkrise
+▶ ◮ Al M le a w ss i i c v h e t I i n g t e e n rv Z en en ti t o r n al d b e a r n E ke Z n B h in ab R e e n ak in tio d n er au g f lo d b e a n len
+FiZnaunsazmkrmiseendbrieucRhovlloenaBlsanLkoeLnRunüdbeIrnnteormbamneknenumnädrkitnenenormem
+Umfang Liquidität in die Märkte gepumpt
+◮ Zusammenbruch des Finanzsystems konnte durch
+▶ MuamssfiavnegAreuicshweeBituernegitsdteerlluZnegnvtroanlbLaiqnukibdiiltaäntzaebnge(w20e0nd7e=t w1e0r0d)e:n
+▶ Zusammenbruch des Finanzsystems konnte durch
+umfangreiche Bereitstellung von Liquidität abgewendet werden9/43
+
+--- S.614 ---
+Der Lender of Last Resort in der globalen Finanzkrise
+▶ Selbst insolvente Banken erhielten Liquidität, da sich die
+Trennung zwischen insolventen und illiquiden Banken als
+unmöglich erwies
+▶ Banken mussten Sicherheiten stellen, aber es fand eine
+erhebliche Absenkung der Qualitätsanforderungen an die
+Sicherheiten statt, die allerdings mit höheren Haircuts
+(Sicherheitsabschlägen) einhergingen
+▶ Kein Strafzins
+▶ Ausweitung der LoLR-Aktivitäten auf Nicht-Banken, vor
+allem Investmentbanken (zum Beispiel Bear Stearns)
+
+--- S.615 ---
+Erreichen der Nullzinsgrenze und der Beginn von QE
+▶ Absenkung der Leitzinsen bis zur effektiven Nullzinsgrenze,
+umfangreiche kurz-/längerfristige Refinanzierungsoperationen
+▶ Leitzins ab September 2014 bei nur noch 0,05%
+▶ M Kaä pit r el z 5 - N2ied0rig1zins6en: wedSer efürn dekn Euuron-Ragum ndoche füsr DeLutsechilatndz anignemsesesesn auf 0%, Senkung des
+E
+
+in
+AB
+l
+B
+a
+
+--- S.616 ---
+Erreichen der Nullzinsgrenze und der Beginn von QE
+▶ Zusätzlich intervenierten die Zentralbanken massiv in den
+Wertpapiermärkten, indem sie Wertpapiere direkt am Markt
+aufkauften (Quantitative Easing, quantitative Lockerung)
+⇒ “Unkonventionelle” geldpolitische Maßnahmen
+▶ Beachte aber: Hier geht es nicht mehr in erster Linie um die
+Rettung des Bankensystems
+▶ Ab März 2015: Aufkauf von Staats- und
+Unternehmensanleihen (60 Mrd Euro pro Monat)
+▶ Erhöhung auf 80 Mrd Euro (April 2016), dann wieder
+Rückführung auf 60 Mrd Euro (April 2017), auf 30 Mrd Euro
+(Januar 2018) und schließlich auf 0 (Januar 2019)
+
+--- S.617 ---
+Bewertung der EZB-Politik
+▶ EZB hat in der Krise wesentlich zur Stabilisierung des
+Finanzsystems und des Euroraums beigetragen
+▶ Extrem expansive Maßnahmen ließen sich zunächst durch die
+Störungen im Finanzsystem und später durch
+Deflationsgefahren rechtfertigen
+▶ Makroökonomische Entwicklung und Anziehen der Inflation
+stellten die Notwendigkeit der expansiven Geldpolitik aber
+zunehmend infrage und führten zu einer Beendigung der
+Anleihekäufe (beachte: Geldpolitik blieb expansiv!)
+▶ Abkühlung der Konjunktur führt zu Rufen nach weiterer
+Lockerung (auch notwendig während Covid-19).
+
+--- S.618 ---
+Risiken der lockeren Geldpolitik
+1. Aushöhlung der Geschäftsmodelle von Banken und
+Versicherungen
+2. Erhöhte Risikoübernahme im Finanzsektor
+3. Schwächung der Reform- und Konsolidierungsbereitschaft der
+Staaten
+4. Bedrohung der Unabhängigkeit der Zentralbank durch
+fiskalische und finanzielle Dominanz
+
+--- S.619 ---
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen Liquiditätsschocks
+5.2 Delegierte Kontrolle
+IV. Finanzstabilität
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der Konvertibilität und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort

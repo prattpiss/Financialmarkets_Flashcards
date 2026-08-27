@@ -1,0 +1,173 @@
+=== KAP73 (S.661-674) ===
+--- S.661 ---
+7.3 Funktionen der Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung der Banken erfüllt drei
+Funktionen:
+(1) Puffer gegen Verluste
+(2) Frühe Eingriffsmöglichkeit der Bankenaufsicht
+(3) Anreizeffekte
+
+--- S.662 ---
+(1) Puffer gegen Verluste
+▶ Eigenkapital schützt die Gläubiger der Banken, die
+Einlagensicherung und den Steuerzahler gegen Verluste
+▶ Aber: Eigenkapital ist kein Puffer für die Bank selbst
+▶ Eine Bank darf das regulatorische Minimum nicht
+unterschreiten
+▶ Daher stellt das regulatorische Eigenkapital für die Banken
+keinen Puffer dar
+▶ Nur Eigenkapital oberhalb des regulatorischen Minimums stellt
+einen Puffer dar
+▶ Basel III hat echte Puffer für Banken eingeführt: Antizyklische
+Puffer, Kapitalerhaltungspuffer
+
+--- S.663 ---
+(2) Frühzeitige Eingriffsmöglichkeit für die Bankenaufsicht
+▶ Wenn das Kapital einer Bank die regulatorischen
+Anforderungen unterschreitet, kann die Aufsicht in die
+Geschäftspolitik der Bank eingreifen
+▶ Im Extremfall ordnet die Aufsicht eine Abwicklung der Bank
+an
+▶ Die Eigenkapitalanforderungen stellen sicher, dass die
+Intervention früh genug startet
+(bevor alle Werte vernichtet sind)
+
+--- S.664 ---
+(3) Anreizeffekte
+▶ Die vermutlich wichtigste Funktion der Eigenkapitalregulierung
+ist ihre Wirkung auf die Anreize der Bank
+▶ Ein Mindestmaß an Eigenkapital soll Moral Hazard der
+Banken bei der U¨bernahme von Risiken reduzieren
+
+--- S.665 ---
+Anreizeffekte
+▶ Schuldenfinanzierung mit beschränkter Haftung führt zu einer
+übermäßigen Risikoübernahme (asset substitution):
+▶ Hohe Renditen gehen an die Bank, während die Verluste nach
+unten begrenzt sind (maximaler Verlust = Gesamtverlust des
+eingesetzten Kapitals)
+▶ Verluste im schlechten Zustand der Welt werden auf die
+Gläubiger der Bank, die Einlagensicherung oder den
+Steuerzahler abgewälzt
+▶ Deshalb haben Banken den Anreiz, Projekte mit relativ hohen
+Renditen im guten Zustand der Welt zu wählen, auch wenn
+diese sehr niedrige Renditen im schlechten Zustand erzielen
+
+--- S.666 ---
+Anreizeffekte
+▶ Wenn die Risikoübernahme der Bank beobachtbar wäre,
+könnte die Regulierung eine ineffiziente Risikoübernahme
+einfach verbieten
+▶ Wegen asymmetrischer Information ist das aber nicht
+möglich
+▶ Wenn Banken gezwungen werden, sich teilweise über
+Eigenkapital zu finanzieren, werden sie aus eigenem Interesse
+eher die effizienten Risikoentscheidungen treffen
+(“skin in the game”)
+▶ Aber: Falsche Risikogewichte können zu verzerrten Anreizen
+führen (Basel I)
+
+--- S.667 ---
+7.4 Schwächen der Vorkrisen-Regulierung
+▶ Damals bestehende Bankenregulierung hat die globale
+Finanzkrise nicht verhindern können
+⇒ Nicht nur Versagen der Banken, sondern auch Versagen
+der Regulierung
+▶ Schwächen der Vorkrisen-Regulierung:
+(1) Keine hinreichende Berücksichtigung des systemischen
+Risikos
+(2) Prozyklizität der Eigenkapitalregulierung
+(3) Starke Betonung von Risiken auf der Aktivseite der
+Bankbilanzen
+
+--- S.668 ---
+(1) Systemisches Risiko
+▶ Wichtige Erkenntnis aus der Krise: Ein Bankensystem ist nicht
+unbedingt sicher, wenn die Banken individuell sicher sind
+▶ Grund: Der Versuch einer Bank, die eigene Stabilität
+sicherzustellen, kann die Stabilität des Systems gefährden
+▶ Beispiele: Notverkäufe von Wertpapieren in Reaktion auf
+Refinanzierungsprobleme, Reduzierung der Kreditvergabe in
+Reaktion auf Verluste
+▶ Daher ist es nicht ausreichend, die Banken individuell zu
+regulieren (mikroprudenzielle Regulierung)
+▶ Regulierung muss durch eine makroprudenzielle Perspektive
+ergänzt werden, die Externalitäten auf andere Banken oder
+
+--- S.669 ---
+Systemisches Risiko
+▶ Basel-II-Regulierung berücksichtigte Externalitäten des
+individuellen Bankverhaltens nicht in ausreichendem Maße
+▶ Die Verwendung interner Risikomodelle in der
+Bankenregulierung unterstellt, dass Banken dieselbe
+Zielfunktion haben wie die Regulierungsbehörde
+▶ Wenn Externalitäten bestehen, gilt dies gerade nicht
+▶ Banken haben selbst keinen Anreiz, Externalitäten in ihrem
+Optimierungskalkül zu berücksichtigten
+▶ Das könnte erklären, warum die ungewichteten
+Eigenkapitalquoten der Banken in der Krise so niedrig waren,
+während die risikogewichteten Eigenkapitalquoten robust
+
+--- S.670 ---
+(2) Prozyklizität der Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung beschränkt implizit die
+Kreditvergabekapazität der Banken
+▶ Beispiel:
+▶ Bei einer (ungewichteten) Eigenkapitalquote von 8 Prozent
+dürfen die Vermögensgegenstände der Bank ihr Kapital
+maximal um einen Faktor 12,5 übersteigen
+▶ Wenn das Eigenkapital der Bank um einen Euro fällt, müssen
+die Vermögensgegenstände um 12,5 Euro gesenkt werden, um
+den Verschuldungsgrad konstant zu halten (es sei denn, die
+Bank kann zusätzliches Eigenkapital aufnehmen, was
+kurzfristig schwierig sein kann, vor allem in Krisenzeiten)
+
+--- S.671 ---
+Prozyklizität der Eigenkapitalregulierung
+▶ In einer Rezession erleiden die Banken Verluste, was ihr
+Eigenkapital reduziert
+▶ Dies zwingt die Banken, ihre Bilanzen zurückzuführen, wenn
+sie kurzfristig kein Eigenkapital aufnehmen können
+(Deleveraging)
+▶ Der eingeschränkte Kreditzugang kann die Rezession
+verschärfen, wodurch wiederum Rückkopplungen auf den
+Bankensektor entstehen
+
+--- S.672 ---
+Prozyklizität der Eigenkapitalregulierung
+▶ Selbst eine nicht risikogewichtete Eigenkapitalregulierung
+(einfache Leverage Ratio) wirkt prozyklisch
+▶ Aber: Problem wird verschärft, wenn die
+Eigenkapitalregulierung risikogewichtet ist
+▶ Grund: Kreditwürdigkeit der Schuldner fällt in einer Rezession,
+wodurch sich die Risikogewichte erhöhen
+▶ Hierdurch erhöhen sich die Eigenkapitalanforderungen, was das
+Deleveraging verstärken kann
+▶ Lösung des Problems der Prozyklizität unter Basel III:
+Antizyklische Kapitalpuffer, Kapitalerhaltungspuffer
+▶ Beachte: Prozyklizität der Eigenkapitalregulierung ist geringer,
+
+--- S.673 ---
+(3) Starke Betonung von Risiken der Aktivseite
+▶ Risikomessung bei Banken basierte unter Basel II weitgehend
+auf den Risiken der Aktivseite, vor allem: Kreditausfallrisiko,
+Marktrisiko von Wertpapieren
+▶ Refinanzierungsrisiken wurden nicht erfasst
+▶ Refinanzierungsrisiken betreffen das Verhältnis zwischen der
+Aktiv- und Passivseite der Banken
+▶ Da Refinanzierungsrisiken stark mit den Risiken der Aktivseite
+interagieren, können sie nicht ignoriert werden
+▶ Lösung dieses Problems unter Basel III:
+Liquiditätsregulierung (Liquidity Coverage Ratio, Net Stable
+Funding Ratio)
+
+--- S.674 ---
+7.5 Die Regulierung des systemischen Risikos
+▶ Systemrelevante Banken sollten strenger reguliert werden, weil
+ihr Zusammenbruch stärkere Externalitäten verursacht
+▶ Hierzu muss der Begriff “systemisches Risiko”
+operationalisiert werden:
+▶ Größe?
+▶ Korrelation?
+▶ Vernetzung?
+▶ Kontext?

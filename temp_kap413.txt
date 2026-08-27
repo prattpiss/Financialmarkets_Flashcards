@@ -1,0 +1,218 @@
+=== KAP413 (S.232-249) ===
+--- S.232 ---
+4.1.3 Steuern auf Investorenebene
+▶ Bislang haben wir die Vorteile aus der Verschuldung
+hinsichtlich der Steuern betrachtet, die ein Unternehmen zu
+zahlen hat
+▶ Die Investoren müssen die erhaltenen Kapitalerträge jedoch
+ebenfalls versteuern
+▶ Beispielsweise müssen Privatpersonen typischerweise Zinsen,
+Dividenden und ggf. Kursgewinne als Ertrag versteuern
+
+--- S.233 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Der Betrag, den ein Investor für ein Wertpapier zu zahlen
+bereit ist, hängt von den Cashflows ab, die er erhält, nachdem
+alle Steuern entrichtet wurden
+▶ Somit reduzieren die Steuern auf Investorenebene ebenso wie
+die Ertragsteuern die Cashflows, die an die Investoren gehen,
+und mindern den Unternehmenswert
+▶ Folglich ist der fremdfinanzierungsbedingte Steuervorteil
+von der Reduktion der gesamten gezahlten Steuern (sowohl
+auf Unternehmens- als auch auf Investorenebene) abhängig
+
+--- S.234 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Steuern für Fremd- und Eigenkapitalgeber können einen Teil
+der beschriebenen Steuervorteile des Unternehmens aus der
+Verschuldung aufheben
+▶ Um den wahren Steuervorteil aus der Verschuldung zu
+ermitteln, muss man die kombinierte Auswirkung der Steuern
+auf Unternehmens- und auf Investorenebene berücksichtigen
+
+--- S.235 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Beispiel:
+▶ Wir betrachten ein Unternehmen mit einem Gewinn vor Zinsen
+und Steuern (EBIT) von 1 Euro
+▶ Das Unternehmen kann diesen Euro entweder an seine
+Fremdkapitalgeber in Form von Zinsen zahlen, an die
+Eigenkapitalgeber direkt über eine Dividende oder indirekt
+durch eine Einbehaltung der Gewinne, so dass Kapitalgewinne
+entstehen
+▶ Ertragsteuersatz des Unternehmens: τ c =35%
+▶ Steuersatz auf Zinserträge aus Fremdkapital: τ i =35%
+
+--- S.236 ---
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+Vereinfachtes Steuersystem
+7 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.237 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Cashflows nach Steuern:
+▶ An Fremdkapitalgeber: (1−τ i )=1−0,35=0,65
+▶ An Eigenkapitalgeber:
+(1−τ )(1−τ )=(1−0,35)·(1−0,15)=0,5525
+c e
+▶ Es besteht also weiterhin ein Steuervorteil des
+Fremdkapitals, dieser ist aber deutlich kleiner als zuvor
+▶ Steuervorteil des Fremdkapitals: τ∗ = 0,65−0,5525 = 15%
+0,65
+(vorher 35%)
+
+--- S.238 ---
+Steuersystem in Deutschland
+▶ Belastung auf Unternehmensebene: Keine Belastung auf
+Fremdkapitalzinsen, aber Belastung auf
+ODpiveidraetnidoenns/KMaapniataglegemweinnnte (Gewerbesteuer,
+Kapitel 15: Fremdkapital und Steuern
+Körperschaftsteuer, Solidaritätszuschlag)
+8 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.239 ---
+Steuersystem in Deutschland
+▶ Belastung auf Investorenebene: Abgeltungssteuer (25%) auf
+alle Kapitalerträge, Solidaritätszuschlag: τ = τ = 0,2638
+i e
+O(BpeearcahttioenFsehMlearniangTeambeenllet! Tarifbelastung = τ ·(1−τ ))
+e c
+Kapitel 15: Fremdkapital und Steuern
+▶ Beachte: Erheblicher Steuervorteil des Fremdkapitals (≈ 30%)
+8 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.240 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Allgemein kostet jeder Euro, der nach Steuern von den
+Fremdkapitalgebern in Form einer Zinszahlung erhalten wird,
+die Anteilseigner (1−τ∗) nach Steuern
+▶ Effektiver Steuervorteil aus dem Fremdkapital:
+(1−τ )−(1−τ )(1−τ )
+τ∗ = i c e
+(1−τ )
+i
+(1−τ )(1−τ )
+c e
+
+--- S.241 ---
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+▶ Gibt es keine Steuern auf Investorenebene oder sind die
+Steuersätze auf Erträge aus Fremd- und Eigenkapital gleich
+(τ = τ ), reduziert sich diese Formel auf τ∗ = τ
+i e c
+▶ Also: Eine Relativierung der früheren Ergebnisse ist nur dann
+notwendig, wenn es Steuern auf Investorenebene gibt und
+wenn die Steuern auf Erträge aus Fremd- und Eigenkapital
+sich unterscheiden
+▶ Ist die Steuerlast auf Erträge aus Eigenkapital geringer
+(τ < τ ), dann gilt: τ∗ < τ
+
+--- S.242 ---
+Steuervorteil aus Fremdkapital mit und ohne Steuern
+Operations Management
+(USA)
+Kapitel 15: Fremdkapital und Steuern
+▶ Steuervorteil des Fremdkapitals τ∗ nach Berücksichtigung der
+Investorenseite ist zwar weiterhin positiv, aber viel kleiner als
+τ
+c
+▶ Starke Schwankungen über die Zeit
+9 Berk DeMarzo: Grundlagen der Finazwirtschaft© Pearson 2015
+
+--- S.243 ---
+Bewertung des fremdfinanzierungsbedingten Steuervorteils
+mit Steuern auf Investorenebene
+▶ Im Fall von dauerhaften Schulden liegt der Unternehmenswert
+mit Verschuldung bei: VL = VU +τ∗·D
+▶ Bei einem Steuernachteil aus dem Fremdkapital auf
+Investorenebene gilt, dass τ∗ < τ , wodurch der steuerliche
+c
+Vorteil der Verschuldung gemindert wird
+▶ Typischerweise verschwindet er aber nicht ganz
+
+--- S.244 ---
+Bewertung des fremdfinanzierungsbedingten Steuervorteils
+mit Steuern auf Investorenebene
+▶ Steuern auf Investorenebene haben eine indirekte Auswirkung
+auf den gewichteten Durchschnitt der Kapitalkosten (WACC)
+▶ Berechnung der WACC:
+▶ WACC werden weiterhin unter Verwendung des
+Ertragsteuersatzes τ berechnet
+c
+▶ Allerdings werden die Eigenkapitalkosten und
+Fremdkapitalkosten des Unternehmens in Anwesenheit von
+Steuern auf Investorenebene angepasst, um die Investoren für
+ihre jeweiligen Steuerlasten zu entschädigen
+
+--- S.245 ---
+Ermittlung des tatsächlichen Steuervorteils aus dem
+Fremdkapital
+▶ Bei der Schätzung des effektiven Steuervorteils aus dem
+Fremdkapital unter Berücksichtigung der Steuern auf
+Investorenebene müssen viele Annahmen getroffen werden
+▶ Diese müssen angepasst werden, wenn man den tatsächlichen
+Steuervorteil für ein bestimmtes Unternehmen oder einen
+Investor ermitteln möchte
+
+--- S.246 ---
+Ermittlung des tatsächlichen Steuervorteils aus dem
+Fremdkapital
+▶ Annahme 1: Die Anleger zahlen jedes Jahr Steuern auf
+Kursgewinne.
+▶ Im Gegensatz zu Steuern auf Zins- und Dividendenerträge, die
+jährlich bezahlt werden, werden Steuern auf Kursgewinne erst
+dann entrichtet, wenn der Investor die Aktie verkauft und den
+Gewinn realisiert ⇒ Geringerer Barwert = niedrigerer
+effektiver Steuersatz auf Kursgewinne
+▶ Investoren mit aufgelaufenen Verlusten, die verwendet werden
+können, um Gewinne auszugleichen, unterliegen einem
+effektiven Kapitalertragsteuersatz von null
+
+--- S.247 ---
+Ermittlung des tatsächlichen Steuervorteils aus dem
+Fremdkapital
+▶ Annahme 2: Höhe von τ e
+▶ Die Verwendung des durchschnittlichen Dividenden- und
+Kursgewinnsteuersatzes für τ ist bei einem Unternehmen
+e
+angebracht, das 50% seiner Gewinne auszahlt, so dass die
+Gewinne der Aktionäre aus zusätzlichen Gewinnen gleichmäßig
+zwischen Dividenden und Kapitalgewinnen aufgeteilt werden
+▶ Bei Unternehmen mit viel höheren oder viel niedrigeren
+Ausschüttungsraten wäre dieser Durchschnitt nicht treffend
+▶ Bei Unternehmen, die keine Dividende zahlen, sollte der
+
+--- S.248 ---
+Ermittlung des tatsächlichen Steuervorteils aus dem
+Fremdkapital
+▶ Annahme 3: Spitzensteuersatz von 35% für den Investor (τ i )
+▶ In der Realität sind die Steuersätze für die einzelnen
+Investoren sehr unterschiedlich, und viele Investoren
+unterliegen niedrigeren Steuersätzen
+▶ Bei niedrigeren Steuersätzen sind die Auswirkungen der
+Steuern auf Investorenebene weniger substanziell
+▶ Des Weiteren unterliegen viele Investoren gar keinen Steuern
+für Fremd- und Eigenkapitalgeber
+▶ So ist beispielsweise die Anlage in einem Rentensparkonto
+oder einem Pensionsfonds in den USA steuerfrei
+
+--- S.249 ---
+Ermittlung des tatsächlichen Steuervorteils aus dem
+Fremdkapital
+▶ Fazit:
+▶ Die Berechnung des effektiven Steuervorteils aus dem
+Fremdkapital ist äußerst schwierig, und der Vorteil hängt
+stark vom Unternehmen und dessen Anlegern ab
+▶ Ein Unternehmen muss die Steuerklasse seines typischen
+Fremdkapitalgebers berücksichtigen, um τ
+i
+zu schätzen, und
+die Steuerklasse und Haltedauer seines typischen
+Anteilseigners, um τ

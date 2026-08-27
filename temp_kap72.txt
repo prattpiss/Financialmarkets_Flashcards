@@ -1,0 +1,235 @@
+=== KAP72 (S.643-661) ===
+--- S.643 ---
+7.2 Eigenkapitalregulierung
+▶ Unternehmen, die vom nationalen Bankrecht (in
+Deutschland: Kreditwesengesetz, KWG) als Banken
+klassifiziert werden, müssen die Bankenregulierung erfüllen
+und werden von der Bankenaufsicht überwacht
+▶ Die Bankenregulierung hat traditionell darauf abgezielt,
+individuelle Bankrisiken zu kontrollieren
+(mikroprudenzielle Regulierung)
+▶ Idee: Wenn jede einzelne Bank sicher ist, dann ist das gesamte
+Bankensystem sicher
+▶ Aber: Das systemische Risiko ist nicht gleich der Summe der
+Einzelrisiken
+
+--- S.644 ---
+Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung ist heute die wichtigste Form
+der Bankenregulierung
+▶ Reformen der Bankenregulierung in den vergangenen
+Jahrzehnten bezogen sich überwiegend auf die
+Eigenkapitalregulierung
+▶ Verhandlungen werden heute auf internationaler Ebene geführt
+▶ Idee: Schaffung eines globalen Level Playing Field (gleiche
+Wettbewerbsbedingungen) und Verhinderung von
+regulatorischer Arbitrage
+
+--- S.645 ---
+Eigenkapitalregulierung
+▶ Wichtige Institution: Basel Committee on Banking
+Supervision (Basler Ausschuss für Bankenaufsicht,
+angesiedelt bei der Bank for International Settlements, BIS,
+gegründet im Jahr 1974 nach der Herstatt-Krise)
+▶ Der Basler Ausschuss gibt nicht-bindende Empfehlungen
+heraus, die dann in nationales Recht umgesetzt werden sollen
+(in EU: erst in EU-Recht, dann in nationales Recht)
+▶ Neben dem Basler Ausschuss spielt das Financial Stability
+Board (FSB) (gegründet im Jahr 2009, ebenfalls angesiedelt
+bei der BIS) eine wichtige Rolle bei der Ausgestaltung der
+internationalen Finanzarchitektur auf dem G20-Niveau
+
+--- S.646 ---
+Geschichte der Eigenkapitalregulierung
+▶ Viele Länder führten nach der Weltwirtschaftskrise vage
+Eigenkapitalanforderungen ein (inkl. Deutschland)
+▶ Erstes internationales Abkommen zur Eigenkapitalregulierung:
+Basel I (1988)
+▶ Verfeinerung von Basel I im Jahr 1996 bezüglich der
+Behandlung von Marktrisiken (Amendment to the Capital
+Accord to Incorporate Market Risk)
+
+--- S.647 ---
+Geschichte der Eigenkapitalregulierung
+▶ Grundlegende U¨berarbeitung des Regelwerks: Basel II (2004)
+▶ Die globale Finanzkrise hat zu einer erneuten U¨berarbeitung
+der Eigenkapitalregulierung Anlass gegeben: Basel III (2010)
+▶ Basel III wurde im Jahr 2013 in EU-Recht umgesetzt: CRD
+IV-Paket, bestehend aus CRD = Capital Requirements
+Directive (Richtlinie) und CRR = Capital Requirements
+Regulation (Verordnung)
+▶ 2018 wurden die Verhandlungen über die letzten Revisionen
+von Basel III abgeschlossen (u.a. Output Floors bei internen
+Modellen)
+
+--- S.648 ---
+Basel I
+▶ Motivation: Geringe (und fallende) Eigenkapitalquoten in den
+Bankensektoren vieler Länder über die letzten 100 Jahre
+(Berger, Herring, Szegö JBF 1995)
+▶ Ziel: Schaffung eines level playing field für Banken auf
+internationaler Ebene
+~ae~Jed
+8
+8 •
+~o
+8
+8 °
+
+--- S.649 ---
+Basel I
+▶ Zentraler Bestandteil von Basel I: Banken müssen eine
+regulatorische Eigenkapitalquote (anrechenbares
+Eigenkapital / risikogewichtete Aktiva) von 8 Prozent erfüllen
+▶ Zusätzlich musste das Kernkapital (Tier-1-Kapital, = hartes
+Kernkapital plus zusätzliches Kernkapital) mindestens 4
+Prozent der risikogewichteten Aktiva betragen (davon 2
+Prozentpunkte als hartes Kernkapital (Core Tier-1-Kapital)
+= eingezahltes Kapital plus Rücklagen)
+
+--- S.650 ---
+Kritik an Basel I
+▶ Risikokategorien waren zu grob und setzten adverse
+Risikoanreize, weil die Risikoklassen Vermögenswerte mit sehr
+unterschiedlichen Risikocharakteristika enthielten
+▶ Strategien zur Risikominderung (risk mitigation)
+(z.B. Hedging) wurden nicht berücksichtigt
+▶ Unbefriedigende Behandlung von Marktrisiken
+▶ Der letzte Punkt führte zu einer Modifikation von Basel I
+(Amendment of Basel I) im Jahr 1996, bei der die
+Verwendung interner Modelle zur Bestimmung der Risiken
+im Handelsbuch zugelassen wurde = Systemwechsel
+▶ Hierdurch konnten die Banken ihre Eigenkapitalanforderungen
+
+--- S.651 ---
+Basel II
+▶ Die Hauptneuerung unter Basel II war die höhere
+Risikosensitivität der Eigenkapitalanforderungen
+▶ Banken konnten nun zwischen zwei Ansätzen wählen:
+1. Standardansatz: A¨hnlich wie Basel I
+2. Internal Ratings-Based Approach (IRB) mit
+unterschiedlichem Komplexitätsgrad
+▶ IRB-Ansatz erlaubt interne Modelle zur Bestimmung der
+Risikogewichte für viele Vermögenswerte
+▶ Aber: Banken, die den IRB-Ansatz anwenden möchten,
+müssen eine lange Liste an Anforderungen erfüllen
+▶ Auf der hohen Fixkosten können vor allem große Banken den
+
+--- S.652 ---
+Kritik an Basel II
+▶ Die Verwendung interner Modell bietet den Banken große
+Spielräume, die es ihnen erlaubten, ihre
+Eigenkapitalanforderungen drastisch zu reduzieren
+▶ Vor der Krise hatten viele große Banken eine ungewichtete
+Eigenkapitalquote von nur 2 Prozent
+▶ Wahlrecht zwischen verschiedenen Ansätzen kann zu
+unerwünschten Sortiereffekten (Repullo/Suarez 2004, Rime
+2005) und zu einer Wettbewerbsverzerrung zugunsten der
+großen Banken (Hakenes/Schnabel 2011) führen
+▶ Obwohl die USA in den Verhandlungen um Basel II eine
+wichtige Rolle spielten, haben sie es selbst nie eingeführt
+
+--- S.653 ---
+Basel III
+▶ In Reaktion auf die globale Finanzkrise wurde die Regulierung
+erneut reformiert
+▶ Wesentliche Neuerungen unter Basel III:
+▶ Schärfere Anforderungen an die Qualität des regulatorischen
+Eigenkapitals (mehr Gewicht auf das harte Kernkapital)
+▶ Anstieg der Eigenkapitalanforderungen: Banken müssen jetzt
+4,5 Prozent der risikogewichteten Aktiva mit hartem
+Kernkapital (CET 1) finanzieren (vorher: 2 Prozent) und
+6 Prozent der risikogewichteten Aktiva mit Kernkapital
+(Tier 1, vorher: 4 Prozent), aber: Gesamtanforderung (Tier 1
++ Tier 2) bleibt bei 8 Prozent
+
+--- S.654 ---
+Basel III
+▶ Einführung zusätzlicher Kapitalpuffer:
+▶ Einführung eines Kapitalerhaltungspuffers in Höhe von
+2,5 Prozent: Wenn das harte Kernkapital unter 4,5 + 2,5 =
+7 Prozent fällt, wird die Gewinnausschüttung begrenzt
+▶ Einführung eines antizyklischen Puffers (maximal
+2,5 Prozent): Banken müssen in einem Boom zusätzliche
+Eigenkapitalpuffer aufbauen, die dann in der Rezession bis
+auf 0 gesenkt werden können (wird auf nationaler Ebene
+festgesetzt)
+▶ Sehr lange U¨bergangsphasen bis zum vollständigen
+Inkrafttreten der neuen Regelungen (auf Druck der
+
+--- S.655 ---
+Basel III
+
+--- S.656 ---
+▶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+3 Prozent der nicht risikogewichten Aktiva müssen über
+Kernkapital finanziert werden
+▶ Besondere Regulierung systemrelevanter Finanzinstitute
+(SIFIs): Kapitalzuschlag in Höhe von 1 bis 2,5 Prozent für
+(globale) SIFIs
+Basel III
+▶ Weitere neue Regelungen unter Basel III:
+▶ Liquiditätsregulierung:
+▶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genügend
+liquide Mittel zur Verfügung stehen, um Einlagenabzüge über
+30 Tage zu stemmen
+
+--- S.657 ---
+▶ Besondere Regulierung systemrelevanter Finanzinstitute
+(SIFIs): Kapitalzuschlag in Höhe von 1 bis 2,5 Prozent für
+(globale) SIFIs
+Basel III
+▶ Weitere neue Regelungen unter Basel III:
+▶ Liquiditätsregulierung:
+▶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genügend
+liquide Mittel zur Verfügung stehen, um Einlagenabzüge über
+30 Tage zu stemmen
+▶ Net Stable Funding Ratio (NSFR): stellt sicher, dass
+Vermögenswerte mit langen Laufzeiten über einen Horizont
+von 1 Jahr stabil finanziert sind
+
+--- S.658 ---
+Basel III
+▶ Weitere neue Regelungen unter Basel III:
+▶ Liquiditätsregulierung:
+▶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genügend
+liquide Mittel zur Verfügung stehen, um Einlagenabzüge über
+30 Tage zu stemmen
+▶ Net Stable Funding Ratio (NSFR): stellt sicher, dass
+Vermögenswerte mit langen Laufzeiten über einen Horizont
+von 1 Jahr stabil finanziert sind
+▶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+3 Prozent der nicht risikogewichten Aktiva müssen über
+Kernkapital finanziert werden
+
+--- S.659 ---
+Andere neue Regulierungen (Auszug)
+▶ Regulierung der Vergütung
+▶ Bankenabwicklungsregime
+▶ Bankenabgaben
+▶ Regulierung des OTC- (over the counter) Derivatemarkts
+(z.B. zentrale Gegenparteien (central counterparties)
+▶ Einführung einer makroprudenziellen Aufsicht
+▶ ...
+
+--- S.660 ---
+Der weite Weg zu mehr Finanzstabilität in Deutschland und Europa – Kapitel 5
+den Einfluss der Politik zu begrenzen. Die demokratische Legitimation könnte
+durch weitreichende Rechenschaftspflichten hergestellt werden. Gleichzeitig
+scheint es geboten, externe wissenschaftliche Expertise in die Gremien
+einfließen zu lassen, um das Problem der Selbstbeobachtung abzumildern, das
+darin besteht, dass die Mitglieder der makroprudenziellen Aufsicht typischer-
+weise selbst aus der Mikroaufsicht oder der Zentralbank stammen (Gurlit und
+Schnabel, 2014).
+374. Bestünde die Möglichkeit, die makroprudenzielle Aufsicht auf dem Reißbrett zu
+entwerfen, so könnte deren Ausgestaltung wie folgt aussehen: Sie wäre –
+gemeinsam mit der mikroprudenziellen Aufsicht – als Allfinanzaufsicht konzi-
+piert, föderal organisiert und außerhalb der Zentralbank angesiedelt. Die supra-
+
+--- S.661 ---
+7.3 Funktionen der Eigenkapitalregulierung
+▶ Die Eigenkapitalregulierung der Banken erfüllt drei
+Funktionen:
+(1) Puffer gegen Verluste
+(2) Frühe Eingriffsmöglichkeit der Bankenaufsicht
+(3) Anreizeffekte

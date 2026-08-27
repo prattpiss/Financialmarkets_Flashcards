@@ -283,16 +283,40 @@
       "slideRef": "S. 212"
     },
     {
+      "term": "Standardkreditvertrag",
+      "definition": "Optimaler Finanzkontrakt bei Costly State Verification: fester Rückzahlungsbetrag h; Strafe bei Unterschreiten (= Kreditvertrag).",
+      "chapter": 5,
+      "slideRef": "S. 510"
+    },
+    {
+      "term": "Delegationskosten",
+      "definition": "Kosten der Übertragung der Kontrollfunktion auf einen Finanzintermediär; gegen null für große N durch Diversifikation.",
+      "chapter": 5,
+      "slideRef": "S. 514"
+    },
+    {
+      "term": "Diversifikation (Diamond 1984)",
+      "definition": "Finanzierung vieler unkorrelierter Projekte durch die Bank; lässt Delegationskosten gegen null konvergieren (Gesetz der Großen Zahlen).",
+      "chapter": 5,
+      "slideRef": "S. 517"
+    },
+    {
+      "term": "Sequential Service Constraint",
+      "definition": "Einleger werden in Reihenfolge der Ankunft bedient (first come, first served); Anreiz zur frühen Kontrolle.",
+      "chapter": 6,
+      "slideRef": "S. 533"
+    },
+    {
       "term": "Lender of Last Resort (LoLR)",
       "definition": "Zentralbank als letzte Kreditquelle für illiquide aber solvente Banken in Krisen.",
       "chapter": 6,
-      "slideRef": "S. 238"
+      "slideRef": "S. 601"
     },
     {
       "term": "Bagehot-Regel",
-      "definition": "In Krisen: großzügig leihen, aber zu Strafzins und gegen gute Sicherheiten.",
+      "definition": "LoLR-Prinzipien: Nur an solvente illiquide Banken leihen; zu Strafzins; gegen gute Sicherheiten; ex ante ankündigen.",
       "chapter": 6,
-      "slideRef": "S. 238"
+      "slideRef": "S. 602"
     },
     {
       "term": "Too-big-to-fail (TBTF)",
@@ -308,7 +332,7 @@
     },
     {
       "term": "Einlagenversicherung",
-      "definition": "Staatliche/privatwirtschaftliche Garantie für Bankeinlagen bis zu einem Limit.",
+      "definition": "Staatliche/privatwirtschaftliche Garantie für Bankeinlagen bis zu einem Limit; eliminiert schlechtes Gleichgewicht (Bank Run).",
       "chapter": 6,
       "slideRef": "S. 234"
     },
@@ -319,6 +343,48 @@
       "slideRef": "S. 231"
     },
     {
+      "term": "Ansteckung (Contagion)",
+      "definition": "Ausbreitung von Bankproblemen auf andere Institute über Information, Interbanken-Verbindlichkeiten oder makroök. Rückkopplungen.",
+      "chapter": 6,
+      "slideRef": "S. 578"
+    },
+    {
+      "term": "Bankenkrise (Banking Panic)",
+      "definition": "Simultaner Zusammenbruch eines signifikanten Teils des Bankensystems; geht über einzelne Bank Run hinaus.",
+      "chapter": 6,
+      "slideRef": "S. 578"
+    },
+    {
+      "term": "Deleveraging",
+      "definition": "Bilanzsummenreduktion durch Banken in Krisenzeiten; kann Kreditklemme und Rezession verschärfen (finanzieller Akzelerator).",
+      "chapter": 6,
+      "slideRef": "S. 595"
+    },
+    {
+      "term": "Konstruktive Ambiguität",
+      "definition": "Absichtliche Unklarheit der Zentralbank über Rettungsbereitschaft; soll Moral Hazard begrenzen, widerspricht Bagehot-Kriterium 4.",
+      "chapter": 6,
+      "slideRef": "S. 607"
+    },
+    {
+      "term": "Quantitative Easing (QE)",
+      "definition": "Aufkauf langfristiger Wertpapiere durch Zentralbank bei Nullzinsgrenze; unkonventionelles Instrument der Geldpolitik.",
+      "chapter": 6,
+      "slideRef": "S. 615"
+    },
+    {
+      "term": "Marktdisziplin",
+      "definition": "Überwachung von Banken durch informierte Gläubiger (z.B. nachrangige Anleihegläubiger) als Ergänzung staatlicher Regulierung.",
+      "chapter": 6,
+      "slideRef": "S. 574"
+    },
+    {
+      "term": "Nachrangige Schulden (Subordinated Debt)",
+      "definition": "FK, das erst nach vorrangigen Gläubigern bedient wird; Träger haben Anreiz zur Bankenüberwachung (Calomiris-Vorschlag).",
+      "chapter": 6,
+      "slideRef": "S. 575"
+    },
+    {
       "term": "RWA (Risikogewichtete Aktiva)",
       "definition": "Summe aller Aktiva gewichtet nach Risikogehalt; Grundlage für EK-Anforderungen.",
       "chapter": 7,
@@ -326,7 +392,7 @@
     },
     {
       "term": "CET1 (Common Equity Tier 1)",
-      "definition": "Hartes Kernkapital: Stammaktien + einbehaltene Gewinne; höchste Qualität im Basel-III-Kapital.",
+      "definition": "Hartes Kernkapital: Stammaktien + einbehaltene Gewinne; höchste Qualität im Basel-III-Kapital; mind. 4,5% RWA.",
       "chapter": 7,
       "slideRef": "S. 254"
     },
@@ -355,10 +421,28 @@
       "slideRef": "S. 257"
     },
     {
+      "term": "Mikroprudenzielle Regulierung",
+      "definition": "Regulierung auf Ebene einzelner Institute; berücksichtigt keine Externalitäten auf das Gesamtsystem.",
+      "chapter": 7,
+      "slideRef": "S. 668"
+    },
+    {
       "term": "SSM (Single Supervisory Mechanism)",
-      "definition": "Einheitlicher Aufsichtsmechanismus: EZB beaufsichtigt direkt bedeutende Banken der Eurozone.",
+      "definition": "Einheitlicher Aufsichtsmechanismus: EZB beaufsichtigt direkt bedeutende Banken der Eurozone (ab Nov. 2014).",
       "chapter": 7,
       "slideRef": "S. 248"
+    },
+    {
+      "term": "SRM (Single Resolution Mechanism)",
+      "definition": "Einheitlicher Abwicklungsmechanismus: gemeinsame Abwicklungsregeln + Behörde (SRB) + Fonds (SRF) für EU-Banken.",
+      "chapter": 7,
+      "slideRef": "S. 260"
+    },
+    {
+      "term": "EDIS (European Deposit Insurance Scheme)",
+      "definition": "Geplante europäische Einlagenversicherung als dritte Säule der Bankenunion; noch nicht vollständig umgesetzt.",
+      "chapter": 7,
+      "slideRef": "S. 685"
     },
     {
       "term": "Regulierungsarbitrage",
@@ -368,19 +452,133 @@
     },
     {
       "term": "G-SIB (Global Systemically Important Bank)",
-      "definition": "Global systemrelevante Bank; unterliegt zusätzlichen EK-Anforderungen und Aufsicht.",
+      "definition": "Global systemrelevante Bank; unterliegt zusätzlichen EK-Anforderungen (G-SIB-Zuschlag 1-3,5% CET1) und Aufsicht.",
       "chapter": 7,
       "slideRef": "S. 254"
     },
     {
       "term": "Bail-in",
-      "definition": "Verlustbeteiligung der Gläubiger bei Bankabwicklung, als Alternative zum staatlichen Bail-out.",
+      "definition": "Verlustbeteiligung der Gläubiger bei Bankabwicklung durch Schuldenabschreibung oder -umwandlung in EK.",
       "chapter": 7,
-      "slideRef": "S. 241"
+      "slideRef": "S. 681"
+    },
+    {
+      "term": "Bail-out",
+      "definition": "Staatliche Rettung einer Bank mit Steuermitteln; schafft Moral Hazard und sozialisiert Verluste.",
+      "chapter": 7,
+      "slideRef": "S. 681"
+    },
+    {
+      "term": "Contingent Capital (CoCos)",
+      "definition": "Bedingte Pflichtwandelanleihen: werden bei Unterschreiten einer EK-Schwelle automatisch in EK umgewandelt.",
+      "chapter": 7,
+      "slideRef": "S. 683"
+    },
+    {
+      "term": "TLAC/MREL",
+      "definition": "Total Loss Absorbing Capacity / Minimum Requirement for Own Funds and Eligible Liabilities: Mindestanforderungen für bail-in-fähige Verbindlichkeiten.",
+      "chapter": 7,
+      "slideRef": "S. 576"
+    },
+    {
+      "term": "SIFI (Systemically Important Financial Institution)",
+      "definition": "Systemrelevantes Finanzinstitut, dessen Ausfall das gesamte Finanzsystem gefährden kann (too big/interconnected/complex to fail).",
+      "chapter": 7,
+      "slideRef": "S. 675"
+    },
+    {
+      "term": "CoVaR (Conditional Value at Risk)",
+      "definition": "Statistisches Maß für systemisches Risiko: Risiko des Gesamtsystems gegeben, dass eine bestimmte Bank in Schwierigkeiten ist (Adrian/Brunnermeier 2016).",
+      "chapter": 7,
+      "slideRef": "S. 676"
+    },
+    {
+      "term": "Prozyklizität",
+      "definition": "EK-Regulierung, die in Booms Kreditexpansion fördert und in Krisen Kreditvergabe einschränkt → verstärkt Konjunkturzyklen.",
+      "chapter": 7,
+      "slideRef": "S. 670"
+    },
+    {
+      "term": "Antizyklischer Kapitalpuffer",
+      "definition": "Basel-III-Instrument: 0-2,5% CET1 zusätzlich in Boomzeiten; gibt Puffer für Krisenzeiten und dämpft Prozyklizität.",
+      "chapter": 7,
+      "slideRef": "S. 653"
+    },
+    {
+      "term": "Regulatory Capture",
+      "definition": "Übermäßige Einflussnahme der regulierten Industrie auf Regulierungsbehörden; gefährdet Effektivität der Regulierung.",
+      "chapter": 7,
+      "slideRef": "S. 686"
+    },
+    {
+      "term": "Volcker-Regel",
+      "definition": "US-Regulierung (Dodd-Frank 2010): Verbietet Eigenhandel (proprietary trading) bei Einlagenbanken.",
+      "chapter": 7,
+      "slideRef": "S. 679"
+    },
+    {
+      "term": "Kapitalerhaltungspuffer",
+      "definition": "Basel III: 2,5% CET1 über Mindestquote; bei Unterschreiten: Ausschüttungsbeschränkungen; schafft echten Puffer.",
+      "chapter": 7,
+      "slideRef": "S. 653"
+    },
+    {
+      "term": "Hackordnung (Pecking Order)",
+      "definition": "Finanzierungshierarchie aufgrund adverser Selektion: Innenfinanzierung > Fremdkapital > Eigenkapital (Myers/Majluf 1984).",
+      "chapter": 4,
+      "slideRef": "S. 422"
+    },
+    {
+      "term": "Signaling-Theorie (Ross 1977)",
+      "definition": "Verschuldung als glaubwürdiges Signal zukünftiger Cashflows: nur erfolgreiche Unternehmen können sich hohe Schulden leisten.",
+      "chapter": 4,
+      "slideRef": "S. 403"
+    },
+    {
+      "term": "Lemons-Problem (Akerlof 1970)",
+      "definition": "Adverse Selektion durch Informationsasymmetrie: schlechte Qualitäten verdrängen gute vom Markt; gilt auch für Kapitalmärkte.",
+      "chapter": 4,
+      "slideRef": "S. 406"
+    },
+    {
+      "term": "Empire Building",
+      "definition": "Managerverhalten: Unternehmen vergrößern für persönliches Prestige/Gehalt, unabhängig von Rentabilität.",
+      "chapter": 4,
+      "slideRef": "S. 385"
+    },
+    {
+      "term": "Overconfidence",
+      "definition": "Systematischer Optimismus von Managern, der zu Überinvestitionen und schlechten Akquisitionen führt.",
+      "chapter": 4,
+      "slideRef": "S. 386"
+    },
+    {
+      "term": "Free Cash Flow (Jensen 1986)",
+      "definition": "Cash über dem hinaus, was für positive KW-Projekte und Schuldendienst nötig ist; kann zu Fehlinvestitionen führen.",
+      "chapter": 4,
+      "slideRef": "S. 387"
+    },
+    {
+      "term": "Management Entrenchment",
+      "definition": "Manager nutzen ihre Position, um sich zu 'verschanzen' und zu eigenem Vorteil, nicht im Aktionärsinteresse zu handeln.",
+      "chapter": 4,
+      "slideRef": "S. 371"
+    },
+    {
+      "term": "Gehebelte Rekapitalisierung",
+      "definition": "Aufnahme von Fremdkapital zur Finanzierung eines Aktienrückkaufs; erhöht Verschuldungsgrad und realisiert Steuervorteil.",
+      "chapter": 4,
+      "slideRef": "S. 219"
+    },
+    {
+      "term": "Effektiver Steuervorteil (τ*)",
+      "definition": "Steuervorteil des Fremdkapitals nach Berücksichtigung der Investorenbesteuerung: τ* = 1 − (1−τ_c)(1−τ_e)/(1−τ_i).",
+      "chapter": 4,
+      "slideRef": "S. 240"
     }
   ],
   "meta": {
-    "generated": "2026-08-27T12:22:45.492575",
-    "total": 63
+    "generated": "2026-08-27T14:00:21.120443",
+    "total": 96
   }
 }

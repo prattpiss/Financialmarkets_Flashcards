@@ -1,0 +1,113 @@
+=== KAP64 (S.568-576) ===
+--- S.568 ---
+6.4 Effiziente Bank Runs
+▶ Bei Diamond/Dybvig (1983) sind Bank Runs ineffizient, da sie
+zu ineffizienten Liquidationen und zu einer Zerstörung der
+optimalen Risikoteilung führen
+▶ Aber: Bank Runs (bzw. die Möglichkeit von Bank Runs)
+können möglicherweise auch effizient sein
+▶ Idee: Die Möglichkeit eines Runs kann die Bank in ihrem
+Verhalten disziplinieren
+▶ Zentrale Aufsätze in diesem Bereich: Calomiris/Kahn
+(American Economic Review, 1991), Diamond/Rajan (Journal
+of Political Economy, 2001)
+
+--- S.569 ---
+Calomiris/Kahn (AER 1991)
+▶ Moral-hazard-Problem auf Seiten der Bank: Banker kann
+die eingelegten Gelder nehmen und “weglaufen”
+▶ Dies kann durch einen Bank Run verhindert werden, der
+allerdings zur Liquidation des Projektes führt
+▶ Die Ermöglichung eines Runs (durch jederzeit abhebbare
+Einlagen) kann hier effizient sein, weil die Bank so an
+unerwünschten Handlungen gehindert wird
+▶ Dann werden die Einleger bereit sein, aus Wohlfahrtssicht
+effiziente Projekte zu finanzieren, die ansonsten gar nicht
+zustande kämen
+
+--- S.570 ---
+Calomiris/Kahn (AER 1991)
+▶ Im Modell müssen die Einleger die Bank überwachen, um
+potenzielles Fehlverhalten zu entdecken
+▶ Bei der U¨berwachung kommt es jedoch zum einem
+Trittbrettfahrerproblem (free rider problem): Die Kosten
+fallen bei demjenigen an, der kontrolliert, aber alle Einleger
+können vom Ergebnis der U¨berwachung profitieren
+▶ Die Einführung einer Sequential Service Constraint kann
+effizient sein, weil diese den Einlegern den Anreiz gibt, das
+öffentliche Gut “Bankenkontrolle” bereitzustellen: Als
+Kompensation für die Kontrollkosten erhalten die Einleger
+einen Platz weiter vorne in der Schlange
+
+--- S.571 ---
+Kritische Würdigung von Calomiris/Kahn (1991)
+▶ Hauptbeitrag des Modells:
+1. Modell erklärt die Existenz der Sequential Service
+Constraint
+2. Modellierung effizienter Bank Runs
+▶ Entscheidende Frage: Ist es plausibel anzunehmen, dass die
+Einleger reagieren können, bevor sich das unerwünschte
+Verhalten des Bankers materialisiert hat?
+▶ In der Realität ist es sehr schwierig für die Einleger, das
+Fehlverhalten eines Bankers frühzeitig zu erkennen
+
+--- S.572 ---
+Kritische Würdigung von Calomiris/Kahn (1991)
+▶ Die Effizienz von Bank Runs beruht im Modell wesentlich auf
+der Annahme, dass eine Liquidation der Bank weniger teuer
+ist als das unerwünschte Verhalten des Bankers
+▶ In der Realität sind Bank Runs sehr teuer, vor allem wenn ein
+großer Teil des Bankensystems betroffen ist
+▶ Die Möglichkeit von Ansteckungseffekten zieht die Effizienz
+von Bank Runs in Zweifel
+
+--- S.573 ---
+Wirtschaftspolitische Relevanz
+▶ Folge aus Diamond/Dybvig (1983): Bank Runs sind ineffizient
+und müssen verhindert werden, zum Beispiel durch eine
+Aufhebung der Konvertibilität oder durch eine
+Einlagenversicherung
+▶ Hier: Bank Runs können effizient sein und Anreizprobleme auf
+Seiten der Bank abmildern, daher sollten sie nicht verhindert
+werden
+▶ Also: Marktdisziplin als Substitut der staatlichen
+Regulierung, zum Beispiel über nachrangige Schuldtitel
+(subordinated debt) ⇒ Wichtiges Prinzip der Regulierung
+(Säule 3 des Basler Abkommens)
+
+--- S.574 ---
+Marktdisziplin
+▶ Frage: Wer ist der “Markt”, der die Banken disziplinieren soll?
+▶ Private Einleger sind typischerweise zu klein und uninformiert,
+um die Probleme rechtzeitig zu erkennen und einzugreifen
+▶ Alternative: Marktdisziplin durch große, informierte Gläubiger
+▶ Transparenz und Offenlegungspflichten sind wichtige
+Voraussetzungen für Marktdisziplin
+
+--- S.575 ---
+Schaffung von Marktdisziplin über nachrangige Schulden
+▶ Vorschlag von Calomiris: Jede Bank sollte verpflichtet werden,
+sich zu einem gewissen Grade durch nachrangige Schulden
+zu finanzieren
+▶ Da diese Schulden nur nachrangig bedient werden (junior
+debt), sollten die Gläubiger einen großen Anreiz haben, die
+Bank sorgfältig zu überwachen
+▶ Wenn diese Schulden öffentlich gehandelt werden, liefern die
+beobachteten Risikoprämien zudem Informationen über die
+Situation der Bank
+▶ Diese Information könnten sogar von der Bankenaufsicht
+genutzt werden
+
+--- S.576 ---
+Schaffung von Marktdisziplin über nachrangige Schulden
+▶ In der globalen Finanzkrise wurden selbst nachrangige
+Gläubiger häufig gerettet (Bail-out)
+⇒ Marktdisziplin funktioniert dann nicht
+▶ Ein funktionierendes Abwicklungsregime für Banken ist
+eine wesentliche Voraussetzung für das Funktionieren von
+Marktdisziplin über (nachrangige) Gläubiger
+▶ Die Nachkrisenregulierung greift die Vorschläge von Calomiris
+in Form einer Verpflichtung von bail-in-fähigen
+Verbindlichkeiten (bail-inable debt) auf (TLAC, MREL)
+▶ Offene Frage: Kommt es in einer Krisensituation wirklich zu
+einem Bail-in solcher Verbindlichkeiten, wenn gleichzeitig viele
