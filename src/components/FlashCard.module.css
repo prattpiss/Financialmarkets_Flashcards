@@ -175,11 +175,16 @@
 .skipBtn:hover { color: var(--text); border-color: var(--text-muted); }
 
 /* Rating buttons */
+.ratingsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
 .ratings {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
-  margin-top: 1.25rem;
 }
 .ratingBtn {
   padding: 0.6rem 0.25rem;

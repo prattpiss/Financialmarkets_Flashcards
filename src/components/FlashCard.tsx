@@ -155,17 +155,22 @@ export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
           </button>
         </div>
       ) : (
-        <div className={styles.ratings}>
-          {RATINGS.map((r) => (
-            <button
-              key={r.value}
-              className={`${styles.ratingBtn} ${styles['rating' + r.value]}`}
-              onClick={() => handleRate(r.value)}
-            >
-              {r.label}
-              <kbd>{r.key}</kbd>
-            </button>
-          ))}
+        <div className={styles.ratingsWrapper}>
+          <div className={styles.ratings}>
+            {RATINGS.map((r) => (
+              <button
+                key={r.value}
+                className={`${styles.ratingBtn} ${styles['rating' + r.value]}`}
+                onClick={() => handleRate(r.value)}
+              >
+                {r.label}
+                <kbd>{r.key}</kbd>
+              </button>
+            ))}
+          </div>
+          <button className={styles.skipBtn} onClick={onSkip}>
+            Weiter ohne Bewertung →
+          </button>
         </div>
       )}
 
