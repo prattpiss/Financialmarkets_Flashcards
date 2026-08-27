@@ -1,783 +1,1011 @@
 """
-Phase 4 – Flashcard Generator (VOLLSTÄNDIG)
-Erzeugt ~400+ Lernkarten für alle 7 Kapitel des FMI-Skripts SS2026.
-
-Chapters:
-  1 – Funktionen des Finanzsystems
-  2 – Die globale Finanzkrise
-  3 – MM-Theorem (vollkommener Markt)
-  4 – Marktunvollkommenheiten & Kapitalstruktur
-  5 – Funktionen von Banken (Diamond-Dybvig)
-  6 – Finanzkrisen & systemische Risiken
-  7 – Bankenregulierung
-
-Usage:
-    python scripts/generate/flashcard_generator.py [--out flashcards.json]
+Comprehensive Flashcard Generator for FMI SS2026
+Prof. Farzad Saidi, Universität Bonn
+Generates ~400+ cards covering all chapters chronologically.
 """
-from __future__ import annotations
 
 import json
-from datetime import date
-from pathlib import Path
-from typing import Optional
-
-TODAY = date.today().isoformat()
-_counter = 0
+import uuid
+from datetime import datetime
 
 
-def _next_id(chapter: str) -> str:
-    global _counter
-    _counter += 1
-    return f"fmfi-{chapter.replace('.', '')}-{_counter:03d}"
+DIFF_MAP = {
+    "Wiedergabe": 2,
+    "Verständnis": 4,
+    "Evaluation": 6,
+    "Transfer": 6,
+    "Synthese": 8,
+}
+
+TYPE_MAP = {
+    "concept": "understanding",
+    "true_false": "trueFalse",
+}
 
 
-def card(
-    *,
-    chapter: str,
-    section: str,
-    question: str,
-    answer: str,
-    card_type: str,
-    difficulty: int,
-    importance: float,
-    exam_relevance: float,
-    tags: list[str],
-    source_current: Optional[str] = "Skript FMI SS2026_ jetzt.pdf",
-    solution_steps: Optional[list[str]] = None,
-    formula: Optional[str] = None,
-    variables: Optional[dict] = None,
-    note: Optional[str] = None,
-) -> dict:
-    cid = _next_id(chapter.split(".")[0])
+def new_card(chapter, chapter_num, topic, question, answer,
+             difficulty_level, slide_ref, card_type="concept",
+             formula=None, variables=None, solution_steps=None):
+    mapped_type = TYPE_MAP.get(card_type, "understanding")
+    difficulty = DIFF_MAP.get(difficulty_level, 4)
     return {
-        "id": cid,
-        "question": question.strip(),
-        "answer": answer.strip(),
-        "type": card_type,
-        "difficulty": difficulty,
-        "importance": round(importance, 2),
-        "examRelevance": round(exam_relevance, 2),
+        "id": str(uuid.uuid4()),
+        # Core fields (new format)
         "chapter": chapter,
-        "section": section,
-        "tags": tags,
+        "chapterNum": chapter_num,
+        "topic": topic,
+        "question": question,
+        "answer": answer,
+        "difficultyLevel": difficulty_level,
+        "slideRef": slide_ref,
+        "type": mapped_type,
+        "formula": formula,
+        "variables": variables,
+        "solutionSteps": solution_steps,
+        # Legacy compat fields required by React app
+        "difficulty": difficulty,
+        "importance": 0.8,
+        "examRelevance": 0.85,
+        "section": topic,
+        "tags": [chapter.split(":")[0].strip(), difficulty_level, slide_ref],
         "source": {
-            "current": [{"file": source_current}] if source_current else [],
-            "historical": [],
+            "current": [{"file": "Skript FMI SS2026", "page": slide_ref}],
+            "historical": []
         },
-        **({"solutionSteps": solution_steps} if solution_steps else {}),
-        **({"formula": formula} if formula else {}),
-        **({"variables": variables} if variables else {}),
-        **({"note": note} if note else {}),
         "validation": {"status": "ok", "issues": []},
+        # SM-2 fields (legacy names)
         "learning": {
             "repetitions": 0,
             "ease": 2.5,
             "interval": 0,
-            "due": TODAY,
-            "lastReviewed": None,
+            "due": datetime.now().isoformat(),
+            "lastReviewed": None
         },
+        # SM-2 fields (new names also)
+        "easeFactor": 2.5,
+        "interval": 0,
+        "repetitions": 0,
+        "dueDate": datetime.now().isoformat(),
+        "lastReviewed": None,
     }
 
 
-# ===========================================================================
-# KAPITEL 1
-# ===========================================================================
+def cards_chapter1():
+    ch = "Kapitel 1: Funktionen des Finanzsystems"
+    n = 1
+    cards = []
 
-def cards_chapter1() -> list[dict]:
-    ch = "1. Funktionen des Finanzsystems"
-    t = ["Finanzsystem", "Grundlagen"]
-    return [
-        card(chapter=ch, section="Akteure", question="Welche drei Kerngruppen von Akteuren sind im Finanzsystem aktiv?",
-             answer="1. Finanzmärkte & Finanzintermediäre (Banken, Versicherungen, Fonds)\n2. Endnutzer: Haushalte, Unternehmen, Regierungen\n3. Finanzinfrastruktur: Börsen, Zahlungssysteme, Ratingagenturen",
-             card_type="listing", difficulty=1, importance=0.85, exam_relevance=0.8, tags=t+["Akteure"]),
-        card(chapter=ch, section="Direkte vs. indirekte Finanzierung", question="Was ist direkte Finanzierung? Nenne ein Beispiel.",
-             answer="Kapitalnehmer tritt direkt mit Kapitalanleger in Kontakt, ohne Intermediär.\nBeispiel: Haushalt kauft Unternehmensanleihe am Kapitalmarkt.",
-             card_type="definition", difficulty=1, importance=0.9, exam_relevance=0.85, tags=t+["Finanzierung"]),
-        card(chapter=ch, section="Direkte vs. indirekte Finanzierung", question="Was ist indirekte Finanzierung? Nenne ein Beispiel.",
-             answer="Ein Finanzintermediär (z.B. Bank) steht zwischen Anleger und Kapitalnehmer.\nBeispiel: Haushalt legt bei Bank an → Bank vergibt Kredit an Unternehmen.",
-             card_type="definition", difficulty=1, importance=0.9, exam_relevance=0.85, tags=t+["Finanzierung"]),
-        card(chapter=ch, section="Direkte vs. indirekte Finanzierung", question="Was ist der zentrale Vorteil indirekter Finanzierung gegenüber direkter?",
-             answer="Intermediäre reduzieren Transaktions- und Informationskosten durch:\n• Skaleneffekte (große Volumina)\n• Spezialisierung in Risikobewertung und Monitoring\n• Fristentransformation\n• Risikodiversifikation über viele Kreditnehmer",
-             card_type="understanding", difficulty=2, importance=0.9, exam_relevance=0.85, tags=t+["Intermediäre"]),
-        card(chapter=ch, section="Funktionen", question="Welche 5 Hauptfunktionen übernimmt das Finanzsystem?",
-             answer="1. Kapitalallokation (Ersparnisse → Investitionen)\n2. Reduktion von Transaktionskosten\n3. Reduktion von Informationskosten\n4. Risikomanagement (Diversifikation, Hedging)\n5. Corporate Governance (Kontrolle der Unternehmensführung)",
-             card_type="listing", difficulty=2, importance=0.95, exam_relevance=0.85, tags=t+["Funktionen"]),
-        card(chapter=ch, section="Transaktionskosten", question="Wie reduzieren Finanzintermediäre Transaktionskosten?",
-             answer="• Standardisierung von Verträgen\n• Spezialisierung und Lernkurveneffekte\n• Skaleneffekte (Fixkosten verteilen)\n• Bündelung kleiner Transaktionen",
-             card_type="understanding", difficulty=2, importance=0.85, exam_relevance=0.75, tags=t+["Transaktionskosten"]),
-        card(chapter=ch, section="Informationskosten", question="Welche zwei Arten von Informationsproblemen lösen Finanzintermediäre?",
-             answer="1. Adverse Selektion (ex ante): Screening vor Vertragsschluss (Kreditprüfung)\n2. Moral Hazard (ex post): Monitoring nach Vertragsschluss",
-             card_type="contrast", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Informationskosten", "Adverse Selektion", "Moral Hazard"]),
-        card(chapter=ch, section="Informationskosten", question="Was ist das 'Free-Rider-Problem' bei der Finanzmarkt-Informationsproduktion?",
-             answer="Ein Investor beschafft kostspielig Informationen, andere nutzen sie kostenlos (z.B. durch Preisbeobachtung). Dadurch wird zu wenig in Informationsproduktion investiert. Finanzintermediäre lösen dies durch private Kreditverträge.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.75, tags=t+["Informationskosten", "Free Rider"]),
-        card(chapter=ch, section="Risikomanagement", question="Welche drei Hauptformen des Risikomanagements bietet das Finanzsystem?",
-             answer="1. Diversifikation (Risiko über viele Anlagen streuen)\n2. Liquiditätsbereitstellung (Umwandlung illiquider in liquide Anlagen)\n3. Hedging / Absicherung (Derivate: Futures, Optionen, Swaps)",
-             card_type="listing", difficulty=2, importance=0.85, exam_relevance=0.75, tags=t+["Risikomanagement"]),
-        card(chapter=ch, section="Corporate Governance", question="Warum ist Corporate Governance eine Funktion des Finanzsystems?",
-             answer="EK-Geber delegieren Entscheidungen an Manager. Das Finanzsystem schafft Kontrollanreize:\n• Vergütungsstruktur (Aktienoptionen)\n• FK-Disziplinierung (Konkursdrohung)\n• Aktionärsrechte, Hauptversammlung\n• Markt für Unternehmenskontrolle (Übernahmen)",
-             card_type="understanding", difficulty=3, importance=0.8, exam_relevance=0.7, tags=t+["Corporate Governance"]),
-        card(chapter=ch, section="Schattenbankensystem", question="Was ist das Schattenbankensystem und warum ist es entstanden?",
-             answer="Finanzintermediäre mit bankenähnlichen Funktionen, aber ohne Bankenregulierung.\nEntstanden als Reaktion auf:\n• Verschärfte Bankenregulierung\n• Suche nach höheren Renditen\nBeispiele: Money-Market-Fonds, Hedge-Fonds, SPVs",
-             card_type="definition", difficulty=3, importance=0.8, exam_relevance=0.75, tags=t+["Schattenbankensystem"]),
-        card(chapter=ch, section="Schattenbankensystem", question="Welche Risiken birgt das Schattenbankensystem für die Finanzstabilität?",
-             answer="• Keine Einlagensicherung → anfällig für Runs\n• Keine Zentralbankunterstützung\n• Weniger transparent → systemisches Risiko\n• Verflechtung mit regulärem Bankensystem\n• Regulierungsarbitrage",
-             card_type="understanding", difficulty=4, importance=0.75, exam_relevance=0.65, tags=t+["Schattenbankensystem", "Systemisches Risiko"]),
-        card(chapter=ch, section="Trends", question="Welche drei wesentlichen aktuellen Trends prägen das Finanzsystem?",
-             answer="1. Wachstum des Schattenbankensystems\n2. Digitalisierung (FinTech, Krypto) bedroht traditionelle Geschäftsmodelle\n3. Größere Komplexität von Finanzprodukten",
-             card_type="listing", difficulty=2, importance=0.75, exam_relevance=0.65, tags=t+["Trends", "FinTech"]),
-        card(chapter=ch, section="Finanzmarktinstrumente", question="Unterschied zwischen Geldmarkt und Kapitalmarkt?",
-             answer="Geldmarkt: Laufzeit ≤ 1 Jahr, sehr liquide und risikoarm (z.B. Schatzwechsel, Overnight-Einlagen).\nKapitalmarkt: Laufzeit > 1 Jahr (z.B. Aktien, Anleihen). Höheres Risiko, höhere Renditeerwartung.",
-             card_type="contrast", difficulty=2, importance=0.8, exam_relevance=0.7, tags=t+["Geldmarkt", "Kapitalmarkt"]),
-        card(chapter=ch, section="Finanzmarktinstrumente", question="Was ist Fristentransformation und warum ist sie riskant?",
-             answer="Banken nehmen kurzfristige Einlagen und vergeben langfristige Kredite. Profitabel wegen positiver Zinsstrukturkurve.\nRisiko: Bei Run wollen alle Geld zurück, aber Kredite sind illiquide → Liquiditätskrise.",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Fristentransformation", "Bank Run"]),
-        card(chapter=ch, section="Akteure", question="Welche Rolle spielen Ratingagenturen im Finanzsystem?",
-             answer="Reduzieren Informationsasymmetrien durch Kreditwürdigkeitsbewertung von Schuldnern.\nKritik: Interessenkonflikt (bezahlt vom Emittenten), Versagen vor der Finanzkrise 2007-09.",
-             card_type="understanding", difficulty=3, importance=0.75, exam_relevance=0.7, tags=t+["Ratingagenturen"]),
-        card(chapter=ch, section="Recht der großen Zahlen", question="Warum ermöglicht das Gesetz der großen Zahlen Risikodiversifikation durch Banken?",
-             answer="Bei n Einlegern konvergiert der Anteil π der Typ-1-Konsumenten in Wahrscheinlichkeit zu seinem Erwartungswert. Die Bank kann exakt π als Reserve halten und den Rest langfristig investieren – ohne auf individuelle Nachfrage warten zu müssen.",
-             card_type="understanding", difficulty=4, importance=0.9, exam_relevance=0.85, tags=t+["Gesetz der großen Zahlen", "Liquidität"]),
-        card(chapter=ch, section="Vergleich", question="Vergleiche: Banken vs. Kapitalmärkte als Unternehmensfinanzierungskanäle.",
-             answer="Banken:\n• Private Beziehung, enge Überwachung\n• Günstiger für kleine/junge Unternehmen\n\nKapitalmärkte:\n• Breite Investorenbasis, öffentliche Informationen\n• Günstiger für große, transparente Unternehmen\n• Ermöglicht breite Risikostreuung",
-             card_type="contrast", difficulty=3, importance=0.8, exam_relevance=0.7, tags=t+["Banken", "Kapitalmärkte"]),
+    # Akteure
+    cards.append(new_card(ch, n, "Akteure des Finanzsystems",
+        "Welche drei Hauptkomponenten/Akteure bilden das Finanzsystem?",
+        "1. Finanzintermediäre (Banken, Fonds, Versicherungen)\n2. Finanzmärkte\n3. Finanzinfrastruktur (Zahlungssysteme, Aufsicht)\nDazu kommen die Akteure: Haushalte, Unternehmen, Staat.",
+        "Wiedergabe", "S. 20"))
+
+    cards.append(new_card(ch, n, "Direkte vs. indirekte Finanzierung",
+        "Was ist der Unterschied zwischen direkter und indirekter Finanzierung?",
+        "Direkte Finanzierung: Kapitalnehmer und -geber tauschen direkt Wertpapiere auf Finanzmärkten aus.\nIndirekte Finanzierung: Ein Finanzintermediär (z.B. Bank) tritt dazwischen – er nimmt Einlagen entgegen und vergibt Kredite.",
+        "Verständnis", "S. 22"))
+
+    cards.append(new_card(ch, n, "Rolle der Akteure",
+        "Welche typische Rolle nehmen Haushalte, Unternehmen und der Staat im Finanzsystem ein?",
+        "Haushalte: Überschussakteure (Sparer, Nettogläubiger).\nUnternehmen: Defizitakteure (Kreditnehmer, Nettoinvestitoren).\nStaat: Kann beides sein; bei hohen Defiziten Nettokreditnehmer.",
+        "Verständnis", "S. 23"))
+
+    cards.append(new_card(ch, n, "Wichtigste Finanzintermediäre",
+        "Nennen Sie die drei wichtigsten Typen von Finanzintermediären.",
+        "1. Banken (Kreditinstitute)\n2. Investmentfonds / Pensionsfonds\n3. Versicherungen (insb. Lebensversicherungen)",
+        "Wiedergabe", "S. 24"))
+
+    cards.append(new_card(ch, n, "Bilanzverknüpfungen",
+        "Wie sind Banken, Haushalte und Unternehmen bilanziell miteinander verknüpft?",
+        "Bankeinlagen der Haushalte = Passivseite der Bank. Bankkredite an Unternehmen = Aktivseite der Bank. Unternehmensanleihen oder -aktien können von Fonds/Haushalten gehalten werden. Jede Verbindlichkeit ist gleichzeitig eine Forderung.",
+        "Verständnis", "S. 25"))
+
+    cards.append(new_card(ch, n, "Drei Hauptfunktionen",
+        "Welche drei Hauptfunktionen übernimmt das Finanzsystem?",
+        "1. Senkung von Transaktionskosten\n2. Senkung von Informationskosten (adverse Selektion, Moral Hazard)\n3. Risikomanagement (Diversifikation, Liquiditäts-, Risikotransformation)",
+        "Wiedergabe", "S. 26"))
+
+    cards.append(new_card(ch, n, "Transaktionskostenreduktion",
+        "Wie senkt ein Finanzintermediär Transaktionskosten? Erklären Sie das M×N-Argument.",
+        "Ohne Intermediär: M Sparer und N Kreditnehmer brauchen M×N Verträge.\nMit Intermediär: M+N Verträge (jeder schließt nur einen Vertrag mit dem Intermediär).\nErsparnis: M×N − (M+N) Verträge; besonders groß bei vielen Marktteilnehmern.",
+        "Verständnis", "S. 27-28",
+        formula="Ersparte Verträge = M·N − (M+N)",
+        variables={"M": "Anzahl Sparer", "N": "Anzahl Kreditnehmer"}))
+
+    cards.append(new_card(ch, n, "Adverse Selektion",
+        "Was versteht man unter adverser Selektion im Finanzsystem und wie kann ein Intermediär helfen?",
+        "Adverse Selektion: Vor Vertragsschluss hat der Kreditgeber weniger Informationen als der Kreditnehmer (hidden characteristics) → schlechte Risiken verdrängen gute.\nIntermediär: sammelt Informationen, scrennt Kreditnehmer (Kreditwürdigkeitsprüfung), baut Expertise auf.",
+        "Verständnis", "S. 29"))
+
+    cards.append(new_card(ch, n, "Moral Hazard",
+        "Was ist Moral Hazard und wie tritt es in Kreditbeziehungen auf?",
+        "Moral Hazard: Nach Vertragsschluss verhält sich der Kreditnehmer anders als erwartet, weil der Kreditgeber sein Verhalten nicht vollständig beobachten kann (hidden action).\nBeispiel: Kreditnehmer geht nach Kreditaufnahme höhere Risiken ein als vereinbart.",
+        "Verständnis", "S. 30"))
+
+    cards.append(new_card(ch, n, "Risikomanagement – Überblick",
+        "Durch welche vier Mechanismen kann das Finanzsystem Risiken managen?",
+        "1. Diversifikation: Streuung idiosynkratischer Risiken\n2. Risikotransformation: Weitergabe von Risiken an risikobereitere Anleger\n3. Liquiditätstransformation: Kurzfristige Einlagen → langfristige Kredite\n4. Verbriefungen: Bündelung und Weitergabe von Risiken",
+        "Wiedergabe", "S. 31-32"))
+
+    cards.append(new_card(ch, n, "Rolle des Staates",
+        "Welche Rollen spielt der Staat im Finanzsystem?",
+        "1. Regulierung und Aufsicht (z.B. BaFin, EZB)\n2. Bereitstellung von Infrastruktur (Rechtssystem)\n3. Einlagensicherung und Lender of Last Resort\n4. Selbst Akteur: Staatsanleihen, öffentliche Banken",
+        "Verständnis", "S. 33"))
+
+    cards.append(new_card(ch, n, "Warum reguliert?",
+        "Nennen Sie die zwei zentralen Gründe für die Regulierung des Finanzsystems.",
+        "1. Systemisches Risiko: Zusammenbruch einzelner Finanzinstitute kann das gesamte Finanzsystem und die Realwirtschaft schädigen.\n2. Einlegerschutz: Asymmetrische Information macht es Einlegern schwer, die Risikolage ihrer Bank zu beurteilen.",
+        "Verständnis", "S. 34-35"))
+
+    cards.append(new_card(ch, n, "Finanzmarktintegration",
+        "Was bedeutet Finanzmarktintegration und welche Vor-/Nachteile hat sie?",
+        "Integration = Kapitalmärkte verschiedener Länder wachsen zusammen; Zinsunterschiede werden kleiner.\nVorteile: Bessere Risikostreuung, günstigeres Kapital.\nNachteile: Schnellere Übertragung von Krisen, weniger nationale Geldpolitik wirksam.",
+        "Evaluation", "S. 36-37"))
+
+    cards.append(new_card(ch, n, "Finanzsystem und Wirtschaftswachstum",
+        "Über welche Kanäle beeinflusst ein gut funktionierendes Finanzsystem das Wirtschaftswachstum?",
+        "1. Kapitalakkumulation: Mehr und bessere Investitionen\n2. Produktivität: Bessere Allokation von Kapital zu produktivsten Verwendungen\n3. Innovation: Risikokapital für neue Technologien\nWichtig: Korrelation ≠ Kausalität! Umgekehrte Kausalität möglich.",
+        "Verständnis", "S. 38-40"))
+
+    cards.append(new_card(ch, n, "Zu großes Finanzsystem",
+        "Kann ein zu großes Finanzsystem schädlich sein? Erklären Sie.",
+        "Ja. Ab einer gewissen Größe können negative Effekte dominieren:\n- Ressourcen (Humankapital) werden ineffizient ins Finanzsystem gelenkt\n- Höheres systemisches Risiko\n- Overbanking (z.B. Europa nach der Krise): mangelnde Alternativen zur Bankfinanzierung schwächt Wirtschaft nach Bankkrisen.",
+        "Evaluation", "S. 41"))
+
+    cards.append(new_card(ch, n, "Bank- vs. marktbasierte Systeme",
+        "Was sind die Argumente für bank- bzw. marktbasierte Finanzsysteme?",
+        "Banken (+): Lösung von Informationsproblemen, langfristige Beziehungen, Unternehmensüberwachung.\nMärkte (+): Aggregation disperser Information, Liquidität, mehr Diversifikation.\nEmpirie (Levine/Zervos 1998): Beide sind komplementär, kein System ist überlegen.",
+        "Evaluation", "S. 42-50"))
+
+    cards.append(new_card(ch, n, "Komplementarität",
+        "Warum sind Finanzmärkte und Finanzintermediäre eher komplementär als substitutiv?",
+        "Intermediäre spielen auch auf Märkten eine wichtige Rolle (Market Maker, Emissionsbegleitung, Anlageberatung). Wettbewerb erhöht Effizienz. Grenzen verschwimmen (Verbriefungen). Empirisch fördern beide das Wachstum.",
+        "Verständnis", "S. 50"))
+
+    cards.append(new_card(ch, n, "Overbanking",
+        "Was bedeutet Overbanking und warum ist es problematisch?",
+        "Overbanking: Ein Finanzsystem ist zu stark bankbasiert.\nProblem: Nach Bankenkrisen fehlen alternative Finanzierungsquellen. Unternehmen können sich nicht über Märkte finanzieren.\nIn Europa diskutiert als Argument für Kapitalmarktunion.",
+        "Verständnis", "S. 51"))
+
+    cards.append(new_card(ch, n, "Bedeutung des Rechtssystems",
+        "Wie beeinflusst das Rechtssystem (La Porta et al. 1997) das Finanzsystem?",
+        "Länder mit angelsächsischem Common Law schützen Anteilseigner besser → marktbasierter.\nLänder mit kontinentalem Zivilrecht (z.B. Deutschland) schützen Gläubiger besser → bankbasierter.\nRechtssystem erklärt systematische Unterschiede in der Finanzstruktur.",
+        "Verständnis", "S. 52"))
+
+    cards.append(new_card(ch, n, "5 Trends im Finanzsystem",
+        "Nennen Sie die 5 wichtigsten Trends im modernen Finanzsystem.",
+        "1. Disintermediation: Unternehmensfinanzierung zunehmend über Märkte\n2. Zunehmende Vernetzung: Konsolidierung, Kreditrisikotransfer\n3. Größere Komplexität von Finanzprodukten\n4. Wachstum des Schattenbankensektors (Hedgefonds, Geldmarktfonds)\n5. Digitalisierung bedroht traditionelle Geschäftsmodelle",
+        "Wiedergabe", "S. 53-55"))
+
+    cards.append(new_card(ch, n, "Fazit Kap. 1 – Transfer",
+        "Warum ist es laut Kapitel 1 falsch zu sagen, marktbasierte Systeme seien grundsätzlich besser als bankbasierte?",
+        "Empirische Literatur zeigt: Beide Systeme fördern Wachstum. Sie sind komplementär. Der Nutzen hängt von Institutionen, Rechtssystem, Unternehmensstruktur ab. Wichtig ist die Gesamtgröße und Effizienz des Finanzsystems, nicht die Form.",
+        "Transfer", "S. 56"))
+
+    return cards
+
+
+def cards_chapter2():
+    ch = "Kapitel 2: Globale Finanzkrise"
+    n = 2
+    cards = []
+
+    cards.append(new_card(ch, n, "Stilisierte Fakten über Finanzkrisen",
+        "Was sind die wichtigsten stilisierten Fakten über Finanzkrisen?",
+        "1. Finanzkrisen treten regelmäßig auf (werden es auch in Zukunft)\n2. Schwerste: Weltwirtschaftskrise 1930er, Finanzkrise 2007-09\n3. Können gleichzeitig viele Länder betreffen\n4. Weitere Beispiele: Savings & Loans (USA 1980er), Japan 1990er, Asienkrise 1997/98, Argentinien 2001",
+        "Wiedergabe", "S. 61-62"))
+
+    cards.append(new_card(ch, n, "Bankenkrise – Definition",
+        "Wie ist eine Bankenkrise definiert und was sind typische Vorläufer?",
+        "Bankenkrise: Gleichzeitiger Zusammenbruch eines signifikanten Teils des Bankensektors (systemische Krise), verbunden mit hohen Verlusten und/oder Bank Runs.\nVorläufer: Kreditboom + Vermögenspreisblasen (v.a. Immobilien).\nWichtig: Zusammenbruch einer einzelnen Bank ≠ Bankenkrise.",
+        "Verständnis", "S. 63"))
+
+    cards.append(new_card(ch, n, "Kosten von Bankenkrisen",
+        "Welche drei Kostenarten entstehen laut Laeven und Valencia (2013) bei Bankenkrisen?",
+        "1. Direkte fiskalische Kosten: Staatliche Bankenrettungen\n2. Outputkosten: BIP fällt dauerhaft unter Vorkrisentrend (wichtigster Posten)\n3. Anstieg der Staatsverschuldung: Durch geringere Einnahmen + höhere Ausgaben",
+        "Verständnis", "S. 64-65"))
+
+    cards.append(new_card(ch, n, "Staatsschuldenkrise",
+        "Was ist eine Staatsschuldenkrise und wie unterscheidet sie sich von einer normalen Haushaltskrise?",
+        "Staatsschuldenkrise: Zahlungsausfall (oder -bereitschaft) eines Staates → Restrukturierung (Laufzeitverlängerung, Schuldenerlass).\nNicht nur Zahlungsfähigkeit, auch Zahlungsbereitschaft relevant (Russland 1998).\nFast alle Länder hatten schon eine (Ausnahmen: USA, Dänemark).",
+        "Verständnis", "S. 67"))
+
+    cards.append(new_card(ch, n, "Währungskrise",
+        "Was ist eine Währungskrise und welche Länder sind typischerweise betroffen?",
+        "Plötzlicher Verfall einer Währung durch spekulative Attacke + sudden stop (Kapitalabflüsse).\nBetrifft v.a. Länder mit festen Wechselkurssystemen.\nFührt zu Abwertung oder Aufgabe des festen Wechselkurses.\nBeispiel: EWS-Krise 1992/93 (UK, Italien).",
+        "Verständnis", "S. 68"))
+
+    cards.append(new_card(ch, n, "Twin Crises",
+        "Erklären Sie, warum Banken- und Währungskrisen oft gemeinsam auftreten (twin crises).",
+        "Bankenkrise → Währungskrise: Ausländische Einleger fliehen aus schwachen Banken ins Ausland (z.B. Deutschland 1931).\nWährungskrise → Bankenkrise: Abwertung trifft Banken/Unternehmen mit Fremdwährungsschulden (z.B. Tequila-Krise Mexiko 1994, Thailand 1997).",
+        "Verständnis", "S. 70"))
+
+    cards.append(new_card(ch, n, "Staaten-Banken-Nexus",
+        "Was versteht man unter dem Staaten-Banken-Nexus und warum ist er gefährlich?",
+        "Wechselseitige Abhängigkeit zwischen Banken und Staatsverschuldung:\n• Banken→Staat: Bankenrettungen belasten Staatsfinanzen (Irland, Spanien)\n• Staat→Banken: Staatsanleihebestände der Banken + schwache staatl. Garantien gefährden Banken (Griechenland)\nVerstärkt durch Home Bias und regulatorische Privilegierung von Staatsanleihen.",
+        "Verständnis", "S. 83"))
+
+    cards.append(new_card(ch, n, "Subprime-Krise – Auslöser",
+        "Was war der unmittelbare Auslöser der globalen Finanzkrise 2007-2009?",
+        "Einbruch der Immobilienpreise in den USA ab 2006 (makroökonomischer Schock).\nDaraufhin massive Kreditausfälle bei Subprime-Krediten (Kredite an hochriskante Schuldner).\nSinkende Immobilienpreise entwerteten Sicherheiten → Schuldner konnten nicht bedienen.",
+        "Wiedergabe", "S. 71-72"))
+
+    cards.append(new_card(ch, n, "Makroökonomisches Umfeld 2007",
+        "Welches makroökonomische Umfeld begünstigte die Entstehung der Subprime-Krise?",
+        "1. Sehr niedrige Leitzinsen in den USA nach Dotcom-Krise\n2. Massive Kapitalzuflüsse aus Asien (insb. China) in die USA\n3. Beides führte zu starker Kreditexpansion im Immobilienbereich\n4. Langsame Zinserhöhungen ab 2004 leiteten Kehrtwende ein",
+        "Verständnis", "S. 73"))
+
+    cards.append(new_card(ch, n, "Verbriefung und CDOs",
+        "Wie wurde aus einem US-Immobilienproblem eine globale Krise? Erklären Sie die Rolle von CDOs.",
+        "Subprime-Kredite wurden gebündelt, tranchiert und als Collateralized Debt Obligations (CDOs) weltweit verkauft.\nHohe Nachfrage: Search for yield (niedrige Zinsen) + hohe Ratings der Senior-Tranchen (AAA).\nRatingagenturen überbewerteten Sicherheit → globale Verteilung des Risikos.",
+        "Verständnis", "S. 74-75"))
+
+    cards.append(new_card(ch, n, "Aufbau systemischer Risiken",
+        "Welche vier Entwicklungen erhöhten das systemische Risiko vor der Krise?",
+        "1. Anstieg der Verschuldung (auch im Schattenbankensektor)\n2. Anstieg der Fristentransformation (SPVs über kurzfristige ABCP finanziert)\n3. Anstieg der Vernetzung (CDS, Gegenparteirisiken)\n4. Anstieg der Korrelationen (ähnliche Risikopositionen)",
+        "Verständnis", "S. 76"))
+
+    cards.append(new_card(ch, n, "Illusion der Risikoteilung",
+        "Warum erwies sich die verbesserte Risikoteilung durch Verbriefungen als Illusion?",
+        "Risiken verblieben weitgehend im Finanzsystem (oft als regulatorische Arbitrage).\nGegenparteirisiken (CDS) waren korreliert mit Grundrisiken: Als Subprime ausfiel, wurden auch viele CDS nicht erfüllt.\nKeine Transparenz darüber, wer welche Risiken trug.",
+        "Evaluation", "S. 77"))
+
+    cards.append(new_card(ch, n, "Chronologie der Krise 2007-08",
+        "Beschreiben Sie die wichtigsten Ereignisse der Finanzkrise von Juni 2007 bis September 2008.",
+        "Juni 2007: Probleme bei US-Hedgefonds\nJuli/Aug 2007: IKB, SachsenLB, WestLB, BayernLB in DE\nSept 2007: Bank Run auf Northern Rock (UK), Verstaatlichung\nMärz 2008: Bear Stearns kollabiert und wird gerettet\n15. Sept 2008: Lehman Brothers bricht zusammen → weltweite systemische Krise",
+        "Wiedergabe", "S. 78-80"))
+
+    cards.append(new_card(ch, n, "Lehman Brothers – Bedeutung",
+        "Warum war der Zusammenbruch von Lehman Brothers ein Wendepunkt in der Krise?",
+        "1. Enttäuschte die Erwartung, Banken würden immer gerettet (moral hazard-Erwartung brach)\n2. Lehman war wichtiger Schuldner, Gegenpartei und Handelspartner\n3. Weltweiter Einbruch der Wertpapierpreise + Einfrieren des Interbankenmarktes\n4. Viele Banken am Rande des Zusammenbruchs",
+        "Verständnis", "S. 80"))
+
+    cards.append(new_card(ch, n, "Liquiditätsspiralen",
+        "Erklären Sie die Liquiditätsspiralen (Brunnermeier/Pedersen 2009) und ihre Wirkung.",
+        "Loss Spiral: Preisverfall → Verluste → erzwungener Verkauf → weitere Preisrückgänge (fire sales).\nMargin Spiral: Höhere Haircuts → mehr Deleveraging → weitere Preisrückgänge.\nBeide Spiralen verstärken sich gegenseitig: Weder funding liquidity noch market liquidity verfügbar.",
+        "Verständnis", "S. 81"))
+
+    cards.append(new_card(ch, n, "Akutes Krisenmanagement 2008",
+        "Welche Maßnahmen ergriffen Regierungen und Zentralbanken im akuten Krisenmanagement?",
+        "1. Massive Liquiditätszuführungen durch Zentralbanken\n2. Staatliche Garantien für Einleger\n3. Eigenkapitalzuführungen für Banken und Versicherungen (AIG, Fortis, Dexia, RBS...)\n2008-12: 413,2 Mrd. Euro an EU-Banken (3,2% des BIP 2012)",
+        "Wiedergabe", "S. 82"))
+
+    cards.append(new_card(ch, n, "Eurokrise – Entstehung",
+        "Wie begann die Krise im Euroraum im Oktober 2009?",
+        "Oktober 2009: Griechenland veröffentlicht revidierte Haushaltszahlen → Staatsfinanzen nicht tragfähig.\nAnstieg der Risikoprämien auf griechische Anleihen (vs. deutsche Bunds).\nMai 2010: Erstes Rettungspaket (110 Mrd. Euro, IWF-Beteiligung, strikte Konditionalität).",
+        "Wiedergabe", "S. 84"))
+
+    cards.append(new_card(ch, n, "Ansteckungseffekte im Euroraum",
+        "Warum wurden Ansteckungseffekte bei Griechenland so ernst genommen?",
+        "Gefahr des Überspringens auf Irland, Portugal, Spanien, Italien (GIIPS).\nAußerdem: Europäische Banken hielten griechische und andere GIIPS-Anleihen.\nGriechenland allein wäre verkraftbar; Ansteckung auf größere Länder hätte den Euro bedroht.",
+        "Verständnis", "S. 85-86"))
+
+    cards.append(new_card(ch, n, "Whatever it takes",
+        "Was war die Bedeutung von Draghis 'Whatever it takes'-Rede im Juli 2012?",
+        "Beruhigung der Eurokrise: EZB würde alles tun, um den Euro zu erhalten.\nSofortiger Rückgang der Risikoprämien.\nAnkündigung des OMT-Programms (Outright Monetary Transactions): Aufkauf von Staatsanleihen, geknüpft an ESM-Programm.\nProgramm wurde nie eingesetzt, allein die Ankündigung reichte.",
+        "Verständnis", "S. 88"))
+
+    cards.append(new_card(ch, n, "Krisenmanagement Euroraum",
+        "Welche Stützungsmechanismen wurden in der Eurokrise eingerichtet?",
+        "Mai 2010: Securities Markets Program (SMP) der EZB\nMai 2011: EFSM und EFSF (temporäre Fazilitäten)\nOkt 2012: Europäischer Stabilitätsmechanismus (ESM, permanent)\nOMT-Programm (Sept 2012): nie eingesetzt",
+        "Wiedergabe", "S. 87"))
+
+    cards.append(new_card(ch, n, "Multiple Krisen 2020er",
+        "Welche multiplen Krisen stellen seit den 2020ern neue Herausforderungen dar?",
+        "Pandemie (COVID-19), hohe Inflation, geopolitische Konflikte, Energiekrise, klimabedingte Investitionsbedarfe.\nBesondere Herausforderung: Simultanität und wechselseitige Verschärfung.\nFiskal- und Geldpolitik geraten in Zielkonflikte.",
+        "Wiedergabe", "S. 90"))
+
+    cards.append(new_card(ch, n, "Synthese Finanzkrisen",
+        "Warum ist die Regulierung des Finanzsystems nach der Krise von 2007-09 verstärkt worden und was waren die wichtigsten Reformen?",
+        "Lehren: Zu wenig Eigenkapital, zu hohe Verschuldung, mangelnde Liquiditätsanforderungen, fehlende makroprudenzielle Perspektive.\nReformen: Basel III (höhere EK-Anforderungen, Liquiditätsregulierung), makroprudenzielle Aufsicht, Solvency II (Versicherungen), stärkere Regulierung von Schattenbanken.",
+        "Synthese", "S. 83"))
+
+    return cards
+
+
+def cards_chapter3():
+    ch = "Kapitel 3: Modigliani-Miller-Theorem"
+    n = 3
+    cards = []
+
+    cards.append(new_card(ch, n, "Kapitalstruktur – Definition",
+        "Was versteht man unter der Kapitalstruktur eines Unternehmens?",
+        "Die Kapitalstruktur gibt an, wie die Vermögensgegenstände des Unternehmens finanziert sind (Passivseite der Bilanz): relative Anteile von Eigen- und Fremdkapital.",
+        "Wiedergabe", "S. 102"))
+
+    cards.append(new_card(ch, n, "Fremdkapital – Definition",
+        "Wie ist Fremdkapital definiert und was passiert bei Nichtzahlung?",
+        "Fremdkapital: feste (erfolgsunabhängige) Rückzahlungsverpflichtungen (Zinsen + Nominalbetrag). Fremdkapital muss vor Eigenkapital bedient werden. Kann nicht zurückgezahlt werden → Insolvenz.",
+        "Wiedergabe", "S. 104"))
+
+    cards.append(new_card(ch, n, "Eigenkapital – Definition",
+        "Was ist das Eigenkapital und warum trägt der Eigenkapitalgeber mehr Risiko?",
+        "Eigenkapital: keine festen Rückzahlungspflichten, Anspruch auf Residualertrag nach allen Verpflichtungen (residual claimant).\nHöheres Risiko: Ertrag hängt vom Unternehmenserfolg ab → sehr hohe oder sehr niedrige Renditen.",
+        "Verständnis", "S. 104"))
+
+    cards.append(new_card(ch, n, "Kapitalwertformel",
+        "Wie berechnet man den Kapitalwert (KW) eines Investitionsprojekts?",
+        "KW = −Investition + Barwert der Einzahlungen\nBarwert = Erwartete Einzahlungen / (1 + r), wobei r die gesamten Kapitalkosten (inkl. Risikoprämien) sind.\nKapitalwertregel: Projekte mit KW > 0 durchführen.",
+        "Verständnis", "S. 106",
+        formula="KW = -I_0 + \\frac{E[CF]}{1+r}",
+        variables={"I_0": "Anfangsinvestition", "E[CF]": "Erwarteter Cashflow", "r": "Gesamte Kapitalkosten (inkl. Risikoprämie)"}))
+
+    cards.append(new_card(ch, n, "Eigenkapitalrendite – Beispiel",
+        "Wie berechnet sich die erwartete Eigenkapitalrendite bei reiner EK-Finanzierung?",
+        "Rendite = (Ertrag − eingesetztes Kapital) / eingesetztes Kapital.\nIm Beispiel (1000 Euro EK, Erfolg: 1400, Misserfolg: 900):\nErfolg: (1400−1000)/1000 = 40%\nMisserfolg: (900−1000)/1000 = −10%\nErwartet: 0,5·40%+0,5·(−10%) = 15%",
+        "Verständnis", "S. 107-108",
+        formula="r_E = \\frac{Ertrag - EK}{EK}",
+        variables={"EK": "Eingesetztes Eigenkapital", "Ertrag": "Auszahlung des Unternehmens"}))
+
+    cards.append(new_card(ch, n, "MMT I – Aussage",
+        "Was besagt das Modigliani-Miller-Theorem I (MMT I)?",
+        "In einem vollkommenen Kapitalmarkt entspricht der Gesamtwert eines Unternehmens dem Marktwert der Zahlungen seiner Vermögensgegenstände und ist von der Kapitalstruktur unabhängig.\nFolge: Weder Verschuldung noch Eigenkapitalausstattung beeinflussen den Unternehmenswert.",
+        "Wiedergabe", "S. 112"))
+
+    cards.append(new_card(ch, n, "Bedingungen MMT",
+        "Unter welchen drei Bedingungen gilt das Modigliani-Miller-Theorem?",
+        "1. Freie Handelbarkeit: Investoren und Unternehmen handeln Wertpapiere zu Marktpreisen\n2. Keine Steuern oder Transaktionskosten\n3. Keine asymmetrische Information (Finanzierungsentscheidungen generieren keine neue Info)",
+        "Verständnis", "S. 113"))
+
+    cards.append(new_card(ch, n, "Homemade Leverage",
+        "Was ist Homemade Leverage und warum zeigt es, dass die Kapitalstruktur irrelevant ist?",
+        "Investor kann durch eigene Kreditaufnahme (bei gleichem Zinssatz wie Unternehmen) das Auszahlungsprofil eines verschuldeten Unternehmens replizieren.\nFolge: Wenn Investor selbst levern kann, schafft Unternehmensverschuldung keinen Mehrwert → Kapitalstruktur irrelevant.",
+        "Verständnis", "S. 115-116"))
+
+    cards.append(new_card(ch, n, "Arbitrageargument",
+        "Wie beweist das Arbitrageargument das MMT?",
+        "Wenn zwei Unternehmen mit identischen Zahlungsströmen unterschiedliche Gesamtwerte haben, entstehen Arbitragemöglichkeiten.\nKauf des 'billigen', Verkauf des 'teuren' Unternehmens.\nArbitrage treibt Werte zusammen, bis MMT gilt.",
+        "Verständnis", "S. 117-118"))
+
+    cards.append(new_card(ch, n, "Marktwertbilanz",
+        "Was ist eine Marktwertbilanz und wie bestimmt man darüber den Eigenkapitalwert?",
+        "Marktwertbilanz: Alle Positionen zum aktuellen Marktwert.\nMW(EK) = MW(Vermögensgegenstände) − MW(Fremdkapital) − MW(andere Verbindlichkeiten).\nAnwendung: Auch bei komplexeren Wertpapierstrukturen (Optionsscheine etc.).",
+        "Verständnis", "S. 119",
+        formula="E = A - D - \\text{andere VB}",
+        variables={"E": "Marktwert Eigenkapital", "A": "Marktwert Vermögensgegenstände", "D": "Marktwert Fremdkapital"}))
+
+    cards.append(new_card(ch, n, "MMT II – Eigenkapitalkosten",
+        "Was besagt das Modigliani-Miller-Theorem II (MMT II) über Eigenkapitalkosten?",
+        "Die Eigenkapitalkosten steigen linear mit dem Verschuldungsgrad (D/E).\nFormel: r_E = r_U + (D/E)·(r_U − r_D)\nBegründung: Höhere Verschuldung erhöht Risiko des Eigenkapitals → höhere Rendite gefordert.",
+        "Verständnis", "S. 124",
+        formula="r_E = r_U + \\frac{D}{E}(r_U - r_D)",
+        variables={"r_E": "Eigenkapitalkosten verschuldetes Unternehmen", "r_U": "Eigenkapitalkosten unverschuldetes Unternehmen", "r_D": "Fremdkapitalkosten", "D": "Marktwert Fremdkapital", "E": "Marktwert Eigenkapital"}))
+
+    cards.append(new_card(ch, n, "WACC – Definition und Formel",
+        "Was sind die WACC und wie berechnen sie sich?",
+        "WACC (Weighted Average Cost of Capital) = gewichtete durchschnittliche Kapitalkosten.\nIn vollkommenem Markt: WACC = r_U = r_A (kapitalstrukturunabhängig).",
+        "Verständnis", "S. 125",
+        formula="r_{WACC} = \\frac{E}{E+D}\\cdot r_E + \\frac{D}{E+D}\\cdot r_D",
+        variables={"r_E": "Eigenkapitalkosten", "r_D": "Fremdkapitalkosten", "E": "Marktwert Eigenkapital", "D": "Marktwert Fremdkapital"}))
+
+    cards.append(new_card(ch, n, "WACC konstant?",
+        "Warum bleiben die WACC in einem vollkommenen Markt konstant, obwohl EK-Kosten mit Verschuldung steigen?",
+        "Mit steigender Verschuldung steigen r_E und r_D.\nGleichzeitig steigt der Anteil des günstigeren Fremdkapitals.\nDiese beiden Effekte gleichen sich exakt aus → WACC = r_U = konstant.\nMMT: Kapitalstruktur beeinflusst WACC nicht.",
+        "Verständnis", "S. 126-128"))
+
+    cards.append(new_card(ch, n, "Beta und Verschuldung",
+        "Wie verändert sich das Eigenkapital-Beta mit der Verschuldung?",
+        "Asset-Beta (unverschuldetes Unternehmen): β_U = (E/(E+D))·β_E + (D/(E+D))·β_D\nEigenkapital-Beta verschuldetes Unternehmen: β_E = β_U + (D/E)·(β_U − β_D)\nFolge: β_E steigt mit D/E, analog zur erwarteten Rendite.",
+        "Verständnis", "S. 131",
+        formula="\\beta_E = \\beta_U + \\frac{D}{E}(\\beta_U - \\beta_D)",
+        variables={"β_E": "Eigenkapital-Beta", "β_U": "Asset-Beta (unverschuldet)", "β_D": "Fremdkapital-Beta", "D": "Fremdkapital", "E": "Eigenkapital"}))
+
+    cards.append(new_card(ch, n, "Trugschluss EPS",
+        "Warum ist es ein Trugschluss zu behaupten, höhere Verschuldung erhöhe den Aktienkurs wegen höherem EPS?",
+        "Zwar steigt der erwartete Gewinn je Aktie (EPS) mit Verschuldung.\nAber gleichzeitig steigt das Risiko (Volatilität des EPS).\nHöherer EPS ist exakt die Entschädigung für höheres Risiko → Aktienkurs bleibt unverändert.\nBei niedrigen Gewinnen fällt EPS durch Verschuldung noch stärker.",
+        "Evaluation", "S. 138-141"))
+
+    cards.append(new_card(ch, n, "Trugschluss Verwässerung",
+        "Warum ist die Behauptung falsch, Aktienemissionen verwässerten den Aktienkurs?",
+        "Aktienemission bringt frisches Kapital: Vermögensgegenstände steigen genauso wie die Anzahl der Aktien.\nFolge: Aktienkurs bleibt unverändert.\nNur bei Investments mit negativem KW kann der Aktienkurs fallen.",
+        "Evaluation", "S. 142-144"))
+
+    cards.append(new_card(ch, n, "Nettoverschuldung und Barmittel",
+        "Wie wirken Barmittel auf die Kapitalstruktur und wie definiert man Nettoverschuldung?",
+        "Barmittel wirken wie 'negatives Fremdkapital': Sie reduzieren das Risiko der Aktiva.\nNettoverschuldung = Fremdkapital − risikolose Aktiva.\nFür die WACC/Beta-Berechnung sollte Nettoverschuldung verwendet werden.",
+        "Verständnis", "S. 133"))
+
+    cards.append(new_card(ch, n, "Barmittel Cisco-Beispiel",
+        "Wie berechnet man das unverschuldete Asset-Beta bei einem Unternehmen mit hohen Barmitteln? (Cisco 2012)",
+        "Cisco: Marktkapitalisierung 102,4 Mrd., FK 16,2 Mrd., Barmittel 48,6 Mrd.\nNettoverschuldung = 16,2 − 48,6 = −32,4 Mrd.\nOperativer Unternehmenswert = 102,4 + (−32,4) = 70 Mrd.\nβ_U = (102,4/70)·1,23 + (−32,4/70)·0 ≈ 1,8",
+        "Transfer", "S. 133-134",
+        formula="\\beta_U = \\frac{E}{E+D_{netto}} \\cdot \\beta_E + \\frac{D_{netto}}{E+D_{netto}} \\cdot \\beta_D",
+        variables={"E": "Marktkapitalisierung", "D_netto": "Nettoverschuldung = FK − Barmittel", "β_E": "Eigenkapital-Beta", "β_D": "Fremdkapital-Beta"},
+        solution_steps=["Nettoverschuldung = 16,2 − 48,6 = −32,4 Mrd.", "Op. Unternehmenswert = 102,4 − 32,4 = 70 Mrd.", "β_U = (102,4/70)·1,23 = 1,8"]))
+
+    return cards
+
+
+def cards_chapter4():
+    ch = "Kapitel 4: Marktunvollkommenheiten und Kapitalstruktur"
+    n = 4
+    cards = []
+
+    cards.append(new_card(ch, n, "Steuervorteil Fremdkapital",
+        "Warum schafft Fremdkapital in den meisten Steuersystemen einen Steuervorteil?",
+        "Zinszahlungen sind steuerlich abzugsfähig → mindern das zu versteuernde Einkommen ('debt bias').\nFremdfinanzierungsbedingter Steuervorteil = Steuersatz × Zinszahlungen.",
+        "Verständnis", "S. 148",
+        formula="\\text{Steuervorteil} = \\tau \\cdot r_D \\cdot D",
+        variables={"τ": "Unternehmensteuersatz", "r_D": "Fremdkapitalzins", "D": "Fremdkapital"}))
+
+    cards.append(new_card(ch, n, "Macy's Beispiel Steuervorteil",
+        "Macy's 2012: EBIT 2,5 Mrd. Euro, Zinsaufwand 430 Mio., Steuersatz 35%. Wie hoch ist der Steuervorteil?",
+        "Steuervorteil = 0,35 × 430 Mio. = 150,5 Mio. Euro.\nMit Verschuldung: Gesamtauszahlung an Investoren 1.775 Mio.\nOhne Verschuldung: 1.625 Mio.\nDifferenz 150 Mio. = Steuerersparnis.",
+        "Transfer", "S. 149-151",
+        solution_steps=["Steuervorteil = τ × Zinszahlungen = 0,35 × 430 = 150,5 Mio. Euro"]))
+
+    cards.append(new_card(ch, n, "Barwert des Steuervorteils",
+        "Wie berechnet man den Barwert des fremdfinanzierungsbedingten Steuervorteils bei konstanter Verschuldung?",
+        "Bei konstanter, risikoloser Verschuldung D:\nBW(Steuervorteil) = τ·D\nEinfache Formel: Barwert der ewigen Steuerersparnis bei Diskontierung mit Fremdkapitalzins.",
+        "Transfer", "S. 152",
+        formula="BW(\\text{Steuervorteil}) = \\tau \\cdot D",
+        variables={"τ": "Körperschaftsteuersatz", "D": "Verschuldung (konstant und risikolos angenommen)"}))
+
+    cards.append(new_card(ch, n, "Steuern auf Investorenebene",
+        "Warum reduzieren Steuern auf Investorenebene den Steuervorteil des Fremdkapitals?",
+        "Zinserträge (FK) werden auf Investorenebene oft höher besteuert als Dividenden/Kursgewinne (EK).\nEffektiver Steuervorteil τ* < Unternehmensteuersatz τ.\nBei τ_EK = τ_FK macht Investorenbesteuerung keinen Unterschied.",
+        "Verständnis", "S. 153"))
+
+    cards.append(new_card(ch, n, "Optimale Kapitalstruktur mit Steuern",
+        "Was wäre bei ausschließlicher Berücksichtigung von Steuern die optimale Kapitalstruktur?",
+        "Maximale Verschuldung bis EBIT gerade durch Zinsen gedeckt (τ* voll ausschöpfen).\nIn der Realität verhindert dies die Gefahr von Konkurskosten und Agency-Problemen.",
+        "Evaluation", "S. 154"))
+
+    cards.append(new_card(ch, n, "Direkte Konkurskosten",
+        "Was sind direkte Konkurskosten und wie hoch sind sie typischerweise?",
+        "Direkte Konkurskosten: Anwalts-, Gerichts- und Verwaltungskosten im Insolvenzverfahren.\nTypischerweise 3-5% des Unternehmenswerts; bei Großunternehmen oft höher absolut aber geringer relativ.",
+        "Wiedergabe", "S. 155"))
+
+    cards.append(new_card(ch, n, "Indirekte Konkurskosten",
+        "Was sind indirekte Konkurskosten? Nennen Sie drei Beispiele.",
+        "Verluste, die vor der formellen Insolvenz entstehen:\n1. Kunden: Nichteinhaltung von Gewährleistungen\n2. Lieferanten: Aufkündigung von Verträgen\n3. Talentflucht: Schlüsselpersonal verlässt das Unternehmen\nKönnen 10-20% des Unternehmenswerts ausmachen.",
+        "Verständnis", "S. 156-157"))
+
+    cards.append(new_card(ch, n, "Trade-Off-Theorie",
+        "Was besagt die Trade-Off-Theorie der Kapitalstruktur?",
+        "VL = VU + BW(Steuervorteil) − BW(Konkurskosten)\nOptimale Verschuldung D* = Punkt, wo zusätzliche Steuerersparnis = zusätzliche erwartete Konkurskosten.\nJenseits von D*: Unternehmenswert sinkt.",
+        "Verständnis", "S. 159",
+        formula="V_L = V_U + BW(\\text{Steuervorteil}) - BW(\\text{Konkurskosten})",
+        variables={"V_L": "Wert verschuldetes Unternehmen", "V_U": "Wert unverschuldetes Unternehmen"}))
+
+    cards.append(new_card(ch, n, "Wer trägt Konkurskosten?",
+        "Wer trägt letztlich die Konkurskosten, wenn das Unternehmen verschuldet ist?",
+        "Die Anteilseigner! Obwohl Konkurskosten im Insolvenzfall die Fremdkapitalgeber treffen, antizipieren diese dies und zahlen von Anfang an weniger für das Fremdkapital → Aktionäre tragen Barwert der Konkurskosten.",
+        "Verständnis", "S. 160-161"))
+
+    cards.append(new_card(ch, n, "Asset Substitution",
+        "Was ist das Asset-Substitution-Problem (Jensen/Meckling 1976)?",
+        "Unternehmen in finanzieller Notlage haben Anreiz, riskantere Projekte zu wählen als vereinbart.\nGrund: Aktionäre profitieren von guten Ergebnissen, Verluste tragen im Extremfall Gläubiger.\n'Heads I win, tails you lose' → übermäßige Risikobereitschaft.",
+        "Verständnis", "S. 163-165"))
+
+    cards.append(new_card(ch, n, "Schuldenüberhang (Debt Overhang)",
+        "Was ist der Schuldenüberhang (Myers 1977) und warum führt er zu Unterinvestition?",
+        "Unternehmen in finanzieller Notlage investieren nicht in profitable Projekte (KW > 0), weil der Großteil der Erträge an die Gläubiger geht.\nFolge: Aktionäre investieren nicht → Unterinvestition → Gesamtwert sinkt.",
+        "Verständnis", "S. 166-167"))
+
+    cards.append(new_card(ch, n, "Übermäßige Ausschüttung",
+        "Was ist die übermäßige Ausschüttung als Agency-Kosten?",
+        "Unternehmen in Notlage: Anreiz für Aktionäre, vor Insolvenz möglichst viel Kapital herauszuziehen (z.B. Verkauf von Vermögenswerten unter Wert + Dividende).\nVerluste fallen auf Gläubiger → Cashing out.",
+        "Verständnis", "S. 168"))
+
+    cards.append(new_card(ch, n, "Sperrklinkeneffekt der Verschuldung",
+        "Was ist der Leverage Ratchet Effect (Admati et al. 2017)?",
+        "Wenn Fremdkapital bereits vorhanden ist:\n• Aktionäre haben Anreiz, Verschuldung zu erhöhen (selbst wenn UW sinkt)\n• Kein Anreiz, Verschuldung zu reduzieren (Fremdkapitalgeber profitieren → nicht attraktiv für Aktionäre)\n→ Verschuldung bleibt dauerhaft hoch.",
+        "Verständnis", "S. 170"))
+
+    cards.append(new_card(ch, n, "Agency-Nutzen der Verschuldung",
+        "Welche positiven Anreizeffekte kann Verschuldung haben (Agency-Nutzen)?",
+        "1. Disziplinierung des Managements: Verschuldung zwingt zu Cash-Flow-Generierung (Jensen 1986: Free Cash Flow)\n2. Reduzierung von Overinvestment: Manager können überschüssige Mittel nicht verschwenden\n3. Signalwirkung: Hohe Verschuldung signalisiert Zuversicht des Managements",
+        "Verständnis", "S. 171"))
+
+    cards.append(new_card(ch, n, "Covenants",
+        "Was sind Covenants und warum sind sie ein zweischneidiges Schwert?",
+        "Covenants: Kreditklauseln, die die Handlungsfreiheit des Kreditnehmers einschränken (z.B. Begrenzung von Ausschüttungen, Art der Investitionen).\nVorteil: Reduzieren Agency-Kosten für Gläubiger.\nNachteil: Können profitable Investitionen verhindern, schränken Flexibilität ein.",
+        "Evaluation", "S. 172"))
+
+    cards.append(new_card(ch, n, "Adverse Selektion und Kapitalstruktur (Myers/Majluf)",
+        "Wie beeinflusst asymmetrische Information die Wahl zwischen EK und FK? (Pecking Order)",
+        "Manager wissen mehr als Markt → EK-Emission signalisiert Überbewertung → Kurs fällt.\nFolge: Unternehmen bevorzugen Innenfinanzierung > FK > EK (Pecking Order Theory).\nErklärung: Kapitalstruktur als Resultat von Informationsasymmetrien.",
+        "Verständnis", "S. 175"))
+
+    cards.append(new_card(ch, n, "Pecking Order vs. Trade-Off",
+        "Vergleichen Sie die Trade-Off-Theorie mit der Pecking Order Theory der Kapitalstruktur.",
+        "Trade-Off: Optimales D*, Balance Steuervorteil vs. Konkurskosten → Unternehmen streben Target Leverage an.\nPecking Order: Keine optimale Zielstruktur, Hierarchie der Finanzierungsquellen: intern > FK > EK. Kapitalstruktur als historischer Zufallspfad.",
+        "Synthese", "S. 175-176"))
+
+    return cards
+
+
+def cards_chapter5():
+    ch = "Kapitel 5: Funktionen von Banken"
+    n = 5
+    cards = []
+
+    cards.append(new_card(ch, n, "Irrelevanz von Banken in vollkommenen Märkten",
+        "Warum sind Banken in vollkommenen Kapitalmärkten irrelevant?",
+        "In vollkommenen Märkten können die Zahlungsströme eines Bankkredits durch den Kauf/Verkauf geeigneter Wertpapiere repliziert werden.\nKredite und Anleihen sind vollständige Substitute.\n→ Existenz von Banken erfordert Marktfriktionen (Transaktions- oder Informationskosten).",
+        "Verständnis", "S. 195"))
+
+    cards.append(new_card(ch, n, "Drei Transformationsfunktionen der Banken",
+        "Welche drei Transformationsfunktionen erfüllen Banken (Gurley/Shaw 1960)?",
+        "1. Losgrößentransformation: Bündelung kleiner Einlagen zu großen Krediten\n2. Fristentransformation: Kurzfristige Einlagen → langfristige Kredite\n3. Risikotransformation: Riskante Kredite → sichere Einlagen",
+        "Wiedergabe", "S. 198"))
+
+    cards.append(new_card(ch, n, "Fristentransformation und Risiken",
+        "Welche zwei Risiken entstehen aus der Fristentransformation von Banken?",
+        "1. Liquiditätsrisiko/Bank-Run-Gefahr: Bank ist illiquide (Diamond/Dybvig 1983)\n2. Zinsänderungsrisiko: Wenn sich kurzfristige Zinsen stärker ändern als langfristige (z.B. Savings & Loans USA 1980er)",
+        "Verständnis", "S. 200"))
+
+    cards.append(new_card(ch, n, "Diamond-Dybvig Modell – Grundidee",
+        "Was ist die Grundidee des Diamond-Dybvig-Modells (1983) zur Erklärung von Banken?",
+        "Haushalte wissen nicht, wann sie konsumieren (Liquiditätsschocks: frühe/späte Konsumenten).\nLangfristige Investitionen: hoher Ertrag R, aber keine vorzeitige Liquidation ohne Verlust.\nBank bietet Einlagenvertrag mit jederzeitiger Abhebemöglichkeit → versichert gegen Liquiditätsrisiko.\n→ Fristentransformation erhöht Wohlfahrt gegenüber Marktlösung.",
+        "Verständnis", "S. 203-205"))
+
+    cards.append(new_card(ch, n, "DD-Modell: Drei Perioden",
+        "Beschreiben Sie die drei Perioden im Diamond-Dybvig-Modell.",
+        "t=0: Konsumenten investieren Anfangsausstattung (1 Einheit)\nt=1: Erfahren Typ (früh/spät); frühe Konsumenten lösen ab\nt=2: Langfristiges Projekt fällig; späte Konsumenten konsumieren\nProduktionen: Lagerung (1→1 in t+1) und Langfristprojekt (1→R>1 in t=2, oder L<1 bei vorzeitiger Liquidation)",
+        "Verständnis", "S. 206-207"))
+
+    cards.append(new_card(ch, n, "DD-Modell: Autarkie vs. Markt vs. Bank",
+        "Warum ist die Banklösung im DD-Modell besser als Autarkie und Marktlösung?",
+        "Autarkie: Ineffiziente Investitionsentscheidungen ex ante, da Typ unbekannt\nMarkt: C1=1, C2=R (keine Konsumglättung)\nBank (First-best): C1*>1, C2*<R (Versicherung gegen Liquiditätsschocks durch Konsumglättung)\nBank besser wegen Risikoaversion der Konsumenten und Gesetz der Großen Zahlen.",
+        "Evaluation", "S. 210-214"))
+
+    cards.append(new_card(ch, n, "DD-Modell: Optimalitätsbedingung",
+        "Wie lautet die Bedingung erster Ordnung (FOC) für die pareto-optimale Allokation im DD-Modell?",
+        "Sozialer Planer maximiert: π1·u(C1) + π2·ρ·u(C2)\nFOC: u'(C1*) = ρ·R·u'(C2*)\nMarktlösung (C1=1, C2=R) verletzt diese Bedingung bei starker Risikoaversion.\n→ C1* > 1, C2* < R: Konsumglättung optimal.",
+        "Transfer", "S. 211-212",
+        formula="u'(C_1^*) = \\rho R \\cdot u'(C_2^*)",
+        variables={"C1*": "Optimaler Konsum früher Typ", "C2*": "Optimaler Konsum später Typ", "ρ": "Diskontfaktor", "R": "Ertrag langfristige Investition"}))
+
+    cards.append(new_card(ch, n, "DD-Modell: Implementierung",
+        "Wie implementiert die Bank im DD-Modell die First-best-Lösung?",
+        "Bank bietet Einlagenvertrag mit r1 = C1* (Auszahlung in t=1).\nBank investiert π1·C1* in Lagerhaltung (für frühe Konsumenten) und Rest in langfristiges Projekt.\nGutes Gleichgewicht: Typ-1 hebt in t=1 ab, Typ-2 wartet → First-best erreicht.",
+        "Verständnis", "S. 215-216"))
+
+    cards.append(new_card(ch, n, "Diamond-Dybvig: Kritik",
+        "Was sind die zentralen Schwächen des Diamond-Dybvig-Modells?",
+        "1. Aktivseite der Bank nicht modelliert (keine Kreditrisiken)\n2. Projekte risikolos → keine Risikotransformation\n3. Ergebnisse abhängig von fehlenden Wertpapiermärkten (Jacklin 1987)\n4. Einlagen keine Zahlungsmittel → keine Aussage über Zahlungssystemfunktion",
+        "Evaluation", "S. 217"))
+
+    cards.append(new_card(ch, n, "Delegierte Kontrolle – Diamond 1984",
+        "Was ist die Grundidee der delegierten Kontrolle (Diamond 1984) und warum benötigt man Intermediäre?",
+        "Unternehmer können Erträge verbergen (Costly State Verification, Gale/Hellwig 1985).\nKontrolle durch Kapitalgeber nötig, aber kostspielig.\nBank übernimmt stellvertretend die Kontrolle ('delegierte Kontrolle').\nProbleme: Wer kontrolliert den Kontrolleur? → Lösung: Diversifikation reduziert Kontrollkosten gegen null.",
+        "Verständnis", "S. 220-222"))
+
+    cards.append(new_card(ch, n, "Delegierte Kontrolle: Informationsproblem",
+        "Welches Informationsproblem liegt im Diamond-1984-Modell vor und welche Vertragsform löst es?",
+        "Costly State Verification: Kapitalgeber kann Ertrag nur kostenpflichtig beobachten.\nOptimaler Vertrag: Standardkreditvertrag mit nichtmonetären Strafen bei Zahlungsausfall.\nKreditvertrag als anreizkompatible Lösung des Verifikationsproblems.",
+        "Verständnis", "S. 223"))
+
+    cards.append(new_card(ch, n, "Losgrößentransformation",
+        "Wie erfüllen Banken und Kapitalmärkte die Losgrößentransformation unterschiedlich?",
+        "Banken: Pooling kleiner Einlagen zu großen Krediten (Intermediation).\nMärkte: Stückelung in handelbare Wertpapieranteile, aber Mindestgebühren können sehr kleine Beträge unattraktiv machen.",
+        "Verständnis", "S. 201"))
+
+    return cards
+
+
+def cards_chapter6():
+    ch = "Kapitel 6: Finanzkrisen und systemische Risiken"
+    n = 6
+    cards = []
+
+    cards.append(new_card(ch, n, "Das Grundproblem der Banken",
+        "Was ist das fundamentale Stabilitätsproblem von Banken, das aus ihrer Struktur entsteht?",
+        "Banken sind illiquide (Fristentransformation): Langfristige Aktiva, kurzfristige Passiva.\nSie sind solvent aber illiquide → vulnerable für Bank Runs.\nBank Run = sich selbst erfüllende Erwartung: Wenn alle abziehen, gibt es nicht genug Liquidität.",
+        "Verständnis", "S. 230"))
+
+    cards.append(new_card(ch, n, "Bank Run im DD-Modell",
+        "Wie entsteht ein Bank Run als schlechtes Gleichgewicht im DD-Modell?",
+        "Wenn alle Typ-2-Einleger erwarten, dass alle anderen ebenfalls abziehen, ist es auch für sie optimal abzuziehen.\nBank muss alle Projekte vorzeitig liquidieren → Ertrag L < 1 → nicht genug für alle.\nBank Run = selbsterfüllende Prophezeiung, selbst wenn Bank solvent wäre.",
+        "Verständnis", "S. 231"))
+
+    cards.append(new_card(ch, n, "Narrow Banking",
+        "Was ist Narrow Banking und wie löst es das Bank-Run-Problem?",
+        "Narrow Banking: Trennbanksystem, bei dem Einlagen nur in risikolose Aktiva (z.B. Staatsanleihen) angelegt werden dürfen.\nFolge: Bank kann immer alle Einlagen zurückzahlen → kein Bank Run möglich.\nKritik: Kreditvergabefunktion fehlt → weniger Finanzintermediation.",
+        "Evaluation", "S. 232"))
+
+    cards.append(new_card(ch, n, "Einlagenversicherung",
+        "Wie löst eine Einlagenversicherung das Bank-Run-Problem und was sind ihre Nachteile?",
+        "Versicherung garantiert Einlagen → Einleger haben keinen Anreiz zum Abzug → kein Run-Gleichgewicht mehr.\nVorteil: Eliminiert schlechtes Gleichgewicht.\nNachteile: Moral Hazard (Banken nehmen mehr Risiken, weil Einleger nicht mehr kontrollieren), Finanzierung durch Steuerzahler.",
+        "Evaluation", "S. 234"))
+
+    cards.append(new_card(ch, n, "Aufhebung der Konvertibilität",
+        "Was ist die Aufhebung der Konvertibilität als Mittel gegen Bank Runs?",
+        "Bank kann vorübergehend Abhebungen sperren ('Bankfeiertag') oder begrenzen.\nVorteil: Schlechtes Gleichgewicht wird aufgebrochen.\nNachteil: Erhebliche realwirtschaftliche Kosten (Zahlungsverkehr gesperrt), Vertrauensverlust.",
+        "Verständnis", "S. 233"))
+
+    cards.append(new_card(ch, n, "Effiziente Bank Runs",
+        "Wann können Bank Runs effizient sein (Gorton/Pennacchi, Calomiris/Kahn)?",
+        "Manche Modelle zeigen: Bank Runs können als Disziplinierungsinstrument funktionieren.\nEinleger, die früh Informationen über schlechte Bankperformance erhalten, lösen Run aus → Bank wird diszipliniert.\nProblem: Kontagion trifft auch solvente Banken → systemisches Risiko.",
+        "Evaluation", "S. 235"))
+
+    cards.append(new_card(ch, n, "Ansteckungseffekte",
+        "Durch welche Kanäle können Bankenprobleme auf andere Banken übergreifen (Ansteckung)?",
+        "1. Interbankenmarkt: Direkter Ausfall von Forderungen\n2. Fire Sales: Erzwungener Verkauf → Preisverfall trifft alle mit ähnlichen Aktiva\n3. Informationskontagion: Einleger können nicht unterscheiden, welche Banken gesund sind → Run auf alle\n4. Gegenparteirisiken (z.B. über CDS)",
+        "Verständnis", "S. 236-237"))
+
+    cards.append(new_card(ch, n, "Lender of Last Resort (LoLR)",
+        "Was ist der Lender of Last Resort und wie begründet Bagehot seine Rolle?",
+        "LoLR = Zentralbank als letzte Kreditquelle für illiquide aber solvente Banken.\nBagehot-Regel: In der Krise großzügig leihen, aber gegen gute Sicherheiten und zu Strafzins.\nZweck: Liquiditätspaniken stoppen, ohne Insolvenzbanken zu retten (moral hazard vermeiden).",
+        "Verständnis", "S. 238"))
+
+    cards.append(new_card(ch, n, "LoLR in der Praxis",
+        "Warum ist die Umsetzung der Bagehot-Regel in Krisen schwierig?",
+        "In Krisen schwer zu unterscheiden, ob Bank illiquide oder insolvent ist.\nStrafzins-Bedingung oft nicht umsetzbar (würde geschwächte Banken zusätzlich belasten).\nGute Sicherheiten oft nicht vorhanden → praktisch: Zentralbank muss breiter unterstützen.",
+        "Evaluation", "S. 239"))
+
+    cards.append(new_card(ch, n, "Too-big-to-fail (TBTF)",
+        "Was versteht man unter dem Too-big-to-fail-Phänomen und welche Probleme erzeugt es?",
+        "Große Banken werden im Krisenfall gerettet, weil ihr Zusammenbruch das gesamte System gefährdet.\nProbleme:\n1. Moral Hazard: TBTF-Banken gehen mehr Risiken ein\n2. Wettbewerbsverzerrung: Implizite Staatsgarantie = günstiger Refinanzierungsvorteil\n3. Politisches Problem: Privatisierung der Gewinne, Sozialisierung der Verluste",
+        "Verständnis", "S. 240-241"))
+
+    cards.append(new_card(ch, n, "Maßnahmen gegen TBTF",
+        "Welche regulatorischen Maßnahmen wurden eingeführt, um das TBTF-Problem zu adressieren?",
+        "1. Höhere Eigenkapitalanforderungen für systemrelevante Banken (G-SIBs)\n2. Abwicklungsregime (Bail-in statt Bail-out): Verluste auf Aktionäre und Gläubiger\n3. Abwicklungspläne ('living wills')\n4. Strukturelle Trennung riskanter Aktivitäten",
+        "Verständnis", "S. 241"))
+
+    cards.append(new_card(ch, n, "Systemisches Risiko – Definition",
+        "Was ist systemisches Risiko und warum ist es ein Marktversagen?",
+        "Systemisches Risiko: Risiko des Zusammenbruchs des gesamten Finanzsystems oder wesentlicher Teile davon.\nMarktversagen: Einzelne Institutionen internalisieren die Kosten ihres Zusammenbruchs für andere nicht (negative Externalität).\n→ Begründung für makroprudenzielle Regulierung.",
+        "Verständnis", "S. 230"))
+
+    return cards
+
+
+def cards_chapter7():
+    ch = "Kapitel 7: Bankenregulierung"
+    n = 7
+    cards = []
+
+    cards.append(new_card(ch, n, "Arten der Bankenregulierung",
+        "Nennen Sie die wichtigsten Arten der Bankenregulierung in Deutschland/Europa.",
+        "1. Marktzutrittsbarrieren (Zulassung, Lizenz)\n2. Eigenkapitalregulierung (Basel I, II, III)\n3. Liquiditätsregulierung (LCR, NSFR)\n4. Begrenzung von Großkrediten\n5. Einlagensicherungssysteme\n6. Spezielle Abwicklungsregime\n7. Verbraucherschutz",
+        "Wiedergabe", "S. 248"))
+
+    cards.append(new_card(ch, n, "Aufsichtsbehörden",
+        "Welche Behörden beaufsichtigen Banken in Deutschland und Europa?",
+        "National: BaFin und Deutsche Bundesbank.\nEuropäisch: EZB (Einheitlicher Aufsichtsmechanismus SSM seit November 2014).\nEZB beaufsichtigt direkt die bedeutenden Banken (significant institutions).",
+        "Wiedergabe", "S. 248"))
+
+    cards.append(new_card(ch, n, "Basel I",
+        "Was war das Wesentliche von Basel I (1988)?",
+        "Erstes internationales Abkommen zur Eigenkapitalregulierung (Basler Ausschuss für Bankenaufsicht).\nMindest-EK-Quote: 8% der risikogewichteten Aktiva (RWA).\nRisikogewichtung: 4 Kategorien (0%, 20%, 50%, 100%).\nKritik: Grobe Risikogewichtung, keine Marktrisiken.",
+        "Wiedergabe", "S. 250"))
+
+    cards.append(new_card(ch, n, "Basel II",
+        "Was sind die drei Säulen von Basel II?",
+        "Säule 1: Mindestkapitalanforderungen (Kredit-, Markt- und operationelle Risiken)\nSäule 2: Aufsichtlicher Überprüfungsprozess (SREP)\nSäule 3: Marktdisziplin (Offenlegungspflichten)\nNeu: Interne Modelle (IRB-Ansatz) für Kreditrisiken.",
+        "Wiedergabe", "S. 251"))
+
+    cards.append(new_card(ch, n, "Kritik an Basel II / Prozyklizität",
+        "Warum ist Basel II prozyklisch und warum ist das problematisch?",
+        "Interne Risikomodelle basieren auf historischen Daten → In Boom-Phase: niedrige PDs, niedrige EK-Anforderungen.\nIn Krise: PDs steigen → EK-Anforderungen steigen → Banken müssen Kredite einschränken → Krise verschärft.\nProzyklizität verstärkt Konjunkturzyklen.",
+        "Evaluation", "S. 252"))
+
+    cards.append(new_card(ch, n, "Basel III – Überblick",
+        "Was sind die wesentlichen Neuerungen von Basel III im Vergleich zu Basel II?",
+        "1. Höhere Qualität des Eigenkapitals (mehr hartes Kernkapital CET1)\n2. Höhere EK-Quote (4,5% CET1, 6% Tier-1, 8% Gesamt)\n3. Kapitalerhaltungspuffer (+2,5%) und antizyklischer Puffer (0-2,5%)\n4. Leverage Ratio (nicht-risikobasiert)\n5. Liquiditätsanforderungen: LCR und NSFR\n6. Systemzuschläge für G-SIBs",
+        "Wiedergabe", "S. 253-255"))
+
+    cards.append(new_card(ch, n, "Eigenkapital-Mindestquoten Basel III",
+        "Wie hoch sind die Mindest-EK-Quoten unter Basel III?",
+        "CET1 (hartes Kernkapital): 4,5% der RWA\nTier-1-Kapital: 6% der RWA\nGesamtkapital: 8% der RWA\n+ Kapitalerhaltungspuffer: 2,5% (CET1) = effektiv 7% CET1\n+ Antizyklischer Puffer: 0-2,5%\n+ G-SIB-Zuschlag: 1-3,5%",
+        "Wiedergabe", "S. 254",
+        formula="\\text{Eigenkapitalquote} = \\frac{\\text{Eigenkapital}}{\\text{Risikogewichtete Aktiva (RWA)}}",
+        variables={"EK": "Eigenkapital (CET1, Tier-1, o. Gesamt)", "RWA": "Risikogewichtete Aktiva"}))
+
+    cards.append(new_card(ch, n, "Leverage Ratio",
+        "Was ist die Leverage Ratio und warum wurde sie in Basel III eingeführt?",
+        "Leverage Ratio = EK / Gesamtexposition (nicht risikogewichtet).\nMindestwert: 3% (Tier-1-Kapital).\nZweck: Begrenzung des absoluten Verschuldungsgrads, unabhängig von Risikomodellen.\nVerhindert exzessive Verschuldung auch bei formal niedrigen RWA.",
+        "Verständnis", "S. 255",
+        formula="\\text{Leverage Ratio} = \\frac{\\text{Tier-1-Kapital}}{\\text{Gesamtexposition}} \\geq 3\\%",
+        variables={"Tier-1-Kapital": "Hartes und weiches Kernkapital", "Gesamtexposition": "Alle Aktiva inkl. außerbilanzielle Posten (nicht risikogewichtet)"}))
+
+    cards.append(new_card(ch, n, "LCR und NSFR",
+        "Was messen LCR und NSFR und warum wurden sie eingeführt?",
+        "LCR (Liquidity Coverage Ratio): Kurzfristige Liquidität; Bank muss genug hochliquide Aktiva haben, um 30-Tage-Nettoabflüsse zu decken. ≥ 100%.\nNSFR (Net Stable Funding Ratio): Strukturelle Liquidität; stabile langfristige Refinanzierung für illiquide Aktiva. ≥ 100%.\nZweck: Verhindert übermäßige Fristentransformation.",
+        "Verständnis", "S. 256",
+        formula="LCR = \\frac{\\text{HQLA}}{\\text{Nettoabflüsse in 30 Tagen}} \\geq 100\\%",
+        variables={"HQLA": "High Quality Liquid Assets (hochliquide Aktiva)", "Nettoabflüsse": "Erwartete Abflüsse minus Zuflüsse in Stressszenario"}))
+
+    cards.append(new_card(ch, n, "Makroprudenzielle Regulierung",
+        "Was ist makroprudenzielle Regulierung und wie unterscheidet sie sich von mikroprudenzieller?",
+        "Mikroprudenziell: Stabilität einzelner Institute (Institution-by-Institution).\nMakroprudenziell: Stabilität des gesamten Finanzsystems; systemische Risiken und Ansteckungseffekte.\nInstrumente: Antizyklischer Kapitalerhaltungspuffer, Systemrisikowarnungen, Begrenzung von LTV-Quoten im Immobilienbereich.",
+        "Verständnis", "S. 257"))
+
+    cards.append(new_card(ch, n, "Argumente gegen hohe EK-Anforderungen",
+        "Welche Argumente bringen Banken gegen hohe Eigenkapitalanforderungen vor und warum sind sie (teils) falsch?",
+        "Argument: Mehr EK → höhere Kapitalkosten → weniger Kreditvergabe.\nGegenargument (Modigliani-Miller): In vollkommenen Märkten keine teuerere Finanzierung durch mehr EK, da r_E sinkt.\nIn der Realität: Steuervorteil FK, implizite Subventionen durch TBTF. Aber MM-Argument zeigt, dass EK nicht prinzipiell teurer ist.",
+        "Evaluation", "S. 258"))
+
+    cards.append(new_card(ch, n, "Schattenbanken und Regulierungsarbitrage",
+        "Was sind Schattenbanken und warum entstehen sie als Reaktion auf Bankenregulierung?",
+        "Schattenbanken: Finanzintermediäre außerhalb der klassischen Bankenregulierung (Hedgefonds, Geldmarktfonds, SPVs).\nEntstehung: Regulierungsarbitrage – Aktivitäten werden in weniger regulierte Bereiche verlagert.\nGefahr: Systemisches Risiko ohne Regulierungsschutz (keine Einlagenversicherung, kein LoLR).",
+        "Verständnis", "S. 259"))
+
+    cards.append(new_card(ch, n, "Bankenunion Europa",
+        "Was sind die drei Säulen der Europäischen Bankenunion?",
+        "1. Einheitlicher Aufsichtsmechanismus (SSM): EZB beaufsichtigt bedeutende Banken\n2. Einheitlicher Abwicklungsmechanismus (SRM): Gemeinsame Abwicklungsregeln und -behörde (SRB) + Fonds (SRF)\n3. Europäische Einlagenversicherung (EDIS): noch nicht vollständig umgesetzt",
+        "Verständnis", "S. 260"))
+
+    return cards
+
+
+def cards_querschnitt():
+    """Wahr/Falsch Karten und Klausuraufgaben"""
+    ch = "Querschnitt: Wahr/Falsch & Klausuraufgaben"
+    n = 99
+    cards = []
+
+    wf = [
+        ("In einem vollkommenen Kapitalmarkt steigt der Unternehmenswert mit dem Verschuldungsgrad.",
+         "FALSCH. Laut MMT I ist der Unternehmenswert in einem vollkommenen Markt unabhängig von der Kapitalstruktur.",
+         "S. 112"),
+        ("Eine höhere Verschuldung erhöht die Eigenkapitalkosten, lässt aber die WACC unverändert.",
+         "WAHR. Nach MMT II steigen r_E mit D/E, aber WACC = r_U = konstant, da der höhere EK-Kostenbeitrag durch den größeren FK-Anteil ausgeglichen wird.",
+         "S. 124-126"),
+        ("Concurskosten werden letztlich von den Fremdkapitalgebern getragen.",
+         "FALSCH. Obwohl Konkurskosten im Insolvenzfall die Gläubiger treffen, antizipieren diese es und zahlen weniger → Aktionäre tragen den Barwert.",
+         "S. 160-161"),
+        ("Banken sind in vollkommenen Kapitalmärkten irrelevant.",
+         "WAHR. In vollkommenen Märkten können alle Zahlungsströme einer Bank durch Wertpapiere repliziert werden (MM-Argument).",
+         "S. 195"),
+        ("Die LCR misst die strukturelle langfristige Liquidität von Banken.",
+         "FALSCH. LCR = kurzfristige Liquidität (30 Tage). NSFR = strukturelle/langfristige Liquidität.",
+         "S. 256"),
+        ("Der Sperrklinkeneffekt (Leverage Ratchet) erklärt, warum Banken freiwillig Eigenkapital aufbauen.",
+         "FALSCH. Der Sperrklinkeneffekt erklärt das Gegenteil: Aktionäre haben keinen Anreiz, Verschuldung zu reduzieren, weil sie den Vorteil primär den Gläubigern zugutekäme.",
+         "S. 170"),
+        ("Homemade Leverage ist nur dann ein perfekter Ersatz, wenn der Investor zum gleichen Zinssatz leihen kann wie das Unternehmen.",
+         "WAHR. Bei unterschiedlichen Zinssätzen (z.B. persönliche Kredite teurer) ist Homemade Leverage kein perfekter Ersatz.",
+         "S. 115"),
+        ("Das OMT-Programm der EZB wurde während der Eurokrise mehrfach eingesetzt.",
+         "FALSCH. Das OMT-Programm wurde angekündigt (Sept 2012), aber nie eingesetzt. Die bloße Ankündigung reichte, um die Märkte zu beruhigen.",
+         "S. 88"),
+        ("Im Diamond-Dybvig-Modell ist ein Bank Run immer irrational.",
+         "FALSCH. Ein Bank Run kann ein rationales Gleichgewicht sein: Wenn alle erwarten, dass andere abziehen, ist es für jeden rational abzuziehen (selbsterfüllende Erwartung).",
+         "S. 231"),
+        ("Ein Schuldenüberhang führt zur Überinvestition.",
+         "FALSCH. Schuldenüberhang (Myers 1977) führt zu UNTERINVESTITION: Aktionäre investieren nicht, weil Erträge primär Gläubigern zugutekommen.",
+         "S. 166-167"),
     ]
 
+    for q, a, ref in wf:
+        cards.append(new_card(ch, n, "Wahr/Falsch",
+            f"Wahr oder Falsch: {q}",
+            a, "Evaluation", ref, "true_false"))
 
-# ===========================================================================
-# KAPITEL 2
-# ===========================================================================
+    # Rechenaufgaben
+    cards.append(new_card(ch, n, "Kapitalwert-Berechnung",
+        "Ein Projekt erfordert eine Anfangsinvestition von 1.000 Euro. Es erzielt mit Wahrscheinlichkeit 60% einen Ertrag von 1.500 Euro und mit 40% einen Ertrag von 800 Euro. Der risikolose Zins beträgt 3%, die Risikoprämie 7%. Ist das Projekt lohnend?",
+        "Erwarteter Ertrag = 0,6·1500 + 0,4·800 = 900 + 320 = 1.220 Euro\nKapitalkosten = 3% + 7% = 10%\nKW = −1.000 + 1.220/1,10 = −1.000 + 1.109,09 = +109,09 Euro\n→ Projekt lohnend (KW > 0).",
+        "Transfer", "S. 106",
+        formula="KW = -I_0 + \\frac{E[CF]}{1+r}",
+        variables={"I_0": "1.000 Euro", "E[CF]": "1.220 Euro", "r": "10%"},
+        solution_steps=["E[CF] = 0,6·1500 + 0,4·800 = 1.220 Euro", "r = 3% + 7% = 10%", "KW = -1000 + 1220/1,10 = 109,09 Euro"]))
 
-def cards_chapter2() -> list[dict]:
-    ch = "2. Die globale Finanzkrise und ihre Auswirkungen"
-    t = ["Finanzkrise", "Makroökonomie"]
-    return [
-        card(chapter=ch, section="Arten von Finanzkrisen", question="Welche vier Arten von Finanzkrisen unterscheidet die Literatur?",
-             answer="1. Bankenkrisen\n2. Währungskrisen\n3. Staatsverschuldungskrisen\n4. Kombinationen (Zwillings-/Drillingskrisen)",
-             card_type="listing", difficulty=2, importance=0.75, exam_relevance=0.6, tags=t+["Krisentypen"]),
-        card(chapter=ch, section="Stilisierte Fakten", question="Nenne 4 stilisierte Fakten über Finanzkrisen.",
-             answer="1. Finanzkrisen sind wiederkehrend und unvermeidlich\n2. Bankenkrisen treten oft zusammen mit Währungskrisen auf\n3. Kreditbooms gehen Krisen typischerweise voraus\n4. Krisen verursachen hohe Kosten: BIP-Verlust, Schuldenanstieg, Arbeitslosigkeit",
-             card_type="listing", difficulty=3, importance=0.7, exam_relevance=0.55, tags=t+["Stilisierte Fakten"]),
-        card(chapter=ch, section="Finanzkrise 2007-2009", question="Was waren die wesentlichen Ursachen der globalen Finanzkrise 2007-2009?",
-             answer="• Kreditboom im US-Hypothekenmarkt (Subprime)\n• Verbriefung: Hypotheken → MBS → CDOs\n• Originate-to-distribute: keine Haftung der Kreditvergeber\n• Zu niedrige Zinsen fördern Risikobereitschaft\n• Übermäßiger Leverage im Schattenbankensystem\n• Versagen der Ratingagenturen und Regulatoren",
-             card_type="listing", difficulty=3, importance=0.8, exam_relevance=0.65, tags=t+["Subprime", "Verbriefung"]),
-        card(chapter=ch, section="Verbriefung", question="Was ist Verbriefung und welche Rolle spielte sie in der Finanzkrise?",
-             answer="Verbriefung: Bündeln von Krediten und Ausgabe von Wertpapieren (MBS, CDO) an externe Investoren.\nRolle: Originate-to-distribute senkte Vergabestandards (Risiko weitergegeben). Komplexe CDO-Strukturen verschleierten Risikokonzentration. Bei Preisrückgängen implodierte das System.",
-             card_type="understanding", difficulty=4, importance=0.8, exam_relevance=0.65, tags=t+["Verbriefung", "MBS", "CDO"]),
-        card(chapter=ch, section="Finanzkrise 2007-2009", question="Was ist das 'Originate-to-Distribute'-Modell und welches Anreizproblem erzeugt es?",
-             answer="Banken vergeben Kredite ('originate') und verkaufen sie sofort weiter ('distribute') durch Verbriefung.\nProblem (Moral Hazard): Kreditgeber haben keinen Anreiz zur Kreditprüfung, da sie das Ausfallrisiko nicht tragen. Resultat: Sinkende Vergabestandards.",
-             card_type="understanding", difficulty=3, importance=0.8, exam_relevance=0.65, tags=t+["Moral Hazard", "Verbriefung"]),
-        card(chapter=ch, section="Zweckgesellschaften", question="Was sind Special Purpose Vehicles (SPVs)?",
-             answer="Rechtlich selbstständige Einheiten, die Verbriefungsgeschäfte durchführen. Finanzieren sich über kurzfristige Verbindlichkeiten (ABCP) und halten langfristige Aktiva.\nFunktion: Auslagerung aus der Bankbilanz (Regulierungsarbitrage). In der Krise: Banken mussten SPVs stützen → Rückübertragung der Risiken.",
-             card_type="understanding", difficulty=4, importance=0.75, exam_relevance=0.6, tags=t+["SPV", "Regulierungsarbitrage"]),
-        card(chapter=ch, section="Eurokrise", question="Was waren die Kernursachen der Euroraumkrise ab 2010?",
-             answer="• Staatsschuldenkrisen (GR, IE, PT, ES, IT)\n• Home Bias: Banken halten zu viele heimische Staatsanleihen → Doom Loop\n• Doom Loop: schwache Banken → Staatsrettungen → schlechtere Staatsfinanzen → Bankenverluste\n• Fehlende gemeinsame Fiskalpolitik im Euroraum",
-             card_type="listing", difficulty=4, importance=0.7, exam_relevance=0.55, tags=t+["Eurokrise", "Staatsschulden", "Doom Loop"]),
-        card(chapter=ch, section="Eurokrise", question="Was ist der 'Doom Loop' / Teufelskreis zwischen Banken und Staaten?",
-             answer="1. Banken halten viele Staatsanleihen des Heimatlandes\n2. Staatliche Probleme → Anleihewert sinkt → Bankenverluste\n3. Schwache Banken brauchen Staatsrettung → Staatsschulden steigen\n4. Schlechtere Staatsfinanzen → Anleihepreise fallen → zurück zu Schritt 2",
-             card_type="understanding", difficulty=4, importance=0.75, exam_relevance=0.6, tags=t+["Doom Loop"]),
-        card(chapter=ch, section="Home Bias", question="Was ist 'Home Bias' bei Banken und warum ist er problematisch?",
-             answer="Banken halten unverhältnismäßig viele Staatsanleihen des eigenen Heimatlandes statt diversifiziert.\nProblem: Verstärkt den Doom Loop – wenn das eigene Land in eine Schuldenkrise gerät, leiden heimische Banken besonders.",
-             card_type="understanding", difficulty=3, importance=0.7, exam_relevance=0.55, tags=t+["Home Bias"]),
-        card(chapter=ch, section="Reaktionen", question="Welche regulatorischen Reformen wurden nach der Finanzkrise 2007-2009 eingeleitet?",
-             answer="• Basel III: Höhere EK- und Liquiditätsanforderungen\n• Dodd-Frank (USA): Volcker Rule, Derivate-Clearing, Stresstests\n• Bankenunion EU (SSM, SRM)\n• TLAC/MREL: Bail-in-fähiges Kapital\n• Stärkere Schattenbanken-Aufsicht",
-             card_type="listing", difficulty=3, importance=0.75, exam_relevance=0.65, tags=t+["Basel III", "Regulierung"]),
-        card(chapter=ch, section="2020er", question="Welche finanzmarktrelevanten Entwicklungen prägten die 2020er Jahre?",
-             answer="• COVID-19 (2020): Massive staatliche Hilfen, Zentralbankliquidität\n• Inflationsschock 2021-23: Zinswende\n• Zinsanstieg → Bankturbulenzen 2023 (SVB, Credit Suisse)\n• Krypto-Boom und -Crash\n• Geopolitische Risiken (Ukraine, Energie)",
-             card_type="listing", difficulty=2, importance=0.7, exam_relevance=0.5, tags=t+["COVID-19", "Inflation", "SVB"]),
-        card(chapter=ch, section="Kapitalstruktur Kontext", question="Warum ist Leverage im Bankensektor besonders gefährlich für die Finanzstabilität?",
-             answer="Banken operieren mit sehr hohem Leverage (30-50x vor der Krise). Schon kleine Verluste können das gesamte EK aufzehren → Insolvenz. Durch Vernetzung des Bankensystems können Ausfälle schnell auf andere Banken übergreifen → systemisches Risiko.",
-             card_type="understanding", difficulty=3, importance=0.8, exam_relevance=0.7, tags=t+["Leverage", "Systemisches Risiko"]),
-        card(chapter=ch, section="Savings & Loan", question="Was war die Savings-and-Loan-Krise der 1980er Jahre?",
-             answer="US-Sparkassen (S&Ls) hatten langfristige Hypotheken zu festen Zinsen, aber kurzfristige Refinanzierung. Als Zinsen Ende 1970er stiegen, wurden Refinanzierungskosten höher als Erträge.\nVerschärfung durch Deregulierung → riskantere Investments → Verluste, Pleiten. Kosten: ca. 130 Mrd. USD.",
-             card_type="understanding", difficulty=3, importance=0.6, exam_relevance=0.5, tags=t+["S&L-Krise"]),
-    ]
+    cards.append(new_card(ch, n, "MMT II – Eigenkapitalkosten berechnen",
+        "Ein Unternehmen hat einen Verschuldungsgrad D/E = 1, Fremdkapitalkosten von 6% und Eigenkapitalkosten des unverschuldeten Unternehmens von 12%. Wie hoch sind die Eigenkapitalkosten des verschuldeten Unternehmens?",
+        "Laut MMT II: r_E = r_U + (D/E)·(r_U − r_D)\nr_E = 12% + 1·(12% − 6%) = 12% + 6% = 18%",
+        "Transfer", "S. 124",
+        formula="r_E = r_U + \\frac{D}{E}(r_U - r_D)",
+        variables={"r_U": "12%", "r_D": "6%", "D/E": "1"},
+        solution_steps=["r_E = 12% + 1·(12% − 6%)", "r_E = 12% + 6% = 18%"]))
 
+    cards.append(new_card(ch, n, "WACC berechnen",
+        "Eigenkapital E = 600 Mio., Fremdkapital D = 400 Mio., r_E = 15%, r_D = 5%. Berechnen Sie die WACC.",
+        "WACC = (E/(E+D))·r_E + (D/(E+D))·r_D\n= (600/1000)·15% + (400/1000)·5%\n= 0,6·15% + 0,4·5%\n= 9% + 2% = 11%",
+        "Transfer", "S. 125",
+        formula="r_{WACC} = \\frac{E}{E+D} \\cdot r_E + \\frac{D}{E+D} \\cdot r_D",
+        variables={"E": "600 Mio.", "D": "400 Mio.", "r_E": "15%", "r_D": "5%"},
+        solution_steps=["WACC = (600/1000)·15% + (400/1000)·5%", "= 9% + 2% = 11%"]))
 
-# ===========================================================================
-# KAPITEL 3
-# ===========================================================================
+    cards.append(new_card(ch, n, "Steuervorteil berechnen",
+        "Ein Unternehmen hat Fremdkapital D = 200 Mio., Fremdkapitalzins r_D = 5%, Körperschaftsteuersatz τ = 30%. Berechnen Sie den jährlichen Steuervorteil und seinen Barwert (bei konstanter Verschuldung).",
+        "Jährlicher Steuervorteil = τ·r_D·D = 0,30·0,05·200 = 3 Mio. Euro\nBW(Steuervorteil) = τ·D = 0,30·200 = 60 Mio. Euro",
+        "Transfer", "S. 149-152",
+        formula="\\text{Jährl. Steuervorteil} = \\tau \\cdot r_D \\cdot D; \\quad BW = \\tau \\cdot D",
+        variables={"τ": "0,30", "r_D": "5%", "D": "200 Mio. Euro"},
+        solution_steps=["Jährlicher Steuervorteil = 0,30·0,05·200 = 3 Mio.", "BW = τ·D = 0,30·200 = 60 Mio."]))
 
-def cards_chapter3() -> list[dict]:
-    ch = "3. Kapitalstruktur im vollkommenen Markt (MM-Theorem)"
-    t = ["MM-Theorem", "Kapitalstruktur"]
-    return [
-        card(chapter=ch, section="EK vs. FK Grundlagen", question="Was ist der Unterschied zwischen EK und FK aus Sicht der Ansprüche?",
-             answer="EK: Residualanspruch – Eigentümer erhalten, was nach allen anderen Zahlungen bleibt. Beschränkte Haftung (GmbH/AG).\nFK: Prioritätsanspruch – Gläubiger erhalten feste Zahlungen (Zinsen + Tilgung). Bei Ausfall Vorrang vor Eigentümern.",
-             card_type="contrast", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["EK", "FK"]),
-        card(chapter=ch, section="EK vs. FK Grundlagen", question="Was sind die Rechte der Eigenkapitalgeber einer AG?",
-             answer="Rechte:\n• Stimmrecht (Hauptversammlung)\n• Dividendenanspruch (wenn ausgeschüttet)\n• Anteil am Liquidationserlös (nachrangig)\nPflichten:\n• Beschränkte Haftung (max. Einlage)\n• Keine festen Zahlungsansprüche",
-             card_type="listing", difficulty=2, importance=0.85, exam_relevance=0.8, tags=t+["Eigenkapital", "Aktie"]),
-        card(chapter=ch, section="EK vs. FK Grundlagen", question="Was ist der Verschuldungsgrad und wie wird er berechnet?",
-             answer="Verschuldungsgrad = D/E (FK/EK) oder D/(E+D) (FK-Quote).\nHöherer Verschuldungsgrad bedeutet: mehr Risiko für EK-Geber, mögliche höhere EK-Renditen (Leverage-Effekt), höheres Ausfallrisiko.",
-             card_type="definition", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["Verschuldungsgrad"],
-             formula="D/E oder D/(E+D)"),
-        card(chapter=ch, section="EK vs. FK Grundlagen", question="Was versteht man unter 'Homemade Leverage'?",
-             answer="Anleger können selbst FK aufnehmen und in EK investieren (oder umgekehrt), um denselben Auszahlungsstrom zu replizieren wie eine verschuldete/unverschuldete Firma. Kernargument für MM: Wenn Anleger die Kapitalstruktur selbst replizieren können, hat sie für den Firmenwert keinen Einfluss.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.95, tags=t+["Homemade Leverage"]),
-        card(chapter=ch, section="MM I", question="Formuliere das Modigliani-Miller-Theorem I (ohne Steuern).",
-             answer="Auf einem vollkommenen Kapitalmarkt ist der Marktwert eines Unternehmens unabhängig von seiner Kapitalstruktur:\nV_U = V_L = E + D\n\nEine verschuldete Firma hat denselben Gesamtwert wie eine identische unverschuldete Firma.",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["MM I"],
-             formula="V_U = V_L",
-             variables={"V_U": "Wert unverschuldetes Unternehmen", "V_L": "Wert verschuldetes Unternehmen"}),
-        card(chapter=ch, section="MM I", question="Beweis-Logik für MM I: Wie zeigt man per Arbitrage, dass V_L = V_U sein muss?",
-             answer="Angenommen V_L > V_U:\n→ Investor kauft α·V_U + leiht selbst α·D auf\n→ Repliziert damit Auszahlung des EK der verschuldeten Firma\n→ Kostet aber nur α·(V_U - D) < α·E_L\n→ Arbitragegewinn → Preise passen sich an bis V_L = V_U\nAngenommen V_L < V_U: analoges Argument.",
-             card_type="understanding", difficulty=5, importance=1.0, exam_relevance=1.0, tags=t+["MM I", "Arbitrage"]),
-        card(chapter=ch, section="MM I", question="Welche Annahmen eines 'vollkommenen Kapitalmarkts' setzt MM I voraus?",
-             answer="1. Keine Steuern\n2. Keine Transaktionskosten\n3. Keine Informationsasymmetrien\n4. Keine Konkurskosten\n5. Anleger und Unternehmen können zu gleichen Konditionen FK aufnehmen",
-             card_type="listing", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Annahmen"]),
-        card(chapter=ch, section="MM II", question="Formuliere das Modigliani-Miller-Theorem II (ohne Steuern).",
-             answer="Die erwartete EK-Rendite steigt linear mit dem Verschuldungsgrad:\nr_E = r_U + (D/E) · (r_U - r_D)\n\nMit zunehmender Verschuldung steigt das Risiko des EK → Aktionäre fordern höhere Rendite.",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["MM II"],
-             formula="r_E = r_U + (D/E) · (r_U - r_D)",
-             variables={"r_E": "EK-Rendite", "r_U": "Rendite unverschuldet", "r_D": "FK-Zins", "D/E": "Verschuldungsgrad"}),
-        card(chapter=ch, section="MM II", question="Warum steigt nach MM II die EK-Rendite mit dem Verschuldungsgrad, obwohl der Gesamtwert gleich bleibt?",
-             answer="Mit höherem D trägt das EK mehr finanzielles Risiko (on top of Business Risk). Aktionäre fordern daher höhere Risikoprämie.\nDas billigere FK wird exakt durch teureres EK kompensiert → WACC = r_U = konstant.\nKonsistent mit MM I: kein Vorteil der Kapitalstrukturoptimierung.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["MM II", "WACC"]),
-        card(chapter=ch, section="WACC", question="Was ist der WACC und wie berechnet er sich ohne Steuern?",
-             answer="WACC = gewichtete durchschnittliche Kapitalkosten:\nWACC = (E/(E+D))·r_E + (D/(E+D))·r_D\n\nOhne Steuern gilt nach MM: WACC = r_U = konstant (unabhängig von D/E).",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["WACC"],
-             formula="WACC = (E/(E+D))·r_E + (D/(E+D))·r_D"),
-        card(chapter=ch, section="WACC", question="Wie ändert sich der WACC, wenn das Unternehmen mehr FK aufnimmt (ohne Steuern)?",
-             answer="WACC bleibt konstant (= r_U).\nZwar sinkt der Anteil des teuren EK und steigt der des günstigeren FK, aber durch MM II steigt gleichzeitig r_E genau so, dass der WACC unverändert bleibt.\nUnter MM-Annahmen gibt es keine 'günstigere' Kapitalstruktur.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["WACC"]),
-        card(chapter=ch, section="Beta und Leverage", question="Wie hängen Equity-Beta und Asset-Beta mit dem Verschuldungsgrad zusammen?",
-             answer="β_E = β_A · (1 + D/E)  (bei risikolosem FK)\n\nDas Equity-Beta steigt linear mit dem Verschuldungsgrad, weil das EK das gesamte systematische Risiko der Aktiva trägt plus das finanzielle Risiko.",
-             card_type="formula", difficulty=4, importance=0.95, exam_relevance=0.95, tags=t+["Beta", "Leverage"],
-             formula="β_E = β_A · (1 + D/E)"),
-        card(chapter=ch, section="Gewinn pro Aktie", question="Wie beeinflusst Leverage den Gewinn pro Aktie (EPS)?",
-             answer="Leverage verstärkt die EPS-Schwankungen:\n• Gutes Ergebnis: EPS steigt stärker (weniger Aktien, Zinsen festgelegt)\n• Schlechtes Ergebnis: EPS sinkt stärker (evtl. negativ)\nEPS = (EBIT - r_D·D) / n_Aktien",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["EPS", "Leverage"],
-             formula="EPS = (EBIT - r_D·D) / n"),
-        card(chapter=ch, section="Gehebelte Rekapitalisierung", question="Was ist eine gehebelte Rekapitalisierung?",
-             answer="Das Unternehmen gibt neues FK aus und kauft damit eigene Aktien zurück oder zahlt Sonderdividende. EK schrumpft, FK wächst → höherer Verschuldungsgrad.\nNach MM I (ohne Steuern): Gesamtwert bleibt gleich, EK-Wert pro Aktie bleibt gleich.",
-             card_type="definition", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["Rekapitalisierung"]),
-        card(chapter=ch, section="Trugschlüsse", question="Was ist der 'EPS-Trugschluss' bei der Kapitalstruktur?",
-             answer="Trugschluss: Mehr FK erhöht EPS → FK ist besser.\nWiderlegung: Höherer EPS geht mit höherem Risiko einher → KGV sinkt. Aktienkurs bleibt nach MM konstant.",
-             card_type="understanding", difficulty=4, importance=0.9, exam_relevance=0.9, tags=t+["Trugschlüsse", "EPS"]),
-        card(chapter=ch, section="Trugschlüsse", question="Ist Fremdkapital wirklich 'billiger' als Eigenkapital? Was sagt MM?",
-             answer="Trugschluss: FK hat niedrigeren Zinssatz → FK senkt Kapitalkosten.\nMM-Antwort: Nein. Mit mehr FK steigt r_E (MM II) genau so, dass WACC = r_U = konstant bleibt. FK ist günstiger in Zinssatz, aber ändert das Risiko des EK.",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Trugschlüsse", "WACC"]),
-        card(chapter=ch, section="Rechenbeispiel", question="Beispiel: Unverschuldetes Unternehmen, EBIT=200 (konstant), r_U=10%, 1000 Aktien. Firmenwert und EK-Rendite?",
-             answer="V_U = EBIT/r_U = 200/0,10 = 2.000\nAktienkurs = 2.000/1.000 = 2,00\nr_E = r_U = 10%\nEPS = 200/1.000 = 0,20",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Rechenbeispiel"],
-             solution_steps=["V_U = 200/0,10 = 2.000", "Kurs = 2.000/1.000 = 2,00", "r_E = 10%"]),
-        card(chapter=ch, section="Rechenbeispiel", question="Rekapitalisierung: Das Unternehmen nimmt D=800 FK zu r_D=5% auf und kauft Aktien zurück. Restaktien? r_E?",
-             answer="V_L = V_U = 2.000 (MM I)\nE = 2.000-800 = 1.200\nKurs = 2,00 (unverändert)\nAktien = 1.200/2,00 = 600\nr_E = 10% + (800/1.200)·(10%-5%) = 10% + 3,33% = 13,33%",
-             card_type="calculation", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Rekapitalisierung"],
-             solution_steps=["V_L = 2.000 (MM I)", "E = 1.200", "Aktien = 600", "r_E = 13,33%"]),
-        card(chapter=ch, section="Rechenbeispiel", question="Verifiziere: D=800, r_D=5%, r_E=13,33%, E=1200 → WACC = r_U = 10%?",
-             answer="WACC = (1200/2000)·13,33% + (800/2000)·5%\n= 0,6·13,33% + 0,4·5%\n= 8,00% + 2,00%\n= 10% ✓",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["WACC"],
-             solution_steps=["0,6·13,33% = 8,00%", "0,4·5% = 2,00%", "WACC = 10% ✓"]),
-        card(chapter=ch, section="Aktienemission", question="Was passiert zum Aktienkurs, wenn ein Unternehmen neue Aktien ausgibt (vollkommener Markt)?",
-             answer="Keine Verwässerung bei fairer Bewertung: Neue Aktien werden zum fairen Wert ausgegeben, alter Aktienkurs bleibt konstant. Erlös erhöht Firmenwert um genau den Emissionserlös.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.85, tags=t+["Aktienemission", "Verwässerung"]),
-        card(chapter=ch, section="Portfolioreplikation", question="Wie repliziert ein Investor per 'Homemade Leverage' das EK einer verschuldeten Firma?",
-             answer="Ziel: α-Anteil am EK der verschuldeten Firma\nReplikation:\n1. Kaufe α-Anteil am EK der UNVERSCHULDETEN Firma\n2. Nimm selbst FK α·D auf\nAuszahlung identisch, Kosten: α·(V_U-D) = α·E_L (nach MM)\n→ Kein Arbitragegewinn möglich.",
-             card_type="understanding", difficulty=5, importance=0.95, exam_relevance=0.95, tags=t+["Homemade Leverage"]),
-        card(chapter=ch, section="Kapitalwert", question="Wie berechnet man den Kapitalwert (NPV) bei vollkommenem Markt?",
-             answer="NPV = -I + PV(zukünftige Cashflows)\n= -I + CF_1/(1+r) + CF_2/(1+r)² + ...\n\nNPV ist unabhängig von der Finanzierungsstruktur (MM I).",
-             card_type="formula", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["Kapitalwert"],
-             formula="NPV = -I + Σ CF_t/(1+r)^t"),
-        card(chapter=ch, section="Interpretation", question="Was ist die ökonomische Intuition hinter MM I und II zusammen?",
-             answer="MM I: Der 'Kuchen' (Gesamtwert) ändert sich nicht durch seine Aufteilung (EK vs. FK).\nMM II: Wer einen größeren Anteil bekommt (EK bei hohem Leverage), trägt auch mehr Risiko und verlangt mehr Rendite. Die Renditen passen sich an, sodass der Gesamtwert konstant bleibt.",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["MM I", "MM II"]),
-        card(chapter=ch, section="Break-even EBIT", question="Was ist der Break-even-EBIT und wie wird er berechnet?",
-             answer="Der EBIT, bei dem EPS des verschuldeten und unverschuldeten Unternehmens gleich sind:\n\n(EBIT_BE - 0) / n_U = (EBIT_BE - r_D·D) / n_L\n\nUnterhalb des Break-even: weniger FK besser (höheres EPS). Oberhalb: mehr FK besser (höheres EPS). Nach MM ist EPS-Vergleich aber irreführend (Risikounterschied!).",
-             card_type="formula", difficulty=4, importance=0.85, exam_relevance=0.85, tags=t+["Break-even EBIT"]),
-    ]
+    cards.append(new_card(ch, n, "Beta entlevern und relevern",
+        "CVS hat β_E = 0,8, D/E = 0,1, β_D ≈ 0. Wie hoch ist β_U? Wie hoch wäre β_E wenn D/E auf 0,5 steigt?",
+        "β_U = β_E · E/(E+D) = 0,8 · (10/11) ≈ 0,727\nNeues β_E: β_E = β_U + (D/E)·(β_U − β_D) = 0,727 + 0,5·0,727 ≈ 1,09",
+        "Transfer", "S. 131",
+        formula="\\beta_U = \\frac{E}{E+D}\\beta_E + \\frac{D}{E+D}\\beta_D",
+        variables={"β_E": "0,8", "D/E": "0,1 dann 0,5", "β_D": "0"},
+        solution_steps=["β_U = 0,8·(10/11) + 0·(1/11) ≈ 0,727", "Neues β_E = 0,727 + 0,5·(0,727−0) ≈ 1,09"]))
+
+    cards.append(new_card(ch, n, "Eigenkapitalkosten CAPM",
+        "Ein Wertpapier hat β = 1,5, risikoloser Zins = 2%, Marktrisikoprämie = 5%. Berechnen Sie die erwartete Rendite.",
+        "r = risikoloser Zins + β·Marktrisikoprämie = 2% + 1,5·5% = 2% + 7,5% = 9,5%",
+        "Transfer", "S. 130",
+        formula="r_I = r_f + \\beta_I \\cdot (r_M - r_f)",
+        variables={"r_f": "2% (risikoloser Zins)", "β_I": "1,5", "r_M - r_f": "5% (Marktrisikoprämie)"},
+        solution_steps=["r = 2% + 1,5·5% = 9,5%"]))
+
+    return cards
 
 
-# ===========================================================================
-# KAPITEL 4
-# ===========================================================================
-
-def cards_chapter4() -> list[dict]:
-    ch = "4. Kapitalstruktur mit Marktunvollkommenheiten"
-    t = ["Kapitalstruktur", "Marktunvollkommenheiten"]
-    return [
-        card(chapter=ch, section="4.1 Steuervorteil FK", question="Was ist der fremdfinanzierungsbedingte Steuervorteil und warum entsteht er?",
-             answer="Zinszahlungen auf FK sind steuerlich absetzbar, Dividenden auf EK nicht.\nSteuervorteil pro Periode = τ_C · r_D · D\nBei permanenter Verschuldung: PV(Steuervorteil) = τ_C · D",
-             card_type="understanding", difficulty=2, importance=1.0, exam_relevance=1.0, tags=t+["Steuervorteil"],
-             formula="PV(Steuervorteil) = τ_C · D"),
-        card(chapter=ch, section="4.1 Steuervorteil FK", question="Formuliere MM I mit Steuern.",
-             answer="V_L = V_U + PV(fremdfinanzierungsbedingter Steuervorteil)\n\nBei dauerhafter risikoloser Verschuldung:\nV_L = V_U + τ_C · D",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["MM I mit Steuern"],
-             formula="V_L = V_U + τ_C · D"),
-        card(chapter=ch, section="4.1 Steuervorteil FK", question="Wie berechnet sich der WACC mit Körperschaftsteuer?",
-             answer="WACC = (E/(E+D))·r_E + (D/(E+D))·r_D·(1-τ_C)\n\nFK-Kosten werden mit (1-τ_C) multipliziert (Zinsen steuerlich absetzbar).\nWACC < r_U → WACC sinkt mit steigendem FK.",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["WACC mit Steuern"],
-             formula="WACC = (E/(E+D))·r_E + (D/(E+D))·r_D·(1-τ_C)"),
-        card(chapter=ch, section="4.1 Steuervorteil FK", question="Wie hoch ist der Steuervorteil: D=500, r_D=5%, τ_C=30%?",
-             answer="Zinsen = 0,05·500 = 25\nSteuervorteil/Periode = 0,30·25 = 7,50\nPV (dauerhafte Verschuldung) = τ_C·D = 0,30·500 = 150",
-             card_type="calculation", difficulty=2, importance=0.95, exam_relevance=0.95,
-             tags=t+["Steuervorteil", "Rechnung"],
-             solution_steps=["Zinsen = 25", "Steuervorteil/Periode = 7,50", "PV = 150"]),
-        card(chapter=ch, section="4.1 Rekapitalisierung", question="Was passiert bei einer Rekapitalisierung zur Nutzung des Steuervorteils?",
-             answer="Unternehmen nimmt neues FK auf, kauft Aktien zurück.\nV_L steigt um τ_C·ΔD.\nAktienkurs steigt bei Ankündigung (Einpreisung des PV der Steuervorteile).\nAlte Aktionäre profitieren voll.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.95, tags=t+["Rekapitalisierung"]),
-        card(chapter=ch, section="4.1 Rekapitalisierung", question="Warum steigt der Aktienkurs bei Ankündigung einer Rekapitalisierung (FK-Aufnahme)?",
-             answer="Ankündigung signalisiert zukünftige Steuervorteile. Markt diskontiert sofort PV der Steuervorteile.\nAnkündigungseffekt = τ_C·ΔD / n_Aktien (vor Rückkauf)\nDanach: Rückkauf zum gestiegenen Kurs → alte Aktionäre profitieren voll.",
-             card_type="understanding", difficulty=4, importance=0.9, exam_relevance=0.9, tags=t+["Ankündigungseffekt"]),
-        card(chapter=ch, section="4.1 Steuern Investorenebene", question="Wie berechnet sich der effektive Steuervorteil von FK bei Berücksichtigung von Investorensteuern?",
-             answer="τ* = 1 - (1-τ_C)(1-τ_E)/(1-τ_D)\n\nτ_C = Körperschaftsteuersatz, τ_E = Steuer auf EK-Erträge, τ_D = Steuer auf Zinserträge.\nWenn τ_D > τ_E: τ* < τ_C (Steuervorteil reduziert sich)\nWenn (1-τ_C)(1-τ_E) = (1-τ_D): τ* = 0",
-             card_type="formula", difficulty=5, importance=0.85, exam_relevance=0.8, tags=t+["Investorensteuern"],
-             formula="τ* = 1 - (1-τ_C)(1-τ_E)/(1-τ_D)"),
-        card(chapter=ch, section="4.1 Optimale Kapitalstruktur", question="Welche optimale Kapitalstruktur folgt aus dem reinen Steuermodell?",
-             answer="Rein aus dem Steuermodell: 100% FK-Finanzierung optimal, da PV(Steuervorteil) = τ_C·D mit D maximiert.\nIn der Realität: keine 100% FK-Finanzierung → Konkurskosten und Agency-Kosten begrenzen D.",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["optimale Kapitalstruktur"]),
-        card(chapter=ch, section="4.2 Konkurskosten", question="Was sind direkte Konkurskosten?",
-             answer="Direkte Kosten bei Insolvenz:\n• Anwalts- und Gerichtskosten\n• Verwaltungskosten des Insolvenzverfahrens\n• Beraterhonorare\nTypischerweise 3-5% des Unternehmenswerts.",
-             card_type="definition", difficulty=2, importance=0.9, exam_relevance=0.9, tags=t+["Konkurskosten"]),
-        card(chapter=ch, section="4.2 Konkurskosten", question="Was sind indirekte Konkurskosten? Warum sind sie größer als direkte?",
-             answer="Kosten durch finanzielle Notlage, auch ohne formellen Konkurs:\n• Verlust von Kunden/Lieferanten\n• Verlust wichtiger Mitarbeiter\n• Verpassen profitabler Projekte (Underinvestment)\n• Notverkauf von Assets (Fire Sales)\n• Erhöhte Refinanzierungskosten\nTypischerweise 10-20% des Unternehmenswerts.",
-             card_type="definition", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["Konkurskosten", "indirekt"]),
-        card(chapter=ch, section="4.2 Trade-Off", question="Formuliere MM I mit Steuern UND Konkurskosten (Trade-Off-Theorie).",
-             answer="V_L = V_U + PV(Steuervorteil) - PV(Konkurskosten)\n\nOptimales D* wo Grenzsteuervorteil = Grenz-Konkurskosten.",
-             card_type="formula", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["Trade-Off-Theorie"],
-             formula="V_L = V_U + τ_C·D - PV(Konkurskosten)"),
-        card(chapter=ch, section="4.2 Trade-Off", question="Was sagt die Trade-Off-Theorie über den optimalen Verschuldungsgrad?",
-             answer="• Bei D < D*: höheres FK lohnt (Steuervorteil überwiegt)\n• Bei D > D*: weiteres FK schadet (Konkurskosten überwiegen)\n\nProblem: Profitable Firmen haben empirisch oft geringe FK-Quoten → Pecking Order passt besser.",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Trade-Off-Theorie"]),
-        card(chapter=ch, section="4.2 Trade-Off", question="Was bestimmt die Höhe der Konkurskosten eines Unternehmens?",
-             answer="• Art der Vermögenswerte: immateriell (F&E, Marken) → hohe Kosten; physisch (Immobilien) → gering\n• Branche: technologieintensiv → höhere indirekte Kosten\n• Kundenbindung: Langfristbeziehungen → hohe Verluste bei Konkurs",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.85, tags=t+["Konkurskosten"]),
-        card(chapter=ch, section="4.2 Agency-Theorie", question="Was versteht man unter Agency-Kosten des Fremdkapitals?",
-             answer="Kosten durch Interessenkonflikte zwischen EK- und FK-Gebern:\n1. Übermäßige Risikobereitschaft (Asset Substitution)\n2. Underinvestment (Debt Overhang)\n3. Cashing Out (Dividendenentnahme vor Konkurs)\n4. Gambles bei drohender Insolvenz",
-             card_type="listing", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["Agency-Kosten"]),
-        card(chapter=ch, section="4.2 Asset Substitution", question="Was ist das Asset-Substitution-Problem?",
-             answer="Bei hoher Verschuldung: EK-Geber gewinnen stark bei riskanten Projekten (upside), FK-Geber tragen den Verlust (downside).\n→ EK-Geber wählen riskantere Projekte als sozial optimal (evtl. NPV < 0).\nLösung: Covenants verbieten riskante Investments.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Asset Substitution"]),
-        card(chapter=ch, section="4.2 Asset Substitution", question="Warum ist Asset Substitution ein Problem für FK-Geber?",
-             answer="FK-Geber haben beschränkten Upside (feste Zinsen), aber vollen Downside-Verlust bei Ausfall.\nRisikoerhöhung durch EK-Geber verschiebt Wert von FK zu EK – auf Kosten der FK-Geber.\nFK-Geber antizipieren dies → verlangen ex ante höhere Zinsen → ex-ante Unternehmenswert sinkt.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.95, tags=t+["Asset Substitution"]),
-        card(chapter=ch, section="4.2 Underinvestment", question="Was ist das Underinvestment-Problem (Debt Overhang)?",
-             answer="Bei sehr hoher Verschuldung (Firma nahe Insolvenz): Neue profitable Projekte (NPV>0) kommen hauptsächlich FK-Gebern zugute, nicht EK-Gebern. EK-Geber verzichten, weil sie Kosten tragen, aber Gewinn nicht erhalten.\nFolge: Wertvernichtende Unterinvestition.\nLösung: FK-Restrukturierung (Schulden reduzieren).",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Underinvestment", "Debt Overhang"]),
-        card(chapter=ch, section="4.2 Cashing Out", question="Was ist 'Cashing Out' als Agency-Problem?",
-             answer="Vor absehbarer Insolvenz zahlen EK-Geber sich selbst Dividenden aus oder verkaufen Unternehmensvermögen, was FK-Gebern schadet.\nVerfügbares Vermögen zur Schuldendeckung sinkt.\nLösung: Covenants, die Dividendenzahlungen beschränken.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.85, tags=t+["Cashing Out"]),
-        card(chapter=ch, section="4.2 Covenants", question="Was sind Covenants und wie lösen sie Agency-Probleme?",
-             answer="Vertragsklauseln in Kreditverträgen:\n• Positive Covenants: Schuldner muss Kennzahlen einhalten (Mindest-EK-Quote)\n• Negative Covenants: Keine riskanten Akquisitionen, keine übermäßigen Dividenden\n\nLösen Asset Substitution und Cashing Out, erzeugen aber Monitoring-Kosten.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.85, tags=t+["Covenants"]),
-        card(chapter=ch, section="4.2 Asymm. Information", question="Was ist das Problem der adversen Selektion bei Aktienemissionen (Lemon Problem)?",
-             answer="Manager wissen mehr als Investoren.\nAktienemission = Signal: Aktien überbewertet (Manager emittieren bei hohem Kurs).\nInvestoren antizipieren → Kurs fällt bei Ankündigung.\nUnterbewertet Firmen: Emission zu teuer → verzichten auf gute Projekte.\n\nNach Myers & Majluf (1984): Announcement-Effekt der Aktienemission ist negativ (~-3%).",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.9, tags=t+["Adverse Selektion", "Lemon"]),
-        card(chapter=ch, section="4.2 Pecking Order", question="Was ist die Pecking-Order-Theorie der Kapitalstruktur?",
-             answer="Myers & Majluf (1984): Firmen bevorzugen Finanzierungsquellen in Reihenfolge:\n1. Interne Mittel (einbehaltene Gewinne) – keine Informationsasymmetrie\n2. Fremdkapital – geringe Informationsasymmetrie\n3. Eigenkapital – nur als letzte Option (negativer Announcement-Effekt)\n\nKein Ziel-Verschuldungsgrad, sondern Finanzierungshierarchie.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.9, tags=t+["Pecking Order"]),
-        card(chapter=ch, section="4.2 Signaling", question="Was ist die Signaling-Theorie der Kapitalstruktur (Ross 1977)?",
-             answer="Manager können über Kapitalstruktur private Information signalisieren:\n• Hohe Verschuldung = Signal für Qualität (nur starke Firmen leisten hohe Zinszahlungen)\n• FK-Aufnahme → positiver Kurseffekt\nGlaubwürdiges Signal, weil schwache Firmen bei hohem D Konkurs riskieren.",
-             card_type="understanding", difficulty=4, importance=0.85, exam_relevance=0.8, tags=t+["Signaling"]),
-        card(chapter=ch, section="4.2 Announcement-Effekte", question="Welche Ankündigungseffekte auf den Aktienkurs erwartet die Theorie bei EK vs. FK Emission?",
-             answer="Aktienemission: Negativ (~-3%). Signal: Aktien überbewertet.\nFK-Emission: Leicht positiv oder neutral. Signal: Qualität oder Steuervorteil.\nAktienrückkauf: Positiv. Signal: Aktien unterbewertet.",
-             card_type="contrast", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Announcement-Effekte"]),
-        card(chapter=ch, section="Vergleich Theorien", question="Vergleiche Trade-Off-Theorie vs. Pecking-Order-Theorie für profitable Firmen.",
-             answer="Trade-Off: Profitable Firmen → hohes Einkommen → großer Steuervorteil → höheres optimales D.\n\nPecking Order: Profitable Firmen → viele interne Mittel → nutzen diese zuerst → geringeres D.\n\nEmpirie: Profitable Firmen haben typischerweise geringe FK-Quoten → Pecking Order passt besser.",
-             card_type="contrast", difficulty=4, importance=0.9, exam_relevance=0.85, tags=t+["Trade-Off", "Pecking Order"]),
-        card(chapter=ch, section="Rechenbeispiel Steuern", question="Beispiel: V_U=100, τ_C=30%, D=40 (dauerhaft). V_L?",
-             answer="V_L = V_U + τ_C·D = 100 + 0,30·40 = 100 + 12 = 112\nEK = V_L - D = 112 - 40 = 72",
-             card_type="calculation", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["Rechnung"],
-             solution_steps=["V_L = 100 + 12 = 112", "EK = 72"]),
-        card(chapter=ch, section="Rechenbeispiel Konkurs", question="Beispiel: V_U=100, τ_C=25%, D=60, PV(Konkurskosten)=8. V_L?",
-             answer="V_L = V_U + τ_C·D - PV(Konkurskosten)\n= 100 + 0,25·60 - 8\n= 100 + 15 - 8 = 107",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Konkurskosten", "Rechnung"],
-             solution_steps=["PV(Steuervorteil) = 15", "V_L = 100 + 15 - 8 = 107"]),
-        card(chapter=ch, section="WACC Rechenbeispiel", question="Berechne WACC: E=1200, D=800, r_E=14%, r_D=5%, τ_C=30%.",
-             answer="WACC = (1200/2000)·14% + (800/2000)·5%·0,70\n= 0,60·14% + 0,40·3,50%\n= 8,40% + 1,40%\n= 9,80%",
-             card_type="calculation", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["WACC"],
-             solution_steps=["FK-Kosten n.St. = 5%·0,70 = 3,50%", "WACC = 8,40% + 1,40% = 9,80%"]),
-        card(chapter=ch, section="Finanzielle Notlage", question="Was ist 'finanzielle Notlage' und wann tritt sie auf?",
-             answer="Situation, in der ein Unternehmen Schwierigkeiten hat, Verbindlichkeiten zu erfüllen, ohne notwendigerweise insolvent zu sein.\nTritt auf, wenn EBIT < Zinsen.\nIndirekte Kosten entstehen bereits vor formalem Konkurs.",
-             card_type="definition", difficulty=2, importance=0.9, exam_relevance=0.9, tags=t+["finanzielle Notlage"]),
-        card(chapter=ch, section="Sanierung vs. Liquidation", question="Was ist der Unterschied zwischen Sanierung und Liquidation im Insolvenzverfahren?",
-             answer="Sanierung: Weiterführung unter Insolvenzschutz (Chapter 11 USA). Schulden restrukturieren.\nLiquidation: Zerschlagung, Erlös nach Gläubigerrangfolge verteilt.\n\nSanierung optimal wenn Fortführungswert > Liquidationswert.",
-             card_type="contrast", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Insolvenz"]),
-        card(chapter=ch, section="MM II mit Steuern", question="Wie lautet MM II mit Steuern (EK-Rendite des verschuldeten Unternehmens)?",
-             answer="r_E = r_U + (D/E)·(r_U - r_D)·(1-τ_C)\n\nMit Steuern ist der Leverage-Effekt etwas geringer, weil FK durch Steuerersparnis günstiger ist.",
-             card_type="formula", difficulty=4, importance=0.9, exam_relevance=0.9, tags=t+["MM II mit Steuern"],
-             formula="r_E = r_U + (D/E)·(r_U - r_D)·(1-τ_C)"),
-        card(chapter=ch, section="Optimale Kapitalstruktur", question="Welche Faktoren bestimmen laut Trade-Off-Theorie den optimalen Verschuldungsgrad?",
-             answer="FK-fördernd (höheres D*):\n• Hohe Profitabilität, Tangible Assets, stabile Cashflows\n\nFK-hemmend (geringeres D*):\n• Wachstumsunternehmen, intangible Assets, volatile Cashflows, hohe Branchenkonkurskosten",
-             card_type="listing", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Trade-Off"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Da FK günstiger ist als EK, sollten Unternehmen möglichst viel FK aufnehmen.'",
-             answer="Falsch. Nach MM II (ohne Steuern) kompensiert steigendes r_E den FK-Kostenvorteil vollständig → WACC konstant. Mit Steuern gibt es Steuervorteil, aber Konkurskosten und Agency-Kosten begrenzen D*.",
-             card_type="trueFalse", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Wahr/Falsch"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Die Emission neuer Aktien erhöht den Wert je Aktie für bestehende Aktionäre.'",
-             answer="Falsch. Bei fairer Preisgestaltung ist die Emission wertneutral. Nur wenn Aktien unter fairem Wert emittiert werden, sinkt der Kurs. Asymmetrische Information kann zu negativen Ankündigungseffekten führen.",
-             card_type="trueFalse", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["Verwässerung", "Wahr/Falsch"]),
-        card(chapter=ch, section="Kapitalstruktur & Branche", question="Warum unterscheiden sich Kapitalstrukturen stark zwischen Branchen?",
-             answer="Pharmaunternehmen: Wenig FK (F&E-Risiken, intangible Assets)\nAirlines: Viel FK (Flugzeuge als Sicherheiten)\nFinanzinstitute: Sehr viel FK (Einlagen = FK)\nTechnikfirmen: Wenig FK (Wachstum, intangible)\n\nHauptdeterminanten: Vermögensstruktur, Cashflow-Stabilität, Konkurskosten.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Branche"]),
-    ]
-
-
-# ===========================================================================
-# KAPITEL 5
-# ===========================================================================
-
-def cards_chapter5() -> list[dict]:
-    ch = "5. Funktionen von Banken"
-    t = ["Banken", "Diamond-Dybvig"]
-    return [
-        card(chapter=ch, section="Bankfunktionen", question="Was sind die wesentlichen wirtschaftlichen Funktionen von Banken?",
-             answer="1. Liquiditätsversicherung (Diamond-Dybvig 1983)\n2. Delegierte Überwachung (Diamond 1984)\n3. Fristentransformation\n4. Zahlungsverkehr\n5. Risikodiversifikation",
-             card_type="listing", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["Bankfunktionen"]),
-        card(chapter=ch, section="Diamond-Dybvig Modell", question="Beschreibe die Grundstruktur des Diamond-Dybvig-Modells (1983).",
-             answer="3 Perioden: t=0, 1, 2\nn Konsumenten, je 1 Einheit Endowment.\nInvestition: langfristig (R>1 in t=2) oder Liquidation (=1 in t=1).\nKonsumenten unsicher über eigenen Typ:\n• Typ 1 (Anteil π): braucht Konsum in t=1 (impatient)\n• Typ 2 (Anteil 1-π): kann bis t=2 warten (patient)\nTyp ist private Information.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Modell"]),
-        card(chapter=ch, section="Diamond-Dybvig Autarkie", question="Was passiert ohne Finanzintermediation (Autarkie) im Diamond-Dybvig-Modell?",
-             answer="Jeder investiert selbst:\n• Typ 1: liquidiert in t=1 → erhält 1\n• Typ 2: hält bis t=2 → erhält R\n\nProblem: Typ-1 hat keine Liquiditätsversicherung → ineffizient.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Autarkie"]),
-        card(chapter=ch, section="Diamond-Dybvig First Best", question="Was ist die 'First-best'-Lösung im Diamond-Dybvig-Modell?",
-             answer="Sozialer Planer mit vollständiger Information:\nC1* > 1 (Typ 1 mehr als Liquidationswert)\nC2* < R (Typ 2 weniger als vollen Ertrag)\nOptimale Bedingung: u'(C1*) = ρ·R·u'(C2*)\n\nBedingung für Anreizkompatibilität: C2* ≥ C1*.",
-             card_type="understanding", difficulty=5, importance=1.0, exam_relevance=1.0, tags=t+["First Best"],
-             formula="u'(C1*) = ρ·R·u'(C2*)"),
-        card(chapter=ch, section="Diamond-Dybvig Bank", question="Wie implementiert eine Bank die First-best-Allokation im Diamond-Dybvig-Modell?",
-             answer="Bank bietet Sichteinlagen-Vertrag:\n• Rückzahlung C1* in t=1\n• Rückzahlung C2* = R(1-π·C1*)/(1-π) in t=2\n\nBank hält Reserve π·C1* liquide, investiert Rest langfristig.\nDurch Gesetz der großen Zahlen: genau π·n heben in t=1 ab → Reserven exakt richtig.",
-             card_type="understanding", difficulty=5, importance=1.0, exam_relevance=1.0, tags=t+["Bank", "Sichteinlagen"]),
-        card(chapter=ch, section="Bank Run", question="Wie entsteht ein Bank Run im Diamond-Dybvig-Modell?",
-             answer="Neben dem guten Gleichgewicht existiert ein schlechtes:\nWenn Typ-2 glaubt, andere rennen:\n→ Er zieht in t=1 ab (um nicht leer auszugehen)\n→ Bank muss Langfrist-Investments liquidieren\n→ Wenn alle rennen: Bank bricht zusammen\n\nBank Run = selbsterfüllende Prophezeiung / Koordinationsversagen.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Bank Run"]),
-        card(chapter=ch, section="Bank Run Gleichgewichte", question="Welche zwei Nash-Gleichgewichte existieren im Diamond-Dybvig-Modell?",
-             answer="1. Gutes Gleichgewicht ('No Run'): Nur Typ-1 hebt ab. Bank zahlt C1* und C2*.\n\n2. Schlechtes Gleichgewicht ('Run'): Alle heben ab. Bank ist bankrott. Typ-2 verliert.\n\nWelches eintritt ist unbestimmt (Sunspot-Gleichgewichte). Panik ist self-fulfilling.",
-             card_type="understanding", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Nash-Gleichgewicht"]),
-        card(chapter=ch, section="Gesetz der großen Zahlen", question="Welche Rolle spielt das Gesetz der großen Zahlen für die Bankenfunktion?",
-             answer="Mit vielen Einlegern (n → ∞): Anteil der Typ-1-Konsumenten konvergiert zu π.\nStandardabweichung ≈ 0\n\nBank kann sicher π als Reserve halten, ohne zu viel oder zu wenig liquide Mittel. Diversifikation des individuellen Liquiditätsrisikos.",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Gesetz der großen Zahlen"]),
-        card(chapter=ch, section="Delegierte Überwachung", question="Was versteht man unter 'delegierter Überwachung' (Diamond 1984)?",
-             answer="Direkte Finanzierung: Jeder Anleger überwacht selbst → hohe Kosten n·c.\nBank als Intermediär: Einleger delegieren Überwachung.\n• Skalenvorteil: Bank überwacht einmal für alle\n• Bank hat Anreiz (haftet mit EK)\n• Gesamtkosten-Ersparnis rechtfertigt Bankenexistenz.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.9, tags=t+["Delegierte Überwachung"]),
-        card(chapter=ch, section="Delegierte Überwachung", question="Warum ist delegierte Überwachung durch eine Bank kosteneffizienter?",
-             answer="Direkte Überwachung: n Anleger × Kosten c = n·c.\nBank: überwacht einmal → Kosten = c (durch Diversifikation über viele Kredite).\nBank kann Einleger fast sicher zurückzahlen → Strafandrohung wirkt → zuverlässiges Monitoring.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.9, tags=t+["Delegierte Überwachung"]),
-        card(chapter=ch, section="Delegierte Überwachung", question="Was ist die Strafe im Diamond-Modell der delegierten Überwachung und warum ist sie wichtig?",
-             answer="Die Strafe ist die Konsequenz für die Bank bei Nichterfüllung der versprochenen Rückzahlung an Einleger. Hoch genug, damit Bank Anreiz hat zu überwachen (Moral Hazard der Bank gelöst).\nOhne Strafe: kein Anreiz zu überwachen.",
-             card_type="understanding", difficulty=5, importance=0.85, exam_relevance=0.8, tags=t+["Strafe", "Moral Hazard"]),
-        card(chapter=ch, section="Banktypen", question="Was ist der Unterschied zwischen Universal- und Investmentbank?",
-             answer="Universalbank: Einlagen-/Kreditgeschäft + Investmentbanking.\nInvestmentbank: Fokus auf Kapitalmarktgeschäfte (Emission, M&A, Handel), kein Einlagengeschäft.\nTrennbankensystem (Glass-Steagall 1933-1999): gesetzliche Trennung.",
-             card_type="contrast", difficulty=2, importance=0.7, exam_relevance=0.65, tags=t+["Universalbank"]),
-        card(chapter=ch, section="Fristentransformation", question="Was ist Fristentransformation und warum ist sie für Banken charakteristisch?",
-             answer="Kurzfristige Einlagen → langfristige Kredite.\nProfitabel: Langfristige Zinsen > kurzfristige (normale Zinsstrukturkurve).\nRisiko: Bei Run → Liquiditätsproblem (Aktiva illiquide, Passiva fällig).\nExakte Darstellung im Diamond-Dybvig-Modell.",
-             card_type="understanding", difficulty=2, importance=0.9, exam_relevance=0.85, tags=t+["Fristentransformation"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Im Diamond-Dybvig-Modell ist ein Bank Run immer ineffizient.'",
-             answer="Falsch. Im Grundmodell ist der Run ineffizient (Koordinationsproblem). Es gibt aber 'Efficient Bank Runs' (Erweiterungen), in denen Runs informationsbasiert sind (schlechte Bankqualität bekannt) und dann effizient sind – sie erzwingen Liquidation einer tatsächlich schlechten Bank.",
-             card_type="trueFalse", difficulty=4, importance=0.9, exam_relevance=0.85, tags=t+["Bank Run", "Wahr/Falsch"]),
-        card(chapter=ch, section="Finanzmarkt vs. Bank", question="Wann ist direkte Marktfinanzierung vorteilhafter als Bankfinanzierung?",
-             answer="Direkte Marktfinanzierung besser bei:\n• Großen, bekannten Unternehmen (öffentliche Information)\n• Standardisierten Kreditnehmern\n• Wenn Anleger Liquidität brauchen (handelbare Papiere)\n\nBankfinanzierung besser bei:\n• KMUs, Wachstumsunternehmen (enge Beziehung)\n• Beziehungskredite (Relationship Banking)",
-             card_type="contrast", difficulty=3, importance=0.8, exam_relevance=0.75, tags=t+["Marktfinanzierung"]),
-    ]
-
-
-# ===========================================================================
-# KAPITEL 6
-# ===========================================================================
-
-def cards_chapter6() -> list[dict]:
-    ch = "6. Finanzkrisen und systemische Risiken"
-    t = ["Finanzkrisen", "Systemisches Risiko"]
-    return [
-        card(chapter=ch, section="Grundproblem", question="Was ist das 'Grundproblem' im Diamond-Dybvig-Bankenmodell für Finanzstabilität?",
-             answer="Banken produzieren Liquidität durch Fristentransformation (wertvolle Funktion), aber: Multiple Gleichgewichte (Run / No-Run). Das schlechte Gleichgewicht ist selbsterfüllend und exogen (Sunspot). Kein Fundamentalgrund für den Run nötig.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.85, tags=t+["Grundproblem"]),
-        card(chapter=ch, section="Narrow Banking", question="Was ist 'Narrow Banking' als Lösung für Bank Runs?",
-             answer="Einlagen zu 100% durch sichere, liquide Assets gedeckt (Staatsanleihen). Keine Fristentransformation.\n\nVorteil: Kein Run möglich.\nNachteil: Liquiditätsversicherungsfunktion geht verloren. Kreditvergabe muss durch teures EK finanziert werden.",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.8, tags=t+["Narrow Banking"]),
-        card(chapter=ch, section="Aufhebung der Konvertibilität", question="Was ist 'Aufhebung der Konvertibilität' als Lösung für Bank Runs?",
-             answer="Bank setzt vorübergehend aus, Einlagen in Bargeld zu tauschen (Suspension of Convertibility).\n\nVorteil: Bricht Runlogik, Typ-2 hat Anreiz zu warten.\nNachteil: Echte Typ-1-Konsumenten kommen nicht an Geld → politisch schwer durchsetzbar.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.75, tags=t+["Konvertibilität"]),
-        card(chapter=ch, section="Einlagenversicherung", question="Wie löst eine Einlagenversicherung das Bank-Run-Problem?",
-             answer="Staat garantiert Einlagen bis zu Betrag (EU: 100.000 €).\n\nMechanismus: Typ-2 hat keinen Anreiz zu rennen (bekommt Geld auf jeden Fall) → nur Typ-1 hebt ab → gutes Gleichgewicht eindeutig.\n\nProblem: Moral Hazard – Banken nehmen mehr Risiko (Verluste trägt Einlagensicherungsfonds).",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Einlagenversicherung"]),
-        card(chapter=ch, section="Einlagenversicherung Moral Hazard", question="Welches Moral-Hazard-Problem erzeugt die Einlagenversicherung für Banken?",
-             answer="Mit Einlagenversicherung:\n• Einleger meiden risikoreiche Banken nicht (kein Marktdisziplin)\n• Banken können riskant anlegen, Gewinne privatisieren, Verluste sozialisieren\n• 'Gambling for Resurrection': Fast-insolvente Banken setzen alles auf eine Karte\n\nLösung: Risikobasierte Prämien + strenge EK-Regulierung.",
-             card_type="understanding", difficulty=4, importance=0.95, exam_relevance=0.9, tags=t+["Moral Hazard"]),
-        card(chapter=ch, section="Effiziente Bank Runs", question="Was sind 'effiziente Bank Runs'?",
-             answer="Jacklin & Bhattacharya (1988): Wenn Bankaktiva-Qualität öffentlich bekannt, können Runs rational und effizient sein.\n• Schlechte Aktiva → Run erzwingt Liquidation einer schlechten Bank (ex post effizient)\n\nUnterschied zu DD: Basiert auf Fundamentaldaten, nicht Koordinationsversagen.\nNicht alle Bank Runs sind pathologisch.",
-             card_type="understanding", difficulty=4, importance=0.8, exam_relevance=0.75, tags=t+["Effiziente Runs"]),
-        card(chapter=ch, section="Systemisches Risiko", question="Was ist systemisches Risiko?",
-             answer="Gefahr, dass der Ausfall eines oder mehrerer Finanzinstitute eine Kettenreaktion auslöst, die das gesamte Finanzsystem destabilisiert.\n\nKanäle:\n1. Interbanken-Verbindlichkeiten (direkte Ansteckung)\n2. Makroökonomische Rückkopplungen (Asset-Preisspirale)\n3. Informationsansteckung",
-             card_type="definition", difficulty=3, importance=0.95, exam_relevance=0.85, tags=t+["Systemisches Risiko"]),
-        card(chapter=ch, section="Ansteckungseffekte", question="Erkläre Ansteckungseffekte über Interbankenverbindlichkeiten.",
-             answer="Banken leihen sich gegenseitig Geld. Bei Ausfall von Bank A:\n• Bank B hat Forderung gegen A → Verlust\n• Bank B könnte selbst in Schieflage geraten\n• Domino-Effekt auf Bank C usw.\n\nVernetzungsgrad bestimmt Ansteckungsrisiko.",
-             card_type="understanding", difficulty=4, importance=0.9, exam_relevance=0.8, tags=t+["Ansteckung", "Interbanken"]),
-        card(chapter=ch, section="Ansteckungseffekte", question="Was sind makroökonomische Rückkopplungen als Ansteckungskanal?",
-             answer="Banken in Schieflage → Kreditklemme → Investitionen sinken → Konjunktur schwächt → Ausfälle steigen → Bankenverluste.\n\nZusätzlich: Fire-Sale-Spirale: Banken verkaufen Assets → Preise fallen → andere Banken erleiden Verluste → weitere Verkäufe.",
-             card_type="understanding", difficulty=4, importance=0.85, exam_relevance=0.75, tags=t+["Makro-Rückkopplungen", "Fire Sale"]),
-        card(chapter=ch, section="Lender of Last Resort", question="Was ist ein 'Lender of Last Resort' und Bagehots Prinzip?",
-             answer="LoLR: Zentralbank als letzte Kreditinstanz für illiquide, aber solvente Banken.\n\nBagehots Prinzip (1873):\n1. Nur illiquide (aber solvente) Banken\n2. Zu Strafzinssätzen (über Marktrate)\n3. Gegen gute Sicherheiten\n\nProblem: Unterscheidung illiquide vs. insolvent in Krisenzeiten sehr schwierig.",
-             card_type="definition", difficulty=3, importance=0.9, exam_relevance=0.8, tags=t+["Lender of Last Resort"]),
-        card(chapter=ch, section="Lender of Last Resort", question="Welches Moral-Hazard-Problem erzeugt ein Lender of Last Resort?",
-             answer="Banken wissen, dass sie im Notfall gerettet werden → nehmen mehr Risiko.\n'Too Big to Fail': Große Banken wissen, dass sie immer gerettet werden → extreme Risikobereitschaft.\n\nLösung: Strafzinsen (Bagehot), strenge Regulierung, Bail-in.",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.8, tags=t+["Moral Hazard", "LoLR"]),
-        card(chapter=ch, section="Too Big to Fail", question="Was ist das 'Too-Big-to-Fail'-Problem?",
-             answer="Systemrelevante Banken (SIFIs) sind so groß/verflochten, dass ihr Ausfall das Finanzsystem gefährdet.\n→ Staat muss retten → Banken haben implizite Staatsgarantie → günstigere Refinanzierung + Anreiz zu Risikoübernahme.\n\nLösung: Höhere EK-Anforderungen für SIFIs, Bail-in (TLAC/MREL), Abwicklungsplanung.",
-             card_type="definition", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Too Big to Fail", "SIFI"]),
-        card(chapter=ch, section="Too Big to Fail", question="Warum ist das Zeitinkonsistenzproblem zentral für Too-Big-to-Fail?",
-             answer="Ex ante: Staat kündigt an 'Wir retten keine Banken' → verhindert Moral Hazard.\nEx post: Kosten des Nichtrettens (systemische Krise) so hoch, dass Rettung optimal ist.\n\n→ Drohung 'nicht zu retten' ist zeitinkonsistent → Markt erwartet Rettung → Anreizproblem.",
-             card_type="understanding", difficulty=4, importance=0.85, exam_relevance=0.8, tags=t+["Zeitinkonsistenz"]),
-        card(chapter=ch, section="Netzwerkstruktur", question="Welche Netzwerkstruktur des Interbankensystems ist stabiler: vollständig vernetzt oder Stern?",
-             answer="Allen & Gale (2000):\n• Vollständig vernetzt: Verluste werden auf viele Banken verteilt → robust gegen kleine Schocks, aber bei großen Schocks unvermeidliche Ansteckung.\n• Stern-Netz: Weniger Kanäle, aber wenn Zentrum ausfällt → katastrophal.\n\nAllgemein: Vernetzung stabilisiert bei kleinen, destabilisiert bei großen Schocks.",
-             card_type="understanding", difficulty=5, importance=0.8, exam_relevance=0.7, tags=t+["Netzwerk", "Allen Gale"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Eine Einlagenversicherung löst das Bank-Run-Problem vollständig ohne Nebenwirkungen.'",
-             answer="Falsch. Einlagenversicherung verhindert Runs effektiv, erzeugt aber Moral Hazard: Banken übernehmen mehr Risiko, da Einleger nicht mehr disziplinieren. Daher immer mit starker Regulierung zu kombinieren.",
-             card_type="trueFalse", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Wahr/Falsch"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Narrow Banking würde Banken sicherer machen, ohne Kosten zu verursachen.'",
-             answer="Falsch. Narrow Banking verhindert Runs, eliminiert aber die Liquiditätsversicherungsfunktion. Die gesellschaftlichen Wohlfahrtsgewinne aus der Liquiditätsbereitstellung (Diamond-Dybvig) gingen verloren.",
-             card_type="trueFalse", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Narrow Banking", "Wahr/Falsch"]),
-    ]
-
-
-# ===========================================================================
-# KAPITEL 7
-# ===========================================================================
-
-def cards_chapter7() -> list[dict]:
-    ch = "7. Bankenregulierung"
-    t = ["Regulierung", "Basel"]
-    return [
-        card(chapter=ch, section="Gründe", question="Warum werden Banken reguliert? Nenne 3 Hauptgründe.",
-             answer="1. Einlagenversicherung erzeugt Moral Hazard → Regulierung nötig\n2. Negative Externalitäten: Bankausfall schadet dem System (systemisches Risiko)\n3. Informationsasymmetrien: Einleger können Bankqualität nicht beurteilen",
-             card_type="listing", difficulty=2, importance=0.9, exam_relevance=0.85, tags=t+["Gründe"]),
-        card(chapter=ch, section="Eigenkapitalregulierung", question="Was ist die Eigenkapitalquote einer Bank und warum ist sie reguliert?",
-             answer="EK-Quote = Eigenkapital / Risikogewichtete Aktiva (RWA)\n\nMindestquoten Basel III: 4,5% CET1, 6% Tier-1, 8% Gesamtkapital.\n\nHöheres EK = größerer Verlustpuffer → geringeres Konkurs- und systemisches Risiko.",
-             card_type="understanding", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["EK-Quote", "Basel"]),
-        card(chapter=ch, section="RWA", question="Was sind risikogewichtete Aktiva (RWA) und wie funktioniert das Prinzip?",
-             answer="RWA = Σ (Aktiva_i × Risikogewicht_i)\n\nRisikogewichte nach Aktivaklasse:\n• Staatsanleihen (Basel I): 0%\n• Hypotheken: 35-50%\n• Unternehmenskredite: 100%\n• Aktien: 100-300%\n\nProblem: Standardisierte Gewichte können tatsächliche Risiken verzerren.",
-             card_type="understanding", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["RWA"]),
-        card(chapter=ch, section="Basel I", question="Was waren die wesentlichen Merkmale von Basel I (1988)?",
-             answer="• Erste internationale EK-Vereinbarung (Basler Ausschuss)\n• Mindest-EK-Quote: 8% der RWA\n• Nur 4 grobe Risikogewichtsklassen (0%, 20%, 50%, 100%)\n• Nur Kreditrisiko berücksichtigt\n\nProbleme: Zu grob, Regulierungsarbitrage, kein Markt-/operationelles Risiko.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Basel I"]),
-        card(chapter=ch, section="Basel II", question="Welche Neuerungen brachte Basel II (2004)?",
-             answer="3 Säulen:\n1. Mindestkapitalanforderungen: feinere Risikogewichte, interne Modelle (IRB), Markt- + operationelles Risiko\n2. Aufsichtlicher Überprüfungsprozess (ICAAP)\n3. Marktdisziplin (Offenlegungspflichten)\n\nProblem: IRB erlaubt RWA-Optimierung durch Modellwahl → Unterkapitalisierung.",
-             card_type="listing", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Basel II", "3 Säulen"]),
-        card(chapter=ch, section="Basel III", question="Was sind die wesentlichen Neuerungen von Basel III (ab 2010)?",
-             answer="• Höhere EK-Anforderungen: CET1 4,5%, Tier-1 6%, Gesamt 8%\n• Kapitalpuffer: Erhaltungspuffer 2,5%, antizyklischer Puffer 0-2,5%\n• Leverage Ratio: 3% (ohne Risikogewichtung)\n• Liquiditätsanforderungen: LCR + NSFR\n• Höhere Anforderungen für SIFIs",
-             card_type="listing", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Basel III", "CET1"]),
-        card(chapter=ch, section="CET1", question="Was ist CET1 und warum ist es die wichtigste Kapitalklasse?",
-             answer="CET1 = Common Equity Tier 1 = hartes Kernkapital:\n• Gewöhnliche Stammaktien + einbehaltene Gewinne\n• Höchste Verlustabsorptionsfähigkeit (going concern)\n• Mindest-Basel-III: 4,5% der RWA\n\nTier 1 = CET1 + AT1 (z.B. CoCo-Bonds)\nTier 2 = nachrangige Anleihen (gone concern)",
-             card_type="definition", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["CET1"]),
-        card(chapter=ch, section="Leverage Ratio", question="Was ist die Leverage Ratio (Basel III) und welchen Vorteil hat sie?",
-             answer="Leverage Ratio = Tier-1-Kapital / Gesamtexposure (ungewichtet)\nMindestwert: 3%\n\nVorteil: Nicht manipulierbar durch Risikomodelle. Einfach und transparent. Verhindert übermäßige Bilanzhebel.\nNachteil: Kein Anreiz zur Risikoreduzierung innerhalb erlaubter Kategorie.",
-             card_type="contrast", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Leverage Ratio"]),
-        card(chapter=ch, section="LCR", question="Was ist die LCR (Liquidity Coverage Ratio)?",
-             answer="LCR = HQLA / Netto-Liquiditätsabflüsse (30-Tage-Stressphase)\nMindest-LCR: 100%\n\nHQLA = hochliquide Aktiva (Bargeld, Staatsanleihen).\nZiel: Bank soll 30 Tage einen Run/Stress ohne Zentralbankhilfe überstehen.",
-             card_type="definition", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["LCR", "Liquidität"]),
-        card(chapter=ch, section="NSFR", question="Was ist die NSFR (Net Stable Funding Ratio)?",
-             answer="NSFR = Verfügbare stabile Refinanzierung / Erforderliche stabile Refinanzierung\nMindest-NSFR: 100%\n\nZiel: Langfristige Refinanzierungsstruktur – langfristige Aktiva mit stabilen Passiva finanzieren.\nAdressiert strukturelles Fristentransformationsrisiko (nicht nur 30-Tage wie LCR).",
-             card_type="definition", difficulty=3, importance=0.8, exam_relevance=0.75, tags=t+["NSFR"]),
-        card(chapter=ch, section="Antizyklischer Puffer", question="Was ist der antizyklische Kapitalpuffer (CCB)?",
-             answer="Zusätzliche CET1-Anforderung 0-2,5%, festgesetzt von nationalen Behörden.\n• Aufgebaut in Boom-Phasen (überdurchschnittliches Kreditwachstum)\n• Abgebaut in Krisen (um Kreditvergabe aufrechtzuerhalten)\n\nZiel: Prozyklizität des Bankensystems mildern.",
-             card_type="understanding", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Antizyklischer Puffer"]),
-        card(chapter=ch, section="Funktionen EK-Regulierung", question="Welche drei Funktionen erfüllt Eigenkapitalregulierung aus ökonomischer Sicht?",
-             answer="1. Verlustpuffer: EK absorbiert Verluste\n2. Anreizsetzung: mehr EK → weniger Moral Hazard\n3. Systemische Stabilität: weniger Leverage im System → geringere Ansteckungsgefahr",
-             card_type="listing", difficulty=2, importance=0.9, exam_relevance=0.85, tags=t+["EK-Regulierung"]),
-        card(chapter=ch, section="Vorkrisen-Schwächen", question="Welche Schwächen der Vorkrisen-Regulierung (Basel I/II) offenbarte die Finanzkrise?",
-             answer="• Zu niedrige EK-Anforderungen (Leverage 30-50x möglich)\n• Keine Liquiditätsanforderungen\n• IRB ermöglichte massive RWA-Reduktion (Prozyklizität)\n• Schattenbankensystem nicht reguliert (Off-Balance-Sheet)\n• Staatsanleihen mit 0% Risikogewicht → Home Bias\n• Keine Leverage Ratio",
-             card_type="listing", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Vorkrisen-Schwächen"]),
-        card(chapter=ch, section="Systemisches Risiko Regulierung", question="Welche Instrumente gibt es zur Regulierung des systemischen Risikos?",
-             answer="• SIFI-Aufschläge: G-SIBs, D-SIBs brauchen mehr Kapital\n• TLAC/MREL: Bail-in-fähiges Kapital\n• Resolution Framework: geordnete Abwicklung\n• Makroprudenzielle Aufsicht (ESRB)\n• Stresstests\n• Strukturelle Trennung (Volcker Rule)",
-             card_type="listing", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["SIFI", "TLAC"]),
-        card(chapter=ch, section="Bail-in vs. Bail-out", question="Was ist der Unterschied zwischen 'Bail-in' und 'Bail-out'?",
-             answer="Bail-out: Steuerzahler retten Bank (staatliche Kapitalzuführung). Verluste sozialisiert.\n\nBail-in: Gläubiger und Aktionäre absorbieren Verluste (Umwandlung Schulden → EK oder Haircut).\n\nBail-in schützt Steuerzahler, erhöht Marktdisziplin. Problem: kann Ansteckung auslösen.",
-             card_type="contrast", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Bail-in", "Bail-out"]),
-        card(chapter=ch, section="CoCo-Bonds", question="Was sind CoCo-Bonds und wie funktionieren sie?",
-             answer="CoCo-Bonds = bedingte Pflichtwandelanleihen:\n• Werden wie FK behandelt (Zinsen steuerlich absetzbar)\n• Wandeln automatisch in EK um, wenn Kapitalquote unter Trigger fällt (z.B. CET1 < 5,125%)\n\nVorteil: Stärken Kapital automatisch in Krisenzeiten.\nRisiko: Verlust genau dann, wenn Markt schlecht ist.\nZählen zu AT1 (Additional Tier 1).",
-             card_type="definition", difficulty=4, importance=0.85, exam_relevance=0.8, tags=t+["CoCo-Bonds", "AT1"]),
-        card(chapter=ch, section="Herausforderungen", question="Welche Herausforderungen stellen sich der Bankenregulierung in Zukunft?",
-             answer="• FinTech / Krypto: neue Anbieter ohne gleiche Regulierung\n• Schattenbanken weiterhin schwer regulierbar\n• Climate Risk: Übergangs- und physische Risiken\n• Globale Fragmentierung: Regulierungsarbitrage\n• Zinswende: stille Lasten bei zinsempfindlichen Banken (SVB)\n• Cybersicherheit als operationelles Risiko",
-             card_type="listing", difficulty=2, importance=0.75, exam_relevance=0.7, tags=t+["Herausforderungen"]),
-        card(chapter=ch, section="Prozyklizität", question="Was ist Prozyklizität im Bankensystem und wie verstärkt Regulierung sie?",
-             answer="Prozyklizität: Banken verstärken den Konjunkturzyklus.\n• Boom: niedrige Ausfallraten → niedrige RWA → viel Kredit\n• Rezession: hohe Ausfallraten → hohe RWA → Kreditklemme\n\nRWA-basierte Regulierung verstärkt dies.\nLösung: antizyklischer Puffer, Forward-looking Provisioning.",
-             card_type="understanding", difficulty=4, importance=0.85, exam_relevance=0.8, tags=t+["Prozyklizität"]),
-        card(chapter=ch, section="Wahr/Falsch", question="Wahr oder Falsch: 'Höhere EK-Anforderungen machen Banken teurer ohne Vorteile.'",
-             answer="Falsch. Vorteile: geringeres Konkursrisiko, weniger Moral Hazard, geringeres systemisches Risiko. Nach MM (ohne Marktunvollkommenheiten): EK-Anforderungen neutral (höheres EK senkt r_E). Nettokosten daher geringer als oft angenommen (Admati & Hellwig Argument).",
-             card_type="trueFalse", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["EK-Regulierung", "Wahr/Falsch"]),
-    ]
-
-
-# ===========================================================================
-# QUERSCHNITT: WAHR/FALSCH-SAMMLUNG (Klausurformat)
-# ===========================================================================
-
-def cards_true_false_exam() -> list[dict]:
-    ch = "Querschnitt: Klausur-Wahr/Falsch"
-    t = ["Wahr/Falsch", "Klausur"]
-    return [
-        card(chapter=ch, section="MM I", question="Wahr oder Falsch: 'Nach MM I (ohne Steuern) erhöht FK-Aufnahme den Unternehmenswert.'",
-             answer="Falsch. Nach MM I ist der Unternehmenswert unabhängig von der Kapitalstruktur: V_L = V_U. Erst mit Steuern entsteht ein Steuervorteil: V_L = V_U + τ_C·D.",
-             card_type="trueFalse", difficulty=2, importance=1.0, exam_relevance=1.0, tags=t+["MM I"]),
-        card(chapter=ch, section="WACC", question="Wahr oder Falsch: 'Nach MM II steigt der WACC mit dem Verschuldungsgrad.'",
-             answer="Falsch. WACC = r_U = konstant (ohne Steuern). Steigendes r_E kompensiert den FK-Vorteil exakt. Mit Steuern sinkt WACC (Steuervorteil).",
-             card_type="trueFalse", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["WACC"]),
-        card(chapter=ch, section="EK-Rendite", question="Wahr oder Falsch: 'Ein Unternehmen mit mehr Schulden hat höhere erwartete EK-Rendite.'",
-             answer="Wahr. MM II: r_E = r_U + (D/E)·(r_U-r_D). Mit D>0 und r_U>r_D gilt r_E > r_U. Erhöhtes finanzielles Risiko der EK-Geber.",
-             card_type="trueFalse", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["MM II"]),
-        card(chapter=ch, section="Steuervorteil", question="Wahr oder Falsch: 'Je mehr FK, desto besser – der Steuervorteil gilt unbegrenzt.'",
-             answer="Falsch. Im reinen Steuermodell wäre 100% FK optimal. In der Realität begrenzen Konkurskosten und Agency-Kosten das optimale D*. Zudem: Zinsen nur bis Höhe des EBIT absetzbar.",
-             card_type="trueFalse", difficulty=2, importance=0.95, exam_relevance=0.95, tags=t+["Steuervorteil"]),
-        card(chapter=ch, section="Asset Substitution", question="Wahr oder Falsch: 'Asset Substitution ist für FK-Geber vorteilhaft.'",
-             answer="Falsch. Asset Substitution schadet FK-Gebern: beschränkter Upside (feste Zinsen), aber voller Downside. Risikoerhöhung verschiebt Wert von FK zu EK.",
-             card_type="trueFalse", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["Asset Substitution"]),
-        card(chapter=ch, section="Underinvestment", question="Wahr oder Falsch: 'Beim Debt Overhang verweigern EK-Geber profitable Projekte (NPV>0).'",
-             answer="Wahr. Bei hohem Leverage profitieren FK-Geber von NPV>0-Projekten (Konkursrisiko sinkt). EK-Geber zahlen Investment, erhalten aber nur geringe Restrendite → Unterinvestition rational, gesellschaftlich ineffizient.",
-             card_type="trueFalse", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["Underinvestment"]),
-        card(chapter=ch, section="Bank Run", question="Wahr oder Falsch: 'Im Diamond-Dybvig-Modell tritt ein Bank Run nur auf, wenn die Bank tatsächlich insolvent ist.'",
-             answer="Falsch. Im DD-Modell ist ein Run als selbsterfüllende Prophezeiung auch bei fundamental solventer Bank möglich. Rein als Koordinationsversagen (schlechtes Nash-Gleichgewicht), kein Fundamentalgrund nötig.",
-             card_type="trueFalse", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["Bank Run"]),
-        card(chapter=ch, section="Einlagenversicherung", question="Wahr oder Falsch: 'Eine Einlagenversicherung kann ohne weitere Regulierung eingeführt werden.'",
-             answer="Falsch. Einlagenversicherung allein erzeugt Moral Hazard. Banken nehmen mehr Risiko, da Einleger nicht mehr disziplinieren → strenge EK-Regulierung und Aufsicht unbedingt nötig.",
-             card_type="trueFalse", difficulty=2, importance=0.95, exam_relevance=0.9, tags=t+["Einlagenversicherung"]),
-        card(chapter=ch, section="Homemade Leverage", question="Wahr oder Falsch: 'Homemade Leverage setzt voraus, dass Anleger zu gleichen Konditionen wie Unternehmen FK aufnehmen können.'",
-             answer="Wahr. Das Arbitrage-Argument für MM I funktioniert nur bei gleichen Kreditkonditionen. In der Realität zahlen Privatpersonen oft höhere Zinsen → leichte Einschränkung des MM-Arguments.",
-             card_type="trueFalse", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Homemade Leverage"]),
-        card(chapter=ch, section="WACC mit Steuern", question="Wahr oder Falsch: 'Mit Körperschaftsteuer sinkt der WACC bei steigendem Verschuldungsgrad.'",
-             answer="Wahr. WACC = (E/(E+D))·r_E + (D/(E+D))·r_D·(1-τ_C). FK-Kosten mit (1-τ_C) reduziert. Steuervorteil wird nicht vollständig durch r_E-Anstieg kompensiert → WACC sinkt.",
-             card_type="trueFalse", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["WACC", "Steuern"]),
-        card(chapter=ch, section="Pecking Order", question="Wahr oder Falsch: 'Die Pecking-Order-Theorie sagt vorher, dass profitable Unternehmen hohe FK-Quoten haben.'",
-             answer="Falsch. Pecking Order: Profitable Firmen haben viele interne Mittel und nutzen diese zuerst → geringe FK-Quoten. Gegenteilige Vorhersage zur Trade-Off-Theorie.",
-             card_type="trueFalse", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Pecking Order"]),
-        card(chapter=ch, section="Too-big-to-fail", question="Wahr oder Falsch: 'Too-big-to-fail-Banken haben einen Wettbewerbsnachteil.'",
-             answer="Falsch. TBTF-Banken haben einen Vorteil: implizite Staatsgarantie → günstigere Refinanzierung. Dies ist eine wettbewerbsverzerrende Subvention gegenüber kleineren Banken.",
-             card_type="trueFalse", difficulty=3, importance=0.9, exam_relevance=0.85, tags=t+["Too Big to Fail"]),
-        card(chapter=ch, section="Delegierte Überwachung", question="Wahr oder Falsch: 'Delegierte Überwachung durch Banken ist nur sinnvoll, wenn Überwachungskosten gleich null sind.'",
-             answer="Falsch. Delegierte Überwachung lohnt sich, wenn die Gesamtkosten der Banküberwachung (c für alle Kredite) geringer sind als die Summe der Überwachungskosten aller Einzelanleger (n·c). Selbst bei positiven Kosten: Skalenvorteile rechtfertigen Bankenexistenz.",
-             card_type="trueFalse", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Delegierte Überwachung"]),
-        card(chapter=ch, section="Fristentransformation", question="Wahr oder Falsch: 'Fristentransformation ist für Banken nur möglich, weil sie eine Zentralbankgarantie haben.'",
-             answer="Falsch. Fristentransformation ist grundsätzlich profitabel wegen der normalen Zinsstrukturkurve (langfristige Zinsen > kurzfristige). Das Diamond-Dybvig-Modell zeigt, dass Banken diese auch ohne explizite Staatsgarantie durchführen. Das Liquiditätsrisiko bleibt aber real.",
-             card_type="trueFalse", difficulty=3, importance=0.85, exam_relevance=0.8, tags=t+["Fristentransformation"]),
-    ]
-
-
-# ===========================================================================
-# RECHENAUFGABEN (Klausurformat)
-# ===========================================================================
-
-def cards_exam_calculations() -> list[dict]:
-    ch = "Klausuraufgaben: Rechenübungen"
-    t = ["Rechenaufgabe", "Klausur"]
-    return [
-        card(chapter=ch, section="EK-Rendite", question="EK=800, FK=200 (r_D=4%), E[EBIT]=90, r_U=10%. Berechne r_E via MM II.",
-             answer="MM II: r_E = r_U + (D/E)·(r_U - r_D)\n= 10% + (200/800)·(10%-4%)\n= 10% + 0,25·6%\n= 10% + 1,5%\n= 11,5%",
-             card_type="calculation", difficulty=3, importance=1.0, exam_relevance=1.0, tags=t+["EK-Rendite", "MM II"],
-             solution_steps=["D/E = 200/800 = 0,25", "r_E = 10% + 0,25·6% = 11,5%"]),
-        card(chapter=ch, section="Rekapitalisierung", question="500 Aktien, Kurs=20, r_U=10%, τ_C=25%. Rekapitalisierung: D=2.000. (a) V_U? (b) Kurs nach Ankündigung? (c) V_L? (d) Neue Aktienanzahl?",
-             answer="(a) V_U = 500·20 = 10.000\n(b) PV(Steuervorteil) = 0,25·2.000 = 500\n    V_L = 10.500 → Kurs = 10.500/500 = 21,00\n(c) V_L = 10.500\n(d) Rückkauf: 2.000/21 ≈ 95,2 Aktien\n    Restaktien ≈ 500 - 95,2 = 404,8",
-             card_type="calculation", difficulty=5, importance=1.0, exam_relevance=1.0, tags=t+["Rekapitalisierung"],
-             solution_steps=["V_U = 10.000", "PV(TV) = 500 → Kurs = 21", "Rückkauf ≈ 95,2 Aktien", "Restaktien ≈ 404,8"]),
-        card(chapter=ch, section="Diamond-Dybvig", question="D-D: n=1000, π=0,3, R=1,5, C1*=1,1. Wie viel investiert Bank langfristig? C2*?",
-             answer="Reserve = n·π·C1* = 1000·0,3·1,1 = 330\nLangfristige Investition = 1000 - 330 = 670\n\nC2* = R·(1-π·C1*)/(1-π)\n= 1,5·(1-0,3·1,1)/(1-0,3)\n= 1,5·(1-0,33)/0,7\n= 1,5·0,67/0,7\n= 1,5·0,957...\n≈ 1,436",
-             card_type="calculation", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["Diamond-Dybvig"],
-             solution_steps=["Reserve = 330", "Langfristig = 670", "C2* = 1,5·0,67/0,7 ≈ 1,44"]),
-        card(chapter=ch, section="Agency-Rechnung", question="FK=100 fällig. Projekt A: CF=130 (sicher). Projekt B: CF=160 (P=0,5) oder CF=80 (P=0,5). Welches wählen EK-Geber?",
-             answer="Projekt A:\nE[CF_A] = 130 → FK erhält 100, EK erhält 30 (sicher)\n\nProjekt B:\nE[CF_B] = 0,5·160 + 0,5·80 = 120\nEK(B) = 0,5·max(160-100,0) + 0,5·max(80-100,0)\n= 0,5·60 + 0,5·0 = 30\n\nHier indifferent. Bei höheren Upside-Werten für B → EK bevorzugt B (Asset Substitution).",
-             card_type="calculation", difficulty=5, importance=1.0, exam_relevance=1.0, tags=t+["Asset Substitution"],
-             solution_steps=["EK(A) = 30 sicher", "EK(B) = 0,5·60 = 30", "Indifferent hier; Asset Substitution bei höherem Upside"]),
-        card(chapter=ch, section="WACC", question="Berechne WACC: E=60, D=40, r_E=15%, r_D=6%, τ_C=35%.",
-             answer="WACC = (60/100)·15% + (40/100)·6%·0,65\n= 0,6·15% + 0,4·3,9%\n= 9,0% + 1,56%\n= 10,56%",
-             card_type="calculation", difficulty=2, importance=1.0, exam_relevance=1.0, tags=t+["WACC"],
-             solution_steps=["FK n.St. = 6%·0,65 = 3,9%", "WACC = 9,0% + 1,56% = 10,56%"]),
-        card(chapter=ch, section="Beta Entlevering", question="β_E=1,8, D/E=0,5, β_D=0. Berechne β_A.",
-             answer="β_E = β_A·(1+D/E)\n1,8 = β_A·1,5\nβ_A = 1,8/1,5 = 1,2",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.9, tags=t+["Beta"],
-             solution_steps=["β_A = β_E/(1+D/E) = 1,8/1,5 = 1,2"]),
-        card(chapter=ch, section="Beta Relevering", question="β_A=1,0, D/E=1,5. Wie hoch ist β_E nach Rekapitalisierung?",
-             answer="β_E = β_A·(1+D/E) = 1,0·(1+1,5) = 2,5\n\nInterpretation: EK trägt 2,5x das systematische Marktrisiko.",
-             card_type="calculation", difficulty=3, importance=0.9, exam_relevance=0.9, tags=t+["Beta"],
-             solution_steps=["β_E = 1,0·2,5 = 2,5"]),
-        card(chapter=ch, section="Insolvenz EK/FK", question="FK=200 fällig in t=1. CF = 250 (P=0,6) oder 140 (P=0,4). Was bekommen EK und FK je Zustand?",
-             answer="Z1 (CF=250): FK=200, EK=50\nZ2 (CF=140): FK=140 (Insolvenz!), EK=0\n\nE[FK] = 0,6·200 + 0,4·140 = 120+56 = 176\nE[EK] = 0,6·50 + 0,4·0 = 30\nE[gesamt] = 206 = E[CF] ✓",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Insolvenz"],
-             solution_steps=["Z1: FK=200, EK=50", "Z2: FK=140, EK=0", "E[FK]=176, E[EK]=30"]),
-        card(chapter=ch, section="Steuervorteil Rekapitalisierung", question="V_U=50 Mio., τ_C=30%, neues FK=10 Mio. Wie viel steigt V_L und der Aktienkurs (vor Rückkauf, 500.000 Aktien)?",
-             answer="PV(Steuervorteil) = 0,30·10 = 3 Mio.\nV_L = 50 + 3 = 53 Mio.\nKursanstieg = 3 Mio. / 500.000 Aktien = 6 €/Aktie\nNeuer Kurs = alter Kurs + 6",
-             card_type="calculation", difficulty=3, importance=0.95, exam_relevance=0.95, tags=t+["Steuervorteil"],
-             solution_steps=["PV(TV) = 3 Mio.", "Kursanstieg = 6 €"]),
-        card(chapter=ch, section="MM II Verifikation", question="EK=3.600, FK=2.400, V=6.000, r_U=8%, r_D=4%. Berechne r_E (MM II) und prüfe WACC.",
-             answer="MM II: r_E = 8% + (2.400/3.600)·(8%-4%)\n= 8% + 0,667·4%\n= 8% + 2,667%\n= 10,667%\n\nWACC = (3.600/6.000)·10,667% + (2.400/6.000)·4%\n= 0,6·10,667% + 0,4·4%\n= 6,4% + 1,6%\n= 8% = r_U ✓",
-             card_type="calculation", difficulty=4, importance=1.0, exam_relevance=1.0, tags=t+["MM II", "WACC"],
-             solution_steps=["r_E = 8% + 0,667·4% = 10,667%", "WACC = 6,4% + 1,6% = 8% ✓"]),
-    ]
-
-
-# ===========================================================================
-# HAUPTPROGRAMM
-# ===========================================================================
-
-def build_all_cards() -> list[dict]:
+def build_all_cards():
     all_cards = []
-    for fn in [
-        cards_chapter1,
-        cards_chapter2,
-        cards_chapter3,
-        cards_chapter4,
-        cards_chapter5,
-        cards_chapter6,
-        cards_chapter7,
-        cards_true_false_exam,
-        cards_exam_calculations,
-    ]:
-        all_cards.extend(fn())
+    all_cards.extend(cards_chapter1())
+    all_cards.extend(cards_chapter2())
+    all_cards.extend(cards_chapter3())
+    all_cards.extend(cards_chapter4())
+    all_cards.extend(cards_chapter5())
+    all_cards.extend(cards_chapter6())
+    all_cards.extend(cards_chapter7())
+    all_cards.extend(cards_querschnitt())
     return all_cards
 
 
-def validate(cards: list[dict]) -> dict:
-    issues = []
-    ids_seen: set[str] = set()
-    for c in cards:
-        if c["id"] in ids_seen:
-            issues.append(f"Duplicate ID: {c['id']}")
-        ids_seen.add(c["id"])
-        if not c["question"].strip():
-            issues.append(f"Empty question: {c['id']}")
-        if not c["answer"].strip():
-            issues.append(f"Empty answer: {c['id']}")
-    return {"ok": len(issues) == 0, "issues": issues}
+def build_glossary():
+    """Glossar mit wichtigen Begriffen, geordnet nach Kapitel."""
+    glossary = [
+        # Kapitel 1
+        {"term": "Finanzintermediation", "definition": "Vermittlung zwischen Kapitalgebern (Sparern) und Kapitalnehmern durch eine dritte Partei (Finanzintermediär wie Banken).", "chapter": 1, "slideRef": "S. 22"},
+        {"term": "Direkte Finanzierung", "definition": "Kapitalnehmer und -geber tauschen direkt Wertpapiere auf Finanzmärkten aus, ohne Intermediär.", "chapter": 1, "slideRef": "S. 22"},
+        {"term": "Indirekte Finanzierung", "definition": "Finanzierung über einen Zwischenhändler (Intermediär), der Einlagen entgegennimmt und Kredite vergibt.", "chapter": 1, "slideRef": "S. 22"},
+        {"term": "Adverse Selektion", "definition": "Phänomen, bei dem Informationsasymmetrien vor Vertragsschluss dazu führen, dass schlechte Risiken gute verdrängen.", "chapter": 1, "slideRef": "S. 29"},
+        {"term": "Moral Hazard", "definition": "Verhaltensunsicherheit nach Vertragsschluss: informierte Partei verhält sich anders als erwartet (hidden action).", "chapter": 1, "slideRef": "S. 30"},
+        {"term": "Diversifikation", "definition": "Streuung von Investments über verschiedene Anlagen, um idiosynkratische Risiken zu eliminieren.", "chapter": 1, "slideRef": "S. 31"},
+        {"term": "Liquiditätstransformation", "definition": "Umwandlung kurzfristiger Einlagen in langfristige Kredite durch Finanzintermediäre.", "chapter": 1, "slideRef": "S. 31"},
+        {"term": "Systemisches Risiko", "definition": "Risiko des Zusammenbruchs des gesamten Finanzsystems oder wesentlicher Teile davon.", "chapter": 1, "slideRef": "S. 34"},
+        {"term": "Disintermediation", "definition": "Trend zur direkten Unternehmensfinanzierung über Märkte, unter Umgehung von Finanzintermediären.", "chapter": 1, "slideRef": "S. 53"},
+        {"term": "Schattenbankensektor", "definition": "Finanzintermediäre außerhalb der klassischen Bankenregulierung (Hedgefonds, Geldmarktfonds, SPVs).", "chapter": 1, "slideRef": "S. 54"},
+        {"term": "Corporate Governance", "definition": "Mechanismen, die sicherstellen, dass das Management im Sinne der Investoren handelt.", "chapter": 1, "slideRef": "S. 47"},
+        {"term": "Overbanking", "definition": "Zu stark bankbasiertes Finanzsystem, das nach Bankenkrisen Unternehmen ohne alternative Finanzierungsquellen lässt.", "chapter": 1, "slideRef": "S. 51"},
+        # Kapitel 2
+        {"term": "Bankenkrise", "definition": "Gleichzeitiger Zusammenbruch eines signifikanten Teils des Bankensektors (systemische Krise).", "chapter": 2, "slideRef": "S. 63"},
+        {"term": "Bank Run", "definition": "Massenabhebung von Einlagen bei einer Bank, ausgelöst durch (berechtigte oder unberechtigte) Solvenzbedenken.", "chapter": 2, "slideRef": "S. 63"},
+        {"term": "Subprime-Kredite", "definition": "Kredite an hochriskante Schuldner mit geringer Kreditwürdigkeit; Hauptauslöser der Krise 2007-09.", "chapter": 2, "slideRef": "S. 72"},
+        {"term": "CDO (Collateralized Debt Obligation)", "definition": "Strukturiertes Kreditprodukt, das Bündel von Krediten in Tranchen unterschiedlicher Seniorität aufteilt.", "chapter": 2, "slideRef": "S. 74"},
+        {"term": "Fire Sales", "definition": "Erzwungener Notverkauf von Vermögenswerten in fallenden Märkten, der Preise weiter drückt.", "chapter": 2, "slideRef": "S. 81"},
+        {"term": "Staaten-Banken-Nexus", "definition": "Wechselseitige Abhängigkeit zwischen Bankensolvenz und Staatsfinanzen, die Krisen verschärft.", "chapter": 2, "slideRef": "S. 83"},
+        {"term": "Contagion (Ansteckung)", "definition": "Übertragung von Finanzproblemen von einer Institution/einem Land auf andere.", "chapter": 2, "slideRef": "S. 85"},
+        {"term": "Search for yield", "definition": "Verhalten von Investoren in Niedrigzinsumfeld, die zur Renditesteigerung höhere Risiken eingehen.", "chapter": 2, "slideRef": "S. 74"},
+        {"term": "OMT-Programm", "definition": "Outright Monetary Transactions: EZB-Anleihekaufprogramm (Sept 2012), an ESM-Konditionalität geknüpft, nie aktiviert.", "chapter": 2, "slideRef": "S. 88"},
+        {"term": "ESM (Europäischer Stabilitätsmechanismus)", "definition": "Permanenter Krisenfonds der Eurozone (ab Okt 2012), Nachfolger von EFSF.", "chapter": 2, "slideRef": "S. 87"},
+        # Kapitel 3
+        {"term": "Kapitalstruktur", "definition": "Relative Anteile von Eigen- und Fremdkapital an der Passivseite der Unternehmensbilanz.", "chapter": 3, "slideRef": "S. 102"},
+        {"term": "Residual Claimant", "definition": "Eigenkapitalgeber als Restanspruchsinhaber nach Bedienung aller anderen Verpflichtungen.", "chapter": 3, "slideRef": "S. 104"},
+        {"term": "Modigliani-Miller-Theorem", "definition": "In vollkommenen Märkten ist der Unternehmenswert unabhängig von der Kapitalstruktur.", "chapter": 3, "slideRef": "S. 112"},
+        {"term": "Homemade Leverage", "definition": "Replikation des Auszahlungsprofils eines verschuldeten Unternehmens durch persönliche Kreditaufnahme eines Investors.", "chapter": 3, "slideRef": "S. 115"},
+        {"term": "WACC (Weighted Average Cost of Capital)", "definition": "Gewichtete durchschnittliche Kapitalkosten = gewichteter Durchschnitt aus EK- und FK-Kosten.", "chapter": 3, "slideRef": "S. 125"},
+        {"term": "Beta-Faktor", "definition": "Maß des systematischen Risikos: Sensitivität der Wertpapierrendite gegenüber Marktrendite.", "chapter": 3, "slideRef": "S. 130"},
+        {"term": "Asset-Beta (β_U)", "definition": "Beta des unverschuldeten Unternehmens; misst das Marktrisiko der zugrundeliegenden Vermögensgegenstände.", "chapter": 3, "slideRef": "S. 131"},
+        {"term": "Leverage (Verschuldungsgrad)", "definition": "D/E: Verhältnis von Fremdkapital zu Eigenkapital.", "chapter": 3, "slideRef": "S. 124"},
+        {"term": "Marktwertbilanz", "definition": "Bilanz, in der alle Positionen zu aktuellen Marktwerten bewertet sind.", "chapter": 3, "slideRef": "S. 119"},
+        {"term": "Kapitalverwässerung", "definition": "Angeblicher Rückgang des Aktienkurses durch Ausgabe neuer Aktien – oft ein Trugschluss.", "chapter": 3, "slideRef": "S. 142"},
+        # Kapitel 4
+        {"term": "Steuerlicher Debt Bias", "definition": "Verzerrung des Steuersystems zugunsten von Fremdkapital, da Zinsen steuerlich abzugsfähig sind.", "chapter": 4, "slideRef": "S. 148"},
+        {"term": "Trade-Off-Theorie", "definition": "Optimale Kapitalstruktur durch Abwägung von Steuervorteil (FK) und Konkurskosten.", "chapter": 4, "slideRef": "S. 159"},
+        {"term": "Asset Substitution", "definition": "Ersetzen risikoarmer durch risikoreichere Projekte in Notlage (Agency-Kosten), zum Nachteil der Gläubiger.", "chapter": 4, "slideRef": "S. 163"},
+        {"term": "Schuldenüberhang (Debt Overhang)", "definition": "Unterinvestitionsproblem bei hoch verschuldeten Unternehmen (Myers 1977): Profitable Projekte werden abgelehnt.", "chapter": 4, "slideRef": "S. 166"},
+        {"term": "Leverage Ratchet Effect", "definition": "Sperrklinkeneffekt: Aktionäre erhöhen Verschuldung, reduzieren sie aber nicht (Admati et al. 2017).", "chapter": 4, "slideRef": "S. 170"},
+        {"term": "Covenant", "definition": "Kreditklausel, die die Handlungsfreiheit des Schuldners einschränkt (z.B. Ausschüttungsbegrenzungen).", "chapter": 4, "slideRef": "S. 172"},
+        {"term": "Pecking Order Theory", "definition": "Hierarchie der Finanzierungsquellen: Innenfinanzierung > Fremdkapital > Eigenkapital.", "chapter": 4, "slideRef": "S. 175"},
+        {"term": "VL = VU + BW(TV) - BW(KK)", "definition": "Wert verschuldetes Unternehmen = Wert unverschuldet + Barwert Steuervorteil − Barwert Konkurskosten.", "chapter": 4, "slideRef": "S. 159"},
+        # Kapitel 5
+        {"term": "Diamond-Dybvig-Modell", "definition": "Modell zur Erklärung der Existenz von Banken als Liquiditätsversicherung und der Fragilität durch Bank Runs.", "chapter": 5, "slideRef": "S. 203"},
+        {"term": "Costly State Verification", "definition": "Annahme, dass Kapitalgeber Erträge nur kostenpflichtig beobachten können (Gale/Hellwig 1985).", "chapter": 5, "slideRef": "S. 223"},
+        {"term": "Delegierte Kontrolle", "definition": "Bank übernimmt stellvertretend für viele Einleger die Überwachung der Kreditnehmer (Diamond 1984).", "chapter": 5, "slideRef": "S. 220"},
+        {"term": "Losgrößentransformation", "definition": "Bündelung kleiner Einlagen zu großen Krediten durch den Finanzintermediär.", "chapter": 5, "slideRef": "S. 201"},
+        {"term": "Fristentransformation", "definition": "Umwandlung kurzfristiger Verbindlichkeiten (Einlagen) in langfristige Forderungen (Kredite).", "chapter": 5, "slideRef": "S. 200"},
+        {"term": "Früher/Später Konsument (DD)", "definition": "Im DD-Modell: Typ 1 = früher Konsument (braucht Liquidität in t=1), Typ 2 = später (konsumiert in t=2).", "chapter": 5, "slideRef": "S. 207"},
+        {"term": "First-best-Lösung", "definition": "Pareto-optimale Allokation eines allwissenden sozialen Planers; oft nicht direkt implementierbar.", "chapter": 5, "slideRef": "S. 212"},
+        # Kapitel 6
+        {"term": "Lender of Last Resort (LoLR)", "definition": "Zentralbank als letzte Kreditquelle für illiquide aber solvente Banken in Krisen.", "chapter": 6, "slideRef": "S. 238"},
+        {"term": "Bagehot-Regel", "definition": "In Krisen: großzügig leihen, aber zu Strafzins und gegen gute Sicherheiten.", "chapter": 6, "slideRef": "S. 238"},
+        {"term": "Too-big-to-fail (TBTF)", "definition": "Systemrelevante Banken werden gerettet, weil ihr Zusammenbruch das gesamte System gefährdet.", "chapter": 6, "slideRef": "S. 240"},
+        {"term": "Narrow Banking", "definition": "Trennbanksystem: Einlagen nur in risikolose Aktiva anlegen → kein Bank Run möglich.", "chapter": 6, "slideRef": "S. 232"},
+        {"term": "Einlagenversicherung", "definition": "Staatliche/privatwirtschaftliche Garantie für Bankeinlagen bis zu einem Limit.", "chapter": 6, "slideRef": "S. 234"},
+        {"term": "Selbsterfüllende Erwartung", "definition": "Erwartungen, die, wenn sie von genug Akteuren geteilt werden, ihr eigenes Eintreten bewirken (z.B. Bank Run).", "chapter": 6, "slideRef": "S. 231"},
+        # Kapitel 7
+        {"term": "RWA (Risikogewichtete Aktiva)", "definition": "Summe aller Aktiva gewichtet nach Risikogehalt; Grundlage für EK-Anforderungen.", "chapter": 7, "slideRef": "S. 250"},
+        {"term": "CET1 (Common Equity Tier 1)", "definition": "Hartes Kernkapital: Stammaktien + einbehaltene Gewinne; höchste Qualität im Basel-III-Kapital.", "chapter": 7, "slideRef": "S. 254"},
+        {"term": "LCR (Liquidity Coverage Ratio)", "definition": "Kurzfristige Liquiditätsanforderung: HQLA / 30-Tage-Nettoabflüsse ≥ 100%.", "chapter": 7, "slideRef": "S. 256"},
+        {"term": "NSFR (Net Stable Funding Ratio)", "definition": "Strukturelle Liquiditätsanforderung: stabile Refinanzierung für illiquide Aktiva ≥ 100%.", "chapter": 7, "slideRef": "S. 256"},
+        {"term": "Leverage Ratio", "definition": "Nicht-risikobasierte EK-Quote: Tier-1-Kapital / Gesamtexposition ≥ 3%.", "chapter": 7, "slideRef": "S. 255"},
+        {"term": "Makroprudenzielle Regulierung", "definition": "Regulierung zum Schutz des gesamten Finanzsystems (systemische Perspektive), z.B. antizyklische Puffer.", "chapter": 7, "slideRef": "S. 257"},
+        {"term": "SSM (Single Supervisory Mechanism)", "definition": "Einheitlicher Aufsichtsmechanismus: EZB beaufsichtigt direkt bedeutende Banken der Eurozone.", "chapter": 7, "slideRef": "S. 248"},
+        {"term": "Regulierungsarbitrage", "definition": "Verlagerung von Bankaktivitäten in weniger regulierte Bereiche (→ Schattenbanken).", "chapter": 7, "slideRef": "S. 259"},
+        {"term": "G-SIB (Global Systemically Important Bank)", "definition": "Global systemrelevante Bank; unterliegt zusätzlichen EK-Anforderungen und Aufsicht.", "chapter": 7, "slideRef": "S. 254"},
+        {"term": "Bail-in", "definition": "Verlustbeteiligung der Gläubiger bei Bankabwicklung, als Alternative zum staatlichen Bail-out.", "chapter": 7, "slideRef": "S. 241"},
+    ]
+    return glossary
+
+
+def validate(cards):
+    required = ["id", "chapter", "chapterNum", "topic", "question", "answer",
+                "difficultyLevel", "slideRef", "type", "learning"]
+    errors = []
+    ids = set()
+    for i, card in enumerate(cards):
+        for field in required:
+            if field not in card:
+                errors.append(f"Card {i}: missing field '{field}'")
+        if card["id"] in ids:
+            errors.append(f"Card {i}: duplicate ID {card['id']}")
+        ids.add(card["id"])
+    return errors
 
 
 def main():
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--out", default="flashcards.json")
-    args = parser.parse_args()
-
-    global _counter
-    _counter = 0
-
+    print("Generating comprehensive FMI flashcards...")
     cards = build_all_cards()
-    result = validate(cards)
-
-    payload = {
-        "meta": {
-            "generatedAt": TODAY,
-            "generatedBy": "scripts/generate/flashcard_generator.py",
-            "primarySource": "Skript FMI SS2026_ jetzt.pdf",
-            "totalCards": len(cards),
-            "byStatus": {"ok": len([c for c in cards if c["validation"]["status"] == "ok"]), "review": 0},
-        },
-        "flashcards": cards,
-    }
-
-    out_path = Path(args.out)
-    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✓ {len(cards)} Karten generiert → {out_path}")
-
-    web_path = Path("public/data/flashcards.json")
-    if web_path.parent.exists():
-        web_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✓ Kopiert → {web_path}")
-
-    if not result["ok"]:
-        print(f"⚠ Validierungsprobleme: {result['issues']}")
-    else:
-        print("✓ Validierung OK")
-
+    
+    errors = validate(cards)
+    if errors:
+        print(f"VALIDATION ERRORS ({len(errors)}):")
+        for e in errors:
+            print(f"  {e}")
+        return
+    
+    print(f"Generated {len(cards)} cards")
+    
+    # Count by chapter
     from collections import Counter
-    per_ch = Counter(c["chapter"] for c in cards)
-    print("\nKarten pro Kapitel:")
-    for ch, n in sorted(per_ch.items()):
-        print(f"  {n:3d}  {ch}")
+    ch_counts = Counter(c["chapterNum"] for c in cards)
+    for ch_num, count in sorted(ch_counts.items()):
+        ch_name = next(c["chapter"] for c in cards if c["chapterNum"] == ch_num)
+        print(f"  Kapitel {ch_num}: {count} Karten ({ch_name[:45]})")
+    
+    # Count by difficulty
+    diff_counts = Counter(c["difficultyLevel"] for c in cards)
+    print("\nNach Schwierigkeitsgrad:")
+    for d, count in sorted(diff_counts.items()):
+        print(f"  {d}: {count}")
+    
+    # Write flashcards – format for React app (flashcards key)
+    out = {
+        "cards": cards,
+        "flashcards": cards,  # legacy key some components might use
+        "meta": {
+            "generatedAt": datetime.now().isoformat(),
+            "generated": datetime.now().isoformat(),
+            "total": len(cards),
+            "totalCards": len(cards),
+            "course": "Finanzmärkte und -institutionen SS2026",
+            "professor": "Prof. Farzad Saidi",
+            "university": "Universität Bonn",
+            "byStatus": {"ok": len(cards), "review": 0}
+        }
+    }
+    
+    import os
+    root = os.path.join(os.path.dirname(__file__), "..", "..")
+    
+    for path in [
+        os.path.join(root, "flashcards.json"),
+        os.path.join(root, "public", "data", "flashcards.json")
+    ]:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+        print(f"\nWrote: {path}")
+    
+    # Write glossary
+    glossary = build_glossary()
+    gout = {"terms": glossary, "meta": {
+        "generated": datetime.now().isoformat(),
+        "total": len(glossary)
+    }}
+    
+    for path in [
+        os.path.join(root, "glossary.json"),
+        os.path.join(root, "public", "data", "glossary.json")
+    ]:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(gout, f, ensure_ascii=False, indent=2)
+        print(f"Wrote: {path}")
+    
+    print(f"\n✓ Done. {len(cards)} Karten und {len(glossary)} Glossareinträge geschrieben.")
 
 
 if __name__ == "__main__":

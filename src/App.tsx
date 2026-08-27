@@ -3,12 +3,13 @@ import { useFlashcards } from '@/hooks/useFlashcards'
 import { ChapterCard } from '@/components/ChapterCard'
 import { LearnMode } from '@/components/LearnMode'
 import { StudyThenQuizMode } from '@/components/StudyThenQuizMode'
+import { GlossaryView } from '@/components/GlossaryView'
 import { getChapters, applyFilter, DEFAULT_FILTER } from '@/utils/filter'
 import { isDue, isNew, isMastered } from '@/utils/spacedRepetition'
 import type { SortMode } from '@/utils/spacedRepetition'
 import styles from './App.module.css'
 
-type View = 'home' | 'learn' | 'studyquiz'
+type View = 'home' | 'learn' | 'studyquiz' | 'glossary'
 
 export default function App() {
   const { allCards, loading, error, rateCard, resetProgress } = useFlashcards()
@@ -59,6 +60,14 @@ export default function App() {
           onRate={rateCard}
           onBack={() => { setView('home'); setActiveChapter(null) }}
         />
+      </div>
+    )
+  }
+
+  if (view === 'glossary') {
+    return (
+      <div className={styles.app}>
+        <GlossaryView onBack={() => setView('home')} />
       </div>
     )
   }
@@ -150,6 +159,12 @@ export default function App() {
             onClick={() => { setActiveChapter(null); setView('learn') }}
           >
             Direkt lernen ({learnCards.length})
+          </button>
+          <button
+            className={styles.glossaryBtn}
+            onClick={() => setView('glossary')}
+          >
+            📚 Glossar
           </button>
         </div>
       </section>

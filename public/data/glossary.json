@@ -1,0 +1,386 @@
+{
+  "terms": [
+    {
+      "term": "Finanzintermediation",
+      "definition": "Vermittlung zwischen Kapitalgebern (Sparern) und Kapitalnehmern durch eine dritte Partei (Finanzintermediär wie Banken).",
+      "chapter": 1,
+      "slideRef": "S. 22"
+    },
+    {
+      "term": "Direkte Finanzierung",
+      "definition": "Kapitalnehmer und -geber tauschen direkt Wertpapiere auf Finanzmärkten aus, ohne Intermediär.",
+      "chapter": 1,
+      "slideRef": "S. 22"
+    },
+    {
+      "term": "Indirekte Finanzierung",
+      "definition": "Finanzierung über einen Zwischenhändler (Intermediär), der Einlagen entgegennimmt und Kredite vergibt.",
+      "chapter": 1,
+      "slideRef": "S. 22"
+    },
+    {
+      "term": "Adverse Selektion",
+      "definition": "Phänomen, bei dem Informationsasymmetrien vor Vertragsschluss dazu führen, dass schlechte Risiken gute verdrängen.",
+      "chapter": 1,
+      "slideRef": "S. 29"
+    },
+    {
+      "term": "Moral Hazard",
+      "definition": "Verhaltensunsicherheit nach Vertragsschluss: informierte Partei verhält sich anders als erwartet (hidden action).",
+      "chapter": 1,
+      "slideRef": "S. 30"
+    },
+    {
+      "term": "Diversifikation",
+      "definition": "Streuung von Investments über verschiedene Anlagen, um idiosynkratische Risiken zu eliminieren.",
+      "chapter": 1,
+      "slideRef": "S. 31"
+    },
+    {
+      "term": "Liquiditätstransformation",
+      "definition": "Umwandlung kurzfristiger Einlagen in langfristige Kredite durch Finanzintermediäre.",
+      "chapter": 1,
+      "slideRef": "S. 31"
+    },
+    {
+      "term": "Systemisches Risiko",
+      "definition": "Risiko des Zusammenbruchs des gesamten Finanzsystems oder wesentlicher Teile davon.",
+      "chapter": 1,
+      "slideRef": "S. 34"
+    },
+    {
+      "term": "Disintermediation",
+      "definition": "Trend zur direkten Unternehmensfinanzierung über Märkte, unter Umgehung von Finanzintermediären.",
+      "chapter": 1,
+      "slideRef": "S. 53"
+    },
+    {
+      "term": "Schattenbankensektor",
+      "definition": "Finanzintermediäre außerhalb der klassischen Bankenregulierung (Hedgefonds, Geldmarktfonds, SPVs).",
+      "chapter": 1,
+      "slideRef": "S. 54"
+    },
+    {
+      "term": "Corporate Governance",
+      "definition": "Mechanismen, die sicherstellen, dass das Management im Sinne der Investoren handelt.",
+      "chapter": 1,
+      "slideRef": "S. 47"
+    },
+    {
+      "term": "Overbanking",
+      "definition": "Zu stark bankbasiertes Finanzsystem, das nach Bankenkrisen Unternehmen ohne alternative Finanzierungsquellen lässt.",
+      "chapter": 1,
+      "slideRef": "S. 51"
+    },
+    {
+      "term": "Bankenkrise",
+      "definition": "Gleichzeitiger Zusammenbruch eines signifikanten Teils des Bankensektors (systemische Krise).",
+      "chapter": 2,
+      "slideRef": "S. 63"
+    },
+    {
+      "term": "Bank Run",
+      "definition": "Massenabhebung von Einlagen bei einer Bank, ausgelöst durch (berechtigte oder unberechtigte) Solvenzbedenken.",
+      "chapter": 2,
+      "slideRef": "S. 63"
+    },
+    {
+      "term": "Subprime-Kredite",
+      "definition": "Kredite an hochriskante Schuldner mit geringer Kreditwürdigkeit; Hauptauslöser der Krise 2007-09.",
+      "chapter": 2,
+      "slideRef": "S. 72"
+    },
+    {
+      "term": "CDO (Collateralized Debt Obligation)",
+      "definition": "Strukturiertes Kreditprodukt, das Bündel von Krediten in Tranchen unterschiedlicher Seniorität aufteilt.",
+      "chapter": 2,
+      "slideRef": "S. 74"
+    },
+    {
+      "term": "Fire Sales",
+      "definition": "Erzwungener Notverkauf von Vermögenswerten in fallenden Märkten, der Preise weiter drückt.",
+      "chapter": 2,
+      "slideRef": "S. 81"
+    },
+    {
+      "term": "Staaten-Banken-Nexus",
+      "definition": "Wechselseitige Abhängigkeit zwischen Bankensolvenz und Staatsfinanzen, die Krisen verschärft.",
+      "chapter": 2,
+      "slideRef": "S. 83"
+    },
+    {
+      "term": "Contagion (Ansteckung)",
+      "definition": "Übertragung von Finanzproblemen von einer Institution/einem Land auf andere.",
+      "chapter": 2,
+      "slideRef": "S. 85"
+    },
+    {
+      "term": "Search for yield",
+      "definition": "Verhalten von Investoren in Niedrigzinsumfeld, die zur Renditesteigerung höhere Risiken eingehen.",
+      "chapter": 2,
+      "slideRef": "S. 74"
+    },
+    {
+      "term": "OMT-Programm",
+      "definition": "Outright Monetary Transactions: EZB-Anleihekaufprogramm (Sept 2012), an ESM-Konditionalität geknüpft, nie aktiviert.",
+      "chapter": 2,
+      "slideRef": "S. 88"
+    },
+    {
+      "term": "ESM (Europäischer Stabilitätsmechanismus)",
+      "definition": "Permanenter Krisenfonds der Eurozone (ab Okt 2012), Nachfolger von EFSF.",
+      "chapter": 2,
+      "slideRef": "S. 87"
+    },
+    {
+      "term": "Kapitalstruktur",
+      "definition": "Relative Anteile von Eigen- und Fremdkapital an der Passivseite der Unternehmensbilanz.",
+      "chapter": 3,
+      "slideRef": "S. 102"
+    },
+    {
+      "term": "Residual Claimant",
+      "definition": "Eigenkapitalgeber als Restanspruchsinhaber nach Bedienung aller anderen Verpflichtungen.",
+      "chapter": 3,
+      "slideRef": "S. 104"
+    },
+    {
+      "term": "Modigliani-Miller-Theorem",
+      "definition": "In vollkommenen Märkten ist der Unternehmenswert unabhängig von der Kapitalstruktur.",
+      "chapter": 3,
+      "slideRef": "S. 112"
+    },
+    {
+      "term": "Homemade Leverage",
+      "definition": "Replikation des Auszahlungsprofils eines verschuldeten Unternehmens durch persönliche Kreditaufnahme eines Investors.",
+      "chapter": 3,
+      "slideRef": "S. 115"
+    },
+    {
+      "term": "WACC (Weighted Average Cost of Capital)",
+      "definition": "Gewichtete durchschnittliche Kapitalkosten = gewichteter Durchschnitt aus EK- und FK-Kosten.",
+      "chapter": 3,
+      "slideRef": "S. 125"
+    },
+    {
+      "term": "Beta-Faktor",
+      "definition": "Maß des systematischen Risikos: Sensitivität der Wertpapierrendite gegenüber Marktrendite.",
+      "chapter": 3,
+      "slideRef": "S. 130"
+    },
+    {
+      "term": "Asset-Beta (β_U)",
+      "definition": "Beta des unverschuldeten Unternehmens; misst das Marktrisiko der zugrundeliegenden Vermögensgegenstände.",
+      "chapter": 3,
+      "slideRef": "S. 131"
+    },
+    {
+      "term": "Leverage (Verschuldungsgrad)",
+      "definition": "D/E: Verhältnis von Fremdkapital zu Eigenkapital.",
+      "chapter": 3,
+      "slideRef": "S. 124"
+    },
+    {
+      "term": "Marktwertbilanz",
+      "definition": "Bilanz, in der alle Positionen zu aktuellen Marktwerten bewertet sind.",
+      "chapter": 3,
+      "slideRef": "S. 119"
+    },
+    {
+      "term": "Kapitalverwässerung",
+      "definition": "Angeblicher Rückgang des Aktienkurses durch Ausgabe neuer Aktien – oft ein Trugschluss.",
+      "chapter": 3,
+      "slideRef": "S. 142"
+    },
+    {
+      "term": "Steuerlicher Debt Bias",
+      "definition": "Verzerrung des Steuersystems zugunsten von Fremdkapital, da Zinsen steuerlich abzugsfähig sind.",
+      "chapter": 4,
+      "slideRef": "S. 148"
+    },
+    {
+      "term": "Trade-Off-Theorie",
+      "definition": "Optimale Kapitalstruktur durch Abwägung von Steuervorteil (FK) und Konkurskosten.",
+      "chapter": 4,
+      "slideRef": "S. 159"
+    },
+    {
+      "term": "Asset Substitution",
+      "definition": "Ersetzen risikoarmer durch risikoreichere Projekte in Notlage (Agency-Kosten), zum Nachteil der Gläubiger.",
+      "chapter": 4,
+      "slideRef": "S. 163"
+    },
+    {
+      "term": "Schuldenüberhang (Debt Overhang)",
+      "definition": "Unterinvestitionsproblem bei hoch verschuldeten Unternehmen (Myers 1977): Profitable Projekte werden abgelehnt.",
+      "chapter": 4,
+      "slideRef": "S. 166"
+    },
+    {
+      "term": "Leverage Ratchet Effect",
+      "definition": "Sperrklinkeneffekt: Aktionäre erhöhen Verschuldung, reduzieren sie aber nicht (Admati et al. 2017).",
+      "chapter": 4,
+      "slideRef": "S. 170"
+    },
+    {
+      "term": "Covenant",
+      "definition": "Kreditklausel, die die Handlungsfreiheit des Schuldners einschränkt (z.B. Ausschüttungsbegrenzungen).",
+      "chapter": 4,
+      "slideRef": "S. 172"
+    },
+    {
+      "term": "Pecking Order Theory",
+      "definition": "Hierarchie der Finanzierungsquellen: Innenfinanzierung > Fremdkapital > Eigenkapital.",
+      "chapter": 4,
+      "slideRef": "S. 175"
+    },
+    {
+      "term": "VL = VU + BW(TV) - BW(KK)",
+      "definition": "Wert verschuldetes Unternehmen = Wert unverschuldet + Barwert Steuervorteil − Barwert Konkurskosten.",
+      "chapter": 4,
+      "slideRef": "S. 159"
+    },
+    {
+      "term": "Diamond-Dybvig-Modell",
+      "definition": "Modell zur Erklärung der Existenz von Banken als Liquiditätsversicherung und der Fragilität durch Bank Runs.",
+      "chapter": 5,
+      "slideRef": "S. 203"
+    },
+    {
+      "term": "Costly State Verification",
+      "definition": "Annahme, dass Kapitalgeber Erträge nur kostenpflichtig beobachten können (Gale/Hellwig 1985).",
+      "chapter": 5,
+      "slideRef": "S. 223"
+    },
+    {
+      "term": "Delegierte Kontrolle",
+      "definition": "Bank übernimmt stellvertretend für viele Einleger die Überwachung der Kreditnehmer (Diamond 1984).",
+      "chapter": 5,
+      "slideRef": "S. 220"
+    },
+    {
+      "term": "Losgrößentransformation",
+      "definition": "Bündelung kleiner Einlagen zu großen Krediten durch den Finanzintermediär.",
+      "chapter": 5,
+      "slideRef": "S. 201"
+    },
+    {
+      "term": "Fristentransformation",
+      "definition": "Umwandlung kurzfristiger Verbindlichkeiten (Einlagen) in langfristige Forderungen (Kredite).",
+      "chapter": 5,
+      "slideRef": "S. 200"
+    },
+    {
+      "term": "Früher/Später Konsument (DD)",
+      "definition": "Im DD-Modell: Typ 1 = früher Konsument (braucht Liquidität in t=1), Typ 2 = später (konsumiert in t=2).",
+      "chapter": 5,
+      "slideRef": "S. 207"
+    },
+    {
+      "term": "First-best-Lösung",
+      "definition": "Pareto-optimale Allokation eines allwissenden sozialen Planers; oft nicht direkt implementierbar.",
+      "chapter": 5,
+      "slideRef": "S. 212"
+    },
+    {
+      "term": "Lender of Last Resort (LoLR)",
+      "definition": "Zentralbank als letzte Kreditquelle für illiquide aber solvente Banken in Krisen.",
+      "chapter": 6,
+      "slideRef": "S. 238"
+    },
+    {
+      "term": "Bagehot-Regel",
+      "definition": "In Krisen: großzügig leihen, aber zu Strafzins und gegen gute Sicherheiten.",
+      "chapter": 6,
+      "slideRef": "S. 238"
+    },
+    {
+      "term": "Too-big-to-fail (TBTF)",
+      "definition": "Systemrelevante Banken werden gerettet, weil ihr Zusammenbruch das gesamte System gefährdet.",
+      "chapter": 6,
+      "slideRef": "S. 240"
+    },
+    {
+      "term": "Narrow Banking",
+      "definition": "Trennbanksystem: Einlagen nur in risikolose Aktiva anlegen → kein Bank Run möglich.",
+      "chapter": 6,
+      "slideRef": "S. 232"
+    },
+    {
+      "term": "Einlagenversicherung",
+      "definition": "Staatliche/privatwirtschaftliche Garantie für Bankeinlagen bis zu einem Limit.",
+      "chapter": 6,
+      "slideRef": "S. 234"
+    },
+    {
+      "term": "Selbsterfüllende Erwartung",
+      "definition": "Erwartungen, die, wenn sie von genug Akteuren geteilt werden, ihr eigenes Eintreten bewirken (z.B. Bank Run).",
+      "chapter": 6,
+      "slideRef": "S. 231"
+    },
+    {
+      "term": "RWA (Risikogewichtete Aktiva)",
+      "definition": "Summe aller Aktiva gewichtet nach Risikogehalt; Grundlage für EK-Anforderungen.",
+      "chapter": 7,
+      "slideRef": "S. 250"
+    },
+    {
+      "term": "CET1 (Common Equity Tier 1)",
+      "definition": "Hartes Kernkapital: Stammaktien + einbehaltene Gewinne; höchste Qualität im Basel-III-Kapital.",
+      "chapter": 7,
+      "slideRef": "S. 254"
+    },
+    {
+      "term": "LCR (Liquidity Coverage Ratio)",
+      "definition": "Kurzfristige Liquiditätsanforderung: HQLA / 30-Tage-Nettoabflüsse ≥ 100%.",
+      "chapter": 7,
+      "slideRef": "S. 256"
+    },
+    {
+      "term": "NSFR (Net Stable Funding Ratio)",
+      "definition": "Strukturelle Liquiditätsanforderung: stabile Refinanzierung für illiquide Aktiva ≥ 100%.",
+      "chapter": 7,
+      "slideRef": "S. 256"
+    },
+    {
+      "term": "Leverage Ratio",
+      "definition": "Nicht-risikobasierte EK-Quote: Tier-1-Kapital / Gesamtexposition ≥ 3%.",
+      "chapter": 7,
+      "slideRef": "S. 255"
+    },
+    {
+      "term": "Makroprudenzielle Regulierung",
+      "definition": "Regulierung zum Schutz des gesamten Finanzsystems (systemische Perspektive), z.B. antizyklische Puffer.",
+      "chapter": 7,
+      "slideRef": "S. 257"
+    },
+    {
+      "term": "SSM (Single Supervisory Mechanism)",
+      "definition": "Einheitlicher Aufsichtsmechanismus: EZB beaufsichtigt direkt bedeutende Banken der Eurozone.",
+      "chapter": 7,
+      "slideRef": "S. 248"
+    },
+    {
+      "term": "Regulierungsarbitrage",
+      "definition": "Verlagerung von Bankaktivitäten in weniger regulierte Bereiche (→ Schattenbanken).",
+      "chapter": 7,
+      "slideRef": "S. 259"
+    },
+    {
+      "term": "G-SIB (Global Systemically Important Bank)",
+      "definition": "Global systemrelevante Bank; unterliegt zusätzlichen EK-Anforderungen und Aufsicht.",
+      "chapter": 7,
+      "slideRef": "S. 254"
+    },
+    {
+      "term": "Bail-in",
+      "definition": "Verlustbeteiligung der Gläubiger bei Bankabwicklung, als Alternative zum staatlichen Bail-out.",
+      "chapter": 7,
+      "slideRef": "S. 241"
+    }
+  ],
+  "meta": {
+    "generated": "2026-08-27T12:22:45.492575",
+    "total": 63
+  }
+}

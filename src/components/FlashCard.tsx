@@ -64,6 +64,12 @@ export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
           {'●'.repeat(card.difficulty)}{'○'.repeat(8 - card.difficulty)}
         </span>
         <span className={styles.chapter}>{card.chapter.split('.')[0]}</span>
+        {card.slideRef && (
+          <span className={styles.slideRef} title="Skript-Seite">📄 {card.slideRef}</span>
+        )}
+        {card.difficultyLevel && (
+          <span className={styles.diffLevel}>{card.difficultyLevel}</span>
+        )}
       </div>
 
       {/* Exam relevance bar */}
@@ -101,6 +107,18 @@ export function FlashCard({ card, index, total, onRate, onSkip }: Props) {
             {card.source.current.length > 0 && (
               <div className={styles.source}>
                 📄 {card.source.current[0].file}
+                {card.source.current[0].page && ` · ${card.source.current[0].page}`}
+              </div>
+            )}
+
+            {card.variables && Object.keys(card.variables).length > 0 && (
+              <div className={styles.variables}>
+                <span className={styles.stepsLabel}>Variablen:</span>
+                <ul>
+                  {Object.entries(card.variables).map(([k, v]) => (
+                    <li key={k}><code>{k}</code>: {v}</li>
+                  ))}
+                </ul>
               </div>
             )}
           </div>

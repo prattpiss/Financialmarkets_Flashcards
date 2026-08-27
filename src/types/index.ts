@@ -40,6 +40,11 @@ export interface Flashcard {
   note?: string
   validation: FlashcardValidation
   learning: FlashcardLearning
+  // New fields (optional, for backward compat)
+  slideRef?: string
+  difficultyLevel?: string
+  chapterNum?: number
+  topic?: string
 }
 
 export type CardType =
