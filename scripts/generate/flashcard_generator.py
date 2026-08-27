@@ -532,6 +532,35 @@ def cards_chapter5():
     n = 5
     cards = []
 
+    cards.append(new_card(ch, n, "Traditionelle Bankaktivitäten",
+        "Was kennzeichnet das traditionelle Geschäftsmodell einer Bank ('originate to hold')?",
+        "Aktivseite: Vergabe langfristiger, informationssensitiver, nicht handelbarer Kredite.\n"
+        "Passivseite: Finanzierung über kurzfristige, nicht verbriefte Einlagen (großteils Sichteinlagen).\n"
+        "Diese Kombination – illiquide Aktiva + liquide Passiva – unterscheidet Banken von anderen Finanzintermediären.\n"
+        "Herausforderungen: Geldmarktfonds, Kreditrisikotransfer, Fintechs und Bigtechs greifen das Modell an.",
+        "Verständnis", "S. 193"))
+
+    cards.append(new_card(ch, n, "Banken im Zahlungssystem",
+        "Welche Rolle spielen Banken im Zahlungssystem und was sind die verschiedenen Geldarten?",
+        "Banken ermöglichen bargeldlosen Zahlungsverkehr → zentrale Infrastruktur der Wirtschaft.\n"
+        "Geldarten:\n"
+        "• Warengeld (Gold, Silber): Wert durch Substanz\n"
+        "• Fiatgeld (Papiergeld): Wert durch staatliche Garantie / Zentralbankreputation\n"
+        "• Giralgeld: Einlagen bei Banken, nutzbar als Zahlungsmittel im bargeldlosen Verkehr\n"
+        "Ohne Transaktionskosten wäre Tauschhandel möglich; in der Realität ist das Problem der 'doppelten Koinzidenz der Tauschwünsche' zu teuer.\n"
+        "Heutiger Geldwert basiert auf Vertrauen in Zentralbank und stabilitätsorientierter Geldpolitik.",
+        "Verständnis", "S. 194"))
+
+    cards.append(new_card(ch, n, "Banken vs. Märkte: Warum Intermediäre?",
+        "Warum braucht man Finanzintermediäre (Banken), wenn Finanzmärkte dieselben 3 Transformationsfunktionen erfüllen könnten?",
+        "Märkte erfüllen die 3 Funktionen nur unvollständig:\n"
+        "1. Losgrößentransformation: Märkte können bündeln (Emissionen), aber Mindestgebühren machen kleine Beträge unattraktiv\n"
+        "2. Fristentransformation: Über Sekundärmärkte möglich, aber Anleger trägt dann das Zins-/Kursrisiko selbst\n"
+        "3. Risikotransformation: Über Diversifikation möglich, aber kleine Unternehmen haben keinen Kapitalmarktzugang aufgrund von Informationsproblemen\n"
+        "→ Banken lösen Informationsasymmetrien besser als Märkte (Kreditwürdigkeitsprüfung, Monitoring, langfristige Bankbeziehungen)\n"
+        "→ Banken sind irrelevant in vollkommenen Kapitalmärkten, gewinnen ihren Vorteil durch Marktfriktionen.",
+        "Evaluation", "S. 196-202"))
+
     cards.append(new_card(ch, n, "Irrelevanz von Banken in vollkommenen Märkten",
         "Warum sind Banken in vollkommenen Kapitalmärkten irrelevant?",
         "In vollkommenen Märkten können die Zahlungsströme eines Bankkredits durch den Kauf/Verkauf geeigneter Wertpapiere repliziert werden.\nKredite und Anleihen sind vollständige Substitute.\n→ Existenz von Banken erfordert Marktfriktionen (Transaktions- oder Informationskosten).",
@@ -1498,6 +1527,14 @@ def cards_chapter7_detail():
         "Welche neuen regulatorischen Herausforderungen entstehen durch Schattenbanken und Fintechs?",
         "Schattenbanken: Starkes Wachstum seit der Krise (Investmentfonds, ETFs, Geldmarktfonds).\nRegulierungsarbitrage: Bankaktivitäten verlagern sich in weniger regulierte Bereiche.\nFintechs: Neue Marktteilnehmer mit disruptiven Geschäftsmodellen.\nBigtechs (Amazon, Google, Apple): Eintreten ins Finanzgeschäft → systemisch relevant ohne Bankzulassung?\nHerausforderung: Gleiche Regeln für gleiche Risiken ('same risk, same rules').",
         "Verständnis", "S. 686"))
+
+    cards.append(new_card(ch, n, "Niedrigzinsphase und Zinsänderungsrisiko",
+        "Welches Risiko entsteht für Banken nach einer langen Niedrigzinsphase und wie zeigt sich das am Beispiel SVB 2023?",
+        "Problem: Banken, die in der Niedrigzinsphase langfristige Vermögensgegenstände (z.B. Staatsanleihen) mit niedrigen Zinsen erworben haben, verlieren bei schnell steigenden Zinsen erheblich an Marktwert.\n"
+        "→ Zinsänderungsrisiko: Passivseite (Einlagen) kann höhere Zinsen fordern, Aktivseite (Anleihen) verliert an Wert.\n"
+        "Beispiel Silicon Valley Bank (SVB) 2023: Enormes Staatsanleihenportfolio, das bei schnell steigenden Zinsen massive unrealisierte Verluste aufwies → Vertrauensverlust → Bank Run → Zusammenbruch.\n"
+        "→ Herausforderung: Ausstieg aus der lockeren Geldpolitik birgt systemische Risiken für Banken mit hohem Durationsrisiko.",
+        "Verständnis", "S. 687"))
 
     cards.append(new_card(ch, n, "Fazit Bankenregulierung: Kernprinzipien",
         "Was sind die zwei Kerninstrumente der modernen Bankenregulierung und welche offene Herausforderung bleibt?",

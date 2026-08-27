@@ -1,0 +1,1468 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kennen die wesentlichen Funktionen von Banken
+â–¶ Sie kennen wichtige grundlegende Bankenmodelle und
+verstehen deren Modellmechanismen
+
+---PAGE---
+
+Funktionen von Banken
+â–¶ Traditionelle AktivitÃ¤ten einer Bank (â€œoriginate to holdâ€):
+â–¶ Aktivseite der Bilanz: GewÃ¤hrung langfristiger,
+informationssensitiver, nicht handelbarer Kredite
+â–¶ Passivseite der Bilanz: Finanzierung Ã¼ber kurzfristige, nicht
+verbriefte Einlagen (zum groÃŸen Teil bei Sicht fÃ¤llig)
+â–¶ TatsÃ¤chlich machen Banken viel mehr, aber es ist die
+Kombination dieser beiden TÃ¤tigkeiten, die Banken von
+anderen FinanzintermediÃ¤ren abgrenzt
+â–¶ Finanzinnovationen (z.B. Geldmarktfonds,
+Kreditrisikotransfer, Fintechs, Bigtechs) stellen das
+traditionelle GeschÃ¤ftsmodell vor groÃŸe Herausforderungen
+
+---PAGE---
+
+Legaldefinition im Kreditwesengesetz (KWG), Â§ 1
+(1) Kreditinstitute sind Unternehmen, die BankgeschÃ¤fte
+gewerbsmÃ¤ÃŸig oder in einem Umfang betreiben, der einen in
+kaufmÃ¤nnischer Weise eingerichteten GeschÃ¤ftsbetrieb erfordert.
+BankgeschÃ¤fte sind
+1. die Annahme fremder Gelder als Einlagen oder anderer
+unbedingt rÃ¼ckzahlbarer Gelder des Publikums, sofern der
+RÃ¼ckzahlungsanspruch nicht in Inhaber- oder
+Orderschuldverschreibungen verbrieft wird, ohne RÃ¼cksicht
+darauf, ob Zinsen vergÃ¼tet werden (EinlagengeschÃ¤ft),
+2. die GewÃ¤hrung von Gelddarlehen und Akzeptkrediten
+(KreditgeschÃ¤ft),
+3. ...
+â‡’ Zentrale AktivitÃ¤ten = Einlagen- und KreditgeschÃ¤ft
+
+---PAGE---
+
+Legaldefinition im Kreditwesengesetz (KWG), Â§ 1
+â–¶ Sonstige im Gesetz genannte AktivitÃ¤ten (Auszug):
+â–¶ PfandbriefgeschÃ¤ft
+â–¶ DiskontgeschÃ¤ft (Ankauf von Wechseln und Schecks)
+â–¶ FinanzkommissionsgeschÃ¤ft (Handel von Wertpapieren auf
+fremde Rechnung)
+â–¶ DepotgeschÃ¤ft
+â–¶ GarantiegeschÃ¤ft
+â–¶ EmissionsgeschÃ¤ft
+â–¶ TÃ¤tigkeit als zentrale Gegenpartei
+
+---PAGE---
+
+â–¶ Marktzutrittsbarrieren (Zulassungserfordernis)
+â–¶ Eigenkapitalregulierung (Basler Abkommen: Basel I, II, III)
+â–¶ LiquiditÃ¤tsregulierung
+â–¶ Regulierung der Kreditvergabe (Begrenzung von GroÃŸkrediten,
+Berichtspflichten Ã¼ber Millionenkredite)
+â–¶ Einlagensicherungssysteme
+â–¶ Spezielle Abwicklungsregime fÃ¼r Banken
+â–¶ Verbraucherschutz (zum Beispiel in der
+Wertpapieranlageberatung)
+â–¶ ...
+Regulierung
+â–¶ Unternehmen, die laut Gesetz als Kreditinstitute gelten,
+unterliegen besonders strengen Regulierungsvorschriften
+und der Aufsicht durch die Bundesanstalt fÃ¼r
+Finanzdienstleistungsaufsicht (BaFin), die Deutsche
+Bundesbank und seit November 2014 durch die EuropÃ¤ische
+Zentralbank (EZB)
+â–¶ Arten der Regulierung:
+
+---PAGE---
+
+Regulierung
+â–¶ Unternehmen, die laut Gesetz als Kreditinstitute gelten,
+unterliegen besonders strengen Regulierungsvorschriften
+und der Aufsicht durch die Bundesanstalt fÃ¼r
+Finanzdienstleistungsaufsicht (BaFin), die Deutsche
+Bundesbank und seit November 2014 durch die EuropÃ¤ische
+Zentralbank (EZB)
+â–¶ Arten der Regulierung:
+â–¶ Marktzutrittsbarrieren (Zulassungserfordernis)
+â–¶ Eigenkapitalregulierung (Basler Abkommen: Basel I, II, III)
+â–¶ LiquiditÃ¤tsregulierung
+â–¶ Regulierung der Kreditvergabe (Begrenzung von GroÃŸkrediten,
+Berichtspflichten Ã¼ber Millionenkredite)
+â–¶ Einlagensicherungssysteme
+â–¶ Spezielle Abwicklungsregime fÃ¼r Banken
+â–¶ Verbraucherschutz (zum Beispiel in der
+Wertpapieranlageberatung)
+â–¶ ...
+
+---PAGE---
+
+Banken versus MÃ¤rkte
+â–¶ Aufgabe des Finanzsystems: ZusammenfÃ¼hren von
+Kapitalgebern und Kapitalnehmern
+â–¶ Was unterscheidet Banken und MÃ¤rkte? Wieso benÃ¶tigt man
+FinanzintermediÃ¤re, d.h. wieso kÃ¶nnen die Funktionen von
+Banken nicht durch die MÃ¤rkte Ã¼bernommen werden?
+
+---PAGE---
+
+Banken versus MÃ¤rkte
+â–¶ Zentrale Funktionen von Banken:
+1. Funktionen von Banken im Zahlungssystem
+2. Transformation von VermÃ¶gensgegenstÃ¤nden durch Banken
+(a) LosgrÃ¶ÃŸentransformation
+(b) Fristentransformation
+(c) Risikotransformation
+
+---PAGE---
+
+Funktionen von Banken im Zahlungssystem
+â–¶ In einer Welt ohne Transaktionskosten benÃ¶tigt man kein Geld
+â–¶ Aber: In der RealitÃ¤t wÃ¤re ein Tauschhandel sehr teuer,
+Problem der â€œdoppelten Koinzidenz der TauschwÃ¼nscheâ€
+â†’ Verwendung von Geld ist effizient
+â–¶ Mit den vorherrschenden Geldarten wandelten sich auch die
+Aufgaben der Banken im Zahlungssystem
+
+---PAGE---
+
+Geldarten
+â–¶ Waren als Geld, insbesondere Edelmetall (Gold, Silber), aber
+auch Zigaretten
+â–¶ â€œFiat moneyâ€, insbesondere Papiergeld
+â–¶ Geld ist nur deshalb etwas wert, weil es eine Institution gibt,
+die den Wert des Geldes garantiert
+â–¶ Dies kÃ¶nnen auch die Banken selbst sein (â€œBanknotenâ€), heute
+ist es Ã¼blicherweise die Zentralbank
+â–¶ Entscheidend ist das Vertrauen in den Wert des Geldes: frÃ¼her
+durch Deckung, heute insbesondere durch stabilitÃ¤tsorientierte
+Geldpolitik/Reputation der Zentralbank
+â–¶ Giralgeld = Einlagen bei den Banken, die durch den
+bargeldlosen Zahlungsverkehr als Zahlungsmittel genutzt
+werden kÃ¶nnen
+
+---PAGE---
+
+Transformation von VermÃ¶gensgegenstÃ¤nden durch Banken
+â–¶ Eine Bank fÃ¼hrt eine Transformation von kleinen, liquiden,
+sicheren Einlagen in groÃŸe, illiquide, informationssensitive/
+riskante Kredite durch (Gurley/Shaw 1960):
+1. LosgrÃ¶ÃŸentransformation
+2. Fristentransformation
+3. Risikotransformation
+â–¶ Frage: Unter welchen Voraussetzungen haben Banken eine
+Funktion, die nicht auch durch die KapitalmÃ¤rkte erbracht
+werden kÃ¶nnte?
+
+---PAGE---
+
+1. LosgrÃ¶ÃŸentransformation
+â–¶ Investoren benÃ¶tigen typischerweise groÃŸe KreditbetrÃ¤ge,
+wÃ¤hrend die Anleger hÃ¤ufig kleine BetrÃ¤ge sparen wollen
+â–¶ Aufgabe des FinanzintermediÃ¤rs: ZusammenfÃ¼hrung groÃŸer
+und kleiner Akteure durch Pooling kleiner Einlagen zu groÃŸen
+Krediten
+
+---PAGE---
+
+2. Fristentransformation
+â–¶ Kredite sind typischerweise lÃ¤ngerfristig (z.B. fÃ¼r
+Investitionsprojekte) und nicht ohne Verlust kurzfristig
+liquidierbar
+â–¶ Einleger wollen hingegen liquide Anlagen, Ã¼ber die sie
+jederzeit verfÃ¼gen kÃ¶nnen
+â–¶ Folge:
+â–¶ Die Bank ist selbst illiquide â†’ Gefahr von Bank Runs
+(Diamond/Dybvig, Journal of Political Economy, 1983)
+(z.B. Run bei Northern Rock, aber auch die
+LiquiditÃ¤tsprobleme der SPVs wÃ¤hrend der Finanzkrise
+2007/08, oder SVB 2023)
+â–¶ Die Bank unterliegt dem aus der Fristentransformation
+entstehenden ZinsÃ¤nderungsrisiko (vgl. Krise der â€œSavings
+and Loansâ€ in den USA in den 1980er Jahren)
+
+---PAGE---
+
+3. Risikotransformation
+â–¶ Kredite sind typischerweise riskant und mit groÃŸen
+Informationsproblemen behaftet, Einleger sind auf der
+Suche nach sicheren Anlagen
+â–¶ Bei Einlagen erwerben die Einleger einen Anspruch gegenÃ¼ber
+der Bank, nicht gegenÃ¼ber dem Kreditnehmer
+â–¶ Warum kann die Bank einen besseren Rendite-Risiko-Trade-off
+bieten als der Markt (Diamond, Review of Economic Studies
+1984)?
+â–¶ Wie gehen die Banken mit den Informationsproblemen um?
+(z.B. KreditÃ¼berwachung (Monitoring), langfristige
+Bankbeziehungen)
+
+---PAGE---
+
+Gesamtemission vs. einzelne
+Anteile, aber: MindestgebÃ¼hren kÃ¶nnen den Handel sehr
+kleiner BetrÃ¤ge unattraktiv machen
+2. Fristentransformation: UÂ¨ber SekundÃ¤rmÃ¤rkte
+â†’ Hier trÃ¤gt typischerweise der Anleger das Zins-/Kursrisiko,
+dies mÃ¶chte er vielleicht nicht
+3. Risikotransformation: UÂ¨ber Diversifikation oder spezielle
+Produkte, die der Risikobereitschaft der Anleger entsprechen
+(z.B. Mindestverzinsungen etc.), aber: kleine Unternehmen
+haben es aufgrund von Informationsproblemen schwer, an den
+Kapitalmarkt zu gehen
+Banken versus MÃ¤rkte
+â–¶ Auch FinanzmÃ¤rkte erfÃ¼llen diese 3 Funktionen:
+1. LosgrÃ¶ÃŸentransformation:
+
+---PAGE---
+
+UÂ¨ber SekundÃ¤rmÃ¤rkte
+â†’ Hier trÃ¤gt typischerweise der Anleger das Zins-/Kursrisiko,
+dies mÃ¶chte er vielleicht nicht
+3. Risikotransformation: UÂ¨ber Diversifikation oder spezielle
+Produkte, die der Risikobereitschaft der Anleger entsprechen
+(z.B. Mindestverzinsungen etc.), aber: kleine Unternehmen
+haben es aufgrund von Informationsproblemen schwer, an den
+Kapitalmarkt zu gehen
+Banken versus MÃ¤rkte
+â–¶ Auch FinanzmÃ¤rkte erfÃ¼llen diese 3 Funktionen:
+1. LosgrÃ¶ÃŸentransformation: Gesamtemission vs. einzelne
+Anteile, aber: MindestgebÃ¼hren kÃ¶nnen den Handel sehr
+kleiner BetrÃ¤ge unattraktiv machen
+2. Fristentransformation:
+
+---PAGE---
+
+UÂ¨ber Diversifikation oder spezielle
+Produkte, die der Risikobereitschaft der Anleger entsprechen
+(z.B. Mindestverzinsungen etc.), aber: kleine Unternehmen
+haben es aufgrund von Informationsproblemen schwer, an den
+Kapitalmarkt zu gehen
+Banken versus MÃ¤rkte
+â–¶ Auch FinanzmÃ¤rkte erfÃ¼llen diese 3 Funktionen:
+1. LosgrÃ¶ÃŸentransformation: Gesamtemission vs. einzelne
+Anteile, aber: MindestgebÃ¼hren kÃ¶nnen den Handel sehr
+kleiner BetrÃ¤ge unattraktiv machen
+2. Fristentransformation: UÂ¨ber SekundÃ¤rmÃ¤rkte
+â†’ Hier trÃ¤gt typischerweise der Anleger das Zins-/Kursrisiko,
+dies mÃ¶chte er vielleicht nicht
+3. Risikotransformation:
+
+---PAGE---
+
+Banken versus MÃ¤rkte
+â–¶ Auch FinanzmÃ¤rkte erfÃ¼llen diese 3 Funktionen:
+1. LosgrÃ¶ÃŸentransformation: Gesamtemission vs. einzelne
+Anteile, aber: MindestgebÃ¼hren kÃ¶nnen den Handel sehr
+kleiner BetrÃ¤ge unattraktiv machen
+2. Fristentransformation: UÂ¨ber SekundÃ¤rmÃ¤rkte
+â†’ Hier trÃ¤gt typischerweise der Anleger das Zins-/Kursrisiko,
+dies mÃ¶chte er vielleicht nicht
+3. Risikotransformation: UÂ¨ber Diversifikation oder spezielle
+Produkte, die der Risikobereitschaft der Anleger entsprechen
+(z.B. Mindestverzinsungen etc.), aber: kleine Unternehmen
+haben es aufgrund von Informationsproblemen schwer, an den
+Kapitalmarkt zu gehen
+
+---PAGE---
+
+Irrelevanz von Banken in vollkommenen KapitalmÃ¤rkten
+â–¶ Banken sind in vollkommenen KapitalmÃ¤rkten irrelevant
+(das heiÃŸt, sie schaffen keinen Mehrwert)
+â–¶ Grund: Schuldverschreibungen/Anleihen und Kredite sind
+vollstÃ¤ndige Substitute
+â–¶ Die ZahlungsstrÃ¶me eines Bankkredits kÃ¶nnen durch den Kauf
+und Verkauf von geeigneten Wertpapieren repliziert werden
+â–¶ Daher kann die Existenz von Banken nur in einem
+Modellrahmen erklÃ¤rt werden, in dem die Annahmen von
+Modigliani und Miller Ã¼ber den vollkommenen Kapitalmarkt
+nicht erfÃ¼llt sind, so dass Kapitalmarktfriktionen bestehen
+
+---PAGE---
+
+Irrelevanz von Banken in vollkommenen KapitalmÃ¤rkten
+â–¶ MÃ¶gliche Friktionen:
+â–¶ Transaktionskosten (weniger interessant, vgl. vorne)
+â–¶ Asymmetrische Informationsverteilung (hier!)
+â–¶ Zentrale Frage: Welche Finanzinstitutionen kÃ¶nnen die
+existierenden Informationsprobleme (und die daraus
+resultierenden Anreizprobleme) am besten lÃ¶sen?
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+â–¶ Literatur: Diamond/Dybvig (1983), Journal of Political
+Economy, 401â€“419
+â–¶ Hier: Erster Teil des Aufsatzes von Diamond/Dybvig, zweiter
+Teil wird in Kapitel 6 (Finanzkrisen und systemische Risiken)
+besprochen
+â–¶ Modellierung von Banken als Versicherung gegen
+LiquiditÃ¤tsschocks, gleichzeitig Standardmodell von Bank
+Runs
+â–¶ Bis heute einer der einflussreichsten Artikel in der
+Bankenliteratur
+â–¶ VorgÃ¤ngerpapier mit Ã¤hnlicher Grundidee:
+Bryant (Journal of Banking and Finance, 1980)
+
+---PAGE---
+
+Motivation
+â–¶ Modellierung der Fristentransformation durch Banken
+â–¶ Grundidee:
+â–¶ Haushalte wissen nicht genau, wann sie konsumieren mÃ¶chten
+(â€œLiquiditÃ¤tsschocksâ€): Es gibt â€œfrÃ¼heâ€ und â€œspÃ¤teâ€
+Konsumenten
+â–¶ Langfristige Investitionen bringen einen hohen Ertrag, der
+jedoch nur realisiert werden kann, wenn das Projekt nicht
+vorzeitig liquidiert wird
+â–¶ UÂ¨ber einen Einlagenvertrag mit jederzeitiger
+AbhebemÃ¶glichkeit (Sichteinlagen) versichert die Bank den
+Einleger dagegen, ein â€œfrÃ¼her Konsumentâ€ zu sein
+â–¶ Ergebnis: Die Bank kann durch Fristentransformation die
+Gesamtwohlfahrt gegenÃ¼ber einer MarktlÃ¶sung (ohne
+IntermediÃ¤r) erhÃ¶hen
+
+---PAGE---
+
+Motivation
+â–¶ Warum funktioniert das? Da die LiquiditÃ¤tsschocks
+unabhÃ¤ngig sind, ist der Anteil der frÃ¼hen und spÃ¤ten
+Konsumenten aus Sicht der Bank (nÃ¤herungsweise) bekannt,
+sofern die Anzahl der Haushalte groÃŸ genug ist
+(â€œGesetz der GroÃŸen Zahlenâ€)
+â–¶ Problem:
+â–¶ Gefahr eines Bank Runs
+â–¶ Da die Bank â€œilliquideâ€ ist, reichen ihre Mittel nicht aus, allen
+gleichzeitig ihre Einlagen (inklusive Zinsen) zurÃ¼ckzuzahlen
+â–¶ Wenn die Einleger erwarten, dass die anderen Einleger ihre
+Einlagen abziehen, dann ist es auch fÃ¼r sie optimal, ihre
+Einlagen abzuziehen (selbsterfÃ¼llende Erwartungen)
+â–¶ Wichtiger Beitrag des Modells: Gleichzeitige ErklÃ¤rung der
+Existenz und der FragilitÃ¤t von Banken
+
+---PAGE---
+
+Zentrale Ergebnisse des Modells
+1. Banken, die sich Ã¼ber Sichteinlagen finanzieren, kÃ¶nnen die
+Gesamtwohlfahrt gegenÃ¼ber einer MarktlÃ¶sung (ohne
+IntermediÃ¤r) erhÃ¶hen, indem sie die Einleger gegen
+LiquiditÃ¤tsschocks versichern â†’ Optimale Risikoteilung
+2. Es gibt jedoch auch ein â€œschlechtesâ€ Gleichgewicht, das zu
+einem Bank Run fÃ¼hrt â†’ Kapitel 6
+Bank Runs verursachen reale Kosten, weil Banken
+zusammenbrechen kÃ¶nnen, die solvent, aber illiquide sind
+Kosten von Bank Runs im Modell: Liquidation langfristiger
+Projekte, ZerstÃ¶rung der optimalen Risikoteilung
+
+---PAGE---
+
+Annahmen
+â–¶ Ein homogenes Gut = Konsum- und Investitionsgut
+â–¶ Kontinuum von Konsumenten: i âˆˆ (0,1)
+â–¶ Identisch in Periode 0 (ex ante)
+â–¶ 3 Zeitperioden: t = 0,1,2
+â–¶ t =0: Konsumenten investieren ihre Anfangsausstattung
+(= 1 Einheit des Gutes)
+â–¶ t =1: Konsumenten lernen ihren Typ (â€œfrÃ¼hâ€ vs. â€œspÃ¤tâ€) und
+kÃ¶nnen langfristige Projekte liquidieren; â€œfrÃ¼heâ€ Typen
+konsumieren
+â–¶ t =2: Langfristiges Projekt wird fÃ¤llig; â€œspÃ¤teâ€ Typen
+konsumieren
+
+---PAGE---
+
+2 Produktionstechnologien
+1. Lagerhaltung
+2. Risikolose Produktionstechnologie mit konstanten
+SkalenertrÃ¤gen (d.h., der Ertrag pro investierter Einheit ist
+derselbe, egal wie viele Einheiten investiert werden)
+t = 0 t = 1 t = 2
+Lagerhaltung âˆ’1 +1
+âˆ’1 +1
+Langfristige Produktionstechnologie
+â€“ ohne Liquidation âˆ’1 +R > 1
+â€“ mit Liquidation âˆ’1 +L < 1
+â–¶ Bei frÃ¼her Liquidation erhÃ¤lt man weniger als die ursprÃ¼ngliche
+Investitionssumme zurÃ¼ck (IrreversibilitÃ¤t der Investition)
+â–¶ Man beachte: Hier Abweichung von DD! Dort: L = 1
+â†’ Liquidation fÃ¼hrt zu demselben Ertrag wie Lagerung
+
+---PAGE---
+
+Konsumenten
+â–¶ Konsumenten sind mit Wahrscheinlichkeit Ï€ 1 âˆˆ (0,1) vom
+Typ 1 (â€œfrÃ¼he Konsumentenâ€): Sie wollen nur in Periode 1
+konsumieren, d.h. U = u(C )
+1
+â–¶ Konsumenten sind mit Wahrscheinlichkeit Ï€ 2 = 1âˆ’Ï€ 1 vom
+Typ 2 (â€œspÃ¤te Konsumentenâ€): Sie wollen nur in Periode 2
+konsumieren, d.h. U = Ïu(C ) mit Ï < 1 (Diskontfaktor)
+2
+â–¶ Beachte: FrÃ¼he Konsumenten werden nur in t = 1, spÃ¤te nur
+in t = 2 konsumieren
+â–¶ Konsumenten maximieren ihren Erwartungsnutzen
+â–¶ u(Â·) streng monoton steigend, streng konkav (Risikoaversion)
+mit starker relativer Risikoaversion âˆ’c
+uâ€²â€²(c)
+> 1 âˆ€c,
+uâ€²(c)
+Inada-Bedingungen: uâ€²(0) = âˆž, uâ€²(âˆž) = 0
+
+---PAGE---
+
+Risikoaversion
+U(c)
+U(E(c))
+0.5u(c1)
++0.5u(c2)
+C
+c1 E(c)= c2
+0.5c1+0.5c2
+
+---PAGE---
+
+â–¶ Beobachtbarkeit:
+â–¶ Typen sind in Periode 0 unbekannt
+â–¶ Konsumenten lernen ihren eigenen Typ in Periode 1 = private
+Information (Informationsasymmetrie)
+â–¶ Da die Typen nicht beobachtbar sind, kÃ¶nnen VertrÃ¤ge nicht
+darauf bedingt werden
+â‡’ UnvollstÃ¤ndigkeit des Marktsystems
+â–¶ Lagerhaltung und Konsum sind ebenfalls nicht Ã¶ffentlich
+beobachtbar
+Gesetz der GroÃŸen Zahlen
+â–¶ â€œLiquiditÃ¤tsschocksâ€ der Individuen sind stochastisch
+unabhÃ¤ngig
+â–¶ Im Aggregat gilt das â€œGesetz der GroÃŸen Zahlenâ€:
+NÃ¤herungsweise ist ein Anteil Ï€ der Konsumenten vom Typ 1
+1
+und ein Anteil Ï€ der Konsumenten vom Typ 2
+2
+â‡’ Keine Unsicherheit auf aggregierter Ebene
+
+---PAGE---
+
+Gesetz der GroÃŸen Zahlen
+â–¶ â€œLiquiditÃ¤tsschocksâ€ der Individuen sind stochastisch
+unabhÃ¤ngig
+â–¶ Im Aggregat gilt das â€œGesetz der GroÃŸen Zahlenâ€:
+NÃ¤herungsweise ist ein Anteil Ï€ der Konsumenten vom Typ 1
+1
+und ein Anteil Ï€ der Konsumenten vom Typ 2
+2
+â‡’ Keine Unsicherheit auf aggregierter Ebene
+â–¶ Beobachtbarkeit:
+â–¶ Typen sind in Periode 0 unbekannt
+â–¶ Konsumenten lernen ihren eigenen Typ in Periode 1 = private
+Information (Informationsasymmetrie)
+â–¶ Da die Typen nicht beobachtbar sind, kÃ¶nnen VertrÃ¤ge nicht
+darauf bedingt werden
+â‡’ UnvollstÃ¤ndigkeit des Marktsystems
+â–¶ Lagerhaltung und Konsum sind ebenfalls nicht Ã¶ffentlich
+beobachtbar
+
+---PAGE---
+
+Analyseschritte
+(a) Autarkie
+(b) Finanzmarkt
+(c) Pareto-optimale Allokation (First-best-LÃ¶sung)
+(d) Implementierung der First-best-LÃ¶sung durch einen
+FinanzintermediÃ¤r
+
+---PAGE---
+
+unter den Nebenbedingungen:
+C = (1âˆ’I)+LI = 1âˆ’I (1âˆ’L) â‰¤ 1 (Gleichheit fÃ¼r I = 0)
+1
+C = (1âˆ’I)+RI = 1+I (R âˆ’1) â‰¤ R (Gleichheit fÃ¼r I = 1)
+2
+(a) Autarkie
+â–¶ Definition von Autarkie: Alle Konsumenten agieren
+unabhÃ¤ngig voneinander, insbesondere findet kein Handel
+zwischen ihnen statt
+â–¶ Notation: I = Investition in langfristige
+Produktionstechnologie, (1âˆ’I) = Investition in
+Lagertechnologie
+â–¶ Konsumenten maximieren ihren Erwartungsnutzen Ã¼ber die
+beiden ZustÃ¤nde:
+max E[U(Â·)] = Ï€ Â·u(C )+Ï€ Â·Ïu(C )
+1 1 2 2
+I
+
+---PAGE---
+
+(a) Autarkie
+â–¶ Definition von Autarkie: Alle Konsumenten agieren
+unabhÃ¤ngig voneinander, insbesondere findet kein Handel
+zwischen ihnen statt
+â–¶ Notation: I = Investition in langfristige
+Produktionstechnologie, (1âˆ’I) = Investition in
+Lagertechnologie
+â–¶ Konsumenten maximieren ihren Erwartungsnutzen Ã¼ber die
+beiden ZustÃ¤nde:
+max E[U(Â·)] = Ï€ Â·u(C )+Ï€ Â·Ïu(C )
+1 1 2 2
+I
+unter den Nebenbedingungen:
+C = (1âˆ’I)+LI = 1âˆ’I (1âˆ’L) â‰¤ 1 (Gleichheit fÃ¼r I = 0)
+1
+C = (1âˆ’I)+RI = 1+I (R âˆ’1) â‰¤ R (Gleichheit fÃ¼r I = 1)
+2
+
+---PAGE---
+
+Ergebnis
+â–¶ Mindestens eine der beiden Ungleichheiten ist strikt!
+â–¶ AuÃŸerdem gilt: C 1 â‰¥ L (Gleichheit fÃ¼r I = 1), C 2 â‰¥ 1
+(Gleichheit fÃ¼r I = 0)
+â–¶ Beachte: Mindestens einer der beiden Typen (i.A. sogar
+beide) fÃ¤llt eine ineffiziente Investitionsentscheidung
+â–¶ Ex post wÃ¤re es effizienter, wenn Typ 1 nur in die
+Lagerhaltung (I = 0) und Typ 2 nur in die langfristige
+Technologie (I = 1) investieren wÃ¼rde
+â–¶ Frage: WÃ¼rde ein Markt zu einer effizienteren Allokation
+fÃ¼hren?
+
+---PAGE---
+
+â–¶ Neue Nebenbedingungen der Konsumenten:
+C = (1âˆ’I)+pRI = 1+(pR âˆ’1)I
+1
+(1âˆ’I) 1
+C = +RI = [1+(pR âˆ’1)I]
+2
+p p
+(b) Finanzmarkt
+â–¶ Annahme: In Periode 1 gibt es einen kompetitiven
+Finanzmarkt, auf dem GÃ¼ter gegen ein risikoloses
+(festverzinsliches) Wertpapier gehandelt werden kÃ¶nnen, das
+einen Anspruch auf GÃ¼ter in Periode 2 beinhaltet
+â–¶ In t =0 sind alle Konsumenten identisch â‡’ Identische
+Investitionsentscheidungen, kein Bedarf fÃ¼r Handel
+â–¶ Sei p der Preis eines Wertpapiers (in Einheiten des
+Konsumgutes), der in Periode 2 eine Einheit des Konsumgutes
+auszahlt
+â–¶ p â‰¤1: Ansonsten wÃ¼rde der potenzielle KÃ¤ufer des
+Wertpapiers (Typ 2) lieber Lagerhaltung betreiben
+
+---PAGE---
+
+(b) Finanzmarkt
+â–¶ Annahme: In Periode 1 gibt es einen kompetitiven
+Finanzmarkt, auf dem GÃ¼ter gegen ein risikoloses
+(festverzinsliches) Wertpapier gehandelt werden kÃ¶nnen, das
+einen Anspruch auf GÃ¼ter in Periode 2 beinhaltet
+â–¶ In t =0 sind alle Konsumenten identisch â‡’ Identische
+Investitionsentscheidungen, kein Bedarf fÃ¼r Handel
+â–¶ Sei p der Preis eines Wertpapiers (in Einheiten des
+Konsumgutes), der in Periode 2 eine Einheit des Konsumgutes
+auszahlt
+â–¶ p â‰¤1: Ansonsten wÃ¼rde der potenzielle KÃ¤ufer des
+Wertpapiers (Typ 2) lieber Lagerhaltung betreiben
+â–¶ Neue Nebenbedingungen der Konsumenten:
+C = (1âˆ’I)+pRI = 1+(pR âˆ’1)I
+1
+(1âˆ’I) 1
+C = +RI = [1+(pR âˆ’1)I]
+2
+p p
+
+---PAGE---
+
+â–¶ Folge:
+C = 1
+1
+C = R
+2
+Gleichgewicht
+â–¶ FÃ¼r pR > 1 mÃ¶chten alle Konsumenten I = 1 wÃ¤hlen, da
+dadurch beide BR gelockert werden â‡’ In Periode 1 wird es
+keine Nachfrage nach Wertpapieren geben, sondern nur ein
+Angebot
+â–¶ FÃ¼r pR < 1 mÃ¶chten alle Konsumenten I = 0 wÃ¤hlen, da
+dadurch beide BR gelockert werden â‡’ In Periode 1 wird es
+kein Angebot an Wertpapieren geben, sondern nur eine
+Nachfrage
+â–¶ Beides kÃ¶nnen keine Gleichgewichte sein
+â‡’ Einziges Gleichgewicht ist pR = 1 â‡” p = 1
+R
+
+---PAGE---
+
+Gleichgewicht
+â–¶ FÃ¼r pR > 1 mÃ¶chten alle Konsumenten I = 1 wÃ¤hlen, da
+dadurch beide BR gelockert werden â‡’ In Periode 1 wird es
+keine Nachfrage nach Wertpapieren geben, sondern nur ein
+Angebot
+â–¶ FÃ¼r pR < 1 mÃ¶chten alle Konsumenten I = 0 wÃ¤hlen, da
+dadurch beide BR gelockert werden â‡’ In Periode 1 wird es
+kein Angebot an Wertpapieren geben, sondern nur eine
+Nachfrage
+â–¶ Beides kÃ¶nnen keine Gleichgewichte sein
+â‡’ Einziges Gleichgewicht ist pR = 1 â‡” p = 1
+R
+â–¶ Folge:
+C = 1
+1
+C = R
+2
+
+---PAGE---
+
+Gleichgewicht
+â–¶ Angebot von Wertpapieren bs = Nachfrage nach
+Wertpapieren bd:
+(1âˆ’I)
+Ï€ bs = RI Ï€ = (1âˆ’Ï€ ) = Ï€ bd
+1 1 1 2
+p
+= R(1âˆ’I)(1âˆ’Ï€ )
+1
+â‡” I Ï€ = (1âˆ’I)(1âˆ’Ï€ )
+1 1
+â‡” I = 1âˆ’Ï€
+1
+â–¶ Folge: Jeder Konsument investiert gerade einen Anteil
+(1âˆ’Ï€ ) = Ï€ in die langfristige Technologie
+1 2
+â–¶ In Periode 1 verkauft Typ 1 Wertpapiere (gegen
+Periode-1-Konsum), die von Typ 2 gekauft werden
+â–¶ So kÃ¶nnen ineffiziente Liquidation und ineffiziente
+Lagerhaltung vermieden werden
+
+---PAGE---
+
+Ergebnis
+â–¶ Die MarktlÃ¶sung erhÃ¶ht die Wohlfahrt relativ zur Autarkie
+â–¶ Dort gilt: C <1 oder C <R
+1 2
+â–¶ Grund: Bei der MarktlÃ¶sung kommt es nicht zu ineffizienten
+Liquidationen oder ineffizienter Lagerhaltung wie im
+Autarkiefall
+â–¶ Im Aggregat entspricht die Lagerhaltung gerade dem Konsum
+der frÃ¼hen Konsumenten, wÃ¤hrend der Ertrag der langfristigen
+Investitionen gerade dem Konsum der spÃ¤ten Konsumenten
+entspricht
+â–¶ Frage: Ist dies das bestmÃ¶gliche Ergebnis?
+
+---PAGE---
+
+(c) Pareto-optimale Allokation (First-best-LÃ¶sung)
+â–¶ Betrachte Maximierungsproblem eines allwissenden sozialen
+Planers, der die Typen beobachten kann
+â–¶ Da alle Konsumenten ex ante identisch sind, kÃ¶nnen wir uns
+auf symmetrische Allokationen beschrÃ¤nken
+â–¶ Maximierungsproblem des sozialen Planers:
+max Ï€ Â·u(C )+Ï€ Â·Ïu(C )
+1 1 2 2
+C ,C
+1 2
+C
+s.t. Ï€ Â·C +Ï€ Â· 2 = 1
+1 1 2
+R
+â–¶ Nebenbedingung = Ressourcenrestriktion:
+Gegenwartswert des Konsums = Ausstattung
+
+---PAGE---
+
+Bedingungen erster Ordnung
+â–¶ LÃ¶sung Ã¼ber Lagrange-Ansatz:
+(1) Ï€ uâ€²(Câˆ—)âˆ’Î»Ï€ = 0
+1 1 1
+Ï€
+(2) Ï€ Ïuâ€²(Câˆ—)âˆ’Î» 2 = 0
+2 2 R
+â‡’ (2â€²) uâ€²(Câˆ—) = ÏRuâ€²(Câˆ—)
+1 2
+Câˆ—
+(3) Ï€ Â·Câˆ—+Ï€ Â· 2 = 1
+1 1 2 R
+
+---PAGE---
+
+â‡’ Die MarktlÃ¶sung verletzt die FOC, ist also nicht effizient!
+â–¶ FÃ¼r dieses Ergebnis ist Risikoaversion allein nicht hinreichend,
+wir benÃ¶tigen relativ starke Risikoaversion
+â–¶ Folge: C 1 muss erhÃ¶ht und C 2 muss gesenkt werden!
+â‡’ Im First-best-Optimum gilt: Câˆ— > 1,Câˆ— < R
+1 2
+â–¶ Typ 1 konsumiert mehr als bei der MarktlÃ¶sung, Typ 2 weniger
+â‡’ Versicherung in dem Sinne, dass der Konsum Ã¼ber die
+beiden ZustÃ¤nde geglÃ¤ttet wird
+Interpretation
+â–¶ Wenn die MarktlÃ¶sung die Bedingungen erster Ordnung
+(FOC) verletzt, kann sie nicht effizient sein
+â–¶ Einsetzen der MarktlÃ¶sung in (2â€™): Mit Hilfe der obigen
+Annahmen lÃ¤sst sich zeigen, dass uâ€²(1) > ÏRuâ€²(R)
+
+---PAGE---
+
+â–¶ Folge: C 1 muss erhÃ¶ht und C 2 muss gesenkt werden!
+â‡’ Im First-best-Optimum gilt: Câˆ— > 1,Câˆ— < R
+1 2
+â–¶ Typ 1 konsumiert mehr als bei der MarktlÃ¶sung, Typ 2 weniger
+â‡’ Versicherung in dem Sinne, dass der Konsum Ã¼ber die
+beiden ZustÃ¤nde geglÃ¤ttet wird
+Interpretation
+â–¶ Wenn die MarktlÃ¶sung die Bedingungen erster Ordnung
+(FOC) verletzt, kann sie nicht effizient sein
+â–¶ Einsetzen der MarktlÃ¶sung in (2â€™): Mit Hilfe der obigen
+Annahmen lÃ¤sst sich zeigen, dass uâ€²(1) > ÏRuâ€²(R)
+â‡’ Die MarktlÃ¶sung verletzt die FOC, ist also nicht effizient!
+â–¶ FÃ¼r dieses Ergebnis ist Risikoaversion allein nicht hinreichend,
+wir benÃ¶tigen relativ starke Risikoaversion
+
+---PAGE---
+
+Interpretation
+â–¶ Wenn die MarktlÃ¶sung die Bedingungen erster Ordnung
+(FOC) verletzt, kann sie nicht effizient sein
+â–¶ Einsetzen der MarktlÃ¶sung in (2â€™): Mit Hilfe der obigen
+Annahmen lÃ¤sst sich zeigen, dass uâ€²(1) > ÏRuâ€²(R)
+â‡’ Die MarktlÃ¶sung verletzt die FOC, ist also nicht effizient!
+â–¶ FÃ¼r dieses Ergebnis ist Risikoaversion allein nicht hinreichend,
+wir benÃ¶tigen relativ starke Risikoaversion
+â–¶ Folge: C 1 muss erhÃ¶ht und C 2 muss gesenkt werden!
+â‡’ Im First-best-Optimum gilt: Câˆ— > 1,Câˆ— < R
+1 2
+â–¶ Typ 1 konsumiert mehr als bei der MarktlÃ¶sung, Typ 2 weniger
+â‡’ Versicherung in dem Sinne, dass der Konsum Ã¼ber die
+beiden ZustÃ¤nde geglÃ¤ttet wird
+
+---PAGE---
+
+LiquiditÃ¤tsversicherung
+â–¶ Da die Konsumenten sehr risikoavers sind, wollen sie Ã¼ber die
+ZustÃ¤nde hinweg mÃ¶glichst geringe Konsumschwankungen
+haben
+â–¶ Insbesondere wollen sie sich dagegen versichern, Typ 1 zu sein
+(besonders geringe Auszahlung)
+â–¶ Folge: Es ist ex ante optimal, den Konsum im Zustand 1 zu
+erhÃ¶hen und den Konsum im Zustand 2 zu senken
+â–¶ Ex post stellt nur Typ 1 sich besser, wÃ¤hrend Typ 2 sich
+schlechter stellt
+
+---PAGE---
+
+1. Typ 1 mÃ¶chte Typ 2 nicht imitieren, weil ihm Konsum im
+Zeitpunkt 2 keinen Nutzen stiftet
+2. Typ 2 mÃ¶chte Typ 1 nicht imitieren, wenn ÏR >1. Dann folgt
+aus der Optimalbedingung:
+uâ€²(Câˆ—)>uâ€²(Câˆ—)â‡”Câˆ— <Câˆ— â‡”u(Câˆ—)<u(Câˆ—)
+1 2 1 2 1 2
+â–¶ Folge: Wenn ÏR > 1, muss es einen â€œMechanismusâ€ geben,
+mit dem man den optimalen Vertrag implementieren kann
+(â€œRevelation Principleâ€)
+(d) Implementierung der First-best-LÃ¶sung durch einen
+FinanzintermediÃ¤r
+â–¶ Vertrag kann in der MarktÃ¶konomie nicht implementiert
+werden, weil VertrÃ¤ge nicht auf die Typen bedingt werden
+kÃ¶nnen
+â–¶ Frage: Hat einer der Typen einen Anreiz, den anderen Typen
+zu imitieren, d.h. erfÃ¼llt die First-best-LÃ¶sung die
+AnreizvertrÃ¤glichkeitsbedingungen?
+
+---PAGE---
+
+(d) Implementierung der First-best-LÃ¶sung durch einen
+FinanzintermediÃ¤r
+â–¶ Vertrag kann in der MarktÃ¶konomie nicht implementiert
+werden, weil VertrÃ¤ge nicht auf die Typen bedingt werden
+kÃ¶nnen
+â–¶ Frage: Hat einer der Typen einen Anreiz, den anderen Typen
+zu imitieren, d.h. erfÃ¼llt die First-best-LÃ¶sung die
+AnreizvertrÃ¤glichkeitsbedingungen?
+1. Typ 1 mÃ¶chte Typ 2 nicht imitieren, weil ihm Konsum im
+Zeitpunkt 2 keinen Nutzen stiftet
+2. Typ 2 mÃ¶chte Typ 1 nicht imitieren, wenn ÏR >1. Dann folgt
+aus der Optimalbedingung:
+uâ€²(Câˆ—)>uâ€²(Câˆ—)â‡”Câˆ— <Câˆ— â‡”u(Câˆ—)<u(Câˆ—)
+1 2 1 2 1 2
+â–¶ Folge: Wenn ÏR > 1, muss es einen â€œMechanismusâ€ geben,
+mit dem man den optimalen Vertrag implementieren kann
+(â€œRevelation Principleâ€)
+
+---PAGE---
+
+Implementierung der First-best-LÃ¶sung durch
+FinanzintermediÃ¤r
+â–¶ Die Bank nimmt Einlagen in HÃ¶he von 1 entgegen
+â–¶ Die Bank verspricht den Einlegern, die in t = 1 abziehen, eine
+Auszahlung von r = Câˆ— (diese kann nur gezahlt werden,
+1 1
+wenn die Bank solvent ist)
+â–¶ Die Bank investiert Ï€ 1 r 1 = Ï€ 1 C 1 âˆ— in die Lagerhaltung und den
+Rest in das langfristige Projekt
+â–¶ Bankbilanz:
+Aktiva Passiva
+Reserven Sichteinlagen
+(Lagerhaltung)
+Langfristige
+Projekte
+
+---PAGE---
+
+â–¶ Ein Typ-1-Einleger kann sich nicht dadurch verbessern, dass er
+in t =2 abzieht, da ihm Konsum in t =2 keinen Nutzen stiftet
+â–¶ Typ 2 kann sich ebenfalls nicht verbessern, da die
+Wahrscheinlichkeit der RÃ¼ckzahlung (d.h. der Solvenz der
+Bank) gegeben das Verhalten der anderen Einleger gleich 1 ist
+und u(Câˆ—)<u(Câˆ—)
+1 2
+Gleichgewicht
+â–¶ â€œGutesâ€ Gleichgewicht: Wenn alle Konsumenten in die
+StabilitÃ¤t der Bank vertrauen, lÃ¤sst sich die First-best-LÃ¶sung
+erreichen
+â–¶ Typ-1-Einleger ziehen ihre Einlagen in t =1 ab (dies entspricht
+gerade der Lagerhaltung, Gesetz der GroÃŸen Zahlen)
+â–¶ Typ-2-Einleger warten bis zur Periode 2 und erhalten Ï€ Câˆ—
+2 2
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€, oder kann
+sich irgendein Spieler verbessern, indem er abweicht?
+
+---PAGE---
+
+Gleichgewicht
+â–¶ â€œGutesâ€ Gleichgewicht: Wenn alle Konsumenten in die
+StabilitÃ¤t der Bank vertrauen, lÃ¤sst sich die First-best-LÃ¶sung
+erreichen
+â–¶ Typ-1-Einleger ziehen ihre Einlagen in t =1 ab (dies entspricht
+gerade der Lagerhaltung, Gesetz der GroÃŸen Zahlen)
+â–¶ Typ-2-Einleger warten bis zur Periode 2 und erhalten Ï€ Câˆ—
+2 2
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€, oder kann
+sich irgendein Spieler verbessern, indem er abweicht?
+â–¶ Ein Typ-1-Einleger kann sich nicht dadurch verbessern, dass er
+in t =2 abzieht, da ihm Konsum in t =2 keinen Nutzen stiftet
+â–¶ Typ 2 kann sich ebenfalls nicht verbessern, da die
+Wahrscheinlichkeit der RÃ¼ckzahlung (d.h. der Solvenz der
+Bank) gegeben das Verhalten der anderen Einleger gleich 1 ist
+und u(Câˆ—)<u(Câˆ—)
+1 2
+
+---PAGE---
+
+Fazit
+â–¶ UÂ¨ber FinanzintermediÃ¤re lÃ¤sst sich ein Ergebnis erreichen, das
+â€“ bei Eintreten des guten Gleichgewichts â€“ besser ist als die
+MarktlÃ¶sung
+â–¶ Problem: Es gibt noch ein anderes, â€œschlechtesâ€
+Gleichgewicht (Bank Run), das strikt schlechter ist als die
+MarktlÃ¶sung â†’ Kapitel 7
+
+---PAGE---
+
+Â¨
+Ubung 5
+â–¶ Zu finden auf eCampus
+â–¶ LÃ¶sungen in der Vorlesung
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983)
+â–¶ Wichtiges Papier, das gleichzeitig die Existenz von Banken
+und Bank Runs erklÃ¤rt
+â–¶ Aktivseite der Bank (Kreditvergabe) wird nicht modelliert
+â–¶ Projekte auf der Aktivseite der Bank sind risikolos (keine
+Unsicherheit!), keine Informationsprobleme auf der Aktivseite
+â–¶ In der RealitÃ¤t ist das AktivgeschÃ¤ft riskant und mit
+Informationsproblemen behaftet
+â–¶ Modellierung der Risikotransformationfunktion von Banken bei
+Diamond (Review of Economic Studies, 1984) â†’ 6.2
+â–¶ Ergebnisse hÃ¤ngen entscheidend von der Annahme ab, dass es
+keine weiteren WertpapiermÃ¤rkte (z.B. AktienmÃ¤rkte) gibt
+und dass Einlagen nicht handelbar sind (Jacklin 1987)
+â–¶ Bankeinlagen sind hier keine Zahlungsmittel
+â†’ Keine Aussage Ã¼ber Rolle von Banken im Zahlungssystem
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+5.2 Delegierte Kontrolle
+â–¶ Literatur: Diamond (1984), Review of Economic Studies,
+393â€“414 (leicht verÃ¤nderte Notation im Vergleich zum Paper)
+â–¶ Zweites zentrales Modell zur ErklÃ¤rung der Existenz von
+Banken
+â–¶ Modellierung der Risikotransformation durch Banken
+â–¶ Banken vergeben riskante Kredite
+â–¶ Einleger halten risikolose(re) Einlagen
+â–¶ Zentrale Frage: Warum kÃ¶nnen Banken einen besseren
+Rendite-Risiko-Trade-off bieten als der Markt?
+
+---PAGE---
+
+â–¶ LÃ¶sung: Durch die gleichzeitige Finanzierung mehrerer
+Projekte und die damit verbundene Diversifikation kÃ¶nnen
+die Kosten der Delegation vermindert werden
+(im Extremfall bis auf null)
+â–¶ Ergebnis: Einschaltung eines FinanzintermediÃ¤rs dominiert
+eine direkte Finanzbeziehung ohne IntermediÃ¤r
+Grundidee des Modells
+â–¶ Unternehmer unterliegen einem Anreizproblem und mÃ¼ssen
+daher kontrolliert werden
+â–¶ FinanzintermediÃ¤re ermÃ¶glichen eine Ersparnis von
+Kontrollkosten, wenn sie stellvertretend die UÂ¨berwachung
+der Unternehmen Ã¼bernehmen
+(bis hierhin reines Transaktionskostenargument)
+â–¶ Zentrales Problem: Wer kontrolliert den Kontrolleur?
+
+---PAGE---
+
+Grundidee des Modells
+â–¶ Unternehmer unterliegen einem Anreizproblem und mÃ¼ssen
+daher kontrolliert werden
+â–¶ FinanzintermediÃ¤re ermÃ¶glichen eine Ersparnis von
+Kontrollkosten, wenn sie stellvertretend die UÂ¨berwachung
+der Unternehmen Ã¼bernehmen
+(bis hierhin reines Transaktionskostenargument)
+â–¶ Zentrales Problem: Wer kontrolliert den Kontrolleur?
+â–¶ LÃ¶sung: Durch die gleichzeitige Finanzierung mehrerer
+Projekte und die damit verbundene Diversifikation kÃ¶nnen
+die Kosten der Delegation vermindert werden
+(im Extremfall bis auf null)
+â–¶ Ergebnis: Einschaltung eines FinanzintermediÃ¤rs dominiert
+eine direkte Finanzbeziehung ohne IntermediÃ¤r
+
+---PAGE---
+
+Asymmetrische Information in Finanzierungsbeziehungen
+â–¶ Zur Erinnerung: Arten der Informationsasymmetrie:
+â–¶ Ex ante: QualitÃ¤tsunsicherheit zu Beginn einer
+Finanzierungsbeziehung (â€œhidden characteristicsâ€)
+â†’ Adverse Selektion
+â–¶ Ex post: Verhaltensunsicherheit wÃ¤hrend einer
+Finanzierungsbeziehung (â€œhidden actionâ€)
+â†’ Moral Hazard
+
+---PAGE---
+
+Asymmetrische Information in Finanzierungsbeziehungen
+â–¶ 2 Arten von LÃ¶sungen:
+1. Abbau von Informationsasymmetrien, z.B. durch Kontrolle
+2. Anreizkompatible VertrÃ¤ge: VertrÃ¤ge werden so ausgestaltet,
+dass die informierte Partei den Anreiz hat, sich so wie
+erwÃ¼nscht zu verhalten
+â–¶ Beide Arten von LÃ¶sungen verursachen Kosten
+1. Kontrollkosten (monitoring costs)
+2. First-best-LÃ¶sungen erfÃ¼llen hÃ¤ufig nicht die Bedingung der
+AnreizkompatibilitÃ¤t
+â†’ Second-best-LÃ¶sung, Kosten = Differenz zwischen
+First-best- und Second-best-LÃ¶sung
+
+---PAGE---
+
+â–¶ Beispiel 2:
+â–¶ Kapitalnehmer hat den Anreiz, sich zu wenig anzustrengen
+oder Ã¼bermÃ¤ÃŸige Risiken einzugehen (excessive risk-taking)
+â–¶ Kapitalgeber antizipiert das Verhalten des Kapitalnehmers und
+berÃ¼cksichtigt dies bei der Zinssetzung
+â–¶ Im Extremfall kommt die Finanztransaktion gar nicht
+zustande, obwohl sie fÃ¼r beide Seiten vorteilhaft ist
+Asymmetrische Information in Finanzierungsbeziehungen
+â–¶ Informationsprobleme schaden i.d.R. beiden Seiten der
+Finanztransaktion
+â–¶ Beispiel 1:
+â–¶ Kapitalgeber muss Kontrollkosten aufwenden, um
+unerwÃ¼nschtes Verhalten zu verhindern
+â–¶ Kosten der Kontrolle werden an Kapitalnehmer (teilweise)
+weitergegeben (abhÃ¤ngig von Marktmacht)
+
+---PAGE---
+
+Asymmetrische Information in Finanzierungsbeziehungen
+â–¶ Informationsprobleme schaden i.d.R. beiden Seiten der
+Finanztransaktion
+â–¶ Beispiel 1:
+â–¶ Kapitalgeber muss Kontrollkosten aufwenden, um
+unerwÃ¼nschtes Verhalten zu verhindern
+â–¶ Kosten der Kontrolle werden an Kapitalnehmer (teilweise)
+weitergegeben (abhÃ¤ngig von Marktmacht)
+â–¶ Beispiel 2:
+â–¶ Kapitalnehmer hat den Anreiz, sich zu wenig anzustrengen
+oder Ã¼bermÃ¤ÃŸige Risiken einzugehen (excessive risk-taking)
+â–¶ Kapitalgeber antizipiert das Verhalten des Kapitalnehmers und
+berÃ¼cksichtigt dies bei der Zinssetzung
+â–¶ Im Extremfall kommt die Finanztransaktion gar nicht
+zustande, obwohl sie fÃ¼r beide Seiten vorteilhaft ist
+
+---PAGE---
+
+Informationsproblem bei Diamond (1984)
+â–¶ Costly State Verification: Kapitalgeber kÃ¶nnen die ErtrÃ¤ge
+des finanzierten Projekts nur bei Aufwendung von Kosten
+beobachten (Gale/Hellwig, 1985)
+â–¶ Kapitalnehmer haben den Anreiz, hohe ErtrÃ¤ge zu
+verschweigen, um die RÃ¼ckzahlung des Kredits zu umgehen
+â–¶ LÃ¶sungsmÃ¶glichkeiten:
+1. Kontrolle â†’ Kontrollkosten
+2. Anreizkompatibler Vertrag, hier: Kreditvertrag mit
+(nicht-monetÃ¤ren) Strafen bei zu geringer RÃ¼ckzahlung
+â†’ Auch hier Kosten, da Strafen auch gezahlt werden mÃ¼ssen,
+wenn der Unternehmer wahrheitsgemÃ¤ÃŸ geringe ErtrÃ¤ge angibt
+
+---PAGE---
+
+Annahmen des Modells
+â–¶ N risikoneutrale Unternehmer benÃ¶tigen je 1 Geldeinheit, um
+ein Projekt durchzufÃ¼hren
+â–¶ Eine groÃŸe Anzahl risikoneutraler Investoren (> NÂ·m) mÃ¶chte
+je 1/m Geldeinheiten investieren
+â–¶ Kreditangebot > Kreditnachfrage
+â–¶ Folge: Investoren kÃ¶nnen auf ihren Reservationsnutzen
+â€œgedrÃ¼cktâ€ werden
+â–¶ Alternative Geldanlage erbringt erwartete Rendite von R
+â–¶ Folge: Investoren beteiligen sich an der Finanzierung der
+Unternehmen nur, wenn die erwartete Rendite mindestens R
+betrÃ¤gt
+â–¶ Aufgrund des UÂ¨berschussangebots an Krediten erhalten die
+Investoren im Erwartungswert genau R
+
+---PAGE---
+
+Investitionsprojekte der Unternehmer
+â–¶ t = 0: Investition von einer Geldeinheit
+â–¶ t = 1: ZufÃ¤lliger Ertrag yËœ
+â–¶ E(yËœ)>R, d.h., eine DurchfÃ¼hrung des Projekts ist bei
+vollstÃ¤ndiger Information effizient
+â–¶ Projekte verschiedener Unternehmer sind stochastisch
+unabhÃ¤ngig
+â–¶ Asymmetrische Information: Nur der Unternehmer kann die
+Realisation von yËœ beobachten
+â–¶ Arten der Finanzierung:
+(a) Direkte Finanzierung
+(b) Indirekte Finanzierung Ã¼ber einen FinanzintermediÃ¤r
+
+---PAGE---
+
+â‡’ Unternehmer wÃ¼rde immer behaupten, der Ertrag sei gleich
+null
+â‡’ RÃ¼ckzahlung = null
+â‡’ Kapitalgeber wÃ¼rden dies antizipieren und erst gar kein
+Kapital bereitstellen
+â–¶ Also kÃ¤me einer solcher Vertrag nicht zustande
+(a) Direkte Finanzierung
+â–¶ Informationsproblem schrÃ¤nkt den Raum sinnvoller
+FinanzierungsvertrÃ¤ge ein
+â–¶ Beispiel: Vereinbarung einer RÃ¼ckzahlung, die prozentual zum
+Projektertrag ist
+
+---PAGE---
+
+(a) Direkte Finanzierung
+â–¶ Informationsproblem schrÃ¤nkt den Raum sinnvoller
+FinanzierungsvertrÃ¤ge ein
+â–¶ Beispiel: Vereinbarung einer RÃ¼ckzahlung, die prozentual zum
+Projektertrag ist
+â‡’ Unternehmer wÃ¼rde immer behaupten, der Ertrag sei gleich
+null
+â‡’ RÃ¼ckzahlung = null
+â‡’ Kapitalgeber wÃ¼rden dies antizipieren und erst gar kein
+Kapital bereitstellen
+â–¶ Also kÃ¤me einer solcher Vertrag nicht zustande
+
+---PAGE---
+
+Direkte Finanzierung
+â–¶ Beachte: Kosten der asymmetrischen Information gehen in
+diesem Modell immer zu Lasten der Unternehmer
+(Kapitalgeber erhalten im Erwartungswert immer R)
+â‡’ Unternehmer hat selbst ein Interesse daran, VertrÃ¤ge
+abzuschlieÃŸen, die seinen Verhaltensspielraum einengen
+â–¶ Zwei MÃ¶glichkeiten
+1. Kontrolle (monitoring)
+2. Anreizkompatibler Vertrag mit nicht-monetÃ¤ren Strafen
+
+---PAGE---
+
+1. Vertrag mit Kontrolle
+â–¶ Bei direkter Finanzierung mÃ¼ssen die Unternehmer durch
+jeden Kapitalgeber kontrolliert werden
+â–¶ Kosten der Kontrolle: mÂ·K
+(m = Anzahl der Kapitalgeber pro Unternehmer)
+
+---PAGE---
+
+2. Anreizkompatibler Vertrag mit nicht-monetÃ¤ren Strafen
+â–¶ â€œNicht-monetÃ¤reâ€ Strafen: Strafen kÃ¶nnen auch dann
+verhÃ¤ngt werden, wenn der Unternehmer kein VermÃ¶gen
+besitzt (oder dies zumindest behauptet)
+â–¶ Strafe erbringt den Kapitalgebern keinen Nutzen und ist
+(abgesehen von den Anreizwirkungen) wohlfahrtsmindernd
+â–¶ Einziger Zweck der Strafe = Abhalten des Unternehmers von
+unerwÃ¼nschtem Verhalten (Abschreckung)
+â–¶ Beispiele fÃ¼r nicht-monetÃ¤re Strafen:
+â–¶ GefÃ¤ngnisstrafen
+â–¶ Verlust des guten Rufs
+â–¶ Kosten der Jobsuche
+â–¶ Zeit im Insolvenzverfahren
+
+---PAGE---
+
+â–¶ Strafe muss hoch genug sein, um Anreizwirkung zu erzielen
+â–¶ Strafe muss so gering wie mÃ¶glich sein, um unnÃ¶tige
+Wohlfahrtskosten zu vermeiden
+Optimaler Finanzkontrakt
+â–¶ z(y) = TatsÃ¤chliche RÃ¼ckzahlung durch die Unternehmer
+â–¶ Ï•(z(y)) = Strafe, die bei einer RÃ¼ckzahlung von z(y) anfÃ¤llt
+â–¶ Ï•(z(y))=0, wenn (mindestens) der vereinbarte Betrag
+zurÃ¼ckgezahlt wird
+â–¶ Beachte: Straffunktion kann nicht direkt von y abhÃ¤ngen!
+â–¶ Anforderungen an eine optimale Straffunktion:
+
+---PAGE---
+
+Optimaler Finanzkontrakt
+â–¶ z(y) = TatsÃ¤chliche RÃ¼ckzahlung durch die Unternehmer
+â–¶ Ï•(z(y)) = Strafe, die bei einer RÃ¼ckzahlung von z(y) anfÃ¤llt
+â–¶ Ï•(z(y))=0, wenn (mindestens) der vereinbarte Betrag
+zurÃ¼ckgezahlt wird
+â–¶ Beachte: Straffunktion kann nicht direkt von y abhÃ¤ngen!
+â–¶ Anforderungen an eine optimale Straffunktion:
+â–¶ Strafe muss hoch genug sein, um Anreizwirkung zu erzielen
+â–¶ Strafe muss so gering wie mÃ¶glich sein, um unnÃ¶tige
+Wohlfahrtskosten zu vermeiden
+
+---PAGE---
+
+Optimaler Finanzkontrakt
+â–¶ Ï•âˆ—(z(y)) = max[hâˆ’z(y),0], wobei h der vereinbarte
+RÃ¼ckzahlungsbetrag ist
+â–¶ Strafe muss genau der Differenz zwischen vereinbarter und
+tatsÃ¤chlicher RÃ¼ckzahlung entsprechen
+â–¶ Folge: Die Summe aus RÃ¼ckzahlung und Strafen ist dann stets
+h, egal was der Unternehmer zurÃ¼ckzahlt (fÃ¼r z(h)â‰¤h)
+â–¶ Der Unternehmer ist dann indifferent zwischen LÃ¼gen und
+Nicht-LÃ¼gen
+â–¶ AnnahmegemÃ¤ÃŸ wird der Unternehmer in dieser Situation nicht
+lÃ¼gen
+ï¦*(z(y))
+z(y)
+h h
+z(y) y
+h h
+
+---PAGE---
+
+Optimaler Finanzkontrakt
+ï¦*(z(y))
+z(y)
+h h
+z(y) y
+h h
+â–¶ Wie hoch muss h gewÃ¤hlt werden?
+â–¶ h muss gerade so hoch sein, dass E[z(y)]=R
+â–¶ Im anreizkompatiblen Vertrag gilt: z(y)=min[h,y]
+â‡’ Unternehmer leitet alle ProjektertrÃ¤ge an die Kapitalgeber
+weiter, sofern y <h und zahlt sonst h zurÃ¼ck
+â–¶ Wie Standardkreditvertrag!
+â–¶ Im Optimum gilt, dass h > R: Aufgrund der MÃ¶glichkeit
+kleiner ProjektertrÃ¤ge muss in guten Zeiten ein
+Risikoaufschlag gezahlt werden
+
+---PAGE---
+
+Wohlfahrtskosten des Finanzkontrakts mit Strafen
+â–¶ Wohlfahrtskosten = erwartete Strafe E[Ï•âˆ—(z(y))]
+â–¶ Ex post ist eine Bestrafung des Unternehmers
+wohlfahrtsmindernd
+â–¶ Bestrafung findet immer dann statt, wenn der
+RÃ¼ckzahlungsbetrag kleiner ist als der vereinbarte
+RÃ¼ckzahlungsbetrag h
+â–¶ In diesem Fall ist aber auch der tatsÃ¤chliche Projektertrag
+kleiner als h!
+â–¶ Unternehmer muss bestraft werden, obwohl er die Wahrheit
+sagt
+
+---PAGE---
+
+â–¶ Bedingung: mÂ·K <E[Ï•âˆ—(z(y))]
+â–¶ Kontrolle ist dann besonders teuer, wenn m groÃŸ ist
+â–¶ Vertrag mit nicht-monetÃ¤ren Strafen ist teuer, wenn schlechte
+ProjektertrÃ¤ge mit einer hohen Wahrscheinlichkeit auftreten
+â–¶ Also: Kontrolle ist vorzuziehen, wenn die Anzahl der Investoren
+gering und schlechte ProjektertrÃ¤ge wahrscheinlich sind
+Vertrag mit Kontrolle vs. anreizkompatibler Vertrag
+â–¶ Wohlfahrtkosten bei direkter Finanzierung:
+min{mÂ·K,E[Ï•âˆ—(z(y))]}
+â–¶ Frage: Wann ist Kontrolle aus Wohlfahrtssicht besser als ein
+Vertrag mit nicht-monetÃ¤ren Strafen?
+
+---PAGE---
+
+Vertrag mit Kontrolle vs. anreizkompatibler Vertrag
+â–¶ Wohlfahrtkosten bei direkter Finanzierung:
+min{mÂ·K,E[Ï•âˆ—(z(y))]}
+â–¶ Frage: Wann ist Kontrolle aus Wohlfahrtssicht besser als ein
+Vertrag mit nicht-monetÃ¤ren Strafen?
+â–¶ Bedingung: mÂ·K <E[Ï•âˆ—(z(y))]
+â–¶ Kontrolle ist dann besonders teuer, wenn m groÃŸ ist
+â–¶ Vertrag mit nicht-monetÃ¤ren Strafen ist teuer, wenn schlechte
+ProjektertrÃ¤ge mit einer hohen Wahrscheinlichkeit auftreten
+â–¶ Also: Kontrolle ist vorzuziehen, wenn die Anzahl der Investoren
+gering und schlechte ProjektertrÃ¤ge wahrscheinlich sind
+
+---PAGE---
+
+(b) Indirekte Finanzierung Ã¼ber einen FinanzintermediÃ¤r
+â–¶ Idee: Durch Delegation der Kontrolle an einen
+â€œFinanzintermediÃ¤râ€ (FI) lassen sich die Kontrollkosten von
+mÂ·K auf 1Â·K senken
+â–¶ Problem: Wie kann sichergestellt werden, dass der FI die
+gesammelte Information wahrheitsgemÃ¤ÃŸ weiterleitet?
+â–¶ Informationsproblem wurde nicht gelÃ¶st, sondern nur auf eine
+andere Ebene verschoben
+â–¶ ZusÃ¤tzliche Kosten der Delegation (Delegationskosten)
+â–¶ Wenn der FI zusÃ¤tzlich kontrolliert werden muss, steigen die
+Kontrollkosten auf (m+1)Â·K (das kann nicht optimal sein)
+â–¶ Zentraler Beitrag des Aufsatzes: Delegation der Kontrolle
+kann zu geringeren Kosten fÃ¼hren und kann daher sinnvoll sein
+
+---PAGE---
+
+â–¶ Kontrolle des Unternehmers durch den FI, um
+Transaktionskosten zu sparen (Kosten: 1Â·K)
+â–¶ Vertrag zwischen Kapitalgebern und FI: Vertrag mit
+nicht-monetÃ¤ren Strafen (Kontrolle wÃ¼rde mÂ·K kosten,
+dasselbe wie bei direkter Finanzierung)
+Delegierte Kontrolle
+â–¶ Durch die Einschaltung des FI kommt ein weiteres
+Informationsproblem hinzu, das gelÃ¶st werden muss
+â–¶ Implizite Annahme: RÃ¼ckzahlung des Unternehmers an den
+Kontrolleur kann nicht beobachtet werden (sonst kÃ¶nnte die
+Kontrolle ohne Probleme delegiert werden)
+â–¶ Optimale VertrÃ¤ge zwischen (1) dem Unternehmer und dem
+FI sowie (2) zwischen dem FI und den Kapitalgebern:
+
+---PAGE---
+
+Delegierte Kontrolle
+â–¶ Durch die Einschaltung des FI kommt ein weiteres
+Informationsproblem hinzu, das gelÃ¶st werden muss
+â–¶ Implizite Annahme: RÃ¼ckzahlung des Unternehmers an den
+Kontrolleur kann nicht beobachtet werden (sonst kÃ¶nnte die
+Kontrolle ohne Probleme delegiert werden)
+â–¶ Optimale VertrÃ¤ge zwischen (1) dem Unternehmer und dem
+FI sowie (2) zwischen dem FI und den Kapitalgebern:
+â–¶ Kontrolle des Unternehmers durch den FI, um
+Transaktionskosten zu sparen (Kosten: 1Â·K)
+â–¶ Vertrag zwischen Kapitalgebern und FI: Vertrag mit
+nicht-monetÃ¤ren Strafen (Kontrolle wÃ¼rde mÂ·K kosten,
+dasselbe wie bei direkter Finanzierung)
+
+---PAGE---
+
+Delegationskosten und Diversifikation
+â–¶ Aber: Dies kann nicht funktionieren, wenn der FI nur einen
+Unternehmer finanziert:
+Kosten â‰ˆ K +E[Ï•âˆ—(z(y))] â†’ immer noch hÃ¶her als bei
+direkter Finanzierung
+â–¶ Was passiert, wenn der FI mehrere Unternehmer finanziert?
+â–¶ Idee: Risikoneutraler FI finanziert N Unternehmer mit
+stochastisch unabhÃ¤ngigen ProjektertrÃ¤gen (hinreichend wÃ¤re,
+dass die ErtrÃ¤ge nicht perfekt korreliert sind)
+â–¶ FI kontrolliert die N Unternehmer zu Kosten N Â·K
+â–¶ N Â·m Kapitalgeber des FI
+â–¶ Zwischen Kapitalgebern und FI besteht ein Vertrag mit
+nicht-monetÃ¤ren Strafen
+
+---PAGE---
+
+Wann ist eine Delegierung der Kontrolle optimal?
+â–¶ Erwartete Strafen hÃ¤ngen davon ab, wie wahrscheinlich es ist,
+dass ErtrÃ¤ge < h auftreten
+â–¶ Zentraler Punkt des Papiers: Aufgrund der Diversifikation
+des Bankportfolios geht diese Wahrscheinlichkeit fÃ¼r N â†’ âˆž
+gegen null!
+â–¶ Gesetz der GroÃŸen Zahlen: FÃ¼r groÃŸe N konvergiert die
+Rendite des diversifizierten Portfolios (pro Unternehmer) gegen
+den Erwartungswert der Projekte und ist somit nÃ¤herungsweise
+sicher
+
+---PAGE---
+
+â–¶ FÃ¼r groÃŸe N konvergieren der Ertrag des Portfolios (pro
+Unternehmer) gegen E(yËœ) > R und die Wahrscheinlichkeit der
+RÃ¼ckzahlung gegen 1
+â–¶ Folge: Delegationskosten d konvergieren gegen null
+Vorteilhaftigkeit der Delegation
+â–¶ Kosten der direkten Finanzierung pro Unternehmer:
+min{mÂ·K,E[Ï•âˆ—(z(y))]}
+â–¶ Kosten pro Unternehmer bei indirekter Finanzierung Ã¼ber
+FinanzintermediÃ¤r: K +d
+(Delegationskosten d = erwartete Strafe des FI)
+â–¶ Finanzintermediation ist vorteilhaft, wenn
+K +d < min{mÂ·K,E[Ï•âˆ—(z(y))]}
+
+---PAGE---
+
+Vorteilhaftigkeit der Delegation
+â–¶ Kosten der direkten Finanzierung pro Unternehmer:
+min{mÂ·K,E[Ï•âˆ—(z(y))]}
+â–¶ Kosten pro Unternehmer bei indirekter Finanzierung Ã¼ber
+FinanzintermediÃ¤r: K +d
+(Delegationskosten d = erwartete Strafe des FI)
+â–¶ Finanzintermediation ist vorteilhaft, wenn
+K +d < min{mÂ·K,E[Ï•âˆ—(z(y))]}
+â–¶ FÃ¼r groÃŸe N konvergieren der Ertrag des Portfolios (pro
+Unternehmer) gegen E(yËœ) > R und die Wahrscheinlichkeit der
+RÃ¼ckzahlung gegen 1
+â–¶ Folge: Delegationskosten d konvergieren gegen null
+
+---PAGE---
+
+Vorteilhaftigkeit der Delegation
+â–¶ Kosten bei Finanzintermediation â‰ˆ K pro Unternehmer
+â–¶ Also: Ein perfekt diversifizierter FI ist vorteilhaft, wenn
+K < min{mÂ·K,E[Ï•âˆ—(z(y))]} â‡” K < E[Ï•âˆ—(z(y))]
+â–¶ Direkte Finanzierung ist nur dann vorteilhaft, wenn Kosten der
+Kontrolle extrem hoch sind oder wenn bereits das einzelne
+Projekt ein sehr geringes Ausfallrisiko aufweist
+â–¶ Ergebnis: In vielen FÃ¤llen dominiert die delegierte Kontrolle
+eine direkte Finanzierung
+
+---PAGE---
+
+Zusammenfassung
+â–¶ Wenn die einzelnen Kapitalgeber nur Ã¼ber geringe
+AnlagebetrÃ¤ge relativ zur Kreditsumme verfÃ¼gen, kÃ¶nnen
+durch die Delegation der Kontrolle an einen Dritten (den
+â€œFinanzintermediÃ¤râ€) Kontrollkosten gespart werden
+â–¶ Bei nicht perfekter Korrelation verschiedener Kredite sind die
+Kosten der Delegation an einen FI aufgrund der
+Diversifikation des Portfolios relativ gering und fallen in der
+Anzahl der finanzierten Kredite
+â–¶ Fazit: Die Delegation der Kontrolle an einen
+FinanzintermediÃ¤r kann trotz Einschaltung einer zusÃ¤tzlichen
+Ebene mit neuen Informationsproblemen sinnvoll sein
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond (1984)
+â–¶ Wichtiges Papier zur ErklÃ¤rung der Existenz von Banken,
+insbesondere zur Risikotransformationsfunktion von Banken
+â–¶ Vorhersagen des Modells:
+â–¶ Indirekte Finanzierungsbeziehungen mit FinanzintermediÃ¤ren
+kÃ¶nnen sinnvoll sein â†’ Banken spielen vor allem dort eine
+âˆš
+Rolle, wo Informationsprobleme bestehen
+âˆš
+â–¶ Finanzierung von Banken Ã¼ber Fremdkapital
+â–¶ Einlagen sind relativ sicher trotz des relativ hohen Risikos der
+âˆš
+Einzelkredite, Grund: Diversifikation
+â–¶ BankgeschÃ¤ft weist SkalenertrÃ¤ge auf, hier: AusschÃ¶pfung
+âˆš
+von DiversifikationsmÃ¶glichkeiten
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond (1984)
+â–¶ FinanzintermediÃ¤re sind in der RealitÃ¤t alles andere als perfekt
+diversifiziert, sie halten viele nicht-diversifizierte Risiken
+â–¶ Bank sollte im Modell im Idealfall unendlich groÃŸ sein, hohe
+Konzentration im Bankensektor kÃ¶nnte jedoch aus anderen
+GrÃ¼nden wenig wÃ¼nschenswert sein (EinschrÃ¤nkung des
+Wettbewerbs, Too-big-to-fail-Problematik)
+â–¶ Modell liefert keine Beschreibung des Bankensystems,
+Bankenwettbewerb spielt im Modell keine Rolle
+â–¶ In der RealitÃ¤t beobachtet man auch viele kleine Banken,
+Diseconomies of Scale im BankgeschÃ¤ft?
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond (1984)
+â–¶ Eigenkapital spielt im Modell keine Rolle, ist aber in der
+RealitÃ¤t eine wichtige Determinante des Risikos der
+Bankschulden (inklusive Einlagen)
+â–¶ KreditgeschÃ¤ft der Banken wird relativ gut beschrieben,
+Modell abstrahiert jedoch von vielen Merkmalen des
+Einlagenvertrags (anders: Diamond/Dybvig 1983)
+â–¶ Betrachtetes Informationsproblem relativ speziell, andere
+Arten der Informationsasymmetrie kÃ¶nnten wichtiger sein,
+z.B. Moral Hazard bei der Risikowahl, adverse Selektion
+von Kreditnehmern
+â–¶ Keine Diskussion der Bedeutung von Reputation im
+BankgeschÃ¤ft â†’ Dynamische Sichtweise erforderlich
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+IV. FinanzstabilitÃ¤t
+â–¶ Wir haben gesehen, dass Banken nÃ¼tzliche Funktionen
+ausÃ¼ben, durch die die Wohlfahrt relativ zu einer MarktlÃ¶sung
+erhÃ¶ht werden kann
+â–¶ Allerdings kann es auch zu Krisen im Finanzsystem
+kommen, die hÃ¤ufig mit erheblichen realen Auswirkungen auf
+die Volkswirtschaft einhergehen (â†’ Kapitel 6)
+â–¶ Deshalb wird das Finanzsystem strenger reguliert als andere
+Sektoren der Volkswirtschaft (â†’ Kapitel 7)
+â–¶ Um zu verstehen, wie eine solche Regulierung aussehen
+kÃ¶nnte, muss man zunÃ¤chst analysieren, warum es im
+Finanzsystem immer wieder zu krisenhaften Entwicklungen
+kommt
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+6. Finanzkrisen und systemische Risiken
+â–¶ Literatur:
+â–¶ *Diamond and Dybvig (1983): â€œBank Runs, Deposit Insurance,
+and Liquidity,â€ Journal of Political Economy, 91(3), 401â€“419
+(2. Teil des Papers)

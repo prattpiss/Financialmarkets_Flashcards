@@ -1,0 +1,663 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kennen verschiedene Arten von Finanzkrisen und deren
+VerknÃ¼pfungen
+â–¶ Sie kennen die wesentlichen stilisierten Fakten Ã¼ber
+Finanzkrisen
+â–¶ Sie kennen die wesentlichen Ursachen der globalen Finanzkrise
+von 2007â€“2009 und der Krise im Euroraum
+â–¶ Sie wissen, wie die Wirtschaftspolitik auf die Krisen der
+vergangenen Jahre reagiert hat
+
+---PAGE---
+
+â–¶ Krise der Savings and Loans in den USA (1980er Jahre)
+â–¶ Skandinavien (1990/1991)
+â–¶ Japan (1990er Jahre)
+â–¶ Mexiko (1994/1995)
+â–¶ Asienkrise (1997/1998)
+â–¶ Argentinien (2001/2002)
+â–¶ ...
+2.1 Stilisierte Fakten Ã¼ber Finanzkrisen
+â–¶ Finanzkrisen treten immer wieder auf und werden vermutlich
+auch in Zukunft auftreten
+â–¶ Schwerste Finanzkrisen der letzten 100 Jahre:
+Weltwirtschaftskrise in den 1930er Jahren, globale Finanzkrise
+von 2007â€“2009
+â–¶ Gleichzeitiger Zusammenbruch der Finanzsysteme vieler LÃ¤nder
+in der ganzen Welt
+â–¶ Andere Krisen:
+
+---PAGE---
+
+2.1 Stilisierte Fakten Ã¼ber Finanzkrisen
+â–¶ Finanzkrisen treten immer wieder auf und werden vermutlich
+auch in Zukunft auftreten
+â–¶ Schwerste Finanzkrisen der letzten 100 Jahre:
+Weltwirtschaftskrise in den 1930er Jahren, globale Finanzkrise
+von 2007â€“2009
+â–¶ Gleichzeitiger Zusammenbruch der Finanzsysteme vieler LÃ¤nder
+in der ganzen Welt
+â–¶ Andere Krisen:
+â–¶ Krise der Savings and Loans in den USA (1980er Jahre)
+â–¶ Skandinavien (1990/1991)
+â–¶ Japan (1990er Jahre)
+â–¶ Mexiko (1994/1995)
+â–¶ Asienkrise (1997/1998)
+â–¶ Argentinien (2001/2002)
+â–¶ ...
+
+---PAGE---
+
+Arten von Finanzkrisen
+1. Bankenkrise:
+â–¶ Gleichzeitiger Zusammenbruch eines signifikanten Teils des
+Bankensektors (systemische Krise)
+â–¶ HÃ¤ufig verbunden mit hohen Verlusten im Bankensektor (zum
+Beispiel KreditausfÃ¤lle oder Verluste aus Wertpapieren)
+und/oder Bank Runs
+â–¶ Systemischen Bankenkrisen gehen hÃ¤ufig Kreditbooms und
+VermÃ¶genspreisblasen (insbesondere in Immobilien) voraus
+â–¶ Zusammenbruch einer einzelnen Bank Ì¸= Bankenkrise
+
+---PAGE---
+
+> 200 Jahre Bank Runs weltweit
+Quelle:Jamilov,KÃ¶nig,MÃ¼ller,andSaidi(2025)
+
+---PAGE---
+
+Kosten von Bankenkrisen (Laeven und Valencia, 2013)
+â–¶ Bankenkrisen gehen mit erheblichen Kosten einher
+â–¶ Direkte fiskalische Kosten aufgrund von Bankenrettungen
+â–¶ Wichtiger: Outputkosten aufgrund des Konjunktureinbruchs
+(Verlust an BIP relativ zum Vorkrisentrend)
+â–¶ Anstieg der Staatsverschuldung
+â–¶ Outputkosten haben Ã¼ber die geringeren staatlichen
+Einnahmen (z.B. Steuern, SozialbeitrÃ¤ge) und hÃ¶heren
+staatlichen Ausgaben(z.B. Sozialausgaben, Konjunkturpakete)
+ebenfalls Auswirkungen auf den Staatshaushalt
+
+---PAGE---
+
+Arten von Finanzkrisen
+2. Staatsschuldenkrise (hÃ¤ufig kurz: Schuldenkrise):
+â–¶ Zahlungsausfall eines staatlichen Schuldners
+â–¶ FÃ¼hrt in der Regel zu einer Restrukturierung der Schulden
+mit LaufzeitverlÃ¤ngerungen und partiellem Schuldenerlass
+(Beispiel: Griechenland)
+â–¶ Schuldenkrisen haben nicht nur mit der ZahlungsfÃ¤higkeit eines
+Landes zu tun, sondern auch mit der Zahlungsbereitschaft
+â–¶ In fast allen LÃ¤ndern hat es schon einmal eine Schuldenkrise
+gegeben (Ausnahmen: USA, DÃ¤nemark)
+
+---PAGE---
+
+Arten von Finanzkrisen
+3. WÃ¤hrungskrise:
+â–¶ PlÃ¶tzlicher Verfall des Wertes einer WÃ¤hrung aufgrund einer
+spekulativen Attacke
+â–¶ Geht typischerweise einher mit plÃ¶tzlichen KapitalabflÃ¼ssen ins
+Ausland (sudden stop)
+â–¶ Betrifft in erster Linie LÃ¤nder mit festen
+Wechselkurssystemen
+â–¶ FÃ¼hrt in der Regel zu einer Abwertung der WÃ¤hrung oder sogar
+einer Aufgabe des festen Wechselkurses
+â–¶ Typisches PhÃ¤nomen in den meisten Entwicklungs-/
+SchwellenlÃ¤ndern, aber auch in entwickelten LÃ¤ndern
+â–¶ Beispiel: Krise des EuropÃ¤ischen WÃ¤hrungssystems
+(1979â€“1998) in 1992/1993 (UK, Italien)
+
+---PAGE---
+
+Arten von Finanzkrisen
+â–¶ Die verschiedenen Arten von Finanzkrisen treten hÃ¤ufig
+gemeinsam auf und verstÃ¤rken sich gegenseitig
+â–¶ Banken- und WÃ¤hrungskrise (twin crises):
+â–¶ Bankenkrise â†’ WÃ¤hrungskrise: AuslÃ¤ndische Einleger ziehen
+ihr Geld aus schwachen Banken ab und transferieren es ins
+Ausland, Beispiel: deutsche Krise von 1931
+â–¶ WÃ¤hrungskrise â†’ Bankenkrise: Abwertung der inlÃ¤ndischen
+WÃ¤hrung trifft Banken oder Unternehmen, die sich in
+FremdwÃ¤hrung verschuldet haben, Beispiel: Tequila-Krise in
+Mexiko (1994/1995), Krise in Thailand (1997)
+
+---PAGE---
+
+Arten von Finanzkrisen
+â–¶ Banken- und Schuldenkrise:
+â–¶ Bankenkrise â†’ Schuldenkrise: Kosten von Bankenrettungen
+und Konjunktureinbruch bedrohen die Staatsfinanzen, Beispiel:
+Irland, Spanien in der globalen Finanzkrise
+â–¶ Schuldenkrise â†’ Bankenkrise: Zahlungsausfall des Staats
+bedroht die Banken, die dem Staat Kredite gegeben haben,
+Beispiel: Griechenlandkrise
+
+---PAGE---
+
+Arten von Finanzkrisen
+â–¶ WÃ¤hrungs- und Schuldenkrise:
+â–¶ WÃ¤hrungskrise â†’ Schuldenkrise: Abwertung der WÃ¤hrung
+fÃ¼hrt dazu, dass ein Staat seine Schulden in FremdwÃ¤hrung
+nicht mehr bezahlen kann, Beispiel: Russland 1998
+â–¶ Schuldenkrise â†’ WÃ¤hrungskrise: Zweifel an der
+ZahlungsfÃ¤higkeit eines Landes fÃ¼hren zu KapitalabflÃ¼ssen und
+bedrohen damit die WÃ¤hrung, Beispiel: Brasilien 1998/1999
+
+---PAGE---
+
+2.2 Die globale Finanzkrise von 2007â€“2009
+â–¶ Wichtige Darstellungen der Finanzkrise:
+â–¶ Brunnermeier, Journal of Economic Perspectives, 2009
+â–¶ Hellwig, De Economist, 2009
+â–¶ Schwerste Finanzkrise seit der Weltwirtschaftskrise
+
+---PAGE---
+
+need to hasten labour and product market reforms to boost productivity and unlock
+growth; the private sector must deleverage and the public sector needs to ensure
+fiscal sustainability; risks in the financial system need to be managed; and the
+expectation that monetary policy can solve these problems is a recipe for failure.
+Enhancing flexibility: a key to growth
+Sustained and balanced growth remains elusive in the global economy. In many
+advanced economies, growth rates have only partially recovered, and unemployment
+remains stubbornly high (Graph I.1). As discussed in Chapter III, rigidities in labour
+and product markets are among the most important obstacles standing in the way
+of long-term economic health. The financial crisis and its aftermath showed that
+such structural problems are exacerbated when the cycle turns and the boom
+becomes a bust. As a result, the recovery has been disappointing in many economies.
+When a housing sector boom turns into a bust, as it did in a number of
+countries, rigidities limit the mobility of people across sectors. As Chapter III argues,
+tight employment protections slow the recovery and the growth of employment in
+economies that go into recessions with significant sectoral imbalances. The
+Wirtschaimfptlicsawtiona ics ohbvsiotuus: mcounturiens dstanAd tor breaepi tsusbsltoanstiailg bkeneefiitts from moving
+towards less regulated and more growth-friendly labour and product markets.
+Measures that make labour and product markets more flexible allow resources to
+â–¶
+Kflroiws emosret eÃ¼ arsizlyt feromv lioewl-e toL h Ã¤ignh-dpreodrucitnivitsy csehctwores, rweithR obevzioeuss gsaiionsn foern gromwtiht.
+In parallel, such reforms help foster entrepreneurship, paving the way for firms to
+Wboaocsth prsotduucmtivistye, ignrobwr aÃ¼ndc hhiree nmouren wdorkeerisn. Tehims medanrsa thmata sitmipslcifyhinegn regAulantisontsi eg der
+and reducing the power of special interests that are impeding productivity
+(Jugend-) Arbeitslosigkeit
+enhancements are essential for raising sustainable growth. To be sure, basic worker
+aAnRd 2 c0o1n3s,u Cmhearp pteror t1e ctions must be preserved, and the extent of desirable regulation
+â–¶ Entwickelte LÃ¤nder waren besonders stark betroffen
+w ill vary from country to country. But the costs of overly regulated labour and product
+â–¶ D
+m
+e
+a
+u
+rk
+t
+et
+l
+s
+i c
+ar
+h
+e
+e
+cl
+r
+ear
+A
+: th
+n
+e
+s
+y
+t
+re
+ie
+du
+g
+ce
+d
+fle
+e
+x
+r
+ibilSityt taoa thtes pvoeinrts wchherue llodnug-nrugn g
+i
+r
+n
+owt
+v
+h
+i
+w
+e
+i
+l
+ll
+e
+su
+n
+ffe
+L
+r.
+Ã¤ndern
+infolge der Krise
+Global economic activity Graph I.1
+GDP growth1 Unemployment rate2
+Per cent, year-on-year, sa Per cent, sa
+9 9
+6 8
+3 7
+0 6
+â€“3 5
+â€“6 4
+03 04 05 06 07 08 09 10 11 12 03 04 05 06 07 08 09 10 11 12
+Advanced economies3 Emerging market economies4
+1 Weighted averages based on 2005 GDP and PPP exchange rates. 2 Weighted averages based on labour force; definitions across
+countries may vary. 3 Australia, Canada, Denmark, the euro area, Japan, New Zealand, Norway, Sweden, Switzerland, the United Kingdom
+and the United States. 4 Argentina, Brazil, Chile, China, Chinese Taipei, Colombia, the Czech Republic, Hong Kong SAR, Hu 6 n 7 g / ar 6 y, 1 2
+Indonesia, Korea, Malaysia, Mexico, Peru, the Philippines, Poland, Russia, Saudi Arabia, Singapore, South Africa, Thailand and Turkey.
+Sources: IMF, International Financial Statistics and World Economic Outlook; Datastream; national data.
+6 BIS 83rd Annual Report
+Change in debt, 2007â€“12
+In percentage points of GDP Graph I.2
+150
+125
+100
+75
+50
+25
+0
+â€“25
+Australia Canada France
+Ger
+many Greece Ireland Italy Japan Portugal Spain Un
+K
+i
+i
+t
+n
+e
+g
+d do m Unit
+S
+e
+t
+d ates China India Indonesia Korea Mexico Turkey
+Government Non-financial corporations Households
+Sources: IMF, World Economic Outlook; OECD; BIS; national data.
+
+---PAGE---
+
+Krise am Immobilienmarkt
+â–¶ AuslÃ¶ser der Krise: Einbruch der Immobilienpreise in den USA
+ab 2006 = makroÃ¶konomischer Schock
+
+---PAGE---
+
+Krise am Immobilienmarkt
+â–¶ Massive KreditausfÃ¤lle im Immobilienbereich in den USA
+â–¶ Besonders stark betroffen waren die Subprime-Kredite
+(= Kredite an hochriskante Schuldner mit geringer
+KreditwÃ¼rdigkeit)
+â–¶ Ein groÃŸer Teil der Kreditexpansion in den USA direkt vor der
+Krise ging auf Subprime-Kredite zurÃ¼ck
+â–¶ Steigende Immobilienpreise (= Wert der Sicherheiten) ging
+mit steigender Kreditvergabe einher
+â–¶ Nach Einbruch der Immobilienpreise konnten viele Schuldner
+ihre Kredite nicht mehr bedienen, und die GlÃ¤ubiger saÃŸen auf
+wertlosen Immobilien
+
+---PAGE---
+
+MakroÃ¶konomisches Umfeld
+â–¶ Sehr niedrige Leitzinsen in den USA nach der Dotcom-Krise
+â–¶ Massive KapitalzuflÃ¼sse in die USA aus dem Ausland (insb.
+aus China und anderen asiatischen LÃ¤ndern)
+â–¶ Niedrige Zinsen fÃ¼hrten zu einer starken Kreditexpansion, vor
+allem im Immobilienbereich
+â–¶ AllmÃ¤hliche, aber langsame Anhebung der Leitzinsen ab 2004,
+die schlieÃŸlich die Kehrtwende am Immobilienmarkt einleitete
+
+---PAGE---
+
+Ausweitung zu einer globalen Krise
+â–¶ Subprime-Segment ist relativ zum globalen Finanzmarkt sehr
+klein
+â–¶ Ausweitung der Krise zu einer globalen Krise Ã¼ber
+Verbriefungsmarkt: BÃ¼ndelung, Tranchierung und
+Verbriefung von Subprime-Krediten und Verkauf von
+Collateralized Debt Obligations (CDOs) in alle Welt
+â–¶ GroÃŸe Nachfrage nach Verbriefungsprodukten aufgrund des
+relativ niedrigen Zinsniveaus (search for yield) und der hohen
+Ratings der Senior-Tranchen (hÃ¤ufig AAA)
+â–¶ UÂ¨berbewertungen durch Ratingagenturen und Ã¼bermÃ¤ÃŸiges
+Vertrauen in Ratingagenturen trugen zur Krise bei
+
+---PAGE---
+
+Aufbau von Risiken im globalen Finanzsystem
+â–¶ Anstieg der Verschuldung: Eigenkapital wuchs langsamer als
+Fremdkapital, auch im â€œSchattenbankensektorâ€
+â–¶ Anstieg der Fristen- und LiquiditÃ¤tstransformation:
+Finanzierung der SPVs (Special Purpose Vehicles =
+Zweckgesellschaften) Ã¼ber kurzfristige Verbindlichkeiten
+(asset-backed commercial papers)
+â–¶ Anstieg der Vernetzung des Finanzsystems: Verkauf von
+Verbriefungsprodukten an internationale Finanzinstitute,
+wachsende Bedeutung von Kreditausfallversicherungen (zum
+Beispiel Credit Default Swaps), dadurch Anstieg von
+Gegenparteirisiken (Risiko, dass eine Gegenpartei die
+Verpflichtungen aus einem Vertrag nicht erfÃ¼llt)
+â–¶ Anstieg der Korrelationen zwischen Finanzinstitutionen:
+Ã¤hnliche Risikopositionen
+
+---PAGE---
+
+Illusion der verbesserten Risikoteilung
+â–¶ Effizientere Verteilung von Risiken erwies sich als Illusion
+â–¶ Risiken verblieben weitgehend im Finanzsystem
+â–¶ Gegenparteirisiken waren stark korreliert mit den
+zugrundeliegenden Risiken: Als viele Subprimekredite ausfielen,
+wurden auch viele Kreditausfallversicherungen nicht erfÃ¼llt
+â–¶ Keine Transparenz darÃ¼ber, wer welche Risiken trug
+
+---PAGE---
+
+Beginn der Finanzkrise
+â–¶ Juni 2007: Probleme bei US-amerikanischen Hedgefonds
+â–¶ Juli/August 2007: Probleme bei verschiedenen Banken
+(in Deutschland: IKB, SachsenLB, WestLB, BayernLB)
+â–¶ September 2007: Bank Run auf Northern Rock in UK,
+Verstaatlichung
+â–¶ Erste RettungsmaÃŸnahmen im Finanzsektor
+â–¶ Anspannung im Interbankenmarkt, schwindendes Vertrauen
+der Banken untereinander
+â–¶ Zusammenbruch und Rettung von Bear Stearns im MÃ¤rz 2008
+
+---PAGE---
+
+Zusammenbruch von Lehman Brothers
+â–¶ 15. September 2008: Zusammenbruch von Lehman Brothers
+lÃ¶st eine weltweite systemische Finanzkrise aus
+â–¶ EnttÃ¤uschung der Erwartung, dass Banken immer gerettet
+werden
+â–¶ Lehman Brothers als wichtiger Schuldner, Gegenpartei,
+Handelspartner
+â–¶ Weltweit drastischer Einbruch der Wertpapierpreise und
+Einfrieren des Interbankenmarkts
+â–¶ Viele Banken stehen am Rande des Zusammenbruchs
+
+---PAGE---
+
+LiquiditÃ¤tsspiralen (Brunnermeier und Pedersen, 2009)
+â–¶ Interbankenmarkt fÃ¤llt als LiquiditÃ¤tsquelle aus
+â–¶ Verkauf von Wertpapieren in einen fallenden Markt lÃ¤sst die
+Preise noch stÃ¤rker fallen (fire sales)
+â–¶ Folge: Kurzfristige Finanzierung ist weder Ã¼ber
+Kreditaufnahme (funding liquidity) noch durch den Verkauf
+DecipheringtheLiquidityandCreditCrunch2007â€“2008 93
+von Wertpapieren (market liquidity) verfÃ¼gbar
+â–¶ Schwierigkeiten bei der Kreditaufnahme und fallende
+Figure4
+Marktpreise verstÃ¤rken sich gegenseitig
+TheTwoLiquiditySpirals:LossSpiralandMarginSpiral
+Reduced Positions
+In e i . t g ia . l c L re o d s i s t es Funding Problems fr P o r m ic e F s u M nd o a ve m A en w t a a y ls
+Higher Margins
+Losses on
+Exisiting Positions
+Source:BrunnermeierandPedersen(forthcoming).
+Note:Fundingproblemsforceleveragedinvestorstounwindtheirpositionscausing1)morelosses 76/612
+and2)highermarginsandhaircuts,whichinturnexacerbatethefundingproblemsandsoon.
+ShleiferandVishny,1992)andalsobecauseotherpotentialbuyersfinditmore
+profitabletowaitoutthelossspiralbeforereenteringthemarket.Inmore
+extremecases,othertradersmightevenengageinâ€œpredatorytrading,â€delib-
+eratelyforcingotherstoliquidatetheirpositionsatfire-saleprices(Brunner-
+meierandPedersen,2005).
+Themargin/haircutspiralreinforcesthelossspiral,asshowninFigure4.As
+marginsorhaircutsrise,theinvestorhastosellevenmorebecausetheinvestor
+needstoreduceitsleverageratio(whichwasheldconstantinthelossspiral).
+Marginsandhaircutsspikeintimesoflargepricedrops,leadingtoageneral
+tighteningoflending.InBrunnermeierandPedersen(forthcoming),mycoauthor
+andIshowthataviciouscycleemerges,wherehighermarginsandhaircutsforce
+de-leveragingandmoresales,whichincreasemarginsfurtherandforcemoresales,
+leadingtothepossibilityofmultipleequilibria.AdrianandShin(forthcoming)
+confirmthisspiralempiricallyforinvestmentbanks.
+Thedocumentedfactthatmarginsandhaircutsaswellaslendingstandards
+increaseafterlargepricedropsseemscounterintuitivebecauseapricereduction
+thatresultsfromalackofliquidityislikelytobetemporary,andinvestorswiththe
+necessaryexpertisefaceagreatbuyingopportunity.Hence,onemightthinkthat
+lenderswouldbewillingtolendmorefreelybyloweringmarginsafterpriceshave
+dropped.
+
+---PAGE---
+
+Akutes Krisenmanagement
+â–¶ Massive LiquiditÃ¤tszufÃ¼hrungen durch alle groÃŸen
+Zentralbanken (wichtige Lehre aus der Weltwirtschaftskrise)
+â–¶ Staatliche Garantien fÃ¼r Einleger
+â–¶ Umfangreiche staatliche RettungsmaÃŸnahmen
+(EigenkapitalzufÃ¼hrungen) fÃ¼r Banken und teilweise auch
+Versicherungen (AIG in USA) auf Kosten des Steuerzahlers
+â–¶ Europa: Bailouts von Fortis, Dexia, RBS, Hypo Real Estate,
+Commerzbank, viele deutsche Landesbanken, ...
+â–¶ 2008â€“2012: Staatliche EigenkapitalzufÃ¼hrungen in HÃ¶he von
+413,2 Mrd. Euro an EU-Banken (3,2% des BIP in 2012)
+
+---PAGE---
+
+Reform der Finanzmarktregulierung
+â–¶ Deutliche VerschÃ¤rfung der Bankenregulierung unter Basel III
+â–¶ ErhÃ¶hung der Eigenkapitalanforderungen und EinfÃ¼hrung einer
+LiquiditÃ¤tsregulierung
+â–¶ EinfÃ¼hrung einer makroprudenziellen Regulierung und
+Aufsicht, die auf das Finanzsystem als Ganzes und nicht auf
+einzelne Finanzinstitutionen ausgerichtet ist
+â–¶ Auch in anderen Sektoren des Finanzsystems deutliche
+VerschÃ¤rfung der Regulierung (Solvency II fÃ¼r Versicherungen,
+neue Regulierungen fÃ¼r Investmentfonds)
+
+---PAGE---
+
+2.3 Die Krise im Euroraum
+â–¶ Oktober 2009: VerÃ¶ffentlichung revidierter Zahlen Ã¼ber die
+Staatsfinanzen in Griechenland
+â‡’ Erkenntnis, dass die griechischen Staatsfinanzen nicht
+tragfÃ¤hig sind
+â–¶ Folge: Anstieg der RisikoprÃ¤mien fÃ¼r zehnjÃ¤hrige griechische
+Staatsanleihen (relativ zu deutschen Staatsanleihen)
+â–¶ Mai 2010: Erstes Rettungspaket fÃ¼r Griechenland unter
+Einbezug des Internationalen WÃ¤hrungsfonds (IWF) Ã¼ber
+110 Mrd. Euro
+â–¶ Strenge Auflagen zur Konsolidierung der Staatsfinanzen und
+zu Strukturreformen zur Wiederherstellung der
+WettbewerbsfÃ¤higkeit (KonditionalitÃ¤t)
+
+---PAGE---
+
+Ansteckungseffekte im Euroraum
+â–¶ Warum wurde damals ein Zahlungsausfall von Griechenland
+verhindert?
+â–¶ Anstieg der Anleiherenditen auch in anderen EurolÃ¤ndern
+â‡’ Gefahr von Ansteckungseffekten im gesamten Euroraum
+(Irland, Portugal, Spanien, Italien)
+
+---PAGE---
+
+Ansteckungseffekte im Euroraum
+â–¶ AuÃŸerdem Sorge vor Auswirkungen auf europÃ¤ische Banken,
+die Forderungen gegenÃ¼ber Griechenland hielten
+â–¶ Hohe Forderungen gegenÃ¼ber Griechenland von Banken in
+Zypern, Luxemburg, Deutschland und den Niederlanden
+â–¶ Forderungen gegenÃ¼ber Italien, Spanien und Irland um ein
+Vielfaches grÃ¶ÃŸer
+
+---PAGE---
+
+Eine wichtige Ursache: Staaten-Banken-Nexus
+â–¶ Probleme bei Staaten und Banken verschÃ¤rften sich
+gegenseitig
+â–¶ Banken â†’ Staaten: Ã¼ber Bankenrettungen und konjunkturelle
+Effekte
+â–¶ Staaten â†’ Banken: Ã¼ber StaatsanleihebestÃ¤nde von Banken
+(starker Home bias = Verzerrung zugunsten einheimischer
+Staatsanleihen) und Ã¼ber verringerte GlaubwÃ¼rdigkeit von
+staatlichen Rettungsgarantien
+â–¶ BegÃ¼nstigt durch die regulatorische Privilegierung von
+Staatsanleihen
+â–¶ Besondere Relevanz fÃ¼r die â€œEuro-Peripherieâ€
+
+---PAGE---
+
+Krisenmanagement
+â–¶ Mai 2010: EZB initiiert das Securities Markets Program
+(SMP)
+â–¶ Ankauf von staatlichen und privaten Anleihen auf
+SekundÃ¤rmÃ¤rkten (das heiÃŸt nicht bei Erstemission)
+â–¶ Mai 2011: Einrichtung zweier StÃ¼tzungsfazilitÃ¤ten: European
+Financial Stabilization Mechanism (EFSM), European
+Financial Stability Facility (EFSF)
+â–¶ Strenge KonditionalitÃ¤t bei Inanspruchnahme der Gelder
+â†’ MakroÃ¶konomisches Anpassungsprogramm
+â–¶ Oktober 2012: EFSF wird durch den permanenten
+EuropÃ¤ischen StabilitÃ¤tsmechanismus (ESM) ersetzt
+
+---PAGE---
+
+â€œWhatever it takesâ€
+â–¶ Beruhigung der Krise erst nach Draghis berÃ¼hmter Londoner
+Rede im Juli 2012: â€œWithin our mandate, the ECB is ready to
+do whatever it takes to preserve the euro. And believe me, it
+will be enough.â€
+â–¶ Sofortiges Absinken der RisikoprÃ¤mien in den GIIPS-LÃ¤ndern
+â–¶ EinfÃ¼hrung des umstrittenen OMT-Programms (Outright
+Monetary Transactions) im September 2012:
+â–¶ Aufkauf von Staatsanleihen durch die EZB
+â–¶ GeknÃ¼pft an die Inanspruchnahme eines ESM-Programms mit
+KonditionalitÃ¤t
+â–¶ Anders als beim SMP-Programm keine Vorrangigkeit der EZB
+im Falle einer Schuldenrestrukturierung
+â–¶ Programm wurde nie eingesetzt
+â–¶ Irland (2013), Portugal und Spanien (jeweils 2014), Zypern
+(2016) und inzwischen auch Griechenland (2018) haben ihre
+Rettungsprogramme erfolgreich abgeschlossen, aber lange
+RÃ¼ckzahlungsfristen (Griechenland bis 2060)
+
+---PAGE---
+
+Neue Herausforderungen
+â–¶ Multiple Krisen
+â–¶ Pandemie
+â–¶ Inflation
+â–¶ Geopolitische Konflikte
+â–¶ Energiekrise
+â–¶ Klimawandelbedingte Investitionen
+â–¶ VerschÃ¤rfung durch SimultanitÃ¤t
+
+---PAGE---
+
+Wirtschafts- und Finanzpolitik
+â–¶ Reformen
+â–¶ Ausweitung existierender Stabilisierungsinstrumente, z.B.
+Kurzarbeitergeld wÃ¤hrend der Pandemie
+â–¶ Investitionen
+â–¶ Aber: massive Zielkonflikte
+â–¶ Optimale Geldpolitik? Abstimmung von Fiskal- und
+Geldpolitik?
+
+---PAGE---
+
+Kurzarbeitergeld
+â–¶ Idee: Sicherung von ArbeitsplÃ¤tzen durch reduzierte
+Regelarbeitszeit, Verlustausgleich durch Kurzarbeitergeld
+â–¶ Systemische Relevanz auch fÃ¼r Banken, verbunden mit Firmen
+Ã¼ber KreditvertrÃ¤ge
+â–¶ Verflechtungen unterschiedlicher MaÃŸnahmen, z.B.
+KfW-Corona-Hilfe
+
+---PAGE---
+
+Aus der Vergangenheit lernen
+â–¶ KontraktionÃ¤re Geldpolitik wird potenziell bald wieder
+expansiv
+â–¶ Investitionsdruck durch geopolitische Neuausrichtung
+â–¶ Auswirkungen auf Inflation?
+â–¶ FinanzmarktstabilitÃ¤t neu denken
+â–¶ Rolle von Schattenbanken/Nicht-Banken
+
+---PAGE---
+
+Fazit
+â–¶ Finanzkrisen treten regelmÃ¤ÃŸig auf und sind mit erheblichen
+Kosten verbunden (vor allem Outputkosten)
+â–¶ Die Subprime-Krise begann in den USA als Immobilienkrise
+und breitete sich aufgrund der globalen Verteilung von Risiken
+Ã¼ber Verbriefungen weltweit aus
+â–¶ VerschÃ¤rfung der Krise durch LiquiditÃ¤tsspiralen
+â–¶ Im Euroraum folgte der Finanzkrise eine weitere Krise, die den
+Bestand der WÃ¤hrungsunion in Frage stellt und vor allem die
+LÃ¤nder in der sÃ¼dlichen Peripherie bedrohte
+â–¶ Enge Verflechtung der Probleme von Banken und Staaten
+â–¶ Umfassende Reformen der Architektur im Euroraum als
+Reaktion auf die Krise, Reformen sind aber noch immer nicht
+abgeschlossen
+
+---PAGE---
+
+I. EinfÃ¼hrung
+1. Funktionen des Finanzsystems
+2. Die globale Finanzkrise und ihre Auswirkungen
+2.1 Stilisierte Fakten Ã¼ber Finanzkrisen
+2.2 Die globale Finanzkrise von 2007â€“2009
+2.3 Die Krise im Euroraum
+2.4 Die 2020er-Jahre
+II. Die Kapitalstruktur von Unternehmen
+3. Die Kapitalstruktur in einem vollkommenen Markt und das
+Modigliani-Miller-Theorem
+3.1 Finanzierung durch Eigen- oder Fremdkapital
+3.2 Das Modigliani-Miller-Theorem
+3.3 Kapitalstruktur und Eigenkapitalkosten
+3.4 TrugschlÃ¼sse bei der Kapitalstruktur
+3.5 Fazit
+
+---PAGE---
+
+II. Die Kapitalstruktur von Unternehmen
+â–¶ Die Kapitalstruktur eines Unternehmens gibt an, auf welche
+Weise die VermÃ¶gensgegenstÃ¤nde des Unternehmens finanziert
+sind (Passivseite der Bilanz)
+â–¶ Eigenkapital vs. Fremdkapital
+â–¶ Nicht zu verwechseln mit Innen- und AuÃŸenfinanzierung
+â–¶ Frage: Welche Kapitalstruktur soll ein Unternehmen wÃ¤hlen,
+um den Unternehmenswert zu maximieren?
+â–¶ Antwort: In einem vollkommenen Markt hat diese
+Entscheidung keine Auswirkung auf den Unternehmenswert
+(Modigliani-Miller-Theorem)
+â–¶ In Gegenwart von Marktunvollkommenheiten (z.B. Steuern,
+asymmetrischer Information) hÃ¤ngt der Unternehmenswert
+hingegen durchaus von der Kapitalstruktur ab
+
+---PAGE---
+
+I. EinfÃ¼hrung
+1. Funktionen des Finanzsystems
+2. Die globale Finanzkrise und ihre Auswirkungen
+2.1 Stilisierte Fakten Ã¼ber Finanzkrisen
+2.2 Die globale Finanzkrise von 2007â€“2009
+2.3 Die Krise im Euroraum
+2.4 Die 2020er-Jahre
+II. Die Kapitalstruktur von Unternehmen
+3. Die Kapitalstruktur in einem vollkommenen Markt und das
+Modigliani-Miller-Theorem
+3.1 Finanzierung durch Eigen- oder Fremdkapital
+3.2 Das Modigliani-Miller-Theorem
+3.3 Kapitalstruktur und Eigenkapitalkosten
+3.4 TrugschlÃ¼sse bei der Kapitalstruktur
+3.5 Fazit
+
+---PAGE---
+
+3. Die Kapitalstruktur in einem vollkommenen Markt und
+das Modigliani-Miller-Theorem
+â–¶ Literatur: *BDM, Kapitel 14
+â–¶ Zentraler wissenschaftlicher Aufsatz: Modigliani und Miller
+(1958): â€œThe Cost of Capital, Corporation Finance and the
+Theory of Investments,â€ American Economic Review, 48(3),
+271â€“297

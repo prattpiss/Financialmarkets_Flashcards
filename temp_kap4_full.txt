@@ -1,0 +1,3560 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kÃ¶nnen erklÃ¤ren, warum die steuerliche AbzugsfÃ¤higkeit
+von Schuldzinsen zu einem Steuervorteil fÃ¼hrt
+â–¶ Sie kennen die Auswirkungen von Konkurskosten auf den
+Unternehmenswert
+â–¶ Sie kennen die Agency-Theorie der Verschuldung in ihren
+unterschiedlichen AusprÃ¤gungen
+â–¶ Sie verstehen die Auswirkungen asymmetrischer Information
+auf die Kapitalstruktur
+
+---PAGE---
+
+Der Einfluss von Marktunvollkommenheiten auf die
+Kapitalstruktur
+â–¶ In der RealitÃ¤t verwenden Unternehmen viele Ressourcen
+darauf, die Kapitalstruktur zu optimieren, und es gibt
+systematische Unterschiede in der Kapitalstruktur
+verschiedener Branchen und LÃ¤nder
+â–¶ Dies lÃ¤sst sich in der Modigliani-Miller-Welt nicht erklÃ¤ren
+â–¶ Wir lernen nun die wichtigsten Abweichungen vom
+Modigliani-Miller-Theorem kennen, die dazu fÃ¼hren, dass die
+Kapitalstruktur nicht mehr irrelevant fÃ¼r den
+Unternehmenswert ist
+1. Steuern (Kapitel 4.1)
+2. Konkurskosten, Managementanreize und asymmetrische
+Information (Kapitel 4.2)
+
+---PAGE---
+
+4.1 Fremdkapital und Steuern
+â–¶ Unternehmen und Investoren mÃ¼ssen auf ihre
+Gewinne/KapitalertrÃ¤ge Steuern zahlen
+â–¶ Wir werden sehen, dass in den meisten Steuersystemen
+Unternehmen ihren Wert dadurch steigern kÃ¶nnen, dass sie
+sich verschulden, weil sie so ihre Steuerlast senken kÃ¶nnen
+â–¶ Das Steuersystem verzerrt die Kapitalstruktur in Richtung von
+mehr Fremdkapital
+
+---PAGE---
+
+4.1.1 Der fremdfinanzierungsbedingte Steuervorteil
+â–¶ Unternehmen mÃ¼ssen auf ihren Gewinn nach Abzug von
+Zinszahlungen Steuern zahlen
+â–¶ Daher mindern Zinssaufwendungen die HÃ¶he der
+Ertragsteuern, die ein Unternehmen entrichten muss
+â–¶ Dies setzt einen Anreiz, mehr Fremdkapital einzusetzen
+(â€œdebt biasâ€)
+â–¶ Beispiel:
+â–¶ Macyâ€™s erwirtschaftete im Jahr 2012 einen Gewinn vor Zinsen
+und Steuern in HÃ¶he von ca. 2,5 Mrd. Euro
+â–¶ Der Zinsaufwand betrug rund 430 Millionen Euro
+â–¶ Der Ertragsteuersatz von Macyâ€™s betrug 35%
+â–¶ Beachte: Hier und im Folgenden werden die Auswirkungen der
+US-Steuerreform von 2017 (Tax Cuts and Jobs Act) noch
+nicht berÃ¼cksichtigt
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil
+Operations Management
+Kapitel â–¶15:D FerremZidnksaapuiftwala nunddm Sitnedueerrtnden Ertrag vor Steuern und somit
+die Steuerlast des verschuldeten Unternehmens
+â–¶ Der Ertrag nach Steuern des verschuldeten Unternehmens ist
+niedriger
+
+3 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Der frGemrudnfidlnaagnezni edreur nFginsabnezdwinirgtstechSaftteuervorteil
+Kapitel 15: Fremdkapital und Steuern
+15.1 Der fremdfinanzierungsbedingte
+â–¶SBteeaucehtrev:oDrietegielsamten ZahlungsstrÃ¶me, die allen Investoren
+zuflieÃŸen, sind mit Verschuldung hÃ¶her
+â€¢ Somit hat die Verschuldung den Wert des Eigenkapitals
+â–¶ Hieraus folgt unmittelbar, dass das verschuldete Unternehmen
+gemindert. Noch wichtiger ist aber, dass der Gesamtbetrag,
+mdeehrr awlleernt Iisntvestoren zur VerfÃ¼gung steht, mit der
+Verschuldung hÃ¶her war:
+Mit Verschuldung Ohne Verschuldung
+Zinsen, die an Fremdkapitalgeber 430 0
+gezahlt werden
+Ertrag, der den Anteilseignern zur 1.345 1.625
+VerfÃ¼gung steht
+Gesamtbetrag, der den Investoren 1.775 1.625
+zur VerfÃ¼gung steht
+7 Berk, DeMarzo; Grundlagen der Finanzwirtschaft Â© Pearson 2015
+
+---PAGE---
+
+â–¶ Die Differenz entspricht der Steuerminderung aufgrund der
+Verschuldung:
+875Millionen eâˆ’725Millionen e = 150Millionen e
+Der fremdfinanzierungsbedingte Steuervorteil
+â–¶ Mit Verschuldung konnte Macyâ€™s insgesamt 1.775 Millionen
+Euro an die Investoren auszahlen
+â–¶ Ohne Verschuldung waren es nur 1.625 Millionen Euro
+â–¶ Woher kommen die zusÃ¤tzlichen 150 Millionen Euro?
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil
+â–¶ Mit Verschuldung konnte Macyâ€™s insgesamt 1.775 Millionen
+Euro an die Investoren auszahlen
+â–¶ Ohne Verschuldung waren es nur 1.625 Millionen Euro
+â–¶ Woher kommen die zusÃ¤tzlichen 150 Millionen Euro?
+â–¶ Die Differenz entspricht der Steuerminderung aufgrund der
+Verschuldung:
+875Millionen eâˆ’725Millionen e = 150Millionen e
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil
+â–¶ Da Macyâ€™s auf die 430 Millionen Euro des Gewinns, die fÃ¼r die
+Zinszahlungen verwendet wurden, keine Steuern zahlen muss,
+ergibt sich eine Steuerersparnis in HÃ¶he von 35% auf 430
+Millionen Euro â‰ˆ 150 Millionen Euro
+â–¶ Der fremdfinanzierungsbedingte Steuervorteil ist der
+zusÃ¤tzliche Betrag, den ein Unternehmen an Steuern gezahlt
+hÃ¤tte, wenn es nicht verschuldet gewesen wÃ¤re
+â–¶ Also: Fremdfinanzierungsbedingter Steuervorteil
+= Ertragsteuersatz Â· Zinszahlungen
+
+---PAGE---
+
+Bewertung des fremdfinanzierungsbedingten Steuervorteils
+â–¶ Wenn ein Unternehmen Fremdkapital einsetzt, liefert der
+fremdfinanzierungsbedingte Steuervorteil jedes Jahr einen
+Steuervorteil
+â–¶ Um den Vorteil aus der Verschuldung fÃ¼r den
+Unternehmenswert zu ermitteln, muss man den Barwert des
+Stroms zukÃ¼nftiger fremdfinanzierungsbedingter Steuervorteile
+errechnen, die das Unternehmen erhÃ¤lt
+
+---PAGE---
+
+Fremdfinanzierungsbedingter Steuervorteil und
+Unternehmenswert
+â–¶ Jedes Jahr, in dem ein Unternehmen Zinszahlungen leistet,
+sind die Cashflows, die an die Investoren ausgezahlt werden,
+um den Betrag des fremdfinanzierungsbedingten Steuervorteils
+hÃ¶her, als sie ohne Verschuldung wÃ¤ren
+â–¶ Also: Cashflows an die Investoren mit Verschuldung
+= Cashflows an die Investoren ohne Verschuldung
++ fremdfinanzierungsbedingter Steuervorteil
+â–¶ MMT I mit Steuern: Der Gesamtwert des verschuldeten
+Unternehmens Ã¼bersteigt den Wert des unverschuldeten
+Unternehmens um den Barwert der Steuerersparnis aus dem
+Fremdkapital:
+â–¶ VL =VU +BW(fremdfinanzierungsbedingter Steuervorteil)
+
+---PAGE---
+
+OFpreemradtfiionnanszMiearunnaggsebmedeinngtter Steuervorteil und
+Kapitel 15: Fremdkapital und Steuern
+Unternehmenswert
+â–¶ Cashflows werden nun auf Investoren und Steuern aufgeteilt
+
+4 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Exkurs: Barwertberechnung â€“ Ewige Rente
+â–¶ Wie hoch ist der Barwert einer Zahlungsreihe, die bis in alle
+Ewigkeit eine feste Zahlung C verspricht, wenn die Abzinsung
+mit r erfolgt (ewige Rente)?
+C C C
+BW = + + +...
+(1+r) (1+r)2 (1+r)3
+âˆž
+C
+=
+(1+r)n
+n=1
+[cid:88]
+C
+=
+r
+â–¶ Das wÃ¤re gerade der Betrag, den jemand bereit wÃ¤re zu
+zahlen, um die ewige Rente zu erhalten
+â–¶ Zur Erinnerung: Grenzwert einer geometrischen Reihe:
+lim n C Â·qk = C Â· q fÃ¼r |q| < 1 (hier wÃ¤re q = 1 )
+nâ†’âˆž k=1 1âˆ’q 1+r
+[cid:80]
+
+---PAGE---
+
+Exkurs: Barwertberechnung â€“ AnnuitÃ¤t
+â–¶ Wie hoch ist der Barwert einer Zahlungsreihe, die fÃ¼r N
+Perioden eine feste Zahlung C verspricht, wenn die Abzinsung
+mit r erfolgt (AnnuitÃ¤t)?
+â–¶ Dies entspricht einer ewigen Rente abzÃ¼glich einer ewigen
+Rente, die in Periode N beginnt (Auszahlung ab N+1)
+C C C
+BW = + +...
+(1+r) (1+r)2 (1+r)N
+N
+C
+=
+(1+r)n
+n=1
+[cid:88]
+C 1 C
+= âˆ’
+r (1+r)N r
+1 1
+= C Â· Â·(1âˆ’ )
+r (1+r)N
+
+---PAGE---
+
+Beispiel: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils
+â–¶ Das Unternehmen D.F. Builders muss in den nÃ¤chsten
+10 Jahren jedes Jahr 100 Millionen Euro Zinsen zahlen
+â–¶ Diese Zahlungen sind risikolos, und der Ertragsteuersatz
+betrÃ¤gt wÃ¤hrend des gesamten Zeitraums 35%
+â–¶ Wie groÃŸ ist der fremdfinanzierungsbedingte Steuervorteil,
+wenn der risikolose Zinssatz 5% betrÃ¤gt?
+
+---PAGE---
+
+Beispiel: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils
+â–¶ Der Steuervorteil pro Jahr betrÃ¤gt 35% Â· 100 Millionen Euro
+= 35 Millionen Euro (Ã¼ber zehn Jahre)
+â–¶ Bewertung als 10-Jahres-AnnuitÃ¤t bei einer Diskontierung mit
+5%:
+â–¶ BW(fremdfinanzierungsbedingter Steuervorteil)
+= 35 Millionen Euro Â· 1 Â·(1âˆ’ 1 )
+0,05 1,0510
+â‰ˆ 270 Millionen Euro
+
+---PAGE---
+
+Fremdfinanzierungsbedingter Steuervorteil und
+Unternehmenswert
+â–¶ Wovon hÃ¤ngt die HÃ¶he der kÃ¼nftigen Zinszahlungen ab?
+1. HÃ¶he des ausstehenden Fremdkapitals
+2. Versprochene Zinsen auf dieses Fremdkapital
+3. Risiko, dass das Unternehmen in Verzug gerÃ¤t und seinen
+Zinsverpflichtungen nicht nachkommt
+â–¶ Zudem kann der Ertragsteuersatz des Unternehmens infolge
+von AÂ¨nderungen des Steuerrechts oder AÂ¨nderungen der
+Ertragsteuergruppe des Unternehmens variieren
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil bei einer
+Dauerschuld
+â–¶ Wir betrachten nun den besonderen Fall, dass ein
+Unternehmen risikoloses Fremdkapital ausgibt und plant, das
+Fremdkapital fÃ¼r immer konstant zu halten (z.B. ewige
+Anleihe oder regelmÃ¤ÃŸige Refinanzierung)
+â–¶ Annahme: Fremdkapital wird nie zurÃ¼ckgezahlt
+â–¶ Notation:
+â–¶ D = Fremdkapital
+â–¶ Ï„ c = Ertragsteuersatz des Unternehmens
+â–¶ r f = risikoloser Zins
+â–¶ Fremdfinanzierungsbedingter Steuervorteil in jedem Jahr:
+Ï„ Â·r Â·D
+c f
+â–¶ Barwert des gesamten Steuervorteils kann als ewige Rente
+berechnet werden: Ï„cÂ·r f Â·D = Ï„ Â·D
+r c
+f
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil bei einer
+Dauerschuld
+â–¶ Formel gilt vom Prinzip her auch, wenn der Kredit riskant ist
+und die Zinsen variabel sind
+â–¶ Solange der Kredit fair bewertet ist, impliziert die
+Arbitragefreiheit, dass sein Marktwert dem Barwert der
+kÃ¼nftigen Zinszahlungen entsprechen muss:
+â–¶ Marktwert des Fremdkapitals = D
+= BW(zukÃ¼nftige Zinszahlungen)
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil bei einer
+Dauerschuld
+â–¶ Wenn der Ertragsteuersatz des Unternehmens konstant ist,
+betrÃ¤gt der Wert des fremdfinanzierungsbedingten
+Steuervorteils der Dauerschuld:
+â–¶ BW(fremdfinanzierungsbedingter Steuervorteil)
+= BW(Ï„
+c
+Â· zukÃ¼nftige Zinszahlungen)
+= Ï„
+c
+Â· BW(zukÃ¼nftige Zinszahlungen)
+= Ï„ Â·D
+c
+â–¶ BetrÃ¤gt der Ertragsteuersatz beispielsweise 35%, steigt der
+Unternehmenswert durch den fremdfinanzierungsbedingten
+Steuervorteil fÃ¼r jeden zusÃ¤tzlichen Euro einer Dauerschuld
+um 0,35 Euro
+
+---PAGE---
+
+Auswirkungen auf die Kapitalkosten (nach Steuern)
+â–¶ Der fremdfinanzierungsbedingte Steuervorteil hat auch
+Auswirkungen auf die gewichteten durchschnittlichen
+Kapitalkosten (WACC)
+â–¶ Beispiel:
+â–¶ Ein Unternehmen mit einem Steuersatz von 35% nimmt einen
+Kredit von 100.000 Euro zu einem Zins von 10% pro Jahr auf
+â–¶ Zinsaufwand: 10.000 Euro
+â–¶ Steuerersparnis: 35% des Zinsaufwandes = 3.500 Euro
+â–¶ Effektive Fremdkapitalkosten nach Steuern:
+r Â·(1âˆ’Ï„ )Â·100.000e=6.500e
+c
+â–¶ Dies entspricht nur 6,5% des Kreditbetrags
+â–¶ Die steuerliche AbzugsfÃ¤higkeit der Schuldzinsen mindert die
+effektiven Kosten der Fremdfinanzierung der Unternehmen
+â–¶ Also: Bei steuerabzugsfÃ¤higen Zinsen betrÃ¤gt der effektive
+Verschuldungszinssatz nach Steuern r Â·(1âˆ’Ï„ )
+c
+
+---PAGE---
+
+Auswirkungen auf die Kapitalkosten (nach Steuern)
+â–¶ Die SteuerabzugsfÃ¤higkeit der Schuldzinsen mindert die
+effektiven Fremdkapitalkosten nach Steuern fÃ¼r das
+Unternehmen
+â–¶ WACC (nach Steuern) unter Verwendung der effektiven
+Fremdkapitalkosten nach Steuern:
+E D
+r = Â·r + Â·r Â·(1âˆ’Ï„ )
+WACC E D c
+E +D E +D
+
+---PAGE---
+
+Auswirkungen auf die Kapitalkosten (nach Steuern)
+â–¶ Die Kapitalkosten nach Steuern sind niedriger als die
+Kapitalkosten vor Steuern (= durchschnittliche Rendite, die
+an die Investoren gezahlt wird):
+E D D
+r = Â·r + Â·r âˆ’ Â·r Â·Ï„
+WACC E D D c
+E +D E +D E +D
+â–¶ Also: WACC nach Steuern = WACC vor Steuern
+- Effekt des fremdfinanzierungsbedingten Steuervorteils
+â–¶ Je hÃ¶her der Verschuldungsgrad des Unternehmens, desto
+mehr kann das Unternehmen den Steuervorteil aus dem
+Fremdkapital ausschÃ¶pfen und desto niedriger sind die WACC
+
+---PAGE---
+
+Auswirkungen auf die Kapitalkosten (nach Steuern)
+â–¶ Die WACC nach Steuern gehen mit dem Verschuldungsgrad
+Operations Management
+zurÃ¼ck, da die effektiven Fremdkapitalkosten (nach Steuern)
+Kapitel 15: Fremdkapital und Steuern
+niedriger sind
+
+5 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Der fremdfinanzierungsbedingte Steuervorteil bei einem
+Zielverschuldungsgrad
+â–¶ Was passiert, wenn das Unternehmen nicht die HÃ¶he des
+Fremdkapitals konstant hÃ¤lt, sondern den
+Verschuldungsgrad?
+â–¶ In diesem Fall kann man den Unternehmenswert mit
+Verschuldung (VL) berechnen, indem man den freien
+Cashflow unter Verwendung der WACC nach Steuern abzinst
+â–¶ Der Wert des fremdfinanzierungsbedingten Steuervorteils kann
+ermittelt werden, indem man VL mit dem Wert VU des
+unverschuldeten Unternehmen (Abzinsung der freien
+Cashflows mit den WACC vor Steuern) vergleicht
+
+---PAGE---
+
+Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils bei einem Zielverschuldungsgrad
+â–¶ Western Lumber Company erwartet fÃ¼r die Zukunft einen
+freien Cashflow von jÃ¤hrlich 4,25 Millionen Euro
+â–¶ Western Lumber hat Eigenkapitalkosten in HÃ¶he von 10% und
+Fremdkapitalkosten in HÃ¶he von 6%
+â–¶ Es werden Ertragsteuern in HÃ¶he von 35% gezahlt
+â–¶ Frage: Wie hoch ist der fremdfinanzierungsbedingte
+Steuervorteil, wenn Western Lumber einen
+Verschuldungsgrad von 0,50 aufrechterhÃ¤lt?
+
+---PAGE---
+
+â–¶ WACC nach Steuern:
+2 1
+r = Â·10%+ Â·6%Â·(1âˆ’0,35) = 7,97%
+WACC
+3 3
+â–¶ Unternehmenswert mit Verschuldung:
+VL = 4,25 Millionen e â‰ˆ 53,3Millionen e
+7,97%
+â–¶ Ergebnis: Der Barwert des fremdfinanzierungsbedingten
+Steuervorteils betrÃ¤gt somit: VLâˆ’VU = 4,3Millionen e
+Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils bei einem Zielverschuldungsgrad
+â–¶ WACC vor Steuern:
+E D 2 1
+r = Â·r + Â·r = Â·10%+ Â·6% = 8,67%
+WACC E D
+E +D E +D 3 3
+â–¶ Unternehmenswert ohne Steuervorteil (entspricht dem Wert
+des unverschuldeten Unternehmens):
+VU = 4,25 Millionen e â‰ˆ 49Millionen e
+8,67%
+
+---PAGE---
+
+â–¶ Ergebnis: Der Barwert des fremdfinanzierungsbedingten
+Steuervorteils betrÃ¤gt somit: VLâˆ’VU = 4,3Millionen e
+Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils bei einem Zielverschuldungsgrad
+â–¶ WACC vor Steuern:
+E D 2 1
+r = Â·r + Â·r = Â·10%+ Â·6% = 8,67%
+WACC E D
+E +D E +D 3 3
+â–¶ Unternehmenswert ohne Steuervorteil (entspricht dem Wert
+des unverschuldeten Unternehmens):
+VU = 4,25 Millionen e â‰ˆ 49Millionen e
+8,67%
+â–¶ WACC nach Steuern:
+2 1
+r = Â·10%+ Â·6%Â·(1âˆ’0,35) = 7,97%
+WACC
+3 3
+â–¶ Unternehmenswert mit Verschuldung:
+VL = 4,25 Millionen e â‰ˆ 53,3Millionen e
+7,97%
+
+---PAGE---
+
+Beispiel 15.3: Bewertung des fremdfinanzierungsbedingten
+Steuervorteils bei einem Zielverschuldungsgrad
+â–¶ WACC vor Steuern:
+E D 2 1
+r = Â·r + Â·r = Â·10%+ Â·6% = 8,67%
+WACC E D
+E +D E +D 3 3
+â–¶ Unternehmenswert ohne Steuervorteil (entspricht dem Wert
+des unverschuldeten Unternehmens):
+VU = 4,25 Millionen e â‰ˆ 49Millionen e
+8,67%
+â–¶ WACC nach Steuern:
+2 1
+r = Â·10%+ Â·6%Â·(1âˆ’0,35) = 7,97%
+WACC
+3 3
+â–¶ Unternehmenswert mit Verschuldung:
+VL = 4,25 Millionen e â‰ˆ 53,3Millionen e
+7,97%
+â–¶ Ergebnis: Der Barwert des fremdfinanzierungsbedingten
+Steuervorteils betrÃ¤gt somit: VLâˆ’VU = 4,3Millionen e
+
+---PAGE---
+
+4.1.2 Rekapitalisierung zur Nutzung von Steuervorteilen
+â–¶ Frage: KÃ¶nnen in einer Welt mit Steuern der
+Unternehmenswert und der Aktienkurs dadurch erhÃ¶ht
+werden, dass das Unternehmen Aktien zurÃ¼ckkauft?
+â–¶ Beispiel:
+â–¶ Midco Industries hat 20 Millionen umlaufende Aktien mit
+einem Marktpreis von 15 Euro je Aktie und kein Fremdkapital
+â–¶ Midco hat stabile Gewinne und zahlt Steuern in HÃ¶he von 35%
+â–¶ Das Management plant, einen Kredit auf dauerhafter Basis in
+HÃ¶he von 100 Millionen Euro durch eine gehebelte
+Rekapitalisierung aufzunehmen, bei der die aufgenommenen
+Mittel fÃ¼r einen AktienrÃ¼ckkauf verwendet werden sollen
+â–¶ Ziel dieser Transaktion ist es, den Aktienkurs von Midco durch
+die Steuerersparnis in die HÃ¶he zu treiben
+
+---PAGE---
+
+Der Steuervorteil
+â–¶ Unternehmenswert ohne Verschuldung:
+VU = 20Millionen AktienÂ·15e = 300Millionen e
+â–¶ Wenn Midco einen Kredit in HÃ¶he von 100 Millionen Euro als
+Dauerschuld aufnimmt, betrÃ¤gt der Barwert der kÃ¼nftigen
+Steuerersparnis des Unternehmens:
+â–¶ BW(fremdfinanzierungsbedingter Steuervorteil)
+= Ï„ Â·D = 35% von 100 Millionen Euro = 35 Millionen Euro
+c
+â–¶ Unternehmenswert mit Verschuldung: VL = VU +Ï„ c Â·D
+= 300 Millionen Euro + 35 Millionen Euro
+= 335 Millionen Euro
+
+---PAGE---
+
+Der Steuervorteil
+â–¶ Da der Wert des Fremdkapitals 100 Millionen Euro betrÃ¤gt,
+hat das Eigenkapital einen Wert von:
+E = VLâˆ’D
+= 335 Millionen Euro â€“ 100 Millionen Euro
+= 235 Millionen Euro
+â–¶ Der Wert der im Umlauf befindlichen Aktien ist also auf
+235 Millionen Euro gefallen
+â–¶ Allerdings erhalten die AktionÃ¤re die 100 Millionen Euro, die
+Midco durch den AktienrÃ¼ckkauf zahlen wird
+â–¶ Insgesamt erhalten die AktionÃ¤re also die vollen 335 Millionen,
+was einer zusÃ¤tzlichen Zahlung von 35 Millionen Euro
+entspricht
+
+---PAGE---
+
+Der AktienrÃ¼ckkauf
+â–¶ Nehmen wir an, Midco wÃ¼rde anbieten, die Aktien zum
+aktuellen Preis von 15 Euro je Aktie zurÃ¼ckzukaufen
+â–¶ Das Unternehmen kauft dann 6,67 Millionen Aktien zurÃ¼ck
+(= 100 Millionen Euro / 15 Euro), also sind nun
+13,33 Millionen Aktien (= 20 â€“ 6,67) im Umlauf
+â–¶ Der neue Aktienkurs liegt nun bei 235 Millionen Euro /
+13,33 Millionen = 17,63 Euro (pro Aktie)
+
+---PAGE---
+
+Der AktienrÃ¼ckkauf
+â–¶ Die AktionÃ¤re, die ihre Aktien behalten, erzielen einen
+Kapitalertrag von 17,63 Euro â€“ 15 Euro = 2,63 Euro je Aktie,
+was einem Gesamtgewinn von 2,63 Â· 13,33 Millionen
+= 35 Millionen Euro entspricht
+â–¶ Aber: Warum sollte ein AktionÃ¤r seine Aktien fÃ¼r 15 Euro
+verkaufen, wenn sie in Wirklichkeit 17,63 Euro wert sind?
+
+---PAGE---
+
+Arbitragefreie Bewertung
+â–¶ Das vorherige Szenario stellt eine ArbitragemÃ¶glichkeit dar
+â–¶ Die Investoren kÃ¶nnten kurz vor dem AktienrÃ¼ckkauf Aktien
+fÃ¼r 15 Euro kaufen und diese unmittelbar danach zu dem
+hÃ¶heren Kurs verkaufen
+â–¶ Folge: Sobald die Investoren wissen, dass die Rekapitalisierung
+stattfindet, steigt der Aktienkurs sofort auf den Wert, der den
+Steuervorteil von 35 Millionen Euro widerspiegelt
+
+---PAGE---
+
+Arbitragefreie Bewertung
+â–¶ Also steigt der Wert des Eigenkapitals sofort von
+300 Millionen Euro auf 335 Millionen Euro
+â–¶ Bei 20 Millionen im Umlauf befindlichen Aktien wird der
+Aktienkurs auf folgenden Wert steigen:
+335 Millionen Euro / 20 Millionen Aktien
+= 16,75 Euro (pro Aktie)
+â–¶ Diesen Preis muss Midco mindestens bieten, um die Aktien
+zurÃ¼ckzukaufen
+
+---PAGE---
+
+Arbitragefreie Bewertung
+â–¶ Bei einem RÃ¼ckkaufspreis von 16,75 Euro gewinnen infolge
+dieser Transaktion sowohl die AktionÃ¤re, die ihre Aktien zum
+Verkauf anbieten, als auch die AktionÃ¤re, die ihre Aktien
+behalten: 16,75 Euro â€“ 15 Euro = 1,75 Euro je Aktie
+â–¶ Der Nutzen aus dem fremdfinanzierungsbedingten
+Steuervorteil geht also an alle 20 Millionen ursprÃ¼nglich im
+Umlauf befindlichen Aktien
+â–¶ Gesamtgewinn: 1,75 Euro Â· 20 Millionen = 35 Millionen Euro
+â–¶ Fazit: Wenn die Wertpapiere fair bewertet sind, erhalten die
+AktionÃ¤re eines Unternehmens den vollen Vorteil aus dem
+fremdfinanzierungsbedingten Steuervorteil, der durch die
+ErhÃ¶hung der Verschuldung entsteht
+
+---PAGE---
+
+Beispiel 15.4: Ein alternativer RÃ¼ckkaufspreis
+â–¶ Midco kÃ¼ndigt einen Preis an, zu dem Aktien im Wert von
+100 Millionen Euro zurÃ¼ckgekauft werden
+â–¶ Zeigen Sie, dass 16,75 Euro der niedrigste Preis ist, bei dem
+zu erwarten ist, dass die AktionÃ¤re ihre Aktien zum Kauf
+anbieten
+â–¶ Wer profitiert, wenn Midco mehr als 16,75 Euro je Aktie
+anbietet?
+
+---PAGE---
+
+â–¶ Liegt der RÃ¼ckkaufspreis darÃ¼ber, wollen alle AktionÃ¤re ihre
+Aktien verkaufen, und der Gewinn fÃ¤llt zum grÃ¶ÃŸeren Teil an
+die AktionÃ¤re, die beim Verkauf zum Zuge kommen
+Beispiel 15.4: Ein alternativer RÃ¼ckkaufspreis
+â–¶ Sei P R der RÃ¼ckkaufspreis der Aktien
+â–¶ Der AktionÃ¤r ist bereit, seine Aktien zu verkaufen, wenn der
+Preis mindestens so hoch ist, wie der Aktienkurs nach dem
+RÃ¼ckkauf wÃ¤re
+â–¶ Aktienkurs nach dem RÃ¼ckkauf
+= Wert des Eigenkapitals / verbleibende Aktien:
+235 Millionen e/(20Millionenâˆ’ 100 Millionen)
+P
+R
+â–¶ Gleichsetzen mit P R ergibt den Preis, ab dem der AktionÃ¤r
+zum Verkauf bereit wÃ¤re = 16,75 Euro
+
+---PAGE---
+
+Beispiel 15.4: Ein alternativer RÃ¼ckkaufspreis
+â–¶ Sei P R der RÃ¼ckkaufspreis der Aktien
+â–¶ Der AktionÃ¤r ist bereit, seine Aktien zu verkaufen, wenn der
+Preis mindestens so hoch ist, wie der Aktienkurs nach dem
+RÃ¼ckkauf wÃ¤re
+â–¶ Aktienkurs nach dem RÃ¼ckkauf
+= Wert des Eigenkapitals / verbleibende Aktien:
+235 Millionen e/(20Millionenâˆ’ 100 Millionen)
+P
+R
+â–¶ Gleichsetzen mit P R ergibt den Preis, ab dem der AktionÃ¤r
+zum Verkauf bereit wÃ¤re = 16,75 Euro
+â–¶ Liegt der RÃ¼ckkaufspreis darÃ¼ber, wollen alle AktionÃ¤re ihre
+Aktien verkaufen, und der Gewinn fÃ¤llt zum grÃ¶ÃŸeren Teil an
+die AktionÃ¤re, die beim Verkauf zum Zuge kommen
+
+---PAGE---
+
+Analyse der Rekapitalisierung: Die Marktwertbilanz
+â–¶ In Gegenwart von Ertragsteuern erscheint der
+fremdfinanzierungsbedingte Steuervorteil als Aktivposten des
+Unternehmens in der Marktwertbilanz
+â–¶ Dies geschieht mit der AnkÃ¼ndigung der Rekapitalisierung
+â–¶ Gleichzeitig steigt der Aktienkurs auf 16,75 Euro
+OperationsManagement
+(uKmapitdele 1n5: BFreamrwdkeaprittald uensd SStetueeurnervorteils pro Aktie)
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Analyse der Rekapitalisierung: Die Marktwertbilanz
+â–¶ Dann nimmt Midco das Fremdkapital auf und kauft schlieÃŸlich
+die Aktien zurÃ¼ck
+OperationsManagement
+â–¶ D K e a r pi A tel k 1 t 5 i : e F n re k m u d r k s ap Ã¤ ita n l d un e d r t Ste s u ic er h n hierdurch nicht mehr
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+4.1.3 Steuern auf Investorenebene
+â–¶ Bislang haben wir die Vorteile aus der Verschuldung
+hinsichtlich der Steuern betrachtet, die ein Unternehmen zu
+zahlen hat
+â–¶ Die Investoren mÃ¼ssen die erhaltenen KapitalertrÃ¤ge jedoch
+ebenfalls versteuern
+â–¶ Beispielsweise mÃ¼ssen Privatpersonen typischerweise Zinsen,
+Dividenden und ggf. Kursgewinne als Ertrag versteuern
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Der Betrag, den ein Investor fÃ¼r ein Wertpapier zu zahlen
+bereit ist, hÃ¤ngt von den Cashflows ab, die er erhÃ¤lt, nachdem
+alle Steuern entrichtet wurden
+â–¶ Somit reduzieren die Steuern auf Investorenebene ebenso wie
+die Ertragsteuern die Cashflows, die an die Investoren gehen,
+und mindern den Unternehmenswert
+â–¶ Folglich ist der fremdfinanzierungsbedingte Steuervorteil
+von der Reduktion der gesamten gezahlten Steuern (sowohl
+auf Unternehmens- als auch auf Investorenebene) abhÃ¤ngig
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Steuern fÃ¼r Fremd- und Eigenkapitalgeber kÃ¶nnen einen Teil
+der beschriebenen Steuervorteile des Unternehmens aus der
+Verschuldung aufheben
+â–¶ Um den wahren Steuervorteil aus der Verschuldung zu
+ermitteln, muss man die kombinierte Auswirkung der Steuern
+auf Unternehmens- und auf Investorenebene berÃ¼cksichtigen
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Beispiel:
+â–¶ Wir betrachten ein Unternehmen mit einem Gewinn vor Zinsen
+und Steuern (EBIT) von 1 Euro
+â–¶ Das Unternehmen kann diesen Euro entweder an seine
+Fremdkapitalgeber in Form von Zinsen zahlen, an die
+Eigenkapitalgeber direkt Ã¼ber eine Dividende oder indirekt
+durch eine Einbehaltung der Gewinne, so dass Kapitalgewinne
+entstehen
+â–¶ Ertragsteuersatz des Unternehmens: Ï„ c =35%
+â–¶ Steuersatz auf ZinsertrÃ¤ge aus Fremdkapital: Ï„ i =35%
+â–¶ Steuersatz auf ErtrÃ¤ge aus Eigenkapital: Ï„ e =15%
+
+---PAGE---
+
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+Vereinfachtes Steuersystem
+
+7 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Cashflows nach Steuern:
+â–¶ An Fremdkapitalgeber: (1âˆ’Ï„ i )=1âˆ’0,35=0,65
+â–¶ An Eigenkapitalgeber:
+(1âˆ’Ï„ )(1âˆ’Ï„ )=(1âˆ’0,35)Â·(1âˆ’0,15)=0,5525
+c e
+â–¶ Es besteht also weiterhin ein Steuervorteil des
+Fremdkapitals, dieser ist aber deutlich kleiner als zuvor
+â–¶ Steuervorteil des Fremdkapitals: Ï„âˆ— = 0,65âˆ’0,5525 = 15%
+0,65
+(vorher 35%)
+
+---PAGE---
+
+Steuersystem in Deutschland
+â–¶ Belastung auf Unternehmensebene: Keine Belastung auf
+Fremdkapitalzinsen, aber Belastung auf
+ODpiveidraetnidoenns/KMaapniataglegemweinnnte (Gewerbesteuer,
+Kapitel 15: Fremdkapital und Steuern
+KÃ¶rperschaftsteuer, SolidaritÃ¤tszuschlag)
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuersystem in Deutschland
+â–¶ Belastung auf Investorenebene: Abgeltungssteuer (25%) auf
+alle KapitalertrÃ¤ge, SolidaritÃ¤tszuschlag: Ï„ = Ï„ = 0,2638
+i e
+O(BpeearcahttioenFsehMlearniangTeambeenllet! Tarifbelastung = Ï„ Â·(1âˆ’Ï„ ))
+e c
+Kapitel 15: Fremdkapital und Steuern
+â–¶ Beachte: Erheblicher Steuervorteil des Fremdkapitals (â‰ˆ 30%)
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Allgemein kostet jeder Euro, der nach Steuern von den
+Fremdkapitalgebern in Form einer Zinszahlung erhalten wird,
+die Anteilseigner (1âˆ’Ï„âˆ—) nach Steuern
+â–¶ Effektiver Steuervorteil aus dem Fremdkapital:
+(1âˆ’Ï„ )âˆ’(1âˆ’Ï„ )(1âˆ’Ï„ )
+Ï„âˆ— = i c e
+(1âˆ’Ï„ )
+i
+(1âˆ’Ï„ )(1âˆ’Ï„ )
+c e
+= 1âˆ’
+(1âˆ’Ï„ )
+i
+
+---PAGE---
+
+Steuern auf Investorenebene und der
+fremdfinanzierungsbedingte Steuervorteil
+â–¶ Gibt es keine Steuern auf Investorenebene oder sind die
+SteuersÃ¤tze auf ErtrÃ¤ge aus Fremd- und Eigenkapital gleich
+(Ï„ = Ï„ ), reduziert sich diese Formel auf Ï„âˆ— = Ï„
+i e c
+â–¶ Also: Eine Relativierung der frÃ¼heren Ergebnisse ist nur dann
+notwendig, wenn es Steuern auf Investorenebene gibt und
+wenn die Steuern auf ErtrÃ¤ge aus Fremd- und Eigenkapital
+sich unterscheiden
+â–¶ Ist die Steuerlast auf ErtrÃ¤ge aus Eigenkapital geringer
+(Ï„ < Ï„ ), dann gilt: Ï„âˆ— < Ï„
+e i c
+â‡’ Geringerer Steuervorteil aus Fremdfinanzierung
+
+---PAGE---
+
+Steuervorteil aus Fremdkapital mit und ohne Steuern
+Operations Management
+(USA)
+Kapitel 15: Fremdkapital und Steuern
+â–¶ Steuervorteil des Fremdkapitals Ï„âˆ— nach BerÃ¼cksichtigung der
+Investorenseite ist zwar weiterhin positiv, aber viel kleiner als
+Ï„
+c
+â–¶ Starke Schwankungen Ã¼ber die Zeit
+
+9 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Bewertung des fremdfinanzierungsbedingten Steuervorteils
+mit Steuern auf Investorenebene
+â–¶ Im Fall von dauerhaften Schulden liegt der Unternehmenswert
+mit Verschuldung bei: VL = VU +Ï„âˆ—Â·D
+â–¶ Bei einem Steuernachteil aus dem Fremdkapital auf
+Investorenebene gilt, dass Ï„âˆ— < Ï„ , wodurch der steuerliche
+c
+Vorteil der Verschuldung gemindert wird
+â–¶ Typischerweise verschwindet er aber nicht ganz
+
+---PAGE---
+
+Bewertung des fremdfinanzierungsbedingten Steuervorteils
+mit Steuern auf Investorenebene
+â–¶ Steuern auf Investorenebene haben eine indirekte Auswirkung
+auf den gewichteten Durchschnitt der Kapitalkosten (WACC)
+â–¶ Berechnung der WACC:
+â–¶ WACC werden weiterhin unter Verwendung des
+Ertragsteuersatzes Ï„ berechnet
+c
+â–¶ Allerdings werden die Eigenkapitalkosten und
+Fremdkapitalkosten des Unternehmens in Anwesenheit von
+Steuern auf Investorenebene angepasst, um die Investoren fÃ¼r
+ihre jeweiligen Steuerlasten zu entschÃ¤digen
+â–¶ Besteht ein Steuernachteil aus dem Fremdkapital auf
+Investorenebene, fallen die WACC mit der Verschuldung
+weniger stark
+
+---PAGE---
+
+Ermittlung des tatsÃ¤chlichen Steuervorteils aus dem
+Fremdkapital
+â–¶ Bei der SchÃ¤tzung des effektiven Steuervorteils aus dem
+Fremdkapital unter BerÃ¼cksichtigung der Steuern auf
+Investorenebene mÃ¼ssen viele Annahmen getroffen werden
+â–¶ Diese mÃ¼ssen angepasst werden, wenn man den tatsÃ¤chlichen
+Steuervorteil fÃ¼r ein bestimmtes Unternehmen oder einen
+Investor ermitteln mÃ¶chte
+
+---PAGE---
+
+Ermittlung des tatsÃ¤chlichen Steuervorteils aus dem
+Fremdkapital
+â–¶ Annahme 1: Die Anleger zahlen jedes Jahr Steuern auf
+Kursgewinne.
+â–¶ Im Gegensatz zu Steuern auf Zins- und DividendenertrÃ¤ge, die
+jÃ¤hrlich bezahlt werden, werden Steuern auf Kursgewinne erst
+dann entrichtet, wenn der Investor die Aktie verkauft und den
+Gewinn realisiert â‡’ Geringerer Barwert = niedrigerer
+effektiver Steuersatz auf Kursgewinne
+â–¶ Investoren mit aufgelaufenen Verlusten, die verwendet werden
+kÃ¶nnen, um Gewinne auszugleichen, unterliegen einem
+effektiven Kapitalertragsteuersatz von null
+â–¶ Folglich unterliegen Investoren, die ihre Wertpapiere lÃ¤nger
+halten oder aufgelaufene Verluste aufweisen, einem
+niedrigeren Steuersatz auf ErtrÃ¤ge aus Eigenkapital, was den
+effektiven Steuervorteil aus dem Fremdkapital mindert
+
+---PAGE---
+
+Ermittlung des tatsÃ¤chlichen Steuervorteils aus dem
+Fremdkapital
+â–¶ Annahme 2: HÃ¶he von Ï„ e
+â–¶ Die Verwendung des durchschnittlichen Dividenden- und
+Kursgewinnsteuersatzes fÃ¼r Ï„ ist bei einem Unternehmen
+e
+angebracht, das 50% seiner Gewinne auszahlt, so dass die
+Gewinne der AktionÃ¤re aus zusÃ¤tzlichen Gewinnen gleichmÃ¤ÃŸig
+zwischen Dividenden und Kapitalgewinnen aufgeteilt werden
+â–¶ Bei Unternehmen mit viel hÃ¶heren oder viel niedrigeren
+AusschÃ¼ttungsraten wÃ¤re dieser Durchschnitt nicht treffend
+â–¶ Bei Unternehmen, die keine Dividende zahlen, sollte der
+Kursgewinnsteuersatz fÃ¼r Ï„ angewendet werden
+e
+
+---PAGE---
+
+Ermittlung des tatsÃ¤chlichen Steuervorteils aus dem
+Fremdkapital
+â–¶ Annahme 3: Spitzensteuersatz von 35% fÃ¼r den Investor (Ï„ i )
+â–¶ In der RealitÃ¤t sind die SteuersÃ¤tze fÃ¼r die einzelnen
+Investoren sehr unterschiedlich, und viele Investoren
+unterliegen niedrigeren SteuersÃ¤tzen
+â–¶ Bei niedrigeren SteuersÃ¤tzen sind die Auswirkungen der
+Steuern auf Investorenebene weniger substanziell
+â–¶ Des Weiteren unterliegen viele Investoren gar keinen Steuern
+fÃ¼r Fremd- und Eigenkapitalgeber
+â–¶ So ist beispielsweise die Anlage in einem Rentensparkonto
+oder einem Pensionsfonds in den USA steuerfrei
+â–¶ In diesem Fall entspricht der effektive Steuervorteil aus dem
+Fremdkapital dem vollen Steuersatz: Ï„âˆ— = Ï„
+c
+
+---PAGE---
+
+Ermittlung des tatsÃ¤chlichen Steuervorteils aus dem
+Fremdkapital
+â–¶ Fazit:
+â–¶ Die Berechnung des effektiven Steuervorteils aus dem
+Fremdkapital ist Ã¤uÃŸerst schwierig, und der Vorteil hÃ¤ngt
+stark vom Unternehmen und dessen Anlegern ab
+â–¶ Ein Unternehmen muss die Steuerklasse seines typischen
+Fremdkapitalgebers berÃ¼cksichtigen, um Ï„
+i
+zu schÃ¤tzen, und
+die Steuerklasse und Haltedauer seines typischen
+Anteilseigners, um Ï„
+e
+zu schÃ¤tzen
+
+---PAGE---
+
+4.1.4 Die optimale Kapitalstruktur mit Steuern
+â–¶ In der Modigliani-Miller-Welt ist jede beliebige Kapitalstruktur
+gleich gut (und damit optimal)
+â–¶ Dies gilt in Gegenwart von Steuern nicht mehr
+â–¶ Selbst nach Bereinigung um die Steuern auf Investorenebene
+Ã¼bersteigt der Wert eines Unternehmens mit Verschuldung
+typischerweise den Wert eines unverschuldeten Unternehmens
+â–¶ Also verschafft das Fremdkapital dem Unternehmer einen
+fremdfinanzierungsbedingten Steuervorteil
+â–¶ Hieraus kÃ¶nnte man schlieÃŸen, dass sich Unternehmen
+Ã¼berwiegend Ã¼ber Fremdkapital finanzieren
+
+---PAGE---
+
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+â–¶ In den meisten Perioden wurden netto externe Mittel
+OperaautfigoennosmMmaennagement
+Kapâ–¶iteHl 1ie5r:b Feriezmedigktapsiitcahl ueninde Sdteeuuetlrinche PrÃ¤ferenz fÃ¼r Fremdkapital als
+Quelle externer Finanzierung
+
+10 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+â–¶ Das aufgenommene Fremdkapital wurde anscheinend in
+erheblichem MaÃŸe zum AktienrÃ¼ckkauf verwendet
+Operations Management
+Kapâ–¶iteEl 1ig5e:n Fkraepmitdaklaepmitiasls iuonnde nStweuaerernn meistens sogar negativ
+(netto wurde Eigenkapital zurÃ¼ckgekauft)
+
+10 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Neuemissionen von Eigenkapital und Fremdkapital (USA)
+Op â–¶ erDaetriognrÃ¶sÃŸtMe aTneial dgeermKaepnittalaufwendungen/Investitionen wurde
+Kapitel 15: Fremdkapital und Steuern
+mit internen Mitteln (z.B. einbehaltenen Gewinnen)
+finanziert
+
+10 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Fremdkapitalquote von Unternehmen (USA)
+Opera â–¶ tioBneiseiMneamndaugrcehsmchenintttlichen Unternehmen schwankte die
+Kapitel 15: FFrreemmddkkaappiittaall quunodt eSteDuernzwischen 30 und 50%
+E+D
+â–¶ Aufgrund der Wertsteigerungen bei Aktien ist der Anteil der
+Verschuldung im Trend nicht angestiegen
+
+11 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Bevorzugen Unternehmen Fremdkapital?
+â–¶ Die aggregierten Zahlen verdecken wichtige Trends
+â–¶ Die Verwendung von Verschuldung hÃ¤ngt beispielsweise stark
+von der Branche ab
+â–¶ AuÃŸerdem halten viele Unternehmen hohe BetrÃ¤ge liquider
+Mittel, um die effektive Verschuldung zu reduzieren
+
+---PAGE---
+
+Branchenunterschiede
+â–¶ Die Abbildung zeigt den Median der Nettoverschuldung
+(Verschuldung abzÃ¼glich Barmittel und kurzfristiger Anlagen)
+Operations Management
+als Prozentsatz des Unternehmenswerts
+Kapitel 15: Fremdkapital und Steuern
+(Aktienmarktkapitalisierung plus Nettoverschuldung) fÃ¼r
+verschiedene Branchen
+â–¶ Gesamtmedian betrÃ¤gt 17,5%, aber erhebliche Schwankungen
+Ã¼ber Branchen hinweg
+
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Branchenunterschiede
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+â–¶ Unternehmen wie Fluggesellschaften, Immobilienunternehmen
+oder Versorgungsunternehmen weisen hohe
+Verschuldungsraten auf
+
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Branchenunterschiede
+â–¶ Unternehmen in Wachstumsbranchen, wie Biotechnologie oder
+Hightech, finanzieren sich hingegen kaum Ã¼ber Fremdkapital
+und verfÃ¼gen Ã¼ber groÃŸe Barreserven
+Ope â–¶ raNteitotonvsersMchaunldaugngemisteinnteiner Reihe von Branchen negativ,
+Kapitel 15: Fremdkapital und Steuern
+d.h. die liquiden Mittel Ã¼bersteigen die ausstehenden
+Verbindlichkeiten
+
+13 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Bevorzugen Unternehmen Fremdkapital?
+â–¶ Warum macht das Fremdkapital weniger als die HÃ¤lfte der
+Kapitalstruktur der meisten Unternehmen aus, wenn
+Fremdkapital einen Steuervorteil verschafft, der die
+Kapitalkosten senkt und den Firmenwert steigert?
+â–¶ Was erklÃ¤rt die Branchenunterschiede?
+â–¶ Warum haben manche Unternehmen gar keine
+Nettoverschuldung?
+
+---PAGE---
+
+BeschrÃ¤nkungen des Steuervorteils aus dem Fremdkapital
+â–¶ Um den vollen Steuervorteil aus der Verschuldung
+auszuschÃ¶pfen, muss ein Unternehmen keine
+hundertprozentige Fremdfinanzierung einsetzen
+â–¶ Ein Unternehmen erhÃ¤lt nur dann einen Steuervorteil, wenn es
+Ã¼berhaupt Steuern zahlt, es muss also zu versteuernde
+Gewinne aufweisen
+â–¶ Diese Bedingung kann die HÃ¶he des Fremdkapitals begrenzen,
+das fÃ¼r die AusschÃ¶pfung eines Steuervorteils erforderlich ist
+
+---PAGE---
+
+Steuerersparnis bei unterschiedlicher Verschuldung
+â–¶ Ausgangspunkt: EBIT = 1.000 Euro, Ertragsteuersatz
+Operations Management
+Ï„ = 35%
+Kapictel 15: Fremdkapital und Steuern
+â–¶ Ohne Verschuldung muss das Unternehmen Steuern in HÃ¶he
+von 350 Euro auf das gesamte EBIT zahlen
+
+14 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuerersparnis bei unterschiedlicher Verschuldung
+â–¶ Ist das Unternehmen hoch verschuldet mit Zinszahlungen in
+Operations Management
+Kap
+H itÃ¶
+el
+h
+1
+e
+5:
+v o
+Fr
+n
+em
+1.
+d
+0
+k
+0
+ap
+0
+it
+E
+al
+u
+u
+r
+n
+o
+d
+,
+S
+d
+t
+a
+e
+n
+ue
+n
+rn
+kann es seine Gewinne vollstÃ¤ndig
+von der Steuer befreien und somit die Steuern in HÃ¶he von
+350 Euro einsparen
+
+14 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuerersparnis bei unterschiedlicher Verschuldung
+â–¶ Ist das Unternehmen noch stÃ¤rker verschuldet, so dass die
+Zinszahlungen hÃ¶her sind als das EBIT, entsteht ein
+operativer Nettoverlust, aber es entsteht keine weitere
+Steigerung der Steuerersparnis
+Operations Management
+â–¶KapDitael d1a5:s FUrenmtedkrnapeihtaml uennd bSetereuietrsnkeine Steuern zahlt, besteht kein
+Steuervorteil aus der Ã¼bermÃ¤ÃŸigen Verschuldung
+(Ausnahme: VerlustrÃ¼cktrag/-vortrag)
+
+14 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Folgen der hohen Verschuldung
+â–¶ Also: Kein Ertragsteuervorteil aus Zinszahlungen, die
+regelmÃ¤ÃŸig das EBIT Ã¼bersteigen
+â–¶ AuÃŸerdem: Bei hoher Verschuldung kÃ¶nnten auf
+Investorenebene aufgrund des Steuernachteils des
+Fremdkapitals hÃ¶here Steuern anfallen
+â–¶ Quantifizierung des Steuernachteils aus den das EBIT
+Ã¼bersteigenden Zinszahlungen:
+â–¶ Setze Ï„ c =0
+â–¶ Effektiver Steuervorteil des Fremdkapitals:
+Ï„âˆ— =1âˆ’ (1âˆ’Ï„e) = Ï„eâˆ’Ï„i
+ex (1âˆ’Ï„i) (1âˆ’Ï„i)
+â–¶ Dies ist negativ, wenn Ï„ e <Ï„ i
+â–¶ USA: Ï„âˆ— =âˆ’30,8%, Deutschland: Ï„âˆ— =0%
+ex ex
+
+---PAGE---
+
+Optimale Verschuldung
+â–¶ Optimale HÃ¶he der Verschuldung aus Perspektive der
+Steuereinsparung: Zinsen entsprechen gerade dem EBIT
+â–¶ Das Unternehmen kann seinen gesamten zu versteuernden
+Ertrag von der Steuer befreien und hat keine steuerlichen
+Nachteile aus das EBIT Ã¼bersteigenden Zinszahlungen
+â–¶ Es ist allerdings unwahrscheinlich, dass ein Unternehmen sein
+kÃ¼nftiges EBIT prÃ¤zise vorhersagen kann
+â–¶ Bestehen Unsicherheiten bezÃ¼glich des EBIT, dann steigt mit
+hÃ¶herem Zinsaufwand das Risiko, dass die Zinsen das EBIT
+Ã¼bersteigen
+
+---PAGE---
+
+Steuerersparnis und Zinsaufwand
+Operations Management
+â–¶ Ist EBIT mit Sicherheit bekannt, wird die Steuerersparnis
+Kapitel 15: Fremdkapital und Steuern
+maximiert, wenn der Zinsaufwand dem EBIT entspricht
+â–¶ Ist EBIT unsicher, geht die Steuerersparnis bei hohen
+Zinszahlungen zurÃ¼ck, weil das Risiko besteht, dass die
+Zinszahlungen das EBIT Ã¼bersteigen
+
+15 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Steuerersparnis und Zinsaufwand
+Operations Management
+Kapitel 15: Fremdkapital und Steuern
+â–¶ Mit AnnÃ¤herung des Zinsaufwands an die erwarteten zu
+versteuernden Gewinne sinkt der marginale Steuervorteil aus
+der Verschuldung
+â–¶ Dies senkt tendenziell die optimale HÃ¶he der Verschuldung
+
+15 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Unternehmenswachstum und Fremdkapital
+â–¶ Eine steueroptimale Kapitalstruktur hÃ¤ngt also von der HÃ¶he
+des EBIT ab
+â–¶ Unternehmen ohne zu versteuernde ErtrÃ¤ge (z.B. junge
+Technologie- oder Biotech-Unternehmen) sollten daher aus
+steuerlicher Sicht kein Fremdkapital halten
+â‡’ VollstÃ¤ndige Finanzierung Ã¼ber Eigenkapital
+â–¶ Mit Reifung des Unternehmens wird Fremdkapital attraktiver
+
+---PAGE---
+
+Unternehmenswachstum und Fremdkapital
+â–¶ Ein wachsendes Unternehmen sollte Fremdkapital mit
+Zinszahlungen haben, die unter den erwarteten zu
+versteuernden Gewinnen liegen, um Ã¼bermÃ¤ÃŸige Zinszahlungen
+zu vermeiden:
+â–¶ Zinsen = r D Â·D â‰¤ EBIT â‡” Fremdkapital â‰¤ EBIT/r D
+â–¶ Optimale HÃ¶he des Fremdkapitals aus steuerlicher
+Perspektive ist proportional zur HÃ¶he des laufenden Gewinns
+â–¶ Der Wert des Eigenkapitals hÃ¤ngt jedoch positiv von der
+Wachstumsrate der Gewinne ab
+â–¶ Hieraus folgt: Je hÃ¶her die Wachstumsrate des Unternehmens,
+desto geringer ist der optimale Fremdkapitalanteil in der
+Kapitalstruktur eines Unternehmens D/(E+D)
+
+---PAGE---
+
+Sonstige Steuervorteile
+â–¶ Im Steuerrecht gibt es viele andere Bestimmungen zu
+AbzugsfÃ¤higkeit und Steuergutschriften, wie beispielsweise
+Abschreibungen, Steuergutschriften fÃ¼r Investitionen, VortrÃ¤ge
+von operativen Verlusten aus der Vergangenheit
+â–¶ Solche Steuervorteile verringern den zu versteuernden Ertrag
+â–¶ Folge: Das Unternehmen wird sich weniger auf den
+fremdfinanzierungsbedingten Steuervorteil stÃ¼tzen
+
+---PAGE---
+
+Das RÃ¤tsel der geringen Verschuldung
+â–¶ Frage: Entscheiden sich Unternehmen fÃ¼r Kapitalstrukturen,
+mit denen die Steuervorteile des Fremdkapitals voll
+ausgeschÃ¶pft werden?
+â–¶ Hierzu muss man die Zinszahlungen eines Unternehmens mit
+dem zu versteuernden Ertrag vergleichen: Zinsen/EBIT
+
+---PAGE---
+
+OperZaintisozanhsluMngaennaugndemEBeInTtim S&P 500 (USA)
+Kapitel 15: Fremdkapital und Steuern
+â–¶ Zinsen / EBIT von Unternehmen im S& P 500 betragen im
+Schnitt weniger als ein Drittel
+â–¶ Selbst in Phasen geringer Gewinne maximal rund 50%
+
+16 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Zinszahlungen und EBIT im S&P 500 (USA)
+Operations Management
+â–¶ Nur rund 10% der Unternehmen haben negative zu
+Kapitel 15: Fremdkapital und Steuern
+versteuernde ErtrÃ¤ge und wÃ¼rden somit nicht vom
+fremdfinanzierungsbedingten Steuervorteil profitieren
+â–¶ Ergebnis: Steuervorteile aus Fremdkapital werden nicht
+vollstÃ¤ndig ausgeschÃ¶pft
+
+16 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Verschuldung und SteuersÃ¤tze (Rajan und Zingales, 1995)
+â–¶ Auch international erscheint die Verschuldung der
+OperaUtnitoenrnsehMmaennaâ€œzguegmereinngâ€t
+Kapiâ–¶tel F1r5e:m Fdrekmapdiktaalpqituaol tuennd( S19te9u0e)rnzwischen 19 und 46%
+â–¶ Nettoverschuldung zwischen 11 und 36%
+
+17 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Verschuldung und SteuersÃ¤tze (Rajan und Zingales, 1995)
+Opeâ–¶raZtiniosenns/EMBIaTnlaieggeenmzewniscthen 21 und 65%
+Kapitel 15: Fremdkapital und Steuern
+â–¶ In vielen LÃ¤ndern wird weniger als die HÃ¤lfte der zu
+versteuernden ErtrÃ¤ge vor den Steuern abgeschirmt
+
+17 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Verschuldung und SteuersÃ¤tze (Rajan und Zingales, 1995)
+â–¶ Relativ geringe Unterschiede bei der Ertragsbesteuerung der
+OperaUtnitoenrnsehMmaenna(Ï„gelimegetnzwtischen 34 und 50%)
+c
+Kapitel 15: Fremdkapital und Steuern
+â–¶ GrÃ¶ÃŸere Unterschiede auf Ebene der persÃ¶nlichen Steuern und
+damit grÃ¶ÃŸere Schwankungen von Ï„âˆ— (zwischen 3,3 und 34%)
+
+17 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Das RÃ¤tsel der geringen Verschuldung
+â–¶ Warum sind Unternehmen weniger verschuldet, als man
+aufgrund des Steuervorteils vermuten wÃ¼rde?
+â–¶ Es ist kaum zu vermuten, dass die meisten Unternehmen eine
+suboptimale Kapitalstruktur wÃ¤hlen, statt den
+Shareholder-Value fÃ¼r die AktionÃ¤re zu steigern
+â–¶ Die geringe Verschuldung der Unternehmen deutet darauf hin,
+dass Fremdkapital weitere Kosten mit sich bringt, die
+Unternehmen von der vollstÃ¤ndigen Nutzung des
+Steuervorteils abhalten
+â–¶ Wichtiger Aspekt: Ein hÃ¶heres MaÃŸ an Verschuldung erhÃ¶ht
+die Wahrscheinlichkeit einer Insolvenz
+â–¶ Kosten der Insolvenz kÃ¶nnten den Steuervorteil aus der
+Fremdfinanzierung aufheben
+
+---PAGE---
+
+Â¨
+Ubung 3
+â–¶ Zu finden auf eCampus
+â–¶ LÃ¶sungen in der Vorlesung
+
+---PAGE---
+
+4.1.5 Fazit
+â–¶ Aufgrund der steuerlichen AbzugsfÃ¤higkeit des Zinsaufwands
+fÃ¼hrt Fremdkapital zu einem fremdfinanzierungsbedingten
+Steuervorteil
+â–¶ Dieser erhÃ¶ht den Unternehmenswert in HÃ¶he des Barwerts
+des Steuervorteils und senkt die Kapitalkosten (WACC)
+â–¶ Eine gehebelte Rekapitalisierung kann durchgefÃ¼hrt werden,
+um diese Steuervorteile auszunutzen
+
+---PAGE---
+
+Fazit
+â–¶ Aus steuerlicher Sicht sollte die Verschuldung so hoch sein,
+dass die Zinsen dem EBIT entsprechen
+â–¶ TatsÃ¤chlich ist die Verschuldung der meisten Unternehmen
+deutlich niedriger, so dass der Steuervorteil nicht vollstÃ¤ndig
+ausgenutzt wird
+â–¶ Dies liegt nur zum Teil an der Besteuerung von ErtrÃ¤gen auf
+der Investorenebene
+â–¶ Es scheint weitere GrÃ¼nde zu geben, die das Fremdkapital
+unattraktiv machen â†’ Kapitel 4.2
+
+---PAGE---
+
+4.2 Konkurskosten, Managementanreize und
+asymmetrische Information
+â–¶ Wir lernen nun mehrere Argumente kennen, die erklÃ¤ren
+kÃ¶nnen, warum Unternehmen den Steuervorteil aus der
+Fremdkapitalfinanzierung nicht vollstÃ¤ndig ausschÃ¶pfen
+â–¶ Gleichzeitig hilft dies, die systematischen Unterschiede in der
+Verschuldung in unterschiedlichen Branchen und LÃ¤ndern zu
+erklÃ¤ren
+
+---PAGE---
+
+4.2.1 Konkurskosten und der Unternehmenswert
+â–¶ Hat ein Unternehmen Schwierigkeiten, seinen
+Kreditverpflichtungen nachzukommen, spricht man von einer
+finanziellen Notlage
+â–¶ Kann ein Unternehmen die vereinbarten Zinszahlungen oder
+Tilgungen des Kredits nicht leisten, kommt es zu einem
+Zahlungsausfall
+â–¶ Dann erhalten die Fremdkapitalgeber gewisse Rechte an den
+VermÃ¶gensgegenstÃ¤nden des Unternehmens
+
+---PAGE---
+
+Konkurskosten und der Unternehmenswert
+â–¶ Wird ein Insolvenzverfahren eingeleitet, so Ã¼bernehmen die
+Fremdkapitalgeber das rechtliche Eigentum an den
+VermÃ¶gensgegenstÃ¤nden des Unternehmens
+â–¶ Ein Insolvenzverfahren kann zur Liquidation eines
+Unternehmens fÃ¼hren (VermÃ¶gensgegenstÃ¤nde werden
+verkauft und das Unternehmen wird geschlossen) oder zur
+Sanierung (Ziel ist hier die WeiterfÃ¼hrung des Unternehmens
+auf Basis eines Sanierungsplans)
+
+---PAGE---
+
+Konkurskosten und der Unternehmenswert
+â–¶ Aus der Eigenkapitalfinanzierung entsteht kein
+Konkursrisiko
+â–¶ Die Anteilseigner hoffen zwar, Dividenden zu erhalten, doch
+das Unternehmen ist nicht zur Dividendenzahlung verpflichtet
+â–¶ Merke also: Ein Konkursrisiko tritt nur bei Fremdkapital auf
+â–¶ Frage: Welche Auswirkungen haben die im Falle einer
+Insolvenz auftretenden Kosten auf die optimale Wahl der
+Kapitalstruktur?
+
+---PAGE---
+
+Zahlungsausfall und Insolvenz im vollkommenen Markt
+â–¶ ZunÃ¤chst betrachten wir die Auswirkungen einer Insolvenz
+unter den Annahmen des Modigliani-Miller-Theorems
+(vollkommener Kapitalmarkt)
+â–¶ Beispiel:
+â–¶ Ein Unternehmen mÃ¶chte ein neues Produkt einfÃ¼hren
+â–¶ Wird das Produkt ein Erfolg, steigen die UmsÃ¤tze und
+Gewinne, und das Unternehmen hat am Ende des Jahres einen
+Wert von 150 Millionen Euro
+â–¶ Wird das Projekt ein Misserfolg, ist das Unternehmen hingegen
+nur 80 Millionen Euro wert
+â–¶ Das Unternehmen kann sich entweder vollstÃ¤ndig Ã¼ber
+Eigenkapital finanzieren oder es nimmt Fremdkapital auf, bei
+dem Zahlungen in HÃ¶he von 100 Millionen Euro am Ende des
+Jahres fÃ¤llig werden (RÃ¼ckzahlung und Zinsen)
+
+---PAGE---
+
+Szenario 1: Das neue Produkt wird ein Erfolg
+â–¶ Wenn das Produkt erfolgreich ist, ist das Unternehmen
+150 Millionen Euro wert
+Operations Management
+Kapitelâ–¶ 16 O : h Fi n n e anVzeierlslceh Nuoldtluangge, gMeahnÃ¶argtedmaesngteasnarmeiztee uVnedr mInÃ¶fogremnadteionn
+Anteilseignern: Wert des Eigenkapitals = 150 Millionen Euro
+â–¶ Mit Verschuldung muss das Unternehmen die Kreditzahlungen
+von 100 Millionen Euro an die Fremdkapitalgeber leisten, die
+restlichen 50 Millionen Euro gehÃ¶ren den Anteilseignern
+
+3 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+â–¶ Nein! Auch wenn das Unternehmen am Ende des Jahres nicht
+Ã¼ber liquide Mittel in HÃ¶he von 100 Millionen Euro verfÃ¼gt,
+wird es nicht unbedingt in Zahlungsverzug geraten
+â–¶ In einem vollkommenen Markt ist das Unternehmen in der
+Lage, den Kredit zurÃ¼ckzuzahlen, solange der Wert der
+VermÃ¶gensgegenstÃ¤nde die Verbindlichkeiten Ã¼bersteigt
+Szenario 1: Das neue Produkt wird ein Erfolg
+â–¶ Problem: Ein GroÃŸteil des Unternehmenswertes stammt hÃ¤ufig
+aus vorweggenommenen zukÃ¼nftigen Gewinnen aus dem neuen
+Produkt und steht nicht in Form von Barmitteln auf einem
+Bankkonto zur VerfÃ¼gung
+â–¶ Frage: FÃ¼hrt dies zwangslÃ¤ufig zu einem Zahlungsverzug?
+
+---PAGE---
+
+Szenario 1: Das neue Produkt wird ein Erfolg
+â–¶ Problem: Ein GroÃŸteil des Unternehmenswertes stammt hÃ¤ufig
+aus vorweggenommenen zukÃ¼nftigen Gewinnen aus dem neuen
+Produkt und steht nicht in Form von Barmitteln auf einem
+Bankkonto zur VerfÃ¼gung
+â–¶ Frage: FÃ¼hrt dies zwangslÃ¤ufig zu einem Zahlungsverzug?
+â–¶ Nein! Auch wenn das Unternehmen am Ende des Jahres nicht
+Ã¼ber liquide Mittel in HÃ¶he von 100 Millionen Euro verfÃ¼gt,
+wird es nicht unbedingt in Zahlungsverzug geraten
+â–¶ In einem vollkommenen Markt ist das Unternehmen in der
+Lage, den Kredit zurÃ¼ckzuzahlen, solange der Wert der
+VermÃ¶gensgegenstÃ¤nde die Verbindlichkeiten Ã¼bersteigt
+
+---PAGE---
+
+Szenario 1: Das neue Produkt wird ein Erfolg
+â–¶ Selbst wenn die Mittel nicht unmittelbar zur VerfÃ¼gung
+stehen, kÃ¶nnen diese durch eine weitere Kreditaufnahme oder
+durch die Emission neuer Aktien beschafft werden
+â–¶ Beispiel:
+â–¶ Das Unternehmen hat derzeit 10 Millionen Aktien im Umlauf
+(Aktienkurs = 5 Euro = 50 Millionen Euro / 10 Millionen)
+â–¶ Emission von 20 Millionen Aktien `a 5 Euro erbringt
+100 Millionen Euro, mit denen der Kredit zurÃ¼ckgezahlt
+werden kann
+â–¶ Nach Tilgung des Kredits liegt der Wert des Eigenkapitals bei
+150 Millionen Euro, das entspricht weiterhin 5 Euro pro Aktie
+(150/30)
+
+---PAGE---
+
+Szenario 1: Das neue Produkt wird ein Erfolg
+â–¶ Merke: Hat ein Unternehmen Zugang zu KapitalmÃ¤rkten und
+kann es neue Wertpapiere zu einem fairen Preis ausgeben,
+dann gerÃ¤t es nicht in Zahlungsverzug, sofern der Marktwert
+der Aktiva die Verbindlichkeiten Ã¼bersteigt
+â–¶ Der Eintritt des Zahlungsausfalls hÃ¤ngt von den Werten der
+Aktiva und Passiva ab, nicht von den ZahlungsstrÃ¶men
+â–¶ Viele Unternehmen weisen jahrelang negative Cashflows auf
+und bleiben dennoch solvent
+
+---PAGE---
+
+Szenario 2: Das neue Produkt wird ein Misserfolg
+â–¶ Wenn das neue Produkt ein Misserfolg wird, ist das
+Unternehmen nur 80 Millionen Euro wert
+â–¶ Wenn das Unternehmen rein eigenkapitalfinanziert ist, werden
+die Anteilseigner darÃ¼ber nicht glÃ¼cklich sein, doch es gibt
+keine unmittelbaren rechtlichen Konsequenzen
+â–¶ Hat das Unternehmen hingegen fÃ¤llige Verbindlichkeiten in
+HÃ¶he von 100 Millionen Euro, gerÃ¤t es in eine finanzielle
+Notlage
+â–¶ Das Unternehmen ist nicht in der Lage, den Kredit
+zurÃ¼ckzuzahlen, und es hat keine andere Wahl, als die
+Zahlungen einzustellen
+
+---PAGE---
+
+Szenario 2: Das neue Produkt wird ein Misserfolg
+â–¶ Bei einer Insolvenz erlangen die Fremdkapitalgeber das
+rechtliche Eigentum an den VermÃ¶gensgegenstÃ¤nden des
+Unternehmens, wÃ¤hrend dem Unternehmen und dessen
+Operations Management
+Anteilseignern nichts bleibt
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Da die VermÃ¶gensgegenstÃ¤nde nur einen Wert von 80
+Millionen Euro aufweisen, erleiden die Fremdkapitalgeber
+einen Verlust in HÃ¶he von 20 Millionen Euro
+â–¶ AnnahmegemÃ¤ÃŸ haften die Anteilseigner nur beschrÃ¤nkt, die
+Fremdkapitalgeber kÃ¶nnen den Verlust nicht einklagen
+
+3 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Vergleich der Szenarien
+â–¶ Sowohl die Fremdkapitalgeber als auch die Anteilseigner leiden
+darunter, wenn das Produkt kein Erfolg wird
+Operâ–¶atiOohnnse VMearsnchaugldeumngenhatben die Anteilseigner 70 Millionen Euro
+Kapitel 16(:1 F5i0naâ€“nz8ie0l)lew Neontilgaegre,a MlsainmagEermfoelngtsafnarlleize und Information
+â–¶ Mit Verschuldung haben die Anteilseigner 50 Millionen Euro
+weniger, die Fremdkapitalgeber 20 Millionen Euro
+â–¶ Der Gesamtverlust ist in beiden FÃ¤llen derselbe, nÃ¤mlich
+70 Millionen Euro
+
+3 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Vergleich der Szenarien
+â–¶ Im Falle des Misserfolgs ist die Position der Investoren des
+Unternehmens insgesamt also gleichermaÃŸen schlecht, wenn
+das Unternehmen verschuldet ist und Insolvenz anmeldet oder
+wenn es unverschuldet ist und der Aktienkurs fÃ¤llt
+â–¶ Entscheidend ist nicht die Insolvenz, sondern der mit dem
+Misserfolg verbundene Wertverlust
+â–¶ Der Misserfolg fÃ¼hrt in jedem Fall zu einem RÃ¼ckgang des
+Werts der Aktiva, unabhÃ¤ngig davon, ob das Unternehmen in
+eine finanzielle Notlage gerÃ¤t oder nicht
+â–¶ Ob es im Falle niedriger ErtrÃ¤ge zu einer finanziellen Notlage
+kommt, hÃ¤ngt hingegen von der Kapitalstruktur ab
+
+---PAGE---
+
+Insolvenz und Kapitalstruktur im vollkommenen
+Kapitalmarkt
+â–¶ In vollkommenen KapitalmÃ¤rkten gilt auch bei der MÃ¶glichkeit
+einer Insolvenz Modigliani-Miller (MMT I): Der Gesamtwert
+fÃ¼r alle Investoren ist von der Kapitalstruktur des
+Unternehmens unabhÃ¤ngig
+â–¶ Die Investoren befinden sich aufgrund der Verschuldung nicht
+in einer schlechteren Position
+â–¶ Die Insolvenz fÃ¼hrt in vollkommenen KapitalmÃ¤rkten nicht zu
+einem Wertverlust des Unternehmens
+â–¶ Somit besteht kein Nachteil aus der Fremdfinanzierung: Das
+Unternehmen hat bei beiden Kapitalstrukturen denselben
+Wert und kann anfangs denselben Betrag aufbringen
+
+---PAGE---
+
+Beispiel 16.1: Konkursrisiko und Unternehmenswert im
+vollkommenen Kapitalmarkt
+â–¶ Wir betrachten erneut das Unternehmen aus dem Beispiel
+â–¶ ZusÃ¤tzliche Annahmen:
+â–¶ Risikoloser Zins: 5%
+â–¶ Erfolgswahrscheinlichkeit des neuen Produkts: 50%
+â–¶ ZahlungsstrÃ¶me/Cashflows des Unternehmens hÃ¤ngen nicht
+von der Lage der Wirtschaft ab, das heiÃŸt, das Risiko ist
+vollstÃ¤ndig diversifizierbar
+â‡’ Betafaktor = 0, Kapitalkosten = risikoloser Zins
+â–¶ Berechnen Sie den Wert der Wertpapiere des Unternehmens
+zu Beginn des Jahres mit und ohne Verschuldung und zeigen
+Sie, dass MMT I zutrifft
+
+---PAGE---
+
+Beispiel 16.1: Konkursrisiko und Unternehmenswert im
+vollkommenen Kapitalmarkt
+â–¶ Wert des Eigenkapitals ohne Verschuldung:
+VU = 0,5Â·150Mioe+0,5Â·80Mioe = 109,5 Mio Euro
+1,05
+â–¶ Wert des Eigenkapitals mit Verschuldung:
+0,5Â·50Mioe+0,5Â·0Mioe
+= 23,8 Mio Euro
+1,05
+â–¶ Wert des Fremdkapitals:
+0,5Â·100Mioe+0,5Â·80Mioe
+= 85,7 Mio Euro
+1,05
+â–¶ Wert des verschuldeten Unternehmens:
+VL = E +D = 23,8Mio e+85,7Mio e = 109,5 Mio Euro
+â–¶ Fazit: Der Gesamtwert des Unternehmens ist mit und ohne
+Verschuldung gleich hoch, also kann das Unternehmen von
+Investoren denselben Betrag aufnehmen
+â‡’ Die Ergebnisse von MMT I gelten im vollkommenen
+Kapitalmarkt auch dann, wenn das Fremdkapital riskant ist
+
+---PAGE---
+
+Kosten der Insolvenz und finanzieller Notlagen
+â–¶ In vollkommenen KapitalmÃ¤rkten stellt das Ausfallrisiko des
+Fremdkapitals keinen Nachteil dar
+â–¶ Die Insolvenz verlagert lediglich das Eigentum am
+Unternehmen von den Anteilseignern zu den
+Fremdkapitalgebern, ohne dass dadurch der fÃ¼r alle Investoren
+verfÃ¼gbare Betrag verÃ¤ndert wird
+â–¶ Eine Insolvenz ist in der RealitÃ¤t aber ein langer, komplizierter
+Prozess, der bei dem Unternehmen und den Investoren sowohl
+direkte als auch indirekte Kosten verursacht
+â–¶ Diese Kosten stellen eine Verletzung der MMT-Annahmen
+(vollkommener Kapitalmarkt) dar, weil die ZahlungsstrÃ¶me aus
+den VermÃ¶genswerten nun von der Kapitalstruktur abhÃ¤ngen
+
+---PAGE---
+
+Direkte Konkurskosten
+â–¶ Beispiele fÃ¼r direkte Konkurskosten:
+â–¶ Vom Unternehmen beauftragte externe Fachleute, die den
+Insolvenzprozess unterstÃ¼tzen (z.B. zur Verwertung von
+VermÃ¶gensgegenstÃ¤nden, Aufstellung eines Sanierungsplans)
+â–¶ Rechtsberater, Bilanzexperten, Unternehmensberater,
+SchÃ¤tzer, Auktionatoren, Investmentbanker
+â–¶ Beispiel Insolvenz von Lehman Brothers: Kosten in HÃ¶he von
+1,6 Milliarden US-Dollar
+â–¶ Kosten der GlÃ¤ubiger wÃ¤hrend des Insolvenzprozesses
+â–¶ Auch hier Kosten fÃ¼r juristische UnterstÃ¼tzung
+â–¶ Jahrelanges Warten auf die Zahlungen (Zinsverlust)
+â–¶ Kosten hÃ¤ngen von der QualitÃ¤t des Rechtssystems ab
+(z.B. Dauer des Verfahrens)
+
+---PAGE---
+
+Direkte Konkurskosten
+â–¶ Die vom Unternehmen getragenen direkten Konkurskosten
+reduzieren den Wert der VermÃ¶gensgegenstÃ¤nde des
+Unternehmens, den die Investoren schlieÃŸlich erhalten werden
+(Konkursmasse)
+â–¶ Studien zufolge liegt der Durchschnitt der direkten Kosten
+einer Insolvenz bei rund 3 bis 4% des Marktwertes der
+VermÃ¶gensgegenstÃ¤nde vor der Insolvenz (hÃ¶her bei kleinen
+Unternehmen, u.a. wegen Fixkostenbestandteilen)
+â–¶ Angesichts der erheblichen Gerichts- und anderen direkten
+Konkurskosten lohnt es sich fÃ¼r Unternehmen in finanzieller
+Notlage, ein Insolvenzverfahren zu vermeiden, indem zuerst
+direkt mit den GlÃ¤ubigern verhandelt wird
+
+---PAGE---
+
+Indirekte Konkurskosten
+â–¶ Die indirekten Konkurskosten sind oft deutlich hÃ¶her als die
+direkten Kosten
+â–¶ Beispiele fÃ¼r indirekte Konkurskosten auf
+Unternehmensebene:
+â–¶ Verlust von Kundenbeziehungen
+â–¶ Verlust von Lieferanten (aus Sorge, dass nicht gezahlt wird)
+â–¶ Verlust von Mitarbeitern
+â–¶ Forderungsausfall (mangelnde Eintreibung, geringere
+Zahlungsmoral)
+â–¶ PanikverkÃ¤ufe zu niedrigen Preisen zur Beschaffung liquider
+Mittel
+â–¶ Ineffiziente Liquidation von VermÃ¶genswerten
+
+---PAGE---
+
+Indirekte Konkurskosten
+â–¶ Kosten anderer Gruppen:
+â–¶ Kosten der GlÃ¤ubiger: Kosten einer finanziellen Notlage der
+GlÃ¤ubiger durch den Zahlungsausfall (Ansteckungseffekt)
+â–¶ Kosten der Mitarbeiter: Verlust des Arbeitsplatzes, nicht
+eingehaltene Pensionszusagen
+â–¶ Kosten der Kunden: Nichteinhaltung von
+GewÃ¤hrleistungszusagen
+â–¶ Kosten der Lieferanten: AufkÃ¼ndigung von LiefervertrÃ¤gen
+â–¶ Die Kosten anderer Gruppen sind hÃ¤ufig besonders hoch, weil
+deren Interessen in den Verhandlungen kaum BerÃ¼cksichtigung
+finden
+
+---PAGE---
+
+Gesamtauswirkung der indirekten Kosten
+â–¶ Die indirekten Konkurskosten kÃ¶nnen erheblich sein
+â–¶ Um sie zu schÃ¤tzen, mÃ¼ssen die gesamten Verluste des
+Unternehmenswertes berÃ¼cksichtigt werden (die typischerweise
+Ã¼ber die Verluste der Anteilseigner/Fremdkapitalgeber oder
+die UÂ¨bertragungen zwischen diesen hinausgehen)
+â–¶ Dabei muss man die Verluste identifizieren, die wirklich durch
+die finanzielle Notlage verursacht wurden und die Ã¼ber die
+Verluste hinausgehen, die dem Unternehmen allein durch die
+wirtschaftliche Notlage entstanden sind
+â–¶ Eine Studie Ã¼ber hochverschuldete Unternehmen schÃ¤tzt den
+potenziellen Verlust aus einer finanziellen Notlage auf 10 bis
+20% des Unternehmenswertes
+
+---PAGE---
+
+Konkurskosten und Unternehmenswert
+â–¶ Fortsetzung des Beispiels von vorne
+â–¶ Bei einer reinen Eigenkapitalfinanzierung haben die
+VermÃ¶gensgegenstÃ¤nde des Unternehmens einen Wert von
+150 Millionen Euro, wenn das neue Produkt ein Erfolg wird,
+und 80 Millionen Euro, wenn das Produkt ein Misserfolg wird
+â–¶ Mit Fremdkapital in HÃ¶he von 100 Millionen Euro wÃ¼rde das
+Unternehmen in die Insolvenz geraten, wenn das neue
+Produkt ein Misserfolg wird
+â–¶ In diesem Fall geht ein Teil des Wertes der
+VermÃ¶gensgegenstÃ¤nde verloren (= Konkurskosten)
+â–¶ Daher erhalten die Fremdkapitalgeber bei Vorliegen von
+Konkurskosten im Falle des Misserfolgs weniger als
+80 Millionen Euro
+
+---PAGE---
+
+Konkurskosten und Unternehmenswert
+â–¶ Annahme: Die Konkurskosten betragen 20 Millionen Euro
+â–¶ Dann erhalten die Fremdkapitalgeber nach BerÃ¼cksichtigung
+der Konkurskosten nur 60 Millionen Euro
+Operations Management
+Kapiteâ–¶l 16W: eFninnandzaiesllPe rNoodtulakgte,e iMnaMnaigsesemrefonltganwreirizde, uisntdd IenrfoGrmesaatmiontwert fÃ¼r
+die Investoren mit Verschuldung geringer als ohne
+Verschuldung
+â–¶ MMT I trifft nicht mehr zu: Die Konkurskosten mindern den
+Gesamtwert des Unternehmens mit Verschuldung
+
+4 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Beispiel 16.2: Unternehmenswert bei Konkurskosten
+â–¶ Wir gehen von denselben Annahmen aus wie im Beispiel 16.1
+â–¶ Wert des Eigenkapitals ohne Verschuldung:
+VU = 0,5Â·150Mioe+0,5Â·80Mioe = 109,5 Mio Euro
+1,05
+(unverÃ¤ndert)
+â–¶ Wert des Eigenkapitals mit Verschuldung:
+0,5Â·50Mioe+0,5Â·0Mioe
+= 23,8 Mio Euro (unverÃ¤ndert)
+1,05
+â–¶ Wert des Fremdkapitals:
+0,5Â·100Mioe+0,5Â·60Mioe
+= 76,2 Mio Euro
+1,05
+â‡’ Geringer als vorher wegen der Konkurskosten, die von den
+Zahlungen an das Fremdkapital abgehen
+
+---PAGE---
+
+Beispiel 16.2: Unternehmenswert bei Konkurskosten
+â–¶ Wert des verschuldeten Unternehmens:
+VL = E +D = 23,8Mio e+76,2Mio e = 100,0 Mio Euro
+â–¶ Der Gesamtwert des Unternehmens mit Verschuldung ist nun
+niedriger als derjenige ohne Verschuldung
+â–¶ Die Differenz entspricht gerade dem Barwert der
+Konkurskosten:
+BW(Konkurskosten) =
+0,5Â·0Mioe+0,5Â·20Mioe
+= 9,5 Mio Euro
+1,05
+â–¶ Fazit: MMT I gilt hier nicht
+
+---PAGE---
+
+Wer zahlt die Konkurskosten?
+â–¶ Im Falle des Scheiterns des Produktes haben die Anteilseigner
+bereits ihre gesamten Investitionen verloren und sind an den
+ErtrÃ¤gen des Unternehmens nicht mehr beteiligt
+â–¶ Folgt hieraus, dass die Konkurskosten fÃ¼r die Anteilseigner
+irrelevant sind?
+
+---PAGE---
+
+Wer zahlt die Konkurskosten?
+â–¶ Nein!
+â–¶ Die Fremdkapitalgeber antizipieren bereits zum Zeitpunkt der
+Investition, dass sie im Insolvenzfall eine geringere Auszahlung
+erhalten
+â–¶ Infolgedessen werden sie anfangs weniger fÃ¼r das Fremdkapital
+zu zahlen bereit sein (nÃ¤mlich gerade den Barwert der
+Konkurskosten)
+â–¶ Dies bedeutet, dass dem Unternehmen weniger Geld fÃ¼r
+Dividendenzahlungen, AktienrÃ¼ckkÃ¤ufe und Investitionen zur
+VerfÃ¼gung steht
+â–¶ Ergebnis: Wenn die Wertpapiere fair bewertet sind, zahlen die
+Anteilseigner den Barwert der Konkurskosten
+
+---PAGE---
+
+Beispiel 16.3: Konkurskosten und Aktienkurs
+â–¶ Wir gehen von denselben Annahmen aus wie im Beispiel 16.1
+â–¶ Das Unternehmen hat zu Beginn des Jahres 10 Millionen
+Aktien im Umlauf und kein Fremdkapital
+â–¶ Das Unternehmen kÃ¼ndigt an, Fremdkapital mit einer
+einjÃ¤hrigen Laufzeit und einem RÃ¼ckzahlungsbetrag von
+100 Millionen Euro auszugeben und die ErtrÃ¤ge fÃ¼r einen
+AktienrÃ¼ckkauf einzusetzen
+â–¶ Wie hoch ist der neue Aktienkurs?
+
+---PAGE---
+
+â–¶ Neuer Aktienkurs:
+â–¶ Wert des verschuldeten Unternehmens: 100,0 Mio Euro
+â–¶ Neuer Aktienkurs: 100,0 Mio Euro / 10 Mio = 10 Euro
+â–¶ Der Aktienkurs sollte unmittelbar nach AnkÃ¼ndigung der
+Rekapitalisierung auf den neuen Wert fallen
+Beispiel 16.3: Konkurskosten und Aktienkurs
+â–¶ Berechnung des alten Aktienkurses:
+â–¶ Wert des unverschuldeten Unternehmens: 109,5 Mio Euro
+â–¶ Aktienkurs: 109,5 Mio Euro / 10 Mio = 10,95 Euro
+
+---PAGE---
+
+Beispiel 16.3: Konkurskosten und Aktienkurs
+â–¶ Berechnung des alten Aktienkurses:
+â–¶ Wert des unverschuldeten Unternehmens: 109,5 Mio Euro
+â–¶ Aktienkurs: 109,5 Mio Euro / 10 Mio = 10,95 Euro
+â–¶ Neuer Aktienkurs:
+â–¶ Wert des verschuldeten Unternehmens: 100,0 Mio Euro
+â–¶ Neuer Aktienkurs: 100,0 Mio Euro / 10 Mio = 10 Euro
+â–¶ Der Aktienkurs sollte unmittelbar nach AnkÃ¼ndigung der
+Rekapitalisierung auf den neuen Wert fallen
+
+---PAGE---
+
+â–¶ Die Rekapitalisierung kostet die AktionÃ¤re also 0,95 Euro pro
+Aktie bzw. 9,5 Mio Euro insgesamt
+â–¶ Dies entspricht gerade dem Barwert der Konkurskosten
+â–¶ Ergebnis: Die im Misserfolgsfall entstehenden Konkurskosten
+werden von den AktionÃ¤ren getragen, selbst wenn die Kosten
+am Ende beim Fremdkapitalgeber anfallen
+Beispiel 16.3: Konkurskosten und Aktienkurs
+â–¶ Wie viele Aktien kÃ¶nnen zurÃ¼ckgekauft werden?
+â–¶ Wert des Fremdkapitals: 76,2 Mio Euro
+â–¶ Anzahl der zurÃ¼ckgekauften Aktien: 76,2 Mio Euro / 10 Euro
+= 7,62 Mio Aktien
+â–¶ Verbleibende Aktien: 2,38 Mio Aktien
+â–¶ Neuer Wert des Eigenkapitals: 23,8 Mio Euro
+= 2,38 Mio Â· 10 Euro
+
+---PAGE---
+
+Beispiel 16.3: Konkurskosten und Aktienkurs
+â–¶ Wie viele Aktien kÃ¶nnen zurÃ¼ckgekauft werden?
+â–¶ Wert des Fremdkapitals: 76,2 Mio Euro
+â–¶ Anzahl der zurÃ¼ckgekauften Aktien: 76,2 Mio Euro / 10 Euro
+= 7,62 Mio Aktien
+â–¶ Verbleibende Aktien: 2,38 Mio Aktien
+â–¶ Neuer Wert des Eigenkapitals: 23,8 Mio Euro
+= 2,38 Mio Â· 10 Euro
+â–¶ Die Rekapitalisierung kostet die AktionÃ¤re also 0,95 Euro pro
+Aktie bzw. 9,5 Mio Euro insgesamt
+â–¶ Dies entspricht gerade dem Barwert der Konkurskosten
+â–¶ Ergebnis: Die im Misserfolgsfall entstehenden Konkurskosten
+werden von den AktionÃ¤ren getragen, selbst wenn die Kosten
+am Ende beim Fremdkapitalgeber anfallen
+
+---PAGE---
+
+Optimale Kapitalstruktur: Die Trade-Off-Theorie
+â–¶ Wie sieht die optimale Kapitalstruktur aus, wenn die
+Vorteile des Fremdkapitals aus der Einsparung von Steuern
+gegen die Nachteile des Fremdkapitals in Form von
+Konkurskosten abgewogen werden?
+â‡’ Trade-Off-Theorie
+â–¶ GemÃ¤ÃŸ dieser Theorie entspricht der Gesamtwert eines
+verschuldeten Unternehmens dem Wert des Unternehmens
+ohne Verschuldung plus dem Barwert der Steuerersparnis aus
+dem Fremdkapital abzÃ¼glich des Barwerts der Konkurskosten
+â–¶ VL = VU +BW(fremdfinanzierungsbedingter Steuervorteil)
+âˆ’BW(Konkurskosten)
+â–¶ Also: Verschuldung bringt Kosten und Nutzen mit sich, die
+gegeneinander abgewogen werden mÃ¼ssen
+
+---PAGE---
+
+Der Barwert der Konkurskosten
+â–¶ Drei wichtige Faktoren bestimmen den Barwert der
+Konkurskosten:
+1. die Wahrscheinlichkeit einer finanziellen Notlage
+2. die HÃ¶he der Kosten, wenn das Unternehmen in eine finanzielle
+Notlage gerÃ¤t
+3. der Abzinsungszins dieser Kosten
+
+---PAGE---
+
+Der Barwert der Konkurskosten
+â–¶ Ad (1): Wahrscheinlichkeit einer finanziellen Notlage:
+â–¶ Diese hÃ¤ngt von der Wahrscheinlichkeit ab, dass ein
+Unternehmen seinen Kreditverpflichtungen nicht nachkommen
+kann und dadurch in Zahlungsverzug gerÃ¤t
+â–¶ Sie erhÃ¶ht sich mit der HÃ¶he des Verschuldungsgrades eines
+Unternehmens
+â–¶ Sie erhÃ¶ht sich auÃŸerdem mit der VolatilitÃ¤t der
+ZahlungsstrÃ¶me des Unternehmens und des Werts der
+VermÃ¶gensgegenstÃ¤nde
+â–¶ Daher kÃ¶nnen Unternehmen mit stabilen Cashflows eine
+geringe Ausfallwahrscheinlichkeit aufweisen, selbst wenn sie
+viel Fremdkapital einsetzen
+â–¶ Hingegen weisen Unternehmen mit volatilen Cashflows hÃ¤ufig
+bereits bei geringer Verschuldung ein erhebliches Ausfallrisiko
+auf
+
+---PAGE---
+
+Der Barwert der Konkurskosten
+â–¶ Ad (2): HÃ¶he der Konkurskosten:
+â–¶ Vergleiche vorne, variiert Ã¼ber verschiedene Branchen hinweg
+â–¶ Unternehmen, deren Wert weitgehend aus dem Humankapital
+stammt, (z.B. Technologieunternehmen) haben oft deutlich
+hÃ¶here Kosten, wenn sie in eine finanzielle Notlage geraten:
+Gefahr des Verlusts von SchlÃ¼sselpersonal, Fehlen leicht
+liquidierbarer materieller VermÃ¶gensgegenstÃ¤nde
+â–¶ Unternehmen, deren wichtigste VermÃ¶gensgegenstÃ¤nde
+Sachkapital sind, (z.B. Immobilienunternehmen) haben
+hingegen tendenziell geringere Kosten einer finanziellen
+Notlage, da ein grÃ¶ÃŸerer Anteil ihres Werts aus
+VermÃ¶gensgegenstÃ¤nden stammt, die relativ leicht zu
+verÃ¤uÃŸern sind
+
+---PAGE---
+
+Der Barwert der Konkurskosten
+â–¶ Ad (3): Diskontsatz der Konkurskosten:
+â–¶ HÃ¤ngt vom Marktrisiko des Unternehmens ab
+â–¶ Beachte: Der Betafaktor der Kosten der Notlage hat das
+entgegengesetzte Vorzeichen zu dem des Unternehmens, da die
+Kosten einer Notlage hÃ¶her sind, wenn das Unternehmen
+schlecht abschneidet
+â–¶ FÃ¼r Unternehmen mit hohem Betafaktor ist der Betafaktor der
+Konkurskosten besonders negativ und daher der Barwert dieser
+Kosten besonders hoch
+
+---PAGE---
+
+Optimale Verschuldung
+Operaâ–¶tiDoniesKMapaitnaalsgtreumktuernstollte so gewÃ¤hlt werden, dass der Wert
+Kapitel 16:d eFsinavnezrsieclhleu Nldoettlaegne,U Mnatnerangeehmmenetnasn,reVizLe, umnda xIinmfoarlmiasttion
+â–¶ Ohne Fremdkapital liegt der Unternehmenswert bei VU
+
+5 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Optimale Verschuldung
+â–¶ Eine ErhÃ¶hung der Verschuldung fÃ¼hrt zu einem Anstieg des
+fremdfinanzierungsbedingten Steuervorteils (Steigung Ï„âˆ—),
+OperatiwoÃ¤nhsreMndandaasgAeumsfealnlrtisiko zunÃ¤chst gering bleibt
+Kapitelâ–¶ 16:O FhinnaenKzieolnlek Nurostklaogset,e MnawnaÃ¼grdemeednietaVnreeriszceh uunldd uInnfgorsmoagtieownÃ¤hlt, dass
+der Steuervorteil voll ausgeschÃ¶pft ist (Zinsen â‰ˆ EBIT)
+
+5 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Optimale Verschuldung
+â–¶ Die Konkurskosten mindern den Wert eines verschuldeten
+Unternehmens VL, sofern die Ausfallwahrscheinlichkeit grÃ¶ÃŸer
+Operatiaolnss0 Mistanagement
+Kapitel
+â–¶
+16:D FieinaWnzeiretlmle iNnodtelarugen,g MsatneaiggtemmeitntdaenrreAizue sufanldl wInafhorrsmcahteioinnlichkeit
+an, die wiederum mit der Verschuldung ansteigt
+
+5 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Optimale Verschuldung
+â–¶ Die Trade-Off-Theorie besagt, dass Unternehmen ihre
+Verschuldung so lange erhÃ¶hen sollten, bis sie das Niveau Dâˆ—
+erreicht haben, bei dem VL maximiert wird
+â–¶ An diesem Punkt gleichen sich die zusÃ¤tzliche Steuerersparnis
+Operations Management
+aus der erhÃ¶hten Verschuldung und die gestiegenen erwarteten
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+Konkurskosten aufgrund der steigenden
+Ausfallwahrscheinlichkeit gerade aus
+
+5 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Optimale Kapitalstruktur: Die Trade-Off-Theorie
+â–¶ Die optimale Verschuldung ist also umso hÃ¶her,...
+â–¶ ... je hÃ¶her der effektive Steuervorteil aus dem Fremdkapital,
+Ï„âˆ—, ist
+â–¶ ... je geringer der Barwert der Kosten einer finanziellen Notlage
+ist
+â–¶ Die Trade-Off-Theorie hilft uns, zwei Puzzles hinsichtlich der
+Verschuldung zu lÃ¶sen
+â–¶ Unternehmen schÃ¶pfen den fremdfinanzierungsbedingten
+Steuervorteil nicht voll aus, weil ein Zahlungsausfall mit
+Konkurskosten verbunden ist
+â–¶ Die Verschuldung unterscheidet sich Ã¼ber Branchen hinweg,
+weil die HÃ¶he der Konkurskosten und die VolatilitÃ¤t der
+Cashflows variieren
+
+---PAGE---
+
+Beispiel 16.4: Die Wahl der optimalen FremdkapitalhÃ¶he
+â–¶ Greenleaf Industries zieht in Betracht, seiner Kapitalstruktur
+Fremdkapital hinzuzufÃ¼gen
+â–¶ Das Management von Greenleaf geht davon aus, dass der
+Steuervorteil des Fremdkapitals bei 35 Millionen Euro
+Fremdkapital voll ausgeschÃ¶pft wÃ¤re und dass Ï„âˆ— = 15% ist
+â–¶ Allerdings erhÃ¶ht hÃ¶heres Fremdkapital auch die Gefahr einer
+finanziellen Notlage
+
+---PAGE---
+
+â–¶ Der Steuervorteil wÃ¤chst linear, wÃ¤hrend der Barwert der
+Kosten der finanziellen Notlage exponentiell wÃ¤chst
+â–¶ Die optimale Verschuldung liegt hier bei 20 Millionen, weil
+dort die Differenz der beiden Barwerte am hÃ¶chsten ist
+â–¶ Der Unternehmenswert wird durch die Verschuldung um
+2,62 Millionen Dollar gesteigert
+Grundlagen der Finanzwirtschaft
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+Optimale Verschuldung
+Beispiel 16.4: Die Wahl der optimalen FremdkapitalhÃ¶he
+GreenleafIndustries zieht in Betracht, seiner Kapitalstruktur
+Fremdkapital hinzuzufÃ¼gen. Das Management von Greenleafist der
+BeispieAlns1ic6ht.,4 d:asDs siiee EWURa 3h5 lMdillieorneon pant iFmremadlekanpitFalr heimnzudfÃ¼kgaenp uitnad ldheÃ¶n he
+Steuervorteil ausschÃ¶pfen kÃ¶nnen (man schÃ¤tzt, dass ï´* = 15%). Sie
+erkennen jedoch auch, dass das hÃ¶here Fremdkapital das Risiko einer
+finanziellen Notlage erhÃ¶ht. Auf Grundlage einer Simulation der
+â–¶kÃ¼ S n im ftig u e la n t C io a n sh d fl e o r ws B d a e r s w U e n rt t e ern (i e n hm M e i n ll s i o h n a e t n de D r C o F ll O a r f ) o : lgende
+SchÃ¤tzungen abgegeben (in Millionen Dollar):
+Fremdkapital 0 10 20 25 30 35
+BW(fremdfinanzierungsbedingter 0,00 1,50 3,00 3,75 4,50 5,25
+Steuervorteil)
+BW(Insolvenzkosten) 0,00 0,00 0,38 1,62 4,00 6,38
+Welches Fremdkapitalniveau ist fÃ¼r Greenleafoptimal?
+â–¶ Welches Fremdkapitalniveau ist fÃ¼r Greenleaf optimal?
+43 Berk, DeMarzo; Grundlagen der Finanzwirtschaft Â© Pearson 2015
+
+---PAGE---
+
+Grundlagen der Finanzwirtschaft
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+Optimale Verschuldung
+Beispiel 16.4: Die Wahl der optimalen FremdkapitalhÃ¶he
+GreenleafIndustries zieht in Betracht, seiner Kapitalstruktur
+Fremdkapital hinzuzufÃ¼gen. Das Management von Greenleafist der
+BeispieAlns1ic6ht.,4 d:asDs siiee EWURa 3h5 lMdillieorneon pant iFmremadlekanpitFalr heimnzudfÃ¼kgaenp uitnad ldheÃ¶n he
+Steuervorteil ausschÃ¶pfen kÃ¶nnen (man schÃ¤tzt, dass ï´* = 15%). Sie
+erkennen jedoch auch, dass das hÃ¶here Fremdkapital das Risiko einer
+finanziellen Notlage erhÃ¶ht. Auf Grundlage einer Simulation der
+â–¶kÃ¼ S n im ftig u e la n t C io a n sh d fl e o r ws B d a e r s w U e n rt t e ern (i e n hm M e i n ll s i o h n a e t n de D r C o F ll O a r f ) o : lgende
+SchÃ¤tzungen abgegeben (in Millionen Dollar):
+Fremdkapital 0 10 20 25 30 35
+BW(fremdfinanzierungsbedingter 0,00 1,50 3,00 3,75 4,50 5,25
+Steuervorteil)
+BW(Insolvenzkosten) 0,00 0,00 0,38 1,62 4,00 6,38
+Welches Fremdkapitalniveau ist fÃ¼r Greenleafoptimal?
+â–¶ Welches Fremdkapitalniveau ist fÃ¼r Greenleaf optimal?
+43 Berk, DeMarzo; Grundlagen der Finanzwirtschaft Â© Pearson 2015
+â–¶ Der Steuervorteil wÃ¤chst linear, wÃ¤hrend der Barwert der
+Kosten der finanziellen Notlage exponentiell wÃ¤chst
+â–¶ Die optimale Verschuldung liegt hier bei 20 Millionen, weil
+dort die Differenz der beiden Barwerte am hÃ¶chsten ist
+â–¶ Der Unternehmenswert wird durch die Verschuldung um
+2,62 Millionen Dollar gesteigert
+
+---PAGE---
+
+â–¶ Selbst die Konkurskosten kÃ¶nnen empirisch die beobachteten
+Verschuldungsstrukturen nicht vollstÃ¤ndig erklÃ¤ren
+â–¶ Andere wichtige Argumente: Anreizwirkungen der
+Kapitalstruktur, Signaleffekte der Kapitalstruktur
+â‡’ Kapitel 4.2.2 & 4.2.3
+Fazit: Konkurskosten und Unternehmenswert
+â–¶ Konkurskosten kÃ¶nnen teilweise erklÃ¤ren, warum
+Unternehmen den steuerlichen Vorteil aus Fremdkapital nicht
+vollstÃ¤ndig ausnutzen
+â–¶ Fremdkapital bringt die MÃ¶glichkeit eines Zahlungsausfalls
+mit sich, der mit hohen Kosten verbunden ist
+â–¶ Diese Kosten mindern die optimale HÃ¶he der Verschuldung
+
+---PAGE---
+
+Fazit: Konkurskosten und Unternehmenswert
+â–¶ Konkurskosten kÃ¶nnen teilweise erklÃ¤ren, warum
+Unternehmen den steuerlichen Vorteil aus Fremdkapital nicht
+vollstÃ¤ndig ausnutzen
+â–¶ Fremdkapital bringt die MÃ¶glichkeit eines Zahlungsausfalls
+mit sich, der mit hohen Kosten verbunden ist
+â–¶ Diese Kosten mindern die optimale HÃ¶he der Verschuldung
+â–¶ Selbst die Konkurskosten kÃ¶nnen empirisch die beobachteten
+Verschuldungsstrukturen nicht vollstÃ¤ndig erklÃ¤ren
+â–¶ Andere wichtige Argumente: Anreizwirkungen der
+Kapitalstruktur, Signaleffekte der Kapitalstruktur
+â‡’ Kapitel 4.2.2 & 4.2.3
+
+---PAGE---
+
+4.2.2 Agency-Theorie der Verschuldung
+â–¶ Relevante wissenschaftliche AufsÃ¤tze:
+â–¶ Jensen and Meckling (1976): â€œTheory of the Firm: Managerial
+Behavior, Agency Costs and Ownership Structure,â€ Journal of
+Financial Economics, 3, 305-360
+â–¶ Myers (1977): â€œDeterminants of Corporate Borrowing,â€
+Journal of Financial Economics, 5, 147â€“175
+â–¶ Admati, DeMarzo, Hellwig, Pfleiderer (2018): â€œThe Leverage
+Ratchet Effect,â€ Journal of Finance, 73(1), 145-198
+â–¶ Jensen (1986): â€œAgency Costs of Free Cash Flow, Corporate
+Finance and Takeovers,â€ American Economic Review, 76,
+323-329
+â–¶ Frage: Welche Auswirkungen haben Interessenkonflikte
+zwischen Managern, AktionÃ¤ren und Fremdkapitalgebern auf
+die Kapitalstruktur?
+
+---PAGE---
+
+Agency-Probleme der Verschuldung
+â–¶ Agency-Probleme entstehen aus Interessenkonflikten
+zwischen den beteiligten Akteuren (hier: Manager, AktionÃ¤re
+und Fremdkapitalgeber)
+â–¶ Die Kapitalstruktur hat Auswirkungen auf die Anreize des
+Managements und damit auf die Investitionsentscheidungen
+â–¶ Wir nehmen zunÃ¤chst an, dass das Management
+Entscheidungen trifft, die den Wert des Eigenkapitals des
+Unternehmens steigern
+â–¶ Manager halten hÃ¤ufig selbst Anteile am Unternehmen
+â–¶ Manager werden von den AktionÃ¤ren ausgewÃ¤hlt (insbesondere
+der Vorstand)
+
+---PAGE---
+
+Agency-Kosten und Agency-Nutzen der Verschuldung
+â–¶ Wenn ein Unternehmen verschuldet ist, besteht ein
+Interessenkonflikt, wenn Investitionsentscheidungen
+unterschiedliche Auswirkungen auf den Wert des Eigenkapitals
+und des Fremdkapitals haben
+â–¶ Wenn das Risiko einer finanziellen Notlage groÃŸ ist, besteht
+die Gefahr, dass die Manager MaÃŸnahmen ergreifen, die die
+AktionÃ¤re begÃ¼nstigen, aber gleichzeitig den GlÃ¤ubigern
+schaden und den Gesamtwert des Unternehmens senken
+â‡’ Agency-Kosten der Verschuldung
+â–¶ Andererseits kann die Verschuldung positive Auswirkungen auf
+die Anreize des Managements haben, das Unternehmen
+effizient zu fÃ¼hren
+â‡’ Agency-Nutzen der Verschuldung
+
+---PAGE---
+
+Agency-Kosten der Verschuldung
+â–¶ 3 Arten von Agency-Kosten der Verschuldung:
+(a) Asset Substitution: Investitionen in Projekte mit negativem
+Kapitalwert, die das Risiko des Unternehmens steigern
+(Ã¼bermÃ¤ÃŸige RisikoÃ¼bernahme)
+(b) SchuldenÃ¼berhang (debt overhang): Unterlassung neuer
+Projekte mit positivem Kapitalwert (Unterinvestition)
+(c) UÂ¨bermÃ¤ÃŸige AusschÃ¼ttung: VerÃ¤uÃŸerung von
+VermÃ¶gensgegenstÃ¤nden unter Marktwert und AusschÃ¼ttung
+der ErlÃ¶se als Dividenden
+
+---PAGE---
+
+Beispiel: Agency-Kosten der Verschuldung
+â–¶ Das Unternehmen Baxter Inc. befindet sich in einer
+OperatiofinnsanMzieallnenaNgoetmlageent
+Kapitel 1â–¶6: BFianxatnezriehlalet NeiontelangKe,r eMdaitnaingeHmÃ¶henetvaonnre1izeM uilnlido nIennfoErmuraotion
+aufgenommen, der am Jahresende fÃ¤llig wird
+â–¶ Ohne eine AÂ¨nderung der Strategie wird der Marktwert der
+VermÃ¶gensgegenstÃ¤nde zu diesem Zeitpunkt aber nur 900.000
+Euro betragen, und Baxter wird in Zahlungsverzug geraten
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Beispiel: Agency-Kosten der Verschuldung
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Im Falle der alten Strategie gehen sÃ¤mtliche
+VermÃ¶gensgegenstÃ¤nde an die Fremdkapitalgeber
+â–¶ Die Eigenkapitalgeber gehen leer aus, weil das Unternehmen
+insolvent ist
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+(a) UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Die GeschÃ¤ftsfÃ¼hrung von Baxter zieht eine neue, riskante
+Strategie in Betracht
+â–¶ Diese erfordert keine Investition zu Beginn und hat eine
+Erfolgschance von 50%
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Ist die Strategie erfolgreich, steigert sie den Wert der
+OperatioVnesrmMÃ¶gaennsageggeenmsteÃ¤nndte auf 1,3 Millionen Euro
+Kapitel 1â–¶6: SFicnhaenitzeiertlles ieN,oftÃ¤lallgted, eMraWnaergtedmeernVtaenrmreÃ¶izgee nusngde gIennfosrtmÃ¤nadteioanuf
+300.000 Euro
+â–¶ Im Erwartungswert betrÃ¤gt der Wert der
+VermÃ¶gensgegenstÃ¤nde bei der neuen Strategie:
+0,5Â·1,3Mio+0,5Â·0,3Mio = 800.000 Euro
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+â–¶ Wenn nichts unternommen wird, gerÃ¤t Baxter mit Sicherheit in
+Zahlungsverzug und die Anteilseigner erhalten eine Auszahlung
+von 0
+â–¶ Die Anteilseigner haben also nichts zu verlieren, wenn Baxter
+die riskante Strategie verfolgt
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Obwohl der Erwartungswert der VermÃ¶gensgegenstÃ¤nde um
+100.000 Euro fÃ¤llt, ist die neue Strategie im Interesse der
+Anteilseigner
+â–¶ Warum?
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Obwohl der Erwartungswert der VermÃ¶gensgegenstÃ¤nde um
+100.000 Euro fÃ¤llt, ist die neue Strategie im Interesse der
+Anteilseigner
+â–¶ Warum?
+â–¶ Wenn nichts unternommen wird, gerÃ¤t Baxter mit Sicherheit in
+Zahlungsverzug und die Anteilseigner erhalten eine Auszahlung
+von 0
+â–¶ Die Anteilseigner haben also nichts zu verlieren, wenn Baxter
+die riskante Strategie verfolgt
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Ist die Strategie erfolgreich, erhalten die Anteilseigner
+Operations Management
+300.000 Euro, andernfalls erhalten sie nichts
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Die neue Strategie erbringt also eine erwartete Auszahlung an
+die Anteilseigner von: 0,5Â·0,3Mio+0,5Â·0 = 150.000 Euro
+â–¶ Folge: Die Anteilseigner gewinnen deutlich mit der Strategie,
+auch wenn diese eine negative erwartete Auszahlung erzielt
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+Operaâ–¶tio D n ie s V M er a lie n r a er g s e in m d d e i n e t Fremdkapitalgeber: Diese erhalten im
+Erwartungswert nun nur noch:
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+0,5Â·1Mio+0,5Â·0,3Mio = 650.000 Euro
+â–¶ Es ergibt sich also ein Verlust in HÃ¶he von 250.000 Euro
+gegenÃ¼ber den 900.000 Euro, die sie mit der alten Strategie
+erhalten hÃ¤tten
+
+6 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Dieser Verlust entspricht dem erwarteten Wertverlust von
+100.000 Euro aus der riskanten Strategie und dem erwarteten
+Gewinn der Anteilseigner in HÃ¶he von 150.000 Euro
+â–¶ Die Anteilseigner spielen hier eine Lotterie mit dem Geld der
+Fremdkapitalgeber (â€œheads I win, tails you loseâ€)
+â–¶ Ergebnis: Wenn sich ein Unternehmen in einer finanziellen
+Notlage befindet, kÃ¶nnen die Anteilseigner von
+Entscheidungen, die das Risiko des Unternehmens steigern,
+profitieren, selbst wenn diese einen negativen Kapitalwert
+haben (Jensen and Meckling, 1976)
+â–¶ Da die Verschuldung fÃ¼r Anteilseigner einen Anreiz setzt,
+VermÃ¶gensgegenstÃ¤nde mit geringem Risiko durch solche mit
+hÃ¶herem Risiko zu ersetzen, wird dieses Ergebnis hÃ¤ufig als
+Problem der Asset Substitution bezeichnet
+
+---PAGE---
+
+Â¨
+UbermÃ¤ÃŸige Risikobereitschaft und Asset-Substitution
+â–¶ Dies kann zu einer UÂ¨berinvestition fÃ¼hren, wenn die
+Anteilseigner einen Gewinn erzielen kÃ¶nnen, indem das
+Unternehmen zusÃ¤tzliche Projekte mit negativem Kapitalwert,
+aber groÃŸem Risiko durchfÃ¼hrt
+â–¶ In jedem Fall wird der Gesamtwert des Unternehmens
+gemindert, wenn das Unternehmen das Risiko durch
+Entscheidungen oder Investitionen mit negativem Kapitalwert
+steigert
+â–¶ Die AnleihekÃ¤ufer werden dieses Verhalten antizipieren und
+daher bereits im Vorhinein weniger fÃ¼r dieses Unternehmen zu
+zahlen bereit sein
+
+---PAGE---
+
+(b) SchuldenÃ¼berhang und Unterinvestition
+â–¶ Alternativ nehmen wir an, dass die Manager des
+Unternehmens eine attraktive InvestitionsmÃ¶glichkeit in
+OperatiBoentrsacMhtaznieahgene,mdieeneitne Anfangsinvestition von 100.000 Euro
+Kapitel 16e:r Ffoinradnerztieullen dNoetinlaegeri,s iMkaonloasgeemReenndtaitnereviozen u5n0d% Inefrobrrminagttion
+â–¶ Bei einem aktuell gÃ¼ltigen Zinssatz von 5% hat diese
+Investition einen deutlich positiven Kapitalwert
+â–¶ KÃ¶nnte Baxter die 100.000 Euro fÃ¼r diese Investition durch
+die Emission neuen Eigenkapitals aufbringen?
+
+7 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+SchuldenÃ¼berhang und Unterinvestition
+â–¶ Nein! Die Anteilseigner erhalten am Ende nur 50.000 Euro,
+wenn sie die 100.000 Euro zur Finanzierung des Projektes
+Operations Management
+aufbringen
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Die weiteren 100.000 Euro aus dem Projekt gehen an die
+Fremdkapitalgeber, deren Auszahlung von 900.000 auf
+1 Millionen Euro steigt
+â–¶ Grund: Fremdkapital muss vorrangig bedient werden
+
+7 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+SchuldenÃ¼berhang und Unterinvestition
+â–¶ Da die GlÃ¤ubiger den GroÃŸteil des Gewinns erhalten, hat das
+Projekt trotz des positiven Kapitalwerts fÃ¼r das Unternehmen
+einen negativen Kapitalwert fÃ¼r die Anteilseigner
+â–¶ Ergebnis: Unternehmen in einer finanziellen Notlage
+Operations Management
+entscheiden sich hÃ¤ufig gegen neue Projekte mit positivem
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+Kapitalwert (Myers, 1977)
+â–¶ Wenn die AktionÃ¤re es vorziehen, nicht in Projekte mit einem
+positiven Kapitalwert zu investieren, bezeichnet man das als
+SchuldenÃ¼berhang oder Unterinvestitionsproblem
+
+7 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+(c) UbermÃ¤ÃŸige AusschÃ¼ttung
+â–¶ Wenn sich ein Unternehmen in einer finanziellen Notlage
+befindet, stellt dies einen Anreiz fÃ¼r die AktionÃ¤re dar, vor der
+Insolvenz noch mÃ¶glichst viele Barmittel aus dem
+Unternehmen herauszuziehen
+â–¶ Beispielsweise besteht der Anreiz, VermÃ¶gensgegenstÃ¤nde
+unter deren tatsÃ¤chlichem Wert zu verkaufen und mit dem
+VerkaufserlÃ¶s eine sofortige Bardividende auszuschÃ¼tten
+(Cashing out)
+â–¶ Dies ist eine extreme Form der Unterinvestition infolge des
+SchuldenÃ¼berhangs
+
+---PAGE---
+
+Â¨
+Beispiel: UbermÃ¤ÃŸige AusschÃ¼ttung
+â–¶ Baxter besitzt GerÃ¤te, die zu Jahresbeginn fÃ¼r 25.000 Euro
+verkauft werden kÃ¶nnen, die aber benÃ¶tigt werden, um den
+normalen GeschÃ¤ftsbetrieb aufrechtzuerhalten
+â–¶ Ohne die GerÃ¤te wÃ¤re das Unternehmen am Jahresende nur
+noch 800.000 Euro wert
+â–¶ Selbst wenn der Verkauf der GerÃ¤te den Unternehmenswert
+um 100.000 Euro mindert, kÃ¶nnte dies aus Sicht der
+Anteilseigner profitabel sein
+â–¶ Denn der Verlust wird letztlich von den Fremdkapitalgebern
+getragen, wenn das Unternehmen am Jahresende sowieso
+insolvent wird
+â–¶ Somit profitieren die Anteilseigner, wenn Baxter die GerÃ¤te
+verkauft und die 25.000 Euro verwendet, um eine
+Bardividende auszuschÃ¼tten
+
+---PAGE---
+
+GrÃ¶ÃŸe des SchuldenÃ¼berhangs
+â–¶ Seien I der Investitionsbetrag, KW der Kapitalwert, D und E
+der Marktwert des Fremd- und Eigenkapitals und Î² und Î²
+D E
+die zugehÃ¶rigen Betafaktoren
+â–¶ Dann lÃ¤sst sich (nÃ¤herungsweise) zeigen, dass die
+Anteilseigner nur dann investieren, wenn
+KW Î² D
+D
+â‰¥ Â· .
+I Î² E
+E
+
+---PAGE---
+
+GrÃ¶ÃŸe des SchuldenÃ¼berhangs
+KW Î² D
+D
+â‰¥ Â·
+I Î² E
+E
+â–¶ Eine effiziente Investitionsentscheidung wÃ¼rde verlangen, dass
+jede Investition mit positivem Kapitalwert durchgefÃ¼hrt wird
+â–¶ Sofern D > 0 (das Unternehmen ist verschuldet), Î² E > 0
+(typischerweise der Fall) und Î² > 0 (die Schulden sind
+D
+riskant, das heiÃŸt, es kommt mit positiver Wahrscheinlichkeit
+zu einem Zahlungsausfall), ist der Schwellenwert positiv, ab
+dem investiert wird
+
+---PAGE---
+
+GrÃ¶ÃŸe des SchuldenÃ¼berhangs
+â–¶ Folge: Manche profitablen Investitionen werden nicht
+durchgefÃ¼hrt
+â‡’ Unterinvestition und Reduktion des Unternehmenswertes
+â–¶ Beachte: Zur Unterinvestition kommt es deshalb, weil ein Teil
+der ErtrÃ¤ge im Falle des Zahlungsausfalls an die
+Fremdkapitalgeber und nicht an die Eigenkapitalgeber geht
+â–¶ Das Problem ist umso ausgeprÃ¤gter, je hÃ¶her das relative
+Risiko des Fremdkapitals und je hÃ¶her der Verschuldungsgrad
+ist
+
+---PAGE---
+
+Agency-Kosten und Wert der Verschuldung
+â–¶ Ergebnis: Die Verschuldung kann Manager und AktionÃ¤re
+dazu veranlassen, MaÃŸnahmen zu ergreifen, die den
+Unternehmenswert mindern
+â–¶ In jedem der beschriebenen FÃ¤lle profitieren die Anteilseigner
+auf Kosten der Fremdkapitalgeber
+â–¶ AÂ¨hnlich wie bei den Konkurskosten sind es aber auch hier die
+AktionÃ¤re, die letztendlich die Agency-Kosten tragen
+
+---PAGE---
+
+Agency-Kosten und Wert der Verschuldung
+â–¶ Selbst wenn die Anteilseigner auf Kosten der
+Fremdkapitalgeber von den Entscheidungen mit negativem
+Kapitalwert in Zeiten finanzieller Notlagen profitieren, wird
+dies von den Fremdkapitalgebern antizipiert
+â–¶ Deshalb zahlen sie zu Beginn weniger fÃ¼r das Fremdkapital,
+was den Betrag verringert, den das Unternehmen an die
+AktionÃ¤re ausschÃ¼tten kann
+â–¶ Letztlich reduziert sich der Wert der Aktien gerade um den
+negativen Kapitalwert dieser Entscheidungen
+
+---PAGE---
+
+Agency-Kosten und Wert der Verschuldung
+â–¶ Merke: Diese Agency-Kosten des Fremdkapitals kÃ¶nnen nur
+dann entstehen, wenn die MÃ¶glichkeit besteht, dass das
+Unternehmen in Zahlungsverzug gerÃ¤t und bei den
+Fremdkapitalgebern Verluste entstehen
+â–¶ Nur dann kÃ¶nnen die Anteilseigner Verluste auf die
+Fremdkapitalgeber abwÃ¤lzen
+
+---PAGE---
+
+Agency-Kosten und Wert der Verschuldung
+â–¶ Die HÃ¶he der Agency-Kosten steigt mit dem Risiko des
+Zahlungsausfalls und somit mit der HÃ¶he der Verschuldung
+des Unternehmens
+â–¶ Die Agency-Kosten sind also weitere Kosten, die durch die
+Verschuldung entstehen und sich auf die Entscheidung des
+Unternehmens hinsichtlich der Kapitalstruktur auswirken
+â–¶ Sie senken letztlich die AttraktivitÃ¤t der Verschuldung
+
+---PAGE---
+
+â–¶ Ohne StrategieÃ¤nderung ist das Unternehmen 900.000 Euro
+wert
+â–¶ Hiervon gehen 400.000 Euro an das Fremdkapital, so dass das
+Eigenkapital 500.000 Euro wert ist
+â–¶ Die Gefahr der Insolvenz besteht nun nicht mehr
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: WÃ¤ren die zuvor beschriebenen Agency-Kosten bei
+Baxter auch entstanden, wenn das Unternehmen weniger
+verschuldet gewesen wÃ¤re?
+â–¶ Annahme: Baxter ist nur mit 400.000 Euro (statt 1 Million
+Euro) verschuldet
+
+---PAGE---
+
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: WÃ¤ren die zuvor beschriebenen Agency-Kosten bei
+Baxter auch entstanden, wenn das Unternehmen weniger
+verschuldet gewesen wÃ¤re?
+â–¶ Annahme: Baxter ist nur mit 400.000 Euro (statt 1 Million
+Euro) verschuldet
+â–¶ Ohne StrategieÃ¤nderung ist das Unternehmen 900.000 Euro
+wert
+â–¶ Hiervon gehen 400.000 Euro an das Fremdkapital, so dass das
+Eigenkapital 500.000 Euro wert ist
+â–¶ Die Gefahr der Insolvenz besteht nun nicht mehr
+
+---PAGE---
+
+â–¶ Die Anteilseigner erhalten nun eine erwartete Auszahlung von:
+0,5Â·900.000Mio+0,5Â·0 = 450.000 Euro < 500.000 Euro
+â–¶ Also lohnt sich die RisikoerhÃ¶hung fÃ¼r die Anteilseigner nicht
+â–¶ Das liegt daran, dass die Anteilseigner nun einen erheblichen
+Teil der Verluste selber tragen
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Lohnt es sich nun, das Risiko zu erhÃ¶hen?
+
+---PAGE---
+
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Lohnt es sich nun, das Risiko zu erhÃ¶hen?
+â–¶ Die Anteilseigner erhalten nun eine erwartete Auszahlung von:
+0,5Â·900.000Mio+0,5Â·0 = 450.000 Euro < 500.000 Euro
+â–¶ Also lohnt sich die RisikoerhÃ¶hung fÃ¼r die Anteilseigner nicht
+â–¶ Das liegt daran, dass die Anteilseigner nun einen erheblichen
+Teil der Verluste selber tragen
+
+---PAGE---
+
+â–¶ Werden 100.000 Euro investiert, so dass der
+Unternehmenswert um 150.000 Euro steigt, so betrÃ¤gt das
+neue Eigenkapital:
+900.000+150.000âˆ’400.000 = 650.000 Euro
+â–¶ Der gesamte Gewinn der Investition kommt nun den
+Anteilseignern zugute, so dass sie bereit sein werden, in das
+profitable Projekt zu investieren
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Kommt es zu einer Unterinvestition?
+
+---PAGE---
+
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Kommt es zu einer Unterinvestition?
+â–¶ Werden 100.000 Euro investiert, so dass der
+Unternehmenswert um 150.000 Euro steigt, so betrÃ¤gt das
+neue Eigenkapital:
+900.000+150.000âˆ’400.000 = 650.000 Euro
+â–¶ Der gesamte Gewinn der Investition kommt nun den
+Anteilseignern zugute, so dass sie bereit sein werden, in das
+profitable Projekt zu investieren
+
+---PAGE---
+
+â–¶ Wenn das Unternehmen die GerÃ¤te verkauft, erhalten die
+Anteilseigner sofort eine Bardividende in HÃ¶he von 25.000
+Euro
+â–¶ Allerdings sinkt die zukÃ¼nftige Auszahlung auf:
+800.000âˆ’400.000 = 400.000 Euro, so dass sie sich insgesamt
+um 75.000 Euro schlechter stellen als zuvor
+â–¶ In diesem Fall tragen die AktionÃ¤re selbst die Verluste aus dem
+Verkauf der GerÃ¤te, daher werden sie ihn nicht durchfÃ¼hren
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Gibt es weiterhin den Anreiz zu Ã¼bermÃ¤ÃŸigen
+AusschÃ¼ttungen?
+
+---PAGE---
+
+Beispiel: Agency-Kosten und Wert der Verschuldung
+â–¶ Frage: Gibt es weiterhin den Anreiz zu Ã¼bermÃ¤ÃŸigen
+AusschÃ¼ttungen?
+â–¶ Wenn das Unternehmen die GerÃ¤te verkauft, erhalten die
+Anteilseigner sofort eine Bardividende in HÃ¶he von 25.000
+Euro
+â–¶ Allerdings sinkt die zukÃ¼nftige Auszahlung auf:
+800.000âˆ’400.000 = 400.000 Euro, so dass sie sich insgesamt
+um 75.000 Euro schlechter stellen als zuvor
+â–¶ In diesem Fall tragen die AktionÃ¤re selbst die Verluste aus dem
+Verkauf der GerÃ¤te, daher werden sie ihn nicht durchfÃ¼hren
+
+---PAGE---
+
+Sperrklinkeneffekt der Verschuldung
+â–¶ GrundsÃ¤tzlich tragen die Anteilseigner die erwarteten
+Agency- und Konkurskosten Ã¼ber einen Abschlag, den sie auf
+das neue Fremdkapital erhalten
+â–¶ Wenn bei einem Unternehmen bereits Fremdkapital vorhanden
+ist, entfÃ¤llt ein Teil der Kosten allerdings auf die bereits
+bestehenden GlÃ¤ubiger
+â–¶ Diese Kosten werden nicht von den Anteilseignern getragen,
+wenn sie nicht bereits im Vorfeld antizipiert wurden
+â–¶ Deshalb kÃ¶nnen die Anteilseigner von einer hÃ¶heren
+Verschuldung profitieren, selbst wenn sich der Gesamtwert des
+Unternehmens verringert
+
+---PAGE---
+
+Sperrklinkeneffekt der Verschuldung
+â–¶ ZusÃ¤tzlich mindert der SchuldenÃ¼berhang den Anreiz der
+Unternehmen, die Verschuldung zu reduzieren
+â–¶ Denn hiervon wÃ¼rden vor allem die Fremdkapitalhalter
+profitieren (Minderung des Risikos sowie der Agency- und
+Konkurskosten)
+â–¶ Sperrklinkeneffekt der Verschuldung (Leverage Ratchet
+Effect, Admati et al., 2017): Wenn bereits Fremdkapital
+vorhanden ist, dann haben die AktionÃ¤re...
+â–¶ den Anreiz, die Verschuldung selbst dann zu erhÃ¶hen, wenn
+diese den Unternehmenswert senkt,
+â–¶ keinen Anreiz, die Verschuldung durch den RÃ¼ckkauf von
+Fremdkapital zu verringern, selbst wenn dadurch der
+Unternehmenswert gesteigert wÃ¼rde
+
+---PAGE---
+
+â–¶ Nach dem RÃ¼ckkauf der Schulden sind diese risikolos, also
+muss Baxter die 600.000 Euro Schulden zu
+600.000/1,05 = 571.429 Euro zurÃ¼ckkaufen
+â–¶ ZusÃ¤tzlich muss Baxter 100.000 Euro fÃ¼r das neue Projekt
+aufnehmen
+Beispiel: SchuldenÃ¼berhang und Sperrklinkeneffekt
+â–¶ Zu zeigen: Baxters AktionÃ¤re profitieren von der Verringerung
+der Verschuldung von 1 Millionen auf 400.000 Euro selbst
+dann nicht, wenn der Unternehmenswert durch die
+DurchfÃ¼hrung des profitablen Projekts steigt
+
+---PAGE---
+
+Beispiel: SchuldenÃ¼berhang und Sperrklinkeneffekt
+â–¶ Zu zeigen: Baxters AktionÃ¤re profitieren von der Verringerung
+der Verschuldung von 1 Millionen auf 400.000 Euro selbst
+dann nicht, wenn der Unternehmenswert durch die
+DurchfÃ¼hrung des profitablen Projekts steigt
+â–¶ Nach dem RÃ¼ckkauf der Schulden sind diese risikolos, also
+muss Baxter die 600.000 Euro Schulden zu
+600.000/1,05 = 571.429 Euro zurÃ¼ckkaufen
+â–¶ ZusÃ¤tzlich muss Baxter 100.000 Euro fÃ¼r das neue Projekt
+aufnehmen
+
+---PAGE---
+
+Beispiel: SchuldenÃ¼berhang und Sperrklinkeneffekt
+â–¶ Der Unternehmenswert entspricht dann 1,05 Millionen
+(900.000 + 150.000 Euro)
+â–¶ Hiervon gehen 400.000 Euro an die Fremdkapitalhalter und
+650.000 Euro an die Anteilseigner
+â–¶ Dies ist aber weniger als die investierte Summe (671.429
+Euro), daher wird Baxter die Transaktion nicht durchfÃ¼hren
+â–¶ Grund: Das Unternehmen muss den Fremdkapitalhaltern einen
+relativ hohen Preis zahlen, der die Schuldenreduktion bereits
+berÃ¼cksichtigt, und kann daher nicht selbst davon profitieren
+â–¶ Folge: Die Verschuldung bleibt dauerhaft hoch
+
+---PAGE---
+
+FÃ¤lligkeit des Fremdkapitals und Covenants
+â–¶ Die Unternehmen kÃ¶nnen versuchen, die Agency-Kosten des
+Fremdkapitals zu verringern
+â–¶ Die HÃ¶he der Agency-Kosten ist beispielsweise von der
+Fristigkeit des Fremdkapitals abhÃ¤ngig
+â–¶ Agency-Kosten sind fÃ¼r langfristiges Fremdkapital am
+hÃ¶chsten und fÃ¼r kurzfristiges Fremdkapital am geringsten
+â–¶ Grund: Wenn das Fremdkapital hÃ¤ufig refinanziert werden
+muss, ist es schwieriger fÃ¼r das Unternehmen, das Risiko zu
+erhÃ¶hen, eine sinnvolle Investition zu unterlassen oder
+VermÃ¶gensgegenstÃ¤nde unter Wert zu verkaufen
+
+---PAGE---
+
+FÃ¤lligkeit des Fremdkapitals und Covenants
+â–¶ AuÃŸerdem schrÃ¤nken die GlÃ¤ubiger hÃ¤ufig die
+Handlungsfreiheit des Unternehmens als Bedingung fÃ¼r die
+Kreditvergabe ein â‡’ Kreditklauseln (Covenants)
+â–¶ Covenants kÃ¶nnen die AusschÃ¼ttungen begrenzen oder die Art
+der Investitionen, die ein Unternehmen tÃ¤tigen kann,
+einschrÃ¤nken
+â–¶ Da Covenants die FlexibilitÃ¤t des Managements einschrÃ¤nken,
+kÃ¶nnen sie aber auch schÃ¤dlich sein, wenn sie Investitionen in
+Projekte mit positivem Kapitalwert verhindern
+
+---PAGE---
+
+Agency-Nutzen der Verschuldung
+â–¶ Bislang haben wir unterstellt, dass die Manager im Interesse
+der Anteilseigner handeln, und haben Interessenkonflikte
+zwischen Anteilseignern und Fremdkapitalgebern betrachtet
+â–¶ Aber natÃ¼rlich verfolgen Manager auch ihre eigenen
+Interessen, die von den Interessen der Anteilseigner und
+Fremdkapitalgeber abweichen kÃ¶nnen
+â–¶ Trennung von Eigentum und Kontrolle schafft die MÃ¶glichkeit
+des Management Entrenchment
+â–¶ Die Manager kÃ¶nnen Entscheidungen treffen, die ihnen auf
+Kosten der Investoren Vorteile verschaffen
+â–¶ Die Kapitalstruktur kann fÃ¼r die Manager Anreize setzen, das
+Unternehmen effizienter zu fÃ¼hren
+
+---PAGE---
+
+Agency-Nutzen der Verschuldung
+â–¶ Eine hÃ¶here Verschuldung geht daher nicht nur mit
+Agency-Kosten, sondern auch mit Agency-Nutzen einher
+â–¶ 3 Arten von Agency-Nutzen der Verschuldung:
+(a) HÃ¶here Eigentumskonzentration: Je stÃ¤rker der Manager
+selbst am Eigenkapital beteiligt ist, desto mehr strengt er sich
+an
+(b) Geringere freie Cashflows: Weniger verschwenderische
+Investitionen
+(c) Geringere Handlungsautonomie des Managers: Sorge vor
+finanzieller Notlage oder Entlassung kann die Leistung der
+Manager verbessern
+
+---PAGE---
+
+(a) HÃ¶here Konzentration des Eigentums
+â–¶ Ein Vorteil der Verschuldung ist, dass sie es den Altinhabern
+des Unternehmens ermÃ¶glicht, ihren Anteil am Eigenkapital
+beizubehalten
+â–¶ Als HauptaktionÃ¤re haben sie ein groÃŸes Interesse daran, das
+Beste fÃ¼r das Unternehmen zu tun, weil sie die FrÃ¼chte ihrer
+Anstrengung selbst ernten
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Ross Jackson ist Inhaber eines erfolgreichen MÃ¶belgeschÃ¤fts
+â–¶ Er plant eine Expansion durch die ErÃ¶ffnung weiterer LÃ¤den
+â–¶ Ross kann entweder die fÃ¼r die Expansion erforderlichen Mittel
+als Kredit aufnehmen oder das Geld durch den Verkauf von
+Aktien beschaffen
+â–¶ Im Falle einer Aktienemission muss er 40% des Unternehmens
+verkaufen, um die notwendigen Mittel aufzubringen
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Wenn Ross Fremdkapital einsetzt, bleibt er Inhaber von 100%
+des Eigenkapitals
+â–¶ Solange das Unternehmen nicht ausfÃ¤llt, fÃ¼hrt jede
+Entscheidung, die zu einem Anstieg des Werts des
+Unternehmens um 1 Euro fÃ¼hrt, zu einem Anstieg seines
+eigenen Anteils um ebenfalls 1 Euro
+â–¶ Wenn Ross jedoch Eigenkapital ausgibt, behÃ¤lt er nur 60%
+des Eigenkapitals, wodurch sich auch sein Anteil an den
+Gewinnen reduziert
+â–¶ Somit erhÃ¤lt Ross nur 0,60 Euro bei jedem Anstieg des
+Unternehmenswerts um 1 Euro, was einen negativen Effekt
+auf seine Anstrengungen haben kÃ¶nnte
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Die unterschiedlichen Eigentumsanteile von Ross Ã¤ndern also
+seine Anreize bei der FÃ¼hrung des Unternehmens
+â–¶ HÃ¤ngt der Unternehmenswert weitgehend von der
+persÃ¶nlichen Anstrengung ab, wird Ross vermutlich hÃ¤rter
+arbeiten und das Unternehmen wird einen hÃ¶heren Wert
+besitzen, wenn Ross 100% der Gewinne erhÃ¤lt (statt 60%)
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Eine weitere Auswirkung der Eigenkapitalemission ist die
+Versuchung fÃ¼r Ross, Sachzuwendungen in Anspruch zu
+nehmen, wie zum Beispiel ein groÃŸes BÃ¼ro mit teuren
+Kunstwerken, einen GeschÃ¤ftswagen mit Fahrer, ein Flugzeug
+oder ein groÃŸzÃ¼giges Spesenkonto (perks)
+â–¶ Mit Verschuldung ist Ross der Alleininhaber und trÃ¤gt die
+vollen Kosten dieser Zuwendungen selbst
+â–¶ Mit Eigenkapital trÃ¤gt Ross nur 60% der Kosten, die anderen
+40% werden von den neuen Anteilseignern getragen
+â–¶ Somit ist es bei einer Finanzierung mit Eigenkapital
+wahrscheinlicher, dass Ross zu viel fÃ¼r diese LuxusgÃ¼ter
+ausgibt
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Die Kosten des reduzierten Arbeitseinsatzes und der
+Ã¼bermÃ¤ÃŸigen Ausgaben sind eine weitere Form der
+Agency-Kosten, die allerdings diesmal bei der Emission von
+Eigenkapital anfallen
+â–¶ Sie stellen gleichzeitig einen Agency-Nutzen des
+Fremdkapitals dar, da diese Probleme bei der
+Fremdkapitalfinanzierung nicht auftreten
+â–¶ Diese Agency-Kosten entstehen aus der VerwÃ¤sserung des
+Eigentums, wenn die Finanzierung durch Eigenkapital erfolgt
+
+---PAGE---
+
+â–¶ Wenn die Wertpapiere fair bewertet sind, zahlt der
+AltaktionÃ¤r des Unternehmens die dadurch entstehenden
+Kosten
+â–¶ Wenn Ross sich fÃ¼r die Eigenkapitalemission entscheidet,
+werden die neuen Investoren einen Preisabschlag vorsehen, um
+den geringeren Arbeitseinsatz von Ross und die erhÃ¶hten
+Ausgaben fÃ¼r Sachzuwendungen zu berÃ¼cksichtigen
+â–¶ Das Unternehmen kann also von Verschuldung profitieren, da
+so die EigentÃ¼merkonzentration beibehalten werden kann und
+die Agency-Kosten vermieden werden (Jensen und Meckling,
+1976)
+Beispiel: Konzentration des Eigentums
+â–¶ Wer trÃ¤gt diese Kosten?
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ Wer trÃ¤gt diese Kosten?
+â–¶ Wenn die Wertpapiere fair bewertet sind, zahlt der
+AltaktionÃ¤r des Unternehmens die dadurch entstehenden
+Kosten
+â–¶ Wenn Ross sich fÃ¼r die Eigenkapitalemission entscheidet,
+werden die neuen Investoren einen Preisabschlag vorsehen, um
+den geringeren Arbeitseinsatz von Ross und die erhÃ¶hten
+Ausgaben fÃ¼r Sachzuwendungen zu berÃ¼cksichtigen
+â–¶ Das Unternehmen kann also von Verschuldung profitieren, da
+so die EigentÃ¼merkonzentration beibehalten werden kann und
+die Agency-Kosten vermieden werden (Jensen und Meckling,
+1976)
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ TatsÃ¤chlich stellt man bei kleinen Unternehmen hÃ¤ufig eine
+hohe Konzentration des Eigentums fest
+â–¶ Dieses wird aber hÃ¤ufig verwÃ¤ssert, wenn das Unternehmen
+wÃ¤chst:
+â–¶ Altinhaber gehen in den Ruhestand und die neuen Manager
+halten geringere Anteile
+â–¶ Unternehmen mÃ¼ssen hÃ¤ufig fÃ¼r Investitionen mehr Kapital
+aufbringen, als allein mit Fremdkapital mÃ¶glich ist
+â–¶ Inhaber entscheiden sich hÃ¤ufig, einen Teil ihrer Anteile zu
+verkaufen, um ihr Portfolio besser zu diversifizieren
+
+---PAGE---
+
+Beispiel: Konzentration des Eigentums
+â–¶ So halten bei den groÃŸen US-Unternehmen die meisten
+Vorstandsvorsitzenden weniger als 1% der Aktien
+â–¶ Hieraus ergibt sich ein relativ groÃŸes Potenzial fÃ¼r
+Interessenkonflikte zwischen Managern und Anteilseignern
+â–¶ Angemessene Kontrollen und Rechenschaftspflichten sind
+erforderlich, um Missbrauch zu verhindern
+â–¶ Trotzdem werden jedes Jahr Skandale aufgedeckt, in denen
+Manager gegen die Interessen der AktionÃ¤re gehandelt haben
+
+---PAGE---
+
+â‡’ Empire Building, Overconfidence, Free Cashflows
+(b) Reduzierung von Fehlinvestitionen
+â–¶ Auch wenn Ã¼bermÃ¤ÃŸige Ausgaben fÃ¼r Sachzuwendungen ein
+Problem sein kÃ¶nnen, sind diese Kosten insgesamt
+vergleichsweise gering (relativ zum Unternehmenswert)
+â–¶ Von viel grÃ¶ÃŸerer Bedeutung ist die Gefahr von
+Fehlinvestitionen
+â–¶ Schlechte Investitionsentscheidungen haben schon viele
+ansonsten erfolgreiche Unternehmen ruiniert
+â–¶ Was bringt Manager dazu, Investitionen mit negativem
+Kapitalwert zu tÃ¤tigen?
+
+---PAGE---
+
+(b) Reduzierung von Fehlinvestitionen
+â–¶ Auch wenn Ã¼bermÃ¤ÃŸige Ausgaben fÃ¼r Sachzuwendungen ein
+Problem sein kÃ¶nnen, sind diese Kosten insgesamt
+vergleichsweise gering (relativ zum Unternehmenswert)
+â–¶ Von viel grÃ¶ÃŸerer Bedeutung ist die Gefahr von
+Fehlinvestitionen
+â–¶ Schlechte Investitionsentscheidungen haben schon viele
+ansonsten erfolgreiche Unternehmen ruiniert
+â–¶ Was bringt Manager dazu, Investitionen mit negativem
+Kapitalwert zu tÃ¤tigen?
+â‡’ Empire Building, Overconfidence, Free Cashflows
+
+---PAGE---
+
+Empire Building
+â–¶ Viele Manager bevorzugen es, groÃŸe Unternehmen statt kleine
+zu fÃ¼hren
+â–¶ Daher tÃ¤tigen sie Investitionen, die die GrÃ¶ÃŸe des
+Unternehmens steigern, jedoch nicht zwingend die RentabilitÃ¤t
+â–¶ GroÃŸe Unternehmen werden aus verschiedenen GrÃ¼nden als
+attraktiv empfunden:
+â–¶ Manager groÃŸer Unternehmen erhalten tendenziell hÃ¶here
+GehÃ¤lter
+â–¶ Manager groÃŸer Unternehmen haben mehr Macht, Prestige
+und Anerkennung und genieÃŸen mehr Publicity in den Medien
+â–¶ Daher kann es sein, dass ein Manager unrentable
+GeschÃ¤ftsbereiche erweitert (oder eine SchlieÃŸung unterlÃ¤sst),
+zu viel fÃ¼r UnternehmensÃ¼bernahmen zahlt, unnÃ¶tige
+Kapitalaufwendungen tÃ¤tigt oder unnÃ¶tig Mitarbeiter einstellt
+
+---PAGE---
+
+Overconfidence
+â–¶ Ein weiterer Grund fÃ¼r eine UÂ¨berinvestition ist, dass die
+Manager hÃ¤ufig zu optimistisch sind â‡’ Overconfidence
+â–¶ Selbst wenn sie versuchen, im Interesse der AktionÃ¤re zu
+handeln, kÃ¶nnen hierdurch Fehler unterlaufen
+â–¶ Manager Ã¼berschÃ¤tzen hÃ¤ufig die Aussichten des
+Unternehmens und halten neue GeschÃ¤ftsmÃ¶glichkeiten fÃ¼r
+besser, als sie tatsÃ¤chlich sind
+â–¶ Gleichzeitig kÃ¶nnen sie sich hÃ¤ufig nur schwer von lieb
+gewonnenen Projekten trennen, obwohl diese beendet werden
+sollten
+
+---PAGE---
+
+Geringere Free Cashflows
+â–¶ Um verschwenderische Investitionen zu tÃ¤tigen, benÃ¶tigen die
+Manager die erforderlichen Barmittel
+â–¶ Hypothese der Free Cashflows: Fehlinvestitionen sind dann
+wahrscheinlicher, wenn Unternehmen hohe freie Cashflows
+aufweisen, die das notwendige MaÃŸ Ã¼berschreiten, das fÃ¼r die
+Investitionen mit positivem Kapitalwert und die Zahlungen an
+die GlÃ¤ubiger benÃ¶tigt wird (Jensen, 1986)
+â–¶ Nur dann, wenn die Barmittel knapp sind, sind Manager
+gemÃ¤ÃŸ dieser These motiviert, das Unternehmen so effizient
+wie mÃ¶glich zu fÃ¼hren
+â–¶ Folge: Die Verschuldung steigert hier den Unternehmenswert,
+da sie das Unternehmen zu kÃ¼nftigen Zinszahlungen
+verpflichtet und somit den Ã¼berschÃ¼ssigen Cashflow und den
+Umfang der Fehlinvestitionen von Managern reduziert
+
+---PAGE---
+
+(c) Geringere Handlungsautonomie
+â–¶ Die Verschuldung kann auch den Umfang des Management
+Entrenchment reduzieren, da Manager in einer finanziellen
+Notlage eher entlassen werden
+â–¶ Weniger autonome Manager achten vermutlich mehr auf ihre
+Performance und tÃ¤tigen weniger Fehlinvestitionen
+â–¶ AuÃŸerdem Ã¼berwachen die GlÃ¤ubiger eines hochverschuldeten
+Unternehmens die MaÃŸnahmen des Managements
+
+---PAGE---
+
+Geringere Handlungsautonomie
+â–¶ Durch die Verschuldung sind den Managern stÃ¤rker die HÃ¤nde
+gebunden
+â–¶ Hierdurch kÃ¶nnen sie gezwungen sein, Strategien hÃ¤rter
+durchzusetzen, als es ohne die drohende finanzielle Notlage
+der Fall wÃ¤re
+â–¶ Beispiel: ZugestÃ¤ndnisse der Arbeitnehmer in
+Lohnverhandlungen angesichts einer drohenden Insolvenz
+â–¶ Ein Unternehmen mit hoher Verschuldung ist mÃ¶glicherweise
+auch ein hÃ¤rterer Konkurrent, der aggressiver agiert, da er
+keine Insolvenz riskieren kann
+
+---PAGE---
+
+Agency-Kosten und die Trade-Off-Theorie
+â–¶ Der Wert des verschuldeten Unternehmens ist nun:
+VL = VU +BW(fremdfinanzierungsbedingter Steuervorteil)
+âˆ’BW(Konkurskosten)
+Operations Management
+âˆ’BW(Agency âˆ’KostendesFremdkapitals)
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
++BW(Agency âˆ’NutzendesFremdkapitals)
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Agency-Kosten und die Trade-Off-Theorie
+â–¶ Unternehmen profitieren bei steigender Verschuldung vom
+fremdfinanzierungsbedingten Steuervorteil (Ï„âˆ—Â·D) und
+von verbesserten Managementanreizen
+â–¶ Gleichzeitig steigen jedoch die erwarteten Konkurskosten und
+OperatdiioenAsnMreiaznpraogbleemmeenauts dem Fremdkapital
+Kapite
+â–¶
+l 1D6:a Fsinoapntziimellael eNoNtliavgeea, uMdaneasgFermeemndtaknarpeiiztea lusnDd âˆ—Ingfolremicahttion
+Grenzkosten und -nutzen der Verschuldung gerade aus
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Das optimale Fremdkapitalniveau
+â–¶ Beachte: Das optimale Verschuldungsniveau hÃ¤ngt von den
+Eigenschaften des betrachteten Unternehmens und von der
+Relevanz der verschiedenen Kostenarten und
+Marktunvollkommenheiten ab
+â–¶ Die verschiedenen Kosten und Nutzen sind nicht in jeder
+Branche gleich bedeutend
+
+---PAGE---
+
+â–¶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ niedrig (wegen geringer Gewinne)
+â–¶ Konkurskosten: Hohes Humankapital (und somit hohe Kosten
+im Fall einer finanziellen Notlage)
+â–¶ Agency-Kosten des Fremdkapitals: Risiko der
+GeschÃ¤ftsstrategie kann leicht erhÃ¶ht werden (d.h. hohe
+Agency-Kosten des Fremdkapitals)
+â–¶ Agency-Nutzen des Fremdkapitals: Geringe freie Cashflows
+(und damit Anreizprobleme des Managements), daher
+Agency-Nutzen begrenzt
+â‡’ Relativ niedriges Fremdkapitalniveau
+Das optimale Fremdkapitalniveau
+â–¶ Beispiel: R&D-intensive Unternehmen (hohe Kosten fÃ¼r
+Forschung und Entwicklung und hohes erwartetes Wachstum),
+z.B. Biotech-/Hightech-Unternehmen:
+
+---PAGE---
+
+Das optimale Fremdkapitalniveau
+â–¶ Beispiel: R&D-intensive Unternehmen (hohe Kosten fÃ¼r
+Forschung und Entwicklung und hohes erwartetes Wachstum),
+z.B. Biotech-/Hightech-Unternehmen:
+â–¶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ niedrig (wegen geringer Gewinne)
+â–¶ Konkurskosten: Hohes Humankapital (und somit hohe Kosten
+im Fall einer finanziellen Notlage)
+â–¶ Agency-Kosten des Fremdkapitals: Risiko der
+GeschÃ¤ftsstrategie kann leicht erhÃ¶ht werden (d.h. hohe
+Agency-Kosten des Fremdkapitals)
+â–¶ Agency-Nutzen des Fremdkapitals: Geringe freie Cashflows
+(und damit Anreizprobleme des Managements), daher
+Agency-Nutzen begrenzt
+â‡’ Relativ niedriges Fremdkapitalniveau
+
+---PAGE---
+
+â–¶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ hoch (wegen hoher Gewinne)
+â–¶ Konkurskosten: Relativ geringe Konkurskosten (leichte
+Verwertbarkeit der VermÃ¶gensgegenstÃ¤nde)
+â–¶ Agency-Kosten des Fremdkapitals: Risiken kÃ¶nnen nicht so
+leicht erhÃ¶ht werden
+â–¶ Agency-Nutzen des Fremdkapitals: Hohe freie Cashflows mit
+wenigen guten Investitionsgelegenheiten (hoher Agency-
+Nutzen)
+â‡’ Relativ hohe Verschuldung
+Das optimale Fremdkapitalniveau
+â–¶ Beispiel: Reife Unternehmen (geringes Wachstum, stabile
+Cashflows, Ã¼berwiegend materielle VermÃ¶gensgegenstÃ¤nde),
+z.B. Immobilienunternehmen, Versorgungsunternehmen,
+SupermÃ¤rkte:
+
+---PAGE---
+
+Das optimale Fremdkapitalniveau
+â–¶ Beispiel: Reife Unternehmen (geringes Wachstum, stabile
+Cashflows, Ã¼berwiegend materielle VermÃ¶gensgegenstÃ¤nde),
+z.B. Immobilienunternehmen, Versorgungsunternehmen,
+SupermÃ¤rkte:
+â–¶ Fremdfinanzierungsbedingter Steuervorteil: Steueroptimales
+Verschuldungsniveau relativ hoch (wegen hoher Gewinne)
+â–¶ Konkurskosten: Relativ geringe Konkurskosten (leichte
+Verwertbarkeit der VermÃ¶gensgegenstÃ¤nde)
+â–¶ Agency-Kosten des Fremdkapitals: Risiken kÃ¶nnen nicht so
+leicht erhÃ¶ht werden
+â–¶ Agency-Nutzen des Fremdkapitals: Hohe freie Cashflows mit
+wenigen guten Investitionsgelegenheiten (hoher Agency-
+Nutzen)
+â‡’ Relativ hohe Verschuldung
+
+---PAGE---
+
+Verschuldungsniveaus in der Praxis
+â–¶ Die Trade-Off-Theorie erklÃ¤rt, welche Kapitalstruktur ein
+Unternehmen wÃ¤hlen sollte, um den Wert fÃ¼r die derzeitigen
+AktionÃ¤re zu maximieren
+â–¶ Dies ist jedoch nicht zwingend das Ziel des Managements
+â–¶ Die Management-Entrenchment-Theorie der
+Kapitalstruktur besagt, dass Manager die Kapitalstruktur
+hauptsÃ¤chlich wÃ¤hlen, um die Schuldendisziplin zu umgehen
+und ihre eigene Position im Unternehmen zu sichern
+â–¶ Manager kÃ¶nnten beispielsweise die Verschuldung minimieren,
+um den Verlust ihres Arbeitsplatzes zu vermeiden, der mit
+einer finanziellen Notlage einhergehen wÃ¼rde
+â–¶ Gleichzeitig kÃ¶nnen sich die Manager dem OptimierungskalkÃ¼l
+nicht vollstÃ¤ndig entziehen: Opfern die Manager zu viel
+Unternehmenswert, kÃ¶nnten die AktionÃ¤re versuchen, sie zu
+ersetzen oder das Unternehmen zu verÃ¤uÃŸern
+
+---PAGE---
+
+4.2.3 Asymmetrische Information und Kapitalstruktur
+â–¶ Relevante wissenschaftliche AufsÃ¤tze:
+â–¶ Ross (1977): â€œThe Determination of Financial Structure: The
+Incentive-Signalling Approach,â€ Bell Journal of Economics, 8,
+23â€“40
+â–¶ Akerlof (1970): â€œThe Markets for Lemons: Quality, Uncertainty
+and the Market Mechanism,â€ Quartlery Journal of Economics,
+84, 488â€“500
+â–¶ Leland and Pyle (1977): â€œInformation Asymmetries, Financial
+Structure and Financial Intermediation,â€ Journal of Finance,
+32, 371â€“387
+â–¶ Myers and Mailuf (1984): â€œCorporate Financing and
+Investment Decisions When Firms Have Information that
+Investors Do Not Have,â€ Journal of Financial Economics, 13,
+187â€“221
+â–¶ Myers (1984): â€œThe Capital Structure Puzzle,â€ Journal of
+Finance, 39, 575â€“592
+â–¶ Frage: Welche Auswirkungen haben asymmetrische
+Informationen auf die Wahl der Kapitalstruktur?
+
+---PAGE---
+
+Asymmetrische Information und Kapitalstruktur
+â–¶ Asymmetrische Information: Situation, in der die Parteien
+einer Transaktion unterschiedlich gut Ã¼ber relevante
+UmstÃ¤nde informiert sind
+â–¶ Beispiel: Der Manager besitzt bessere Informationen als die
+Investoren Ã¼ber die zukÃ¼nftigen Cashflows des Unternehmens
+â–¶ Die Manager kÃ¶nnen die Verschuldung als glaubwÃ¼rdiges
+Signal fÃ¼r die Investoren einsetzen, dass das Unternehmen in
+der Lage ist, zukÃ¼nftige Cashflows zu generieren
+(Signaling-Theorie des Fremdkapitals)
+â–¶ Im Falle der Eigenkapitalemission enthÃ¤lt der Preis hingegen
+einen Abschlag, wenn die Manager vertrauliche Informationen
+besitzen (Problem der adversen Selektion)
+
+---PAGE---
+
+Beispiel: Verschuldung als glaubwÃ¼rdiges Signal
+â–¶ Das Unternehmen Beltran International plant ein neues
+Projekt
+â–¶ Wie kann die Managerin des Unternehmens die Investoren von
+der ProfitabilitÃ¤t des Projekts Ã¼berzeugen?
+â–¶ Problem: Die Aussagen der Managerin Ã¼ber die ProfitabilitÃ¤t
+des Unternehmens sind nicht glaubwÃ¼rdig, wenn sie nicht
+Ã¼berprÃ¼ft werden kÃ¶nnen
+
+---PAGE---
+
+Verschuldung als glaubwÃ¼rdiges Signal
+â–¶ Daher muss das Unternehmen versuchen, glaubwÃ¼rdige
+Signale auszusenden
+â–¶ GlaubwÃ¼rdigkeitsprinzip:
+â–¶ Behauptungen, die im eigenen Interesse liegen, sind nur dann
+glaubwÃ¼rdig, wenn sie durch Handlungen unterstÃ¼tzt werden,
+die zu teuer wÃ¤ren, wenn die Behauptungen falsch wÃ¤ren
+(â€œTaten sagen mehr als tausend Worteâ€)
+â–¶ MÃ¶gliches Signal: Ex post Ã¼berprÃ¼fbare Bekanntmachungen,
+die im Falle der vorsÃ¤tzlichen Falschinformation Klagen und
+hohe Strafen nach sich ziehen wÃ¼rden
+â–¶ HÃ¤ufig ist eine Bekanntmachung von Informationen aber nicht
+mÃ¶glich (zum Beispiel aus WettbewerbsgrÃ¼nden)
+
+---PAGE---
+
+Verschuldung als glaubwÃ¼rdiges Signal
+â–¶ Das Unternehmen kann versuchen, die positive Information
+glaubhaft zu kommunizieren, indem es sich zu hohen
+kÃ¼nftigen Kreditzahlungen verpflichtet
+â–¶ Wenn die Information wahr ist, wird das Unternehmen keine
+Probleme dabei haben, die Zahlungen zu leisten
+â–¶ Ist die Information hingegen falsch, wird das Unternehmen bei
+der RÃ¼ckzahlung seiner Schulden Schwierigkeiten bekommen
+und in eine finanzielle Notlage geraten, aus der dem Manager
+und dem Unternehmen hohe Kosten entstehen
+â–¶ Daher ist die Verschuldung aus Sicht des Managements nur
+dann optimal, wenn die Wahrscheinlichkeit des
+Zahlungsausfalls hinreichend klein ist
+
+---PAGE---
+
+Verschuldung als glaubwÃ¼rdiges Signal
+â–¶ Die Verschuldung kann also genutzt werden, um die
+Investoren von der zukÃ¼nftigen ProfitabilitÃ¤t des
+Unternehmens zu Ã¼berzeugen
+â–¶ Signaling-Theorie des Fremdkapitals: Die Verschuldung
+kann als Mittel verwendet werden, um den Investoren positive
+Informationen zu signalisieren (Ross, 1977)
+
+---PAGE---
+
+Beispiel: Fremdkapital signalisiert StÃ¤rke
+â–¶ Das Unternehmen Beltran International ist derzeit rein
+eigenkapitalfinanziert
+â–¶ Der Marktwert von Beltran in einem Jahr liegt je nach Erfolg
+der neuen Strategie entweder bei 100 Millionen Euro oder bei
+50 Millionen Euro
+â–¶ Die Investoren halten diese Ergebnisse fÃ¼r gleich
+wahrscheinlich, aber die Managerin von Beltran verfÃ¼gt Ã¼ber
+die Information, dass der Erfolg so gut wie sicher ist
+â–¶ Wir gehen davon aus, dass die Managerin im Falle der
+Insolvenz ihren Job verlieren wÃ¼rde
+â–¶ Wie hoch muss die Verschuldung sein, damit die Behauptung
+glaubwÃ¼rdig ist?
+
+---PAGE---
+
+Beispiel: Fremdkapital signalisiert StÃ¤rke
+â–¶ Bei einer Verschuldung von bis zu 50 Millionen Euro ist die
+Behauptung der Managerin nicht glaubwÃ¼rdig, weil das
+Unternehmen keine finanzielle Notlage riskiert
+â–¶ Liegt die Verschuldung hingegen Ã¼ber 50 Millionen Euro, so
+ist das Signal eher glaubwÃ¼rdig, weil die Managerin in diesem
+Fall bei einer falschen Auskunft ihren Job riskieren wÃ¼rde
+
+---PAGE---
+
+Das Problem der adversen Selektion
+â–¶ In MÃ¤rkten mit asymmetrischer Information zwischen
+VerkÃ¤ufern und KÃ¤ufern kommt es hÃ¤ufig zum Problem der
+adversen Selektion: Die durchschnittliche QualitÃ¤t der GÃ¼ter
+im Markt ist geringer als die durchschnittliche GesamtqualitÃ¤t
+(Akerlof, 1970)
+â–¶ Beispiel Gebrauchtwagen: â€œWarum sollte ich das Auto kaufen,
+das du verkaufen willst?â€ (Lemons-Problem)
+â–¶ Die uninformierte Seite kennt nur die durchschnittliche
+QualitÃ¤t und ist daher auch nur bereit, einen
+durchschnittlichen Preis zu bezahlen
+â–¶ Zu diesem Preis sind VerkÃ¤ufer Ã¼berdurchschnittlicher
+QualitÃ¤t aber mÃ¶glicherweise nicht mehr bereit, das Gut zu
+verkaufen â‡’ Adverse Selektion
+â–¶ Der Verkaufswunsch legt nahe, dass das Auto von geringer
+QualitÃ¤t ist
+
+---PAGE---
+
+Das Problem der adversen Selektion
+â–¶ Die KÃ¤ufer werden daher nur kaufen, wenn ein Preisnachlass
+gewÃ¤hrt wird
+â–¶ Inhaber hochwertiger Autos verkaufen nur ungern, da sie
+wissen, dass die KÃ¤ufer davon ausgehen werden, dass sie
+mittlere QualitÃ¤t verkaufen und daher nur einen geringen Preis
+zahlen werden
+â–¶ Somit sind sowohl die QualitÃ¤t als auch der Preis auf dem
+Gebrauchtwagenmarkt gering
+â–¶ Im Ergebnis kommt es zu einer adversen Selektion: Die
+QualitÃ¤t der Autos, die auf dem Gebrauchtwagenmarkt
+verkauft wird, ist unterdurchschnittlich
+
+---PAGE---
+
+Das Problem der adversen Selektion
+â–¶ Adverse Selektion gibt es auch auÃŸerhalb des
+Gebrauchtwagenmarktes
+â–¶ Sie gilt fÃ¼r jede Situation, in der ein VerkÃ¤ufer mehr
+Informationen als der KÃ¤ufer hat
+â–¶ Allgemein gilt: Wenn ein VerkÃ¤ufer private Informationen Ã¼ber
+den Wert einer Ware besitzt, sind die KÃ¤ufer aufgrund der
+adversen Selektion nur zu einem relativ geringen Preis bereit,
+das Gut zu kaufen (Lemons-Prinzip)
+
+---PAGE---
+
+Eigenkapitalemission und adverse Selektion
+â–¶ Auch bei der Eigenkapitalemission besteht das Problem der
+adversen Selektion
+â–¶ Beispiel:
+â–¶ Der Inhaber eines Start-up-Unternehmens behauptet, dass sein
+Unternehmen eine hervorragende Investitionsgelegenheit
+darstellt und bietet 70% seiner Anteile am Unternehmen zum
+Kauf an
+â–¶ Er erklÃ¤rt, dass er aus GrÃ¼nden der Diversifizierung verkauft
+â–¶ Es besteht allerdings der Verdacht, dass der Inhaber nur
+deshalb einen so groÃŸen Anteil verkaufen mÃ¶chte, weil er
+negative Informationen Ã¼ber die Zukunftsaussichten des
+Unternehmens besitzt
+â–¶ Es kÃ¶nnte sein, dass der Inhaber einen Cash-out durchfÃ¼hren
+mÃ¶chte, bevor die schlechte Nachricht Ã¶ffentlich bekannt wird
+
+---PAGE---
+
+Eigenkapitalemission und adverse Selektion
+â–¶ Wie bei dem GebrauchtwagenhÃ¤ndler kann der Wunsch des
+Inhabers, Eigenkapital zu verkaufen, dazu fÃ¼hren, dass die
+QualitÃ¤t der Investition infrage gestellt wird
+â–¶ Aufgrund des Lemons-Problems reduzieren Investoren den
+Preis, den sie zu zahlen bereit sind
+â–¶ Die Reduktion des Preises aufgrund der adversen Selektion
+stellt Kosten der Eigenkapitalemission dar
+â–¶ Diese kÃ¶nnen die Inhaber, die Ã¼ber positive Informationen
+verfÃ¼gen, von der Eigenkapitalemission abhalten
+
+---PAGE---
+
+Beispiel: Adverse Selektion in KapitalmÃ¤rkten
+â–¶ Die Aktie des Unternehmens Zycor ist entweder 60, 80 oder
+100 Euro pro Aktie wert
+â–¶ Investoren nehmen an, dass jeder Wert mit der gleichen
+Wahrscheinlichkeit eintritt
+â–¶ Der aktuelle Kurs entspricht dem Durchschnittswert von 80
+Euro
+â–¶ Nun kÃ¼ndigt der CEO von Zycor an, einen GroÃŸteil seiner
+Aktien zum Zwecke der Diversifizierung zu verkaufen
+â–¶ Die Diversifizierung ist ihm 10% des Aktienkurses wert, das
+heiÃŸt, er wÃ¤re bereit, 10% weniger zu erhalten, als die Aktien
+wert sind
+â–¶ Frage: Wie wird sich der Aktienkurs verÃ¤ndern, wenn der CEO
+versucht zu verkaufen und die Investoren wissen, dass der
+CEO den wahren Wert der Aktien kennt? Wird der CEO zu
+dem neuen Kurs verkaufen?
+
+---PAGE---
+
+Beispiel: Adverse Selektion in KapitalmÃ¤rkten
+â–¶ Wenn der wahre Wert der Aktien 100 Euro betragen wÃ¼rde,
+wÃ¤re der CEO nicht bereit, die Aktien zu einem Marktkurs
+von 80 Euro (also 20% unter dem wahren Wert) zu verkaufen
+â–¶ Wenn der CEO verkaufen will, muss der wahre Wert 60 oder
+80 Euro betragen
+â–¶ Der Aktienkurs sollte daher auf den Durchschnittswert von
+70 Euro fallen
+â–¶ LÃ¤ge der wahre Wert bei 80 Euro, wÃ¤re der CEO bereit, zu
+72 Euro zu verkaufen, jedoch nicht zu 70 Euro
+â–¶ Will er dennoch verkaufen, wissen die Investoren, dass der
+wahre Wert 60 Euro betrÃ¤gt
+â–¶ Also wird der CEO nur dann verkaufen, wenn der wahre Wert
+60 Euro betrÃ¤gt, andernfalls wird er die Aktien lieber behalten
+
+---PAGE---
+
+Eigenkapitalemission und adverse Selektion
+â–¶ Bislang sind wir davon ausgegangen, dass der Inhaber des
+Unternehmens seine eigenen Aktien verkauft
+â–¶ Was ist, wenn ein Manager eines Unternehmens beschlieÃŸt,
+Wertpapiere im Namen des Unternehmens zu verkaufen?
+â–¶ Da der Manager im Namen der aktuellen AktionÃ¤re handelt,
+wird der Manager auch in diesem Fall die Aktien nicht
+unterhalb ihres wahren Wertes verkaufen
+
+---PAGE---
+
+Beispiel: Eigenkapitalemission und adverse Selektion
+â–¶ Gentec ist ein vollstÃ¤ndig eigenkapitalfinanziertes
+Biotech-Unternehmen
+â–¶ Seine 20 Millionen Aktien werden derzeit zu einem Kurs von
+10 Euro pro Aktie gehandelt und haben somit einen
+Gesamtmarktwert von 200 Millionen Euro
+â–¶ Das Management glaubt aufgrund der Aussichten auf ein
+neues Medikament, dass der wahre Wert des Unternehmens
+300 Millionen Euro (15 Euro pro Aktie) betrÃ¤gt
+
+---PAGE---
+
+Beispiel: Eigenkapitalemission und adverse Selektion
+â–¶ Gentec benÃ¶tigt 60 Millionen Euro fÃ¼r ein neues
+Forschungslabor
+â–¶ Hierzu kann das Unternehmen 6 Millionen Aktien zum
+heutigen Kurs von 10 Euro ausgeben
+â–¶ BestÃ¤tigen sich die guten Nachrichten Ã¼ber das neue
+Medikament, steigt der Unternehmenswert auf 360 Millionen
+Euro, das entspricht 13,85 Euro pro Aktie (360/26)
+
+---PAGE---
+
+Beispiel: Eigenkapitalemission und adverse Selektion
+â–¶ Alternativ kann das Unternehmen mit der Emission warten,
+bis die guten Nachrichten sich bestÃ¤tigt haben
+â–¶ In diesem Fall steigt der Aktienkurs auf 15 Euro, und das
+Unternehmen muss lediglich 4 Millionen Aktien verkaufen, um
+das Forschungslabor zu finanzieren
+â–¶ Dann betrÃ¤gt der neue Aktienkurs 15 Euro statt 13,85 Euro
+(360/24)
+
+---PAGE---
+
+Beispiel: Eigenkapitalemission und adverse Selektion
+â–¶ Also ist die Emission unterbewerteter Aktien teuer fÃ¼r die
+AltaktionÃ¤re
+â–¶ Handeln die Manager im Interesse der AltaktionÃ¤re, werden
+sie nicht bereit sein, die Aktien unterhalb ihres wahren Wertes
+zu verkaufen
+â–¶ Daher werden Eigenkapitalemissionen mÃ¶glichst so lange
+verzÃ¶gert, bis positive Nachrichten Ã¶ffentlich werden
+
+---PAGE---
+
+Eigenkapitalemission und adverse Selektion
+â–¶ Da die Unternehmen kein unterbewertetes Eigenkapital
+ausgeben mÃ¶chten, kommt es zu demselben
+Lemons-Problem wie vorher:
+â–¶ Manager, die wissen, dass ihre Wertpapiere einen hÃ¶heren
+Wert besitzen, werden nicht verkaufen
+â–¶ Nur diejenigen, die wissen, dass die Wertpapiere weniger wert
+sind, werden verkaufen
+â–¶ Aufgrund der adversen Selektion verlangen die Investoren
+einen Preisabschlag fÃ¼r die Wertpapiere
+â–¶ Also verursacht das Lemons-Problem Kosten fÃ¼r
+Unternehmen, die Eigenkapital fÃ¼r neue Investitionen
+aufbringen mÃ¼ssen
+â–¶ Denn die Investoren preisen die Erwartung ein, dass die
+Manager mÃ¶glicherweise negative Informationen besitzen
+
+---PAGE---
+
+Auswirkungen auf die Eigenkapitalemission
+â–¶ Die adverse Selektion hat Auswirkungen auf die
+Eigenkapitalemission:
+1. Der Aktienkurs sinkt nach der AnkÃ¼ndigung einer
+Eigenkapitalemission (Lemons-Prinzip)
+â–¶ Durch die Eigenkapitalemission signalisiert das Unternehmen,
+dass das Eigenkapital Ã¼berbewertet ist
+â–¶ Daher verlangen die Investoren einen Preisabschlag
+â–¶ Empirische Studien fÃ¼r die USA bestÃ¤tigen, dass der
+Aktienkurs nach AnkÃ¼ndigung einer Eigenkapitalemission um
+rund 3% fÃ¤llt
+2. Der Aktienkurs steigt vor der AnkÃ¼ndigung einer
+Eigenkapitalemission
+â–¶ Grund: Eigenkapitalemissionen finden typischerweise statt,
+nachdem positive Nachrichten Ã¶ffentlich wurden
+
+---PAGE---
+
+Auswirkungen auf die Eigenkapitalemission
+â–¶ Unternehmen fÃ¼hren hÃ¤ufig dann eine Eigenkapitalemission
+OperationdsurMcha, wneangnedime Aesnymtmetrie der Information am kleinsten ist,
+Kapitel 16: FinzuamnziBeellies pNieoltulangmei,t tMealbnaargneamchendtearnVreeirzÃ¶eff uenntdli cIhnufonrgm(aptoiosintiver)
+Ergebnisse
+â–¶ Lucas und McDonald (1990): Aktien Ã¼bertrafen den Markt
+vor Eigenkapitalemissionen um fast 50%
+
+9 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Auswirkungen auf die Kapitalstruktur
+â–¶ Die Entscheidung Ã¼ber die Kapitalstruktur wird vom AusmaÃŸ
+der asymmetrischen Information beeinflusst
+â–¶ Eigenkapital ist besonders stark von adverser Selektion
+betroffen
+â–¶ Fremdkapital reagiert in der Regel weniger sensibel auf die
+vertraulichen Informationen des Managements
+â–¶ Das Unternehmen kann adverse Selektion vollstÃ¤ndig
+vermeiden, wenn es Investitionen durch einbehaltene
+Gewinne finanziert
+â–¶ Die Theorie, dass Manager zunÃ¤chst GewinnrÃ¼cklagen und
+Fremdkapital verwenden und neues Eigenkapital nur als
+letzten Ausweg ausgeben, wird als Pecking-Order-Theorie
+bezeichnet (Hackordnung der Finanzierung)
+
+---PAGE---
+
+Die Hackordnung der Finanzierung
+â–¶ Die Entscheidung Ã¼ber die Kapitalstruktur hÃ¤ngt auch von
+den privaten Informationen des Managements ab
+â–¶ Daher haben Manager, die das Eigenkapital des Unternehmens
+fÃ¼r unterbewertet halten, eine PrÃ¤ferenz fÃ¼r eine Finanzierung
+von Investitionen durch GewinnrÃ¼cklagen oder Fremdkapital
+â–¶ Manager, die das Eigenkapital des Unternehmens fÃ¼r
+Ã¼berbewertet halten, bevorzugen die Eigenkapitalemission
+gegenÃ¼ber der Fremdkapitalemission und der Verwendung von
+GewinnrÃ¼cklagen
+â–¶ Der befÃ¼rchtete KursrÃ¼ckgang hÃ¤lt die Manager aber
+tendenziell von der Eigenkapitalemission ab
+
+---PAGE---
+
+Die Hackordnung der Finanzierung
+Operations Management
+Kapitel 16: Finanzielle Notlage, Managementanreize und Information
+â–¶ Unternehmen sind oft NettorÃ¼ckkÃ¤ufer von Eigenkapital und
+emittieren eher Fremdkapital
+â–¶ Weitaus grÃ¶ÃŸter Teil der Investitionen wird durch einbehaltene
+Gewinne finanziert (> 75%)
+
+10 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Beispiel: Die Hackordnung der Finanzierung
+â–¶ Axon Industries benÃ¶tigt 10 Millionen Euro fÃ¼r ein neues
+Investitionsprojekt
+â–¶ Fremdkapital kann zu Zinsen von 7% ausgegeben werden,
+auch wenn die Manager 6% fÃ¼r angemessen halten
+â–¶ Die Manager glauben, dass die Aktien um 5% unterbewertet
+sind
+â–¶ Wie hoch sind die Kosten der Finanzierung?
+
+---PAGE---
+
+Beispiel: Die Hackordnung der Finanzierung
+â–¶ Verwendet das Unternehmen einbehaltene Gewinne, statt
+diese als Dividenden auszuschÃ¼tten, betragen die Kosten
+10 Millionen Euro
+â–¶ Das Fremdkapital kostet aufgrund der Unterbewertung
+hingegen: 10MioÂ·1,07/1,06 = 10,094 Millionen Euro
+â–¶ FÃ¼r das Eigenkapital mÃ¼ssen aufgrund der Unterbewertung
+sogar 10,5 Millionen Euro bezahlt werden
+
+---PAGE---
+
+Auswirkungen auf die Kapitalstruktur
+â–¶ Die Pecking-Order-Theorie fÃ¼hrt nicht zu einer eindeutigen
+Prognose hinsichtlich der gesamten Kapitalstruktur des
+Unternehmens
+â–¶ Sie besagt lediglich, dass die Unter- und UÂ¨berbewertung in
+Gegenwart von Informationsproblemen ein zusÃ¤tzliches
+Entscheidungskriterium darstellt
+â–¶ Zudem sind GewinnrÃ¼cklagen einfach eine andere Form der
+Eigenkapitalfinanzierung
+
+---PAGE---
+
+Â¨
+Ubung 4
+â–¶ Zu finden auf eCampus
+â–¶ LÃ¶sungen in der Vorlesung
+
+---PAGE---
+
+4.3 Fazit: Kapitalstruktur
+â–¶ Modigliani-Miller-Theorem: In vollkommenen
+KapitalmÃ¤rkten beeinflusst die Kapitalstruktur zwar das Risiko
+des Eigenkapitals und des Fremdkapitals, nicht aber den
+Unternehmenswert
+â–¶ In unvollkommenen KapitalmÃ¤rkten hÃ¤ngt die optimale
+Kapitalstruktur von Steuern, Konkurskosten, Agency-Kosten
+und asymmetrischen Informationen ab
+â–¶ Diese Faktoren kÃ¶nnen auch erklÃ¤ren, warum sich die
+Kapitalstruktur Ã¼ber Branchen, LÃ¤nder und die Zeit hinweg
+systematisch unterscheidet
+
+---PAGE---
+
+Fazit: Kapitalstruktur
+â–¶ Die relevanteste Marktunvollkommenheit sind die Steuern,
+die aufgrund des fremdfinanzierungsbedingten
+Steuervorteils zu einer Verzerrung in Richtung einer
+Fremdkapitalfinanzierung fÃ¼hren
+â–¶ Weitere Faktoren, die die Fremdkapitalfinanzierung
+begÃ¼nstigen, sind mÃ¶gliche Anreizprobleme der Manager (z.B.
+bei hohen Free Cashflows) und der positive
+Signalisierungseffekt des Fremdkapitals sowie adverse
+Selektionseffekte beim Eigenkapital
+
+---PAGE---
+
+Fazit: Kapitalstruktur
+â–¶ Allerdings stehen einer Ã¼bermÃ¤ÃŸigen Fremdkapitalfinanzierung
+mehrere Faktoren entgegen
+â–¶ Fremdkapital birgt das Risiko eines Zahlungsausfalls, was mit
+erheblichen Konkurskosten einhergeht
+â–¶ AuÃŸerdem entstehen durch eine Fremdkapitalfinanzierung
+Anreizprobleme in Form einer Ã¼bermÃ¤ÃŸigen
+RisikoÃ¼bernahme sowie eines SchuldenÃ¼berhangs mit
+Unterinvestition und Ã¼bermÃ¤ÃŸigen DividendenausschÃ¼ttungen
+â–¶ Die geringsten Informationsprobleme bestehen bei der
+Finanzierung Ã¼ber einbehaltene Gewinne (Hackordnung der
+Finanzierung), was erklÃ¤ren kÃ¶nnte, warum ein so groÃŸer Teil
+der Investitionen durch GewinnrÃ¼cklagen finanziert wird
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+III. Finanzinstitutionen
+â–¶ Im Folgenden werden wir uns mit FinanzintermediÃ¤ren
+beschÃ¤ftigen, die die Aufgabe Ã¼bernehmen, gesparte Mittel an
+diejenigen weiterzuleiten, die Mittel benÃ¶tigen (indirekte
+Finanzierung)
+â–¶ Dabei werden wir uns vor allem mit Banken beschÃ¤ftigen
+
+---PAGE---
+
+Finanzinstitutionen
+â–¶ Wir haben bereits gesehen, dass Banken in Europa eine
+besonders wichtige Rolle fÃ¼r die Finanzierung von
+Unternehmen spielen
+â–¶ Dies gilt vor allem fÃ¼r die Finanzierung kleinerer Unternehmen
+ohne Kapitalmarktzugang
+â–¶ Bei der Finanzierung von privaten Haushalten
+(Immobilienkredite, Konsumentenkredite, Dispositionskredite)
+spielen Banken eine noch wichtigere Rolle, da diese in der
+Regel gar keinen Marktzugang besitzen
+â–¶ Bei der Geldanlage spielen aber auch institutionelle
+Investoren (Pensionsfonds, Lebensversicherungen,
+Investmentfonds) eine wichtige Rolle, die das gesammelte
+Geld dann hÃ¤ufig am Kapitalmarkt anlegen
+
+---PAGE---
+
+Zur Erinnerung: Funktionsweise des Finanzsystems
+(HOS, Abb. 1.1)
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+5. Funktionen von Banken
+â–¶ Literatur:
+â–¶ *Diamond and Dybvig (1983): â€œBank Runs, Deposit Insurance,
+and Liquidity,â€ Journal of Political Economy, 91(3), 401â€“419
+â–¶ *Diamond (1984): â€œFinancial Intermediation and Delegated
+Monitoring,â€ Review of Economic Studies, 51(3), 393â€“414

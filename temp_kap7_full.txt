@@ -1,0 +1,960 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kennen die GrÃ¼nde fÃ¼r die scharfe Regulierung des
+Bankensektors
+â–¶ Sie kÃ¶nnen die zentrale Rolle der Eigenkapitalregulierung
+erlÃ¤utern
+â–¶ Sie kennen die Grundstruktur des Regulierungs- und
+Aufsichtssystems in Europa (Basel III, EuropÃ¤ische
+Bankenunion, ...)
+â–¶ Sie kÃ¶nnen Probleme der aktuellen Regulierung benennen und
+LÃ¶sungsmÃ¶glichkeiten aufzeigen
+
+---PAGE---
+
+Bankenregulierung
+â–¶ Der Bankensektor ist einer der am stÃ¤rksten regulierten
+Sektoren in der Volkswirtschaft
+â–¶ Historisch war dies nicht immer der Fall
+â–¶ Viele LÃ¤nder haben eine umfassende Bankenregulierung und
+-aufsicht erst nach der Weltwirtschaftskrise eingefÃ¼hrt
+â–¶ Daher stellen sich die folgenden Fragen:
+â–¶ Warum werden Banken strenger reguliert als Nicht-Banken?
+â–¶ Wie funktioniert die Bankenregulierung?
+â–¶ Wie effektiv war die Bankenregulierung in der Vergangenheit?
+â–¶ Wie kann die Bankenregulierung verbessert werden?
+
+---PAGE---
+
+(2) Anleger-/Einlegerschutz:
+â–¶ Anleger sind hÃ¤ufig klein und uninformiert und mÃ¼ssen daher
+geschÃ¼tzt werden
+â–¶ Sicherheitsnetz im Bankensystem (Einlagensicherung, Lender
+of Last Resort, Bankenrettungen) erhÃ¶ht die Notwendigkeit
+der Regulierung
+7.1 GrÃ¼nde fÃ¼r Bankenregulierung
+â–¶ Zwei HauptgrÃ¼nde fÃ¼r die strenge Regulierung des
+Finanzsystems (vgl. vorne):
+(1) Systemisches Risiko:
+â–¶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+(Ansteckungseffekte)
+â–¶ Finanzkrisen haben sehr hohe volkswirtschaftliche Kosten
+
+---PAGE---
+
+7.1 GrÃ¼nde fÃ¼r Bankenregulierung
+â–¶ Zwei HauptgrÃ¼nde fÃ¼r die strenge Regulierung des
+Finanzsystems (vgl. vorne):
+(1) Systemisches Risiko:
+â–¶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+(Ansteckungseffekte)
+â–¶ Finanzkrisen haben sehr hohe volkswirtschaftliche Kosten
+(2) Anleger-/Einlegerschutz:
+â–¶ Anleger sind hÃ¤ufig klein und uninformiert und mÃ¼ssen daher
+geschÃ¼tzt werden
+â–¶ Sicherheitsnetz im Bankensystem (Einlagensicherung, Lender
+of Last Resort, Bankenrettungen) erhÃ¶ht die Notwendigkeit
+der Regulierung
+
+---PAGE---
+
+(1) Systemisches Risiko
+â–¶ Der Zusammenbruch einer Bank geht mit negativen
+ExternalitÃ¤ten fÃ¼r das Finanzsystem und die Realwirtschaft
+einher:
+â–¶ Ansteckungseffekte im Finanzsektor (vgl. vorne):
+1. Information
+2. Interbankenverbindlichkeiten
+3. MakroÃ¶konomische RÃ¼ckkopplungen
+â–¶ Auswirkungen auf Nicht-Banken
+1. ZerstÃ¶rung langfristiger Kundenbeziehungen
+2. RÃ¼ckgang der Kreditvergabe, Gefahr einer Kreditklemme
+
+---PAGE---
+
+â–¶ RÃ¼ckgang der Kreditvergabe, Kreditklemme
+â–¶ In einer Bankenkrise erleiden die Banken Verluste â†’ RÃ¼ckgang
+des Eigenkapitals der Banken â†’ ErhÃ¶hung des Leverage
+â–¶ Banken kÃ¶nnten darauf reagieren, indem sie die Kreditvergabe
+(und damit die Bilanzsumme) reduzieren, um ihren
+Verschuldungsgrad zu senken (z.B. durch die Reduzierung von
+Neukrediten oder Beleihungsgrenzen)
+â–¶ Dies kann den ursprÃ¼nglichen Schock verstÃ¤rken
+â†’ Deleveraging (vgl. vorheriges Kapitel)
+Auswirkungen von Bankenkrisen auf Nicht-Banken
+â–¶ ZerstÃ¶rung langfristiger Kundenbeziehungen zwischen
+Banken und Unternehmen
+â–¶ Verlust an Informationskapital
+â–¶ Bei anderen Banken erhalten die Unternehmen Kredite nur zu
+ungÃ¼nstigeren Konditionen (oder gar nicht)
+
+---PAGE---
+
+Auswirkungen von Bankenkrisen auf Nicht-Banken
+â–¶ ZerstÃ¶rung langfristiger Kundenbeziehungen zwischen
+Banken und Unternehmen
+â–¶ Verlust an Informationskapital
+â–¶ Bei anderen Banken erhalten die Unternehmen Kredite nur zu
+ungÃ¼nstigeren Konditionen (oder gar nicht)
+â–¶ RÃ¼ckgang der Kreditvergabe, Kreditklemme
+â–¶ In einer Bankenkrise erleiden die Banken Verluste â†’ RÃ¼ckgang
+des Eigenkapitals der Banken â†’ ErhÃ¶hung des Leverage
+â–¶ Banken kÃ¶nnten darauf reagieren, indem sie die Kreditvergabe
+(und damit die Bilanzsumme) reduzieren, um ihren
+Verschuldungsgrad zu senken (z.B. durch die Reduzierung von
+Neukrediten oder Beleihungsgrenzen)
+â–¶ Dies kann den ursprÃ¼nglichen Schock verstÃ¤rken
+â†’ Deleveraging (vgl. vorheriges Kapitel)
+
+---PAGE---
+
+â–¶ Zusammenbruch enthÃ¤lt kaum Informationen
+â–¶ Unternehmen sind weniger stark verflochten
+â–¶ Kundenbeziehungen kÃ¶nnen leichter auf andere Unternehmen
+Ã¼bertragen werden
+â–¶ Wettbewerber profitieren im Normalfall vom Zusammenbruch
+eines konkurrierenden Marktteilnehmers
+â–¶ Aufgrund der geringeren RÃ¼ckwirkungen eines
+Zusammenbruchs werden Nicht-Banken nicht so scharf
+reguliert wie Banken
+Vergleich mit Nicht-Banken
+â–¶ Warum werden Banken schÃ¤rfer reguliert als Nicht-Banken?
+â–¶ Normalerweise sollte der Zusammenbruch eines insolventen
+Unternehmens nicht verhindert werden, so dass schwache
+Marktteilnehmer aus dem Markt ausscheiden
+â–¶ Warum gilt das nicht fÃ¼r Banken?
+â–¶ Beispiel: Automobilhersteller
+
+---PAGE---
+
+Vergleich mit Nicht-Banken
+â–¶ Warum werden Banken schÃ¤rfer reguliert als Nicht-Banken?
+â–¶ Normalerweise sollte der Zusammenbruch eines insolventen
+Unternehmens nicht verhindert werden, so dass schwache
+Marktteilnehmer aus dem Markt ausscheiden
+â–¶ Warum gilt das nicht fÃ¼r Banken?
+â–¶ Beispiel: Automobilhersteller
+â–¶ Zusammenbruch enthÃ¤lt kaum Informationen
+â–¶ Unternehmen sind weniger stark verflochten
+â–¶ Kundenbeziehungen kÃ¶nnen leichter auf andere Unternehmen
+Ã¼bertragen werden
+â–¶ Wettbewerber profitieren im Normalfall vom Zusammenbruch
+eines konkurrierenden Marktteilnehmers
+â–¶ Aufgrund der geringeren RÃ¼ckwirkungen eines
+Zusammenbruchs werden Nicht-Banken nicht so scharf
+reguliert wie Banken
+
+---PAGE---
+
+(2) Anleger-/Einlegerschutz
+â–¶ Eine Regulierung, die die Banken sicherer macht, schÃ¼tzt in
+der Regel auch deren GlÃ¤ubiger (Ausnahme: Bail-in)
+â–¶ ZusÃ¤tzlich gibt es spezielle Regelungen zum Anleger-/
+Einlegerschutz
+â–¶ Die meisten entwickelten LÃ¤nder haben eine gesetzliche
+Einlagensicherung eingefÃ¼hrt, um die Einleger zu schÃ¼tzen
+â–¶ Problem:
+â–¶ Wenn die Einleger geschÃ¼tzt sind, dann haben sie keinen
+Anreiz mehr, ihre Bank zu kontrollieren
+â†’ SchwÃ¤chung der Marktdisziplin
+â–¶ Dies kÃ¶nnte bei den Banken zu einer Ã¼bermÃ¤ÃŸigen
+RisikoÃ¼bernahme fÃ¼hren (Moral Hazard)
+â–¶ Deshalb muss das Sicherheitsnetz von MaÃŸnahmen begleitet
+werden, die die RisikoÃ¼bernahme der Banken einschrÃ¤nken
+(das schÃ¼tzt den Steuerzahler, nicht den Einleger)
+
+---PAGE---
+
+7.2 Eigenkapitalregulierung
+â–¶ Unternehmen, die vom nationalen Bankrecht (in
+Deutschland: Kreditwesengesetz, KWG) als Banken
+klassifiziert werden, mÃ¼ssen die Bankenregulierung erfÃ¼llen
+und werden von der Bankenaufsicht Ã¼berwacht
+â–¶ Die Bankenregulierung hat traditionell darauf abgezielt,
+individuelle Bankrisiken zu kontrollieren
+(mikroprudenzielle Regulierung)
+â–¶ Idee: Wenn jede einzelne Bank sicher ist, dann ist das gesamte
+Bankensystem sicher
+â–¶ Aber: Das systemische Risiko ist nicht gleich der Summe der
+Einzelrisiken
+â–¶ Seit der Finanzkrise wurde die Regulierung daher um eine
+makroprudenzielle Perspektive ergÃ¤nzt, bei der das
+systemische Risiko (also das Risiko des Gesamtsystems)
+begrenzt werden soll
+
+---PAGE---
+
+Eigenkapitalregulierung
+â–¶ Die Eigenkapitalregulierung ist heute die wichtigste Form
+der Bankenregulierung
+â–¶ Reformen der Bankenregulierung in den vergangenen
+Jahrzehnten bezogen sich Ã¼berwiegend auf die
+Eigenkapitalregulierung
+â–¶ Verhandlungen werden heute auf internationaler Ebene gefÃ¼hrt
+â–¶ Idee: Schaffung eines globalen Level Playing Field (gleiche
+Wettbewerbsbedingungen) und Verhinderung von
+regulatorischer Arbitrage
+
+---PAGE---
+
+Eigenkapitalregulierung
+â–¶ Wichtige Institution: Basel Committee on Banking
+Supervision (Basler Ausschuss fÃ¼r Bankenaufsicht,
+angesiedelt bei der Bank for International Settlements, BIS,
+gegrÃ¼ndet im Jahr 1974 nach der Herstatt-Krise)
+â–¶ Der Basler Ausschuss gibt nicht-bindende Empfehlungen
+heraus, die dann in nationales Recht umgesetzt werden sollen
+(in EU: erst in EU-Recht, dann in nationales Recht)
+â–¶ Neben dem Basler Ausschuss spielt das Financial Stability
+Board (FSB) (gegrÃ¼ndet im Jahr 2009, ebenfalls angesiedelt
+bei der BIS) eine wichtige Rolle bei der Ausgestaltung der
+internationalen Finanzarchitektur auf dem G20-Niveau
+
+---PAGE---
+
+Geschichte der Eigenkapitalregulierung
+â–¶ Viele LÃ¤nder fÃ¼hrten nach der Weltwirtschaftskrise vage
+Eigenkapitalanforderungen ein (inkl. Deutschland)
+â–¶ Erstes internationales Abkommen zur Eigenkapitalregulierung:
+Basel I (1988)
+â–¶ Verfeinerung von Basel I im Jahr 1996 bezÃ¼glich der
+Behandlung von Marktrisiken (Amendment to the Capital
+Accord to Incorporate Market Risk)
+
+---PAGE---
+
+Geschichte der Eigenkapitalregulierung
+â–¶ Grundlegende UÂ¨berarbeitung des Regelwerks: Basel II (2004)
+â–¶ Die globale Finanzkrise hat zu einer erneuten UÂ¨berarbeitung
+der Eigenkapitalregulierung Anlass gegeben: Basel III (2010)
+â–¶ Basel III wurde im Jahr 2013 in EU-Recht umgesetzt: CRD
+IV-Paket, bestehend aus CRD = Capital Requirements
+Directive (Richtlinie) und CRR = Capital Requirements
+Regulation (Verordnung)
+â–¶ 2018 wurden die Verhandlungen Ã¼ber die letzten Revisionen
+von Basel III abgeschlossen (u.a. Output Floors bei internen
+Modellen)
+
+---PAGE---
+
+Basel I
+â–¶ Motivation: Geringe (und fallende) Eigenkapitalquoten in den
+Bankensektoren vieler LÃ¤nder Ã¼ber die letzten 100 Jahre
+(Berger, Herring, SzegÃ¶ JBF 1995)
+â–¶ Ziel: Schaffung eines level playing field fÃ¼r Banken auf
+internationaler Ebene
+~ae~Jed
+8
+8 â€¢
+~o
+8
+8 Â°
+8
+8
+8
+8
+oq
+8
+j
+-
+|~.~ ,...~
+r~
+8 0
+-
+~
+402
+A.N.
+Berger
+et al.
+/Journal
+of
+Banking
+&
+Finance
+19
+(1995)
+393-430
+
+---PAGE---
+
+Basel I
+â–¶ Zentraler Bestandteil von Basel I: Banken mÃ¼ssen eine
+regulatorische Eigenkapitalquote (anrechenbares
+Eigenkapital / risikogewichtete Aktiva) von 8 Prozent erfÃ¼llen
+â–¶ ZusÃ¤tzlich musste das Kernkapital (Tier-1-Kapital, = hartes
+Kernkapital plus zusÃ¤tzliches Kernkapital) mindestens 4
+Prozent der risikogewichteten Aktiva betragen (davon 2
+Prozentpunkte als hartes Kernkapital (Core Tier-1-Kapital)
+= eingezahltes Kapital plus RÃ¼cklagen)
+
+---PAGE---
+
+Kritik an Basel I
+â–¶ Risikokategorien waren zu grob und setzten adverse
+Risikoanreize, weil die Risikoklassen VermÃ¶genswerte mit sehr
+unterschiedlichen Risikocharakteristika enthielten
+â–¶ Strategien zur Risikominderung (risk mitigation)
+(z.B. Hedging) wurden nicht berÃ¼cksichtigt
+â–¶ Unbefriedigende Behandlung von Marktrisiken
+â–¶ Der letzte Punkt fÃ¼hrte zu einer Modifikation von Basel I
+(Amendment of Basel I) im Jahr 1996, bei der die
+Verwendung interner Modelle zur Bestimmung der Risiken
+im Handelsbuch zugelassen wurde = Systemwechsel
+â–¶ Hierdurch konnten die Banken ihre Eigenkapitalanforderungen
+deutlich zurÃ¼ckfahren
+
+---PAGE---
+
+Basel II
+â–¶ Die Hauptneuerung unter Basel II war die hÃ¶here
+RisikosensitivitÃ¤t der Eigenkapitalanforderungen
+â–¶ Banken konnten nun zwischen zwei AnsÃ¤tzen wÃ¤hlen:
+1. Standardansatz: AÂ¨hnlich wie Basel I
+2. Internal Ratings-Based Approach (IRB) mit
+unterschiedlichem KomplexitÃ¤tsgrad
+â–¶ IRB-Ansatz erlaubt interne Modelle zur Bestimmung der
+Risikogewichte fÃ¼r viele VermÃ¶genswerte
+â–¶ Aber: Banken, die den IRB-Ansatz anwenden mÃ¶chten,
+mÃ¼ssen eine lange Liste an Anforderungen erfÃ¼llen
+â–¶ Auf der hohen Fixkosten kÃ¶nnen vor allem groÃŸe Banken den
+IRB-Ansatz in Anspruch nehmen
+
+---PAGE---
+
+Kritik an Basel II
+â–¶ Die Verwendung interner Modell bietet den Banken groÃŸe
+SpielrÃ¤ume, die es ihnen erlaubten, ihre
+Eigenkapitalanforderungen drastisch zu reduzieren
+â–¶ Vor der Krise hatten viele groÃŸe Banken eine ungewichtete
+Eigenkapitalquote von nur 2 Prozent
+â–¶ Wahlrecht zwischen verschiedenen AnsÃ¤tzen kann zu
+unerwÃ¼nschten Sortiereffekten (Repullo/Suarez 2004, Rime
+2005) und zu einer Wettbewerbsverzerrung zugunsten der
+groÃŸen Banken (Hakenes/Schnabel 2011) fÃ¼hren
+â–¶ Obwohl die USA in den Verhandlungen um Basel II eine
+wichtige Rolle spielten, haben sie es selbst nie eingefÃ¼hrt
+
+---PAGE---
+
+Basel III
+â–¶ In Reaktion auf die globale Finanzkrise wurde die Regulierung
+erneut reformiert
+â–¶ Wesentliche Neuerungen unter Basel III:
+â–¶ SchÃ¤rfere Anforderungen an die QualitÃ¤t des regulatorischen
+Eigenkapitals (mehr Gewicht auf das harte Kernkapital)
+â–¶ Anstieg der Eigenkapitalanforderungen: Banken mÃ¼ssen jetzt
+4,5 Prozent der risikogewichteten Aktiva mit hartem
+Kernkapital (CET 1) finanzieren (vorher: 2 Prozent) und
+6 Prozent der risikogewichteten Aktiva mit Kernkapital
+(Tier 1, vorher: 4 Prozent), aber: Gesamtanforderung (Tier 1
++ Tier 2) bleibt bei 8 Prozent
+â–¶ Kapitalbegriffe:
+â–¶ CET 1 = core equity tier 1 = hartes Kernkapital
+â–¶ AT 1 = additional tier 1 = erweitertes Kernkapital
+â–¶ Tier 1 = Kernkapital = CET 1 + AT 1
+â–¶ Tier 2 = ErgÃ¤nzungskapital
+â–¶ Gesamtkapital = Tier 1 + Tier 2
+
+---PAGE---
+
+Basel III
+â–¶ EinfÃ¼hrung zusÃ¤tzlicher Kapitalpuffer:
+â–¶ EinfÃ¼hrung eines Kapitalerhaltungspuffers in HÃ¶he von
+2,5 Prozent: Wenn das harte Kernkapital unter 4,5 + 2,5 =
+7 Prozent fÃ¤llt, wird die GewinnausschÃ¼ttung begrenzt
+â–¶ EinfÃ¼hrung eines antizyklischen Puffers (maximal
+2,5 Prozent): Banken mÃ¼ssen in einem Boom zusÃ¤tzliche
+Eigenkapitalpuffer aufbauen, die dann in der Rezession bis
+auf 0 gesenkt werden kÃ¶nnen (wird auf nationaler Ebene
+festgesetzt)
+â–¶ Sehr lange UÂ¨bergangsphasen bis zum vollstÃ¤ndigen
+Inkrafttreten der neuen Regelungen (auf Druck der
+Lobbygruppen)
+
+---PAGE---
+
+Basel III
+
+---PAGE---
+
+â–¶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+3 Prozent der nicht risikogewichten Aktiva mÃ¼ssen Ã¼ber
+Kernkapital finanziert werden
+â–¶ Besondere Regulierung systemrelevanter Finanzinstitute
+(SIFIs): Kapitalzuschlag in HÃ¶he von 1 bis 2,5 Prozent fÃ¼r
+(globale) SIFIs
+Basel III
+â–¶ Weitere neue Regelungen unter Basel III:
+â–¶ LiquiditÃ¤tsregulierung:
+â–¶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genÃ¼gend
+liquide Mittel zur VerfÃ¼gung stehen, um EinlagenabzÃ¼ge Ã¼ber
+30 Tage zu stemmen
+â–¶ Net Stable Funding Ratio (NSFR): stellt sicher, dass
+VermÃ¶genswerte mit langen Laufzeiten Ã¼ber einen Horizont
+von 1 Jahr stabil finanziert sind
+
+---PAGE---
+
+â–¶ Besondere Regulierung systemrelevanter Finanzinstitute
+(SIFIs): Kapitalzuschlag in HÃ¶he von 1 bis 2,5 Prozent fÃ¼r
+(globale) SIFIs
+Basel III
+â–¶ Weitere neue Regelungen unter Basel III:
+â–¶ LiquiditÃ¤tsregulierung:
+â–¶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genÃ¼gend
+liquide Mittel zur VerfÃ¼gung stehen, um EinlagenabzÃ¼ge Ã¼ber
+30 Tage zu stemmen
+â–¶ Net Stable Funding Ratio (NSFR): stellt sicher, dass
+VermÃ¶genswerte mit langen Laufzeiten Ã¼ber einen Horizont
+von 1 Jahr stabil finanziert sind
+â–¶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+3 Prozent der nicht risikogewichten Aktiva mÃ¼ssen Ã¼ber
+Kernkapital finanziert werden
+
+---PAGE---
+
+Basel III
+â–¶ Weitere neue Regelungen unter Basel III:
+â–¶ LiquiditÃ¤tsregulierung:
+â–¶ Liquidity Coverage Ratio (LCR): stellt sicher, dass genÃ¼gend
+liquide Mittel zur VerfÃ¼gung stehen, um EinlagenabzÃ¼ge Ã¼ber
+30 Tage zu stemmen
+â–¶ Net Stable Funding Ratio (NSFR): stellt sicher, dass
+VermÃ¶genswerte mit langen Laufzeiten Ã¼ber einen Horizont
+von 1 Jahr stabil finanziert sind
+â–¶ Leverage Ratio = nicht risikogewichtete Eigenkapitalquote:
+3 Prozent der nicht risikogewichten Aktiva mÃ¼ssen Ã¼ber
+Kernkapital finanziert werden
+â–¶ Besondere Regulierung systemrelevanter Finanzinstitute
+(SIFIs): Kapitalzuschlag in HÃ¶he von 1 bis 2,5 Prozent fÃ¼r
+(globale) SIFIs
+
+---PAGE---
+
+Andere neue Regulierungen (Auszug)
+â–¶ Regulierung der VergÃ¼tung
+â–¶ Bankenabwicklungsregime
+â–¶ Bankenabgaben
+â–¶ Regulierung des OTC- (over the counter) Derivatemarkts
+(z.B. zentrale Gegenparteien (central counterparties)
+â–¶ EinfÃ¼hrung einer makroprudenziellen Aufsicht
+â–¶ ...
+
+---PAGE---
+
+Der weite Weg zu mehr FinanzstabilitÃ¤t in Deutschland und Europa â€“ Kapitel 5
+den Einfluss der Politik zu begrenzen. Die demokratische Legitimation kÃ¶nnte
+durch weitreichende Rechenschaftspflichten hergestellt werden. Gleichzeitig
+scheint es geboten, externe wissenschaftliche Expertise in die Gremien
+einflieÃŸen zu lassen, um das Problem der Selbstbeobachtung abzumildern, das
+darin besteht, dass die Mitglieder der makroprudenziellen Aufsicht typischer-
+weise selbst aus der Mikroaufsicht oder der Zentralbank stammen (Gurlit und
+Schnabel, 2014).
+374. BestÃ¼nde die MÃ¶glichkeit, die makroprudenzielle Aufsicht auf dem ReiÃŸbrett zu
+entwerfen, so kÃ¶nnte deren Ausgestaltung wie folgt aussehen: Sie wÃ¤re â€“
+gemeinsam mit der mikroprudenziellen Aufsicht â€“ als Allfinanzaufsicht konzi-
+piert, fÃ¶deral organisiert und auÃŸerhalb der Zentralbank angesiedelt. Die supra-
+nationale Aufsicht besÃ¤ÃŸe starke Eingriffsbefugnisse, um Ãœbertragungseffekte
+angemessen zu berÃ¼cksichtigen. Die makroprudenzielle Aufsicht wÃ¤re politisch
+unabhÃ¤ngig, aber rechenschaftspflichtig. Experten aus der Wissenschaft wÃ¼rden
+die makroprudenzielle Politik begleiten.
+Aktuelle Struktur der makroprudenziellen Aufsicht
+375. Auf den ersten Blick erscheint die neugeschaffene makroprudenzielle Aufsicht
+aufgrund der Vielzahl der teils neuen, teils bereits existierenden Akteure un-
+Ã¼bersichtlich. ïƒ˜ ABBILDUNG 47 Das lÃ¤sst sich dadurch erklÃ¤ren, dass die Banken-
+Neue makropruundione mnitz ihireenl lIemplAikautiofnesni cfÃ¼rh dtie minakroDpruedeunztiesllec Ahuflsaichntsadrchuitekntudr
+im Euro-Raum zu einem Zeitpunkt begrÃ¼ndet wurde, als viele ReformstrÃ¤nge in
+Europa der EU bereits angelegt waren, die durch die Bankenunion nun teilweise Ã¼ber-
+holt wurden. In Deutschland erhÃ¶ht sich die KomplexitÃ¤t durch die Aufgabentei-
+â–¶
+KomplexelunAg uimf sBiecrehicths dsetrr Buaknkteunarufmsichitt zAwisrcbheeni tdsert eDieluutsnchgen zBwunidsecsbhanekn und
+der Bundesanstalt fÃ¼r Finanzdienstleistungsaufsicht (BaFin). TatsÃ¤chlich weicht
+nationalerdieu nneude Setruukrtourp nÃ¤icihst cstharek rvoEn dbere snkiezzierten Struktur ab, wenngleich in eini-
+gen wesentlichen Punkten Verbesserungsbedarf besteht.
+ïƒ¦ ABBILDUNG 47
+AkteuredermakroprudenziellenPolitikinDeutschland
+EU-Organe ESRB EZB
+EZB-Rat
+verschÃ¤rfend
+SingleSupervisoryBoard
+o S h ti n m e mrecht Banken
+Bundesregierung
+sonstige Makro A p u r f u si d c e h n t zielle Bu D n e d u e ts s c b h a e nk Mikro A p u r f u s d ic e h n t zielle
+BMF Ã¶ffentliche AFS BaFin
+Stellen
+AnwendungharterInstrumente AusgabevonWarnungenundEmpfehlungen EntsendenvonVertretern
+(Ã¶ffentlichodernichtÃ¶ffentlich)
+Allfinanzaufsicht Bankenaufsicht Banken Politik
+Glossar:AFS-AusschussfÃ¼rFinanzstabilitÃ¤t,BaFin-BundesanstaltfÃ¼rFinanzdienstleistungsaufsicht,BMF-BundesministeriumderFinanzen,
+ESRB-EuropeanSystemicRiskBoard(EuropÃ¤ischerAusschussfÃ¼rSystemrisiken).
+SVR-14-312
+Jahresgutachten 2014/15 â€“ SachverstÃ¤ndigenrat 518929 /612
+
+---PAGE---
+
+7.3 Funktionen der Eigenkapitalregulierung
+â–¶ Die Eigenkapitalregulierung der Banken erfÃ¼llt drei
+Funktionen:
+(1) Puffer gegen Verluste
+(2) FrÃ¼he EingriffsmÃ¶glichkeit der Bankenaufsicht
+(3) Anreizeffekte
+
+---PAGE---
+
+(1) Puffer gegen Verluste
+â–¶ Eigenkapital schÃ¼tzt die GlÃ¤ubiger der Banken, die
+Einlagensicherung und den Steuerzahler gegen Verluste
+â–¶ Aber: Eigenkapital ist kein Puffer fÃ¼r die Bank selbst
+â–¶ Eine Bank darf das regulatorische Minimum nicht
+unterschreiten
+â–¶ Daher stellt das regulatorische Eigenkapital fÃ¼r die Banken
+keinen Puffer dar
+â–¶ Nur Eigenkapital oberhalb des regulatorischen Minimums stellt
+einen Puffer dar
+â–¶ Basel III hat echte Puffer fÃ¼r Banken eingefÃ¼hrt: Antizyklische
+Puffer, Kapitalerhaltungspuffer
+
+---PAGE---
+
+(2) FrÃ¼hzeitige EingriffsmÃ¶glichkeit fÃ¼r die Bankenaufsicht
+â–¶ Wenn das Kapital einer Bank die regulatorischen
+Anforderungen unterschreitet, kann die Aufsicht in die
+GeschÃ¤ftspolitik der Bank eingreifen
+â–¶ Im Extremfall ordnet die Aufsicht eine Abwicklung der Bank
+an
+â–¶ Die Eigenkapitalanforderungen stellen sicher, dass die
+Intervention frÃ¼h genug startet
+(bevor alle Werte vernichtet sind)
+
+---PAGE---
+
+(3) Anreizeffekte
+â–¶ Die vermutlich wichtigste Funktion der Eigenkapitalregulierung
+ist ihre Wirkung auf die Anreize der Bank
+â–¶ Ein MindestmaÃŸ an Eigenkapital soll Moral Hazard der
+Banken bei der UÂ¨bernahme von Risiken reduzieren
+
+---PAGE---
+
+Anreizeffekte
+â–¶ Schuldenfinanzierung mit beschrÃ¤nkter Haftung fÃ¼hrt zu einer
+Ã¼bermÃ¤ÃŸigen RisikoÃ¼bernahme (asset substitution):
+â–¶ Hohe Renditen gehen an die Bank, wÃ¤hrend die Verluste nach
+unten begrenzt sind (maximaler Verlust = Gesamtverlust des
+eingesetzten Kapitals)
+â–¶ Verluste im schlechten Zustand der Welt werden auf die
+GlÃ¤ubiger der Bank, die Einlagensicherung oder den
+Steuerzahler abgewÃ¤lzt
+â–¶ Deshalb haben Banken den Anreiz, Projekte mit relativ hohen
+Renditen im guten Zustand der Welt zu wÃ¤hlen, auch wenn
+diese sehr niedrige Renditen im schlechten Zustand erzielen
+â–¶ Angesichts des groÃŸen AusmaÃŸes der Schuldenfinanzierung
+sind Banken besonders anfÃ¤llig fÃ¼r eine Ã¼bermÃ¤ÃŸige
+RisikoÃ¼bernahme
+
+---PAGE---
+
+Anreizeffekte
+â–¶ Wenn die RisikoÃ¼bernahme der Bank beobachtbar wÃ¤re,
+kÃ¶nnte die Regulierung eine ineffiziente RisikoÃ¼bernahme
+einfach verbieten
+â–¶ Wegen asymmetrischer Information ist das aber nicht
+mÃ¶glich
+â–¶ Wenn Banken gezwungen werden, sich teilweise Ã¼ber
+Eigenkapital zu finanzieren, werden sie aus eigenem Interesse
+eher die effizienten Risikoentscheidungen treffen
+(â€œskin in the gameâ€)
+â–¶ Aber: Falsche Risikogewichte kÃ¶nnen zu verzerrten Anreizen
+fÃ¼hren (Basel I)
+â–¶ Kann man diese Problem dadurch lÃ¶sen, dass man interne
+Modelle zulÃ¤sst (Basel II/III)?
+
+---PAGE---
+
+7.4 SchwÃ¤chen der Vorkrisen-Regulierung
+â–¶ Damals bestehende Bankenregulierung hat die globale
+Finanzkrise nicht verhindern kÃ¶nnen
+â‡’ Nicht nur Versagen der Banken, sondern auch Versagen
+der Regulierung
+â–¶ SchwÃ¤chen der Vorkrisen-Regulierung:
+(1) Keine hinreichende BerÃ¼cksichtigung des systemischen
+Risikos
+(2) ProzyklizitÃ¤t der Eigenkapitalregulierung
+(3) Starke Betonung von Risiken auf der Aktivseite der
+Bankbilanzen
+
+---PAGE---
+
+(1) Systemisches Risiko
+â–¶ Wichtige Erkenntnis aus der Krise: Ein Bankensystem ist nicht
+unbedingt sicher, wenn die Banken individuell sicher sind
+â–¶ Grund: Der Versuch einer Bank, die eigene StabilitÃ¤t
+sicherzustellen, kann die StabilitÃ¤t des Systems gefÃ¤hrden
+â–¶ Beispiele: NotverkÃ¤ufe von Wertpapieren in Reaktion auf
+Refinanzierungsprobleme, Reduzierung der Kreditvergabe in
+Reaktion auf Verluste
+â–¶ Daher ist es nicht ausreichend, die Banken individuell zu
+regulieren (mikroprudenzielle Regulierung)
+â–¶ Regulierung muss durch eine makroprudenzielle Perspektive
+ergÃ¤nzt werden, die ExternalitÃ¤ten auf andere Banken oder
+die Realwirtschaft berÃ¼cksichtigt
+
+---PAGE---
+
+Systemisches Risiko
+â–¶ Basel-II-Regulierung berÃ¼cksichtigte ExternalitÃ¤ten des
+individuellen Bankverhaltens nicht in ausreichendem MaÃŸe
+â–¶ Die Verwendung interner Risikomodelle in der
+Bankenregulierung unterstellt, dass Banken dieselbe
+Zielfunktion haben wie die RegulierungsbehÃ¶rde
+â–¶ Wenn ExternalitÃ¤ten bestehen, gilt dies gerade nicht
+â–¶ Banken haben selbst keinen Anreiz, ExternalitÃ¤ten in ihrem
+OptimierungskalkÃ¼l zu berÃ¼cksichtigten
+â–¶ Das kÃ¶nnte erklÃ¤ren, warum die ungewichteten
+Eigenkapitalquoten der Banken in der Krise so niedrig waren,
+wÃ¤hrend die risikogewichteten Eigenkapitalquoten robust
+erschienen
+â–¶ Folge: Da die ExternalitÃ¤ten von systemrelevanten Banken
+besonders groÃŸ sind, sollten diese Banken strenger reguliert
+werden
+
+---PAGE---
+
+(2) ProzyklizitÃ¤t der Eigenkapitalregulierung
+â–¶ Die Eigenkapitalregulierung beschrÃ¤nkt implizit die
+KreditvergabekapazitÃ¤t der Banken
+â–¶ Beispiel:
+â–¶ Bei einer (ungewichteten) Eigenkapitalquote von 8 Prozent
+dÃ¼rfen die VermÃ¶gensgegenstÃ¤nde der Bank ihr Kapital
+maximal um einen Faktor 12,5 Ã¼bersteigen
+â–¶ Wenn das Eigenkapital der Bank um einen Euro fÃ¤llt, mÃ¼ssen
+die VermÃ¶gensgegenstÃ¤nde um 12,5 Euro gesenkt werden, um
+den Verschuldungsgrad konstant zu halten (es sei denn, die
+Bank kann zusÃ¤tzliches Eigenkapital aufnehmen, was
+kurzfristig schwierig sein kann, vor allem in Krisenzeiten)
+
+---PAGE---
+
+ProzyklizitÃ¤t der Eigenkapitalregulierung
+â–¶ In einer Rezession erleiden die Banken Verluste, was ihr
+Eigenkapital reduziert
+â–¶ Dies zwingt die Banken, ihre Bilanzen zurÃ¼ckzufÃ¼hren, wenn
+sie kurzfristig kein Eigenkapital aufnehmen kÃ¶nnen
+(Deleveraging)
+â–¶ Der eingeschrÃ¤nkte Kreditzugang kann die Rezession
+verschÃ¤rfen, wodurch wiederum RÃ¼ckkopplungen auf den
+Bankensektor entstehen
+
+---PAGE---
+
+ProzyklizitÃ¤t der Eigenkapitalregulierung
+â–¶ Selbst eine nicht risikogewichtete Eigenkapitalregulierung
+(einfache Leverage Ratio) wirkt prozyklisch
+â–¶ Aber: Problem wird verschÃ¤rft, wenn die
+Eigenkapitalregulierung risikogewichtet ist
+â–¶ Grund: KreditwÃ¼rdigkeit der Schuldner fÃ¤llt in einer Rezession,
+wodurch sich die Risikogewichte erhÃ¶hen
+â–¶ Hierdurch erhÃ¶hen sich die Eigenkapitalanforderungen, was das
+Deleveraging verstÃ¤rken kann
+â–¶ LÃ¶sung des Problems der ProzyklizitÃ¤t unter Basel III:
+Antizyklische Kapitalpuffer, Kapitalerhaltungspuffer
+â–¶ Beachte: ProzyklizitÃ¤t der Eigenkapitalregulierung ist geringer,
+wenn die Eigenkapitalanforderungen hÃ¶her sind
+â–¶ Eigenkapitalquote = 10% â†’ Deleveraging-Faktor = 10,
+Eigenkapitalquote = 5% â†’ Deleveraging-Faktor = 20
+
+---PAGE---
+
+(3) Starke Betonung von Risiken der Aktivseite
+â–¶ Risikomessung bei Banken basierte unter Basel II weitgehend
+auf den Risiken der Aktivseite, vor allem: Kreditausfallrisiko,
+Marktrisiko von Wertpapieren
+â–¶ Refinanzierungsrisiken wurden nicht erfasst
+â–¶ Refinanzierungsrisiken betreffen das VerhÃ¤ltnis zwischen der
+Aktiv- und Passivseite der Banken
+â–¶ Da Refinanzierungsrisiken stark mit den Risiken der Aktivseite
+interagieren, kÃ¶nnen sie nicht ignoriert werden
+â–¶ LÃ¶sung dieses Problems unter Basel III:
+LiquiditÃ¤tsregulierung (Liquidity Coverage Ratio, Net Stable
+Funding Ratio)
+
+---PAGE---
+
+7.5 Die Regulierung des systemischen Risikos
+â–¶ Systemrelevante Banken sollten strenger reguliert werden, weil
+ihr Zusammenbruch stÃ¤rkere ExternalitÃ¤ten verursacht
+â–¶ Hierzu muss der Begriff â€œsystemisches Risikoâ€
+operationalisiert werden:
+â–¶ GrÃ¶ÃŸe?
+â–¶ Korrelation?
+â–¶ Vernetzung?
+â–¶ Kontext?
+
+---PAGE---
+
+Regulierung des systemischen Risikos
+â–¶ Man kann unterschiedliche Kategorien von SIFIs (systemically
+important financial institutions) definieren (Geneva Report,
+2009):
+1. Banken, die individuell systemisch sind (too big to fail, too
+interconnected to fail, too important to fail, too complex to
+fail)
+2. Banken, die in der Gruppe systemisch sind (too many to fail)
+3. Banken, die in einer Krise systemisch werden (abhÃ¤ngig vom
+Kontext)
+4. Banken, die nie systemisch sind
+â–¶ Auf Basis dieser Kategorien kÃ¶nnten unterschiedliche
+Regulierungsanforderungen definiert werden
+(z.B. EigenkapitalzuschlÃ¤ge fÃ¼r systemrelevante Banken,
+Bankenabgaben mit progressiven SteuersÃ¤tzen)
+â–¶ Die IntensitÃ¤t der Aufsicht kann sich ebenfalls unterscheiden
+
+---PAGE---
+
+Regulierung des systemischen Risikos
+â–¶ Es gibt auÃŸerdem statistische MaÃŸe, mit denen man versucht,
+die ExternalitÃ¤ten direkt zu erfassen
+â–¶ Wichtigstes MaÃŸ: Conditional Value at Risk (CoVaR,
+Adrian and Brunnermeier, 2016)
+â–¶ Solche MaÃŸe ermÃ¶glichen eine stetige Messung der
+Systemrelevanz
+â–¶ Aber: Sie sind typischerweise prozyklisch
+â–¶ AuÃŸerdem fÃ¼hren verschiedene MaÃŸe zu stark divergierenden
+Rankings der einzelnen Institutionen bezÃ¼glich ihrer
+Systemrelevanz
+â–¶ Dennoch sind quantitative MaÃŸe als ErgÃ¤nzung zu
+qualitativen MaÃŸen wÃ¼nschenswert
+
+---PAGE---
+
+Ziele einer Regulierung systemrelevanter Banken
+â–¶ Optimale Regulierung hÃ¤ngt davon ab, welches Ziel man mit
+der Regulierung erreichen will
+â–¶ MÃ¶gliche Ziele:
+1. Senkung des systemischen Risikos (durch Anreize oder
+BeschrÃ¤nkungen)
+2. Schaffung eines Puffers fÃ¼r zukÃ¼nftige Krisen
+3. Finanzierung der Kosten von Krisen
+4. Reduzierung der Anreize, systemisch zu werden
+5. Beseitigung von Wettbewerbsverzerrungen (level playing field)
+â–¶ Ziele kÃ¶nnen im Widerspruch zueinander stehen, z.B.
+Finanzierungsziel vs. VerhaltensÃ¤nderung
+
+---PAGE---
+
+MÃ¶gliche RegulierungsmaÃŸnahmen
+1. Pigou-Steuer: â€œSystemic risk taxâ€, Bankenabgabe
+â–¶ Kann helfen, ExternalitÃ¤ten zu internalisieren, ist aber
+schwierig zu kalibrieren
+2. HÃ¶here Eigenkapitalanforderungen fÃ¼r SIFIs (analog fÃ¼r
+LiquiditÃ¤t)
+â–¶ Viele Vorteile: Schaffung von Puffern, verbesserte Anreize,
+geringere ProzyklizitÃ¤t
+â–¶ Argumente gegen hÃ¶heres Eigenkapital sind hÃ¤ufig entweder
+falsch oder aus volkswirtschaftlicher Sicht irrelevant (Admati
+et al., 2013)
+â–¶ Ungewichtete MaÃŸe sind als ErgÃ¤nzung risikogewichteter MaÃŸe
+erforderlich
+â–¶ Auch: Contingent capital, â€œbail-in debtâ€, Coco bonds
+
+---PAGE---
+
+MÃ¶gliche RegulierungsmaÃŸnahmen
+3. Regulierung der GeschÃ¤ftsmodelle
+â–¶ Direkte GrÃ¶ÃŸenbeschrÃ¤nkungen, BeschrÃ¤nkung bestimmter
+AktivitÃ¤ten (z.B. Volcker-Regel), Trennbankensystem
+4. Spezielle Abwicklungsmechanismen fÃ¼r Banken
+â–¶ Zentrales Instrument zur Regulierung systemischer Risiken
+
+---PAGE---
+
+Spezielle Abwicklungsmechanismen fÃ¼r Banken
+â–¶ Abwicklungs- und Restrukturierungsmechanismen sind
+zentral zur Reduzierung systemischer Risiken, da sie dazu
+beitragen, die Rettungserwartungen zu reduzieren
+â–¶ Financial Stability Board (2011): â€œThe objective of an effective
+resolution regime is to make feasible the resolution of financial
+institutions without severe systemic disruption and without
+exposing taxpayers to loss, while protecting vital economic
+functions through mechanisms which make it possible for
+shareholders and unsecured and uninsured creditors to absorb
+losses in a manner that respects the hierarchy of claims in
+liquidation.â€
+
+---PAGE---
+
+Spezielle Abwicklungsmechanismen fÃ¼r Banken
+â–¶ Idee:
+â–¶ Spezielles Abwicklungsregime ermÃ¶glicht die SchlieÃŸung einer
+Bank, ohne eine systemische Krise hervorzurufen
+â–¶ Hierdurch wird das Problem der Zeitinkonsistenz der
+Bankenrettung abgemildert
+â–¶ Wesentliches Element: Beteiligung der GlÃ¤ubiger an den
+Verlusten (Bail-in) und Wahrung der GlÃ¤ubigerhierarchie
+
+---PAGE---
+
+Der weite Weg zu mehr FinanzstabilitÃ¤t in Deutschland und Europa â€“ Kapitel 5
+Diese Ausgestaltung ist angesichts des mÃ¶glichen Gleichlaufs von Risiken bei
+kleineren Banken, die Ã¤hnliche GeschÃ¤ftsmodelle verfolgen, kritisch zu sehen. In
+der spanischen Bankenkrise, aber auch in der Savings-and-Loans-Krise in den
+Vereinigten Staaten in den 1980er-Jahren, traten die Probleme beispielsweise
+gehÃ¤uft bei kleineren, Ã¼berwiegend regional tÃ¤tigen Instituten auf.
+3. FÃ¼r eine glaubwÃ¼rdige GlÃ¤ubigerbeteiligung
+331. Das wichtigste Element der Bankenabwicklung ist ihre Finanzierung. Diese soll
+dem beschriebenen SpannungsverhÃ¤ltnis zwischen der Setzung optimaler Anrei-
+ze und der Wahrung der SystemstabilitÃ¤t Rechnung tragen. Die drei wesentli-
+chen Finanzierungsquellen sind die GlÃ¤ubigerbeteiligung (Bail-in), der SRF
+sowie fiskalische Backstops. WÃ¤hrend der Bail-in in erster Linie der Wiederher-
+stellung der optimalen Anreizstruktur dient, haben der Abwicklungsfonds und
+die fiskalischen Backstops vor allem eine stabilisierende Funktion. ïƒ˜ ABBILDUNG 45
+332. Beim Bail-in soll grundsÃ¤tzlich die Haftungskaskade des regulÃ¤ren Insol-
+venzrechts Anwendung finden. Insofern stellt er keine StÃ¤rkung der privaten
+Haftung dar, sondern eine Wiederherstellung des Normalzustands. Kurzfristige
+Interbankenverbindlichkeiten bis zu sieben Tagen Laufzeit sowie versicherte
+Einlagen unterhalb von 100 000 Euro sind von der Haftung ausgenommen. So-
+mit wird hier dem Einlegerschutz und der Stabilisierung des Interbankenmarkts
+Vorrang eingerÃ¤umt, um die SystemstabilitÃ¤t zu wahren. An die Stelle der versi-
+GlÃ¤ubigerhierarchie im SRM (SVR, 2014)
+cherten Einleger tritt jedoch die Einlagensicherung.
+ïƒ¦ ABBILDUNG 45
+SRM:FinanzierungskaskadebeieinerBankenabwicklung
+Private
+EigenkapitalderabzuwickelndenBank Haftungskaskade
+FremdkapitalderabzuwickelndenBank
+NachrangigeForderungen
+SonstigeForderungen1
+NichtgeschÃ¼tzteEinlagenvonUnternehmenbis
+zueinermittlerenGrÃ¶ÃŸeundnatÃ¼rlichenPersonen
+Einlagensicherung(anstellegeschÃ¼tzterEinlagen)
+Ã–ffentliches
+GemeinsamerAbwicklungsfondsSRF Sicherheitsnetz
+beiGefahrenfÃ¼rdie
+Ã–ffentlicheHaushalte FinanzstabilitÃ¤t
+derMitgliedstaaten
+EuropÃ¤ischerStabilitÃ¤tsmechanismusESM
+imEuro-Raum
+durchBRRDund fiskalischerBackstop
+SRM-Verordnunggeregelt
+1â€“Nicht-nachrangigeForderungen,dienichtindieÃ¼brigenKategorienfallen.ZumBeispielunbesicherteInterbankenforderungen,besicherte
+Forderungen,sofernsiedenWertdesSicherungsgegenstandesÃ¼bersteigen,nichtgeschÃ¼tzteEinlagenvongroÃŸenUnternehmen.Interbanken-
+forderungenmiteinerUrsprungslaufzeitvonwenigerals7Tagen,besicherteVerbindlichkeitenundgeschÃ¼tzteEinlagensindvonderAnwen-
+dungdesBall-in-Instrumentsausgenommen.
+SVR-14-372
+Jahresgutachten 2014/15 â€“ SachverstÃ¤ndigenrat 185
+
+---PAGE---
+
+Contingent Capital / bail-in-fÃ¤hige Schulden
+â–¶ Contingent capital / bail-in-fÃ¤hige Schulden stellen in
+Krisenzeiten zusÃ¤tzliches Eigenkapital bereit, indem Schulden
+in Eigenkapital umgewandelt oder abgeschrieben werden
+â–¶ Hauptvorteil aus Sicht der Banken: Steuerliche
+AbzugsfÃ¤higkeit der Zinszahlungen (aus volkswirtschaftlicher
+Sicht irrelevant)
+â–¶ Kritik:
+â–¶ Eigenkapital erfÃ¼llt Pufferfunktion mindestens genauso gut
+â–¶ Anreizeffekte schwÃ¤cher als bei einer direkten ErhÃ¶hung der
+Kapitalanforderungen
+â–¶ In einer Krise kÃ¶nnte der Anreiz bestehen, die GlÃ¤ubiger doch
+zu retten
+â–¶ Preisspiralen kÃ¶nnten eine Krise beschleunigen
+â–¶ Contingent capital /bail-in-fÃ¤hige Schulden kÃ¶nnen als
+zusÃ¤tzlicher Puffer genutzt werden, aber sie sollten nicht das
+hÃ¶here Eigenkapital ersetzen
+
+---PAGE---
+
+Fazit
+â–¶ Abwicklungsmechanismen sind das zentrale Instrument, um
+die Rettungserwartungen zu reduzieren und so die systemische
+StabilitÃ¤t zu gewÃ¤hrleisten
+â–¶ Frage: Wie schafft die Regierung es, sich glaubwÃ¼rdig zu
+binden, die Bank im Krisenfall nicht zu retten?
+â–¶ Besonders bei grenzÃ¼berschreitend tÃ¤tigen Banken dÃ¼rfte eine
+Abwicklung schwierig werden
+â–¶ Daher sind internationale Abwicklungsmechanismen
+erforderlich, wie der Einheitliche Abwicklungsmechanismus
+(Single Resolution Mechanism) im Euroraum
+
+---PAGE---
+
+7.6 Herausforderungen fÃ¼r die Zukunft
+1. VervollstÃ¤ndigung der Bankenunion im Euroraum
+â–¶ Durchbrechung des Risikoverbunds zwischen Banken und
+Staaten, insbesondere durch eine Regulierung der
+Konzentrationsrisiken von Banken bei Staatsanleihen
+â–¶ Einheitlicher Aufsichtsmechanismus leidet unter Ziel- und
+Interessenkonflikten zwischen Geldpolitik und Bankenaufsicht
+â–¶ GlaubwÃ¼rdigkeit des Einheitlichen Abwicklungsmechanismus
+mÃ¼sste verbessert werden
+â–¶ EinfÃ¼hrung einer gemeinsamen Einlagensicherung
+2. Internationale Harmonisierung, Regulierung von
+grenzÃ¼berschreitenden Institutionen
+â–¶ Vermeidung eines â€œRingfencingâ€ im Krisenfall
+â–¶ Harmonisierung von Abwicklungsverfahren trotz
+unterschiedlicher Insolvenzrechte
+
+---PAGE---
+
+Herausforderungen fÃ¼r die Zukunft
+3. â€œRegulatory captureâ€
+â–¶ Gefahr der Ã¼bermÃ¤ÃŸigen Einflussnahme der Finanzindustrie auf
+die RegulierungsbehÃ¶rden
+â–¶ Widerstand der Bankenlobby gegen Regulierung kÃ¶nnte neue
+Deregulierungswelle einleiten
+4. Regulierung von Nicht-Banken
+â–¶ Vermeidung von regulatorischer Arbitrage
+â–¶ Starkes Wachstum der â€œSchattenbankenâ€ (insb.
+Investmentfonds) seit der Krise
+â–¶ Neue Marktteilnehmer: Fintechs, Bigtechs
+5. Lange Niedrigzinsphase und Ausstieg aus der lockeren
+Geldpolitik
+â–¶ ZinsÃ¤nderungsrisiko bei schnell steigenden Zinsen
+â–¶ Banken, die VermÃ¶gensgegenstÃ¤nde mit langfristigen, niedrigen
+Zinsen halten, kÃ¶nnen Einlegern schwerer hohe Einlagenzinsen
+versprechen (siehe SVB)
+
+---PAGE---
+
+Fazit
+â–¶ Die Begrenzung des systemischen Risikos ist heute
+anerkanntermaÃŸen das Hauptziel der Bankenregulierung
+â–¶ Die Eigenkapitalregulierung bleibt das wichtigste
+Regulierungsinstrument
+â–¶ Sie schafft Puffer und senkt dadurch die Kosten von
+Finanzkrisen; sie erlaubt es den AufsichtsbehÃ¶rden, frÃ¼hzeitig
+einzuschreiten; und sie verbessert die Risikoanreize der Banken
+â–¶ Basel III ist ein wichtiger Schritt in die richtige Richtung
+
+---PAGE---
+
+Fazit
+â–¶ Die grÃ¶ÃŸte Herausforderung besteht darin, das systemische
+Risiko angemessen zu regulieren
+â–¶ Am vielversprechendsten ist eine Kombination von strengeren
+Eigenkapitalanforderungen (vor allem fÃ¼r systemrelevante
+Finanzinstitute) und der EinfÃ¼hrung glaubwÃ¼rdiger
+Abwicklungsmechanismen
+â–¶ Daher sollten die (ungewichteten) Eigenkapitalanforderungen
+fÃ¼r Banken weiter erhÃ¶ht werden und die GlaubwÃ¼rdigkeit des
+neuen Abwicklungsregimes weiter gestÃ¤rkt werden
+
+---PAGE---
+
+Fazit
+â–¶ Auf der europÃ¤ischen Ebene ist die grÃ¶ÃŸte Herausforderung die
+Weiterentwicklung der EuropÃ¤ischen Bankenunion
+â–¶ Eine Kapitalmarktunion ist eine wichtige ErgÃ¤nzung, um die
+Finanzmarktintegration zu stÃ¤rken und die Friktionen bei der
+marktbasierten Finanzierung zu senken
+â–¶ Aber: Auf mittlere Sicht wird die Bankfinanzierung in Europa
+vermutlich weiterhin eine wichtige Rolle spielen
+â–¶ Frage: Kommt es zu einer Disruption des BankgeschÃ¤fts durch
+den Marktzutritt der Bigtechs?
+
+---PAGE---
+
+Vielen Dank fÃ¼r Ihre Teilnahme an dieser Vorlesung
+und viel Erfolg bei den Klausuren!

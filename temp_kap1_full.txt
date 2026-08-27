@@ -1,0 +1,636 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kennen die wesentlichen Akteure des Finanzsystems und
+kÃ¶nnen zwischen FinanzmÃ¤rkten und -intermediÃ¤ren
+unterscheiden
+â–¶ Sie kennen die Hauptfunktionen des Finanzsystems
+â–¶ Sie kÃ¶nnen erklÃ¤ren, warum die Entwicklung des Finanzsystems
+das Wirtschaftswachstum fÃ¶rdern kÃ¶nnte und warum ein
+Finanzsystem â€œzu groÃŸâ€ werden kÃ¶nnte
+â–¶ Sie kennen Vor- und Nachteile bank- und marktbasierter
+Finanzsysteme
+â–¶ Sie kennen den Unterschied zwischen Korrelationen und
+KausalitÃ¤ten
+
+---PAGE---
+
+Funktionen des Finanzsystems
+â–¶ Das Finanzsystem leitet finanzielle Mittel von Akteuren mit
+UÂ¨berschÃ¼ssen zu Akteuren mit einem Mangel an finanziellen
+Mitteln
+â–¶ Ein effizientes Finanzsystem leitet diese Mittel den
+produktivsten Verwendungen zu
+â–¶ Dies bedeutet, dass die Finanzmittel dort eingesetzt werden,
+wo sie die hÃ¶chsten Renditen erzielen
+â–¶ Dies hat einen wichtigen Einfluss auf die ProduktivitÃ¤t einer
+OÂ¨konomie und damit auf das Wirtschaftswachstum
+â–¶ Finanzsysteme haben aber immer wieder schwere Krisen
+erlebt, die hÃ¤ufig mit tiefen Rezessionen einhergingen
+
+---PAGE---
+
+Wer ist â€œdas Finanzsystemâ€?
+1. FinanzmÃ¤rkte und FinanzintermediÃ¤re (Banken,
+Versicherungen, Investmentfonds,...)
+2. Akteure, die auf den FinanzmÃ¤rkten handeln oder mit den
+FinanzintermediÃ¤ren VertrÃ¤ge schlieÃŸen: InlÃ¤ndische und
+auslÃ¤ndische Haushalte, Unternehmen und Regierungen
+3. Finanzinfrastruktur (BÃ¶rsen, Zahlungssysteme,
+Ratingagenturen etc.)
+
+---PAGE---
+
+Funktionsweise des Finanzsystems (HOS, Abb. 1.1)
+
+---PAGE---
+
+Direkte vs. indirekte Finanzierung
+â–¶ Direkte Finanzierung: Derjenige, der Mittel benÃ¶tigt, leiht
+sich diese bei jemandem, der Ã¼berschÃ¼ssige Mittel hat, direkt
+Ã¼ber einen Finanzmarkt (hÃ¤ufig Ã¼ber Wertpapiere, zum
+Beispiel Aktien oder Anleihen)
+â–¶ Indirekte Finanzierung: Ein FinanzintermediÃ¤r nimmt die
+Mittel von dem Sparer entgegen und verwendet diese Mittel,
+um jemandem einen Kredit zu geben, der Mittel benÃ¶tigt
+â–¶ Ein Teil dieser Mittel wird auch im Finanzmarkt angelegt
+
+---PAGE---
+
+Rolle der verschiedenen Akteure im Finanzsystem
+â–¶ Private Haushalte:
+â–¶ Sparer/Anleger: Bankeinlagen, Staats- und
+Unternehmensanleihen, Investmentfonds, Aktien,...
+â–¶ Kreditnehmer: Vor allem Immobilienkredite, aber auch
+Konsumentenkredite
+â–¶ Unternehmen:
+â–¶ Aufnahme von Mitteln zur Finanzierung von Investitionen
+(Ã¼ber Fremd- oder Eigenkapital)
+â–¶ Anlage Ã¼berschÃ¼ssiger Mittel
+â–¶ Staat:
+â–¶ Kreditnehmer (Ã¼ber Staatsanleihen)
+â–¶ Anlage von Mitteln
+
+---PAGE---
+
+Die wichtigsten FinanzintermediÃ¤re
+â–¶ Banken:
+â–¶ Finanzierung Ã¼ber Einlagen, Interbankenkredite, Anleihen,
+Eigenkapital
+â–¶ Vergabe von Krediten, Halten von Wertpapieren
+â–¶ Investmentfonds:
+â–¶ Verkauf von Anteilsscheinen und Investition der Mittel in
+bestimmte VermÃ¶gensanlagen, zum Beispiel Aktien, Anleihen,
+Immobilien etc.
+â–¶ Auch Nachbildung von Indizes
+â–¶ Zunehmende Bedeutung handelbarer Investmentfonds
+(ETFs = exchange traded funds)
+â–¶ Lebensversicherungen:
+â–¶ RegelmÃ¤ÃŸige PrÃ¤mienzahlungen Ã¼ber einen langen Zeitraum
+â–¶ Auszahlung des angesparten Betrags oder einer lebenslangen
+Rente im Alter
+â–¶ HÃ¤ufig mit Absicherung gegen den Todesfall
+(Risikolebensversicherung)
+
+---PAGE---
+
+BilanzverknÃ¼pfungen
+Aktiva Unternehmen Passiva Aktiva Haushalte Passiva
+Sachanlagen
+Einlagen
+und VorrÃ¤te Kredite Anleihen Kredite
+Einlagen Anleihen Aktien Ersparnisse
+Anleihen Eigenkapital Immobilien
+Aktien
+FinanzmÃ¤rkte:
+Handel von Aktienund Anleihen
+Aktiva Banken Passiva
+Kredite Einlagen
+Anleihen Anleihen Staat emittiert Anleihen
+Aktien Eigenkapital und nimmt Krediteauf
+
+---PAGE---
+
+Hauptfunktionen des Finanzsystems
+1. Reduktion von Transaktionskosten
+2. Reduktion von Informationskosten
+3. Verbesserung des Risikomanagements
+
+---PAGE---
+
+â–¶ Betrachte M Unternehmen und N Haushalte
+â–¶ Haushalte mÃ¶chten gerne in alle Unternehmen investieren, um
+ihr Portfolio zu diversifizieren
+(1) Reduktion von Transaktionskosten
+â–¶ Beispiel: Warum interagieren Haushalte und Unternehmen in
+der Regel Ã¼ber Banken und nicht direkt miteinander (Ã¼ber
+FinanzmÃ¤rkte)?
+
+---PAGE---
+
+(1) Reduktion von Transaktionskosten
+â–¶ Beispiel: Warum interagieren Haushalte und Unternehmen in
+der Regel Ã¼ber Banken und nicht direkt miteinander (Ã¼ber
+FinanzmÃ¤rkte)?
+â–¶ Betrachte M Unternehmen und N Haushalte
+â–¶ Haushalte mÃ¶chten gerne in alle Unternehmen investieren, um
+ihr Portfolio zu diversifizieren
+
+---PAGE---
+
+Beispiel
+â–¶ Bei direkter Finanzierung erfordert dies M Â·N FinanzvertrÃ¤ge
+â–¶ Annahme: Bei jedem Finanzkontrakt fallen fixe Kosten an
+â–¶ Vertragskosten, Transportkosten, UÂ¨berwachungskosten,...
+â–¶ Beachte: VariableDKiroestcent,fdiineaprnopcoirntigonal zum Anlagevolumen
+sind, reichen hier nicht aus
+Households
+Firms
+H1
+F1
+H2
+H3
+F2
+H4
+
+---PAGE---
+
+Beispiel
+Indirect financing
+â–¶ Bei Einschaltung eines FinanzintermediÃ¤rs fÃ¤llt die Anzahl der
+benÃ¶tigten VertrÃ¤ge von M Â·N auf M +N, z.B. bei M = 100
+und N = 10.000 von 1.000.000 auf 10.100
+H1
+F1
+H2
+FI
+H3
+F2
+H4
+â–¶ Also: Durch die Einschaltung eines FinanzintermediÃ¤rs kÃ¶nnen
+SkalenertrÃ¤ge realisiert werden
+
+---PAGE---
+
+(2) Reduktion von Informationskosten
+â–¶ LÃ¶sung des Problems der Informationsasymmetrie zwischen
+Schuldnern und GlÃ¤ubigern in Finanzierungsbeziehungen
+â–¶ Arten der Informationsasymmetrie:
+â–¶ Ex ante: QualitÃ¤tsunsicherheit zu Beginn einer
+Finanzierungsbeziehung (â€œhidden characteristicsâ€)
+â†’ Adverse Selektion
+â–¶ Ex post: Verhaltensunsicherheit wÃ¤hrend einer
+Finanzierungsbeziehung (â€œhidden actionâ€)
+â†’ Moral Hazard
+
+---PAGE---
+
+Reduktion von Informationskosten
+â–¶ Beispiele:
+â–¶ Kreditgeber vs. Kreditnehmer
+â–¶ Banken vs. Einleger
+â–¶ AktionÃ¤r vs. Manager
+â–¶ Finanzinstitutionen oder FinanzmÃ¤rkte kÃ¶nnen
+Informationsprobleme hÃ¤ufig besser lÃ¶sen als einzelne
+Haushalte oder Unternehmen
+
+---PAGE---
+
+(3) Verbesserung des Risikomanagements
+â–¶ Bieten einer hÃ¶heren Rendite bei gleichem Risiko oder eines
+kleineren Risikos bei gleicher Rendite
+â–¶ MÃ¶glichkeit einer diversifizierten Geldanlage
+(zum Beispiel in Investmentfonds)
+â–¶ Risikotransformation...
+â–¶ ... durch Banken: GewÃ¤hrung relativ riskanter Kredite auf Basis
+relativ sicherer Einlagen
+â–¶ ... durch Versicherungen: Versicherung gegen Risiken wie zum
+Beispiel Sterblichkeit oder SchadensfÃ¤lle auf Basis eines
+groÃŸen, diversifizierten Versichertenpools
+
+---PAGE---
+
+Verbesserung des Risikomanagements
+â–¶ LiquiditÃ¤tstransformation: Langfristige Finanzierung von
+Unternehmen Ã¼ber kurzfristig verfÃ¼gbare Anlagen (zum
+Beispiel Sichteinlagen, aber auch handelbare Wertpapiere)
+â–¶ Verbriefungen: Verkauf von Kreditportfolios durch Banken
+und Ausgabe von Wertpapieren, hÃ¤ufig in unterschiedlich
+riskanten Tranchen
+
+---PAGE---
+
+Rolle des Staates
+â–¶ Dem Staat kommt die wichtige Rolle zu, die
+Rahmenbedingungen zu setzen und Marktversagen zu
+bekÃ¤mpfen
+â–¶ Rechtssystem: Schutz von Eigentumsrechten und
+Durchsetzung von VertrÃ¤gen
+â–¶ Sicherstellung von Transparenz durch Offenlegungspflichten
+â–¶ GewÃ¤hrleistung der Sicherheit des Finanzsystems durch
+Regulierung
+â–¶ Sicherung des Wettbewerbs (gegen Preisabsprachen, staatliche
+Beihilfen)
+
+---PAGE---
+
+2. Anleger-/Einlegerschutz
+â–¶ Anleger sind hÃ¤ufig klein und uninformiert und mÃ¼ssen daher
+geschÃ¼tzt werden
+â–¶ Sicherheitsnetz im Bankensystem: Einlagensicherung,
+LiquiditÃ¤tsversorgung der Banken durch die Zentralbank
+(Lender of Last Resort), Bankenrettungen (Bailouts)
+â–¶ Das Sicherheitsnetz erhÃ¶ht wiederum die Notwendigkeit der
+Regulierung
+Warum wird das Finanzsystem so streng reguliert?
+1. Risiko einer Finanzkrise (systemisches Risiko)
+â–¶ Zusammenbruch des Finanzsystems hat extrem hohe
+volkswirtschaftliche Kosten
+â–¶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+(Ansteckungseffekte)
+â–¶ Regulierungswellen nach schweren Krisen, insb.
+Weltwirtschaftskrise in den 1930s, globale Finanzkrise
+2007â€“2009
+
+---PAGE---
+
+Warum wird das Finanzsystem so streng reguliert?
+1. Risiko einer Finanzkrise (systemisches Risiko)
+â–¶ Zusammenbruch des Finanzsystems hat extrem hohe
+volkswirtschaftliche Kosten
+â–¶ Zusammenbruch einzelner Finanzinstitutionen kann das
+gesamte Finanzsystem in Mitleidenschaft ziehen
+(Ansteckungseffekte)
+â–¶ Regulierungswellen nach schweren Krisen, insb.
+Weltwirtschaftskrise in den 1930s, globale Finanzkrise
+2007â€“2009
+2. Anleger-/Einlegerschutz
+â–¶ Anleger sind hÃ¤ufig klein und uninformiert und mÃ¼ssen daher
+geschÃ¼tzt werden
+â–¶ Sicherheitsnetz im Bankensystem: Einlagensicherung,
+LiquiditÃ¤tsversorgung der Banken durch die Zentralbank
+(Lender of Last Resort), Bankenrettungen (Bailouts)
+â–¶ Das Sicherheitsnetz erhÃ¶ht wiederum die Notwendigkeit der
+Regulierung
+
+---PAGE---
+
+â–¶ Auswirkungen:
+â–¶ Kapital flieÃŸt dorthin, wo es am effizientesten eingesetzt
+werden kann, und erhÃ¶ht dort Investitionen und Wachstum
+â–¶ ErhÃ¶hung des Wettbewerbs im Finanzsystem
+â–¶ Positiver Einfluss auf die institutionelle Ausgestaltung des
+Finanzsystems
+â–¶ MÃ¶glicherweise aber auch neue Risiken (Gefahr eines sudden
+stop)
+Finanzmarktintegration
+â–¶ OÂ¨ffnung der nationalen FinanzmÃ¤rkte gegenÃ¼ber
+auslÃ¤ndischen FinanzmÃ¤rkten
+â–¶ OÂ¨ffnung inlÃ¤ndischer KapitalmÃ¤rkte fÃ¼r auslÃ¤ndisches Kapital
+â–¶ Zutritt auslÃ¤ndischer Finanzinstitutionen
+â–¶ Im Gegenzug MÃ¶glichkeit der Geldanlage im Ausland und der
+Expansion inlÃ¤ndischer Finanzinstitutionen ins Ausland
+
+---PAGE---
+
+Finanzmarktintegration
+â–¶ OÂ¨ffnung der nationalen FinanzmÃ¤rkte gegenÃ¼ber
+auslÃ¤ndischen FinanzmÃ¤rkten
+â–¶ OÂ¨ffnung inlÃ¤ndischer KapitalmÃ¤rkte fÃ¼r auslÃ¤ndisches Kapital
+â–¶ Zutritt auslÃ¤ndischer Finanzinstitutionen
+â–¶ Im Gegenzug MÃ¶glichkeit der Geldanlage im Ausland und der
+Expansion inlÃ¤ndischer Finanzinstitutionen ins Ausland
+â–¶ Auswirkungen:
+â–¶ Kapital flieÃŸt dorthin, wo es am effizientesten eingesetzt
+werden kann, und erhÃ¶ht dort Investitionen und Wachstum
+â–¶ ErhÃ¶hung des Wettbewerbs im Finanzsystem
+â–¶ Positiver Einfluss auf die institutionelle Ausgestaltung des
+Finanzsystems
+â–¶ MÃ¶glicherweise aber auch neue Risiken (Gefahr eines sudden
+stop)
+
+---PAGE---
+
+Finanzsystem und Wirtschaftswachstum
+â–¶ Hypothese: Ein Land mit einem besser entwickelten
+Finanzsystem wÃ¤chst stÃ¤rker.
+â–¶ Hypothese wird durch eine groÃŸe empirische Literatur vor der
+Finanzkrise gestÃ¼tzt: â€œthe preponderance of evidence suggests
+that both financial intermediaries and markets matter [in a
+causal sense] for growth even when controlling for potential
+simultaneity biasâ€ (Levine, Handbook of Economic Growth,
+2005, S. 921)
+
+---PAGE---
+
+Einfluss des Finanzsystems auf das Wirtschaftswachstum
+â–¶ Die Entwicklung des Finanzsystems kann das
+Wirtschaftswachstum auf zwei Arten beeinflussen:
+â–¶ durch hÃ¶here Ersparnisse und eine verstÃ¤rkte Akkumulation
+von Kapital
+â–¶ durch eine verbesserte Ressourcenallokation und eine
+Steigerung der ProduktivitÃ¤t
+â–¶ Die Literatur legt nahe, dass das langfristige
+Wirtschaftswachstum in erster Linie durch eine Steigerung der
+ProduktivitÃ¤t erhÃ¶ht wird
+
+---PAGE---
+
+KanÃ¤le
+â–¶ UÂ¨ber welche KanÃ¤le kÃ¶nnte die Entwicklung des
+Finanzsystems das Wirtschaftswachstum stimulieren?
+1. Mobilisierung und Sammlung von Ersparnissen
+2. Sammlung von Informationen (zum Beispiel bei einer
+KreditwÃ¼rdigkeitsprÃ¼fung, aber auch Aggregation von
+Informationen in FinanzmÃ¤rkten)
+3. UÂ¨berwachung von Finanzkontrakten, Corporate Governance
+4. Risikomanagement
+â–¶ Alle Argumente beruhen auf der Idee, dass das Finanzsystem
+Informationsprobleme abmildert oder Transaktionskosten
+reduziert
+
+---PAGE---
+
+Positiver Zusammenhang zwischen finanzieller Entwicklung
+und Wirtschaftswachstum
+â–¶ Vorkrisenliteratur findet positive Korrelation zwischen der
+Entwicklung des Finanzsystems und dem
+Wirtschaftswachstum
+â‡’ LÃ¤nder mit besser entwickelten Finanzsystemen wachsen
+im Schnitt schneller
+â–¶ UÂ¨bliches MaÃŸ fÃ¼r die Entwicklung des Finanzsystems:
+Kreditvergabe an Private relativ zum Bruttoinlandsprodukt
+(BIP)
+â–¶ Frage: Handelt es sich hierbei um einen kausalen Effekt?
+LÃ¤sst sich also das Wirtschaftswachstum dadurch steigern,
+dass man das Finanzsystem verbessert?
+
+---PAGE---
+
+Korrelation Ì¸= KausalitÃ¤t
+â–¶ Alternativ kÃ¶nnte die Entwicklung des Finanzsystems eine
+Reaktion auf das hohe Wirtschaftswachstum sein
+â–¶ Hohes Wirtschaftswachstum â†’ hohe Nachfrage nach Krediten
+und anderen Finanzdienstleistungen â†’ hohe Entwicklung des
+Finanzsystems
+â–¶ Merke: Aus einer Korrelation kann nicht auf einen
+kausalen Zusammenhang geschlossen werden!
+â–¶ Politikimplikationen lassen sich aber nur ableiten, wenn ein
+Kausalzusammenhang besteht
+
+---PAGE---
+
+Ein groÃŸes Finanzsystem kann auch schÃ¤dlich sein
+â–¶ Wissenschaftliche Literatur vor der Krise bestÃ¤tigte einen
+kausalen Effekt, selbst wenn RÃ¼ckwirkungseffekte
+miteinbezogen werden
+â–¶ Finanzkrise hat diesen Konsens in Zweifel gezogen
+â–¶ Nicht alle finanziellen AktivitÃ¤ten fÃ¶rdern das
+Wirtschaftswachstum in demselben MaÃŸe (zum Beispiel
+Finanzinnovationen zur Umgehung von Regulierung,
+Wohnbauinvestitionen vs. Unternehmensinvestitionen)
+â–¶ Nicht-linearer Zusammenhang zwischen der Entwicklung des
+Finanzsystems und dem Wirtschaftswachstum: Wenn das
+Finanzsystem â€œzu groÃŸâ€ wird, wird sein Einfluss negativ
+â–¶ Ineffiziente Umleitung von Humankapital in den Finanzsektor,
+weil dort die GehÃ¤lter am hÃ¶chsten sind
+
+---PAGE---
+
+Bank- vs. marktbasierte Finanzsysteme
+â–¶ In den meisten LÃ¤ndern dominiert die indirekte Finanzierung
+mit Einschaltung eines FinanzintermediÃ¤rs (hÃ¤ufig
+Ã¼berwiegend Banken)
+â–¶ Ein solches Finanzsystem bezeichnet man als bankbasiertes
+Finanzsystem
+â–¶ Typische Beispiele: Deutschland, Japan, OÂ¨sterreich, Italien
+â–¶ Dominiert hingegen die direkte Finanzierung, spricht man von
+einem marktbasierten Finanzsystem
+â–¶ Typische Beispiele: USA, UK, Niederlande
+
+---PAGE---
+
+Finanzsysteme in der EU, Japan und den USA
+(HOS, Abb. 1.2)
+â–¶ Volumen in der Unternehmensfinanzierung relativ zum BIP
+(2011):
+
+---PAGE---
+
+Finanzsysteme in der EU, Japan und den USA
+â–¶ In den USA spielen Finanzierungen Ã¼ber AktienmÃ¤rkte und
+Unternehmensanleihen eine besonders wichtige Rolle
+â–¶ Bankfinanzierungen sind vor allem in Japan, aber auch in der
+EU sehr bedeutsam
+â–¶ Bankfinanzierungen spielen in den USA nur eine kleine Rolle
+â–¶ Absolute Zahlen hÃ¤ngen auch vom AusmaÃŸ der Verschuldung
+des Unternehmenssektors ab
+â–¶ Beachte: Der grÃ¶ÃŸte Teil der Unternehmensinvestitionen
+erfolgt allerdings in allen Regionen Ã¼ber die
+Innenfinanzierung (insb. einbehaltene Gewinne)
+
+---PAGE---
+
+Finanzsysteme innerhalb der EU (HOS, Abb. 1.4)
+
+---PAGE---
+
+Argumente fÃ¼r ein bankbasiertes System
+â–¶ Kleine Unternehmen und Haushalte haben keinen Zugang zum
+Kapitalmarkt, da sie die Informationserfordernisse nicht
+erfÃ¼llen kÃ¶nnen
+â–¶ MÃ¤rkte haben ein Trittbrettfahrerproblem, weil
+Informationen sich sofort in den Preisen widerspiegeln und
+daher nicht von demjenigen genutzt werden kÃ¶nnen, der sie
+gesammelt hat
+â–¶ Banken schaffen langfristige Kundenbeziehungen und
+helfen Unternehmen, schwierige Phasen zu Ã¼berbrÃ¼cken
+â–¶ Banken kÃ¶nnen Ã¼ber ihre Kreditauswahl und
+KreditÃ¼berwachung eher sicherstellen, dass die Schuldner ihre
+Kredite zurÃ¼ckzahlen
+
+---PAGE---
+
+Argumente fÃ¼r ein marktbasiertes System
+â–¶ Banken sind inhÃ¤rent instabil und stellen in Krisen keine
+Finanzierung mehr bereit
+â–¶ Banken sind risikoavers und stellen zu wenig Finanzierung fÃ¼r
+aufstrebende, junge und riskante Unternehmen zur VerfÃ¼gung,
+besser: MÃ¤rkte fÃ¼r Venture Capital
+â–¶ Finanzierung Ã¼ber Banken ist relativ teuer aufgrund hoher
+Transaktionskosten
+â–¶ Bessere Disziplinierung der Schuldner Ã¼ber MÃ¤rkte
+(Corporate Governance)
+â–¶ Zu groÃŸe Macht der Banken Ã¼ber Unternehmen kann
+schÃ¤dlich sein
+â–¶ Banken neigen dazu, Unternehmen zu lange am Leben zu
+halten
+
+---PAGE---
+
+Corporate Governance
+â–¶ Corporate Governance bezeichnet alle Mechanismen, mit
+denen Investoren in einem Unternehmen (zum Beispiel
+AktionÃ¤re) sicherstellen kÃ¶nnen, dass das Management in
+ihrem Sinne handelt
+â–¶ Wichtige Instrumente:
+â–¶ Bestellung und Entlastung von Vorstand und Aufsichtsrat
+â–¶ Entscheidung Ã¼ber Managerentlohnung
+â–¶ Markt fÃ¼r Unternehmenskontrolle:
+UnternehmensÃ¼bernahmen
+â–¶ SperrminoritÃ¤ten, Mehrheitsbeteiligungen (insb. groÃŸe
+institutionelle Investoren)
+â–¶ UÂ¨berwachung durch FinanzintermediÃ¤re
+
+---PAGE---
+
+Bank- und Marktbasierung und Wirtschaftswachstum
+â–¶ Empirische Literatur liefert keine eindeutige Evidenz dafÃ¼r, ob
+bank- oder marktbasierte Systeme eher das
+Wirtschaftswachstum fÃ¶rdern
+â–¶ Levine/Zervos (American Economic Review, 1998): Wenn
+man sowohl die GrÃ¶ÃŸe der AktienmÃ¤rkte als auch das
+Kreditvolumen in Wachstumsregressionen einschlieÃŸt, zeigen
+beide einen signifikant positiven Effekt
+â–¶ Literatur legt eher nahe, dass FinanzmÃ¤rkte und -intermediÃ¤re
+komplementÃ¤r sind
+
+---PAGE---
+
+KomplementaritÃ¤t von FinanzmÃ¤rkten und -intermediÃ¤ren
+â–¶ FinanzintermediÃ¤re spielen auch in FinanzmÃ¤rkten eine
+wichtige Rolle, zum Beispiel als Market Maker oder bei der
+Emission von Wertpapieren, aber auch bei der Anlageberatung
+und VermÃ¶gensverwaltung
+â–¶ Wettbewerb zwischen IntermediÃ¤ren und MÃ¤rkten kann die
+Effizienz erhÃ¶hen
+â–¶ Grenzen zwischen MÃ¤rkten und IntermediÃ¤ren verschwimmen
+zunehmend (Beispiel: Verbriefungen)
+
+---PAGE---
+
+Overbanking in Europa?
+â–¶ Nach der Krise wurde argumentiert, dass das europÃ¤ische
+Finanzsystem zu stark bankbasiert sei (Overbanking)
+â–¶ Dies sei nachteilig fÃ¼r das Wirtschaftswachstum, weil nach der
+Krise aufgrund der geschwÃ¤chten Banken kaum alternative
+FinanzierungsmÃ¶glichkeiten zur VerfÃ¼gung gestanden hÃ¤tten
+â–¶ Dies ist einer der wesentlichen GrÃ¼nde fÃ¼r die Notwendigkeit
+einer EuropÃ¤ischen Kapitalmarktunion
+â–¶ Aber: Starke Bankbasierung ist teilweise eine Reaktion auf die
+Struktur der europÃ¤ischen Wirtschaft
+(viele kleine Unternehmen ohne Kapitalmarktzugang)
+
+---PAGE---
+
+Bedeutung des Rechtssystems
+â–¶ Das Rechtssystem hat einen sehr wichtigen Einfluss auf das
+Finanzsystem (La Porta et al., Journal of Finance, 1997)
+â–¶ Ob LÃ¤nder ein markt- oder bankbasiertes Finanzsystem haben,
+hÃ¤ngt u.a. davon ab, wie ihr Rechtssystem ausgestaltet ist
+â–¶ Beispielsweise gibt das deutsche Rechtssystem GlÃ¤ubigern eine
+stÃ¤rkere Stellung als Anteilseignern, anders als im
+angelsÃ¤chsischen Rechtssystem, in dem Anteilseigner besser
+gestellt sind
+
+---PAGE---
+
+2. Zunehmende Vernetzung des Finanzsystems:
+â–¶ Konsolidierung: Wachsende Bedeutung groÃŸer Banken durch
+ZusammenschlÃ¼sse, teilweise auch grenzÃ¼berschreitend
+â–¶ Kreditrisikotransfer Ã¼ber Verbriefungen (originate to
+distribute), lÃ¤ngere Intermediationsketten
+Trends im Finanzsystem
+1. Disintermediation:
+â–¶ VerstÃ¤rkte Unternehmensfinanzierung Ã¼ber MÃ¤rkte
+â–¶ Wachsende Bedeutung von Wertpapieren fÃ¼r die Geldanlage
+von Haushalten (insb. Altervorsorge), Firmen und Banken
+
+---PAGE---
+
+Trends im Finanzsystem
+1. Disintermediation:
+â–¶ VerstÃ¤rkte Unternehmensfinanzierung Ã¼ber MÃ¤rkte
+â–¶ Wachsende Bedeutung von Wertpapieren fÃ¼r die Geldanlage
+von Haushalten (insb. Altervorsorge), Firmen und Banken
+2. Zunehmende Vernetzung des Finanzsystems:
+â–¶ Konsolidierung: Wachsende Bedeutung groÃŸer Banken durch
+ZusammenschlÃ¼sse, teilweise auch grenzÃ¼berschreitend
+â–¶ Kreditrisikotransfer Ã¼ber Verbriefungen (originate to
+distribute), lÃ¤ngere Intermediationsketten
+
+---PAGE---
+
+4. Wachstum des â€œSchattenbankensektorsâ€ (Hedgefonds,
+Geldmarktfonds etc.)
+â–¶ Teilweise als Reaktion auf eine verschÃ¤rfte Regulierung des
+Bankensektors nach der Finanzkrise
+5. Digitalisierung bedroht GeschÃ¤ftsmodelle von traditionellen
+FinanzintermediÃ¤ren
+Trends im Finanzsystem
+3. GrÃ¶ÃŸere KomplexitÃ¤t von Finanzprodukten
+â–¶ Rolle von Banken als Berater
+
+---PAGE---
+
+5. Digitalisierung bedroht GeschÃ¤ftsmodelle von traditionellen
+FinanzintermediÃ¤ren
+Trends im Finanzsystem
+3. GrÃ¶ÃŸere KomplexitÃ¤t von Finanzprodukten
+â–¶ Rolle von Banken als Berater
+4. Wachstum des â€œSchattenbankensektorsâ€ (Hedgefonds,
+Geldmarktfonds etc.)
+â–¶ Teilweise als Reaktion auf eine verschÃ¤rfte Regulierung des
+Bankensektors nach der Finanzkrise
+
+---PAGE---
+
+Trends im Finanzsystem
+3. GrÃ¶ÃŸere KomplexitÃ¤t von Finanzprodukten
+â–¶ Rolle von Banken als Berater
+4. Wachstum des â€œSchattenbankensektorsâ€ (Hedgefonds,
+Geldmarktfonds etc.)
+â–¶ Teilweise als Reaktion auf eine verschÃ¤rfte Regulierung des
+Bankensektors nach der Finanzkrise
+5. Digitalisierung bedroht GeschÃ¤ftsmodelle von traditionellen
+FinanzintermediÃ¤ren
+
+---PAGE---
+
+Fazit
+â–¶ Das Finanzsystem soll finanzielle Mittel von Akteuren mit
+UÂ¨berschÃ¼ssen an Akteure leiten, die Finanzmittel benÃ¶tigen
+â–¶ Das Finanzsystem hat Auswirkungen auf die ProduktivitÃ¤t
+und das Wirtschaftswachstum einer OÂ¨konomie
+â–¶ Finanzierungstransaktionen erfolgen entweder direkt Ã¼ber
+MÃ¤rkte oder indirekt Ã¼ber FinanzintermediÃ¤re
+â–¶ UÂ¨ber das Finanzsystem kÃ¶nnen Transaktions- und
+Informationskosten gesenkt werden und Risiken besser
+gemanagt werden
+â–¶ Dabei lÃ¤sst sich nicht sagen, dass MÃ¤rkte oder
+FinanzintermediÃ¤re Ã¼berlegen sind, sie bieten vielmehr
+komplementÃ¤re Leistungen an
+â–¶ Im Finanzsystem kÃ¶nnen erhebliche Risiken entstehen, daher
+muss das Finanzsystem umfassend reguliert werden
+
+---PAGE---
+
+I. EinfÃ¼hrung
+1. Funktionen des Finanzsystems
+2. Die globale Finanzkrise und ihre Auswirkungen
+2.1 Stilisierte Fakten Ã¼ber Finanzkrisen
+2.2 Die globale Finanzkrise von 2007â€“2009
+2.3 Die Krise im Euroraum
+2.4 Die 2020er-Jahre
+II. Die Kapitalstruktur von Unternehmen
+3. Die Kapitalstruktur in einem vollkommenen Markt und das
+Modigliani-Miller-Theorem
+3.1 Finanzierung durch Eigen- oder Fremdkapital
+3.2 Das Modigliani-Miller-Theorem
+3.3 Kapitalstruktur und Eigenkapitalkosten
+3.4 TrugschlÃ¼sse bei der Kapitalstruktur
+3.5 Fazit
+
+---PAGE---
+
+2. Die globale Finanzkrise und ihre Auswirkungen
+â–¶ Literatur: *HOS, Kapitel 2 (Theorie aus 2.2 wird erst spÃ¤ter

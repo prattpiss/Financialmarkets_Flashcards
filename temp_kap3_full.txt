@@ -1,0 +1,1333 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kennen die Unterschiede zwischen einer Finanzierung Ã¼ber
+Eigen- und Fremdkapital sowie deren Auswirkungen auf
+Risiko und Rendite
+â–¶ Sie kÃ¶nnen erklÃ¤ren, warum in einem vollkommenen Markt die
+Kapitalstruktur keine Auswirkung auf den Unternehmenswert
+hat (Modigliani-Miller-Theorem)
+â–¶ Sie kennen den Zusammenhang zwischen der Kapitalstruktur
+und den Eigenkapitalkosten
+â–¶ Sie kennen wichtige TrugschlÃ¼sse bei der Kapitalstruktur
+
+---PAGE---
+
+3.1 Finanzierung durch Eigen- oder Fremdkapital
+â–¶ Ausgangslage: Ein Unternehmer mÃ¶chte eine Investition
+finanzieren und hierfÃ¼r externe Mittel aufnehmen
+â–¶ Frage: Wie entscheidet der Unternehmer, ob er sich durch
+Eigen- oder Fremdkapital finanziert?
+â–¶ Welche Auswirkungen hat die Entscheidung auf den
+Unternehmenswert?
+â–¶ Hier: Betrachtung eines vollkommenen Kapitalmarkts ohne
+Steuern, Transaktionskosten oder Informationsprobleme
+
+---PAGE---
+
+Kapitalstruktur
+â–¶ Die Kapitalstruktur bezeichnet die relativen Anteile des
+Fremdkapitals und Eigenkapitals (sowie ggf. gemischter
+Finanzierungsformen) eines Unternehmens an der Passivseite
+der Bilanz
+â–¶ Wir betrachten im Folgenden die Wahl zwischen zwei
+Alternativen:
+â–¶ VollstÃ¤ndige Finanzierung Ã¼ber Eigenkapital
+â–¶ Gemischte Finanzierung Ã¼ber Eigen- und Fremdkapital
+
+---PAGE---
+
+Eigenkapital vs. Fremdkapital
+â–¶ Fremdkapital bezeichnet Finanzierungsformen mit festen
+(d.h., erfolgsunabhÃ¤ngigen) RÃ¼ckzahlungsverpflichtungen
+(Zinsen und RÃ¼ckzahlung des Nominalbetrags)
+â–¶ Kann Fremdkapital nicht oder nicht vollstÃ¤ndig zurÃ¼ckgezahlt
+werden, so wird ein Unternehmen insolvent
+â–¶ Das Fremdkapital muss vor dem Eigenkapital bedient werden
+â–¶ Eigenkapital bezeichnet Finanzierungsformen ohne feste
+RÃ¼ckzahlungsverpflichtungen, bei denen der Halter des
+Kapitals einen Anspruch auf die verbleibenden ErtrÃ¤ge nach
+Abzug aller Zahlungsverpflichtungen erhÃ¤lt
+â–¶ Der Eigenkapitalhalter ist residual claimant
+â–¶ Die ErtrÃ¤ge hÃ¤ngen wesentlich vom Erfolg des Unternehmens
+ab â†’ MÃ¶glichkeit sehr hoher, aber auch sehr niedriger ErtrÃ¤ge
+
+---PAGE---
+
+Beispiel
+â–¶ Ein Unternehmer hat Zugang zu einem riskanten
+Investitionsprojekt, das bei einer Anfangsinvestition von
+800 Euro die folgenden ZahlungsstrÃ¶me erwirtschaftet:
+â–¶ 1.400 Euro mit Wahrscheinlichkeit 50% (Erfolg)
+â–¶ 900 Euro mit Wahrscheinlichkeit 50% (Misserfolg)
+â–¶ Erwartungswert des Projekts (= mittlerer Ertrag Ã¼ber die
+beiden ZustÃ¤nde): 0,5Â·1.400e+0,5Â·900e = 1.150e
+â–¶ Annahme: Der risikolose Zins betrÃ¤gt 5% (im heutigen
+Zinsumfeld unrealistisch)
+â–¶ Risikoaverse Investoren verlangen als EntschÃ¤digung fÃ¼r das
+Risiko einen Risikoaufschlag
+â–¶ Annahme: Risikoaufschlag fÃ¼r dieses Projekt = 10%
+
+---PAGE---
+
+Beispiel
+â–¶ Handelt es sich hierbei um ein lohnendes Projekt?
+â–¶ Bestimmung des Kapitalwertes (KW):
+â–¶ Der Kapitalwert entspricht dem Barwert der Einzahlungen
+minus dem Barwert der Auszahlungen
+â–¶ Der Barwert drÃ¼ckt alle ZahlungsstrÃ¶me in heutigem Geld aus
+(Abzinsung zukÃ¼nftiger Zahlungen)
+â–¶ Beim Abzinsen mÃ¼ssen die gesamten Kapitalkosten (inkl.
+RisikoprÃ¤mien) berÃ¼cksichtigt werden!
+â–¶ KW =âˆ’800e+ 1.150e=200e
+1,15
+â–¶ Kapitalwertregel: Projekte mit einem positiven Kapitalwert
+sollten durchgefÃ¼hrt werden, weil sie profitabel sind
+â–¶ Ergebnis: Das Projekt ist lohnend
+
+---PAGE---
+
+Finanzierung Ã¼ber Eigenkapital
+â–¶ Wie viel wÃ¼rden Investoren fÃ¼r die Aktien eines solchen
+Unternehmens zahlen, wenn das Unternehmen nur durch
+Eigenkapital finanziert wird?
+â–¶ Der Wert der Aktien entspricht dem Barwert (BW) der
+zukÃ¼nftigen Zahlungen: BW = 1.150e =1.000e
+1,15
+â–¶ Der Unternehmer kÃ¶nnte also das Unternehmen fÃ¼r 1.000 Euro
+an die Eigenkapitalgeber verkaufen, die dann auch sÃ¤mtliche
+zukÃ¼nftigen Zahlungen aus dem Projekt erhalten wÃ¼rden
+â–¶ Der Unternehmer erzielt (nach Zahlung der
+Investitionskosten) einen Gewinn in HÃ¶he des Kapitalwerts
+â–¶ Dies ist genau der volkswirtschaftliche Mehrwert, der durch
+das Projekt geschaffen wird
+
+---PAGE---
+
+Finanzierung Ã¼ber Eigenkapital
+â–¶ Im unverschuldeten Unternehmen entsprechen die Zahlungen
+des Eigenkapitals den ZahlungsstrÃ¶men des Projektes
+â–¶ Renditen des Eigenkapitals (immer relativ zum eingesetzten
+Kapital):
+â–¶ Im Erfolgsfall: (1400âˆ’1000) =40%
+1000
+â–¶ Im Misserfolgsfall: (900âˆ’1000) =âˆ’10%
+1000
+â–¶ Erwartete Rendite: 0,5Â·40%+0,5Â·(âˆ’10%) = 15%
+â–¶ Die erwartete Rendite entspricht gerade dem risikolosen Zins
+plus RisikoprÃ¤mie (dies ist nicht Ã¼berraschend: so wurde der
+Wert der Aktien ja gerade bestimmt)
+
+---PAGE---
+
+â–¶ Der Zins entspricht dem risikolosen Zins von 5%, da in beiden
+ZustÃ¤nden der Welt eine vollstÃ¤ndige RÃ¼ckzahlung geleistet
+werden kann
+â–¶ Dies fÃ¼hrt in der zweiten Periode zu einer Gesamtzahlung
+(RÃ¼ckzahlung des Kredits plus Zinsen) von 525 Euro
+â–¶ Zahlungen an den Anteilseigner nach Befriedigung der
+GlÃ¤ubiger:
+â–¶ Im Erfolgsfall: 1.400eâˆ’525e=875e
+â–¶ Im Misserfolgsfall: 900eâˆ’525e=375e
+Finanzierung Ã¼ber Fremd- und Eigenkapital
+â–¶ Annahme: Der Unternehmer nimmt einen Kredit
+(Fremdkapital) in HÃ¶he von 500 Euro auf und finanziert den
+Rest Ã¼ber Eigenkapital
+â–¶ Welcher Zins muss fÃ¼r das Fremdkapital bezahlt werden?
+
+---PAGE---
+
+Finanzierung Ã¼ber Fremd- und Eigenkapital
+â–¶ Annahme: Der Unternehmer nimmt einen Kredit
+(Fremdkapital) in HÃ¶he von 500 Euro auf und finanziert den
+Rest Ã¼ber Eigenkapital
+â–¶ Welcher Zins muss fÃ¼r das Fremdkapital bezahlt werden?
+â–¶ Der Zins entspricht dem risikolosen Zins von 5%, da in beiden
+ZustÃ¤nden der Welt eine vollstÃ¤ndige RÃ¼ckzahlung geleistet
+werden kann
+â–¶ Dies fÃ¼hrt in der zweiten Periode zu einer Gesamtzahlung
+(RÃ¼ckzahlung des Kredits plus Zinsen) von 525 Euro
+â–¶ Zahlungen an den Anteilseigner nach Befriedigung der
+GlÃ¤ubiger:
+â–¶ Im Erfolgsfall: 1.400eâˆ’525e=875e
+â–¶ Im Misserfolgsfall: 900eâˆ’525e=375e
+
+---PAGE---
+
+Finanzierung Ã¼ber Fremd- und Eigenkapital
+Auszahlungen [cid:0] [cid:0]
+Gesamte [cid:0] [cid:0]
+6 Auszahlung [cid:0] [cid:0]
+1400
+[cid:0] [cid:0]
+[cid:0]
+[cid:0] [cid:0][cid:0] Eigenkapital
+[cid:0] 525 [cid:0][cid:0]
+[cid:0] [cid:0][cid:0]
+[cid:0] [cid:0][cid:0]
+900 [cid:0] [cid:0][cid:0]
+[cid:0]6 [cid:0][cid:0]6
+[cid:0] 525 [cid:0][cid:0]
+[cid:0] [cid:0][cid:0]
+525 [cid:0] [cid:0][cid:0]
+K(1+R) [cid:0][cid:0] [cid:0][cid:0] Fremdkapital
+[cid:0][cid:0] [cid:0][cid:0]? 875
+[cid:0][cid:0] [cid:0][cid:0]
+[cid:0][cid:0] [cid:0][cid:0] 375
+[cid:0][cid:0] [cid:0][cid:0]
+[cid:0][cid:0] [cid:0][cid:0] ? - Ertrag des
+Insolvenz 525 900 1400 Unternehmens
+K(1+R)
+| {z }
+
+---PAGE---
+
+Gesetz des einheitlichen Preises
+â–¶ Wert der Aktien?
+â–¶ Idee von Modigliani und Miller:
+â–¶ Durch eine VerÃ¤nderung der Kapitalstruktur Ã¤ndern sich die
+ZahlungsstrÃ¶me des zugrundeliegenden Projektes nicht
+â–¶ Es Ã¤ndert sich lediglich die Zuordnung der ZahlungsstrÃ¶me auf
+die Kapitalgeber
+â–¶ HÃ¤lt ein Kapitalgeber das Fremd- und Eigenkapital, erhÃ¤lt er
+dieselben KapitalstrÃ¶me wie jemand, der das Projekt
+vollstÃ¤ndig Ã¼ber Eigenkapital finanziert
+â–¶ Deshalb muss auch der Wert derselbe sein
+â–¶ Folge: Das teilweise verschuldete Unternehmen muss
+denselben Wert haben wie das vollstÃ¤ndig Ã¼ber Eigenkapital
+finanzierte Unternehmen
+â‡’ Gesetz des einheitlichen Preises (law of one price)
+
+---PAGE---
+
+Wert des Eigenkapitals im verschuldeten Unternehmen
+â–¶ Wert des Eigenkapitals:
+â–¶ Wert des vollstÃ¤ndig Ã¼ber Aktien finanzierten Unternehmens:
+1000 Euro
+â–¶ Wert des Fremdkapitals: 500 Euro
+â–¶ Also muss das Eigenkapital des verschuldeten Unternehmens
+500 Euro kosten: E =1000eâˆ’500e=500e
+â–¶ Der Unternehmer ist also indifferent zwischen der alleinigen
+Finanzierung Ã¼ber Eigenkapital und der gemischten
+Finanzierung
+â–¶ Frage: Warum betrÃ¤gt der Wert des Eigenkapitals nicht
+(0,5Â·875e+0,5Â·375e) â‰ˆ 543e?
+1,15
+
+---PAGE---
+
+Auswirkung der Verschuldung auf Risiko und Rendite
+â–¶ Erwartete Eigenkapitalrendite ohne Verschuldung:
+â–¶ Die Rendite des unverschuldeten Unternehmens betrÃ¤gt 15%
+(vgl. oben)
+â–¶ Erwartete Eigenkapitalrendite mit Verschuldung:
+â–¶ Rendite des Eigenkapitals im Erfolgsfall:
+(1400âˆ’525âˆ’500) = 375 =75%
+500 500
+â–¶ Rendite des Eigenkapitals im Misserfolgsfall:
+(900âˆ’525âˆ’500) = âˆ’125 =âˆ’25%
+500 500
+â–¶ Erwartete Rendite des Eigenkapitals:
+0,5Â·75%+0,5Â·(âˆ’25%)=25%
+â–¶ Ergebnis: Die erwartete Rendite des Eigenkapitals ist deutlich
+hÃ¶her als zuvor â€“ warum?
+
+---PAGE---
+
+Auswirkung der Verschuldung auf Risiko und Rendite
+â–¶ Warum ist die erwartete Rendite des Eigenkapitals so hoch?
+â–¶ Absolut unterscheiden sich die Auszahlungen im Erfolgs- und
+Misserfolgsfall zwar weiterhin um 500 Euro
+â–¶ Allerdings ist der eingesetzte Betrag im Fall mit Verschuldung
+nur halb so groÃŸ und damit das Risiko (pro eingesetztem Euro)
+doppelt so groÃŸ
+â–¶ Dies fÃ¼hrt dann auch zu einer doppelt so groÃŸen RisikoprÃ¤mie
+(20% statt 10%)
+â–¶ Wie hoch sind die durchschnittlichen Kapitalkosten des
+verschuldeten Unternehmens?
+â–¶ Die (sichere) Rendite des Fremdkapitals betrÃ¤gt 5%
+â–¶ Die erwartete Rendite des Eigenkapitals betrÃ¤gt 25%
+â–¶ Damit betragen die durchschnittlichen Kapitalkosten (genauso
+wie zuvor) 0,5Â·5%+0,5Â·25%=15%
+
+---PAGE---
+
+Auswirkung der Verschuldung auf Risiko und Rendite
+â–¶ Fazit:
+â–¶ Durch Verschuldung lassen sich die Kapitalkosten nicht senken
+â–¶ Zwar ist das Fremdkapital relativ niedrig verzinst
+â–¶ DafÃ¼r steigt das Risiko des Eigenkapitals (und damit die
+Rendite)
+â–¶ Dies gilt auch dann, wenn die Ausfallwahrscheinlichkeit des
+Fremdkapitals gleich null ist!
+â–¶ Deshalb ist es unzulÃ¤ssig, die zukÃ¼nftigen Zahlungen des
+Eigenkapitals mit demselben Zins abzuzinsen wie zuvor (15%)
+
+---PAGE---
+
+3.2 Das Modigliani-Miller-Theorem
+â–¶ Das Modigliani-Miller-Theorem (MMT I): In einem
+vollkommenen Kapitalmarkt entspricht der Gesamtwert eines
+Unternehmens dem Marktwert der gesamten Zahlungen, die
+durch dessen VermÃ¶gensgegenstÃ¤nde generiert werden, und ist
+von der Wahl der Kapitalstruktur unbeeinflusst.
+â–¶ Dies ist ein sehr weitreichendes Ergebnis: Es impliziert
+beispielsweise, dass die Eigenkapitalausstattung von Banken in
+einem vollkommenen Kapitalmarkt irrelevant ist
+
+---PAGE---
+
+Bedingungen fÃ¼r das Modigliani-Miller-Theorem
+â–¶ MMT gilt allerdings nur unter den Bedingungen eines
+vollkommenen Kapitalmarkts:
+1. Investoren und Unternehmen kÃ¶nnen die gleichen Wertpapiere
+zu wettbewerbsfÃ¤higen Marktpreisen entsprechend dem
+Barwert ihrer zukÃ¼nftigen Zahlungen handeln
+(freie Handelbarkeit)
+2. Es gibt in Verbindung mit dem Wertpapierhandel keine
+Steuern oder Transaktionskosten
+3. Die Finanzierungsentscheidungen eines Unternehmens wirken
+sich nicht auf die ZahlungsstrÃ¶me aus und generieren keine
+neue Informationen Ã¼ber diese
+(keine Probleme asymmetrischer Informationen)
+â–¶ Ergebnis gilt bei Vorliegen von Kapitalmarktfriktionen nicht
+
+---PAGE---
+
+Nachbildung alternativer Verschuldungsstrukturen
+â–¶ Annahme: Die Investoren bevorzugen andere
+Verschuldungsstrukturen als das Unternehmen
+â–¶ Dann kÃ¶nnen die Investoren durch die Aufnahme oder
+Vergabe von Krediten das gewÃ¼nschte Ergebnis nachbilden
+â–¶ 2 FÃ¤lle:
+1. Unternehmen ist vollstÃ¤ndig eigenkapitalfinanziert, aber die
+Investoren bevorzugen eine Struktur mit Verschuldung
+â‡’ Investoren kÃ¶nnen selbst einen Kredit aufnehmen, um das
+Eigenkapital zu finanzieren, (Homemade Leverage) und so
+eine grÃ¶ÃŸere Hebelwirkung erzielen
+2. Unternehmen ist verschuldet, aber die Investoren bevorzugen
+ein vollstÃ¤ndig eigenkapitalfinanziertes Unternehmen
+â‡’ Investoren kÃ¶nnen das Fremd- und Eigenkapital aufkaufen
+und so den Hebel reduzieren (und damit das Risiko)
+
+---PAGE---
+
+Fall 1: Nachbildung von Verschuldung Ã¼ber Homemade
+Leverage
+Operations Management
+â–¶ Idee: Investor nimmt teilweise einen Kredit auf, um die Aktien
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+eines vollstÃ¤ndig eigenkapitalfinanzierten Unternehmens zu
+erwerben
+â–¶ Zahlungen aus dem Projekt kÃ¶nnen als Sicherheiten fÃ¼r den
+Kredit gelten, daher ist der Kredit risikolos
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Fall 1: Nachbildung von Verschuldung Ã¼ber Homemade
+Leverage
+â–¶ Auszahlungsprofil ist identisch mit demjenigen eines Kaufs des
+Operations Management
+Eigenkapitals eines verschuldeten Unternehmens (vgl. vorne)
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Ergebnis: Sofern ein Investor zum gleichen Zinssatz Kredite
+aufnehmen kann wie das Unternehmen, ist Homemade
+Leverage der perfekte Ersatz fÃ¼r den Einsatz von
+Verschuldung im Unternehmen
+
+8 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Fall 2: Nachbildung von Eigenkapital ohne Verschuldung
+â–¶ Idee: Der Investor kann das Eigenkapital eines unverschuldeten
+Unternehmens nachbilden, indem er sowohl das Fremdkapital
+Operations Management
+als auch das Eigenkapital des verschuldeten Unternehmens
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+kauft
+â–¶ Auszahlungsprofil ist identisch mit demjenigen eines Kaufs des
+Eigenkapitals eines unverschuldeten Unternehmens
+(vgl. vorne)
+
+9 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Nachbildung alternativer Verschuldungsstrukturen
+â–¶ In beiden FÃ¤llen beeinflusst die Wahl der Kapitalstruktur
+durch den Unternehmer die VerschuldungsmÃ¶glichkeiten der
+Investoren nicht
+â–¶ Die Investoren kÃ¶nnen die Wahl des Unternehmens
+ausgleichen, indem sie die Verschuldung durch
+Kreditaufnahme erhÃ¶hen oder durch den Kauf von Anleihen
+reduzieren
+â–¶ Da Unterschiede in der Kapitalstruktur in einem
+vollkommenen Markt den Investoren keine Vorteile oder
+Nachteile bieten, haben sie keine Auswirkung auf den
+Unternehmenswert
+â–¶ Ergebnis: Die Entscheidung des Unternehmens Ã¼ber die
+Kapitalstruktur beeinflusst die AnlagemÃ¶glichkeiten der
+Investoren nicht und hat daher keine Auswirkung auf den
+Unternehmenswert
+
+---PAGE---
+
+Homemade Leverage und Arbitrage
+â–¶ Betrachte 2 Unternehmen mit identischen ZahlungsstrÃ¶men
+(wie oben), aber unterschiedlichen Kapitalstrukturen
+â–¶ Unternehmen 1:
+â–¶ VollstÃ¤ndig eigenkapitalfinanziert
+â–¶ Marktwert des Eigenkapitals: 990 Euro
+â–¶ Unternehmen 2:
+â–¶ Teilweise fremdkapitalfinanziert
+â–¶ HÃ¶he des Kredits: 500 Euro
+â–¶ Marktwert des Eigenkapitals: 510 Euro
+â–¶ Frage: ErfÃ¼llen diese Werte das MMT?
+
+---PAGE---
+
+â–¶ Kaufe das â€œbilligeâ€ Unternehmen 1 und verkaufe das â€œteureâ€
+Unternehmen 2
+â–¶ Bilde hierfÃ¼r fÃ¼r Unternehmen 1 das verschuldete Unternehmen
+nach, indem ein Kredit aufgenommen wird
+Homemade Leverage und Arbitrage
+â–¶ Antwort: Werte erfÃ¼llen das MMT nicht
+â–¶ Da beide Unternehmen identische ZahlungsstrÃ¶me aufweisen,
+muss auch ihr Unternehmenswert identisch sein
+â–¶ Hier ist der Wert von Unternehmen 2 (1.010 Euro) hÃ¶her als
+derjenige von Unternehmen 1 (990 Euro)
+â–¶ Hieraus ergibt sich die MÃ¶glichkeit einer Arbitrage:
+
+---PAGE---
+
+Homemade Leverage und Arbitrage
+â–¶ Antwort: Werte erfÃ¼llen das MMT nicht
+â–¶ Da beide Unternehmen identische ZahlungsstrÃ¶me aufweisen,
+muss auch ihr Unternehmenswert identisch sein
+â–¶ Hier ist der Wert von Unternehmen 2 (1.010 Euro) hÃ¶her als
+derjenige von Unternehmen 1 (990 Euro)
+â–¶ Hieraus ergibt sich die MÃ¶glichkeit einer Arbitrage:
+â–¶ Kaufe das â€œbilligeâ€ Unternehmen 1 und verkaufe das â€œteureâ€
+Unternehmen 2
+â–¶ Bilde hierfÃ¼r fÃ¼r Unternehmen 1 das verschuldete Unternehmen
+nach, indem ein Kredit aufgenommen wird
+
+---PAGE---
+
+Homemade Leverage und Arbitrage
+â–¶ Kauf des eigenkapitalfinanzierten Unternehmens und
+Kreditaufnahme zur Nachbildung des verschuldeten
+Unternehmens
+â–¶ Verkauf des verschuldeten Unternehmens
+â–¶ Ergebnis: Risikoloser Arbitragegewinn
+â–¶ Im Markt mÃ¼sste durch diese Transaktionen der Wert von
+Unternehmen 1 steigen und derjenige von Unternehmen 2
+fallen, bis beide gleich viel wert sind
+
+---PAGE---
+
+Die Marktwertbilanz
+Operations Management
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ In einer Marktwertbilanz werden alle Werte zum
+gegenwÃ¤rtigen Marktwert (und nicht zu Anschaffungskosten)
+berÃ¼cksichtigt
+
+10 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Die Marktwertbilanz
+â–¶ Der Gesamtwert aller Wertpapiere, die vom Unternehmen
+ausgegeben wurden, muss dabei dem Gesamtwert der
+VermÃ¶gensgegenstÃ¤nde des Unternehmens entsprechen
+â–¶ Durch die Erstellung einer Marktwertbilanz kann man den
+Wert des Eigenkapitals wie folgt berechnen:
+â–¶ Marktwert des Eigenkapitals = Marktwert der
+VermÃ¶gensgegenstÃ¤nde â€“ Marktwert des Fremdkapitals und
+anderer Verbindlichkeiten
+
+---PAGE---
+
+â–¶ Annahme: Wert der VermÃ¶gensgegenstÃ¤nde des Unternehmens
+= 1.000 Euro
+â–¶ Wert des Eigenkapitals = 1000eâˆ’500eâˆ’60e=440e
+Beispiel: Bewertung des Eigenkapitals mit mehreren
+Wertpapieren
+â–¶ Annahme: Der Unternehmer teilt das Unternehmen in drei
+Wertpapiere auf:
+1. Eigenkapital
+2. Fremdkapital in HÃ¶he von 500 Euro
+3. Optionsscheine, die 210 Euro bei Erfolg des Unternehmens
+auszahlen, und ansonsten nichts (fairer Wert der
+Optionsscheine: 60 Euro)
+â–¶ Frage: Wie hoch ist der Wert des Eigenkapitals in einem
+vollkommenen Markt?
+
+---PAGE---
+
+Beispiel: Bewertung des Eigenkapitals mit mehreren
+Wertpapieren
+â–¶ Annahme: Der Unternehmer teilt das Unternehmen in drei
+Wertpapiere auf:
+1. Eigenkapital
+2. Fremdkapital in HÃ¶he von 500 Euro
+3. Optionsscheine, die 210 Euro bei Erfolg des Unternehmens
+auszahlen, und ansonsten nichts (fairer Wert der
+Optionsscheine: 60 Euro)
+â–¶ Frage: Wie hoch ist der Wert des Eigenkapitals in einem
+vollkommenen Markt?
+â–¶ Annahme: Wert der VermÃ¶gensgegenstÃ¤nde des Unternehmens
+= 1.000 Euro
+â–¶ Wert des Eigenkapitals = 1000eâˆ’500eâˆ’60e=440e
+
+---PAGE---
+
+Anwendung: Gehebelte Rekapitalisierung
+â–¶ Harrison Industries ist ein vollstÃ¤ndig eigenkapitalfinanziertes
+Unternehmen, das in einem vollkommenen Kapitalmarkt tÃ¤tig
+ist
+â–¶ Das Unternehmen hat 50 Millionen Aktien im Umlauf, die fÃ¼r
+4 Euro pro Aktie gehandelt werden
+â–¶ Harrison plant, 20 Millionen der im Umlauf befindlichen
+Aktien zurÃ¼ckzukaufen und dies durch die Aufnahme eines
+Kredits in HÃ¶he von 80 Millionen Euro zu finanzieren
+â–¶ Wenn ein Unternehmen einen erheblichen Anteil seiner im
+Umlauf befindlichen Aktien auf Kredit zurÃ¼ckkauft, wird diese
+Transaktion gehebelte Rekapitalisierung (leveraged
+recapitalization) genannt
+
+---PAGE---
+
+Anwendung: Gehebelte Rekapitalisierung
+â–¶ ZunÃ¤chst ist Harrison ein rein eigenkapitalfinanziertes
+Unternehmen
+Operations Management
+â–¶KDapeitrelM 14a:r kDtiew KearptitdalesstruEkitguer nank aepinietmal svo(ll5k0omMmeilnlieonn MeanrkAtktien `a
+4 Euro = 200 Millionen Euro) entspricht dem Marktwert der
+VermÃ¶gensgegenstÃ¤nde
+
+11 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Anwendung: Gehebelte Rekapitalisierung
+â–¶ Nach der Aufnahme des Kredits steigen die Aktivseite
+(Barmittel) und die Passivseite (Fremdkapital) um je 80
+Millionen Euro an
+â–¶O D p a er A a k t t i i o v n a s u M nd an P a a g ss e iv m a e u n m t denselben Betrag steigen, bleibt
+KdaepirteMl 1a4r:k Dtiwe eKratpidtaelsstrEukigtuern akna epiniteamls voulnlkvoemrmÃ¤nendeenr tMarkt
+â–¶ Beachte: Die Verschuldung des Unternehmens hat sich hier
+zwar erhÃ¶ht, aber das Risiko des Eigenkapitals ist unverÃ¤ndert
+
+11 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Anwendung: Gehebelte Rekapitalisierung
+â–¶ FÃ¼r den AktienrÃ¼ckkauf verwendet Harrison die Barmittel,
+um 20 Millionen Aktien fÃ¼r insgesamt 80 Millionen Euro zu
+kaufen
+â–¶ODpaerdaietiAonktsivMaadneasgUenmteernnethmens um 80 Millionen Euro fallen
+Kuanpidteld 1a4s: DFiree Kmapdiktaalsptirtuakltuur navn eeriÃ¤nenmd evrotllkbolmeimbetn,emn uMsasrkdter Marktwert
+des Eigenkapitals ebenfalls um 80 Millionen Euro fallen
+â–¶ AÂ¨ndert sich hierdurch der Kurs der einzelnen Aktie?
+
+11 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Anwendung: Gehebelte Rekapitalisierung
+â–¶ Der Gesamtwert der Aktien ist durch die Transaktion
+gesunken, wÃ¤hrend das Risiko der Aktien gestiegen ist
+â–¶ Der Kurs der einzelnen Aktie bleibt hingegen unverÃ¤ndert
+â–¶O D p ie er 3 a 0 ti M on il s lio M n a en na v g er e b m le e ib n e t nden Aktien sind 120 Millionen Euro
+Kwapeirtetl, 1a4l:s oDiew Keaitpeitrahlsitnruk4tuEr uarno eipnerom Avoklltkioemmenen Markt
+â–¶ Beachte, dass die einzelnen Aktien nun einen grÃ¶ÃŸeren Anteil
+am Gewinn versprechen, weil weniger Aktien im Umlauf sind
+
+11 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Â¨
+Ubung 1
+â–¶ Zu finden auf eCampus
+â–¶ LÃ¶sungen in der Vorlesung
+
+---PAGE---
+
+3.3 Kapitalstruktur und Eigenkapitalkosten
+â–¶ Auf Basis des Theorems von Modigliani und Miller
+(MMT I) kann man eine eindeutige Beziehung zwischen der
+Verschuldung und den Eigenkapitalkosten eines Unternehmens
+herleiten
+â–¶ Notation:
+â–¶ A = Marktwert der Aktiva des Unternehmens
+â–¶ U = Marktwert des Eigenkapitals des unverschuldeten
+Unternehmens
+â–¶ E = Marktwert des Eigenkapitals (equity) des verschuldeten
+Unternehmens
+â–¶ D = Marktwert des Fremdkapitals (debt) des verschuldeten
+Unternehmens
+
+---PAGE---
+
+Kapitalstruktur und Eigenkapitalkosten
+â–¶ MMT I besagt: A = U = E +D
+â–¶ Also: Der Gesamtmarktwert der Wertpapiere eines
+Unternehmens entspricht dem Marktwert seiner
+VermÃ¶gensgegenstÃ¤nde und zwar unabhÃ¤ngig davon, ob das
+Unternehmen unverschuldet oder verschuldet ist
+â–¶ HÃ¤lt man ein Portfolio aus Eigenkapital und Fremdkapital des
+Unternehmens, kann man den Zahlungsstrom des
+Eigenkapitals des unverschuldeten Unternehmens nachbilden
+â–¶ Also: Unverschuldetes Unternehmen kann als Portfolio aus
+Eigenkapital und Fremdkapital verstanden werden
+
+---PAGE---
+
+Zusammenhang zwischen Verschuldung und
+Eigenkapitalkosten
+â–¶ Rendite eines Portfolios = gewichtete Durchschnittsrendite
+der darin enthaltenen Wertpapiere
+â–¶ Daher besteht folgender Zusammenhang zwischen den
+Renditen des Eigenkapitals des verschuldeten Unternehmens
+(R ), des Fremdkapitals (R ) und des Eigenkapitals des
+E D
+unverschuldeten Unternehmens (R ):
+U
+E D
+R = Â·R + Â·R
+U E D
+E +D E +D
+
+---PAGE---
+
+Zusammenhang zwischen Verschuldung und
+Eigenkapitalkosten
+â–¶ AuflÃ¶sen nach R E :
+D
+R = R + Â·(R âˆ’R )
+E U U D
+E
+â–¶ Also: Rendite des Eigenkapitals des verschuldeten
+Unternehmens = Rendite des unverschuldeten Unternehmens
++ zusÃ¤tzliche Rendite aufgrund der Verschuldung
+â–¶ ZusÃ¤tzliche Rendite hÃ¤ngt vom Verschuldungsgrad D
+E
+(leverage) ab
+â–¶ Folge: Rendite des Eigenkapitals lÃ¤sst sich durch eine hÃ¶here
+Verschuldung in die HÃ¶he treiben
+â–¶ Dieses Ergebnis Ã¼bertrÃ¤gt sich auf die erwarteten Renditen (r)
+
+---PAGE---
+
+Zusammenhang zwischen Verschuldung und
+Eigenkapitalkosten
+â–¶ Modigliani-Miller-These II (MMT II): Die Kapitalkosten des
+Eigenkapitals des verschuldeten Unternehmens steigen mit
+dem Verschuldungsgrad des Unternehmens zu Marktwerten.
+â–¶ Kapitalkosten des Eigenkapitals des verschuldeten
+Unternehmens:
+D
+r = r + Â·(r âˆ’r )
+E U U D
+E
+â–¶ Ergebnis: Die erwartete Rendite des Eigenkapitals steigt im
+Verschuldungsgrad des Unternehmens.
+
+---PAGE---
+
+Beispiel (von vorne)
+â–¶ Bei vollstÃ¤ndiger Eigenkapitalfinanzierung betrÃ¤gt die
+erwartete Rendite auf das Eigenkapital des unverschuldeten
+Unternehmens 15% (= r )
+U
+â–¶ Wird das Unternehmen mit Fremdkapital in HÃ¶he von 500
+Euro finanziert, entspricht die erwartete Rendite des
+Fremdkapitals dem risikolosen Zinssatz von 5% (= r )
+D
+â–¶ Erwartete Rendite des Eigenkapitals des verschuldeten
+Unternehmens laut MMT II (vgl. vorne):
+500
+r = 15%+ Â·(15%âˆ’5%) = 25%
+E
+500
+â–¶ Wie hoch wÃ¤re die Rendite des Eigenkapitals bei einer
+Verschuldung von nur 200 Euro?
+
+---PAGE---
+
+Investitionsplanung und gewichtete durchschnittliche
+Kapitalkosten (WACC)
+â–¶ Bei der Investitionsplanung spielen die Kapitalkosten eine
+wichtige Rolle
+â–¶ WACC = gewichtete durchschnittliche Kapitalkosten
+(weighted average costs of capital)
+â–¶ Die WACC ergeben sich als mit den Portfolioanteilen
+gewichtete Summe der Renditen von Eigen- und Fremdkapital:
+E D
+r = Â·r + Â·r
+WACC E D
+E +D E +D
+â–¶ Ist die Kapitalstruktur eines Unternehmens komplexer, werden
+die gewichteten durchschnittlichen Kapitalkosten aller
+Wertpapiere des Unternehmens berÃ¼cksichtigt
+
+---PAGE---
+
+Investitionsplanung und gewichtete durchschnittliche
+Kapitalkosten (WACC)
+â–¶ Da wir uns in einem vollkommenen Kapitalmarkt befinden,
+gibt es keine Steuern
+â–¶ Die WACC und die Kapitalkosten des Unternehmens bei
+Eigenkapitalfinanzierung stimmen Ã¼berein:
+r = r = r
+WACC U A
+â–¶ Hieraus folgt: Die WACC eines Unternehmens sind in einem
+vollkommenen Kapitalmarkt von der Kapitalstruktur
+unabhÃ¤ngig
+â–¶ Sie entsprechen den Eigenkapitalkosten eines Unternehmens
+mit reiner Eigenkapitalfinanzierung, die wiederum mit den
+Kapitalkosten der VermÃ¶gensgegenstÃ¤nde Ã¼bereinstimmen
+
+---PAGE---
+
+Kapitalkosten und Verschuldung
+â–¶ Hier: Kapitalkosten in AbhÃ¤ngigkeit von der
+Operations Management
+Fremdkapitalquote = D
+Kapitel 14: Die Kapitalstruktur an Ee+inDem vollkommenen Markt
+â–¶ Ohne Fremdkapital gilt: r E = r WACC = r U = r A
+â–¶ Die Eigenkapitalkosten r E steigen mit der Verschuldung an
+(vgl. MMT II)
+â–¶ Grund: HÃ¶heres Risiko je Geldeinheit
+
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Operations Management
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Antwort: Die hÃ¶here Verschuldung erhÃ¶ht die
+Ausfallwahrscheinlichkeit des Fremdkapitals
+â–¶ Finanzierung zu 100% durch Fremdkapital:
+r = r = r = r
+D WACC U A
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+Kapitalkosten und Verschuldung
+â–¶ Die Fremdkapitalkosten r D bleiben zunÃ¤chst konstant, steigen
+dann aber ebenfalls mit der Verschuldung an â€“ warum?
+
+---PAGE---
+
+Kapitalkosten und Verschuldung
+â–¶ Die Fremdkapitalkosten r D bleiben zunÃ¤chst konstant, steigen
+Operations Management
+dann aber ebenfalls mit der Verschuldung an â€“ warum?
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Antwort: Die hÃ¶here Verschuldung erhÃ¶ht die
+Ausfallwahrscheinlichkeit des Fremdkapitals
+â–¶ Finanzierung zu 100% durch Fremdkapital:
+r = r = r = r
+D WACC U A
+
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Operations Management
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Antwort: Weil mit der hÃ¶heren Verschuldung das Gewicht des
+(relativ gÃ¼nstigen) Fremdkapitals immer grÃ¶ÃŸer wird, was den
+Renditeunterschied gerade genau ausgleicht
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+Kapitalkosten und Verschuldung
+â–¶ Also: Eigenkapital- und Fremdkapitalkosten steigen mit der
+Verschuldung an
+â–¶ Aber: WACC bleiben konstant â€“ warum?
+
+---PAGE---
+
+Kapitalkosten und Verschuldung
+â–¶ Also: Eigenkapital- und Fremdkapitalkosten steigen mit der
+Operations Management
+Verschuldung an
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Aber: WACC bleiben konstant â€“ warum?
+â–¶ Antwort: Weil mit der hÃ¶heren Verschuldung das Gewicht des
+(relativ gÃ¼nstigen) Fremdkapitals immer grÃ¶ÃŸer wird, was den
+Renditeunterschied gerade genau ausgleicht
+
+12 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Berechnung der WACC fÃ¼r alternative Kapitalstrukturen
+â–¶ Ohne Fremdkapital entsprechen die WACC den Kapitalkosten
+bei Eigenkapitalfinanzierung
+â–¶ Mit steigender Verschuldung steigen Eigenkapital- und
+Operations Management
+Fremdkapitalkosten (hÃ¶heres Risiko)
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Aber: Anteil des relativ gÃ¼nstigen Fremdkapitals wird immer
+grÃ¶ÃŸer
+â–¶ Insgesamt bleiben die WACC des Unternehmens unverÃ¤ndert
+
+13 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Beispiel 14.5: Reduktion der Verschuldung und der
+Kapitalkosten
+â–¶ NRG ist ein Energieunternehmen mit einem
+Verschuldungsgrad von 2
+â–¶ Dies bedeutet, dass das Fremdkapital zweimal so groÃŸ ist wie
+das Eigenkapital
+â–¶ Die anfÃ¤nglichen Fremdkapitalkosten liegen bei 6% und die
+Eigenkapitalkosten bei 12%
+â–¶ Wenn NRG Aktienkapital ausgibt und die ErlÃ¶se daraus
+verwendet, um Fremdkapital zurÃ¼ckzuzahlen und seinen
+Verschuldungsgrad auf 1 zu verringern, gehen die
+Fremdkapitalkosten annahmegemÃ¤ÃŸ auf 5,5% zurÃ¼ck
+
+---PAGE---
+
+Beispiel 14.5: Reduktion der Verschuldung und der
+Kapitalkosten
+â–¶ Fragen:
+â–¶ Welche Auswirkung hat diese Transaktion in einem
+vollkommenen Kapitalmarkt auf die Eigenkapitalkosten von
+NRG und auf die WACC?
+â–¶ Was wÃ¼rde geschehen, wenn NRG noch mehr Aktien begibt
+und das Fremdkapital vollstÃ¤ndig zurÃ¼ckzahlt?
+â–¶ Wie wirken sich diese alternativen Kapitalstrukturen auf den
+Unternehmenswert von NRG aus?
+
+---PAGE---
+
+Beispiel 14.5: Reduktion der Verschuldung und der
+Kapitalkosten
+â–¶ Die anfÃ¤ngliche Kapitalstruktur besteht zu einem 1 aus
+3
+Eigenkapital und zu 2 aus Fremdkapital
+3
+â–¶ AnfÃ¤ngliche WACC:
+1 2
+r = Â·12%+ Â·6% = 8% = r
+WACC U
+3 3
+
+---PAGE---
+
+Beispiel 14.5: Reduktion der Verschuldung und der
+Kapitalkosten
+â–¶ Nun fÃ¤llt der Verschuldungsgrad auf 1 und die
+Fremdkapitalkosten auf 5,5%
+â–¶ UÂ¨ber MMT II lassen sich die Eigenkapitalkosten bei einem
+Verschuldungsgrad von 1 bestimmen:
+D 1
+r = r + Â·(r âˆ’r ) = 8%+ Â·(8%âˆ’5,5%) = 10,5%
+E U U D
+E 1
+â–¶ Beachte: Fremd- und Eigenkapitalkosten sind gefallen!
+
+---PAGE---
+
+Beispiel 14.5: Reduktion der Verschuldung und der
+Kapitalkosten
+â–¶ Die WACC bleiben hingegen unverÃ¤ndert, weil sich die
+Gewichte in Richtung des teureren Eigenkapitals verschoben
+haben:
+1 1
+r = Â·10,5%+ Â·5,5% = 8%
+WACC
+2 2
+â–¶ Es entsteht also kein Gewinn aus dieser Transaktion
+â–¶ FÃ¤llt die Verschuldung auf null, so fallen die
+Eigenkapitalkosten weiter und entsprechen gerade dem WACC
+= 8%
+â–¶ Der Unternehmenswert Ã¤ndert sich durch keine dieser
+Transaktionen
+
+---PAGE---
+
+Ein hÃ¤ufiger Fehler: Ist Fremdkapital besser als
+Eigenkapital?
+â–¶ Behauptung: Ein Unternehmen kann seinen WACC reduzieren,
+indem es â€œteuresâ€ Eigenkapital durch â€œbilligesâ€ Fremdkapital
+ersetzt
+â–¶ WÃ¤re dies der Fall, sollte das Unternehmen sich mÃ¶glichst
+stark verschulden, um seine Kapitalkosten zu senken und den
+Unternehmenswert zu erhÃ¶hen
+â–¶ Fehler in der Argumentation:
+â–¶ Steigerung der Verschuldung erhÃ¶ht das Risiko des
+Eigenkapitals und damit die Eigenkapitalkosten
+â–¶ Ab irgendeinem Punkt steigen zusÃ¤tzlich die
+Fremdkapitalkosten
+â–¶ Der Anstieg der Eigenkapitalkosten gleicht die Vorteile der
+gÃ¼nstigen Fremdkapitalkosten gerade aus
+â–¶ Die gesamten Kapitalkosten des Unternehmens bleiben
+unverÃ¤ndert
+
+---PAGE---
+
+Exkurs: Beta als MaÃŸ des systematischen Risikos
+â–¶ In einer OÂ¨konomie gibt es systematische und
+idiosynkratische Risiken
+â–¶ Systematische Risiken bezeichnen solche, die durch
+Diversifikation (Streuung) nicht verringert werden kÃ¶nnen
+â–¶ Anleger wollen fÃ¼r die UÂ¨bernahme des systematischen Risikos
+einer Anlage durch eine RisikoprÃ¤mie entschÃ¤digt werden
+â–¶ Diversifizierbare Risiken werden hingegen nicht entlohnt
+
+---PAGE---
+
+Exkurs: Beta als MaÃŸ des systematischen Risikos
+â–¶ Das systematische Risiko wird mit dem Betafaktor eines
+Wertpapiers gemessen
+â–¶ Dieser entspricht der SensitivitÃ¤t der Rendite des Wertpapiers
+gegenÃ¼ber der Rendite des Gesamtmarkts
+â–¶ Definition Beta: VerÃ¤nderung der erwarteten Rendite eines
+Wertpapiers (in Prozentpunkten) bei einer AÂ¨nderung der
+Rendite des Marktportfolios um einen Prozentpunkt
+â–¶ Also: Wie stark schwanken die ErtrÃ¤ge des Wertpapiers mit
+dem Gesamtmarkt?
+
+---PAGE---
+
+Exkurs: Beta als MaÃŸ des systematischen Risikos
+â–¶ Die Kapitalkosten einer Investition lassen sich auf Basis des
+Betafaktors wie folgt schÃ¤tzen:
+r = risikoloser Zinsatz + Î² Â· MarktrisikoprÃ¤mie
+I I
+â–¶ Ist das Beta gleich 0, so erzielt die Investition gerade den
+risikolosen Zins (EntschÃ¤digung fÃ¼r den Zeitwert des Geldes)
+â–¶ ZusÃ¤tzlich wird der Anleger fÃ¼r das systematische Risiko mit
+der MarktrisikoprÃ¤mie entschÃ¤digt
+â–¶ Ist Beta gleich 1, so entsprechen die Kapitalkosten gerade der
+Marktrendite
+
+---PAGE---
+
+Betafaktoren des Eigenkapitals des unverschuldeten und
+des verschuldeten Unternehmens
+â–¶ Der Betafaktor des Gesamtunternehmens (Asset-Beta =
+Betafaktor des Eigenkapitals des unverschuldeten
+Unternehmens) entspricht dem gewichteten Durchschnitt des
+Eigenkapital-Betas und des Fremdkapital-Betas:
+E D
+Î² = Â·Î² + Â·Î²
+U E D
+E +D E +D
+â–¶ Der Betafaktor des Eigenkapitals des unverschuldeten
+Unternehmens misst das Marktrisiko der zugrunde liegenden
+VermÃ¶gensgegenstÃ¤nde des Unternehmens und kann
+verwendet werden, um die Kapitalkosten von Investitionen zu
+bestimmen
+â–¶ Er verÃ¤ndert sich nicht, wenn sich die Kapitalstruktur des
+Unternehmens Ã¤ndert
+
+---PAGE---
+
+Betafaktoren des Eigenkapitals des unverschuldeten und
+des verschuldeten Unternehmens
+â–¶ Allerdings passen sich das Eigenkapital-Beta und
+Fremdkapital-Beta des verschuldeten Unternehmen an das
+Risiko an:
+D
+Î² = Î² + Â·(Î² âˆ’Î² )
+E U U D
+E
+â–¶ Analog zur Gleichung der erwarteten Renditen!
+â–¶ Also: Das systematische Risiko des Eigenkapitals
+(Eigenkapital-Beta) steigt ebenso wie die erwartete Rendite
+mit dem Verschuldungsgrad
+
+---PAGE---
+
+Beispiel: Betas und Verschuldung
+â–¶ Der PharmaeinzelhÃ¤ndler CVS hat ein Eigenkapital-Beta von
+0,8 und einen Verschuldungsgrad von 0,1
+â–¶ Wie hoch ist das Asset-Beta des Unternehmens unter der
+Annahme, dass das Fremdkapital-Beta des Unternehmens
+gleich 0 ist?
+E D 10
+Î² = Â·Î² + Â·Î² = Â·0,8 â‰ˆ 0,73
+U E D
+E +D E +D 11
+
+---PAGE---
+
+Beispiel: Betas und Verschuldung
+â–¶ Nun plant CVS eine ErhÃ¶hung der Verschuldung, so dass der
+Verschuldungsgrad bei 0,5 liegt
+â–¶ Das Fremdkapital-Beta liegt immer noch bei 0
+â–¶ Wie hoch ist das Eigenkapital-Beta nach der ErhÃ¶hung der
+Verschuldung?
+D
+Î² = Î² + Â·(Î² âˆ’Î² ) = 0,73+0,5Â·0,73 = 1,095
+E U U D
+E
+â–¶ Also ist das Eigenkapital-Beta (und damit die
+Eigenkapitalkosten) mit der Verschuldung gestiegen
+â–¶ Beachte: Wenn auch das Fremdkapital-Beta ansteigen wÃ¼rde,
+dann wÃ¤re die Auswirkung auf das Eigenkapital-Beta geringer,
+da die Fremdkapitalgeber einen Teil des Risikos tragen wÃ¼rden
+
+---PAGE---
+
+Barmittel und Kapitalkosten
+â–¶ Risikolose Aktiva (Barmittel und risikolose Wertpapiere)
+reduzieren das Risiko der VermÃ¶gensgegenstÃ¤nde des
+Unternehmens
+â–¶ Barmittel wirken genau umgekehrt auf Risiko und Rendite wie
+eine Verschuldung (wie â€œnegatives Fremdkapitalâ€)
+â–¶ Daher kann die Verschuldung als Nettoverschuldung gemessen
+werden: Fremdkapital abzÃ¼glich der risikolosen Aktiva
+
+---PAGE---
+
+â–¶ Wie hoch war der operative Unternehmenswert von Cisco
+zu diesem Zeitpunkt?
+â–¶ Marktkapitalisierung = Marktwert des Eigenkapitals
+â–¶ Nettoverschuldung des Unternehmens
+= Fremdkapital â€“ risikolose Aktiva = â€“32,4 Mrd. US-Dollar
+â–¶ Operativer Unternehmenswert
+= Marktkapitalisierung + Nettoverschuldung = 70 Mrd.
+US-Dollar
+Beispiel: Barmittel und Kapitalkosten
+â–¶ Im Juli 2012 hatte Cisco System eine Marktkapitalisierung von
+102,4 Mrd. US-Dollar
+â–¶ Das Unternehmen hatte Fremdkapital in HÃ¶he von 16,2 Mrd.
+US-Dollar und verfÃ¼gte Ã¼ber Barmittel und kurzfristige
+Anlagen in HÃ¶he von 48,6 Mrd. US-Dollar
+â–¶ Das Eigenkapital-Beta lag bei 1,23 und das Fremdkapital-Beta
+bei 0
+
+---PAGE---
+
+Beispiel: Barmittel und Kapitalkosten
+â–¶ Im Juli 2012 hatte Cisco System eine Marktkapitalisierung von
+102,4 Mrd. US-Dollar
+â–¶ Das Unternehmen hatte Fremdkapital in HÃ¶he von 16,2 Mrd.
+US-Dollar und verfÃ¼gte Ã¼ber Barmittel und kurzfristige
+Anlagen in HÃ¶he von 48,6 Mrd. US-Dollar
+â–¶ Das Eigenkapital-Beta lag bei 1,23 und das Fremdkapital-Beta
+bei 0
+â–¶ Wie hoch war der operative Unternehmenswert von Cisco
+zu diesem Zeitpunkt?
+â–¶ Marktkapitalisierung = Marktwert des Eigenkapitals
+â–¶ Nettoverschuldung des Unternehmens
+= Fremdkapital â€“ risikolose Aktiva = â€“32,4 Mrd. US-Dollar
+â–¶ Operativer Unternehmenswert
+= Marktkapitalisierung + Nettoverschuldung = 70 Mrd.
+US-Dollar
+
+---PAGE---
+
+Beispiel: Barmittel und Kapitalkosten
+â–¶ Wie hoch sind die Kapitalkosten bei Eigenkapitalfinanzierung
+bei einem risikolosen Zinssatz von 2% und einer
+MarktrisikoprÃ¤mie von 5%?
+â–¶ Eigenkapital-Beta des unverschuldeten Unternehmens:
+E D
+Î² = Â·Î² + Â·Î²
+U E D
+E +D E +D
+102,4 âˆ’32,4
+= Â·1,23+ Â·0 â‰ˆ 1,8
+70 70
+
+---PAGE---
+
+Beispiel: Barmittel und Kapitalkosten
+â–¶ Kapitalkosten bei Eigenkapitalfinanzierung:
+r = risikoloser Zinsatz+Î² Â·MarktrisikoprÃ¤mie
+U U
+= 2%+1,8Â·5% = 11%
+â–¶ Beachte: Das Eigenkapital ist hier wegen der vorhandenen
+Barmittel weniger riskant als das zugrunde liegende
+Unternehmen
+
+---PAGE---
+
+3.4 TrugschlÃ¼sse bei der Kapitalstruktur
+â–¶ MMT I besagt, dass in vollkommenen KapitalmÃ¤rkten die
+Verschuldung keine Auswirkungen auf den Unternehmenswert
+oder die Gesamtkapitalkosten des Unternehmens hat
+â–¶ 2 falsche Behauptungen:
+1. UÂ¨ber eine ErhÃ¶hung des Verschuldungsgrades kann der
+Aktienkurs gesteigert werden, weil der erwartete Gewinn je
+Aktie steigt.
+2. Die Emission von Aktien fÃ¼hrt zur VerwÃ¤sserung und damit zu
+einem Absinken des Aktienkurses.
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ These: UÂ¨ber eine ErhÃ¶hung des Verschuldungsgrades kann der
+Aktienkurs gesteigert werden, weil der erwartete Gewinn je
+Aktie steigt.
+â–¶ Beispiel:
+â–¶ Levitron Industries (LVI) ist ein rein eigenkapitalfinanziertes
+Unternehmen
+â–¶ Erwartete ErtrÃ¤ge vor Zinsen und Steuern (earnings before
+interest and taxes, EBIT) im nÃ¤chsten Jahr: 10 Millionen Euro
+â–¶ LVI hat 10 Millionen Aktien im Umlauf, die zu einem Kurs von
+7,50 Euro pro Aktie gehandelt werden
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Annahmen: Die KapitalmÃ¤rkte sind vollkommen, und LVI
+besitzt kein Fremdkapital
+â–¶ Da LVI keine Zinsen zahlt und da es in vollkommenen
+KapitalmÃ¤rkten keine Steuern gibt, entsprechen die Gewinne
+von LVI den EBIT
+â–¶ Erwarteter Gewinn je Aktie (earnings per share, EPS):
+Gewinne 10 Millionen Euro
+EPS = = = 1Euro
+Anzahl der Aktien 10 Millionen
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ LVI mÃ¶chte seine Kapitalstruktur Ã¤ndern, indem es
+zusÃ¤tzliches Fremdkapital fÃ¼r 15 Millionen Euro zu Zinsen von
+8% aufnimmt und hiervon 2 Millionen ausstehende Aktien zu
+7,50 Euro je Aktie zurÃ¼ckkauft
+â–¶ Zinszahlungen auf das neue Fremdkapital: 1,2 Millionen Euro
+pro Jahr
+â–¶ Erwarteter Gewinn nach Zinsen: EBIT â€“ Zinsen
+= 10 Millionen Euro â€“ 1,2 Millionen Euro = 8,8 Millionen
+Euro
+â–¶ Anzahl der ausstehenden Aktien fÃ¤llt nach dem
+AktienrÃ¼ckkauf auf 8 Millionen
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Erwarteter Gewinn je Aktie:
+8,8 Millionen Euro
+EPS = = 1,1Euro
+8 Millionen
+â–¶ Also ist der erwartete Gewinn pro Aktie in der Tat mit der
+Verschuldung gestiegen
+
+---PAGE---
+
+â–¶ Nein, weil sich gleichzeitig das Risiko erhÃ¶ht hat
+â–¶ Nehmen wir an, der tatsÃ¤chliche Gewinn betrÃ¤gt nur
+4 Millionen Euro
+â–¶ Ohne Verschuldung: Gewinn pro Aktie = 0,40 Euro
+â–¶ Mit Verschuldung:
+â–¶ Gewinn = 4 Millionen Euro â€“ 1,2 Millionen Euro
+= 2,8 Millionen Euro
+â–¶ Gewinn pro Aktie = 2,8MillionenEuro = 0,35 Euro
+8Millionen
+â–¶ Also: Bei niedrigen Gewinnen fÃ¼hrt die Verschuldung dazu,
+dass der Gewinn pro Aktie noch stÃ¤rker fÃ¤llt
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Sind die AktionÃ¤re nun in einer besseren Position?
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Sind die AktionÃ¤re nun in einer besseren Position?
+â–¶ Nein, weil sich gleichzeitig das Risiko erhÃ¶ht hat
+â–¶ Nehmen wir an, der tatsÃ¤chliche Gewinn betrÃ¤gt nur
+4 Millionen Euro
+â–¶ Ohne Verschuldung: Gewinn pro Aktie = 0,40 Euro
+â–¶ Mit Verschuldung:
+â–¶ Gewinn = 4 Millionen Euro â€“ 1,2 Millionen Euro
+= 2,8 Millionen Euro
+â–¶ Gewinn pro Aktie = 2,8MillionenEuro = 0,35 Euro
+8Millionen
+â–¶ Also: Bei niedrigen Gewinnen fÃ¼hrt die Verschuldung dazu,
+dass der Gewinn pro Aktie noch stÃ¤rker fÃ¤llt
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Gleichsetzen: EBIT = EBITâˆ’1,2 â‡’ EBIT = 6
+10 8
+Oâ–¶pe S r in a d ti d o i n e s Er M tr a Ã¤ n ge ag (E e B m IT e ) nt Ã¼ber (unter) 6 Millionen Euro, so ist
+Kapidteel r1G4:e Dwiein KnappirtoalsAtrkutkiteurm aint eVineermsc hvoulllkdoumnmgehnÃ¶ehne Mra(rnkitedriger)
+â–¶ Sind die ErtrÃ¤ge kleiner als der Zinsaufwand (1,2 Millionen
+Euro), dann ist der Gewinn pro Aktie sogar negativ
+
+14 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Zwar steigt der erwartete Gewinn mit der Verschuldung an,
+Opearllaertdioinngss eMrhaÃ¶nhatgseicmh eglnetichzeitig auch das Risiko
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+â–¶ Das verschuldete Unternehmen hat nÃ¤mlich eine grÃ¶ÃŸere
+SensitivitÃ¤t des Gewinns pro Aktie gegenÃ¼ber den ErtrÃ¤gen
+des Unternehmens als das unverschuldete Unternehmen
+
+14 Berk DeMarzo: Grundlagen der FinazwirtschaftÂ© Pearson 2015
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Fazit:
+â–¶ Eine ErhÃ¶hung des Verschuldungsgrades kann den erwarteten
+Gewinn je Aktie und die Eigenkapitalrendite erhÃ¶hen, steigert
+jedoch auch die VolatilitÃ¤t des Gewinns je Aktie und damit das
+Risiko des Eigenkapitals
+â–¶ Der Aktienkurs Ã¤ndert sich hierdurch nicht
+â–¶ Der hÃ¶here erwartete Gewinn ist erforderlich, um die AktionÃ¤re
+fÃ¼r das zusÃ¤tzliche Risiko zu kompensieren
+
+---PAGE---
+
+â–¶ Frage: Was sagen Sie zu dem damals von Josef Ackermann
+postulierten Ziel einer Eigenkapitalrendite von 25% fÃ¼r die
+Deutsche Bank?
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Daher kÃ¶nnen Performance-MaÃŸe wie der Gewinn pro Aktie,
+das Kurs-Gewinn-VerhÃ¤ltnis (KGV) oder die
+Eigenkapitalrendite Ã¼ber Unternehmen hinweg nicht verglichen
+werden, ohne sich zugleich die Verschuldung anzusehen
+â–¶ Besser ist es, GrÃ¶ÃŸen wie EBIT zu betrachten (vor Abzug von
+Fremdkapitalzinsen)
+
+---PAGE---
+
+Verschuldungsgrad und Gewinn je Aktie
+â–¶ Daher kÃ¶nnen Performance-MaÃŸe wie der Gewinn pro Aktie,
+das Kurs-Gewinn-VerhÃ¤ltnis (KGV) oder die
+Eigenkapitalrendite Ã¼ber Unternehmen hinweg nicht verglichen
+werden, ohne sich zugleich die Verschuldung anzusehen
+â–¶ Besser ist es, GrÃ¶ÃŸen wie EBIT zu betrachten (vor Abzug von
+Fremdkapitalzinsen)
+â–¶ Frage: Was sagen Sie zu dem damals von Josef Ackermann
+postulierten Ziel einer Eigenkapitalrendite von 25% fÃ¼r die
+Deutsche Bank?
+
+---PAGE---
+
+Aktienemission und KapitalverwÃ¤sserung
+â–¶ These: Die Emission von Aktien fÃ¼hrt zur VerwÃ¤sserung und
+damit zu einem Absinken des Aktienkurses.
+â–¶ Ein hÃ¤ufiger Trugschluss ist, dass die Emission von Aktien zur
+VerwÃ¤sserung des AktionÃ¤rsbesitzes fÃ¼hrt, was den Wert der
+Aktien schmÃ¤lert
+â–¶ BegrÃ¼ndung der These: Gibt das Unternehmen neue Aktien
+aus, mÃ¼ssen die vom Unternehmen generierten
+ZahlungsstrÃ¶me auf eine grÃ¶ÃŸere Anzahl an Aktien verteilt
+werden, was den Wert jeder einzelnen Aktie mindert
+(= KapitalverwÃ¤sserung)
+â–¶ Der Fehler bei dieser Argumentation besteht darin, dass
+ignoriert wird, dass die durch die Aktienemission zugefÃ¼hrten
+liquiden Mittel die VermÃ¶gensgegenstÃ¤nde des Unternehmens
+erhÃ¶hen
+
+---PAGE---
+
+Aktienemission und KapitalverwÃ¤sserung
+â–¶ Beispiel:
+â–¶ Jet Sky Airlines (JSA) ist eine sehr erfolgreiche
+Billigfluggesellschaft in den USA
+â–¶ Das Unternehmen hat derzeit kein Fremdkapital, und es sind
+500 Millionen Aktien im Umlauf
+â–¶ Die Aktien werden derzeit zu einem Kurs von 16 US-Dollar
+gehandelt
+â–¶ Im letzten Monat gab das Unternehmen eine Expansion
+bekannt
+â–¶ Hierzu mÃ¼ssen neue Flugzeuge im Wert von 1 Mrd. US-Dollar
+gekauft werden, die durch die Ausgabe von neuem
+Aktienkapital finanziert werden sollen
+
+---PAGE---
+
+Aktienemission und KapitalverwÃ¤sserung
+â–¶ Basierend auf dem aktuellen Aktienkurs des Unternehmens
+(vor der Emission) haben das Eigenkapital und somit die
+VermÃ¶gensgegenstÃ¤nde des Unternehmens einen Marktwert
+von (500Mio Â·16$ =) 8 Mrd. US-Dollar
+â–¶ JSA verkauft 62,5 Millionen neue Aktien zum aktuellen Kurs
+von 16 US-Dollar pro Aktie, um die zusÃ¤tzlichen 1 Mrd.
+US-Dollar fÃ¼r den Kauf neuer Flugzeuge zu beschaffen
+
+---PAGE---
+
+Aktienemission und KapitalverwÃ¤sserung
+â–¶ GDreurnMdalarkgtewne rdtedre rFVinearmnzÃ¶wgeinrtssgcegheanfsttÃ¤nde steigt wegen der
+Kapitel 14: Die Kapitalstruktur an einem vollkommenen Markt
+zusÃ¤tzlichen liquiden Mittel um 1 Milliarde US-Dollar an
+â–¶
+EDiigeeAnnzkaahpl ditear lAekmtieinssstieoignt auunf d56 2K,5apMiitllaiolnveenrwÃ¤sserung
+â–¶ Der Aktienkurs bleibt unverÃ¤ndert bei 16 US-Dollar
+VermÃ¶gensgegenstÃ¤nde Vorder Nachder
+(USD Millionen) Emission Emission
+Liquide Mittel 1.000
+Bestehende
+VermÃ¶gensgegenstÃ¤nde 8.000 8.000
+Gesamtwert 8.000 9.000
+Aktien im Umlauf
+(Millionen) 500 562,5
+Wert je Aktie USD 16,00 USD 16,00
+
+71 Berk, DeMarzo; Grundlagen der Finanzwirtschaft Â© Pearson 2015
+
+---PAGE---
+
+Aktienemission und KapitalverwÃ¤sserung
+â–¶ Fazit:
+â–¶ Solange das Unternehmen die neuen Aktien zu einem
+angemessenen Preis verkauft, gibt es keinen Gewinn oder
+Verlust fÃ¼r die AktionÃ¤re in Verbindung mit der Aktienemission
+â–¶ Der Betrag, den das Unternehmen durch die Aktienemission
+eingenommen hat, gleicht die VerwÃ¤sserung der Aktien durch
+die erhÃ¶hte Anzahl an Aktien exakt aus
+â–¶ Ein Gewinn oder Verlust kann lediglich aus dem Kapitalwert
+der Investition entstehen, die das Unternehmen mit den
+beschafften Mitteln finanziert
+
+---PAGE---
+
+Â¨
+Ubung 2
+â–¶ Zu finden auf eCampus
+â–¶ LÃ¶sungen in der Vorlesung
+
+---PAGE---
+
+3.5 Fazit
+â–¶ An vollkommenen MÃ¤rkten haben Finanztransaktionen keine
+Auswirkung auf den Unternehmenswert, wenn sie keinen Wert
+schÃ¶pfen oder zerstÃ¶ren, sondern lediglich das Risiko und die
+Renditen eines Unternehmens neu verteilen
+â–¶ Die Kapitalstruktur kann sich nur Ã¼ber
+Kapitalmarktunvollkommenheiten auf den
+Unternehmenswert auswirken â†’ Kapitel 4
+
+---PAGE---
+
+4. Der Einfluss von Marktunvollkommenheiten auf die
+Kapitalstruktur
+4.1 Fremdkapital und Steuern
+4.1.1 Der fremdfinanzierungsbedingte Steuervorteil
+4.1.2 Rekapitalisierung zur Nutzung von Steuervorteilen
+4.1.3 Steuern auf Investorenebene
+4.1.4 Die optimale Kapitalstruktur mit Steuern
+4.1.5 Fazit
+4.2 Konkurskosten, Managementanreize und asymmetrische
+Information
+4.2.1 Konkurskosten und der Unternehmenswert
+4.2.2 Agency-Theorie der Verschuldung
+4.2.3 Asymmetrische Information und Kapitalstruktur
+4.3 Fazit: Kapitalstruktur
+
+---PAGE---
+
+4. Der Einfluss von Marktunvollkommenheiten auf die
+Kapitalstruktur
+â–¶ Literatur: *BDM, Kapitel 15 und 16

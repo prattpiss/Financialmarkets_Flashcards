@@ -1,0 +1,1652 @@
+﻿â–¶ Lernziele:
+â–¶ Sie kÃ¶nnen erklÃ¤ren, warum Banken verletzlich gegenÃ¼ber Runs
+sind
+â–¶ Sie kennen MaÃŸnahmen zur Verhinderung von Bank Runs
+â–¶ Sie kennen die wesentlichen AnsteckungskanÃ¤le im
+Finanzsystem
+â–¶ Sie wissen, warum Banken hÃ¤ufig vom Staat gerettet werden
+(Too-big-to-fail-Problem)
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+6.1 Das Grundproblem
+â–¶ Der Aufsatz von Diamond/Dybvig (Journal of Political
+Economy, 1983) zeigt, dass eine Bank ihre Einleger gegen
+LiquiditÃ¤tsschocks versichern kann, indem sie es ihren
+Einlegern ermÃ¶glicht, ihre Einlagen jederzeit zurÃ¼ckzufordern
+â–¶ Aber: Die jederzeitige AbhebungsmÃ¶glichkeit birgt die Gefahr
+von Bank Runs
+
+---PAGE---
+
+Wiederholung: Grundidee des Modells
+â–¶ Haushalte wissen nicht genau, wann sie konsumieren mÃ¶chten
+(sie unterliegen LiquiditÃ¤tsschocks): Es gibt â€œfrÃ¼heâ€ und
+â€œspÃ¤teâ€ Konsumenten
+â–¶ Langfristige Investitionen bringen einen hohen Ertrag, der
+jedoch nur realisiert werden kann, wenn das Projekt nicht
+vorzeitig liquidiert wird
+â–¶ UÂ¨ber einen Einlagenvertrag mit jederzeitiger
+AbhebemÃ¶glichkeit (Sichteinlagen) versichert die Bank den
+Einleger dagegen, ein â€œfrÃ¼her Konsumentâ€ zu sein
+â–¶ Ergebnis: Die Bank kann durch Fristentransformation die
+Gesamtwohlfahrt gegenÃ¼ber einer MarktlÃ¶sung (ohne
+FinanzintermediÃ¤r) erhÃ¶hen
+
+---PAGE---
+
+â–¶ Einlagenvertrag unterliegt einer Sequential Service
+Constraint: â€œWer zuerst kommt, mahlt zuerstâ€
+â–¶ Wenn in Periode 1 so viele Einleger ihre Einlagen abziehen,
+dass die Bank keine Assets mehr hat (sie also insolvent wird),
+erhalten nur die Einleger vorne in der Schlange die
+versprochene RÃ¼ckzahlung, wÃ¤hrend die restlichen Einleger
+leer ausgehen
+â‡’ HÃ¶he der Auszahlungen hÃ¤ngt vom Platz in der Schlange
+ab
+Einlagenvertrag
+â–¶ Die Bank verspricht den Einlegern, die in t = 1 abziehen, eine
+Auszahlung von r = Câˆ— > 1
+1 1
+(diese kann nur gezahlt werden, wenn die Bank solvent ist)
+â–¶ Die Bank investiert Ï€ 1 r 1 = Ï€ 1 C 1 âˆ— in die Lagerhaltung und den
+Rest in das langfristige Projekt
+
+---PAGE---
+
+Einlagenvertrag
+â–¶ Die Bank verspricht den Einlegern, die in t = 1 abziehen, eine
+Auszahlung von r = Câˆ— > 1
+1 1
+(diese kann nur gezahlt werden, wenn die Bank solvent ist)
+â–¶ Die Bank investiert Ï€ 1 r 1 = Ï€ 1 C 1 âˆ— in die Lagerhaltung und den
+Rest in das langfristige Projekt
+â–¶ Einlagenvertrag unterliegt einer Sequential Service
+Constraint: â€œWer zuerst kommt, mahlt zuerstâ€
+â–¶ Wenn in Periode 1 so viele Einleger ihre Einlagen abziehen,
+dass die Bank keine Assets mehr hat (sie also insolvent wird),
+erhalten nur die Einleger vorne in der Schlange die
+versprochene RÃ¼ckzahlung, wÃ¤hrend die restlichen Einleger
+leer ausgehen
+â‡’ HÃ¶he der Auszahlungen hÃ¤ngt vom Platz in der Schlange
+ab
+
+---PAGE---
+
+Einlagenvertrag
+â–¶ Liquidationswert der Bank in t = 1:
+Ï€ r +(1âˆ’Ï€ r )L < 1 (da L < 1)
+1 1 1 1
+â–¶ Folge: Es kann maximal ein Anteil
+Ï€
+1
+r 1+(1âˆ’Ï€
+1
+r 1)L
+<< 1 der
+r
+1
+Einleger in t = 1 eine RÃ¼ckzahlung erhalten
+â–¶ Annahme: Falls die Bank in Periode 1 nicht insolvent
+geworden ist, wird sie in Periode 2 liquidiert, und alle
+verbleibenden Einleger erhalten einen Anteil an den
+Bankassets gemÃ¤ÃŸ ihrer Einlage
+â–¶ Beachte: Einleger, die in Periode 2 abziehen, sind hier die
+residual claimants
+â–¶ Wir betrachten nun die Gleichgewichte dieses Spiels, wobei
+wir uns auf Nash-Gleichgewichte in reinen Strategien
+beschrÃ¤nken (keine gemischten Strategien)
+
+---PAGE---
+
+Gutes Gleichgewicht
+â–¶ Ein Anteil Ï€ 1 der Konsumenten (Typ 1) zieht die Einlagen in
+t = 1 ab
+â–¶ Folge: Die Bank bleibt solvent, da Ï€ 1 < Ï€ 1 r 1+(1 r âˆ’Ï€ 1 r 1)L
+1
+â–¶ FrÃ¼he Konsumenten erhalten Câˆ—
+1
+â–¶ SpÃ¤te Konsumenten erhalten den Liquidationswert der Bank
+in t = 2: (1âˆ’Ï€ 1 r 1)R = Câˆ—
+1âˆ’Ï€
+1
+2
+â–¶ Also: In diesem Gleichgewicht ziehen nur Typ-1-Einleger ihre
+Einlagen ab, Typ-2-Einleger warten bis zur Periode 2
+
+---PAGE---
+
+â–¶ Typ 1 kann sich nicht dadurch verbessern, dass er seine
+Einlage spÃ¤ter abzieht, da ihm Konsum in Periode 2 keinen
+Nutzen erbringt
+(Abziehen in Periode 1 = dominante Strategie)
+â–¶ Typ 2 kann sich ebenfalls nicht verbessern, da Câˆ— > Câˆ—
+2 1
+â–¶ Fazit: Der Sichteinlagenvertrag kann die First-best-LÃ¶sung
+implementieren und fÃ¼hrt zu einem besseren Ergebnis als die
+Autarkie-/MarktlÃ¶sung
+Gutes Gleichgewicht
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€ oder kann
+irgendein Spieler sich verbessern, indem er abweicht?
+
+---PAGE---
+
+Gutes Gleichgewicht
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€ oder kann
+irgendein Spieler sich verbessern, indem er abweicht?
+â–¶ Typ 1 kann sich nicht dadurch verbessern, dass er seine
+Einlage spÃ¤ter abzieht, da ihm Konsum in Periode 2 keinen
+Nutzen erbringt
+(Abziehen in Periode 1 = dominante Strategie)
+â–¶ Typ 2 kann sich ebenfalls nicht verbessern, da Câˆ— > Câˆ—
+2 1
+â–¶ Fazit: Der Sichteinlagenvertrag kann die First-best-LÃ¶sung
+implementieren und fÃ¼hrt zu einem besseren Ergebnis als die
+Autarkie-/MarktlÃ¶sung
+
+---PAGE---
+
+Schlechtes Gleichgewicht
+â–¶ Wenn die Typ-2-Konsumenten erwarten, dass alle anderen
+Typ-2-Konsumenten in Periode 1 zur Bank rennen, um ihr
+Geld abzuziehen, dann ist es auch fÃ¼r sie optimal zu rennen
+â†’ Bank Run aufgrund selbsterfÃ¼llender Erwartungen
+â–¶ Alle Konsumenten (Typ 1 und 2) ziehen ihre Einlagen in t = 1
+ab
+â–¶ Folge: Die Bank wird insolvent, da Ï€ 1 r 1 +(1âˆ’Ï€ 1 r 1 )L << r 1
+
+---PAGE---
+
+â–¶ Ein Einlagenabzug in Periode 2 erbringt nun auf jeden Fall
+eine Auszahlung von 0
+â–¶ Ein Einlagenabzug in Periode 1 erbringt im Erwartungswert
+strikt mehr als 0: Wenn der Einleger zur Bank â€œrenntâ€, steht
+er mit einer positiven Wahrscheinlichkeit so weit vorne in der
+Schlange, dass er die Auszahlung Câˆ— erhÃ¤lt
+1
+(Platz in der Schlange ist annahmegemÃ¤ÃŸ zufÃ¤llig)
+â–¶ Folge: Es ist fÃ¼r alle Einleger (Typ 1 und Typ 2) eine
+dominante Strategie, ihr Geld abzuziehen
+â–¶ Beachte: Im Gleichgewicht sind die Erwartungen â€œkorrektâ€
+Schlechtes Gleichgewicht
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€ oder kann
+irgendein Spieler sich verbessern, indem er abweicht?
+
+---PAGE---
+
+Schlechtes Gleichgewicht
+â–¶ Frage: Sind dies (gegenseitig) â€œbeste Antwortenâ€ oder kann
+irgendein Spieler sich verbessern, indem er abweicht?
+â–¶ Ein Einlagenabzug in Periode 2 erbringt nun auf jeden Fall
+eine Auszahlung von 0
+â–¶ Ein Einlagenabzug in Periode 1 erbringt im Erwartungswert
+strikt mehr als 0: Wenn der Einleger zur Bank â€œrenntâ€, steht
+er mit einer positiven Wahrscheinlichkeit so weit vorne in der
+Schlange, dass er die Auszahlung Câˆ— erhÃ¤lt
+1
+(Platz in der Schlange ist annahmegemÃ¤ÃŸ zufÃ¤llig)
+â–¶ Folge: Es ist fÃ¼r alle Einleger (Typ 1 und Typ 2) eine
+dominante Strategie, ihr Geld abzuziehen
+â–¶ Beachte: Im Gleichgewicht sind die Erwartungen â€œkorrektâ€
+
+---PAGE---
+
+â–¶ Das Bank-Run-Gleichgewicht ist ex ante strikt schlechter als
+die MarktlÃ¶sung: Riskante Auszahlung mit Mittelwert < 1
+â–¶ In der MarktlÃ¶sung ist die Auszahlung auf jeden Fall â‰¥1
+â–¶ Wohlfahrtskosten der Bank Runs: Alle langfristigen Projekte
+werden unterbrochen (Liquidationskosten), ZerstÃ¶rung der
+optimalen Risikoteilung
+Schlechtes Gleichgewicht
+â–¶ Grund fÃ¼r die Existenz des schlechten Gleichgewichts:
+Sequential Service Constraint + IlliquiditÃ¤t der Bank
+â–¶ Nennwert der Einlagen in Periode 1: r =Câˆ— >1 ist grÃ¶ÃŸer als
+1 1
+der Liquidationswert der Assets
+â–¶ Durch die Bereitstellung von LiquiditÃ¤t wird die Bank also
+gleichzeitig verletzlich gegenÃ¼ber Bank Runs!
+
+---PAGE---
+
+Schlechtes Gleichgewicht
+â–¶ Grund fÃ¼r die Existenz des schlechten Gleichgewichts:
+Sequential Service Constraint + IlliquiditÃ¤t der Bank
+â–¶ Nennwert der Einlagen in Periode 1: r =Câˆ— >1 ist grÃ¶ÃŸer als
+1 1
+der Liquidationswert der Assets
+â–¶ Durch die Bereitstellung von LiquiditÃ¤t wird die Bank also
+gleichzeitig verletzlich gegenÃ¼ber Bank Runs!
+â–¶ Das Bank-Run-Gleichgewicht ist ex ante strikt schlechter als
+die MarktlÃ¶sung: Riskante Auszahlung mit Mittelwert < 1
+â–¶ In der MarktlÃ¶sung ist die Auszahlung auf jeden Fall â‰¥1
+â–¶ Wohlfahrtskosten der Bank Runs: Alle langfristigen Projekte
+werden unterbrochen (Liquidationskosten), ZerstÃ¶rung der
+optimalen Risikoteilung
+
+---PAGE---
+
+â–¶ Diamond/Dybvig (1983): Wenn die â€œWahrscheinlichkeitâ€
+eines Bank Runs gering genug eingeschÃ¤tzt wird, werden die
+Konsumenten bereit sein, ihr Geld bei der Bank einzulegen
+â–¶ Problem: Das Modell macht gar keine Aussage Ã¼ber die
+Wahrscheinlichkeit eines Bank Runs, die Wahrscheinlichkeit
+ist unbestimmt
+Schlechtes Gleichgewicht
+â–¶ Eigentlich mÃ¼ssten die Einleger die MÃ¶glichkeit des Runs
+miteinbeziehen, wenn sie Ã¼berlegen, ob sie ihr Geld bei der
+Bank einlegen wollen
+â–¶ Frage: Warum legen die Einleger Ã¼berhaupt ihr Geld bei der
+Bank ein, wenn sie die MÃ¶glichkeit eines Runs antizipieren?
+
+---PAGE---
+
+Schlechtes Gleichgewicht
+â–¶ Eigentlich mÃ¼ssten die Einleger die MÃ¶glichkeit des Runs
+miteinbeziehen, wenn sie Ã¼berlegen, ob sie ihr Geld bei der
+Bank einlegen wollen
+â–¶ Frage: Warum legen die Einleger Ã¼berhaupt ihr Geld bei der
+Bank ein, wenn sie die MÃ¶glichkeit eines Runs antizipieren?
+â–¶ Diamond/Dybvig (1983): Wenn die â€œWahrscheinlichkeitâ€
+eines Bank Runs gering genug eingeschÃ¤tzt wird, werden die
+Konsumenten bereit sein, ihr Geld bei der Bank einzulegen
+â–¶ Problem: Das Modell macht gar keine Aussage Ã¼ber die
+Wahrscheinlichkeit eines Bank Runs, die Wahrscheinlichkeit
+ist unbestimmt
+
+---PAGE---
+
+Bank Run als Koordinationsproblem
+â–¶ Schlechtes Gleichgewicht ist die Folge eines
+Koordinationsproblems (Problem multipler Gleichgewichte)
+â–¶ Der einzige Grund, warum die Typ-2-Konsumenten zur Bank
+rennen, sind ihre Erwartungen, die dann selbsterfÃ¼llend
+werden
+â–¶ Also: Bank bricht zusammen, weil sie illiquide ist, obwohl sie
+solvent wÃ¤re, wenn es keinen Bank Run gÃ¤be
+â–¶ Aus Wohlfahrtssicht ist das â€œguteâ€ Gleichgewicht fÃ¼r alle
+Beteiligten besser (paretodominant)
+â–¶ Frage: Wie kann man dieses Koordinationsproblem lÃ¶sen?
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+â–¶ Dies entspricht gerade der AutarkielÃ¶sung!
+â–¶ Fazit: Narrow Banking kann zwar die StabilitÃ¤t des
+Bankensystems gewÃ¤hrleisten, zerstÃ¶rt aber gleichzeitig die
+LiquiditÃ¤tsversicherung der Bank (und reduziert damit die
+soziale Wohlfahrt)
+6.2 Narrow Banking
+â–¶ Eine MÃ¶glichkeit, das Run-Problem zu lÃ¶sen, besteht darin,
+die Fristentransformation der Bank zu beschrÃ¤nken
+â–¶ Narrow Banking: Die Bank muss so viel in die
+Lagertechnologie (= in liquide Mittel) investieren, dass sie in
+jeder Periode in der Lage ist, alle ihre Einlagen zum Nennwert
+zurÃ¼ckzubezahlen
+â–¶ Folge: C 1 = r 1 â‰¤ 1âˆ’I +LI, C 2 â‰¤ RI +(1âˆ’I)
+â†’ VollstÃ¤ndiger Ausgleich der Fristenstruktur von Aktiv- und
+Passivseite der Bankbilanz
+
+---PAGE---
+
+6.2 Narrow Banking
+â–¶ Eine MÃ¶glichkeit, das Run-Problem zu lÃ¶sen, besteht darin,
+die Fristentransformation der Bank zu beschrÃ¤nken
+â–¶ Narrow Banking: Die Bank muss so viel in die
+Lagertechnologie (= in liquide Mittel) investieren, dass sie in
+jeder Periode in der Lage ist, alle ihre Einlagen zum Nennwert
+zurÃ¼ckzubezahlen
+â–¶ Folge: C 1 = r 1 â‰¤ 1âˆ’I +LI, C 2 â‰¤ RI +(1âˆ’I)
+â†’ VollstÃ¤ndiger Ausgleich der Fristenstruktur von Aktiv- und
+Passivseite der Bankbilanz
+â–¶ Dies entspricht gerade der AutarkielÃ¶sung!
+â–¶ Fazit: Narrow Banking kann zwar die StabilitÃ¤t des
+Bankensystems gewÃ¤hrleisten, zerstÃ¶rt aber gleichzeitig die
+LiquiditÃ¤tsversicherung der Bank (und reduziert damit die
+soziale Wohlfahrt)
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+â–¶ Folge: In Periode 2 werden auf jeden Fall noch genÃ¼gend
+Assets verfÃ¼gbar sein, um Typ-2-Einleger zu befriedigen
+â–¶ Also ist es fÃ¼r Typ-2-Konsumenten nun eine dominante
+Strategie, nicht in Periode 1 abzuheben
+6.3 Aufhebung der KonvertibilitÃ¤t und
+Einlagenversicherung
+â–¶ Frage: Kann man den Vertrag so gestalten, dass es im
+Gleichgewicht nicht zu Bank Runs kommt, ohne dass man
+gleichzeitig die LiquiditÃ¤tsversicherung zerstÃ¶rt?
+â–¶ Idee: Sobald die Einleger in t = 1 mehr als Ï€ 1 C 1 âˆ— abheben
+wollen, wird die Bank geschlossen (Aufhebung der
+KonvertibilitÃ¤t, suspension of convertibility, Bankfeiertage)
+
+---PAGE---
+
+6.3 Aufhebung der KonvertibilitÃ¤t und
+Einlagenversicherung
+â–¶ Frage: Kann man den Vertrag so gestalten, dass es im
+Gleichgewicht nicht zu Bank Runs kommt, ohne dass man
+gleichzeitig die LiquiditÃ¤tsversicherung zerstÃ¶rt?
+â–¶ Idee: Sobald die Einleger in t = 1 mehr als Ï€ 1 C 1 âˆ— abheben
+wollen, wird die Bank geschlossen (Aufhebung der
+KonvertibilitÃ¤t, suspension of convertibility, Bankfeiertage)
+â–¶ Folge: In Periode 2 werden auf jeden Fall noch genÃ¼gend
+Assets verfÃ¼gbar sein, um Typ-2-Einleger zu befriedigen
+â–¶ Also ist es fÃ¼r Typ-2-Konsumenten nun eine dominante
+Strategie, nicht in Periode 1 abzuheben
+
+---PAGE---
+
+Aufhebung der KonvertibilitÃ¤t
+â–¶ Folge: Das â€œguteâ€ Gleichgewicht ist das einzige
+Nash-Gleichgewicht
+â–¶ Beachte: Im Gleichgewicht kommt es nie zur Aufhebung der
+KonvertibilitÃ¤t!
+â–¶ Es wird weiterhin eine optimale Risikoteilung erreicht,
+gleichzeitig kÃ¶nnen Bank Runs verhindert werden
+â–¶ Wichtige Annahme: Anteil Ï€ 1 ist bekannt und
+nicht-stochastisch (d.h., es gibt kein aggregiertes
+LiquiditÃ¤tsrisiko)
+
+---PAGE---
+
+â–¶ Um Runs vollstÃ¤ndig zu vermeiden, muss die KonvertibilitÃ¤t
+bereits dann aufgehoben werden, wenn der abgehobene
+Betrag dem Wert entspricht, der sich bei der kleinsten
+AusprÃ¤gung von Ï€Ëœ ergeben wÃ¼rde
+1
+â–¶ Problem: Wenn die Realisation von Ï€Ëœ 1 grÃ¶ÃŸer ist als der
+minimale Wert, kÃ¶nnen einige Typ-1-Konsumenten nicht
+abheben und erzielen daher keinen Nutzen
+â–¶ Folge: Die First-best-LÃ¶sung kann nicht erreicht werden, da
+die Aufhebung der KonvertibilitÃ¤t nicht auf Ï€Ëœ konditioniert
+1
+werden kann
+Aggregiertes LiquiditÃ¤tsrisiko
+â–¶ Wenn der Anteil der â€œfrÃ¼henâ€ Konsumenten stochastisch ist
+(= Ï€Ëœ ), kann auch bei Aufhebung der KonvertibilitÃ¤t die
+1
+First-best-LÃ¶sung nicht erreicht werden
+
+---PAGE---
+
+Aggregiertes LiquiditÃ¤tsrisiko
+â–¶ Wenn der Anteil der â€œfrÃ¼henâ€ Konsumenten stochastisch ist
+(= Ï€Ëœ ), kann auch bei Aufhebung der KonvertibilitÃ¤t die
+1
+First-best-LÃ¶sung nicht erreicht werden
+â–¶ Um Runs vollstÃ¤ndig zu vermeiden, muss die KonvertibilitÃ¤t
+bereits dann aufgehoben werden, wenn der abgehobene
+Betrag dem Wert entspricht, der sich bei der kleinsten
+AusprÃ¤gung von Ï€Ëœ ergeben wÃ¼rde
+1
+â–¶ Problem: Wenn die Realisation von Ï€Ëœ 1 grÃ¶ÃŸer ist als der
+minimale Wert, kÃ¶nnen einige Typ-1-Konsumenten nicht
+abheben und erzielen daher keinen Nutzen
+â–¶ Folge: Die First-best-LÃ¶sung kann nicht erreicht werden, da
+die Aufhebung der KonvertibilitÃ¤t nicht auf Ï€Ëœ konditioniert
+1
+werden kann
+
+---PAGE---
+
+â–¶ Folge: Typ-2-Konsumenten haben keinen Anreiz, die Bank zu
+stÃ¼rmen
+â–¶ Da es im Gleichgewicht nie zum Bank Run kommt, mÃ¼ssen
+keine PrÃ¤mien fÃ¼r die Einlagenversicherung gezahlt werden
+â–¶ Auch hier kann die First-best-LÃ¶sung erreicht werden, wenn
+der Anteil Ï€ nicht-stochastisch ist
+1
+Einlagenversicherung
+â–¶ Alternative LÃ¶sung zur Verhinderung von Bank Runs:
+Einlagenversicherung (deposit insurance)
+â–¶ Funktionsweise: Verluste der Einleger werden durch die
+Einlagenversicherung ausgeglichen â†’ Einleger erhalten auf
+jeden Fall die versprochene RÃ¼ckzahlung
+
+---PAGE---
+
+Einlagenversicherung
+â–¶ Alternative LÃ¶sung zur Verhinderung von Bank Runs:
+Einlagenversicherung (deposit insurance)
+â–¶ Funktionsweise: Verluste der Einleger werden durch die
+Einlagenversicherung ausgeglichen â†’ Einleger erhalten auf
+jeden Fall die versprochene RÃ¼ckzahlung
+â–¶ Folge: Typ-2-Konsumenten haben keinen Anreiz, die Bank zu
+stÃ¼rmen
+â–¶ Da es im Gleichgewicht nie zum Bank Run kommt, mÃ¼ssen
+keine PrÃ¤mien fÃ¼r die Einlagenversicherung gezahlt werden
+â–¶ Auch hier kann die First-best-LÃ¶sung erreicht werden, wenn
+der Anteil Ï€ nicht-stochastisch ist
+1
+
+---PAGE---
+
+Einlagenversicherung und aggregiertes LiquiditÃ¤tsrisiko
+â–¶ Man kann zeigen, dass eine staatliche Einlagenversicherung
+auch bei aggregiertem LiquiditÃ¤tsrisiko die
+First-best-LÃ¶sung erreichen kann
+â–¶ Idee: Die Regierung erhebt eine optimale Steuer, um die
+Einlagenversicherung zu finanzieren
+â–¶ Hier: Steuer auf Konsumenten, die frÃ¼h abheben
+â–¶ Die Einlagenversicherung kann den Konsum durch
+Besteuerung der Konsumenten so umverteilen, dass die
+optimale Risikoteilung erreicht wird
+
+---PAGE---
+
+â–¶ Einlagenversicherungen kÃ¶nnen zu Moral Hazard fÃ¼hren
+â–¶ Grund: Einleger haben keinen Anreiz mehr, das Verhalten ihrer
+Bank zu Ã¼berwachen
+â–¶ Dies kÃ¶nnte zu einer Ã¼bermÃ¤ÃŸigen RisikoÃ¼bernahme der
+Bank fÃ¼hren
+â‡’ AbwÃ¤lzung der Verluste auf die Einlagensicherung
+(vergleiche vorne: Asset Substitution bei Verschuldung)
+â–¶ Im Rahmen des Diamond/Dybvig-Modells tritt dieses Problem
+nicht auf, da die Risikowahl der Bank nicht betrachtet wird
+â–¶ AuÃŸerdem: MÃ¶gliche Verzerrungen durch Besteuerung der
+Konsumenten
+Probleme der Einlagenversicherung
+
+---PAGE---
+
+Probleme der Einlagenversicherung
+â–¶ Einlagenversicherungen kÃ¶nnen zu Moral Hazard fÃ¼hren
+â–¶ Grund: Einleger haben keinen Anreiz mehr, das Verhalten ihrer
+Bank zu Ã¼berwachen
+â–¶ Dies kÃ¶nnte zu einer Ã¼bermÃ¤ÃŸigen RisikoÃ¼bernahme der
+Bank fÃ¼hren
+â‡’ AbwÃ¤lzung der Verluste auf die Einlagensicherung
+(vergleiche vorne: Asset Substitution bei Verschuldung)
+â–¶ Im Rahmen des Diamond/Dybvig-Modells tritt dieses Problem
+nicht auf, da die Risikowahl der Bank nicht betrachtet wird
+â–¶ AuÃŸerdem: MÃ¶gliche Verzerrungen durch Besteuerung der
+Konsumenten
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983) als
+Modell zur ErklÃ¤rung von Bank Runs und Bankenkrisen
+â–¶ Theorie ist unbefriedigend wegen der Existenz multipler
+Gleichgewichte
+â–¶ Das Modell sagt nichts darÃ¼ber aus, unter welchen
+UmstÃ¤nden es zu einem Bank Run kommt: â€œa bad earnings
+report, a commonly observed run at some other bank, a
+negative government forecast, or even sunspotsâ€
+â†’ Es muss keinen fundamentalen Zusammenhang zwischen
+dem Signal und dem Zustand der Bank geben
+â–¶ Dies scheint der empirischen Evidenz zu widersprechen, die
+nahelegt, dass Bank Runs mit der Ertragslage von Banken
+und mit konjunkturellen Zyklen zusammenhÃ¤ngen
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983)
+â–¶ Da die Determinanten von Runs im Modell beliebig sind, kann
+man keine Aussagen Ã¼ber die Wahrscheinlichkeit eines
+Bank Runs treffen und auch keine komparative Statik
+bezÃ¼glich dieser Wahrscheinlichkeit durchfÃ¼hren
+â–¶ Die Theorie von Diamond/Dybvig ist letztlich nicht testbar:
+Jede Evidenz ist mit dem Modell kompatibel
+â–¶ SpÃ¤tere Literatur, insb. â€œglobal gamesâ€ (Goldstein/Pauzner
+Journal of Finance, 2005): Durch VerÃ¤nderungen der
+Annahmen bezÃ¼glich der Information der Agenten kann man
+zu eindeutigen Gleichgewichten gelangen
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983)
+â–¶ Bei Diamond/Dybvig gibt es nur eine Bank
+â†’ Keine Aussage Ã¼ber die StabilitÃ¤t des Bankensystems
+â–¶ Es kann nur dann zu einer allgemeinen Bankenkrise kommen,
+wenn sich die Einleger unterschiedlicher Banken auf Basis
+desselben Signals koordinieren
+â‡’ Unbefriedigende ErklÃ¤rung von Bankenkrisen
+â–¶ GroÃŸe Literatur Ã¼ber Ansteckungseffekte im Bankensystem
+(Chen, Journal of Political Economy, 1999, Allen und Gale,
+Journal of Political Economy, 2000)
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983)
+â–¶ Banken brechen bei Diamond/Dybvig zusammen, weil sie
+illiquide sind, nicht weil die Ertragslage schlecht ist
+â–¶ Alternative Theorie: Information-based runs
+â†’ Einleger erhalten Signale Ã¼ber die Ertragslage ihrer Bank
+und mÃ¼ssen dann entscheiden, ob sie ihre Einlagen abziehen
+oder nicht (Chari/Jagannathan, Journal of Finance 1988,
+Jacklin/Bhattacharya, Journal of Political Economy 1988)
+â–¶ Empirie: Bankenkrisen treten hÃ¤ufig in Rezessionen auf, die
+auch mit einer schlechten Ertragslage der Banken einhergehen
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Diamond/Dybvig (1983)
+â–¶ Trotz dieser EinschrÃ¤nkungen ist das Diamond/Dybvig-Modell
+noch immer das Standardmodell zur Modellierung der
+InstabilitÃ¤t von Banken
+â–¶ Wesentlicher Beitrag des Modells: Es zeigt, dass der
+Einlagenvertrag notwendig ist, um eine
+LiquiditÃ¤tsversicherung zu gewÃ¤hrleisten, dass dieser aber
+gleichzeitig auch die InstabilitÃ¤t des Bankensystems bedingt
+â–¶ Paper hat eine sehr groÃŸe Folgeliteratur angestoÃŸen
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+â–¶ Idee: Die MÃ¶glichkeit eines Runs kann die Bank in ihrem
+Verhalten disziplinieren
+â–¶ Zentrale AufsÃ¤tze in diesem Bereich: Calomiris/Kahn
+(American Economic Review, 1991), Diamond/Rajan (Journal
+of Political Economy, 2001)
+6.4 Effiziente Bank Runs
+â–¶ Bei Diamond/Dybvig (1983) sind Bank Runs ineffizient, da sie
+zu ineffizienten Liquidationen und zu einer ZerstÃ¶rung der
+optimalen Risikoteilung fÃ¼hren
+â–¶ Aber: Bank Runs (bzw. die MÃ¶glichkeit von Bank Runs)
+kÃ¶nnen mÃ¶glicherweise auch effizient sein
+
+---PAGE---
+
+6.4 Effiziente Bank Runs
+â–¶ Bei Diamond/Dybvig (1983) sind Bank Runs ineffizient, da sie
+zu ineffizienten Liquidationen und zu einer ZerstÃ¶rung der
+optimalen Risikoteilung fÃ¼hren
+â–¶ Aber: Bank Runs (bzw. die MÃ¶glichkeit von Bank Runs)
+kÃ¶nnen mÃ¶glicherweise auch effizient sein
+â–¶ Idee: Die MÃ¶glichkeit eines Runs kann die Bank in ihrem
+Verhalten disziplinieren
+â–¶ Zentrale AufsÃ¤tze in diesem Bereich: Calomiris/Kahn
+(American Economic Review, 1991), Diamond/Rajan (Journal
+of Political Economy, 2001)
+
+---PAGE---
+
+Calomiris/Kahn (AER 1991)
+â–¶ Moral-hazard-Problem auf Seiten der Bank: Banker kann
+die eingelegten Gelder nehmen und â€œweglaufenâ€
+â–¶ Dies kann durch einen Bank Run verhindert werden, der
+allerdings zur Liquidation des Projektes fÃ¼hrt
+â–¶ Die ErmÃ¶glichung eines Runs (durch jederzeit abhebbare
+Einlagen) kann hier effizient sein, weil die Bank so an
+unerwÃ¼nschten Handlungen gehindert wird
+â–¶ Dann werden die Einleger bereit sein, aus Wohlfahrtssicht
+effiziente Projekte zu finanzieren, die ansonsten gar nicht
+zustande kÃ¤men
+
+---PAGE---
+
+Calomiris/Kahn (AER 1991)
+â–¶ Im Modell mÃ¼ssen die Einleger die Bank Ã¼berwachen, um
+potenzielles Fehlverhalten zu entdecken
+â–¶ Bei der UÂ¨berwachung kommt es jedoch zum einem
+Trittbrettfahrerproblem (free rider problem): Die Kosten
+fallen bei demjenigen an, der kontrolliert, aber alle Einleger
+kÃ¶nnen vom Ergebnis der UÂ¨berwachung profitieren
+â–¶ Die EinfÃ¼hrung einer Sequential Service Constraint kann
+effizient sein, weil diese den Einlegern den Anreiz gibt, das
+Ã¶ffentliche Gut â€œBankenkontrolleâ€ bereitzustellen: Als
+Kompensation fÃ¼r die Kontrollkosten erhalten die Einleger
+einen Platz weiter vorne in der Schlange
+â–¶ Zur Erinnerung: Bei Diamond/Dybvig (1983) war die
+Sequential Service Constraint der Hauptgrund fÃ¼r die
+InstabilitÃ¤t der Banken
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Calomiris/Kahn (1991)
+â–¶ Hauptbeitrag des Modells:
+1. Modell erklÃ¤rt die Existenz der Sequential Service
+Constraint
+2. Modellierung effizienter Bank Runs
+â–¶ Entscheidende Frage: Ist es plausibel anzunehmen, dass die
+Einleger reagieren kÃ¶nnen, bevor sich das unerwÃ¼nschte
+Verhalten des Bankers materialisiert hat?
+â–¶ In der RealitÃ¤t ist es sehr schwierig fÃ¼r die Einleger, das
+Fehlverhalten eines Bankers frÃ¼hzeitig zu erkennen
+
+---PAGE---
+
+Kritische WÃ¼rdigung von Calomiris/Kahn (1991)
+â–¶ Die Effizienz von Bank Runs beruht im Modell wesentlich auf
+der Annahme, dass eine Liquidation der Bank weniger teuer
+ist als das unerwÃ¼nschte Verhalten des Bankers
+â–¶ In der RealitÃ¤t sind Bank Runs sehr teuer, vor allem wenn ein
+groÃŸer Teil des Bankensystems betroffen ist
+â–¶ Die MÃ¶glichkeit von Ansteckungseffekten zieht die Effizienz
+von Bank Runs in Zweifel
+
+---PAGE---
+
+Wirtschaftspolitische Relevanz
+â–¶ Folge aus Diamond/Dybvig (1983): Bank Runs sind ineffizient
+und mÃ¼ssen verhindert werden, zum Beispiel durch eine
+Aufhebung der KonvertibilitÃ¤t oder durch eine
+Einlagenversicherung
+â–¶ Hier: Bank Runs kÃ¶nnen effizient sein und Anreizprobleme auf
+Seiten der Bank abmildern, daher sollten sie nicht verhindert
+werden
+â–¶ Also: Marktdisziplin als Substitut der staatlichen
+Regulierung, zum Beispiel Ã¼ber nachrangige Schuldtitel
+(subordinated debt) â‡’ Wichtiges Prinzip der Regulierung
+(SÃ¤ule 3 des Basler Abkommens)
+
+---PAGE---
+
+Marktdisziplin
+â–¶ Frage: Wer ist der â€œMarktâ€, der die Banken disziplinieren soll?
+â–¶ Private Einleger sind typischerweise zu klein und uninformiert,
+um die Probleme rechtzeitig zu erkennen und einzugreifen
+â–¶ Alternative: Marktdisziplin durch groÃŸe, informierte GlÃ¤ubiger
+â–¶ Transparenz und Offenlegungspflichten sind wichtige
+Voraussetzungen fÃ¼r Marktdisziplin
+
+---PAGE---
+
+Schaffung von Marktdisziplin Ã¼ber nachrangige Schulden
+â–¶ Vorschlag von Calomiris: Jede Bank sollte verpflichtet werden,
+sich zu einem gewissen Grade durch nachrangige Schulden
+zu finanzieren
+â–¶ Da diese Schulden nur nachrangig bedient werden (junior
+debt), sollten die GlÃ¤ubiger einen groÃŸen Anreiz haben, die
+Bank sorgfÃ¤ltig zu Ã¼berwachen
+â–¶ Wenn diese Schulden Ã¶ffentlich gehandelt werden, liefern die
+beobachteten RisikoprÃ¤mien zudem Informationen Ã¼ber die
+Situation der Bank
+â–¶ Diese Information kÃ¶nnten sogar von der Bankenaufsicht
+genutzt werden
+â–¶ Aber: Wie zuverlÃ¤ssig sind solche Marktpreise in Krisenzeiten?
+â‡’ Gefahr selbstverstÃ¤rkender Preisspiralen
+
+---PAGE---
+
+Schaffung von Marktdisziplin Ã¼ber nachrangige Schulden
+â–¶ In der globalen Finanzkrise wurden selbst nachrangige
+GlÃ¤ubiger hÃ¤ufig gerettet (Bail-out)
+â‡’ Marktdisziplin funktioniert dann nicht
+â–¶ Ein funktionierendes Abwicklungsregime fÃ¼r Banken ist
+eine wesentliche Voraussetzung fÃ¼r das Funktionieren von
+Marktdisziplin Ã¼ber (nachrangige) GlÃ¤ubiger
+â–¶ Die Nachkrisenregulierung greift die VorschlÃ¤ge von Calomiris
+in Form einer Verpflichtung von bail-in-fÃ¤higen
+Verbindlichkeiten (bail-inable debt) auf (TLAC, MREL)
+â–¶ Offene Frage: Kommt es in einer Krisensituation wirklich zu
+einem Bail-in solcher Verbindlichkeiten, wenn gleichzeitig viele
+Banken davon betroffen sind?
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+6.5 Ansteckungseffekte im Finanzsystem
+â–¶ Bislang: Betrachtung eines Bank Runs bei einer
+reprÃ¤sentativen Bank
+â–¶ In der RealitÃ¤t kommt es hingegen immer wieder zu
+Bankenkrisen, die mehr als eine Bank betreffen
+â–¶ Bankenkrise (banking panic) = simultaner Zusammenbruch
+eines signifikanten Teils des Bankensystems
+â–¶ Das Risiko des Zusammenbruchs eines signifikanten Teils des
+Finanzsystems bezeichnet man als systemisches Risiko
+
+---PAGE---
+
+GrÃ¼nde fÃ¼r Bankenkrisen
+â–¶ Zwei MÃ¶glichkeiten:
+(a) Alle Banken werden gleichzeitig von demselben Schock
+(Makroschock) getroffen, z.B. Rezession, Zinsanstieg
+(b) Probleme bei einer einzelnen Bank weiten sich auf das gesamte
+Bankensystem aus = Ansteckung (contagion)
+â–¶ Beachte: Systemische Risiken sind (neben dem
+Einlegerschutz) die zentrale BegrÃ¼ndung fÃ¼r die Regulierung
+des Bankensektors
+
+---PAGE---
+
+(a) MakroÃ¶konomische Schocks
+â–¶ Beobachtung: Bankenkrisen treffen hÃ¤ufig im Zusammenhang
+mit makroÃ¶konomischen Schocks auf, zum Beispiel nach
+Zinsanstiegen
+â–¶ Finanzkrisen traten nach dem Zusammenbruch des
+Bretton-Woods-Systems (weltweites System fester
+Wechselkurse) im Jahr 1973 weit hÃ¤ufiger auf als in der
+Nachkriegszeit
+â–¶ MÃ¶gliche ErklÃ¤rung: ErhÃ¶hte VolatilitÃ¤t wichtiger
+makroÃ¶konomischer Variablen wie Zinsen und Wechselkurse
+
+---PAGE---
+
+MakroÃ¶konomische Schocks
+â–¶ Daher spielen makroÃ¶konomische Schocks eine wichtige Rolle
+bei der ErklÃ¤rung von Bankenkrisen
+
+---PAGE---
+
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind Ã¼ber VertrÃ¤ge
+miteinander verflochten, daher kÃ¶nnen sich Probleme bei einer
+Bank auf das Bankensystem ausweiten (Dominoeffekte)
+(3) MakroÃ¶konomische RÃ¼ckkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+einer Bank beeinflusst die HÃ¶he von Preisen oder Zinsen und
+dadurch indirekt die LiquiditÃ¤t und Solvenz anderer Banken
+(b) KanÃ¤le der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+Zusammenbruch einer Bank enthÃ¤lt Informationen Ã¼ber den
+Zustand der anderen Banken
+
+---PAGE---
+
+(3) MakroÃ¶konomische RÃ¼ckkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+einer Bank beeinflusst die HÃ¶he von Preisen oder Zinsen und
+dadurch indirekt die LiquiditÃ¤t und Solvenz anderer Banken
+(b) KanÃ¤le der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+Zusammenbruch einer Bank enthÃ¤lt Informationen Ã¼ber den
+Zustand der anderen Banken
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind Ã¼ber VertrÃ¤ge
+miteinander verflochten, daher kÃ¶nnen sich Probleme bei einer
+Bank auf das Bankensystem ausweiten (Dominoeffekte)
+
+---PAGE---
+
+(b) KanÃ¤le der Ansteckung im Bankensystem
+(1) Information (Chen, Journal of Political Economy 1999): Der
+Zusammenbruch einer Bank enthÃ¤lt Informationen Ã¼ber den
+Zustand der anderen Banken
+(2) Interbankenverbindlichkeiten (Allen/Gale, Journal of
+Political Economy 2000): Banken sind Ã¼ber VertrÃ¤ge
+miteinander verflochten, daher kÃ¶nnen sich Probleme bei einer
+Bank auf das Bankensystem ausweiten (Dominoeffekte)
+(3) MakroÃ¶konomische RÃ¼ckkopplungen (Diamond/Rajan,
+Journal of Finance 2005; Allen/Gale, Journal of the European
+Economic Association 2004; Cifuentes/Ferrucci/Shin, JEEA
+2005; Brunnermeier/Pedersen, RFS 2009): Zusammenbruch
+einer Bank beeinflusst die HÃ¶he von Preisen oder Zinsen und
+dadurch indirekt die LiquiditÃ¤t und Solvenz anderer Banken
+
+---PAGE---
+
+(1) Ansteckungseffekte Ã¼ber Information (Chen, JPE 1999)
+â–¶ AÂ¨hnlicher Modellrahmen wie Diamond/Dybvig, aber mit
+riskanten ProjektertrÃ¤gen und heterogenen Einlegern mit
+unterschiedlichen Informationen Ã¼ber die BankertrÃ¤ge
+â–¶ Wenn die ErtrÃ¤ge verschiedener Banken korreliert sind, enthÃ¤lt
+der Zusammenbruch einer Bank Informationen Ã¼ber den
+Zustand anderer Banken
+â–¶ Uninformierte Einleger haben dann den Anreiz, auf ein
+Problem bei einer Bank mit einem Einlagenabzug bei einer
+anderen Bank zu reagieren, um als erste in der Schlange zu
+stehen und eine volle RÃ¼ckzahlung der Einlage zu erhalten
+(Sequential Service Constraint)
+â–¶ Dann mÃ¼ssen aber auch informierte Einleger ihre Einlagen
+abziehen, selbst wenn sie wissen, dass die ErtrÃ¤ge der Bank
+hoch sind
+â–¶ Andernfalls wÃ¼rden sie nÃ¤mlich keine RÃ¼ckzahlung erhalten
+
+---PAGE---
+
+(2) Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+(Allen/Gale, JPE 2000)
+â–¶ Modellierung eines Bankensystems mit regionalen
+LiquiditÃ¤tsschocks
+â–¶ Ein Interbankenmarkt kann eine optimale Risikoteilung im
+Bankensystem gewÃ¤hrleisten, selbst wenn es auf Ebene der
+Bank eine Unsicherheit Ã¼ber die LiquiditÃ¤tsnachfrage durch
+die Einleger gibt
+â‡’ LiquiditÃ¤t wird Ã¼ber den Interbankenmarkt umverteilt
+â–¶ In Abwesenheit aggregierter LiquiditÃ¤tsschocks kann die
+LiquiditÃ¤t immer so umverteilt werden, dass die effiziente
+(First-best-) LÃ¶sung erreicht wird
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+â–¶ Ein aggregierter LiquiditÃ¤tsschock kann Ã¼ber den
+Interbankenmarkt zu einem Zusammenbruch des gesamten
+Finanzsystems fÃ¼hren, selbst wenn der Schock nur eine
+einzelne Bank trifft
+â–¶ Die vom anfÃ¤nglichen LiquiditÃ¤tsschock betroffene Bank
+kÃ¶nnte gezwungen sein, ihre (liquiden) Interbankenforderungen
+und ihre (illiquiden) langfristigen VermÃ¶gensgegenstÃ¤nde zu
+liquidieren (letztere mit Liquidationsverlust)
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+â–¶ Wenn die Bank nicht einmal bei Liquidierung in der Lage ist,
+ihre Einlagen zurÃ¼ckzuzahlen, kommt es zu einem Bank Run
+(durch die normalen Einleger, aber auch durch andere
+Banken)
+â–¶ Beachte: Dieser Run wird nicht durch selbsterfÃ¼llende
+Erwartungen getrieben, sondern durch ein fundamentales
+Problem
+â–¶ Wenn andere Banken durch den Zahlungsausfall der ersten
+Bank Verluste erleiden, kann dies zu weiteren
+ZusammenbrÃ¼chen fÃ¼hren, wenn die Verluste groÃŸ genug sind
+(Dominoeffekte)
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+â–¶ Die Verletzlichkeit des Finanzsystems hÃ¤ngt von der
+Struktur des Interbankenmarktes ab
+â–¶ VollstÃ¤ndige Strukturen (alle Banken sind mit allen anderen
+Banken verbunden) sind im Allgemeinen stabiler als
+unvollstÃ¤ndige Strukturen (z.B. Kettenstruktur)
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+â–¶ Unverbundene Strukturen (getrennte Systeme) sind stabiler
+als verbundene
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+â–¶ Zentrale Ergebnisse des Aufsatzes von Allen und Gale (2000):
+â–¶ InterbankenmÃ¤rkte erfÃ¼llen eine wichtige Funktion: Sie
+versichern Banken gegen regionale LiquiditÃ¤tsschocks
+â–¶ Aber: Die Vernetzung macht das Finanzsystem gleichzeitig
+instabil, vor allem wenn die Marktstrukturen unvollstÃ¤ndig sind
+
+---PAGE---
+
+(3) Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Fire Sales
+â–¶ Bislang sind wir davon ausgegangen, dass die Liquidierung
+illiquider Assets zu einem exogenen Liquidationsverlust fÃ¼hrt
+â–¶ In der RealitÃ¤t werden die Liquidationsverluste hingegen in
+MÃ¤rkten bestimmt
+â–¶ Sind gleichzeitig viele Banken gezwungen, Assets zu
+verkaufen, kÃ¶nnen die Marktpreise unter den fundamentalen
+Wert fallen
+â–¶ Die zu erzielenden Preise hÃ¤ngen von der im Markt
+verfÃ¼gbaren LiquiditÃ¤t ab (liquidity pricing)
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Fire Sales
+â–¶ Folge: Wenn Banken ihre Assets schnell verkaufen mÃ¼ssen
+(NotverkÃ¤ufe, fire sales), trifft der sich ergebende Preisverfall
+indirekt alle Halter des Assets
+â–¶ Solche Effekte dÃ¼rften am stÃ¤rksten ausgeprÃ¤gt sein, wenn
+viele Banken Ã¤hnliche Assets in ihren Portfolios halten und
+wenn die Bilanzierungsregeln die Banken zwingen, die Assets
+zu Marktpreisen zu bewerten (mark-to-market accounting)
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Fire Sales
+â–¶ Das Verhalten einer Bank hat hier RÃ¼ckwirkungen auf
+makroÃ¶konomische Variablen und beeinflusst somit selbst
+solche Banken, mit denen sie gar nicht direkt Ã¼ber
+Vertragsbeziehungen verbunden ist
+â–¶ Der ursprÃ¼ngliche Schock wird durch die makroÃ¶konomischen
+RÃ¼ckkopplungen verstÃ¤rkt
+â–¶ Intrinsisch solvente Banken kÃ¶nnen so insolvent werden,
+obwohl sie solvent wÃ¤ren, wenn die Assets zu ihrem
+fundamentalen Wert bewertet wÃ¼rden
+â–¶ Diese Art von Effekt scheint in der globalen Finanzkrise eine
+wichtige Rolle gespielt zu haben
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Deleveraging
+â–¶ In einer Rezession reduzieren Banken typischerweise ihre
+Bilanzen/Kreditvergabe, um das Risiko zu reduzieren
+(teilweise aus regulatorischen GrÃ¼nden, weil das Eigenkapital
+der Banken fÃ¤llt) â‡’ Deleveraging
+â–¶ Wenn Kreditnehmer von der Bankfinanzierung abhÃ¤ngen
+(insbesondere kleine, intransparente Unternehmen), fÃ¼hrt das
+Absinken der Kreditvergabe zu einem RÃ¼ckgang der
+aggregierten Nachfrage und verstÃ¤rkt so die Rezession
+(finanzieller Akzelerator)
+â–¶ Dies hat weitere Feedback-Effekte zur Folge: ZusÃ¤tzliche
+KreditausfÃ¤lle â†’ fallendes Eigenkapital der Banken â†’
+weiteres Deleveraging â†’ weitere VerschÃ¤rfung der Rezession
+â†’ zusÃ¤tzliche KreditausfÃ¤lle ...
+
+---PAGE---
+
+Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Deleveraging
+â–¶ AÂ¨hnlich wie bei NotverkÃ¤ufen werden die makroÃ¶konomischen
+Schocks durch die Feedback-Effekte im Finanzsektor verstÃ¤rkt
+â–¶ Ein Deleveraging kann auch direkte Effekte auf andere
+Banken haben, wenn die Banken ihre Kreditvergabe im
+Interbankenmarkt reduzieren
+â–¶ Dies ist wie ein Bank Run durch andere Banken
+â–¶ Es kann die anderen Banken zu NotverkÃ¤ufen veranlassen und
+damit zu Ã¤hnlichen Preisspiralen fÃ¼hren wie oben beschrieben
+
+---PAGE---
+
+Wirtschaftspolitische Relevanz
+â–¶ Ansteckungseffekte spielen in der wirtschaftspolitischen
+Debatte eine wichtige Rolle
+â–¶ Angst vor Ansteckungseffekten wird immer wieder als
+Rechtfertigung fÃ¼r staatliche RettungsmaÃŸnahmen im
+Bankensystem benutzt
+â–¶ Der Zusammenbruch insolventer Banken wird aus Angst vor
+Ansteckungseffekten verhindert (Ã¤hnliche Argumente wurden
+in der Krise im Euroraum fÃ¼r Staaten verwendet)
+â–¶ Problem:
+â–¶ Nicht-profitable Banken werden kÃ¼nstlich am Leben erhalten,
+wodurch der Marktmechanismus auÃŸer Kraft gesetzt wird
+â–¶ Erwartung der Rettung (Bail-out) setzt adverse Anreize fÃ¼r die
+Banken (Ã¼bermÃ¤ÃŸige RisikoÃ¼bernahme), und es kommt zu
+einer SchwÃ¤chung der Marktdisziplin
+
+---PAGE---
+
+Empirische Evidenz zu Ansteckungseffekten
+â–¶ Bislang gibt es nur relativ schwache Evidenz fÃ¼r
+Ansteckungseffekte im Bankensystem Ã¼ber
+InformationskanÃ¤le: Die Einleger scheinen relativ gut
+zwischen verschiedenen Banken unterscheiden zu kÃ¶nnen
+â–¶ Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten
+wurden zwar nachgewiesen, kÃ¶nnen aber aufgrund ihrer relativ
+kleinen GrÃ¶ÃŸenordnung die Schwere von Ansteckungseffekten
+im Finanzsystem nicht erklÃ¤ren
+â–¶ Zunehmende Evidenz fÃ¼r makroÃ¶konomische
+RÃ¼ckkopplungseffekte, Ã¼ber die anfÃ¤nglich kleine Schocks
+verstÃ¤rkt werden
+
+---PAGE---
+
+Ansteckungseffekte in der globalen Finanzkrise
+â–¶ AuslÃ¶ser der Krise: Einbruch der Immobilienpreise in den USA
+(= makroÃ¶konomischer Schock)
+â–¶ Ansteckungseffekte Ã¼ber Information: Ja, vor allem in
+InterbankenmÃ¤rkten (auf dem HÃ¶hepunkt der Krise auch
+unter den Einlegern)
+â–¶ Ansteckungseffekte Ã¼ber Interbankenverbindlichkeiten:
+Ja, aber weniger durch traditionelle Interbankenkredite,
+sondern eher durch Kreditderivate, Repos etc. (AIG!)
+â–¶ Ansteckungseffekte Ã¼ber makroÃ¶konomische
+RÃ¼ckkopplungen: Ja, vor allem fÃ¼r strukturierte Produkte
+(CDOs, mortgage backed securities etc.)
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+6.6 Der Lender of Last Resort
+â–¶ Moderne Zentralbanken fungieren in Krisenzeiten als Lender
+of Last Resort
+â–¶ Idee: Die Bereitstellung von LiquiditÃ¤t in Krisenzeiten soll
+verhindern, dass Banken, die intrinsisch solvent, aber illiquide
+sind, zusammenbrechen
+â–¶ Dies ist strikt zu trennen von einer ZufÃ¼hrung von
+Eigenkapital, bei der es um die Wiederherstellung der
+Solvenz geht (Bail-out)
+â–¶ Idee geht zurÃ¼ck auf Bagehot (1873)
+
+---PAGE---
+
+Der Lender of Last Resort bei Bagehot (1873)
+1. Der LoLR vergibt Kredite nur an illiquide, aber solvente
+Finanzinstitutionen
+2. Um zu verhindern, dass Banken sich regelmÃ¤ÃŸig Ã¼ber diese
+Kredite finanzieren, muss ein Strafzins verlangt werden
+3. Die Banken mÃ¼ssen Sicherheiten bereitstellen, die allerdings
+zu Vorkrisenpreisen bewertet werden
+4. Der LoLR kÃ¼ndigt im Vorfeld die Bedingungen an, unter
+denen er in einer Krise Kredite bereitstellt
+
+---PAGE---
+
+â–¶ Bei aggregierten LiquiditÃ¤tsengpÃ¤ssen ist nur die
+Zentralbank in der Lage, zusÃ¤tzliche LiquiditÃ¤t bereitzustellen
+â–¶ Aber: WÃ¼rde es dann nicht reichen, dem Markt LiquiditÃ¤t
+bereitzustellen (z.B. Ã¼ber Offenmarktoperationen), statt
+Kredite an einzelne Institute zu vergeben?
+â–¶ In Krisenzeiten ist niemand bereit, einer angeschlagenen Bank
+einen Kredit zu geben (Beispiel: Zusammenbruch des
+Interbankenmarktes in der globalen Finanzkrise)
+â–¶ Grund: Aufgrund asymmetrischer Informationen halten Banken
+lieber UÂ¨berschussliquiditÃ¤t, als im Interbankenmarkt Kredite zu
+vergeben
+â–¶ Auch hÃ¶here Zinsangebote helfen nicht, da diese zu adverser
+Selektion oder Moral Hazard fÃ¼hren kÃ¶nnen (Stiglitz und
+Weiss, AER 1981)
+Fragen und Probleme
+â–¶ Warum kann der (Interbanken-) Markt die LiquiditÃ¤t nicht
+bereitstellen?
+
+---PAGE---
+
+Fragen und Probleme
+â–¶ Warum kann der (Interbanken-) Markt die LiquiditÃ¤t nicht
+bereitstellen?
+â–¶ Bei aggregierten LiquiditÃ¤tsengpÃ¤ssen ist nur die
+Zentralbank in der Lage, zusÃ¤tzliche LiquiditÃ¤t bereitzustellen
+â–¶ Aber: WÃ¼rde es dann nicht reichen, dem Markt LiquiditÃ¤t
+bereitzustellen (z.B. Ã¼ber Offenmarktoperationen), statt
+Kredite an einzelne Institute zu vergeben?
+â–¶ In Krisenzeiten ist niemand bereit, einer angeschlagenen Bank
+einen Kredit zu geben (Beispiel: Zusammenbruch des
+Interbankenmarktes in der globalen Finanzkrise)
+â–¶ Grund: Aufgrund asymmetrischer Informationen halten Banken
+lieber UÂ¨berschussliquiditÃ¤t, als im Interbankenmarkt Kredite zu
+vergeben
+â–¶ Auch hÃ¶here Zinsangebote helfen nicht, da diese zu adverser
+Selektion oder Moral Hazard fÃ¼hren kÃ¶nnen (Stiglitz und
+Weiss, AER 1981)
+
+---PAGE---
+
+â–¶ Die Zentralbank unterliegt Ã¤hnlichen Informationsproblemen
+wie der Markt, sofern sie keinen Zugriff auf aufsichtliche
+Informationen hat
+â–¶ AuÃŸerdem kann die IlliquiditÃ¤t einer Bank leicht zur Insolvenz
+fÃ¼hren
+â–¶ Beispiel: Bank muss ihre VermÃ¶gensgegenstÃ¤nde zu
+Schleuderpreisen verkaufen, um liquide zu bleiben (fire sales)
+â–¶ Beachte: Jede LiquiditÃ¤tsbeschaffung bei der Zentralbank
+erfordert die Bereitstellung von Sicherheiten (typischerweise
+Staatsanleihen)
+â–¶ Besteht die Gefahr von Ansteckungseffekten, sollten ggf. auch
+insolvente Banken unterstÃ¼tzt werden
+Fragen und Probleme
+â–¶ Kann die Zentralbank Ã¼berhaupt zwischen der IlliquiditÃ¤t und
+der Insolvenz einer Bank unterscheiden?
+
+---PAGE---
+
+Fragen und Probleme
+â–¶ Kann die Zentralbank Ã¼berhaupt zwischen der IlliquiditÃ¤t und
+der Insolvenz einer Bank unterscheiden?
+â–¶ Die Zentralbank unterliegt Ã¤hnlichen Informationsproblemen
+wie der Markt, sofern sie keinen Zugriff auf aufsichtliche
+Informationen hat
+â–¶ AuÃŸerdem kann die IlliquiditÃ¤t einer Bank leicht zur Insolvenz
+fÃ¼hren
+â–¶ Beispiel: Bank muss ihre VermÃ¶gensgegenstÃ¤nde zu
+Schleuderpreisen verkaufen, um liquide zu bleiben (fire sales)
+â–¶ Beachte: Jede LiquiditÃ¤tsbeschaffung bei der Zentralbank
+erfordert die Bereitstellung von Sicherheiten (typischerweise
+Staatsanleihen)
+â–¶ Besteht die Gefahr von Ansteckungseffekten, sollten ggf. auch
+insolvente Banken unterstÃ¼tzt werden
+
+---PAGE---
+
+â–¶ Banken verlassen sich darauf, dass sie im Krisenfall unterstÃ¼tzt
+werden
+â–¶ Dies kann zu einer unzureichenden LiquiditÃ¤tshaltung der
+Banken fÃ¼hren (Lender of First Resort)
+â–¶ LÃ¶sung: Konstruktive AmbiguitÃ¤t (constructive ambiguity)?
+Dies widersprÃ¤che allerdings den Kriterien von Bagehot
+Fragen und Probleme
+â–¶ LoLR fÃ¼hrt zu Anreizproblemen bei den Banken
+
+---PAGE---
+
+Fragen und Probleme
+â–¶ LoLR fÃ¼hrt zu Anreizproblemen bei den Banken
+â–¶ Banken verlassen sich darauf, dass sie im Krisenfall unterstÃ¼tzt
+werden
+â–¶ Dies kann zu einer unzureichenden LiquiditÃ¤tshaltung der
+Banken fÃ¼hren (Lender of First Resort)
+â–¶ LÃ¶sung: Konstruktive AmbiguitÃ¤t (constructive ambiguity)?
+Dies widersprÃ¤che allerdings den Kriterien von Bagehot
+
+---PAGE---
+
+â–¶ Widerspruch zur PreisstabilitÃ¤t (in Krisenzeiten hÃ¤ufig kein
+Problem, da es dann eher deflationÃ¤re Tendenzen gibt)
+â–¶ Wichtiger: Widerspruch zur WechselkursstabilitÃ¤t,
+insbesondere bei festem Wechselkurssystem
+â†’ Expansive Geldpolitik kann einen Run auf die WÃ¤hrung
+auslÃ¶sen (twin crises)
+â–¶ Negative Auswirkungen auf die FinanzstabilitÃ¤t:
+LiquiditÃ¤tszufÃ¼hrungen kÃ¶nnen zum Aufbau von
+VermÃ¶genspreisblasen beitragen (zum Beispiel in
+Immobilien- und AktienmÃ¤rkten)
+Fragen und Probleme
+â–¶ LoLR-Politik ist gegebenenfalls nicht kompatibel mit anderen
+wirtschaftspolitischen Zielen
+
+---PAGE---
+
+Fragen und Probleme
+â–¶ LoLR-Politik ist gegebenenfalls nicht kompatibel mit anderen
+wirtschaftspolitischen Zielen
+â–¶ Widerspruch zur PreisstabilitÃ¤t (in Krisenzeiten hÃ¤ufig kein
+Problem, da es dann eher deflationÃ¤re Tendenzen gibt)
+â–¶ Wichtiger: Widerspruch zur WechselkursstabilitÃ¤t,
+insbesondere bei festem Wechselkurssystem
+â†’ Expansive Geldpolitik kann einen Run auf die WÃ¤hrung
+auslÃ¶sen (twin crises)
+â–¶ Negative Auswirkungen auf die FinanzstabilitÃ¤t:
+LiquiditÃ¤tszufÃ¼hrungen kÃ¶nnen zum Aufbau von
+VermÃ¶genspreisblasen beitragen (zum Beispiel in
+Immobilien- und AktienmÃ¤rkten)
+
+---PAGE---
+
+Empirische Evidenz
+â–¶ Es gibt umfangreiche empirische Evidenz dafÃ¼r, dass eine
+LoLR-Politik helfen kann, Bankenkrisen zu verhindern oder
+zumindest abzumildern
+â–¶ So ist unstrittig, dass die Zentralbanken die Folgen der
+globalen Finanzkrise maÃŸgeblich abgemildert haben
+â–¶ Andere Krisen hÃ¤tten durch eine LoLR-Politik vielleicht
+vermieden oder abgemildert werden kÃ¶nnen (USA 1929â€“1933)
+
+---PAGE---
+
+Empirische Evidenz
+â–¶ In manchen Situationen hat sich der LoLR jedoch als hilflos
+erwiesen, insbesonderer bei gleichzeitiger Bedrohung des
+Wechselkurses in festen Wechselkurssystemen
+(Deutschland 1931, Thailand 1997)
+â–¶ AuÃŸerdem gibt es Hinweise darauf, dass eine lockere
+Geldpolitik zur Entstehung von zukÃ¼nftigen Krisen beitragen
+kÃ¶nnte, indem sie den Aufbau von VermÃ¶genspreisblasen
+begÃ¼nstigt
+â–¶ Beispiele: Dotcom-Blase in Reaktion auf expansive
+Geldpolitik, lockere Geldpolitik nach dem Platzen der
+Dotcom-Blase und nach dem Anschlag vom 11. September,
+Phase expansiver Geldpolitik zwischen 2008 und 2022?
+
+---PAGE---
+
+Die EZB als Retterin der Banken
+Der Lender of Last Resort in der globalen Finanzkrise
+â–¶ â—® Al M le a w ss i i c v h e t I i n g t e e n rv Z en en ti t o r n al d b e a r n E ke Z n B h in ab R e e n ak in tio d n er au g f lo d b e a n len
+FiZnaunsazmkrmiseendbrieucRhovlloenaBlsanLkoeLnRunÃ¼dbeIrnnteormbamneknenumnÃ¤drkitnenenormem
+Umfang LiquiditÃ¤t in die MÃ¤rkte gepumpt
+â—® Zusammenbruch des Finanzsystems konnte durch
+â–¶ MuamssfiavnegAreuicshweeBituernegitsdteerlluZnegnvtroanlbLaiqnukibdiiltaÃ¤ntzaebnge(w20e0nd7e=t w1e0r0d)e:n
+â–¶ Zusammenbruch des Finanzsystems konnte durch
+umfangreiche Bereitstellung von LiquiditÃ¤t abgewendet werden9/43
+
+---PAGE---
+
+Der Lender of Last Resort in der globalen Finanzkrise
+â–¶ Selbst insolvente Banken erhielten LiquiditÃ¤t, da sich die
+Trennung zwischen insolventen und illiquiden Banken als
+unmÃ¶glich erwies
+â–¶ Banken mussten Sicherheiten stellen, aber es fand eine
+erhebliche Absenkung der QualitÃ¤tsanforderungen an die
+Sicherheiten statt, die allerdings mit hÃ¶heren Haircuts
+(SicherheitsabschlÃ¤gen) einhergingen
+â–¶ Kein Strafzins
+â–¶ Ausweitung der LoLR-AktivitÃ¤ten auf Nicht-Banken, vor
+allem Investmentbanken (zum Beispiel Bear Stearns)
+
+---PAGE---
+
+Erreichen der Nullzinsgrenze und der Beginn von QE
+â–¶ Absenkung der Leitzinsen bis zur effektiven Nullzinsgrenze,
+umfangreiche kurz-/lÃ¤ngerfristige Refinanzierungsoperationen
+â–¶ Leitzins ab September 2014 bei nur noch 0,05%
+â–¶ M KaÃ¤ pit r el z 5 - N2ied0rig1zins6en: wedSer efÃ¼rn dekn Euuron-Ragum ndoche fÃ¼sr DeLutsechilatndz anignemsesesesn auf 0%, Senkung des
+E
+ïƒ˜
+in
+AB
+l
+B
+a
+ILD
+g
+UN
+e
+G
+n
+44
+zinses fÃ¼r Banken von -0,3 auf -0,4%
+EONIA-TagesgeldsatzundLeitzinssÃ¤tzederEZBsowieStrukturderEZB-Aktiva
+EONIAundLeitzinssÃ¤tze StrukturderAktiva
+%p.a. MrdEuro
+2,0 4000
+3500
+1,5
+3000
+1,0 2500
+2000
+0,5 1500
+1000
+0
+500
+-0,5 0
+2012 2013 2014 2015 2016 2012 13 14 15 16 2017
+EONIA1 EinlagefazilitÃ¤t Anleihen2 Ankaufprogramme Hauptrefinanzierungs-
+ZinssatzfÃ¼rHauptrefinanzierungsgeschÃ¤fte derEZB3 geschÃ¤fte
+SpitzenrefinanzierungsfazilitÃ¤t l z Ã¤ ie n r g u e n r g fr s is g t e ig s e ch R Ã¤ e ft f e inan- GLRG4 G W o Ã¤ l h d r - u u n n g d sreserven
+sonstigeAktiva5 Szenario16 Szenario27
+1â€“EuroOvernightIndexAverage.2â€“VonEmittentenausdemEuro-Raum,einschlieÃŸlichderKÃ¤ufevonStaatsanleihen(SMP,CBPP1und2)
+fÃ¼rgeldpolitischeZwecke.3â€“CBPP3(3.CoveredBondPurchaseProgramme),ABSPP(Asset-BackedSecuritiesPurchaseProgramme),PSPP
+(PublicSectorPurchaseProgramme)undCSPP(CorporateSectorPurchaseProgramme).4â€“GLRG-Iundab29.06.2016GLRG-II(Gezielte
+LÃ¤ngerfristigeRefinanzierungsgeschÃ¤fte).5â€“EinschlieÃŸlichsonstigerKrediteanBanken.6â€“AktivableibenunverÃ¤ndert,bisaufdieAnkauf-
+programme.7â€“Szenario1zuzÃ¼glichGLRG-IIdes1.und2.GeschÃ¤ftsauchim3.und4.GeschÃ¤ft(jeweilsrund34MrdEuro). 544/612
+Quelle:EZB Daten zur Abbildung Â©SachverstÃ¤ndigenrat|16-077
+verlÃ¤ngern und damit um weitere 360 Mrd Euro zu erhÃ¶hen sowie TilgungserlÃ¶-
+se aus dem Bestand zu reinvestieren. Der Einlagezins wurde zunÃ¤chst um zehn
+Basispunkte auf â€“0,3 % und im MÃ¤rz 2016 auf â€“0,4 % reduziert. Zu diesem
+Termin senkte die EZB den Hauptrefinanzierungszins von fÃ¼nf Basispunkten auf
+0 %. Die EAPP-AnleihekÃ¤ufe wurden ab April 2016 von 60 Mrd Euro auf 80 Mrd
+Euro erhÃ¶ht, also bis MÃ¤rz 2017 um 240 Mrd Euro insgesamt. Seit Juni 2016
+umfassen die AnleihekÃ¤ufe zusÃ¤tzlich Unternehmensanleihen.
+Nach derzeitigem Stand sollen bis zum Ende des EAPP Anleihen im Wert
+von 1 740 Mrd oder 16,6 % des BIP im Euro-Raum gekauft werden. Ab Juni
+2016 folgten zusÃ¤tzliche gezielte lÃ¤ngerfristige Refinanzierungsge-
+schÃ¤fte (GLRG II). Hiermit kÃ¶nnen sich Banken fÃ¼r vier Jahre zu einem negati-
+ven Festzins von bis zu â€“0,4 % refinanzieren, selbst wenn sie die Kreditvergabe
+nur wenig ausweiten.
+379. Die EZB hat mit diesen MaÃŸnahmen negative Geldmarktzinsen durchge-
+setzt ïƒ˜ ABBILDUNG 44 LINKS und die Bilanz des Euro-Systems mit einem Umfang
+von 3 450 Mrd Euro bereits deutlich Ã¼ber die vorherige HÃ¶chstmarke von 3 102
+Mrd Euro vom Juli 2012 erhÃ¶ht. ïƒ˜ ABBILDUNG 44 RECHTS Seit dem Tiefpunkt vom
+September 2014 mit 1 990 Mrd Euro nahm diese um 74 % zu (14 % des BIP). Bis
+MÃ¤rz 2017 wird die Bilanz etwa 4 000 Mrd Euro erreichen und damit ver-
+doppelt.
+WÃ¤hrend die gegenwÃ¤rtige Ausweitung Ergebnis expansiver MaÃŸnahmen ist,
+kam der vorherige RÃ¼ckgang um etwa 11 % des BIP zwischen Sommer 2012 und
+Winter 2014 nicht durch restriktive MaÃŸnahmen zustande. Vielmehr nutzten
+damals zahlreiche GeschÃ¤ftsbanken die MÃ¶glichkeit der vorzeitigen RÃ¼ckzah-
+186 SachverstÃ¤ndigenrat â€“ Jahresgutachten 2016/17
+
+---PAGE---
+
+Erreichen der Nullzinsgrenze und der Beginn von QE
+â–¶ ZusÃ¤tzlich intervenierten die Zentralbanken massiv in den
+WertpapiermÃ¤rkten, indem sie Wertpapiere direkt am Markt
+aufkauften (Quantitative Easing, quantitative Lockerung)
+â‡’ â€œUnkonventionelleâ€ geldpolitische MaÃŸnahmen
+â–¶ Beachte aber: Hier geht es nicht mehr in erster Linie um die
+Rettung des Bankensystems
+â–¶ Ab MÃ¤rz 2015: Aufkauf von Staats- und
+Unternehmensanleihen (60 Mrd Euro pro Monat)
+â–¶ ErhÃ¶hung auf 80 Mrd Euro (April 2016), dann wieder
+RÃ¼ckfÃ¼hrung auf 60 Mrd Euro (April 2017), auf 30 Mrd Euro
+(Januar 2018) und schlieÃŸlich auf 0 (Januar 2019)
+
+---PAGE---
+
+Bewertung der EZB-Politik
+â–¶ EZB hat in der Krise wesentlich zur Stabilisierung des
+Finanzsystems und des Euroraums beigetragen
+â–¶ Extrem expansive MaÃŸnahmen lieÃŸen sich zunÃ¤chst durch die
+StÃ¶rungen im Finanzsystem und spÃ¤ter durch
+Deflationsgefahren rechtfertigen
+â–¶ MakroÃ¶konomische Entwicklung und Anziehen der Inflation
+stellten die Notwendigkeit der expansiven Geldpolitik aber
+zunehmend infrage und fÃ¼hrten zu einer Beendigung der
+AnleihekÃ¤ufe (beachte: Geldpolitik blieb expansiv!)
+â–¶ AbkÃ¼hlung der Konjunktur fÃ¼hrt zu Rufen nach weiterer
+Lockerung (auch notwendig wÃ¤hrend Covid-19).
+â–¶ Aber: Nebenwirkungen drohen den Nutzen zu Ã¼bersteigen
+â–¶ Ausstieg aus der lockeren Geldpolitik gestaltete sich schwierig
+
+---PAGE---
+
+Risiken der lockeren Geldpolitik
+1. AushÃ¶hlung der GeschÃ¤ftsmodelle von Banken und
+Versicherungen
+2. ErhÃ¶hte RisikoÃ¼bernahme im Finanzsektor
+3. SchwÃ¤chung der Reform- und Konsolidierungsbereitschaft der
+Staaten
+4. Bedrohung der UnabhÃ¤ngigkeit der Zentralbank durch
+fiskalische und finanzielle Dominanz
+
+---PAGE---
+
+III. Finanzinstitutionen
+5. Funktionen von Banken
+5.1 Versicherung gegen LiquiditÃ¤tsschocks
+5.2 Delegierte Kontrolle
+IV. FinanzstabilitÃ¤t
+6. Finanzkrisen und systemische Risiken
+6.1 Das Grundproblem
+6.2 Narrow Banking
+6.3 Aufhebung der KonvertibilitÃ¤t und Einlagenversicherung
+6.4 Effiziente Bank Runs
+6.5 Ansteckungseffekte im Finanzsystem
+6.6 Der Lender of Last Resort
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+
+---PAGE---
+
+6.7 Das â€œToo-big-to-failâ€-PhÃ¤nomen
+â–¶ Von dem Zusammenbruch einer groÃŸen Bank geht potenziell
+eine besonders groÃŸe Gefahr fÃ¼r die StabilitÃ¤t des
+Bankensystems und fÃ¼r die Gesamtwirtschaft aus
+â–¶ Ansteckungseffekte Ã¼ber alle drei KanÃ¤le sind am stÃ¤rksten
+ausgeprÃ¤gt
+â–¶ ZerstÃ¶rung von Kreditbeziehungen hÃ¤tte merklichen Einfluss
+auf die reale Wirtschaft
+â–¶ Folge: Der Staat hat im Krisenfall einen Anreiz, groÃŸe Banken
+zu retten
+â–¶ Daher profitieren groÃŸe Banken hÃ¤ufig von impliziten
+Staatsgarantien
+
+---PAGE---
+
+Das Zeitinkonsistenzproblem der Bankenrettung
+â–¶ Die Erwartung einer Rettung (Bail-out) fÃ¼hrt dazu, dass die
+GlÃ¤ubiger der Banken einen geringeren Anreiz haben, die
+Bank zu kontrollieren â‡’ SchwÃ¤chung der Marktdisziplin
+â–¶ MÃ¶gliche Folge: ErhÃ¶hte RisikoÃ¼bernahme
+â–¶ Daher mÃ¶chte der Staat sich gerne binden, die Bank im
+Krisenfall nicht zu unterstÃ¼tzen
+â–¶ Aufgrund der groÃŸen gesamtwirtschaftlichen Kosten aus einem
+solchen Bankenzusammenbruch sind solche AnkÃ¼ndigungen
+aber hÃ¤ufig nicht glaubwÃ¼rdig
+â–¶ Ex post ist es optimal, groÃŸe Banken zu retten, wenn die
+Kosten des Zusammenbruchs groÃŸ genug sind
+â‡’ Zeitinkonsistenzproblem
+
+---PAGE---
+
+Kapitel 5 â€“ Der weite Weg zu mehr FinanzstabilitÃ¤t in Deutschland und Europa
+durch das Financial Stability Board am Ende des Jahres 2011. Es scheint, als
+hÃ¤tte die explizite EinfÃ¼hrung des G-SIB-Status die impliziten staatlichen
+Garantien bei diesen Banken weiter verfestigt (Moenninghoff et al., 2014).
+Bei den Ã¼brigen Banken stieg das Support Rating Ende des Jahres 2008 eben-
+falls an, allerdings sinkt es seit Ende des Jahres 2010 wieder, wenngleich das
+Vorkrisenniveau bislang nicht erreicht wurde. Dieser Verlauf ist konsistent mit
+Ergebnissen empirischer Untersuchungen zum Finanzierungskostenvorteil aus
+Implizite Staatsgarantien in der Krise (SVR, 2014)
+impliziten Garantien, die Optionspreismethoden nutzen (IWF, 2014a).
+â–¶ Implizite staatliche302G. aIrma nretgiieonnalfeÃ¼n rVeBrgalenickhe fÃ¤nllt( aguef,m daesss sdeien UndtuerrsctÃ¼htzudnagsswahrscheinlichkeit der
+Fitch Support Rating)Gh-SaIBbse inm sEiucrho-Rinaumd ebrerKeitrsi svoer zdeurn K Ã¤rcishe satls sseohgr ahroch eingeschÃ¤tzt wurde.
+ïƒ˜ ABBILDUNG 43 OBEN RECHTS Im Gegensatz dazu war sie fÃ¼r die US-amerikanischen
+erhÃ¶ht
+G-SIBs bis Ende des Jahres 2008 niedrig und wurde erst wÃ¤hrend der Krise er-
+â–¶ FÃ¼r global systemrelevante Banken (G-SIBs) haben sich die
+Ratings sogïƒ¦a ArBBdILDeUuNGt l4i3c h e rhÃ¶ht
+UnterstÃ¼tzungswahrscheinlichkeitvonBankenmitSupportRating1
+AlleBanken2 G-SIBsnachRegionen3
+DurchschnittderSupportRatings VerteilungderSupportRatings
+%
+sehrhoch 1 100
+80
+2
+60
+3
+40
+4
+20
+sehrgering5 0
+2004 06 08 10 12 2014 ER sEU US ER sEU US ER sEU US
+vordevrKKrise4 wÃ¤hrendwdKerKrise5 nachdneKrKrise6
+insgesamt globalsystemrelevanteBanken
+(G-SIBs) sehrhoch sehrgering
+nichtglobalsystemrelevanteBanken(Nicht-G-SIBs) 1 2 3 4 5
+Nicht-G-SIBsnachRegionen AlleBankeninausgewÃ¤hltenLÃ¤nderndes
+DurchschnittderSupportRatings Euro-Raums 551/612
+DurchschnittderSupportRatings
+sehrhoch 1 sehrhoch 1
+2 2
+3 3
+4 4
+sehrgering5 sehrgering5
+2004 06 08 10 12 2014 2004 06 08 10 12 2014
+Euro-Raum EUohneEuro-Raum Deutschland Frankreich Italien
+VereinigteStaaten Spanien
+1â€“UnterstÃ¼tzungswahrscheinlichkeitfÃ¼rexterneUnterstÃ¼tzung,etwadurchdenStaat.EigeneBerechnungen,basierendaufDatenvonFitch
+Ratings.2â€“AlleBankenausEuropa,OECD-LÃ¤ndernundLÃ¤ndern,indenenmindestenseineder100grÃ¶ÃŸtenBankenweltweit(gemessenan
+derBilanzsummeimJahr2013)beheimatetist,undfÃ¼rdieeinSupportRatingvonFitchexistiert.AmEndedesBeobachtungszeitraumsum-
+fasstdieStichprobe239Banken.3â€“ER-Euro-Raum,sEU-sonstigeEUundUS-VereinigteStaaten.4â€“AbJanuar2004bisJuli2007.
+5â€“AbAugust2007bisAugust2012.6â€“AbSeptember2012;VerteilungderSupportRatingsentsprichtderaktuellenVerteilung.
+SVR-14-329
+172 SachverstÃ¤ndigenrat â€“ Jahresgutachten 2014/15
+
+---PAGE---
+
+Auswirkungen staatlicher Garantien
+â–¶ Garantien fÃ¼hren zu einer Senkung der Refinanzierungskosten
+(= Wettbewerbsvorteil gegenÃ¼ber ungeschÃ¼tzten Banken)
+â–¶ Gleichzeitig sinkt die Marktdisziplin: Eine riskantere
+GeschÃ¤ftsstrategie geht nicht unbedingt mit hÃ¶heren
+RisikoaufschlÃ¤gen einher
+â–¶ Hieraus entsteht ein Anreiz zur Ã¼bermÃ¤ÃŸigen RisikoÃ¼bernahme
+â–¶ Gleichzeitig erhÃ¶ht sich durch den Refinanzierungsvorteil aber
+auch der Wert der Banklizenz (Charter Value)
+â–¶ Die Angst vor dem Verlust der Banklizenz senkt tendenziell
+die RisikoÃ¼bernahme
+â–¶ Gesamteffekt auf die RisikoÃ¼bernahme ist aus der Theorie
+heraus nicht eindeutig
+
+---PAGE---
+
+Empirie
+â–¶ Refinanzierungsvorteile groÃŸer Banken sind empirisch gut
+belegt
+â–¶ Die Empirie legt auÃŸerdem nahe, dass eine
+â€œToo-big-to-failâ€-Garantie eher zu einer erhÃ¶hten
+RisikoÃ¼bernahme bei den betroffenen Banken fÃ¼hrt
+â–¶ Es gibt aber auch Beispiele fÃ¼r die Relevanz des
+Charter-Value-Effekts: Aufhebung der expliziten
+Staatsgarantien gegenÃ¼ber deutschen Landesbanken in 2005
+hat eher zu einer ErhÃ¶hung der RisikoÃ¼bernahme gefÃ¼hrt
+(Fischer/Hainz/Rocholl/Steffen 2011)
+
+---PAGE---
+
+â–¶ Banken kÃ¶nnen nicht nur â€œtoo big to failâ€ sein, sondern auch
+too big to be saved
+â–¶ Beispiele: UBS und Credit Suisse in der Schweiz, islÃ¤ndische
+Banken
+â–¶ Dies kÃ¶nnte die Anreizprobleme ex ante abmildern, schrÃ¤nkt
+aber gleichzeitig die Politikoptionen in einer Krise massiv ein
+und kÃ¶nnte daher die Folgen einer Krise verschÃ¤rfen
+Sonstige Aspekte
+â–¶ TBTF-Garantien setzen den Anreiz fÃ¼r Banken, groÃŸ zu
+werden, um von den Garantien zu profitieren
+â–¶ Konsolidierung im Bankensystem kÃ¶nnte teilweise eine
+Reaktion auf das TBTF-PhÃ¤nomen sein
+
+---PAGE---
+
+Sonstige Aspekte
+â–¶ TBTF-Garantien setzen den Anreiz fÃ¼r Banken, groÃŸ zu
+werden, um von den Garantien zu profitieren
+â–¶ Konsolidierung im Bankensystem kÃ¶nnte teilweise eine
+Reaktion auf das TBTF-PhÃ¤nomen sein
+â–¶ Banken kÃ¶nnen nicht nur â€œtoo big to failâ€ sein, sondern auch
+too big to be saved
+â–¶ Beispiele: UBS und Credit Suisse in der Schweiz, islÃ¤ndische
+Banken
+â–¶ Dies kÃ¶nnte die Anreizprobleme ex ante abmildern, schrÃ¤nkt
+aber gleichzeitig die Politikoptionen in einer Krise massiv ein
+und kÃ¶nnte daher die Folgen einer Krise verschÃ¤rfen
+
+---PAGE---
+
+â–¶ SchlieÃŸlich kann Systemrelevanz auch durch eine sehr groÃŸe
+KomplexitÃ¤t (too complex to fail) oder Vernetzung (too
+interconnected to fail) entstehen
+â–¶ Letztlich kann jede Form von Systemrelevanz eine implizite
+Garantie begrÃ¼nden (too systemic to fail)
+Sonstige Aspekte
+â–¶ Selbst kleine Banken kÃ¶nnen von staatlicher UnterstÃ¼tzung
+profitieren, wenn sie korrelierte Strategien wÃ¤hlen und daher
+die StabilitÃ¤t des Gesamtsystems durch ihren gleichzeitigen
+Zusammenbruch gefÃ¤hrden
+â‡’ Too many to fail
+â–¶ Das setzt den Anreiz fÃ¼r kleine Banken, sich Ã¤hnlich zu
+verhalten wie alle anderen
+â–¶ Beispiel: ZinsÃ¤nderungsrisiken der kleinen Banken in
+Deutschland
+
+---PAGE---
+
+Sonstige Aspekte
+â–¶ Selbst kleine Banken kÃ¶nnen von staatlicher UnterstÃ¼tzung
+profitieren, wenn sie korrelierte Strategien wÃ¤hlen und daher
+die StabilitÃ¤t des Gesamtsystems durch ihren gleichzeitigen
+Zusammenbruch gefÃ¤hrden
+â‡’ Too many to fail
+â–¶ Das setzt den Anreiz fÃ¼r kleine Banken, sich Ã¤hnlich zu
+verhalten wie alle anderen
+â–¶ Beispiel: ZinsÃ¤nderungsrisiken der kleinen Banken in
+Deutschland
+â–¶ SchlieÃŸlich kann Systemrelevanz auch durch eine sehr groÃŸe
+KomplexitÃ¤t (too complex to fail) oder Vernetzung (too
+interconnected to fail) entstehen
+â–¶ Letztlich kann jede Form von Systemrelevanz eine implizite
+Garantie begrÃ¼nden (too systemic to fail)
+
+---PAGE---
+
+Wirtschaftspolitische Implikationen
+â–¶ Umgang mit systemrelevanten Finanzinstituten ist eine der
+Kernfragen der Regulierung
+â–¶ Wesentliches Instrument: Spezielles Abwicklungsregime fÃ¼r
+Banken, das im Idealfall auch die Abwicklung groÃŸer
+Finanzinstitutionen ermÃ¶glicht, ohne eine Systemkrise
+auszulÃ¶sen
+â–¶ Euro-Raum: Single Resolution Mechanism (SRM)
+(seit Januar 2016)
+â–¶ Sonstige mÃ¶gliche Instrumente: Aufspaltung groÃŸer
+Institutionen (â€œif a bank is TBTF, it is too bigâ€), Abspaltung
+bestimmter GeschÃ¤ftsbereiche (z.B. Eigenhandel wie bei der
+Volcker Rule), verschÃ¤rfte Regulierung (z.B. zusÃ¤tzliche
+Eigenkapitalpuffer fÃ¼r systemrelevante Banken, Teil von Basel
+III), AbwicklungsplÃ¤ne (living wills),...
+
+---PAGE---
+
+Fazit
+â–¶ Bankensysteme sind durch InstabilitÃ¤t gekennzeichnet
+â–¶ Bankenkrisen werden hÃ¤ufig durch makroÃ¶konomische Schocks
+ausgelÃ¶st, die dann Ã¼ber das Finanzsystem verstÃ¤rkt werden
+und zu Ansteckungseffekten im Finanzsystem fÃ¼hren kÃ¶nnen
+â–¶ InstabilitÃ¤t kann durch regulatorische MaÃŸnahmen
+abgemildert werden: Bankfeiertage, Einlagenversicherung,
+Lender of Last Resort, Bail-outs
+â–¶ Aber: Diese Regulierungen sind hÃ¤ufig mit Anreizproblemen
+verbunden
+
+---PAGE---
+
+Fazit
+â–¶ Daher muss das Sicherheitsnetz durch Regulierungen
+flankiert werden, die den Anreizproblemen entgegenwirken
+â–¶ Wichtigstes Regulierungsinstrument:
+Eigenkapitalregulierung
+â–¶ Idee: Eigenkapitalregulierung sorgt dafÃ¼r, dass die Risiken
+internalisiert werden, so dass die Bank die aus Wohlfahrtssicht
+effiziente Risikowahl trifft
+
+---PAGE---
+
+7. Bankenregulierung
+7.1 GrÃ¼nde fÃ¼r Bankenregulierung
+7.2 Eigenkapitalregulierung
+7.3 Funktionen der Eigenkapitalregulierung
+7.4 SchwÃ¤chen der Vorkrisen-Regulierung
+7.5 Die Regulierung des systemischen Risikos
+7.6 Herausforderungen fÃ¼r die Zukunft
+
+---PAGE---
+
+7. Bankenregulierung
+â–¶ Literatur: *Admati, Anat R., Peter M. DeMarzo, Martin F.
+Hellwig und Paul C. Pfleiderer (2013): â€œFallacies, Irrelevant
+Facts, and Myths in the Discussion of Capital Regulation: Why
+Bank Equity is not Socially Expensiveâ€, Max Planck Institute
+for Research on Collective Goods Preprint Nr. 2013/23.
